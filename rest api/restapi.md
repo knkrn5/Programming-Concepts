@@ -1,4 +1,4 @@
-# **Rest API Concept**
+# **_Rest API Concept_**
 
 ```text
 Technically, we can perform any action with any HTTP method, but each method has a specific purpose in REST design — for semantic clarity, consistency, and often security
@@ -7,6 +7,10 @@ Technically, we can perform any action with any HTTP method, but each method has
 > ## **_Rest API Flow Diagram ⬇️_**
 
 ![Rest API Flow Diagram](./imgs/restapiflowdiagram.png)
+
+### Some Rules of Rest API: -
+
+1. **Request Body** is not recommended with **_Get_** and **_Delete_** Method
 
 ---
 
