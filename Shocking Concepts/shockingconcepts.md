@@ -3,7 +3,7 @@
 > ## **About Dotenv Package**
 
 <div style="border: 2px solid green; padding: 10px; border-radius: 10px">
-  Dotenv packages provide a convenience layer that makes .env file variables available to our application during runtime, but only within that specific running process. Dotenv packages do NOT add variables to the actual host system environment like we do like this <i><b>DB_URL=http://localhost:5432</b></i>
+  Dotenv packages provide a convenience layer that makes .env file variables available to our application during runtime, but only within that specific running process. Dotenv packages do NOT add variables to the actual host system environment like we do like this <i><b>echo "export DB_URL=http://localhost:5432"</b></i>
 </div><br>
 
 ```text
