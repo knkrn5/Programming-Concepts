@@ -13,11 +13,11 @@ so whenever we use the process.env in node.js, os.evion in python or system.gete
 ## **_Default Precedence (Most dotenv libraries):_**
 
 - **Highest Priority:** Actual host system environment variables
-- **Lower Priority:** Variables from .env file
+- **Lower Priority:** Variables loaded from .env file
 
-- Each dotenv file only loads variables into the memory of its own running process.
+- Each dotenv file only **loads variables into the memory of its own running process.**
   It does not set global OS-level environment variables that affect other processes or folders.
-  - When we run different programs, each gets its own separate process with its own environment variable space. They don't interfere with each other
+  - When we run different programs, **each gets its own separate process with its own environment variable space**. They don't interfere with each other
 
 | Language | Runs In             | Env Scope                    |
 | -------- | ------------------- | ---------------------------- |
