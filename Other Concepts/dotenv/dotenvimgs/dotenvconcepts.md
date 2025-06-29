@@ -1,13 +1,11 @@
-# **_Shocking Concepts_**
-
-> ## **About Dotenv Package**
+> # **About Dotenv Package**
 
 <div style="border: 2px solid green; padding: 10px; border-radius: 10px">
   Dotenv packages provide a convenience layer that makes .env file variables available to our application during runtime, but only within that specific running process. Dotenv packages do NOT add variables to the actual host system environment like we do like this <i><b>echo "export DB_URL=http://localhost:5432"</b></i>
 </div><br>
 
 ```text
-so whenever we use the process.env in node.js, os.evion in python or system.getenv in java there are inbuilt in these programming language only, they accesses the variable from the host system environment not for the .env file
+so whenever we use the process.env in node.js, os.evion in python or system.getenv/System.getProperty in java there are inbuilt in these programming language only, they accesses the variable from the host system environment not for the .env file
 ```
 
 ## **_Default Precedence (Most dotenv libraries):_**
