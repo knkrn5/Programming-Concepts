@@ -4,6 +4,10 @@
 Technically, we can perform any action with any HTTP method, but each method has a specific purpose in REST design — for semantic clarity, consistency, and often security
 ```
 
+## **🔗[rfc HTTP DOCS](https://datatracker.ietf.org/doc/html/rfc7231)**
+
+## **🔗[Mozilla HTTP DOCS](https://developer.mozilla.org/en-US/docs/Web/HTTP)**
+
 > ## **_Rest API Flow Diagram ⬇️_**
 
 ![Rest API Flow Diagram](./imgs/restapiflowdiagram.png)
@@ -11,6 +15,7 @@ Technically, we can perform any action with any HTTP method, but each method has
 ### Some Rules of Rest API: -
 
 1. **Request Body** is not recommended with **_Get_** and **_Delete_** Method
+2. Never use Get for any **Server Side action** and For **any sensitive data**
 
 ---
 
