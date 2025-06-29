@@ -22,5 +22,3 @@ so whenever we use the process.env in node.js, os.evion in python or system.gete
 | Node.js  | `node index.js`     | Local to that Node process   |
 | Python   | `python app.py`     | Local to that Python process |
 | Java     | `java -jar app.jar` | Local to that JVM instance   |
-
-> **========================END====================**
