@@ -1,4 +1,10 @@
-# **_Object oriented Programming_**
+# **_Object oriented Programming(OOPS)_**
+
+```text
+Object-Oriented Programming (OOP) is a programming paradigm based on the concept of "objects", which can hold data (fields) and methods (functions/behaviors) that operate on the data.
+```
+
+- The term "Object-Oriented" comes from the fundamental concept that this programming paradigm is built around objects as the primary building blocks of software or "objects" as the fundamental building blocks of a program.
 
 > ## **Class = Template/Blueprint⬇️**
 
@@ -43,6 +49,17 @@ user1.greet();
 - Returns the object reference → assigned to user1.
 
 When we use the new keyword with a constructor, you're essentially saying: **_Build me an actual object based on this class blueprint._**
+
+> ## **_Access Modifiers⬇️_**
+
+Access modifiers are keywords that define the visibility/scope of classes, methods, constructors, and fields (variables).
+
+![access modifier](./imgs/accessmodifiers.png)
+
+1. **(default)/ Package-private: -** Accessible only within the same package
+2. **private: -** Accessible only within the same class
+3. **protected: -** Accessible in same package + subclasses
+4. **public: -** Accessible from anywhere
 
 > ## **Constructor**
 

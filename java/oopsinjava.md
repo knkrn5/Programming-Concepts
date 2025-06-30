@@ -33,3 +33,8 @@ user1.greet();
 ```
 
 ## **Access Modifiers**
+
+1. **(default)/ Package-private: -** Accessible only within the same package
+2. **private: -** Accessible only within the same class
+3. **protected: -** Accessible in same package + subclasses
+4. **public: -** Accessible from anywhere
