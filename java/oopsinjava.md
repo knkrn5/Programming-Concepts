@@ -1,9 +1,24 @@
 # **_OOPS in java_**
 
-> ## **Class = Template/Blueprint⬇️**
+## **Java: Declare Fields at Class Level**
 
 ```java
-//Class eg in java
+public class User {
+    // Fields declared at class level
+    private String name;
+    private int age;
+
+    // Constructor sets values
+    public User(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+}
+```
+
+> ## **Class in java = Template/Blueprint⬇️**
+
+```java
 public class User {
     //fields/attributes/properties
     //here defualt access modifier is package-private = means Accessible within the same package, NOT accessible outside the package, even if imported
@@ -23,7 +38,7 @@ public class User {
 }
 ```
 
-> ## **Object = Instance Created from the Class Blueprint⬇️**
+## **Creating/ Initializing Object in java = Instance Created from the Class Blueprint⬇️**
 
 ```java
 //obj initialization in java using class blueprint
@@ -32,7 +47,7 @@ user1.greet();
 // output = Hi, my name is Karan and I am 24 years old.
 ```
 
-## **Access Modifiers**
+> ## **Access Modifiers in java**
 
 1. **(default)/ Package-private: -** Accessible only within the same package
 2. **private: -** Accessible only within the same class
