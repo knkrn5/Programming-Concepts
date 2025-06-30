@@ -4,7 +4,8 @@
 Object-Oriented Programming (OOP) is a programming paradigm based on the concept of "objects", which can hold data (fields) and methods (functions/behaviors) that operate on the data.
 ```
 
-- The term "Object-Oriented" comes from the fundamental concept that this programming paradigm is built around objects as the primary building blocks of software or "objects" as the fundamental building blocks of a program.
+- The term "Object-Oriented" comes from the fundamental concept that this programming paradigm is built around objects as the primary building blocks of software or **"objects" as the fundamental building blocks of a program/ Software.**
+- **Truely OOPS Programming language** are java, c# , c++ and some more
 
 > ## **Class = Template/Blueprint⬇️**
 
