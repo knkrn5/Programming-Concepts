@@ -53,3 +53,69 @@ user1.greet();
 2. **private: -** Accessible only within the same class
 3. **protected: -** Accessible in same package + subclasses
 4. **public: -** Accessible from anywhere
+
+> ### Private Constructor in java⬇️
+
+Java has true built-in Private constructor
+
+1. **Singleton Pattern: -**
+
+   ```java
+   public class Singleton {
+
+       private static Singleton instance;
+
+       // Private constructor — now no one can call `new Singleton()`
+       private Singleton() {}
+
+       // Public method to access the one instance
+       public static Singleton getInstance() {
+           if (instance == null) {
+               instance = new Singleton();
+           }
+           return instance;
+       }
+   }
+   ```
+
+   ```java
+   Singleton s1 = Singleton.getInstance();
+   Singleton s2 = Singleton.getInstance();
+
+   System.out.println(s1 == s2); // true → same object
+   ```
+
+2. **Factory Methods: -**
+
+   ```java
+   public class User {
+
+       private String role;
+
+       //private constructor
+       private User(String role) {
+           this.role = role;
+       }
+
+       // static method
+       public static User createAdmin() {
+           return new User("ADMIN"); // object created here using private constructor
+       }
+
+       // static method
+       public static User createGuest() {
+           return new User("GUEST"); // object created here using private constructor
+       }
+
+       @Override
+       public String toString() {
+           return "User{role='" + role + "'}";
+       }
+   }
+   ```
+
+   ```java
+   User admin = User.createAdmin();
+       User guest = User.createGuest();
+       System.out.println(admin); // User{role='ADMIN'}
+   ```

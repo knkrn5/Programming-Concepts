@@ -52,7 +52,7 @@ class User {
 }
 ```
 
-## **Creating/ Initializing Object in py = Instance Created from the Class Blueprint⬇️**
+## **Creating/ Initializing Object in js = Instance Created from the Class Blueprint⬇️**
 
 ```javascript
 const u = new User("Karan", "secret");
@@ -89,6 +89,8 @@ console.log(u.#password); // ❌ SyntaxError
 
 - **Enforced** means that the language itself (via the compiler or interpreter) **strictly checks and prevents certain actions** — like accessing private fields — and will **give you an error if you violate the rules.**
 - so in javascript any field without \_ underscore or # hashtag is public
+
+### this keyword in js: -
 
 > ### Private Constructor in js⬇️
 

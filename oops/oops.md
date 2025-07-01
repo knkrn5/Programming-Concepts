@@ -9,40 +9,25 @@ Object-Oriented Programming (OOP) is a programming paradigm based on the concept
 
 > ## **Class = Template/Blueprint⬇️**
 
-```java
-//Class eg in java
-public class User {
-    //fields/attributes/properties
-    String name;
-    int age;
-
-    //parameter Constructor
-    public User(String name, int age) {
-        this.name = name;
-        this.age = age;
-    }
-
-    // Method
-    public void greet() {
-        System.out.println("Hi, my name is " + name + " and I am " + age + " years old.");
-    }
-}
-```
-
 Class is template/ blueprint that is **used to create/inatialize an object** will all or the specific **Attributes/Properties/Fields** and **Methods/Functions** based on our constructor , when we create new object using new keyword ??
+
+1. [fields declaration in java](../java/oopsinjava.md#java-declare-fields-at-class-level)
+2. [fields declaration in js](../js/oopsinjs.md#javascript-declare-fields-inside-the-constructor-or-with-class-fields--)
+3. [fields declaration in py](../py/oopsinpy.md#python-declare-fields-inside-constructor)
 
 - What **data an object** will have (fields/attributes/properties)
 - What **behaviors an object** can perform (methods)
 - How **objects are initialized** (constructors)
 
+1. [class in java](../java/oopsinjava.md#class-in-java--templateblueprint️)
+2. [class in js](../js/oopsinjs.md#class-in-js--templateblueprint️)
+3. [class in py](../py/oopsinpy.md#class-in-py--templateblueprint️)
+
 > ## **Object = Instance Created from the Class Blueprint⬇️**
 
-```java
-//obj initialization in java using class blueprint
-User user1 = new User("Karan", 24); //now here user1 is a object with tow property name and age.
-user1.greet();
-// output = Hi, my name is Karan and I am 24 years old.
-```
+1. [object initialization in java](../java/oopsinjava.md#creating-initializing-object-in-java--instance-created-from-the-class-blueprint️)
+2. [object initialization in js](../js/oopsinjs.md#creating-initializing-object-in-js--instance-created-from-the-class-blueprint️)
+3. [object initialization in py](../py/oopsinpy.md#creating-initializing-object-in-py--instance-created-from-the-class-blueprint️)
 
 - Uses the constructor → to pass "Karan" and 24.
 - Allocates memory → for a new User object.
