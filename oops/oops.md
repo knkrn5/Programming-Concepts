@@ -117,6 +117,7 @@ A private constructor is a No one outside the class can create/initialize object
 - No other class can create an object using **new ClassName().**
 - Only the **class itself can create instances internally**.
 - Provides controlled access through static methods, which can only be accessed using that class name only.
+- Neither Python nor JavaScript have **true private constructors** like Java/C#.
 
 so when we make the private construction, we left with two appraoch: -
 

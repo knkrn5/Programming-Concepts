@@ -55,3 +55,32 @@ print(u._User__password)  # ✅ Hack: works via name mangling
 ```
 
 - so python any field created without \_ underscore or \_\_ double underscore is public
+
+> ### Private Constructor in py⬇️
+
+Python does **not has built-in private constructors** like Java or C#. Here i have used clever/different pattern
+
+```python
+class User:
+    __instance = None  # for singleton example
+
+    def __new__(cls, *args, **kwargs):
+        raise Exception("Use get_instance() instead")
+
+    @classmethod
+    def get_instance(cls):
+        if cls.__instance is None:
+            cls.__instance = super().__new__(cls)
+            cls.__init_instance(cls.__instance)
+        return cls.__instance
+
+    @staticmethod
+    def __init_instance(instance):
+        instance.name = "Karan"
+        # initialize other stuff here
+```
+
+```python
+u = User.get_instance()   # ✅ Works
+User()                    # ❌ Raises Exception
+```
