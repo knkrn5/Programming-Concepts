@@ -4,31 +4,31 @@
 
 1. Traditional way (pre-ES2022):
 
-    ```javascript
-    class User {
-      constructor(name, age) {
-        this.name = name; // Field created dynamically
-        this.age = age;
-      }
-    }
-    ```
+   ```javascript
+   class User {
+     constructor(name, age) {
+       this.name = name; // Field created dynamically
+       this.age = age;
+     }
+   }
+   ```
 
 2. Modern (ES2022+) way:
 
-    ````javascript
-    class User {
-    name;
-    age;
+   ````javascript
+   class User {
+   name;
+   age;
 
-        constructor(name, age) {
-            this.name = name;
-            this.age = age;
-        }
+       constructor(name, age) {
+           this.name = name;
+           this.age = age;
+       }
 
-    }
+   }
 
-        ```
-    ````
+       ```
+   ````
 
 > ## **Class in js = Template/Blueprint⬇️**
 
@@ -90,7 +90,9 @@ console.log(u.#password); // ❌ SyntaxError
 - **Enforced** means that the language itself (via the compiler or interpreter) **strictly checks and prevents certain actions** — like accessing private fields — and will **give you an error if you violate the rules.**
 - so in javascript any field without \_ underscore or # hashtag is public
 
-### this keyword in js: -
+### **this** keyword in js: -
+
+### **static** keyword in js: -
 
 > ### Private Constructor in js⬇️
 

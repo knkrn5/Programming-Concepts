@@ -63,7 +63,9 @@ print(u._User__password)  # ✅ Hack: works via name mangling, this is because p
 - **Enforced** means that the language itself (via the compiler or interpreter) **strictly checks and prevents certain actions** — like accessing private fields — and will **give you an error if you violate the rules.**
 - so python any field created without \_ underscore or \_\_ double underscore is public
 
-### Self keyword in py: -
+### **Self** keyword in py: -
+
+### **@staticmethod** keyword in py: -
 
 > ### Private Constructor in py⬇️
 

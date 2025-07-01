@@ -61,6 +61,10 @@ When we use the new keyword with a constructor, you're essentially saying: **_Bu
 3. **protected: -** Accessible in same package + subclasses
 4. **public: -** Accessible from anywhere
 
+### **this** keyword in java: -
+
+### **static** keyword in java: -
+
 > ### Private Constructor in java⬇️
 
 Java has true built-in Private constructor
