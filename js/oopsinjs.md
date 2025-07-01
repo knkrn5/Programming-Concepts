@@ -81,6 +81,13 @@ console.log(u._role); // ✅ but discouraged
 console.log(u.#password); // ❌ SyntaxError
 ```
 
+| Syntax       | Acts Like        | Enforced? | Notes                                         |
+| ------------ | ---------------- | --------- | --------------------------------------------- |
+| `this.name`  | `public`         | ❌ No     | Always accessible                             |
+| `this._role` | `protected`-like | ❌ No     | Convention only                               |
+| `#password`  | `private`        | ✅ Yes    | Truly private, enforced by JavaScript runtime |
+
+- **Enforced** means that the language itself (via the compiler or interpreter) **strictly checks and prevents certain actions** — like accessing private fields — and will **give you an error if you violate the rules.**
 - so in javascript any field without \_ underscore or # hashtag is public
 
 > ### Private Constructor in js⬇️

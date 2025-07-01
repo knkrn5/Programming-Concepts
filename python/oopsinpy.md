@@ -50,10 +50,17 @@ print(u.name)      # ✅ OK
 print(u._role)     # ⚠️ OK but discouraged
 print(u.__password) # ❌ AttributeError
 
-print(u._User__password)  # ✅ Hack: works via name mangling
+print(u._User__password)  # ✅ Hack: works via name mangling, this is because python does not enforces the strict checking like java and c#
 
 ```
 
+| Convention | Acts Like        | Enforced?    | Notes                                     |
+| ---------- | ---------------- | ------------ | ----------------------------------------- |
+| `name`     | `public`         | ❌ No        | Can be accessed from anywhere             |
+| `_name`    | `protected`-like | ❌ No        | Convention: for subclasses/internal use   |
+| `__name`   | `private`-like   | ⚠️ Partially | Name mangling: becomes `_ClassName__name` |
+
+- **Enforced** means that the language itself (via the compiler or interpreter) **strictly checks and prevents certain actions** — like accessing private fields — and will **give you an error if you violate the rules.**
 - so python any field created without \_ underscore or \_\_ double underscore is public
 
 > ### Private Constructor in py⬇️
