@@ -57,9 +57,9 @@ Access modifiers are keywords that define the visibility/scope of classes, metho
 
 ![access modifier](./imgs/accessmodifiers.png)
 
-1. **private: -** Accessible only within the same class
-2. **protected: -** Accessible in same package + subclasses
-3. **public: -** Accessible from anywhere
+1. [access modifier in java](../java/oopsinjava.md#access-modifiers-in-java)
+2. [access modifier in js](../js/oopsinjs.md#access-modifiers-in-js)
+3. [access modifier in py](../py/oopsinpy.md#access-modifiers-in-py)
 
 > ## **Constructor**
 
