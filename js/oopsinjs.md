@@ -2,7 +2,7 @@
 
 ## **JavaScript: Declare Fields Inside the Constructor (or with Class Fields): -**
 
-1.  Traditional way (pre-ES2022):
+1. Traditional way (pre-ES2022):
 
     ```javascript
     class User {
@@ -13,7 +13,7 @@
     }
     ```
 
-2.  Modern (ES2022+) way:
+2. Modern (ES2022+) way:
 
     ````javascript
     class User {

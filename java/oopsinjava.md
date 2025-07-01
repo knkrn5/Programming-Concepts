@@ -47,6 +47,13 @@ user1.greet();
 // output = Hi, my name is Karan and I am 24 years old.
 ```
 
+- Uses the constructor → to pass "Karan" and 24.
+- Allocates memory → for a new User object.
+- Initializes fields → name = "Karan", age = 24.
+- Returns the object reference → assigned to user1.
+
+When we use the new keyword with a constructor, you're essentially saying: **_Build me an actual object based on this class blueprint._**
+
 > ## **Access Modifiers in java**
 
 1. **(default)/ Package-private: -** Accessible only within the same package

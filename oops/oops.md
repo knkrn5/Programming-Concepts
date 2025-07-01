@@ -23,18 +23,40 @@ Class is template/ blueprint that is **used to create/inatialize an object** wil
 2. [class in js](../js/oopsinjs.md#class-in-js--templateblueprint️)
 3. [class in py](../py/oopsinpy.md#class-in-py--templateblueprint️)
 
+### **1. Instance of class: -** _An instance is a specific object created from a class blueprint_
+
+```java
+// Java example
+class Car {
+    String brand;
+    String color;
+
+    void start() {
+        System.out.println("Car is starting");
+    }
+}
+
+// Creating instances
+Car car1 = new Car();  // car1 is an INSTANCE of Car class
+Car car2 = new Car();  // car2 is another INSTANCE of Car class
+```
+
+### **2. Member of class: -** _A member of a class is anything that belongs to the class:_
+
+- Variables (called fields or attributes)
+- Methods (functions defined in the class)
+- Inner classes, constants, etc.
+
+- Types of Members:
+
+  1. Instance Members (Non-static)
+  2. Class Members (Static)
+
 > ## **Object = Instance Created from the Class Blueprint⬇️**
 
 1. [object initialization in java](../java/oopsinjava.md#creating-initializing-object-in-java--instance-created-from-the-class-blueprint️)
 2. [object initialization in js](../js/oopsinjs.md#creating-initializing-object-in-js--instance-created-from-the-class-blueprint️)
 3. [object initialization in py](../py/oopsinpy.md#creating-initializing-object-in-py--instance-created-from-the-class-blueprint️)
-
-- Uses the constructor → to pass "Karan" and 24.
-- Allocates memory → for a new User object.
-- Initializes fields → name = "Karan", age = 24.
-- Returns the object reference → assigned to user1.
-
-When we use the new keyword with a constructor, you're essentially saying: **_Build me an actual object based on this class blueprint._**
 
 > ## **_Access Modifiers⬇️_**
 
