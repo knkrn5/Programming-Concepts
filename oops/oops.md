@@ -8,6 +8,10 @@ Object-Oriented Programming (OOP) is a programming paradigm based on the concept
 - The term "Object-Oriented" comes from the fundamental concept that this programming paradigm is built around objects as the primary building blocks of software or **"objects" as the fundamental building blocks of a program/ Software.**
 - **Truely OOPS Programming language** are java, c# , c++ etc ~~python and javascripts~~ are not truely OOPS programming language
 
+> ## **Feild/ Variable declaration in Oops⬇️**
+
+- In both python and javascript any **variable declared inside the constructor are the instance variable**
+
 > ## **Class = Template/Blueprint⬇️**
 
 Class is template/ blueprint that is **used to create/inatialize an object** will all or the specific **Attributes/Properties/Fields** and **Methods/Functions** based on our constructor , when we create new object using new keyword ??
@@ -24,7 +28,7 @@ Class is template/ blueprint that is **used to create/inatialize an object** wil
 2. [class in js](../js/oopsinjs.md#class-in-js--templateblueprint️)
 3. [class in py](../py/oopsinpy.md#class-in-py--templateblueprint️)
 
-### **`Member of class`: -** _A member of a class is anything that belongs to the class:_
+### **`⭐Member of class`: -** _A member of a class is anything that belongs to the class:_
 
 - Variables (called fields or attributes)
 - Methods (functions defined in the class)
@@ -35,6 +39,7 @@ Class is template/ blueprint that is **used to create/inatialize an object** wil
   **1. Instance Members (Non-static): -** _Non-Static variables and methods are called the Instance members_
 
   - **In java: -** Technically Static variables and methods CAN be accessed through instances (though it's not recommended style, alway access Static method via class name only.), but static methods CANNOT access instance variables/methods because they don't know which instance.
+  - **In JavaScript**, static variables and methods are not even visible to the instance
 
   - Instace nested Class: -
 
@@ -45,7 +50,7 @@ Class is template/ blueprint that is **used to create/inatialize an object** wil
 
 > ## **Object/ Instance = Instance Created from the Class Blueprint⬇️**
 
-### **`Instance of class`: -** _An instance is a specific real object created from a class blueprint_
+### **`⭐Instance of class`: -** _An instance is a specific real object created from a class blueprint_
 
 - `this` (in Java and JS) and `self` (in Python) **refer to the current instance of the class.**
 
@@ -97,7 +102,7 @@ Access modifiers are keywords that define the visibility/scope of classes, metho
 
 > ## **Constructor**
 
-- A constructor is a special method used to **initialize objects** when you use new. It serves as the **initialization mechanism** for objects, **setting up their initial state/values** for instance variables and preparing them for use
+- A constructor is a special method used to **initialize objects** when you use new. It serves as the **initialization mechanism** for objects, **setting up their initial state/values** for instance variables and preparing them for use, so therefore the **structure of the instance/ object will completly depend on how we have setup the constructor of the class**
 - **_Constructors have the same name as the class they belong to._** They **don't have a return type**, not even void, because they **implicitly return the newly created object**
 
 ### **Types of Constructor: -**

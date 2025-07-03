@@ -15,7 +15,11 @@ class User:
 
 ```python
 class User:
+
+    email = "test@email.com" # In python variables are declared outside the __init__() constructor, and they are shared by all instances of the class.
+
     # this is constructor in py
+    # In python variables declared inside the __init__() constructor using self are the instance variable⬇️
     def __init__(self, name, password):
         self.name = name
         self.__password = password  # "private" by convention (name mangling)
@@ -25,7 +29,14 @@ class User:
 
     def set_password(self, new_password):
         self.__password = new_password
+
+    @staticmethod
+    def credential():
+        # print(self.name)   # ❌ ERROR: 'self' is not passed to static method
+        return f"credential: {User.email}" # In py also static method can access the static variable using the class name
 ```
+
+- In python, also static method can access the static variable using the class name
 
 ## **Creating/ Initializing Object in py = Instance Created from the Class Blueprint⬇️**
 
@@ -37,6 +48,10 @@ print(u.get_password())      # ✅ Access via getter
 
 u.set_password("newpass")    # ✅ Set via setter
 print(u.get_password())      # newpass
+
+# ℹ️ Python allows it, but it's clearer and better to call static members via the class name.⬇️
+u.credential()         # ✅ Works, but not recommended❌
+print(u.email)     # ✅ Works, but not recommended❌
 
 ```
 

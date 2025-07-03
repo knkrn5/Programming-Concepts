@@ -47,6 +47,8 @@ public class User {
 }
 ```
 
+- In java the static method can access the static variable without the class name
+
 ## **Creating/ Initializing Object in java = Instance Created from the Class Blueprint⬇️**
 
 **`Instance of class`**
@@ -56,10 +58,10 @@ public class User {
 User user1 = new User("Karan", 24); // now here user1 is a object/ Instance of the class with the property name and age.
 user1.greet();
 // output = Hi, my name is Karan and I am 24 years old.
+
+//ℹ️Technically Static variables and methods CAN be accessed through instances though it's not recommended style, (alway access Static method via class name only.), but static methods CANNOT access instance variables/methods⬇ because they don't know which instance.⬇️
 user1.fullname() // ✅ Works, but discouraged ❌
 user1.fullname // ✅ Works, but discouraged ❌
-
-ℹ️Technically Static variables and methods CAN be accessed through instances though it's not recommended style, (alway access Static method via class name only.), but static methods CANNOT access instance variables/methods because they don't know which instance.
 ```
 
 - Uses the constructor → to pass "Karan" and 24.

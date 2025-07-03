@@ -2,33 +2,37 @@
 
 ## **JavaScript: Declare Fields Inside the Constructor (or with Class Fields): -**
 
-1. Traditional way (pre-ES2022):
+1.  Traditional way (pre-ES2022):
 
-   ```javascript
-   class User {
-     constructor(name, age) {
-       this.name = name; // Field created dynamically
-       this.age = age;
-     }
-   }
-   ```
+    ```javascript
+    class User {
+      // fields/ variable declared inside the constructor are the intance variable
+      constructor(name, age) {
+        // Instance variables
+        this.name = name; // Field created dynamically
+        this.age = age;
+      }
+    }
+    ```
 
-2. Modern (ES2022+) way:
+2.  Modern (ES2022+) way:
 
-   ````javascript
-   class User {
-   name;
-   age;
+    ```javascript
+    class User {
+      // INSTANCE FIELDS
+      name;
+      age;
 
-       constructor(name, age) {
-           this.name = name;
-           this.age = age;
-       }
+      // class fields/ variables
+      static email;
+      static password;
 
-   }
-
-       ```
-   ````
+      constructor(name, age) {
+        this.name = name;
+        this.age = age;
+      }
+    }
+    ```
 
 > ## **Class in js = Template/Blueprint⬇️**
 
@@ -36,23 +40,31 @@
 
 ```javascript
 class User {
-  #password;
+#password;
+static email = "test@gmail.com";
 
-  // this is parameter constructor in js
-  constructor(name, password) {
-    this.name = name;
-    this.#password = password; // private
-  }
+// this is parameter constructor in js
+constructor(name, password) {
+ this.name = name;
+ this.#password = password; // private
+}
 
-  getPassword() {
-    return this.#password;
-  }
+static credential(){
+  //console.log(this.#password) //❌ error, this static method cannot access the instance/ non-static variable like in this example here is password variable
+ return  "email" User.email // static method can access the static variable using the class name
+}
 
-  setPassword(newPass) {
-    this.#password = newPass;
-  }
+getPassword() {
+ return this.#password;
+}
+
+setPassword(newPass) {
+ this.#password = newPass;
+}
 }
 ```
+
+- In javascript the static method can access the static variable using the class name
 
 ## **Creating/ Initializing Object in js = Instance Created from the Class Blueprint⬇️**
 
@@ -60,10 +72,14 @@ class User {
 
 ```javascript
 const u = new User("Karan", "secret"); // Instance of the class
-console.log(u.getPassword()); // ✅ "secret"
+console.log(u.getPassword()); // ✅
 u.setPassword("newpass");
 console.log(u.getPassword()); // ✅ "newpass"
 console.log(u.#password); // ❌ SyntaxError: Private field not accessible
+
+// ℹ️In JavaScript, static variables and methods are not even visible to the instance.⬇️
+u.credential(); // ❌ TypeError: u.greet is not a function
+console.log(u.email); // ❌ undefined
 ```
 
 > ## **Access Modifiers in js**
@@ -111,11 +127,11 @@ class User {
 - In JavaScript, `this` depends on how a function is called — it can be dynamic in non-arrow functions, unlike in Java/Python.
 - But in non-class functions or event handlers, this can behave differently.
 
-  ```javascript
-  function greet() {
-    console.log(this); // may refer to window or undefined depending on strict mode
-  }
-  ```
+```javascript
+function greet() {
+  console.log(this); // may refer to window or undefined depending on strict mode
+}
+```
 
 - JavaScript’s this is contextual and sometimes confusing - that's why arrow functions were introduced (they bind this lexically).
 
@@ -135,30 +151,34 @@ Types of constructors: -
 
 1. **Singleton Pattern: -**
 
-   ```javascript
-   class User {
-     static #allow = false;
+```javascript
+class User {
+  static #allow = false;
 
-     constructor() {
-       if (!User.#allow) {
-         throw new Error("Use User.create() instead");
-       }
-     }
+  constructor() {
+    if (!User.#allow) {
+      throw new Error("Use User.create() instead");
+    }
+  }
 
-     static create() {
-       User.#allow = true;
-       const instance = new User();
-       User.#allow = false;
-       return instance;
-     }
-   }
-   ```
+  static create() {
+    User.#allow = true;
+    const instance = new User();
+    User.#allow = false;
+    return instance;
+  }
+}
+```
 
-   ```javascript
-   const u = User.create(); // ✅ Works
-   const x = new User(); // ❌ Error: Use User.create() instead
-   ```
+```javascript
+const u = User.create(); // ✅ Works
+const x = new User(); // ❌ Error: Use User.create() instead
+```
 
 2. **Factory Methods: -**
 
-   - **static** keyword in js: -
+- **static** keyword in js: -
+
+```
+
+```
