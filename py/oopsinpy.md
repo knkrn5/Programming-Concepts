@@ -76,6 +76,14 @@ class User:
 
 - Python is explicit: nothing is hidden. we write self always in the method signature **(method signature includes Method name, Parameter types (and sometimes parameter count) and Parameter order).**
 
+> ## **Constructor in py⬇️**
+
+Types of constructors: - **python does not support any defualt constructor**, we have write the constructor explicitly
+
+1. **No-Arg/parameterless Constructor: -**
+
+2. **Parameterized Constructor: -**
+
 > ### Private Constructor in py⬇️
 
 - Python does **not has built-in private constructors** like Java or C#. Here i have used clever/different pattern

@@ -23,7 +23,11 @@ Class is template/ blueprint that is **used to create/inatialize an object** wil
 2. [class in js](../js/oopsinjs.md#class-in-js--templateblueprint️)
 3. [class in py](../py/oopsinpy.md#class-in-py--templateblueprint️)
 
-### **1. Instance of class: -** _An instance is a specific object created from a class blueprint_
+### **1. `Instance of class`: -** _An instance is a specific object created from a class blueprint_
+
+- `this` (in Java and JS) and `self` (in Python) **refer to the current instance of the class.**
+- **Static methods** = "I belong to the class itself, not any particular instance"
+- Therefore: **Static methods can't use this/self because there's no instance to refer to!**
 
 ```java
 // Java example
@@ -41,7 +45,7 @@ Car car1 = new Car();  // car1 is an INSTANCE of Car class
 Car car2 = new Car();  // car2 is another INSTANCE of Car class
 ```
 
-### **2. Member of class: -** _A member of a class is anything that belongs to the class:_
+### **2. `Member of class`: -** _A member of a class is anything that belongs to the class:_
 
 - Variables (called fields or attributes)
 - Methods (functions defined in the class)
@@ -81,7 +85,7 @@ Access modifiers are keywords that define the visibility/scope of classes, metho
 
 ### **Types of Constructor: -**
 
-1. Default/No-Arg/parameterless Constructor: - Takes no parameters and initializes objects with default values. If you don't define any constructor, **many languages provide a default one automatically.**
+1. **Default/No-Arg/parameterless Constructor: -** Takes no parameters and initializes objects with default values. If you don't define any constructor, **many languages provide a default one automatically.**
    ![defaultValueOfConstructor](./imgs/defaultValueOfConstructor.png)
 
    - Java & Kotlin & c# provide safe defaults (0, false, null).
@@ -90,37 +94,17 @@ Access modifiers are keywords that define the visibility/scope of classes, metho
 
    - C++ leaves primitives uninitialized by default — risky without initialization.
 
-   ```java
-    // no-arg contructor example
-   public class User {
-    String name;
-    int age;
+   1. [constructor in java](../java/oopsinjava.md#constructor-in-java️)
+   2. [constructor in js](../js/oopsinjs.md#constructor-in-js️)
+   3. [constructor in py](../py/oopsinpy.md#constructor-in-py️)
 
-    // No-arg constructor
-    public User() {
-        // no fields/attributes/properties initialization
-    }
-    }
+2. **Parameterized Constructor: -** Accepts parameters to initialize objects with specific values provided during creation. This allows for customized object initialization.
 
-   ```
+   1. [constructor in java](../java/oopsinjava.md#constructor-in-java️)
+   2. [constructor in js](../js/oopsinjs.md#constructor-in-js️)
+   3. [constructor in py](../py/oopsinpy.md#constructor-in-py️)
 
-   ```java
-   // instialization
-   User u = new User();
-   // usage manually setting value like this
-    u.name = "Karan";
-    u.age = 24;
-   ```
-
-2. Parameterized Constructor: - Accepts parameters to initialize objects with specific values provided during creation. This allows for customized object initialization.
-
-   ```text
-   top class and object initialization example
-   ```
-
-   [See this example, for paramter Constructor](#class--templateblueprint️)
-
-3. Copy Constructor (Custom): - Creates a new object as a copy of an existing object. This is particularly important for deep copying when objects contain references to other objects.
+3. **Copy Constructor (Custom): -** Creates a new object as a copy of an existing object. This is particularly important for deep copying when objects contain references to other objects.
 
 ### **Private Constructor**
 

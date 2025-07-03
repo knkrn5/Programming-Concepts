@@ -99,7 +99,7 @@ class User {
   }
 
   greet() {
-    console.log(`Hi, I’m ${this.name}`);
+    console.log(`Hi, I’m ${this.name}`); // In js also we have implicit this in non-static method
   }
 }
 ```
@@ -114,6 +114,14 @@ class User {
   ```
 
 - JavaScript’s this is contextual and sometimes confusing - that's why arrow functions were introduced (they bind this lexically).
+
+> ## **Constructor in js⬇️**
+
+Types of constructors: -
+
+1. **Default/No-Arg/parameterless Constructor: -**
+
+2. **Parameterized Constructor: -**
 
 > ### Private Constructor in js⬇️
 

@@ -78,8 +78,40 @@ public class User {
 }
 ```
 
-- Java automatically/ implicitly passes **this** — you don’t include it in method signatures. **(method signature includes Method name, Parameter types (and sometimes parameter count) and Parameter order).**
+- Java automatically/ implicitly passes **this** — so we don’t include it in method signatures. **(method signature includes Method name, Parameter types (and sometimes parameter count) and Parameter order).**
 - Mostly used when local and instance variables have the same name: - **`Shadowing`** is when a local variable or method parameter has the same name as an instance or class variable, which causes the local one to "hide" or "shadow" the outer one.
+
+> ## **Constructor in java⬇️**
+
+Types of constructors: - In java if we don't write any constructor it will automacally have the default no-arg constructor
+
+1. **Default/No-Arg/parameterless Constructor: -**
+
+   ```java
+
+   // no-arg contructor example
+   public class User {
+   String name;
+   int age;
+
+   // No-arg constructor
+   public User() {
+   // no fields/attributes/properties initialization
+   }
+   }
+   ```
+
+   - Java & Kotlin & c# provide safe defaults (int = 0, boolean = false, string = null).
+
+   ```java
+   // instialization
+   User u = new User();
+   // usage manually setting value like this
+    u.name = "Karan";
+    u.age = 24;
+   ```
+
+2. **Parameterized Constructor: -**
 
 > ### Private Constructor in java⬇️
 
