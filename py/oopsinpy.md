@@ -11,6 +11,8 @@ class User:
 
 > ## **Class in py = Template/Blueprint⬇️**
 
+**`Member of class`**
+
 ```python
 class User:
     # this is constructor in py
@@ -26,6 +28,8 @@ class User:
 ```
 
 ## **Creating/ Initializing Object in py = Instance Created from the Class Blueprint⬇️**
+
+**`Instance of class`**
 
 ```python
 u = User("Karan", "secret") # Instance of the class

@@ -18,17 +18,26 @@ public class User {
 
 > ## **Class in java = Template/Blueprint⬇️**
 
+**`Member of class`**
+
 ```java
 public class User {
     //fields/attributes/properties
     //here defualt access modifier is package-private = means Accessible within the same package, NOT accessible outside the package, even if imported
-    String name;
-    int age;
+    String name; // instance variable
+    int age;  // instance variable
+
+    static String fullname; // class variable
 
     //parameter Constructor
     public User(String name, int age) {
         this.name = name;
         this.age = age;
+    }
+
+    // Static method
+    public static void fullName() {
+        System.out.println("User Name: " + fullname ); //so static method can only access static variable, instance variable cannot be accessed will get error
     }
 
     // Method
@@ -40,11 +49,17 @@ public class User {
 
 ## **Creating/ Initializing Object in java = Instance Created from the Class Blueprint⬇️**
 
+**`Instance of class`**
+
 ```java
 //obj initialization in java using class blueprint
-User user1 = new User("Karan", 24); //now here user1 is a object/ Instance of the class with the property name and age.
+User user1 = new User("Karan", 24); // now here user1 is a object/ Instance of the class with the property name and age.
 user1.greet();
 // output = Hi, my name is Karan and I am 24 years old.
+user1.fullname() // ✅ Works, but discouraged ❌
+user1.fullname // ✅ Works, but discouraged ❌
+
+ℹ️Technically Static variables and methods CAN be accessed through instances though it's not recommended style, (alway access Static method via class name only.), but static methods CANNOT access instance variables/methods because they don't know which instance.
 ```
 
 - Uses the constructor → to pass "Karan" and 24.

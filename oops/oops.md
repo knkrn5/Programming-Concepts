@@ -4,6 +4,7 @@
 Object-Oriented Programming (OOP) is a programming paradigm based on the concept of "objects", which can hold data (fields) and methods (functions/behaviors) that operate on the data.
 ```
 
+- In the **real world, everything is an object** — _whether it's steel, wood, cloth, or plastic._ Similarly, in programming, **all non-primitive data types (like arrays, functions, linked lists, trees, etc.) are, behind the scenes, represented as objects**, especially in high-level object-oriented languages.
 - The term "Object-Oriented" comes from the fundamental concept that this programming paradigm is built around objects as the primary building blocks of software or **"objects" as the fundamental building blocks of a program/ Software.**
 - **Truely OOPS Programming language** are java, c# , c++ etc ~~python and javascripts~~ are not truely OOPS programming language
 
@@ -33,7 +34,7 @@ Class is template/ blueprint that is **used to create/inatialize an object** wil
 
   **1. Instance Members (Non-static): -** _Non-Static variables and methods are called the Instance members_
 
-  - Technically Static variables and methods CAN be accessed through instances (though it's not recommended style, alway access Static method via class name only.), but static methods CANNOT access instance variables/methods because they don't know which instance.
+  - **In java: -** Technically Static variables and methods CAN be accessed through instances (though it's not recommended style, alway access Static method via class name only.), but static methods CANNOT access instance variables/methods because they don't know which instance.
 
   - Instace nested Class: -
 
@@ -67,6 +68,16 @@ Car car2 = new Car();  // car2 is another INSTANCE of Car class
 1. [object initialization in java](../java/oopsinjava.md#creating-initializing-object-in-java--instance-created-from-the-class-blueprint️)
 2. [object initialization in js](../js/oopsinjs.md#creating-initializing-object-in-js--instance-created-from-the-class-blueprint️)
 3. [object initialization in py](../py/oopsinpy.md#creating-initializing-object-in-py--instance-created-from-the-class-blueprint️)
+
+---
+
+- **Static → Static:** Static methods can access static variables ✓
+- **Instance → Instance:** Instance methods can access instance variables ✓
+- **Instance → Static:** Instance methods can access static variables ✓
+- **Class → Static:** Accessing static through class name ✓
+- **Instance → Static:** Accessing static through instance ✓ (but not recommended)
+
+---
 
 > ## **_Common misconceptions⬇️_**
 

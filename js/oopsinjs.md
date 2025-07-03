@@ -32,11 +32,13 @@
 
 > ## **Class in js = Template/Blueprint⬇️**
 
+**`Member of class`**
+
 ```javascript
 class User {
   #password;
 
-  // this is constructor in js
+  // this is parameter constructor in js
   constructor(name, password) {
     this.name = name;
     this.#password = password; // private
@@ -53,6 +55,8 @@ class User {
 ```
 
 ## **Creating/ Initializing Object in js = Instance Created from the Class Blueprint⬇️**
+
+**`Instance of class`**
 
 ```javascript
 const u = new User("Karan", "secret"); // Instance of the class
