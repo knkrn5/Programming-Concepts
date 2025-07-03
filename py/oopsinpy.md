@@ -65,8 +65,6 @@ print(u._User__password)  # ✅ Hack: works via name mangling, this is because p
 
 ### **Self** keyword in py: -
 
-### **@staticmethod** keyword in py: -
-
 > ### Private Constructor in py⬇️
 
 Python does **not has built-in private constructors** like Java or C#. Here i have used clever/different pattern
@@ -95,3 +93,11 @@ class User:
 u = User.get_instance()   # ✅ Works
 User()                    # ❌ Raises Exception
 ```
+
+so when we make the private construction, we left with two appraoch: -
+
+1. **Singleton Pattern: -**
+
+2. **Factory Methods: -**
+
+    - **@staticmethod** decorator in py: -

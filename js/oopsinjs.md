@@ -92,8 +92,6 @@ console.log(u.#password); // ❌ SyntaxError
 
 ### **this** keyword in js: -
 
-### **static** keyword in js: -
-
 > ### Private Constructor in js⬇️
 
 Javascript does **not has built-in private constructors** like Java or C#. Here i have used clever/ different pattern
@@ -121,3 +119,11 @@ class User {
 const u = User.create(); // ✅ Works
 const x = new User(); // ❌ Error: Use User.create() instead
 ```
+
+so when we make the private construction, we left with two appraoch: -
+
+1. **Singleton Pattern: -**
+
+2. **Factory Methods: -**
+
+   - **static** keyword in js: -

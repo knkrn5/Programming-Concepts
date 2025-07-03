@@ -28,7 +28,7 @@
 | Delete on phone      | Still visible on laptop | Also deleted on laptop     |
 | Access on 3rd device | No emails there         | Emails all synced          |
 
-## the process of send mail via gmail to gmail (same mail server) , and sending (different mail server) mail vai gamil to outlook, or outlook to yahoo are different ?
+## The process of send mail via gmail to gmail (same mail server) , and sending (different mail server) mail vai gamil to outlook, or outlook to yahoo are different ?
 
 1. **Case 1: Gmail → Gmail (same mail server): -**
 2. **Case 2: Gmail → Outlook or Yahoo (different mail server): -**
@@ -37,4 +37,31 @@
 
 1. **Nodemailer in js: -** Mail client library to send emails
 
+   ```javascript
+
+   ```
+
 2. **org.springframework.mail.javamail with jakarta.mail in Java: -** Mail client libraries for Java
+
+   ```properties
+   #spring emailer application properties configs
+   spring.mail.host=${MAIL_HOST}
+   spring.mail.port=465
+   spring.mail.username=${MAIL_FROM}
+   spring.mail.password=${MAIL_PASS}
+   # spring.mail.protocol=smtp
+
+   # These two are **not needed** for SSL on port 465 and may cause issues
+   # spring.mail.properties.mail.smtp.starttls.enable=true
+   # spring.mail.properties.mail.smtp.starttls.required=true
+
+
+
+   # Instead, use SSL config:
+   spring.mail.properties.mail.smtp.auth=true
+   spring.mail.properties.mail.smtp.ssl.enable=true
+   spring.mail.properties.mail.smtp.ssl.trust=smtp.zoho.in
+   # spring.mail.properties.mail.smtp.socketFactory.port=465
+   # spring.mail.properties.mail.smtp.socketFactory.class=javax.net.ssl.SSLSocketFactory
+   # spring.mail.properties.mail.smtp.socketFactory.fallback=false
+   ```
