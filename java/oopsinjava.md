@@ -65,20 +65,21 @@ When we use the new keyword with a constructor, you're essentially saying: **_Bu
 
 ```java
 public class User {
-    String name;
+    String name; // instance variable
 
-    User(String name) {
-        this.name = name; // 'this' is used to avoid shadowing
+    // constructor
+    User(String name) { // parameter with same name as that of the instance variable
+        this.name = name; // 'this' is used to avoid shadowing, becase here now this.name is the instance field/variable assigned equal to the parameter name, so if we haven't used the this here that would lead to shadowing
     }
 
     void greet() {
-        System.out.println("Hi, I’m " + this.name);
+        System.out.println("Hi, I’m " + this.name); // so here we can see that java has implicit this in hte non-static method, thatswhy we are directly able to use the this.name unlike in python where we have to write the self in the method argument/ parameter
     }
 }
 ```
 
-- Java automatically passes this — you don’t include it in method signatures.
-- Mostly used when local and instance variables have the same name.
+- Java automatically/ implicitly passes **this** — you don’t include it in method signatures. **(method signature includes Method name, Parameter types (and sometimes parameter count) and Parameter order).**
+- Mostly used when local and instance variables have the same name: - **`Shadowing`** is when a local variable or method parameter has the same name as an instance or class variable, which causes the local one to "hide" or "shadow" the outer one.
 
 > ### Private Constructor in java⬇️
 

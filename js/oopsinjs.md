@@ -105,6 +105,15 @@ class User {
 ```
 
 - In JavaScript, `this` depends on how a function is called — it can be dynamic in non-arrow functions, unlike in Java/Python.
+- But in non-class functions or event handlers, this can behave differently.
+
+  ```javascript
+  function greet() {
+    console.log(this); // may refer to window or undefined depending on strict mode
+  }
+  ```
+
+- JavaScript’s this is contextual and sometimes confusing - that's why arrow functions were introduced (they bind this lexically).
 
 > ### Private Constructor in js⬇️
 

@@ -47,10 +47,16 @@ Car car2 = new Car();  // car2 is another INSTANCE of Car class
 - Methods (functions defined in the class)
 - Inner classes (Nested class), constants, etc.
 
-- Types of Members:
+- ### **Types of Members: -**
 
-  1. Instance Members (Non-static)
-  2. Class Members (Static)
+  1. **Instance Members (Non-static): -**
+     1. Instance Variable: -
+     2. Instance Method: -
+     3. Instace nested Class: -
+  2. **Class Members (Static): -**
+     1. Class Variable: -
+     2. Class Method: -
+     3. Class nested Class: -
 
 > ## **Object = Instance Created from the Class Blueprint⬇️**
 
@@ -148,6 +154,8 @@ so when we make the private construction, we left with two appraoch: -
    1. [private constructor in py](../py/oopsinpy.md#private-constructor-in-py️)
 
 ## **Contructor Overloading**
+
+## **Method Overloading**
 
 ## **4 Pillars of Object-Oriented**
 

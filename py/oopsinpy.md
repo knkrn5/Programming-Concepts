@@ -67,13 +67,14 @@ print(u._User__password)  # ✅ Hack: works via name mangling, this is because p
 
 ```python
 class User:
-    def __init__(self, name):
+    def __init__(self, name): # no automatic passing/ or implicit self , you must include 'self' in every method argument/ parameter
         self.name = name  # 'self' refers to this instance
 
-    def greet(self):
+    def greet(self): # no implicit self , you must include 'self' in every method argument/ parameter
         print(f"Hi, I’m {self.name}")
-
 ```
+
+- Python is explicit: nothing is hidden. we write self always in the method signature **(method signature includes Method name, Parameter types (and sometimes parameter count) and Parameter order).**
 
 > ### Private Constructor in py⬇️
 
