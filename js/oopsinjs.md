@@ -94,35 +94,35 @@ console.log(u.#password); // ❌ SyntaxError
 
 > ### Private Constructor in js⬇️
 
-Javascript does **not has built-in private constructors** like Java or C#. Here i have used clever/ different pattern
+- Javascript does **not has built-in private constructors** like Java or C#. Here i have used clever/ different pattern
 
-```javascript
-class User {
-  static #allow = false;
-
-  constructor() {
-    if (!User.#allow) {
-      throw new Error("Use User.create() instead");
-    }
-  }
-
-  static create() {
-    User.#allow = true;
-    const instance = new User();
-    User.#allow = false;
-    return instance;
-  }
-}
-```
-
-```javascript
-const u = User.create(); // ✅ Works
-const x = new User(); // ❌ Error: Use User.create() instead
-```
-
-so when we make the private construction, we left with two appraoch: -
+- so when we make the private construction, we left with two appraoch: -
 
 1. **Singleton Pattern: -**
+
+   ```javascript
+   class User {
+     static #allow = false;
+
+     constructor() {
+       if (!User.#allow) {
+         throw new Error("Use User.create() instead");
+       }
+     }
+
+     static create() {
+       User.#allow = true;
+       const instance = new User();
+       User.#allow = false;
+       return instance;
+     }
+   }
+   ```
+
+   ```javascript
+   const u = User.create(); // ✅ Works
+   const x = new User(); // ❌ Error: Use User.create() instead
+   ```
 
 2. **Factory Methods: -**
 

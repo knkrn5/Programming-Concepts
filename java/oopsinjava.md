@@ -65,7 +65,7 @@ When we use the new keyword with a constructor, you're essentially saying: **_Bu
 
 > ### Private Constructor in java⬇️
 
-- Java has true built-in Private constructor
+- Java has true built-in Private constructor.
 - so when we make the private construction, we left with two appraoch: -
 
 1. **Singleton Pattern: -**

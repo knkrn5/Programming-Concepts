@@ -67,37 +67,36 @@ print(u._User__password)  # ✅ Hack: works via name mangling, this is because p
 
 > ### Private Constructor in py⬇️
 
-Python does **not has built-in private constructors** like Java or C#. Here i have used clever/different pattern
-
-```python
-class User:
-    __instance = None  # for singleton example
-
-    def __new__(cls, *args, **kwargs):
-        raise Exception("Use get_instance() instead")
-
-    @classmethod
-    def get_instance(cls):
-        if cls.__instance is None:
-            cls.__instance = super().__new__(cls)
-            cls.__init_instance(cls.__instance)
-        return cls.__instance
-
-    @staticmethod
-    def __init_instance(instance):
-        instance.name = "Karan"
-        # initialize other stuff here
-```
-
-```python
-u = User.get_instance()   # ✅ Works
-User()                    # ❌ Raises Exception
-```
-
-so when we make the private construction, we left with two appraoch: -
+- Python does **not has built-in private constructors** like Java or C#. Here i have used clever/different pattern
+- so when we make the private construction, we left with two appraoch: -
 
 1. **Singleton Pattern: -**
 
+   ```python
+   class User:
+       __instance = None  # for singleton example
+
+       def __new__(cls, *args, **kwargs):
+           raise Exception("Use get_instance() instead")
+
+       @classmethod
+       def get_instance(cls):
+           if cls.__instance is None:
+               cls.__instance = super().__new__(cls)
+               cls.__init_instance(cls.__instance)
+           return cls.__instance
+
+       @staticmethod
+       def __init_instance(instance):
+           instance.name = "Karan"
+           # initialize other stuff here
+   ```
+
+   ```python
+   u = User.get_instance()   # ✅ Works
+   User()                    # ❌ Raises Exception
+   ```
+
 2. **Factory Methods: -**
 
-    - **@staticmethod** decorator in py: -
+   - **@staticmethod** decorator in py: -

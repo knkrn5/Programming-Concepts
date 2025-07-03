@@ -45,7 +45,7 @@ Car car2 = new Car();  // car2 is another INSTANCE of Car class
 
 - Variables (called fields or attributes)
 - Methods (functions defined in the class)
-- Inner classes, constants, etc.
+- Inner classes (Nested class), constants, etc.
 
 - Types of Members:
 
@@ -135,65 +135,15 @@ so when we make the private construction, we left with two appraoch: -
    - Cache managers
    - Thread pools
 
-   ```java
-   public class Singleton {
-
-       private static Singleton instance;
-
-       // Private constructor — now no one can call `new Singleton()`
-       private Singleton() {}
-
-       // Public method to access the one instance
-       public static Singleton getInstance() {
-           if (instance == null) {
-               instance = new Singleton();
-           }
-           return instance;
-       }
-   }
-   ```
-
-   ```java
-   Singleton s1 = Singleton.getInstance();
-   Singleton s2 = Singleton.getInstance();
-
-   System.out.println(s1 == s2); // true → same object
-   ```
+   1. [private constructor in java](../java/oopsinjava.md#private-constructor-in-java️)
+   1. [private constructor in js](../js/oopsinjs.md#private-constructor-in-js️)
+   1. [private constructor in py](../py/oopsinpy.md#private-constructor-in-py️)
 
 2. **Factory Methods: -** Factory methods (often called **"Static Factory Methods"** when they are **static methods within the class itself**) are static methods that return an instance of the class (or a subclass). When combined with private constructors, they provide a much more flexible and descriptive way to **create objects** than direct constructor calls.
 
-   ```java
-   public class User {
-
-       private String role;
-
-    //private constructor
-       private User(String role) {
-           this.role = role;
-       }
-
-    // static method
-       public static User createAdmin() {
-           return new User("ADMIN"); // object created here using private constructor
-       }
-
-    // static method
-       public static User createGuest() {
-           return new User("GUEST"); // object created here using private constructor
-       }
-
-       @Override
-       public String toString() {
-           return "User{role='" + role + "'}";
-       }
-   }
-   ```
-
-   ```java
-    User admin = User.createAdmin();
-    User guest = User.createGuest();
-    System.out.println(admin); // User{role='ADMIN'}
-   ```
+   1. [private constructor in java](../java/oopsinjava.md#private-constructor-in-java️)
+   1. [private constructor in js](../js/oopsinjs.md#private-constructor-in-js️)
+   1. [private constructor in py](../py/oopsinpy.md#private-constructor-in-py️)
 
 ## **Contructor Overloading**
 
