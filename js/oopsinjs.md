@@ -55,7 +55,7 @@ class User {
 ## **Creating/ Initializing Object in js = Instance Created from the Class Blueprint⬇️**
 
 ```javascript
-const u = new User("Karan", "secret");
+const u = new User("Karan", "secret"); // Instance of the class
 console.log(u.getPassword()); // ✅ "secret"
 u.setPassword("newpass");
 console.log(u.getPassword()); // ✅ "newpass"

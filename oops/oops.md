@@ -23,11 +23,30 @@ Class is template/ blueprint that is **used to create/inatialize an object** wil
 2. [class in js](../js/oopsinjs.md#class-in-js--templateblueprint️)
 3. [class in py](../py/oopsinpy.md#class-in-py--templateblueprint️)
 
-### **1. `Instance of class`: -** _An instance is a specific object created from a class blueprint_
+### **`Member of class`: -** _A member of a class is anything that belongs to the class:_
+
+- Variables (called fields or attributes)
+- Methods (functions defined in the class)
+- Inner classes (Nested class), constants, etc.
+
+- ### **Types of Members: -**
+
+  **1. Instance Members (Non-static): -** _Non-Static variables and methods are called the Instance members_
+
+  - Technically Static variables and methods CAN be accessed through instances (though it's not recommended style, alway access Static method via class name only.), but static methods CANNOT access instance variables/methods because they don't know which instance.
+
+  - Instace nested Class: -
+
+  **2. Class Members (Static): -** _Static variables and methods are called the class members and not the instance member_
+
+  - Therefore: **Static methods can't use this/self because there's no instance to refer to!**
+  - Class nested Class: -
+
+> ## **Object/ Instance = Instance Created from the Class Blueprint⬇️**
+
+### **`Instance of class`: -** _An instance is a specific real object created from a class blueprint_
 
 - `this` (in Java and JS) and `self` (in Python) **refer to the current instance of the class.**
-- **Static methods** = "I belong to the class itself, not any particular instance"
-- Therefore: **Static methods can't use this/self because there's no instance to refer to!**
 
 ```java
 // Java example
@@ -45,28 +64,15 @@ Car car1 = new Car();  // car1 is an INSTANCE of Car class
 Car car2 = new Car();  // car2 is another INSTANCE of Car class
 ```
 
-### **2. `Member of class`: -** _A member of a class is anything that belongs to the class:_
-
-- Variables (called fields or attributes)
-- Methods (functions defined in the class)
-- Inner classes (Nested class), constants, etc.
-
-- ### **Types of Members: -**
-
-  1. **Instance Members (Non-static): -**
-     1. Instance Variable: -
-     2. Instance Method: -
-     3. Instace nested Class: -
-  2. **Class Members (Static): -**
-     1. Class Variable: -
-     2. Class Method: -
-     3. Class nested Class: -
-
-> ## **Object = Instance Created from the Class Blueprint⬇️**
-
 1. [object initialization in java](../java/oopsinjava.md#creating-initializing-object-in-java--instance-created-from-the-class-blueprint️)
 2. [object initialization in js](../js/oopsinjs.md#creating-initializing-object-in-js--instance-created-from-the-class-blueprint️)
 3. [object initialization in py](../py/oopsinpy.md#creating-initializing-object-in-py--instance-created-from-the-class-blueprint️)
+
+> ## **_Common misconceptions⬇️_**
+
+**Ques 1.** why the Non-static variable and methods are called Instance variable and method when those are inside the written inside class blueprint
+
+- **Ans: -**
 
 > ## **_Access Modifiers⬇️_**
 

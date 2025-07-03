@@ -42,7 +42,7 @@ public class User {
 
 ```java
 //obj initialization in java using class blueprint
-User user1 = new User("Karan", 24); //now here user1 is a object with tow property name and age.
+User user1 = new User("Karan", 24); //now here user1 is a object/ Instance of the class with the property name and age.
 user1.greet();
 // output = Hi, my name is Karan and I am 24 years old.
 ```

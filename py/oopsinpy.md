@@ -28,7 +28,7 @@ class User:
 ## **Creating/ Initializing Object in py = Instance Created from the Class Blueprint⬇️**
 
 ```python
-u = User("Karan", "secret")
+u = User("Karan", "secret") # Instance of the class
 print(u.get_password())      # ✅ Access via getter
 
 u.set_password("newpass")    # ✅ Set via setter
