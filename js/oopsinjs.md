@@ -90,7 +90,21 @@ console.log(u.#password); // ❌ SyntaxError
 - **Enforced** means that the language itself (via the compiler or interpreter) **strictly checks and prevents certain actions** — like accessing private fields — and will **give you an error if you violate the rules.**
 - so in javascript any field without \_ underscore or # hashtag is public
 
-### **this** keyword in js: -
+### **`this`** keyword in js: - _Refers to the current object — but it behaves differently depending on the context._
+
+```javascript
+class User {
+  constructor(name) {
+    this.name = name;
+  }
+
+  greet() {
+    console.log(`Hi, I’m ${this.name}`);
+  }
+}
+```
+
+- In JavaScript, `this` depends on how a function is called — it can be dynamic in non-arrow functions, unlike in Java/Python.
 
 > ### Private Constructor in js⬇️
 

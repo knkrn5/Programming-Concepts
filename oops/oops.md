@@ -5,7 +5,7 @@ Object-Oriented Programming (OOP) is a programming paradigm based on the concept
 ```
 
 - The term "Object-Oriented" comes from the fundamental concept that this programming paradigm is built around objects as the primary building blocks of software or **"objects" as the fundamental building blocks of a program/ Software.**
-- **Truely OOPS Programming language** are java, c# , c++ and some more
+- **Truely OOPS Programming language** are java, c# , c++ etc ~~python and javascripts~~ are not truely OOPS programming language
 
 > ## **Class = Template/Blueprint⬇️**
 
@@ -70,7 +70,7 @@ Access modifiers are keywords that define the visibility/scope of classes, metho
 
 > ## **Constructor**
 
-- A constructor is a special method used to **initialize objects** when you use new. It serves as the **initialization mechanism** for objects, setting up their initial state/values for instance variables and preparing them for use
+- A constructor is a special method used to **initialize objects** when you use new. It serves as the **initialization mechanism** for objects, **setting up their initial state/values** for instance variables and preparing them for use
 - **_Constructors have the same name as the class they belong to._** They **don't have a return type**, not even void, because they **implicitly return the newly created object**
 
 ### **Types of Constructor: -**
@@ -139,7 +139,9 @@ so when we make the private construction, we left with two appraoch: -
    1. [private constructor in js](../js/oopsinjs.md#private-constructor-in-js️)
    1. [private constructor in py](../py/oopsinpy.md#private-constructor-in-py️)
 
-2. **Factory Methods: -** Factory methods (often called **"Static Factory Methods"** when they are **static methods within the class itself**) are static methods that return an instance of the class (or a subclass). When combined with private constructors, they provide a much more flexible and descriptive way to **create objects** than direct constructor calls.
+2. **Factory Methods: -** Factory methods (often called **"Static Factory Methods"** these are those method which has the static keyword in java and js or @staticmethod decorator in python **within the class itself**) are static methods that **return an instance of the class (or a subclass)**/ **return the objects created using the class blueprint** than direct constructor calls.
+
+   - Static methods can only be access using the class name
 
    1. [private constructor in java](../java/oopsinjava.md#private-constructor-in-java️)
    1. [private constructor in js](../js/oopsinjs.md#private-constructor-in-js️)

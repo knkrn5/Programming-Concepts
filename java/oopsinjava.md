@@ -61,7 +61,24 @@ When we use the new keyword with a constructor, you're essentially saying: **_Bu
 3. **protected: -** Accessible in same package + subclasses
 4. **public: -** Accessible from anywhere
 
-### **this** keyword in java: -
+### **`this`** keyword in java: - _Refers to the current object, implicitly available in non-static methods._
+
+```java
+public class User {
+    String name;
+
+    User(String name) {
+        this.name = name; // 'this' is used to avoid shadowing
+    }
+
+    void greet() {
+        System.out.println("Hi, I’m " + this.name);
+    }
+}
+```
+
+- Java automatically passes this — you don’t include it in method signatures.
+- Mostly used when local and instance variables have the same name.
 
 > ### Private Constructor in java⬇️
 
