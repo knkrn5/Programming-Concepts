@@ -54,6 +54,7 @@ static credential(){
  return  "email" User.email // static method can access the static variable using the class name
 }
 
+// We need to create getter and setter methods for private fields (variables) in order to access and modify their values from outside the class(using instance)
 getPassword() {
  return this.#password;
 }

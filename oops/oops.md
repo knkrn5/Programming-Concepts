@@ -83,7 +83,7 @@ Car car2 = new Car();  // car2 is another INSTANCE of Car class
 
 ---
 
-> ## **_Common misconceptions⬇️_**
+> ## **_🤷Common misconceptions🤷‍♀️⬇️_**
 
 **Ques 1.** why the Non-static variable and methods are called Instance variable and method even tho those are inside the written inside class blueprint
 

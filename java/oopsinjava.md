@@ -27,12 +27,23 @@ public class User {
     String name; // instance variable
     int age;  // instance variable
 
+    private String email;
+
     static String fullname; // class variable
 
     //parameter Constructor
     public User(String name, int age) {
         this.name = name;
         this.age = age;
+    }
+
+    // We need to create getter and setter methods for private fields (variables) in order to access and modify their values from outside the class(using instance)
+    public String getEmail(){
+        return this.email
+    }
+
+    public void setEmail(String email){
+        this.email = email
     }
 
     // Static method
