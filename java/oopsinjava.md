@@ -37,7 +37,7 @@ public class User {
         this.age = age;
     }
 
-    // We need to create getter and setter methods for private fields (variables) in order to access and modify their values from outside the class(using instance)
+    // We need to create public getter and setter methods for private fields (variables) in order to access and modify their values from outside the class(using instance)
     public String getEmail(){
         return this.email
     }
@@ -207,3 +207,69 @@ Types of constructors: - In java if we don't write any constructor it will autom
        User guest = User.createGuest();
        System.out.println(admin); // User{role='ADMIN'}
    ```
+
+---
+
+### **equal() and hashcode(): -** _usefull for nested classes_
+
+ℹ️so hashnode create the bucket based on the field value not based on the field name similarly equal() compares based on the field values not based on the field name.
+
+1. hashCode() Groups objects with similar data(fields) into the same bucket.
+
+   - Use hashCode() to find a bucket
+   - Generates an integer number (called a hash) based on the field values, to help Java collections quickly locate objects.
+   - Objects with the same hash code go into the same bucket.
+   - Java uses this in HashMap, HashSet, Hashtable to group similar objects.
+   - It helps put objects into the right "bucket" for fast access.
+
+2. equals() Compares actual field values to find the exact match in that bucket
+
+   - equals() to find the exact object in that bucket
+   - Checks if objects have equal field values
+   - Custom logic to compare actual content
+
+   ```java
+   class Person {
+       private String name;
+       private int age;
+   }
+
+   @EqualsAndHashCode(callSuper = false)
+   class Student extends Person {
+       private String studentId;
+   }
+
+   // Testing:
+   Student s1 = new Student();
+   s1.setName("Alice");
+   s1.setAge(20);
+   s1.setStudentId("S001");
+
+   Student s2 = new Student();
+   s2.setName("Bob");      // Different name!
+   s2.setAge(25);          // Different age!
+   s2.setStudentId("S001"); // Same student ID
+
+   System.out.println(s1.equals(s2)); // TRUE! (Only compares studentId)
+   ```
+
+- If a.equals(b) is true, then a.hashCode() == b.hashCode() must also be true.
+- If you override equals(), you must override hashCode() too
+
+```text
+The magic process:
+
+HashMap calculates searchKey.hashCode() → gets number like 95642
+Uses this number to find the right "bucket" instantly
+In that bucket, uses equals() to find exact match
+Returns the value
+
+Without hashCode(), HashMap would be super slow:
+
+Would have to call equals() on every single entry
+O(n) time instead of O(1) time
+```
+
+- // here we are telling the lombok to not include the inherited fields in the equality check
+
+---

@@ -2,37 +2,37 @@
 
 ## **JavaScript: Declare Fields Inside the Constructor (or with Class Fields): -**
 
-1.  Traditional way (pre-ES2022):
+1. Traditional way (pre-ES2022):
 
-    ```javascript
-    class User {
-      // fields/ variable declared inside the constructor are the intance variable
-      constructor(name, age) {
-        // Instance variables
-        this.name = name; // Field created dynamically
-        this.age = age;
-      }
-    }
-    ```
+   ```javascript
+   class User {
+     // fields/ variable declared inside the constructor are the intance variable
+     constructor(name, age) {
+       // Instance variables
+       this.name = name; // Field created dynamically
+       this.age = age;
+     }
+   }
+   ```
 
-2.  Modern (ES2022+) way:
+2. Modern (ES2022+) way:
 
-    ```javascript
-    class User {
-      // INSTANCE FIELDS
-      name;
-      age;
+   ```javascript
+   class User {
+     // INSTANCE FIELDS
+     name;
+     age;
 
-      // class fields/ variables
-      static email;
-      static password;
+     // class fields/ variables
+     static email;
+     static password;
 
-      constructor(name, age) {
-        this.name = name;
-        this.age = age;
-      }
-    }
-    ```
+     constructor(name, age) {
+       this.name = name;
+       this.age = age;
+     }
+   }
+   ```
 
 > ## **Class in js = Template/Blueprint⬇️**
 
@@ -54,7 +54,7 @@ static credential(){
  return  "email" User.email // static method can access the static variable using the class name
 }
 
-// We need to create getter and setter methods for private fields (variables) in order to access and modify their values from outside the class(using instance)
+// We need to create public getter and setter methods for private fields (variables) in order to access and modify their values from outside the class(using instance)
 getPassword() {
  return this.#password;
 }

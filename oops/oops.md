@@ -46,6 +46,8 @@ Class is template/ blueprint that is **used to create/inatialize an object** wil
 
   - Therefore: **Static methods can't use this/self because there's no instance to refer to!**
 
+**`Nested Class/ Inner Class: -`**
+
 > ## **Object/ Instance = Instance Created from the Class Blueprint⬇️**
 
 ### **`⭐Instance of class`: -** _An instance is a specific real object created from a class blueprint_
@@ -92,7 +94,7 @@ Car car2 = new Car();  // car2 is another INSTANCE of Car class
 
 **Ques 2.** Even the static variables and methods are accesscible via instance then why do we don't called them the instance fields/ variables or methods.
 
-- **Ans 2: -** [object(instance)](./oops.md#object-instance--instance-created-from-the-class-blueprint️) As we have discussed here that each instances have the different/ sperate memory with static fiels(variable) and methods have the same memory accross all the instance, **so even when we call the static variable or method using the instance, behind the hood the complier calls these static variables and method using the class name**(static members do not belong to any specific instance) and **that too these static variables and methods are not in the instance memory, these are called from their own memory** which is common for all the instances.
+- **Ans 2: -** [object(instance)](./oops.md#object-instance--instance-created-from-the-class-blueprint️) As we have discussed here in this link, that each instances have the different/ sperate memory with static fiels(variable) and methods have the same memory accross all the instance, **so even when we call the static variable or method using the instance, behind the hood the complier calls these static variables and method using the class name**(static members do not belong to any specific instance) and **that too these static variables and methods are not in the instance memory, these are called from their own memory** which is common for all the instances.
 
 > ## **_Access Modifiers⬇️_**
 

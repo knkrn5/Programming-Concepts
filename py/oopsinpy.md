@@ -24,7 +24,7 @@ class User:
         self.name = name
         self.__password = password  # "private" by convention (name mangling)
 
-    # We need to create getter and setter methods for private fields (variables) in order to access and modify their values from outside the class(using instance)
+    # We need to create public getter and setter methods for private fields (variables) in order to access and modify their values from outside the class(using instance)
     def get_password(self):
         return self.__password
 
