@@ -136,5 +136,3 @@ Types of constructors: - **python does not support any defualt constructor**, we
    ```
 
 2. **Factory Methods: -**
-
-   - **@staticmethod** decorator in py: -

@@ -164,8 +164,6 @@ Types of constructors: - In java if we don't write any constructor it will autom
 
 2. **Factory Methods: -**
 
-   - **static** keyword in java: -
-
    ```java
    public class User {
 

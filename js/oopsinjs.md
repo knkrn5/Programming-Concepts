@@ -151,34 +151,28 @@ Types of constructors: -
 
 1. **Singleton Pattern: -**
 
-```javascript
-class User {
-  static #allow = false;
+   ```javascript
+   class User {
+     static #allow = false;
 
-  constructor() {
-    if (!User.#allow) {
-      throw new Error("Use User.create() instead");
-    }
-  }
+     constructor() {
+       if (!User.#allow) {
+         throw new Error("Use User.create() instead");
+       }
+     }
 
-  static create() {
-    User.#allow = true;
-    const instance = new User();
-    User.#allow = false;
-    return instance;
-  }
-}
-```
+     static create() {
+       User.#allow = true;
+       const instance = new User();
+       User.#allow = false;
+       return instance;
+     }
+   }
+   ```
 
-```javascript
-const u = User.create(); // ✅ Works
-const x = new User(); // ❌ Error: Use User.create() instead
-```
+   ```javascript
+   const u = User.create(); // ✅ Works
+   const x = new User(); // ❌ Error: Use User.create() instead
+   ```
 
 2. **Factory Methods: -**
-
-- **static** keyword in js: -
-
-```
-
-```

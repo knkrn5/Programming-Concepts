@@ -10,15 +10,15 @@ Object-Oriented Programming (OOP) is a programming paradigm based on the concept
 
 > ## **Feild/ Variable declaration in Oops⬇️**
 
+1. [fields declaration in java](../java/oopsinjava.md#java-declare-fields-at-class-level)
+2. [fields declaration in js](../js/oopsinjs.md#javascript-declare-fields-inside-the-constructor-or-with-class-fields--)
+3. [fields declaration in py](../py/oopsinpy.md#python-declare-fields-inside-constructor)
+
 - In both python and javascript any **variable declared inside the constructor are the instance variable**
 
 > ## **Class = Template/Blueprint⬇️**
 
 Class is template/ blueprint that is **used to create/inatialize an object** will all or the specific **Attributes/Properties/Fields** and **Methods/Functions** based on our constructor , when we create new object using new keyword ??
-
-1. [fields declaration in java](../java/oopsinjava.md#java-declare-fields-at-class-level)
-2. [fields declaration in js](../js/oopsinjs.md#javascript-declare-fields-inside-the-constructor-or-with-class-fields--)
-3. [fields declaration in py](../py/oopsinpy.md#python-declare-fields-inside-constructor)
 
 - What **data an object** will have (fields/attributes/properties)
 - What **behaviors an object** can perform (methods)
@@ -38,20 +38,19 @@ Class is template/ blueprint that is **used to create/inatialize an object** wil
 
   **1. Instance Members (Non-static): -** _Non-Static variables and methods are called the Instance members_
 
-  - **In java: -** Technically Static variables and methods CAN be accessed through instances (though it's not recommended style, alway access Static method via class name only.), but static methods CANNOT access instance variables/methods because they don't know which instance.
-  - **In JavaScript**, static variables and methods are not even visible to the instance
-
-  - Instace nested Class: -
+  - **In java: -** Technically Static variables and methods CAN be accessed through instances (though it's not recommended style, alway access Static method via class name only.), but static methods CANNOT access instance variables/methods because they don't know which instance. [static vs instance in java](../java/oopsinjava.md#creating-initializing-object-in-java--instance-created-from-the-class-blueprint️)
+  - **In JavaScript**, static variables and methods are not even visible to the instance, so even we try of access static variable and method will get typeerror or undefined [static vs instance in js](../js/oopsinjs.md#creating-initializing-object-in-js--instance-created-from-the-class-blueprint️)
+  - **In python**, also technically its allowed but not recommended
 
   **2. Class Members (Static): -** _Static variables and methods are called the class members and not the instance member_
 
   - Therefore: **Static methods can't use this/self because there's no instance to refer to!**
-  - Class nested Class: -
 
 > ## **Object/ Instance = Instance Created from the Class Blueprint⬇️**
 
 ### **`⭐Instance of class`: -** _An instance is a specific real object created from a class blueprint_
 
+- ℹ️So when ever we create any new instance **each and every instance takes up its own different/ sperate memory** and all the **variable and method of each instace will be sperate form the other instance** created using the same class, so there are time **when we need to share the same variable and method accross all the instances**, in that case we need the **static variable and method with are common and same accross all the instances** created using that same class blueprint.
 - `this` (in Java and JS) and `self` (in Python) **refer to the current instance of the class.**
 
 ```java
@@ -153,6 +152,7 @@ so when we make the private construction, we left with two appraoch: -
 
 2. **Factory Methods: -** Factory methods (often called **"Static Factory Methods"** these are those method which has the static keyword in java and js or @staticmethod decorator in python **within the class itself**) are static methods that **return an instance of the class (or a subclass)**/ **return the objects created using the class blueprint** than direct constructor calls.
 
+   - **WHY DO WE NEED STATIC IN OOPS?** = ℹ️So when ever we create any new instance **each and every instance takes up its own different/ sperate memory** and all the **variable and method of each instace will be sperate form the other instance** created using the same class, so there are time **when we need to share the same variable and method accross all the instances**, in that case we need the **static variable and method with are common and same accross all the instances** created using that same class blueprint.
    - Static methods can only be access using the class name
 
    1. [private constructor in java](../java/oopsinjava.md#private-constructor-in-java️)
