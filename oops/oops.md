@@ -36,15 +36,15 @@ Class is template/ blueprint that is **used to create/inatialize an object** wil
 
 - ### **Types of Members: -**
 
-  **1. Instance Members (Non-static members): -** _Non-Static variables and methods are called the Instance members_
+  **1. Class Members (Static Members): -** _Static variables and methods are called the class members and not the instance member_
+
+  - Therefore: **Static methods can't use this/self because there's no instance to refer to!**
+
+  **2. Instance Members (Non-static members): -** _Non-Static variables and methods are called the Instance members_
 
   - **In java: -** Technically Static variables and methods CAN be accessed through instances (though it's not recommended style, alway access Static method via class name only.), but static methods CANNOT access instance variables/methods because they don't know which instance. [static vs instance in java](../java/oopsinjava.md#creating-initializing-object-in-java--instance-created-from-the-class-blueprint️)
   - **In JavaScript**, static variables and methods are not even visible to the instance, so even we try of access static variable and method will get typeerror or undefined [static vs instance in js](../js/oopsinjs.md#creating-initializing-object-in-js--instance-created-from-the-class-blueprint️)
   - **In python**, also technically its allowed but not recommended
-
-  **2. Class Members (Static Members): -** _Static variables and methods are called the class members and not the instance member_
-
-  - Therefore: **Static methods can't use this/self because there's no instance to refer to!**
 
 **`Nested Class/ Inner Class: -`**
 

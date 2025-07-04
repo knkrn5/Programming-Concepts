@@ -214,6 +214,13 @@ Types of constructors: - In java if we don't write any constructor it will autom
 
 ℹ️so hashnode create the bucket based on the field value not based on the field name similarly equal() compares based on the field values not based on the field name.
 
+```java
+// This tells the lombok to included the superclass(field)/ inherited fields in the equality check
+@EqualsAndHashCode(callSuper = true)
+// This tells the lombok not to included the superclass(field)/ inherited fields in the equality check
+@EqualsAndHashCode(callSuper = false)
+```
+
 1. hashCode() Groups objects with similar data(fields) into the same bucket.
 
    - Use hashCode() to find a bucket
@@ -259,15 +266,15 @@ Types of constructors: - In java if we don't write any constructor it will autom
 ```text
 The magic process:
 
-HashMap calculates searchKey.hashCode() → gets number like 95642
-Uses this number to find the right "bucket" instantly
-In that bucket, uses equals() to find exact match
+. HashMap calculates searchKey.hashCode() → gets number like 95642
+. Uses this number to find the right "bucket" instantly
+. In that bucket, uses equals() to find exact match
 Returns the value
 
 Without hashCode(), HashMap would be super slow:
 
-Would have to call equals() on every single entry
-O(n) time instead of O(1) time
+. Would have to call equals() on every single entry
+. O(n) time instead of O(1) time
 ```
 
 - // here we are telling the lombok to not include the inherited fields in the equality check

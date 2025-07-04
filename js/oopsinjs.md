@@ -23,7 +23,7 @@
      name;
      age;
 
-     // class fields/ variables
+     // class fields(variables)
      static email;
      static password;
 
@@ -50,8 +50,8 @@ constructor(name, password) {
 }
 
 static credential(){
-  //console.log(this.#password) //❌ error, this static method cannot access the instance/ non-static variable like in this example here is password variable
- return  "email" User.email // static method can access the static variable using the class name
+  //console.log(this.#password) //❌ error, this static method cannot access the instance/ non-static variable like in this example here is password is instance variable
+ return  "email" User.email // static method can access the static variable only using the class name
 }
 
 // We need to create public getter and setter methods for private fields (variables) in order to access and modify their values from outside the class(using instance)
