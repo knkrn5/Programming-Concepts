@@ -4,7 +4,7 @@
 Object-Oriented Programming (OOP) is a programming paradigm based on the concept of "objects", which can hold data (fields) and methods (functions/behaviors) that operate on the data.
 ```
 
-- In the **real world, everything is an object** — _whether it's steel, wood, cloth, or plastic._ Similarly, in programming, **all non-primitive data types (like arrays, functions, linked lists, trees, etc.) are, behind the scenes, represented as objects**, especially in high-level object-oriented languages.
+- In the **real world, almost everything is an object** — _whether it's steel, wood, cloth, or plastic._ Similarly, in programming, **all non-primitive data types (like arrays, functions, linked lists, trees, etc.) are, behind the scenes, represented as objects**, especially in high-level object-oriented languages.
 - The term "Object-Oriented" comes from the fundamental concept that this programming paradigm is built around objects as the primary building blocks of software or **"objects" as the fundamental building blocks of a program/ Software.**
 - **Truely OOPS Programming language** are java, c# , c++ etc ~~python and javascripts~~ are not truely OOPS programming language
 
@@ -87,7 +87,7 @@ Car car2 = new Car();  // car2 is another INSTANCE of Car class
 
 > ## **_🤷Common misconceptions🤷‍♀️⬇️_**
 
-**Ques 1.** why the Non-static variable and methods are called Instance variable and method even tho those are inside the written inside class blueprint
+**Ques 1.** why the Non-static variable and methods are called Instance variable and method even tho those are written inside class blueprint
 
 - **Ans 1: -** Class is just a blueprint, so we want to **use the class non-static fields/ variable and methods, we will always have to create a instance**, and these **instance will let us use the non-static fields and methods of the class**, thatswhy all the non-static fields/ variables and methods are called instance fields/ variables and methods,
 - and **static variables and methods of the class are not called the instance variables and methods** because **these can be used directly using the class name**, but the **non-static fields and variables cannot be used using the class name**
