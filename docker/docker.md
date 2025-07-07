@@ -9,33 +9,36 @@ Docker is a platform for developing, shipping, and running applications in light
 
 ## **Dockerfile vs Docker-compose**
 
-1. **.Dockerfile**
+1. **.Dockerfile: -** _Docker Executes Dockerfile Instructions (Layer by Layer)_
+
+   - Each instruction creates a new layer in the image
 
    ```docker
-       # 🧱 Use a base image
-        FROM node:18
-        # This sets up the runtime environment for your app (Node.js in this case).
-        # You could also use: python:3.11, openjdk:17, etc., depending on your project.
+       #🧱 Defines a base for our image.
+        FROM <image>
+        # This sets up the runtime environment for our app (Node.js in this case).
+        # we could also use: python:3.11, openjdk:17, node:18 etc., depending on our project.
 
         # 📁 Set working directory
-        WORKDIR /app
-        # All following commands (like COPY, RUN) will be executed from this directory inside the container.
+       WORKDIR <directory>
+        # All following commands (like RUN, CMD, ENTRYPOINT, COPY, and ADD) will be executed from this directory inside the container.
 
         # 📦 Copy package files and install dependencies
-        COPY package*.json ./
-        RUN npm install
-        # This installs only the dependencies first (better for caching).
+        COPY <src> <dest> # Copies new files or directories from <src> and adds them to the filesystem of the container at the path <dest>.
+
+        RUN <command> # Executes any commands in a new layer on top of the current image and commits the result. RUN also has a shell/ bash form for running commands.
+        # like installing the dependencies first (better for caching).
 
         # 📂 Copy rest of the project files
         COPY . .
         # Now your source code and other files are copied into the container.
 
-        # 🚪 Expose the port your app runs on
+        # 🚪OPTIONAL, Expose the port your app runs on
         EXPOSE 3000
         # This is just *metadata* for documentation — it does not actually bind the port.
 
         # 🚀 Start the application
-        CMD ["node", "index.js"]
+        CMD <command> # This lets us define the default program that is run once we start the container based on this image. Each Dockerfile only has one CMD, and only the last CMD instance is respected when multiple exist.
         # CMD defines the default command that runs when the container starts.
 
         #CMD vs ENTRYPOINT - Both can start applications, but with important differences:
@@ -222,7 +225,8 @@ Docker is a platform for developing, shipping, and running applications in light
        - 55555:55555
    ```
 
-3. **.dockerignore**
+3. **.dockerignore: -** _Remaining files (after .dockerignore filtering) are sent to Docker daemon for build context_
+   - Only files that survived the .dockerignore filter are available for COPY commands
 
 ```txt
 ❓ Why You Should Not Ignore Dockerfile and docker-compose.yml in .dockerignore
