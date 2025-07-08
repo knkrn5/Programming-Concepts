@@ -4,8 +4,7 @@ Docker is a platform for developing, shipping, and running applications in light
 
 - Containers package your application with all its dependencies (code, libraries, environment).
 - They run the same way on any system that has Docker installed — **"It works on my machine"** no longer a problem.
-- **Railway deploys all applications using Docker under the hood**, but it provides both Dockerfile-based and native (non-Docker) workflows.
-  - Railway auto-detects your project type (like Node.js, Python, Go, Java, etc.) based on the repository contents and **uses internal Docker templates** to build and run it. **(Native Build (No Dockerfile Required) – "Zero Config")**
+- [Platform Deployment Styles](../CloudHosting.md)
 
 ## **Dockerfile vs Docker-compose**
 
@@ -114,7 +113,34 @@ Docker is a platform for developing, shipping, and running applications in light
 
 2. **[🔗docker-compose.yml Structure](https://docs.docker.com/reference/compose-file/)**
 
-   **Ques: -** WHY DO WE NEED DOCKER-COMPOSE FILE: - The Compose file provides a way to document and **configure all of the application's service dependencies (databases, queues, caches, web service APIs, etc).** Using the Compose command line tool WE can create and start one or more containers for each dependency with a single command (docker compose up).
+   **Ques: -** WHY DO WE NEED DOCKER-COMPOSE FILE: - The Compose file provides a way to document and **configure all of the application's service dependencies (databases, queues, caches, web service APIs, etc).** Using the Compose command line tool, we can create and start one or more containers for each dependency with a single command (docker compose up). also if we have multiple env variables will have to setup multiline cli command like this
+
+   ```bash
+   # docker CLI cmd to run the container
+    docker run -d \
+    --name my-server-container \
+    -p 55555:55555 \
+    -v $(pwd):/usr/src/app \
+    -e NODE_ENV=production \
+    -e CONTENTFUL_SPACE_ID=$CONTENTFUL_SPACE_ID \
+    -e CONTENTFUL_ACCESS_TOKEN=$CONTENTFUL_ACCESS_TOKEN \
+    -e WS_DB_HOST=$WS_DB_HOST \
+    -e WS_DB_PORT=$WS_DB_PORT \
+    -e WS_DB_USER=$WS_DB_USER \
+    -e WS_DB_PASSWORD=$WS_DB_PASSWORD \
+    -e WS_DB_DATABASE=$WS_DB_DATABASE \
+    my-server-app
+
+    # using env file
+    docker run -d \
+    --name my-server-container \
+    -p 55555:55555 \
+    -v $(pwd):/usr/src/app \
+    --env-file .env \
+    my-server-app
+   ```
+
+   which seems to be very complicated, this is what the docker compose file make easier to run the container everytime.
 
    ```yml
    version: "3.8"
