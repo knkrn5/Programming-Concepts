@@ -9,7 +9,7 @@ Docker is a platform for developing, shipping, and running applications in light
 
 ## **Dockerfile vs Docker-compose**
 
-1. **.Dockerfile: -** _Docker Executes Dockerfile Instructions (Layer by Layer)_
+1. **[🔗.Dockerfile Structure: -](https://docs.docker.com/build/concepts/dockerfile/)** _Docker Executes Dockerfile Instructions (Layer by Layer)_
 
    - Each instruction creates a new layer in the image
 
@@ -112,7 +112,7 @@ Docker is a platform for developing, shipping, and running applications in light
 
    ```
 
-2. **docker-compose.yml**
+2. **[🔗docker-compose.yml Structure](https://docs.docker.com/reference/compose-file/)**
 
    **Ques: -** WHY DO WE NEED DOCKER-COMPOSE FILE: - The Compose file provides a way to document and **configure all of the application's service dependencies (databases, queues, caches, web service APIs, etc).** Using the Compose command line tool WE can create and start one or more containers for each dependency with a single command (docker compose up).
 
@@ -233,19 +233,20 @@ Docker is a platform for developing, shipping, and running applications in light
    ```
 
 3. **.dockerignore: -** _Remaining files (after .dockerignore filtering) are sent to Docker daemon for build context_
+
    - Only files that survived the .dockerignore filter are available for COPY commands
 
-```txt
-❓ Why You Should Not Ignore Dockerfile and docker-compose.yml in .dockerignore
-✅ 1. They Are Not Automatically Added to the Image
-Docker only includes files in the build context if you explicitly COPY or ADD them in your Dockerfile.
+   ```txt
+   ❓ Why You Should Not Ignore Dockerfile and docker-compose.yml in .dockerignore
+   ✅ 1. They Are Not Automatically Added to the Image
+   Docker only includes files in the build context if you explicitly COPY or ADD them in your Dockerfile.
 
-If you don't write something like COPY Dockerfile ., then Dockerfile is not included in the final image anyway.
-```
+   If you don't write something like COPY Dockerfile ., then Dockerfile is not included in the final image anyway.
+   ```
 
-### **Docker CLI Commands**
+### **Docker CLI Commands⬇️**
 
-```md
+```bash
 ### Building and running your application
 
 # clearing the Docker build cache
