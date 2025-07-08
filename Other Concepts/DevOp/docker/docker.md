@@ -6,7 +6,10 @@ Docker is a platform for developing, shipping, and running applications in light
 - They run the same way on any system that has Docker installed — **"It works on my machine"** no longer a problem.
 - [Platform Deployment Styles](../CloudHosting.md)
 
-## **Dockerfile vs Docker-compose**
+## **Dockerfile vs Docker-compose: -** _Both can be used for building and running the container_
+
+- **Docker layering and Caching: -**
+  - Each command in the **.dockerfile** creates the sperate layer
 
 1. **[🔗.Dockerfile Structure: -](https://docs.docker.com/build/concepts/dockerfile/)** _Docker Executes Dockerfile Instructions (Layer by Layer)_
 
@@ -180,7 +183,7 @@ Docker is a platform for developing, shipping, and running applications in light
     my-server-app
    ```
 
-   this seems to be very complicated, this is what the docker compose file make easier to run the container everytime.
+   this seems to be very complicated, this is what the docker compose⬇️ file make easier to run the container everytime.
 
    ```yml
    version: "3.8"
@@ -276,7 +279,7 @@ Docker is a platform for developing, shipping, and running applications in light
      restart: always
    ```
 
-   - Example of Docker file for the interpreter langangue like node.js
+   - Example of Docker-compose file for the interpreter langangue like node.js
 
    ```yml
    services:
