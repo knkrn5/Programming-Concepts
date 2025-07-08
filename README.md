@@ -2,6 +2,8 @@
 
 ## The key to mastering any programming language is knowing how to work with data — understanding, transforming, and manipulating all types of data structures and types **_(Primitive, Non-primitive and User-defined/abstract Datatypes)_**
 
+### **[🔗DataTypes Concept](./data/datatypes.md)**
+
 > ## **Language-Agnostic Thinking**
 >
 > ```text
@@ -23,10 +25,12 @@
 
 ---
 
-## **Other Concepts**
-
-### **[🔗DataTypes Concept](./data/datatypes.md)**
-
 ### **[🔗OOPS Concept](./oops/oops.md)**
 
 ### **[🔗Rest API Concept](./rest%20api/restapi.md)**
+
+## **Other Concepts**
+
+1. **[🔗Dotenv Concept](./Other%20Concepts/dotenv/dotenvconcepts.md)**
+2. **[🔗Mail Concept](./Other%20Concepts/mail/mail.md)**
+3. **[🔗Docker Concept](./Other%20Concepts/dotenv/dotenvconcepts.md)**

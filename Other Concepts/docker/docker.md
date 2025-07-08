@@ -35,7 +35,7 @@ Docker is a platform for developing, shipping, and running applications in light
 
         # 🚪OPTIONAL, Expose the port your app runs on
         EXPOSE 3000
-        # This is just *metadata* for documentation — it does not actually bind the port.
+        # This is just *metadata* for documentation — it does not actually bind the port. but it is a good practice and helps tools and team members understand what this application is doing
 
         # 🚀 Start the application
         CMD <command> # This lets us define the default program that is run once we start the container based on this image. Each Dockerfile only has one CMD, and only the last CMD instance is respected when multiple exist.
@@ -100,8 +100,15 @@ Docker is a platform for developing, shipping, and running applications in light
     # Expose the port that the application listens on.
     EXPOSE 55555
 
-    # Run the application with PM2 using the ecosystem file
+    # Run the application when the user starts a container based on this image.
     CMD ["pm2-runtime", "ecosystem.config.cjs"]
+
+    ############ Two ways of writing CMD ##################
+    # ********Shell and exec form*******#
+    # INSTRUCTION ["executable","param1","param2"] (exec form)
+    CMD ["flask", "run", "--host", "0.0.0.0", "--port", "8000"]
+    #INSTRUCTION command param1 param2 (shell form)
+    CMD flask run --host 0.0.0.0 --port 8000
 
    ```
 
