@@ -18,7 +18,7 @@ Docker is a platform for developing, shipping, and running applications in light
         # This sets up the runtime environment for our app (Node.js in this case).
         # we could also use: python:3.11, openjdk:17, node:18 etc., depending on our project.
 
-        # 📁 Set working directory
+        # 📁 Set working directory name
        WORKDIR <directory>
         # All following commands (like RUN, CMD, ENTRYPOINT, COPY, and ADD) will be executed from this directory inside the container.
 
@@ -30,20 +30,30 @@ Docker is a platform for developing, shipping, and running applications in light
 
         # 📂 Copy rest of the project files
         COPY . .
-        # Now your source code and other files are copied into the container.
+        # Now our source code and other files are copied into the container, in the directory written in the WORKDIR
 
         # 🚪OPTIONAL, Expose the port your app runs on
         EXPOSE 3000
         # This is just *metadata* for documentation — it does not actually bind the port. but it is a good practice and helps tools and team members understand what this application is doing
 
         # 🚀 Start the application
+        ENTRYPOINT <command>
         CMD <command> # This lets us define the default program that is run once we start the container based on this image. Each Dockerfile only has one CMD, and only the last CMD instance is respected when multiple exist.
         # CMD defines the default command that runs when the container starts.
 
         #CMD vs ENTRYPOINT - Both can start applications, but with important differences:
-        # CMD: Can be overridden when running the container
+        # CMD: Can be overridden when running the container with docker CLI like this "docker run my-spring-app --spring.profiles.active=dev"
         # ENTRYPOINT: Cannot be overridden, always executes
         # ENTRYPOINT + CMD: ENTRYPOINT is the command, CMD provides default arguments
+
+         ℹ️### Two ways of writing CMD ###
+        # ********1. Shell form*******#
+        CMD ["executable","param1","param2"] #(exec form)
+        CMD ["flask", "run", "--host", "0.0.0.0", "--port", "8000"]
+
+        # ********1. exec form*******#
+        CMD command param1 param2 #(shell form)
+        CMD flask run --host 0.0.0.0 --port 8000
 
    ```
 
@@ -51,16 +61,44 @@ Docker is a platform for developing, shipping, and running applications in light
 
    ```docker
     FROM eclipse-temurin:17-jdk AS build
+
+    # Name of the working directory
     WORKDIR /app
+
+    # Copies all the source code file into the WORKDIR
     COPY . .
+
+    # This is used to download the maven wrapper script
+    # It is used to run the maven commands without having maven installed on the system
     RUN chmod +x ./mvnw
+
+    # This builds the spring-boot maven project/ application
+    # -DskipTests is used to skip tests during the build process
     RUN ./mvnw clean package -DskipTests
 
     FROM eclipse-temurin:17-jdk
+
+    # here working dir name can be different, then that in the build working dir name
     WORKDIR /app
+
+    # Copies all the .jar file from the build stage to the current working directory
+    # The .jar file is located in the target directory of the maven project
     COPY --from=build /app/target/*.jar app.jar
+
+    # This is used to run the spring-boot application on port 9090
+    # The port can be changed to any other port, but it should be the same as the one used in the application.properties file
+    # or the one used in the docker-compose file
     EXPOSE 9090
+
+    # exec form (RECOMMENDED)
     ENTRYPOINT ["java", "-jar", "app.jar"]
+    #or
+    # Shell form - runs through shell
+    ENTRYPOINT java -jar app.jar
+    #or
+    # Flexible version
+    ENTRYPOINT ["java", "-jar"]
+    CMD ["app.jar"]
 
    ```
 
@@ -103,10 +141,12 @@ Docker is a platform for developing, shipping, and running applications in light
     CMD ["pm2-runtime", "ecosystem.config.cjs"]
 
     ############ Two ways of writing CMD ##################
-    # ********Shell and exec form*******#
-    # INSTRUCTION ["executable","param1","param2"] (exec form)
+    # ********1. Shell form*******#
+    CMD ["executable","param1","param2"] #(exec form)
     CMD ["flask", "run", "--host", "0.0.0.0", "--port", "8000"]
-    #INSTRUCTION command param1 param2 (shell form)
+
+    # ********1. exec form*******#
+    CMD command param1 param2 #(shell form)
     CMD flask run --host 0.0.0.0 --port 8000
 
    ```
@@ -140,7 +180,7 @@ Docker is a platform for developing, shipping, and running applications in light
     my-server-app
    ```
 
-   which seems to be very complicated, this is what the docker compose file make easier to run the container everytime.
+   this seems to be very complicated, this is what the docker compose file make easier to run the container everytime.
 
    ```yml
    version: "3.8"
