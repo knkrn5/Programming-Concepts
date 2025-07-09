@@ -195,7 +195,7 @@ Docker is a platform for developing, shipping, and running applications in light
      # Image name (ankane/pghero) = Fixed, from Docker Hub
    services: # Multiple services
    web: # This can be named anything like web, server or backend etc
-     build: . # This uses the Dockerfile in the current directory
+     build: . # This uses the Dockerfile in the current directory. (if context is not specified, it defaults to the current directory)
      ports:
        - "3000:3000"
      environment:
@@ -300,16 +300,24 @@ docker ps
 docker ps -a
 # To stop the running container
 docker stop <container_name_or_id>
+# To restart container
+docker restart <container_name_or_id>
 # Remove all stopped containers
 docker container prune
 # To delete the container from the docker
 docker rm <container_name_or_id>
+# To see all the docker images
+docker image ls
+docker images
+# To show all images including intermediate layers
+docker images -a
+# Remove by image name or ID
+docker rmi <image_name_or_id>
 # Remove all unused images
 docker image prune
 # -a to delete all unused images, not just dangling ones
 docker image prune -a
-# Remove by image name or ID
-docker rmi <image_name_or_id>
+
 
 # clearing the Docker build cache
 docker builder prune -a
