@@ -254,7 +254,7 @@ Docker is a platform for developing, shipping, and running applications in light
      build: .
      ports:
        - "9090:9090"
-     # environment:
+     # environment: # env can be set individually like this or via env_file
      #   # jwt
      #   JWT_ISSUER: ${JWT_ISSUER}
      #   ACCESS_TOKEN_SECRET: ${ACCESS_TOKEN_SECRET}
@@ -318,38 +318,77 @@ Docker is a platform for developing, shipping, and running applications in light
 ```bash
 ### Building and running your application
 
-# clearing the Docker build cache
+##### .Dockerfile #####
 
+# -t your-image-name: Tags your image with a name (e.g., my-app).
+# This dot . tells Docker to look for the Dockerfile in the current directory.
+docker build -t your-image-name .
+
+# Run the container
+# -d: Detached mode (runs in background).
+# --name your-container-name: Names the container.
+# -p host:container: Maps a port from your machine to the container.
+#  conainter-name and image-name can be same
+docker run -d --name my-container-name -p hostPort:containerPort my-image-name
+
+# To Access the container shell/ WORIDR
+docker exec -it wp sh
+# can perform all this action inside the shell
+ls                # List files
+cd <dir>          # Change directory
+cat <file>        # View file contents
+less <file>       # Scrollable file viewer
+pwd               # Print current working directory
+vi file.txt       # Open file in vi editor
+nano file.txt     # Open file in nano editor
+npm list          # List installed npm packages
+npm run <script>  # Run scripts defined in package.json
+etc..
+
+# Docker Debug for seamless, persistent debugging tools in any container or image
+docker debug wp
+
+
+# docker rm -f my-node-container
+docker rm -f my-container-name
+
+# To see all the running containers
+docker ps
+# To see both running and stop container
+docker ps -a
+# To stop the running container
+docker stop <container_name_or_id>
+# Remove all stopped containers
+docker container prune
+# To delete the container from the docker
+docker rm <container_name_or_id>
+# Remove all unused images
+docker image prune
+# -a to delete all unused images, not just dangling ones
+docker image prune -a
+# Remove by image name or ID
+docker rmi <image_name_or_id>
+
+# clearing the Docker build cache
 docker builder prune -a
 
+##### Docker-Compose #####
+# To build and run application via docker-compose file
 docker compose up --build
+# To again build the contain without and previous cache
 docker-compose build --no-cache
-
+# To log the details fo the build
 docker-compose logs nginx
+# To Stop the application/ services started via docker-comose file
+docker-compose down
 
-## removing old image
-
-docker rmi wealthpsychology-app-server:latest
-
-Your application will be available at http://localhost:55555.
-
+##### Docker Hub #####
 ### how to make tag Deploying your application to the docker hub cloud
-
-docker tag <local_image_name> <docker_hub_username>/<repository_name>:<tag>
-
-### How to overwrite the tag
-
-# first update docker desktop tag
-
-docker build -t wealthpsychology-app-server:latest .
-
-# Then create the same tag of the already existing in docker hub
-
-docker tag wealthpsychology-app-server:latest knkrn5/wealthpsychology-app-server:v1.0.1
+# If the application already exists it will overwrite
+docker tag <local_image_name>:<tag> <docker_hub_username>/<repository_name>:<tag>
 
 # and then push the same again to docker hub
-
-docker push knkrn5/wealthpsychology-app-server:v1.0.1
+docker push <docker_hub_username>/<repository_name>:<tag>
 ```
 
 ## **Multi-stage builds: -** _The use of separate "build" and "run" stages in Dockerfiles is mostly needed for compiled languages. For interpreted languages like Node.js, it’s not required, but sometimes used to separate dev and prod dependencies._
