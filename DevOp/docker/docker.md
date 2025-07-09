@@ -212,6 +212,16 @@ Docker is a platform for developing, shipping, and running applications in light
      env_file:
           - .env
 
+    java-backend:
+    build:
+    context: .  # Root of my project (where your source code is)
+      dockerfile: docker/Dockerfile  # Path to the Dockerfile inside the docker folder
+    ports:
+      - '9090:9090'
+    env_file:
+      - .env
+    restart: always
+
     # postgres database
     postgres:
      image: postgres:latest
