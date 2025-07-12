@@ -137,3 +137,21 @@ Types of constructors: - **python does not support any defualt constructor**, we
    ```
 
 2. **Factory Methods: -**
+
+
+
+```py
+@final
+class range(Sequence[int]):
+    @property
+    def start(self) -> int: ...
+    @property
+    def stop(self) -> int: ...
+    @property
+
+class dict(MutableMapping[_KT, _VT]):
+    # __init__ should be kept roughly in line with `collections.UserDict.__init__`, which has similar semantics
+    # Also multiprocessing.managers.SyncManager.dict()
+    @overload
+    def __init__(self) -> None: ...
+```

@@ -2,15 +2,18 @@
 
 ## **Different command-line interfaces (CLIs) or terminal emulators**
 
+- In both .bat (Windows batch) and .sh (Linux/macOS shell) scripts, **any argument passed after the script call is treated as part of the script's argument list**. (_the format **(--port, -port, port)** is just a convention - the script treats them all as plain text strings._)
+
 1. **CMD: -** _In window **.bat** files, and also **.cmd** Command files (newer)_
 
    ```bat
-   REM : -This echo off disables command echoing, so it hides all the actual commands being run
+   @REM : -This echo off disables command echoing, so it hides all the actual commands being run
     @echo off
-    cd py-backend || goto error
+    @REM Here goto :error means go to error block, declared below
+    cd py-backend || goto :error
 
     echo Activating Python virtual environment...
-    call .venv\Scripts\activate.bat || goto error
+    call .venv\Scripts\activate.bat || goto :error
 
     echo Starting Python backend...
     python -m uvicorn src.main:app --reload
@@ -18,7 +21,7 @@
 
     :error
     echo [ERROR] Something went wrong. Exiting...
-    REM Exit only the current batch script or function, not the entire CMD window, Exit code / error code. 0 = success, 1 (or any non-zero) = failure
+    @REM Exit only the current batch script or function, not the entire CMD window, Exit code / error code. 0 = success, 1 (or any non-zero) = failure
     exit /b 1
 
     :end
@@ -27,6 +30,14 @@
    ```cmd
     REM start the bat file in cmd
     frontend.bat
+
+   @REM any argument passed after the script call is treated as part of the script's argument list⬇️
+    frontend.bat --port 8000 port:3000
+      . %0 → script name (e.g., frontend.bat)
+      . %1 → --port
+      . %2 → 8000
+      . %3 → port:3000
+      . %* → for all args
    ```
 
    | `.bat`                | `.cmd`                                                 |
@@ -67,4 +78,12 @@
 
    # Run it
    ./frontend.sh
+
+   # any argument passed after the script call is treated as part of the script's argument list⬇️
+   ./frontend.sh --port 8000 port:3000
+      # $0 → script name (./frontend.sh)
+      # $1 → --port
+      # $2 → 8000
+      # $3 → port:3000 
+      # $@ or $* → all passed arguments
    ```

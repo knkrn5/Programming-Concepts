@@ -255,6 +255,7 @@ Docker is a platform for developing, shipping, and running applications in light
 
 3. **.dockerignore: -** _Remaining files (after .dockerignore filtering) are sent to Docker daemon for build context_
 
+   - Docker will NOT find the .dockerignore file if it's inside a docker folder. The **.dockerignore file must be placed in the build context directory** (where we run docker build from)
    - Only files that survived the .dockerignore filter are available for COPY commands
 
    ```txt
