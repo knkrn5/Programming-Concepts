@@ -6,31 +6,7 @@
 
 1. **CMD: -** _In window **.bat** files, and also **.cmd** Command files (newer)_
 
-   ```bat
-   @REM : -This echo off disables command echoing, so it hides all the actual commands being run
-    @echo off
-    @REM Here goto :error means go to error block, declared below
-    cd py-backend || goto :error
-
-    echo Activating Python virtual environment...
-    call .venv\Scripts\activate.bat || goto :error
-
-    echo Starting Python backend...
-    python -m uvicorn src.main:app --reload
-    goto end
-
-    :error
-    echo [ERROR] Something went wrong. Exiting...
-    @REM Exit only the current batch script or function, not the entire CMD window, Exit code / error code. 0 = success, 1 (or any non-zero) = failure
-    exit /b 1
-
-    :end
-   ```
-
    ```cmd
-    REM start the bat file in cmd
-    frontend.bat
-
    @REM any argument passed after the script call is treated as part of the script's argument list⬇️
     frontend.bat --port 8000 port:3000
       . %0 → script name (e.g., frontend.bat)
@@ -38,6 +14,46 @@
       . %2 → 8000
       . %3 → port:3000
       . %* → for all args
+   ```
+
+   ```bat
+   @REM : -This echo off disables command echoing, so it hides all the actual commands being run
+    @echo off
+   setlocal
+
+   @REM Check for --build argument at first place after the .bat command
+   set "BUILD_MODE=false"
+   if "%1"=="--build" set "BUILD_MODE=true"
+
+   @REM Navigate to frontend folder
+   cd frontend || goto :cdError
+
+   @REM Run appropriate npm command
+   if "%BUILD_MODE%"=="true" (
+      call npm run build || goto :buildError
+   ) else (
+      call npm run dev || goto :runError
+   )
+
+   @REM Exit only the current batch script or function, not the entire CMD window, Exit code / error code. 0 = success, 1 (or any non-zero) = failure
+   exit /b 0
+
+   :cdError
+   echo Error while navigating to frontend folder.
+   exit /b 1
+
+   :buildError
+   echo Error occurred while building the frontend
+   exit /b 1
+
+   :runError
+   echo Error occurred while starting the frontend.
+   exit /b 1
+   ```
+
+   ```cmd
+    REM start the bat file in cmd
+    frontend.bat
    ```
 
    | `.bat`                | `.cmd`                                                 |
@@ -84,6 +100,6 @@
       # $0 → script name (./frontend.sh)
       # $1 → --port
       # $2 → 8000
-      # $3 → port:3000 
+      # $3 → port:3000
       # $@ or $* → all passed arguments
    ```
