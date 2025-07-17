@@ -48,7 +48,7 @@ Class is template/ blueprint that is **used to create/inatialize an object** wil
 
 **`Nested Class/ Inner Class: -`**
 
-> ## **Object/ Instance = Instance Created from the Class Blueprint⬇️**
+> ## **Object/ Instance = Instance Created from/uses the _Contructor_ of the Class Blueprint⬇️**
 
 ### **`⭐Instance of class`: -** _An instance is a specific real object created from a class blueprint_
 
@@ -113,7 +113,7 @@ Access modifiers are keywords that define the visibility/scope of classes, metho
 
 ### **Types of Constructor: -**
 
-1. **Default/No-Arg/parameterless Constructor: -** Takes no parameters and initializes objects with default values. If you don't define any constructor, **many languages provide a default one automatically.**
+1. **No-Arg/parameterless Constructor: -** Takes no parameters and initializes objects with default values. If you don't define any constructor, **many languages provide a default one automatically.**
    ![defaultValueOfConstructor](./imgs/defaultValueOfConstructor.png)
 
    - Java & Kotlin & c# provide safe defaults (0, false, null).

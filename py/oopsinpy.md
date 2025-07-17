@@ -16,10 +16,11 @@ class User:
 ```python
 class User:
 
-    email = "test@email.com" # In python variables are declared outside the __init__() constructor, and they are shared by all instances of the class.
+    # class-level fields
+    email = "test@email.com" # In python variables are declared outside the __init__() constructor, are class-level fields but these are shared by all instances of the class. (same memory for all the instances)
 
     # this is constructor in py
-    # In python variables declared inside the __init__() constructor using self are the instance variable⬇️
+    # In python variables declared inside the __init__() constructor are the instance variable, unique memory to each object.⬇️
     def __init__(self, name, password):
         self.name = name
         self.__password = password  # "private" by convention (name mangling)
@@ -50,7 +51,7 @@ print(u.get_password())      # ✅ Access via getter
 u.set_password("newpass")    # ✅ Set via setter
 print(u.get_password())      # newpass
 
-# ℹ️ Python allows it, but it's clearer and better to call static members via the class name.⬇️
+# ℹ️In Python also we can access the static variable and methods via instace(but not recommended) , always call static members via the class name.⬇️
 u.credential()         # ✅ Works, but not recommended❌
 print(u.email)     # ✅ Works, but not recommended❌
 
@@ -98,11 +99,12 @@ class User:
 
 > ## **Constructor in py⬇️**
 
-Types of constructors: - **python does not support any defualt constructor**, we have write the constructor explicitly
+Types of constructors: - **python does not support any defualt constructor**, we have write the constructor explicitly. but incase if we are uing pydantic in python then the **Pydantic will automatically create a default constructor(all arg constructor)**
 
 1. **No-Arg/parameterless Constructor: -**
 
-2. **Parameterized Constructor: -**
+2. **All arg Constructor: -** _This is defualt in python pydantic_
+3. **semi-Parameterized Constructor: -**
 
 > ### Private Constructor in py⬇️
 

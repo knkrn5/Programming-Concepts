@@ -24,12 +24,12 @@ public class User {
 public class User {
     //fields/attributes/properties
     //here defualt access modifier is package-private = means Accessible within the same package, NOT accessible outside the package, even if imported
-    String name; // instance variable
+    String name; // instance variable (these have diffrent/unique memory each and every instances)
     int age;  // instance variable
 
     private String email;
 
-    static String fullname; // class variable
+    static String fullname; // class variable/field (these have same memory for all the instances)
 
     //parameter Constructor
     public User(String name, int age) {
@@ -70,7 +70,7 @@ User user1 = new User("Karan", 24); // now here user1 is a object/ Instance of t
 user1.greet();
 // output = Hi, my name is Karan and I am 24 years old.
 
-//ℹ️Technically Static variables and methods CAN be accessed through instances though it's not recommended style, (alway access Static method via class name only.), but static methods CANNOT access instance variables/methods⬇ because they don't know which instance.⬇️
+//ℹ️In JAVA, Technically Static variables and methods CAN be accessed through instances though it's not recommended style, (alway access Static method via class name only.), but static methods CANNOT access instance variables/methods⬇ because they don't know which instance.⬇️
 user1.fullname() // ✅ Works, but discouraged ❌
 user1.fullname // ✅ Works, but discouraged ❌
 ```
