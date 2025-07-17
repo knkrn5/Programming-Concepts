@@ -138,8 +138,6 @@ Types of constructors: - **python does not support any defualt constructor**, we
 
 2. **Factory Methods: -**
 
-
-
 ```py
 @final
 class range(Sequence[int]):
@@ -155,3 +153,5 @@ class dict(MutableMapping[_KT, _VT]):
     @overload
     def __init__(self) -> None: ...
 ```
+
+## **Decorators in python: -**
