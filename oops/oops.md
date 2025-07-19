@@ -113,7 +113,7 @@ Access modifiers are keywords that define the visibility/scope of classes, metho
 
 ### **Types of Constructor: -**
 
-1. **No-Arg/parameterless Constructor: -** Takes no parameters and initializes objects with default values. If you don't define any constructor, **many languages provide a default one automatically.**
+1. **No-Arg/parameterless Constructor: -** Takes no parameters and initializes objects with default values. If you don't define any constructor, **many languages provide a default one automatically.(Generally No arg Contructor)**
    ![defaultValueOfConstructor](./imgs/defaultValueOfConstructor.png)
 
    - Java & Kotlin & c# provide safe defaults (0, false, null).
@@ -136,7 +136,7 @@ Access modifiers are keywords that define the visibility/scope of classes, metho
 
 ### **Private Constructor**
 
-A private constructor is a No one outside the class can create/initialize objects directly. Only the class itself can create its instance
+A private constructor means: - No one outside the class can create/initialize objects directly. Only the class itself can create its instance
 
 - No other class can create an object using **new ClassName().**
 - Only the **class itself can create instances internally**.

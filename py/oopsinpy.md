@@ -95,13 +95,13 @@ class User:
         print(f"Hi, I’m {self.name}")
 ```
 
-- Python is explicit: nothing is hidden. we write self always in the method signature **(method signature includes Method name, Parameter types (and sometimes parameter count) and Parameter order).**
+- Python is explicit: nothing is hidden. we write self always in the method signature **(method signature is combined Method name, Parameter types (and sometimes parameter count) and Parameter order).**
 
 > ## **Constructor in py⬇️**
 
-Types of constructors: - **python does not support any defualt constructor**, we have write the constructor explicitly. but incase if we are uing pydantic in python then the **Pydantic will automatically create a default constructor(all arg constructor)**
+Types of constructors: - **Python provides a constructor default that takes no arguments (other than self)** and does nothing. but incase if we are uing pydantic in python then the **Pydantic will automatically create a default constructor(all arg constructor)**
 
-1. **No-Arg/parameterless Constructor: -**
+1. **No-Arg/parameterless Constructor: -** _This is defualt in python, without pydantic_
 
 2. **All arg Constructor: -** _This is defualt in python pydantic_
 3. **semi-Parameterized Constructor: -**
