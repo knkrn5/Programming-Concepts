@@ -154,6 +154,8 @@ Docker is a platform for developing, shipping, and running applications in light
 
    ```
 
+   - **NOTE: -** The build can also be done for the interpreter languages too, for building better container.
+
 2. **[🔗docker-compose.yml Structure: -](https://docs.docker.com/reference/compose-file/)** _docker-compose file is only needed locally for building and runing the container, this is not needed in production_
 
    - When we **use the build in the docker compose file it uses the Dockerfile for building the container** given the Context(dir of the Dockerfile)
