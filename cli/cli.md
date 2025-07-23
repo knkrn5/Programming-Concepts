@@ -103,3 +103,5 @@
       # $3 → port:3000
       # $@ or $* → all passed arguments
    ```
+
+![CLI with Their Written Programming Lang](./imgs/cliwiththeirprogramminglang.png)

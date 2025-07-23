@@ -6,6 +6,10 @@ Technically, we can perform any action with any HTTP method, but each method has
 
 ## **🔗[rfc HTTP DOCS](https://datatracker.ietf.org/doc/html/rfc7231)**
 
+## **http CLients Used In Different Programming Languages⬇️**
+
+![httpCLientsUsedInDifferentProgrammingLang](./imgs/httpClients.png)
+
 ## **🔗[Mozilla HTTP DOCS](https://developer.mozilla.org/en-US/docs/Web/HTTP)**
 
 > ## **_Rest API Flow Diagram ⬇️_**

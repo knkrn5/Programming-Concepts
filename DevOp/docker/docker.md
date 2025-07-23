@@ -60,6 +60,15 @@ Docker is a platform for developing, shipping, and running applications in light
 
    ```
 
+   ***
+
+   | **Host Value** | **Meaning**                         | **Accessible From**            | **Use Case in Docker**                                         |
+   | -------------- | ----------------------------------- | ------------------------------ | -------------------------------------------------------------- |
+   | `127.0.0.1`    | Loopback (localhost) interface only | Inside the container **only**  | Good for internal-only communication; not visible to host      |
+   | `0.0.0.0`      | All network interfaces              | Inside & outside the container | Required for host-to-container access (e.g., `localhost:8000`) |
+
+   ***
+
    - Example of Docker file for the complied langangue like java
 
    ## **Multi-stage builds: -** _The use of separate "build" and "run" stages in Dockerfiles is mostly needed for compiled languages. For interpreted languages like Node.js, it’s not required, but sometimes used to separate dev and prod dependencies._
@@ -213,7 +222,7 @@ Docker is a platform for developing, shipping, and running applications in light
    web: # This can be named anything like web, server or backend etc
      build: . # This uses the Dockerfile in the current directory. (if context is not specified, it defaults to the current directory)
      ports:
-       - "3000:3000"
+       - "3000:3000" # HOST_PORT:CONTAINER_PORT, Left side (3000) → Port on your host machine (your Windows system or WSL) and Right side (3000) → Port inside the Docker container
      environment:
      # PostgreSQL
      DB_HOST_URL: ${DB_HOST_URL}
@@ -301,7 +310,7 @@ docker build -t your-image-name .
 docker run -d --name my-container-name -p hostPort:containerPort my-image-name
 
 # To Access the image shell/ WORIDR
-docker exec -it <image-name> sh
+docker exec -it <image-name> sh # *** we can only docker exec into a running container. If the container is stopped, it has no process running to interact with — so docker exec won’t work.***
 # can perform all this action inside the shell
 ps aux  # See processes and their users
 whoami  # Check current user
@@ -319,10 +328,8 @@ exit              # To exit this shell
 etc..
 # See processes and their users
 docker exec -it <container-name> ps aux
-
 # Check current user
 docker exec -it <container-name> whoami
-
 # Check user ID
 docker exec -it <container-name> id
 

@@ -14,3 +14,8 @@ pip install # for installing python packages
 ```
 
 > ## **Gradle/Maven**
+
+## **Other Package Manager** _scoop, Choclatroy, brew(MacOS) etc.._
+
+1. **Alpine Linux** uses **apk**(Alpine package manager)  package manager
+2. **Debian/Ubuntu/slim** uses **apt-get** package manager

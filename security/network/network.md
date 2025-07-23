@@ -6,8 +6,8 @@
 
 ## **IP Adresses: -** _use "ipconfig" cmd to see the details of the IP Adresses_
 
-1. **IPv4**
-2. **IPv6**
+1. **IPv4: -**
+2. **IPv6: -**
 
 ## **VPN**
 
