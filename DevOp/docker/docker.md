@@ -62,99 +62,114 @@ Docker is a platform for developing, shipping, and running applications in light
 
    - Example of Docker file for the complied langangue like java
 
-   ```docker
-    FROM eclipse-temurin:17-jdk AS build
+   ## **Multi-stage builds: -** _The use of separate "build" and "run" stages in Dockerfiles is mostly needed for compiled languages. For interpreted languages like Node.js, it’s not required, but sometimes used to separate dev and prod dependencies._
 
-    # Name of the working directory
-    WORKDIR /app
+| Language | Needs Multi-Stage? | Why?                          |
+| -------- | ------------------ | ----------------------------- |
+| Java     | ✅ Yes             | Compile `.java` → `.jar`      |
+| Kotlin   | ✅ Yes             | Same as Java                  |
+| Go       | ✅ Often           | Compile binary                |
+| Rust     | ✅ Yes             | Heavy toolchain to compile    |
+| C/C++    | ✅ Yes             | Compiled binary               |
+| Node.js  | ❌ Optional        | No build step unless bundling |
+| Python   | ❌ No              | Direct execution              |
+| Ruby     | ❌ No              | Interpreted                   |
 
-    # Copies all the source code file into the WORKDIR
-    COPY . .
+---
 
-    # This is used to download the maven wrapper script
-    # It is used to run the maven commands without having maven installed on the system
-    RUN chmod +x ./mvnw
+```docker
+ FROM eclipse-temurin:17-jdk AS build
 
-    # This builds the spring-boot maven project/ application
-    # -DskipTests is used to skip tests during the build process
-    RUN ./mvnw clean package -DskipTests
+ # Name of the working directory
+ WORKDIR /app
 
-    FROM eclipse-temurin:17-jdk
+ # Copies all the source code file into the WORKDIR
+ COPY . .
 
-    # here working dir name can be different, then that in the build working dir name
-    WORKDIR /app
+ # This is used to download the maven wrapper script
+ # It is used to run the maven commands without having maven installed on the system
+ RUN chmod +x ./mvnw
 
-    # Copies all the .jar file from the build stage to the current working directory
-    # The .jar file is located in the target directory of the maven project
-    COPY --from=build /app/target/*.jar app.jar
+ # This builds the spring-boot maven project/ application
+ # -DskipTests is used to skip tests during the build process
+ RUN ./mvnw clean package -DskipTests
 
-    # This is used to run the spring-boot application on port 9090
-    # The port can be changed to any other port, but it should be the same as the one used in the application.properties file
-    # or the one used in the docker-compose file
-    EXPOSE 9090
+ FROM eclipse-temurin:17-jdk
 
-    # exec form (RECOMMENDED)
-    ENTRYPOINT ["java", "-jar", "app.jar"]
-    #or
-    # Shell form - runs through shell
-    ENTRYPOINT java -jar app.jar
-    #or
-    # Flexible version
-    ENTRYPOINT ["java", "-jar"]
-    CMD ["app.jar"]
+ # here working dir name can be different, then that in the build working dir name
+ WORKDIR /app
 
-   ```
+ # Copies all the .jar file from the build stage to the current working directory
+ # The .jar file is located in the target directory of the maven project
+ COPY --from=build /app/target/*.jar app.jar
 
-   - Example of Docker file for the interpreter langangue like node.js
+ # This is used to run the spring-boot application on port 9090
+ # The port can be changed to any other port, but it should be the same as the one used in the application.properties file
+ # or the one used in the docker-compose file
+ EXPOSE 9090
 
-   ```docker
-    # syntax=docker/dockerfile:1
+ # exec form (RECOMMENDED)
+ ENTRYPOINT ["java", "-jar", "app.jar"]
+ #or
+ # Shell form - runs through shell
+ ENTRYPOINT java -jar app.jar
+ #or
+ # Flexible version
+ ENTRYPOINT ["java", "-jar"]
+ CMD ["app.jar"]
 
-    ARG NODE_VERSION=20.16.0
+```
 
-    FROM node:${NODE_VERSION}-alpine
+- Example of Docker file for the interpreter langangue like node.js
 
-    # Use production node environment by default.
-    ENV NODE_ENV=production
+```docker
+ # syntax=docker/dockerfile:1
 
-    WORKDIR /usr/src/app
+ ARG NODE_VERSION=20.16.0
 
-    # Install PM2 globally
-    RUN npm install -g pm2
+ FROM node:${NODE_VERSION}-alpine
 
-    # Download dependencies as a separate step to take advantage of Docker's caching.
-    RUN --mount=type=bind,source=package.json,target=package.json \
-        --mount=type=bind,source=package-lock.json,target=package-lock.json \
-        --mount=type=cache,target=/root/.npm \
-        npm ci --omit=dev
+ # Use production node environment by default.
+ ENV NODE_ENV=production
 
-    # Run the application as a non-root user.
-    USER node
+ WORKDIR /usr/src/app
 
-    # Copy the rest of the source files into the image.
-    COPY . .
+ # Install PM2 globally
+ RUN npm install -g pm2
 
-    # Copy the ecosystem configuration file
-    COPY ecosystem.config.cjs .
+ # Download dependencies as a separate step to take advantage of Docker's caching.
+ RUN --mount=type=bind,source=package.json,target=package.json \
+     --mount=type=bind,source=package-lock.json,target=package-lock.json \
+     --mount=type=cache,target=/root/.npm \
+     npm ci --omit=dev
 
-    # Expose the port that the application listens on.
-    EXPOSE 55555
+ # Run the application as a non-root user.
+ USER node
 
-    # Run the application when the user starts a container based on this image.
-    CMD ["pm2-runtime", "ecosystem.config.cjs"]
+ # Copy the rest of the source files into the image.
+ COPY . .
 
-    ############ Two ways of writing CMD ##################
-    # ********1. Shell form*******#
-    CMD ["executable","param1","param2"] #(exec form)
-    CMD ["flask", "run", "--host", "0.0.0.0", "--port", "8000"]
+ # Copy the ecosystem configuration file
+ COPY ecosystem.config.cjs .
 
-    # ********1. exec form*******#
-    CMD command param1 param2 #(shell form)
-    CMD flask run --host 0.0.0.0 --port 8000
+ # Expose the port that the application listens on.
+ EXPOSE 55555
 
-   ```
+ # Run the application when the user starts a container based on this image.
+ CMD ["pm2-runtime", "ecosystem.config.cjs"]
 
-   - **NOTE: -** The build can also be done for the interpreter languages too, for building better container.
+ ############ Two ways of writing CMD ##################
+ # ********1. Shell form*******#
+ CMD ["executable","param1","param2"] #(exec form)
+ CMD ["flask", "run", "--host", "0.0.0.0", "--port", "8000"]
+
+ # ********1. exec form*******#
+ CMD command param1 param2 #(shell form)
+ CMD flask run --host 0.0.0.0 --port 8000
+
+```
+
+- **NOTE: -** The build can also be done for the interpreter languages too, for building better container.
 
 2. **[🔗docker-compose.yml Structure: -](https://docs.docker.com/reference/compose-file/)** _docker-compose file is only needed locally for building and runing the container, this is not needed in production_
 
@@ -365,22 +380,7 @@ docker tag <local_image_name>:<tag> <docker_hub_username>/<repository_name>:<tag
 docker push <docker_hub_username>/<repository_name>:<tag>
 ```
 
-## **Multi-stage builds: -** _The use of separate "build" and "run" stages in Dockerfiles is mostly needed for compiled languages. For interpreted languages like Node.js, it’s not required, but sometimes used to separate dev and prod dependencies._
-
-| Language | Needs Multi-Stage? | Why?                          |
-| -------- | ------------------ | ----------------------------- |
-| Java     | ✅ Yes             | Compile `.java` → `.jar`      |
-| Kotlin   | ✅ Yes             | Same as Java                  |
-| Go       | ✅ Often           | Compile binary                |
-| Rust     | ✅ Yes             | Heavy toolchain to compile    |
-| C/C++    | ✅ Yes             | Compiled binary               |
-| Node.js  | ❌ Optional        | No build step unless bundling |
-| Python   | ❌ No              | Direct execution              |
-| Ruby     | ❌ No              | Interpreted                   |
-
----
-
-## **Docker Security** _By default, **Docker containers run as the root user**, which poses security risks:_
+## **Docker Security** _By default, **Docker containers run as the root user**, which poses security risks⬇️:_
 
 1. **Privilege Escalation:** If an attacker compromises our app, they have root access, attacker can delete and create and run malicious scripts at the system level in our image/container
 2. **Container Escape:** Root access makes it easier to break out of the container
@@ -403,4 +403,22 @@ docker exec -it <container-name> whoami
 
 # Check user ID
 docker exec -it <container-name> id
+```
+
+so for security purpose always create the non-root user and switch to that like this
+
+```sh
+# Create user
+RUN addgroup -g 1001 nodejs \
+    && adduser -S appuser -u 1001 -G nodejs
+
+# chown = change ownership give the full write permissions → so they can rm, mv, touch, etc, so only allow those file write permission, that we want the user to change, or else remove this to not to give the write permission to any file to this user
+RUN chown -R appuser:nodejs /app
+
+# Switch to non-root user
+USER appuser
+```
+
+```sh
+docker exec -u 0 -it <container_name_or_id> sh # -u 0 specifies UID 0 → the root user.
 ```
