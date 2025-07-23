@@ -190,8 +190,7 @@ Docker is a platform for developing, shipping, and running applications in light
    this seems to be very complicated, this is what the docker compose⬇️ file make easier to run the container everytime.
 
    ```yml
-   version:
-     "3.8"
+   version: "3.8" # Docker Compose file format version **By default(reconmended: - (Docker Compose V2 CLI) read our docker-compose.yaml and automatically interpret it using the latest Compose Specification.) so version it not needed now days**
 
      # Service name (pghero) = Your choice for Docker Compose
      # Image name (ankane/pghero) = Fixed, from Docker Hub
@@ -286,9 +285,12 @@ docker build -t your-image-name .
 #  conainter-name and image-name can be same
 docker run -d --name my-container-name -p hostPort:containerPort my-image-name
 
-# To Access the container shell/ WORIDR
-docker exec -it wp sh
+# To Access the image shell/ WORIDR
+docker exec -it <image-name> sh
 # can perform all this action inside the shell
+ps aux  # See processes and their users
+whoami  # Check current user
+id      # Check user ID
 ls                # List files
 cd <dir>          # Change directory
 cat <file>        # View file contents
@@ -298,7 +300,16 @@ vi file.txt       # Open file in vi editor
 nano file.txt     # Open file in nano editor
 npm list          # List installed npm packages
 npm run <script>  # Run scripts defined in package.json
+exit              # To exit this shell
 etc..
+# See processes and their users
+docker exec -it <container-name> ps aux
+
+# Check current user
+docker exec -it <container-name> whoami
+
+# Check user ID
+docker exec -it <container-name> id
 
 # Docker Debug for seamless, persistent debugging tools in any container or image
 docker debug wp
@@ -369,18 +380,27 @@ docker push <docker_hub_username>/<repository_name>:<tag>
 
 ---
 
-```docker
-# Build
-# node-js example
-FROM node:18 as build
-WORKDIR /app
-COPY . .
-RUN npm ci
+## **Docker Security** _By default, **Docker containers run as the root user**, which poses security risks:_
 
-# Run
-FROM node:18-alpine
-WORKDIR /app
-COPY --from=build /app .
-CMD ["node", "server.js"]
+1. **Privilege Escalation:** If an attacker compromises our app, they have root access, attacker can delete and create and run malicious scripts at the system level in our image/container
+2. **Container Escape:** Root access makes it easier to break out of the container
+3. **Host System Risk:** If the container is compromised, the host system is more vulnerable
+4. **Compliance:** Many security policies require non-root execution
 
+```sh
+# To Access the image/container shell/ WORIDR
+docker exec -it <image-name> sh
+# can perform all this action inside the shell
+ps aux  # See processes and their users
+whoami  # Check current user
+id      # Check user ID
+
+# See processes and their users
+docker exec -it <container-name> ps aux
+
+# Check current user
+docker exec -it <container-name> whoami
+
+# Check user ID
+docker exec -it <container-name> id
 ```
