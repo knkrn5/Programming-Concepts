@@ -235,7 +235,7 @@ Docker is a platform for developing, shipping, and running applications in light
 
      # OR for env_file
      env_file:
-          - .env
+          - .env # Path where .env file is present
 
     java-backend:
     build:

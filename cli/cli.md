@@ -7,7 +7,7 @@
 1. **CMD: -** _In window **.bat** files, and also **.cmd** Command files (newer)_
 
    ```cmd
-   @REM any argument passed after the script call is treated as part of the script's argument list⬇️
+   @REM any argument passed after the script call is treated as part of the script's/command-line argument list⬇️
     frontend.bat --port 8000 port:3000
       . %0 → script name (e.g., frontend.bat)
       . %1 → --port
@@ -95,7 +95,7 @@
    # Run it
    ./frontend.sh
 
-   # any argument passed after the script call is treated as part of the script's argument list⬇️
+   # any argument passed after the script call is treated as part of the script's/command-line argument list⬇️
    ./frontend.sh --port 8000 port:3000
       # $0 → script name (./frontend.sh)
       # $1 → --port
