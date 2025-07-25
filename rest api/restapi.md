@@ -32,7 +32,7 @@ Technically, we can perform any action with any HTTP method, but each method has
 
 ---
 
-### **Request and Response**
+### **Request and Response⬇️**
 
 1. **HTTP Request Structure: -** _Http Request made to any server_
 
@@ -77,7 +77,7 @@ Technically, we can perform any action with any HTTP method, but each method has
         res.status(response.statusCode).json(response);  // So here we are sending the custom status code to request use res.status method in response. now the reponse received by the request will show this status code.
         // # and in  body via .json method in response we sending the actual data, now the response received by the request will so this so this data in body/ content.
       }
-      // In Express, we must use res to send the response to the client — we cannot return custom data from the controller method itself cause it ❌ Has no effect on the HTTP response. and the request will hang until Express times out or sends an empty default response. That’s because Express route handlers don't work with return statements for sending responses. The res object is how Express communicates back to the client
+      //ℹ️ In Express, we must use res to send the response to the client — we cannot return custom data from the controller method itself cause it ❌ Has no effect on the HTTP response. and the request will hang until Express times out or sends an empty default response. That’s because Express route handlers don't work with return statements for sending responses. The res object is how Express communicates back to the client
     } catch (error: unknown) {
       res
         .status(500)
@@ -98,6 +98,6 @@ Technically, we can perform any action with any HTTP method, but each method has
          status_code=res.status_code, # So here we are sending the custom status code to request. now the reponse received by the request will show this status code.
          media_type="application/json", # optional
       )
-      # In FastAPI, unlike Express.js, you can return any data directly, and FastAPI automatically converts it into a proper HTTP response behind the scenes, but if we would have send/ returned some custom data, not within the Http response, then in that case the status code to request will be automatically assigned(Mostly 200 status code), not in our control
+      #ℹ️ In FastAPI, unlike Express.js, we can return any data directly, and FastAPI automatically converts it into a proper HTTP response behind the scenes, but if we send/ returned some custom data, not within the Http response, then in that case the status code to request will be automatically assigned(Mostly 200 status code), not in our control
 
    ```
