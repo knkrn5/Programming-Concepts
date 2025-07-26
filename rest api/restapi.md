@@ -36,9 +36,8 @@ Technically, we can perform any action with any HTTP method, but each method has
 
 1. **HTTP Request Structure: -** _Http Request made to any server_
 
-   - Method (GET, POST, PUT, DELETE, etc.)⭐
    - URL/Path
-   - HTTP Version
+   - Method (GET, POST, PUT, DELETE, etc.)⭐
    - Request Headers
    - - Host:
    - - Authorization:
@@ -51,9 +50,62 @@ Technically, we can perform any action with any HTTP method, but each method has
    - Request Body(Optional - mainly for POST/PUT) (Content in py)
    - - contains the actual data that we send
 
+   ```js
+   // sending request with fetch
+   fetch("https://karan.email?name=karan&age=22", {
+     method: "POST",
+     headers: {
+       "Content-Type": "application/json",
+       authorization: "Bearer your_token_here",
+     },
+     body: JSON.stringify({
+       name: "Karan",
+       age: 22,
+     }),
+   });
+   ```
+
+   ```js
+   // sending request with axios
+   axios.post(
+     "https://karan.email?name=karan&age=22",
+     { // data sending via body
+       name: "Karan",
+       age: 22,
+     },
+     {
+      // in axios data via param can also be send like this⬇️
+      params : {
+         name: "karan",
+         age: 22
+      }
+       headers: {
+         "Content-Type": "application/json",
+         Authorization: "Bearer your_token_here",
+       },
+     }
+
+   );
+   ```
+
+   ```py
+   # sending request with python requests
+   import requests
+
+   response = requests.post(
+      "https://karan.email?name=karan&age=22",
+      # in python also we can send data via url query like this also like axios⬇️
+      params={"name": "karan", "age": 22},  url query
+      json={"name": "Karan", "age": 22}, # data sending via body
+      headers={
+         "Content-Type": "application/json",
+         "Authorization": "Bearer your_token_here"
+      }
+   )
+   ```
+
 2. **HTTP Response Structure: -** _Http Response recceived from the server_
 
-   - HTTP Version
    - Status Code (200, 404, 500, etc.)⭐: - this receives the status code, sent by the response from the server
    - - Status Message (Optionally like in node.js)
    - Response Headers (Metadata)
