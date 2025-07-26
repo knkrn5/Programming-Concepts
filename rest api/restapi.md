@@ -28,7 +28,7 @@ Technically, we can perform any action with any HTTP method, but each method has
 
 > ## **_Rest API Flow Diagram ⬇️_**
 
-![Rest API Flow Diagram](./imgs/restapiflowdiagram.png)
+![Rest API Flow Diagram](./imgs/restapiflowdiagram.svg)
 
 ---
 
