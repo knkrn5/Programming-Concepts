@@ -14,8 +14,14 @@ The key to mastering any programming language is knowing how to work with data �
 
 There are two types of programming language: -
 
-1. Statically Typed Programming language: - java, c , c++, go, rust, ts, kotin etc
-2. Dynamically Typed Programming language: - python, js, php etc
+1. **Statically Typed Programming language: -** java, c , c++, go, rust, ts, kotin etc
+2. **Dynamically Typed Programming language: -** python, js, php etc
+
+## **Platform Independent VS Platform dependent**
+
+1. **[🔗Platform dependent](../cpp/cpplang.md#c-platform-dependent)**
+
+2. **[🔗Platform Independent](../java/javalang.md#java-platorm-independent)**
 
 > ### **Application/Language-level Type-Checking (e.g., Java DTOs, Pydantic BaseModel)** 🆚 **Database/ORM/ODM-level Type-Checking (e.g., JPA @Entity, SQLAlchemy/SQLModel)⬇️**
 
