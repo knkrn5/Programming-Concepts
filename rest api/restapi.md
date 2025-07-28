@@ -129,3 +129,8 @@ Technically, we can perform any action with any HTTP method, but each method has
      #ℹ️ In FastAPI, unlike Express.js, we can return any data directly, and FastAPI automatically converts it into a proper HTTP response behind the scenes, but if we send/ returned some custom data, not within the Http response, then in that case the status code to request will be automatically assigned(Mostly 200 status code), not in our control
 
    ```
+
+### **API Security: -**
+
+1.
+2.

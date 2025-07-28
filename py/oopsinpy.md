@@ -1,12 +1,25 @@
 # **_OOPS in python_**
 
-## **Python: Declare Fields Inside Constructor**
+## **Python: Declare Fields Inside Constructor vs outside the constructor**
 
-```python
+```py
+# inside the constructor
 class User:
+    # In python variables declared inside the __init__() constructor are the instance variable, unique memory to each object.⬇️
     def __init__(self, name, age):
-        self.name = name   # Field declared here
+        self.name = name  
         self.age = age
+```
+
+```py
+class User:
+# feilds declared outside the constructor
+# In python variables are declared outside the __init__() constructor, are class-level fields but these are shared by all instances of the class. (same memory for all the instances)
+    name: str = "karan"
+    age: int = 23
+
+    def __init__(self, marks):
+        self.marks = marks
 ```
 
 > ## **Class in py = Template/Blueprint⬇️**

@@ -12,7 +12,7 @@ Object-Oriented Programming (OOP) is a programming paradigm based on the concept
 
 1. [fields declaration in java](../java/oopsinjava.md#java-declare-fields-at-class-level)
 2. [fields declaration in js](../js/oopsinjs.md#javascript-declare-fields-inside-the-constructor-or-with-class-fields--)
-3. [fields declaration in py](../py/oopsinpy.md#python-declare-fields-inside-constructor)
+3. [fields declaration in py](../py/oopsinpy.md#python-declare-fields-inside-constructor-vs-outside-the-constructor)
 
 - In both python and javascript any **variable declared inside the constructor are the instance variable**
 
