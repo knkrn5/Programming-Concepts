@@ -99,16 +99,19 @@ class User:
 
 > ## **Constructor in py⬇️**
 
-Types of constructors: - **Python provides a constructor default that takes no arguments (other than self)** and does nothing. but incase if we are uing pydantic in python then the **Pydantic will automatically create a default constructor(all arg constructor)**
+Types of constructors: - **Python provides a default constructor that takes no arguments (other than self)** and does nothing. but incase if we are using pydantic baseModel in python class(generally it is sub-class of pydantic baseModel) then the **Pydantic will automatically create a default constructor(all arg constructor)**
 
 1. **No-Arg/parameterless Constructor: -** _This is defualt in python, without pydantic_
 
-2. **All arg Constructor: -** _This is defualt in python pydantic_
+2. **All arg Constructor: -** _This is defualt in python pydantic(BaseModel) class(generally it is sub-class of baseModel)_
+
+   - We **generally inherit this pydantic BaseModel, while creating the python class**, and then this **subclass** of pydantic baseModel is called pydantic model
+
 3. **semi-Parameterized Constructor: -**
 
 > ### Private Constructor in py⬇️
 
-- Python does **not has built-in private constructors** like Java or C#. Here i have used clever/different pattern
+- Python does **not has built-in private constructors** like Java or C#. Here i have used workaround/different pattern
 - so when we make the private construction, we left with two appraoch: -
 
 1. **Singleton Pattern: -**
