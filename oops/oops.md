@@ -25,7 +25,7 @@ Class is template/ blueprint that is **used to create/inatialize an object** wil
 - How **objects are initialized** (constructors)
 
 1. [class in java](../java/javalang/oopsinjava.md#class-in-java--templateblueprint️)
-2. [class in js](../js/jslang/oopsinjs.md#class-in-js--templateblueprint️)
+2. [class in js](../jsANDts/jslang/oopsinjs.md#class-in-js--templateblueprint️)
 3. [class in py](../py/pylang/oopsinpy.md#class-in-py--templateblueprint️)
 
 ### **`⭐Member of class`: -** _A member of a class is anything that belongs to the class:_
@@ -72,7 +72,7 @@ Car car2 = new Car();  // car2 is another INSTANCE of Car class
 ```
 
 1. [object initialization in java](../java/javalang/oopsinjava.md#creating-initializing-object-in-java--instance-created-from-the-class-blueprint️)
-2. [object initialization in js](../js/jslang/oopsinjs.md#creating-initializing-object-in-js--instance-created-from-the-class-blueprint️)
+2. [object initialization in js](../jsANDts/jslang/oopsinjs.md#creating-initializing-object-in-js--instance-created-from-the-class-blueprint️)
 3. [object initialization in py](../py/pylang/oopsinpy.md#creating-initializing-object-in-py--instance-created-from-the-class-blueprint️)
 
 ---
@@ -103,7 +103,7 @@ Access modifiers are keywords that define the visibility/scope of classes, metho
 ![access modifier](./imgs/accessmodifiers.png)
 
 1. [access modifier in java](../java/javalang/oopsinjava.md#access-modifiers-in-java)
-2. [access modifier in js](../js/jslang/oopsinjs.md#access-modifiers-in-js)
+2. [access modifier in js](../jsANDts/jslang/oopsinjs.md#access-modifiers-in-js)
 3. [access modifier in py](../py/pylang/oopsinpy.md#access-modifiers-in-py)
 
 > ## **Constructor**
@@ -123,13 +123,13 @@ Access modifiers are keywords that define the visibility/scope of classes, metho
    - C++ leaves primitives uninitialized by default — risky without initialization.
 
    1. [constructor in java](../java/javalang/oopsinjava.md#constructor-in-java️)
-   2. [constructor in js](../js/jslang/oopsinjs.md#constructor-in-js️)
+   2. [constructor in js](../jsANDts/jslang/oopsinjs.md#constructor-in-js️)
    3. [constructor in py](../py/pylang/oopsinpy.md#constructor-in-py️)
 
 2. **Parameterized Constructor: -** Accepts parameters to initialize objects with specific values provided during creation. This allows for customized object initialization.
 
    1. [constructor in java](../java/javalang/oopsinjava.md#constructor-in-java️)
-   2. [constructor in js](../js/jslang/oopsinjs.md#constructor-in-js️)
+   2. [constructor in js](../jsANDts/jslang/oopsinjs.md#constructor-in-js️)
    3. [constructor in py](../py/pylang/oopsinpy.md#constructor-in-py️)
 
 3. **Copy Constructor (Custom): -** Creates a new object as a copy of an existing object. This is particularly important for deep copying when objects contain references to other objects.
@@ -154,7 +154,7 @@ so when we make the private construction, we left with two appraoch: -
    - Thread pools
 
    1. [private constructor in java](../java/javalang/oopsinjava.md#private-constructor-in-java️)
-   1. [private constructor in js](../js/jslang/oopsinjs.md#private-constructor-in-js️)
+   1. [private constructor in js](../jsANDts/jslang/oopsinjs.md#private-constructor-in-js️)
    1. [private constructor in py](../py/pylang/oopsinpy.md#private-constructor-in-py️)
 
 2. **Factory Methods: -** Factory methods (often called **"Static Factory Methods"** these are those method which has the static keyword in java and js or @staticmethod decorator in python **within the class itself**) are static methods that **return an instance of the class (or a subclass)**/ **return the objects created using the class blueprint** than direct constructor calls.
@@ -163,7 +163,7 @@ so when we make the private construction, we left with two appraoch: -
    - Static methods can only be access using the class name
 
    1. [private constructor in java](../java/javalang/oopsinjava.md#private-constructor-in-java️)
-   1. [private constructor in js](../js/jslang/oopsinjs.md#private-constructor-in-js️)
+   1. [private constructor in js](../jsANDts/jslang/oopsinjs.md#private-constructor-in-js️)
    1. [private constructor in py](../py/pylang/oopsinpy.md#private-constructor-in-py️)
 
 ## **Contructor Overloading**
