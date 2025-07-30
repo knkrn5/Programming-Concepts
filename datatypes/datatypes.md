@@ -19,9 +19,9 @@ There are two types of programming language: -
 
 ## **Platform Independent VS Platform dependent**
 
-1. **[🔗Platform dependent](../cpp/cpplang.md#c-platform-dependent)**
+1. **[🔗Platform dependent](../cpp/cpp.md#c-platform-dependent)**
 
-2. **[🔗Platform Independent](../java/javalang.md#java-platorm-independent)**
+2. **[🔗Platform Independent](../java/java.md#java-platorm-independent)**
 
 > ### **⭐Application/Language-level Type-Checking (e.g., Java DTOs, Pydantic BaseModel)** 🆚 **Database/ORM/ODM-level Type-Checking (e.g., JPA @Entity, SQLAlchemy/SQLModel)⬇️**
 
