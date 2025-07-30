@@ -4,6 +4,8 @@
 
 ![JS Diagram](./imgs/js-flow-chart.png)
 
+## **[🔗 OOPS in js](./jslang/oopsinjs.md)**
+
 ## **Variable Declaration**
 
 - Undefined 🆚 Not-Defined
@@ -75,3 +77,5 @@
    - Value Comparision
    - Type Comparision
    - Memory address(Reference) Comparision
+
+### deep vs shallow copy

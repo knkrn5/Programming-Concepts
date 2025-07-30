@@ -6,7 +6,7 @@
 
    ```javascript
    class User {
-     // fields/ variable declared inside the constructor are the intance variable
+     // fields(variable) declared inside the constructor are always the intance variable
      constructor(name, age) {
        // Instance variables
        this.name = name; // Field created dynamically

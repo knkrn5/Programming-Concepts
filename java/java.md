@@ -34,3 +34,5 @@
   ```
 
 - The human-readable version (NEW java/io/File) is just for our convenience. The actual .class file contains the numeric byte values that the JVM reads directly
+
+## **[🔗 OOPS in JAVA](./javalang/oopsinjava.md)**

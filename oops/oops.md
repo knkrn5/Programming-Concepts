@@ -10,9 +10,9 @@ Object-Oriented Programming (OOP) is a programming paradigm based on the concept
 
 > ## **Feild/ Variable declaration in Oops⬇️**
 
-1. [fields declaration in java](../java/oopsinjava.md#java-declare-fields-at-class-level)
-2. [fields declaration in js](../js/oopsinjs.md#javascript-declare-fields-inside-the-constructor-or-with-class-fields--)
-3. [fields declaration in py](../py/oopsinpy.md#python-declare-fields-inside-constructor-vs-outside-the-constructor)
+1. [fields declaration in java](../java/javalang/oopsinjava.md#java-declare-fields-at-class-level)
+2. [fields declaration in js](../js/jslang/oopsinjs.md#javascript-declare-fields-inside-the-constructor-or-with-class-fields--)
+3. [fields declaration in py](../py/pylang/oopsinpy.md#python-declare-fields-inside-constructor-vs-outside-the-constructor)
 
 - In both python and javascript any **variable declared inside the constructor are the instance variable**
 
@@ -24,9 +24,9 @@ Class is template/ blueprint that is **used to create/inatialize an object** wil
 - What **behaviors an object** can perform (methods)
 - How **objects are initialized** (constructors)
 
-1. [class in java](../java/oopsinjava.md#class-in-java--templateblueprint️)
-2. [class in js](../js/oopsinjs.md#class-in-js--templateblueprint️)
-3. [class in py](../py/oopsinpy.md#class-in-py--templateblueprint️)
+1. [class in java](../java/javalang/oopsinjava.md#class-in-java--templateblueprint️)
+2. [class in js](../js/jslang/oopsinjs.md#class-in-js--templateblueprint️)
+3. [class in py](../py/pylang/oopsinpy.md#class-in-py--templateblueprint️)
 
 ### **`⭐Member of class`: -** _A member of a class is anything that belongs to the class:_
 
@@ -71,9 +71,9 @@ Car car1 = new Car();  // car1 is an INSTANCE of Car class
 Car car2 = new Car();  // car2 is another INSTANCE of Car class
 ```
 
-1. [object initialization in java](../java/oopsinjava.md#creating-initializing-object-in-java--instance-created-from-the-class-blueprint️)
-2. [object initialization in js](../js/oopsinjs.md#creating-initializing-object-in-js--instance-created-from-the-class-blueprint️)
-3. [object initialization in py](../py/oopsinpy.md#creating-initializing-object-in-py--instance-created-from-the-class-blueprint️)
+1. [object initialization in java](../java/javalang/oopsinjava.md#creating-initializing-object-in-java--instance-created-from-the-class-blueprint️)
+2. [object initialization in js](../js/jslang/oopsinjs.md#creating-initializing-object-in-js--instance-created-from-the-class-blueprint️)
+3. [object initialization in py](../py/pylang/oopsinpy.md#creating-initializing-object-in-py--instance-created-from-the-class-blueprint️)
 
 ---
 
@@ -102,9 +102,9 @@ Access modifiers are keywords that define the visibility/scope of classes, metho
 
 ![access modifier](./imgs/accessmodifiers.png)
 
-1. [access modifier in java](../java/oopsinjava.md#access-modifiers-in-java)
-2. [access modifier in js](../js/oopsinjs.md#access-modifiers-in-js)
-3. [access modifier in py](../py/oopsinpy.md#access-modifiers-in-py)
+1. [access modifier in java](../java/javalang/oopsinjava.md#access-modifiers-in-java)
+2. [access modifier in js](../js/jslang/oopsinjs.md#access-modifiers-in-js)
+3. [access modifier in py](../py/pylang/oopsinpy.md#access-modifiers-in-py)
 
 > ## **Constructor**
 
@@ -122,15 +122,15 @@ Access modifiers are keywords that define the visibility/scope of classes, metho
 
    - C++ leaves primitives uninitialized by default — risky without initialization.
 
-   1. [constructor in java](../java/oopsinjava.md#constructor-in-java️)
-   2. [constructor in js](../js/oopsinjs.md#constructor-in-js️)
-   3. [constructor in py](../py/oopsinpy.md#constructor-in-py️)
+   1. [constructor in java](../java/javalang/oopsinjava.md#constructor-in-java️)
+   2. [constructor in js](../js/jslang/oopsinjs.md#constructor-in-js️)
+   3. [constructor in py](../py/pylang/oopsinpy.md#constructor-in-py️)
 
 2. **Parameterized Constructor: -** Accepts parameters to initialize objects with specific values provided during creation. This allows for customized object initialization.
 
-   1. [constructor in java](../java/oopsinjava.md#constructor-in-java️)
-   2. [constructor in js](../js/oopsinjs.md#constructor-in-js️)
-   3. [constructor in py](../py/oopsinpy.md#constructor-in-py️)
+   1. [constructor in java](../java/javalang/oopsinjava.md#constructor-in-java️)
+   2. [constructor in js](../js/jslang/oopsinjs.md#constructor-in-js️)
+   3. [constructor in py](../py/pylang/oopsinpy.md#constructor-in-py️)
 
 3. **Copy Constructor (Custom): -** Creates a new object as a copy of an existing object. This is particularly important for deep copying when objects contain references to other objects.
 
@@ -153,18 +153,18 @@ so when we make the private construction, we left with two appraoch: -
    - Cache managers
    - Thread pools
 
-   1. [private constructor in java](../java/oopsinjava.md#private-constructor-in-java️)
-   1. [private constructor in js](../js/oopsinjs.md#private-constructor-in-js️)
-   1. [private constructor in py](../py/oopsinpy.md#private-constructor-in-py️)
+   1. [private constructor in java](../java/javalang/oopsinjava.md#private-constructor-in-java️)
+   1. [private constructor in js](../js/jslang/oopsinjs.md#private-constructor-in-js️)
+   1. [private constructor in py](../py/pylang/oopsinpy.md#private-constructor-in-py️)
 
 2. **Factory Methods: -** Factory methods (often called **"Static Factory Methods"** these are those method which has the static keyword in java and js or @staticmethod decorator in python **within the class itself**) are static methods that **return an instance of the class (or a subclass)**/ **return the objects created using the class blueprint** than direct constructor calls.
 
    - **WHY DO WE NEED STATIC IN OOPS?** = ℹ️So whenever we create any new instance **each and every instance takes up its own different/ sperate memory** and all the **variable and method of each instace will be sperate form the other instance** created using the same class, so there are time **when we need to share the same variable and method accross all the instances**, in that case we need the **static variable and method because static variables and methods are have the same memory which is shareed accross all the instances** created using that same class blueprint. thus the value and the output of the static variable and method will be same in all the instances
    - Static methods can only be access using the class name
 
-   1. [private constructor in java](../java/oopsinjava.md#private-constructor-in-java️)
-   1. [private constructor in js](../js/oopsinjs.md#private-constructor-in-js️)
-   1. [private constructor in py](../py/oopsinpy.md#private-constructor-in-py️)
+   1. [private constructor in java](../java/javalang/oopsinjava.md#private-constructor-in-java️)
+   1. [private constructor in js](../js/jslang/oopsinjs.md#private-constructor-in-js️)
+   1. [private constructor in py](../py/pylang/oopsinpy.md#private-constructor-in-py️)
 
 ## **Contructor Overloading**
 

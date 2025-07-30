@@ -50,3 +50,5 @@ main:
 
 str_hello: db "Hello World", 0
 ```
+
+## **[🔗 OOPS in CPP](./cpplang/oopsincpp.md)**
