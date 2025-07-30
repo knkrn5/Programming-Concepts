@@ -34,32 +34,27 @@
    - Memory address(Reference) Comparision
 
    ```js
-   // === Examples (Strict)
+   // === Examples (Strict) compartion
    5 === 5        // true (same value and type)
    5 === '5'      // false (different types)
    null === undefined  // false
    [] === []      // false (different objects)
-
-   // == Examples (Loose) (== performs automatic type coercion)
-   5 == '5'       // true (string '5' is converted to number 5)
-   0 == false     // true (false is converted to 0)
-   null == undefined  // true
-   [] == false    // true (both are converted to 0)
-
-   // Boolean converts to number first
-   true == 1     // true (true → 1)
-   false == 0    // true (false → 0)
-   true == "1"   // true (true → 1, then "1" → 1)
-
-   value == null; /* Checks if value is either null or undefined. */
-   // The double equals == works for both null and undefined
-
-   (5 != '5'); // false (because '5' is converted to 5)
-   (null != undefined); // false (they are considered equal in loose comparison)
-   (0 != false); // false (false is converted to
    (5 !== '5'); // true (number vs string, no coercion)
    (null !== undefined); // true (different types)
    (0 !== false); // true (number vs boolean)
+
+   // == Examples (Loose) (== performs automatic type coercion)
+   //ℹ️ Convertion priority give to number(every type si first converted to number)
+   5 == '5'       // true (string '5' is converted to number 5)
+   0 == false     // true (false is converted to 0)
+   true == "1"   // true (true converted to 1, then "1" converted to 1)
+   null == undefined  // true, Unlike many other == comparisons, null and undefined are only loosely equal to each other, and not to any number, even 0.
+   [] == false    // true (both are converted to 0)
+   [] == 0 // true → [] becomes "" → then "" becomes 0
+   " \t\n" == 0;    // true → whitespace string → becomes 0
+   (5 != '5'); // false (because '5' is converted to 5)
+   (0 != false); // false (false is converted to
+
    ```
 
 ### deep vs shallow copy

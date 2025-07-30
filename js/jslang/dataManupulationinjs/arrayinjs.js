@@ -53,3 +53,9 @@ arr.splice(1, 1); // Removes the element at index 1
 
 console.log(arr);
 // Output: [10, 30]
+
+arr.push(40); // Adds the element 40 to the end of the array
+arr.unshift(5); // Adds the element 5 to the beginning of the array
+
+
+// 🎯 Inbuilt Array methods in js(.map, .filter, .reduce, .some, .every)
