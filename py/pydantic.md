@@ -14,7 +14,9 @@
    ```py
    # JSON/Dict → Object
    product = allProductsTypes(**data_dict)  # From dict
+   #or
+   product = allProductsTypes.model_validate(data_dict)  # using model_validate
    product = allProductsTypes.model_validate_json(json_string)  # From JSON
    ```
 
-   - `**` unpacks the dictionary **`item` into keyword arguments** This part uses Python's `**kwargs unpacking` to convert each dictionary (item) into keyword arguments and then instantiates the class (or Pydantic model)
+   - `**` unpacks the dictionary **`item` into keyword arguments** This part uses Python's `**kwargs(keyword arguments) unpacking` to convert each dictionary (item) into keyword arguments and then instantiates the class (or Pydantic model)

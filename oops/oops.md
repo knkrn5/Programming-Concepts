@@ -89,7 +89,7 @@ Car car2 = new Car();  // car2 is another INSTANCE of Car class
 
 **Ques 1.** why the Non-static variable and methods are called Instance variable and method even tho those are written inside class blueprint
 
-- **Ans 1: -** Class is just a blueprint, so we want to **use the class non-static fields/ variable and methods, we will always have to create a instance**, and these **instance will let us use the non-static fields and methods of the class**, thatswhy all the non-static fields/ variables and methods are called instance fields/ variables and methods,
+- **Ans 1: -** Class is just a blueprint, so if we want to **use the class non-static fields(variable) and methods, we will always have to create a instance from that class**, and these **instance will let us use the non-static fields and methods of the class**, thatswhy all the non-static fields/ variables and methods are called instance fields/ variables and methods and not the class variables or methods,
 - and **static variables and methods of the class are not called the instance variables and methods** because **these can be used directly using the class name**, but the **non-static fields and variables cannot be used using the class name**
 
 **Ques 2.** Even the static variables and methods are accesscible via instance then why do we don't called them the instance fields/ variables or methods.

@@ -4,7 +4,7 @@
 
 ```sh
 npm i or npm install # for installing node packages
-npm ci # (clean install) Requires package-lock.json, Strictly installs packages exactly as defined in package-lock.json
+npm ci # (clean install) Requires package-lock.json, Strictly installs packages exactly as defined in package-lock.json and not from the package.json
 ```
 
 > ## **PIP (Pip Install Packages): -** _Package downloader and manager for python_
