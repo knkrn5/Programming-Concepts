@@ -38,7 +38,7 @@ Class is template/ blueprint that is **used to create/inatialize an object** wil
 
   **1. Class Members (Static Members): -** _Static variables and methods are called the class members and not the instance member_
 
-  - Therefore: **Static methods can't use this/self because there's no instance to refer to!**
+  - Therefore: **Static methods can't use this/self because there's no instance to refer to**
 
   **2. Instance Members (Non-static members): -** _Non-Static variables and methods are called the Instance members_
 
@@ -100,7 +100,7 @@ Car car2 = new Car();  // car2 is another INSTANCE of Car class
 
 Access modifiers are keywords that define the visibility/scope of classes, methods, constructors, and fields (variables).
 
-![access modifier](./imgs/accessmodifiers.png)
+![access modifier](./oops-img/accessmodifiers.png)
 
 1. [access modifier in java](../java/javalang/oopsinjava.md#access-modifiers-in-java)
 2. [access modifier in js](../jsANDts/jslang/oopsinjs.md#access-modifiers-in-js)
@@ -114,7 +114,7 @@ Access modifiers are keywords that define the visibility/scope of classes, metho
 ### **Types of Constructor: -**
 
 1. **No-Arg/parameterless Constructor: -** Takes no parameters and initializes objects with default values. If you don't define any constructor, **many languages provide a default one automatically.(Generally No arg Contructor)**
-   ![defaultValueOfConstructor](./imgs/defaultValueOfConstructor.png)
+   ![defaultValueOfConstructor](.//oops-img/defaultValueOfConstructor.png)
 
    - Java & Kotlin & c# provide safe defaults (0, false, null).
 
