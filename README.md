@@ -27,7 +27,7 @@
 
 ## 🚀 Core Concepts
 
-1. ### **[🔗OOPS Concept](./oops/oops.md)**
+1. ### **[🔗OOPS Concept](./programming-langs/oops.md)**
 
 2. ### **[🔗🌐Rest API Concept](./rest%20api/restapi.md)**
 

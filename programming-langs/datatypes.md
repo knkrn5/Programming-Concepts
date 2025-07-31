@@ -6,7 +6,14 @@ The key to mastering any programming language is knowing how to work with data �
 
 > ## **_Datatypes Flow Diagram⬇️_**
 
-![datatypes flow diagram](./imgs/datatypesflowdiagram.png)
+![datatypes flow diagram](./datatypes-imgs/datatypesflowdiagram.png)
+
+### Types of Brackets we have: -
+
+1. **Parentheses ( ) : -** _In Programming_
+2. **Square Brackets [ ] : -**
+3. **Curly Brackets { } : -**
+4. **Angle Brackets < > : -** _Used in HTML/XML tags, template parameters (C++), and some mathematical or technical notations_
 
 - NOTE: Datatypes differs based on different programming language and there sizes
 
@@ -26,4 +33,4 @@ There are two types of programming language: -
 > ### **⭐Application/Language-level Type-Checking (e.g., Java DTOs, Pydantic BaseModel)** 🆚 **Database/ORM/ODM-level Type-Checking (e.g., JPA @Entity, SQLAlchemy/SQLModel)⬇️**
 
 - Like in java **Jpa-hibernate** if the class is created using **@entity** annotation (jakarta validation will not work on @entity tables/class, will only work on normal DTO) then the normal java DTO type-check will fail even after adding **@validate**
-- similarly in python **sqlalchamy** if the class is created using the **SQLModel** (pydantic validations will not work on sqlModel table, will only work on baseModel)(Pydantic won't validate the model data unless we parse it. like this `base_model_name(**data` then assigning this to SQLmodel  ), then the normal pydantic type-check **(BaseModel)** will fail. ( Pydantic validation does happen when we instantiate a SQLModel object.)
+- similarly in python **sqlalchamy** if the class is created using the **SQLModel** (pydantic validations will not work on sqlModel table, will only work on baseModel)(Pydantic won't validate the model data unless we parse it. like this `base_model_name(**data` then assigning this to SQLmodel ), then the normal pydantic type-check **(BaseModel)** will fail. ( Pydantic validation does happen when we instantiate a SQLModel object.)
