@@ -1,9 +1,18 @@
 # **TypesScripts**
 
-## js 🆚 ts
+## **Type Declaration is TS**
+
+```ts
+interface typeProps {
+  func: (a: number) => void; // function type defining old way
+  func2(a: string, b: number): void | null; // function type defining modern way
+}
+```
+
+### js 🆚 ts
 
 - TypeScript has tuples, JavaScript does not have tuples (natively, as of now)
 
 ```ts
-let user: [string, number, boolean] = ["Alice", 25, true]; // This is a tuple type
+let user: [string, number, boolean] = ["Alice", 25, true]; // This is a tuple type in ts
 ```

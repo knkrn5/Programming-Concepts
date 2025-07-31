@@ -1,3 +1,4 @@
+
 # 🎯 Unlimited args in python definition
 # **kargs lets us pass unlimited named argument and then converts all the passed arguments into a dictionary: - kargs = {key: value}
 def greet_user(**kwargs):
