@@ -16,3 +16,16 @@ interface typeProps {
 ```ts
 let user: [string, number, boolean] = ["Alice", 25, true]; // This is a tuple type in ts
 ```
+
+```ts
+// need to learn about these types of type checking more in detail
+const conn = navigator.connection as NetworkPropTypes;
+
+const battery = await(
+  navigator.getBattery as () => Promise<BatteryPropTypes>
+)();
+
+interface UserAgentData {
+  getHighEntropyValues(hints: string[]): Promise<UserAgentPropTypes>;
+}
+```
