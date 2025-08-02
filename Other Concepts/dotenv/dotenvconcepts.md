@@ -37,7 +37,7 @@ so whenever we use the process.env in node.js, os.evion in python or system.gete
 
 - ### Frontend runs in the browser, which cannot access .env files at runtime
 
-- .env variables in frontend projects are **injected at build time, not runtime.**
+- .env variables in frontend projects are **injected at build time into the source code itself, not runtime.**
 
   | Framework            | Public Prefix Required | Example                                     |
   | -------------------- | ---------------------- | ------------------------------------------- |

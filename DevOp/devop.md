@@ -1,8 +1,16 @@
 # **DevOp Concepts**
 
-## **Infratructure**
+## **Environment Isolation or Environment Management: -** _This means each environment has its own dedicated infrastructure, including:_
 
-## **Hosting Platforms**
+- **Databases:** Each environment connects to a different database, preventing test data from mixing with real user data.
+
+- **Servers & Hosting:** Code for each branch runs on a different server. Staging and testing branches are often privately hosted (e.g., behind a VPN or password-protected) so they aren't accessible to the public.
+
+- **Services:** Any other services, like a Content Management System (CMS), caching layers, or third-party APIs, have separate instances or use different credentials for each environment.
+
+### **Infratructure**
+
+### **Hosting Platforms**
 
 1. **Railway deploys all applications using Docker under the hood**, but it provides both Dockerfile-based and native (non-Docker) workflows.
    - Railway auto-detects your project type (like Node.js, Python, Go, Java, etc.) based on the repository contents and **uses internal Docker templates** to build and run it. **(Native Build (No Dockerfile Required) – "Zero Config")**
