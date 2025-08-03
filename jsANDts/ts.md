@@ -28,4 +28,8 @@ const battery = await(
 interface UserAgentData {
   getHighEntropyValues(hints: string[]): Promise<UserAgentPropTypes>;
 }
+
+const pass: string = (prompt("enter password to access the app") as string)
+  .trim()
+  .toLowerCase();
 ```
