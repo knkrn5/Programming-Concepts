@@ -32,6 +32,7 @@
 
 1. **[🔗Dotenv Concept](./Other%20Concepts/dotenv/dotenvconcepts.md)**
 2. **[🔗Mail Concept](./Other%20Concepts/mail/mail.md)**
+3. **[🔗RealTime Events](./Other%20Concepts/realTimeEvents/sseVSwesocket.md)**
 
 <details>
 <summary>Dropdown Title</summary>

@@ -58,4 +58,4 @@ arr.push(40); // Adds the element 40 to the end of the array
 arr.unshift(5); // Adds the element 5 to the beginning of the array
 
 
-// 🎯 Inbuilt Array methods in js(.map, .filter, .reduce, .some, .every)
+// 🎯 Inbuilt Array methods in js(.map, .filter, .reduce, .some, .every, .split)
