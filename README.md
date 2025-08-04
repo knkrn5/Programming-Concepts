@@ -32,7 +32,9 @@
 
 1. **[🔗Dotenv Concept](./Other%20Concepts/dotenv/dotenvconcepts.md)**
 2. **[🔗Mail Concept](./Other%20Concepts/mail/mail.md)**
-3. **[🔗RealTime Events](./Other%20Concepts/realTimeEvents/sseVSwesocket.md)**
+3. **⌛RealTime Events**
+   - [🔗SSE](./Other%20Concepts/realTimeEvents/sse.md)
+   - [🔗WebSocket](./Other%20Concepts/realTimeEvents/websocket.md)
 
 <details>
 <summary>Dropdown Title</summary>
@@ -40,13 +42,3 @@
 - Dropdown content goes here. It can contain text, lists, and even code blocks.
 
 </details>
-
-```mermaid
-graph TD;
-A[Start] --> B(Process Data);
-B --> C{Decision};
-C -->|Yes| D[End];
-C -->|No| E[Go Back];
-E --> B;
-J[User Input] --> E;
-```
