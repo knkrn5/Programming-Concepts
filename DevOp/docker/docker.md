@@ -26,7 +26,7 @@ Docker is a platform for developing, shipping, and running applications in light
         # All following commands (like RUN, CMD, ENTRYPOINT, COPY, and ADD) will be executed from this directory inside the container.
 
         # 📦 Copy package files and install dependencies
-        COPY <src> <dest> # Copies new files or directories from <src> and adds them to the filesystem of the container at the path <dest>.
+        COPY <source_path> <destination_path> # Copies new files or directories from <source>(from the host system) and adds them to the filesystem of the container at the path <destination>(in the container WORKDIR).
 
         RUN <command> # Executes any commands in a new layer on top of the current image and commits the result. RUN also has a shell/ bash form for running commands.
         # like installing the dependencies first (better for caching).
@@ -84,7 +84,7 @@ Docker is a platform for developing, shipping, and running applications in light
 | Python   | ❌ No              | Direct execution              |
 | Ruby     | ❌ No              | Interpreted                   |
 
----
+***
 
 ```docker
  FROM eclipse-temurin:17-jdk AS build
@@ -298,9 +298,8 @@ Docker is a platform for developing, shipping, and running applications in light
 
 ##### Dockerfile #####
 
-# -t your-image-name: Tags your image with a name (e.g., my-app).
-# This dot . tells Docker to look for the Dockerfile in the current directory.
-docker build -t your-image-name .
+# -t our-image-name: Tags your image with a name (e.g., my-app).
+docker build -t your-image-name . # This dot . tells Docker to look for the Dockerfile in the current directory.
 
 # Run the container
 # -d: Detached mode (runs in background).
