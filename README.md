@@ -32,13 +32,10 @@
 
 1. **[🔗Dotenv Concept](./Other%20Concepts/dotenv/dotenvconcepts.md)**
 2. **[🔗Mail Concept](./Other%20Concepts/mail/mail.md)**
-3. **⌛RealTime Events**
-   - [🔗SSE](./Other%20Concepts/realTimeEvents/sse.md)
-   - [🔗WebSocket](./Other%20Concepts/realTimeEvents/websocket.md)
+3. <details>
+   <summary><b>⌛RealTime Events</b></summary>
 
-<details>
-<summary>Dropdown Title</summary>
+   - **[🔗SSE](./Other%20Concepts/realTimeEvents/sse.md)**
+   - **[🔗WebSocket](./Other%20Concepts/realTimeEvents/websocket.md)**
 
-- Dropdown content goes here. It can contain text, lists, and even code blocks.
-
-</details>
+   </details>

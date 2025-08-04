@@ -11,7 +11,9 @@ git pull origin main
 git stash # this to temporarily saving (storing) your uncommitted changes (modified or new files) so you can switch branches or do other operations without losing those changes
 git stash pop # Applies the stashed changes back to your current branch, in this way we can push changes made in main branch to staging branch(by switch branch after stashing) without needing to merge.
 
-git checkout <branch name> # to go into specific branch
+git checkout <branch name> # to switch into specific branch 
+#OR 
+git switch <branch-name>
 git checkout <branch name> -- path/to/file # to stag the specific file changes from that branch where we have already made the changes, while being in the branch, in which we want to merge the changes
 ```
 
@@ -36,5 +38,16 @@ git reset HEAD unwanted-file.js  # Unstage files you don't want
 git commit -m "Selective merge from staging"
 ```
 
-### **[🔗GitHub yml File Structure](../DevOp/github-action/workflow.md#github-actions-yaml-workflow-file)**
+```sh
+git remote -v
+git remote remove <remote-name>
 
+```
+
+```sh
+git worktree list
+git subtree push --prefix backend heroku-backend main
+```
+
+
+### **[🔗GitHub yml File Structure](../DevOp/github-action/workflow.md#github-actions-yaml-workflow-file)**
