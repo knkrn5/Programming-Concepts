@@ -1,4 +1,4 @@
-//👉 In JavaScript, object keys are always strings or symbols.
+//👉 In JavaScript, object keys are always strings or symbols(Created with Symbol("word-name")).
 /* 👉 In JavaScript, whenever we want to add any already declared variable, as the property in an object, we have to always wrap that word in square brackets [] in object, 
  and ℹ️the value of that variable will become the key name in the object */
 // 👉
@@ -52,5 +52,30 @@ console.log(a[b]);  // Output: { name: 'ankit' }
 
 
 //=======================================================
-// In JavaScript’s Map, you can use any value as a key — not just strings.
+// In JavaScript’s Map Constructor, you can use any value as a key — not just strings.
 
+
+//===============================
+//🎯Object.entries(object): - This method returns an array of a given object's, containing nested enumerable arrays (one per key-value pair)..
+const user = {
+    name: "Karan",
+    age: 22,
+    country: "India"
+};
+
+console.log(Object.entries(user));
+
+// Output:
+// [
+//   ["name", "Karan"],
+//   ["age", 22],
+//   ["country", "India"]
+// ]
+
+for (const [key, value] of Object.entries(user)) {
+  console.log(`${key} → ${value}`);
+}
+// OR
+Object.entries(user).map(([key, value]) => (
+    console.log(`${key} → ${value}`)
+));

@@ -14,6 +14,12 @@ git add .
 git commit -m "msg"
 git push origin main
 
+git branch
+git branch --show-current
+git checkout -b <branch-name> # Creates and switches to feature-branch from the current branch
+git branch -d <branch-name> # Deletes the branch locally if it has been fully merged into another branch
+git branch -D <branch-name> # to force delete even if unmerged
+
 git stash # this to temporarily saving (storing) your uncommitted changes (modified or new files) so you can switch branches or do other operations without losing those changes
 git stash pop # Applies the stashed changes back to your current branch, in this way we can push changes made in main branch to staging branch(by switch branch after stashing) without needing to merge.
 
@@ -50,6 +56,8 @@ git remote remove <remote-name> # to remove a existing remote repository from ou
 git remote rename <old remote name> <new remote name> # Rename a remote
 git remote set-url <remote-name> <new url> # Change remote URL
 git fetch #  downloads objects and refs (branches, tags, etc.) from a remote repository to our local repository without merging them into our current working branch.
+git fetch --all # to fetch all branches (both remote and local)
+git fetch <remote name> --prune # This removes local references to deleted remote branches
 git merge # merges the changes with the current branch
 
 
@@ -57,5 +65,6 @@ git merge # merges the changes with the current branch
 
 ```sh
 git worktree list
-git subtree push --prefix backend <remote-name> <remote-branch-type>
+git subtree push --prefix <sub-dir name> <remote-name>  <remote-branch-type> # to push a specific subdirectory of your Git repository to a remote repository
+git subtree split --prefix=<sub-dir name> -b <create new branch name>
 ```
