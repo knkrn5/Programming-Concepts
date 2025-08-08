@@ -2,6 +2,8 @@
 
 ## ⭐The key to mastering any programming language is knowing how to work with data — understanding Type-checking, transforming, and manipulating( serializing, Parsing (De-serializing)) all types of data structures like **_(Primitive, Non-primitive and User-defined/abstract Datatypes)⭐_**
 
+> ### **Practical Learning >>>>> Theoritical Learning**
+
 ### **[🔗DataTypes](./programming-langs/datatypes.md)**
 
 > ## **Language-Agnostic Thinking**
