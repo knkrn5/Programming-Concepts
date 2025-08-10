@@ -1,11 +1,15 @@
 # **_Package managers_**
 
-> ## **NPM (Node Package Manager): -** _Package installer and manager for node_
+> ## **npm vs yarn vs pnpm vs bun: -** _All of them are Node.js package managers — but with some differences in goals, performance, and features._
+
+### **NPM (Node Package Manager): -** _Package installer and manager for node_
 
 ```sh
 npm i or npm install # for installing node packages
 npm ci # (clean install) Requires package-lock.json, Strictly installs packages exactly as defined in package-lock.json and not from the package.json
 ```
+
+
 
 > ## **PIP (Pip Install Packages): -** _Package downloader and manager for python_
 
@@ -13,7 +17,7 @@ npm ci # (clean install) Requires package-lock.json, Strictly installs packages 
 pip install # for installing python packages
 ```
 
-> ## **Gradle/Maven**
+> ## **Gradle vs Maven**
 
 ## **Other Package Manager** _scoop, Choclatroy, brew(MacOS) etc.._
 

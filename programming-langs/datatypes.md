@@ -11,8 +11,10 @@ The key to mastering any programming language is knowing how to work with data â
 ### Types of Brackets we have: -
 
 1. **Parentheses ( ) : -** _In Programming_
-2. **Square Brackets [ ] : -**
-3. **Curly Brackets { } : -**
+   - In python, data in brackets like ("name", "age", "gender") **represents tuple**
+
+2. **Square Brackets [ ] : -** _In programming square bracket generally represents array like in js and py_
+3. **Curly Brackets { } : -** _In programming curly bracket generally represents object like in js and py_
 4. **Angle Brackets < > : -** _Used in HTML/XML tags, template parameters (C++), and some mathematical or technical notations_
 
 - NOTE: Datatypes differs based on different programming language and there sizes

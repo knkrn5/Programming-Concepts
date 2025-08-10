@@ -303,7 +303,7 @@ docker build -t your-image-name . # This dot . tells Docker to look for the Dock
 
 # Run the container
 # -d: Detached mode (runs in background).
-# --name your-container-name: Names the container.
+# --name our-container-name: Names the container.
 # -p host:container: Maps a port from your machine to the container.
 #  conainter-name and image-name can be same
 docker run -d --name my-container-name -p hostPort:containerPort my-image-name
@@ -369,7 +369,8 @@ docker builder prune -a
 
 ##### Docker-Compose #####
 # To build and run application via docker-compose file
-docker compose up --build
+docker compose up --build # by defualt this command looks for the compose.yml/ docker-compose.yml/ docker-compose.yaml file in the root directory
+docker compose -f ./some/path/docker-compose.yml up --build # mention path is compose-file is not in the root dir
 # To again build the contain without and previous cache
 docker-compose build --no-cache
 # To log the details fo the build

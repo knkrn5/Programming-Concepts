@@ -1,16 +1,18 @@
 //👉 In JavaScript, object keys are always strings or symbols(Created with Symbol("word-name")).
 /* 👉 In JavaScript, whenever we want to add any already declared variable, as the property in an object, we have to always wrap that word in square brackets [] in object, 
  and ℹ️the value of that variable will become the key name in the object */
-// 👉
+// 👉 in JavaScript, if an object property name contains spaces or other special characters that aren’t valid in identifiers, you must wrap it in quotes (single ' or double ").
 
 //==============================================================
 // adding property in object in js
-const obj = { name: "Karan" };
+const obj = { name: "Karan", 
+    "home address": "123 Main St"
+ };
 
 // Dot notation
 obj.age = 25;
 
-// Bracket notation
+// Bracket notation : - this is more useful when the property name contain spaces like: - "home address"
 obj["city"] = "Delhi";
 
 console.log(obj);
