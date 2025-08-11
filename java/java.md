@@ -1,6 +1,6 @@
 # **JAVA Programming Language**
 
-java byte code is like a docker container with is platform indepentent, lilke in java jvm is os dependant with runs converts the byte-code to the machine-specific instruction, similarly docker engine is os-dependent with run all the container build in any platform ?
+`java byte` code is like a `docker container` which is platform indepentent, like in java `JVM` is OS dependant which converts the byte-code to the machine-specific instruction, similarly `docker engine` is os-dependent which run can all the container build in any platform.
 
 ## **JAVA Platorm Independent**
 

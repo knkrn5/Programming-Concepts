@@ -177,3 +177,5 @@ Types of constructors: -
    ```
 
 2. **Factory Methods: -**
+
+### **Nested Class in js: -**

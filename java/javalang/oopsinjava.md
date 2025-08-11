@@ -109,7 +109,14 @@ public class User {
 - Java automatically/ implicitly passes **this** — so we don’t include it in method signatures. **(method signature includes Method name, Parameter types (and sometimes parameter count) and Parameter order).**
 - Mostly used when local and instance variables have the same name: - **`Shadowing`** is when a local variable or method parameter has the same name as an instance or class variable, which causes the local one to "hide" or "shadow" the outer one.
 
-### **`final`** keyword in java: - __
+### **`final`** keyword in java: - _By the name only we can understand, final value - once declared cannot be changed later._
+
+1. **Final Variables: -**
+   1. Instance Variable: -
+   2. Local Variables: -
+   3. Static Final Variables (Constants): -
+2. **Final Methods: -**
+3. **Final Classes: -**
 
 > ## **Constructor in java⬇️**
 
@@ -211,6 +218,11 @@ Types of constructors: - In java if we don't write any constructor it will autom
    ```
 
 ---
+
+### **Nested Class in java: -** _In Java, nested classes (both static and non-static) follow the same constructor rules as top-level classes._
+
+- If we don’t write any constructor at all, Java will create a default no-args constructor automatically
+- If we define any constructor, Java will not create the no-args one for you — you must explicitly write it if you need it.
 
 ### **equal() and hashcode(): -** _usefull for nested classes_
 

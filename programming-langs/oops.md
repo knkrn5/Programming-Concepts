@@ -28,25 +28,19 @@ Class is template/ blueprint that is **used to create/inatialize an object** wil
 2. [class in js](../jsANDts/jslang/oopsinjs.md#class-in-js--templateblueprint️)
 3. [class in py](../py/pylang/oopsinpy.md#class-in-py--templateblueprint️)
 
-### **`⭐Member of class`: -** _A member of a class is anything that belongs to the class:_
+### **`⭐Whats are Members in OOPS: -`: -** A members are **Variables (called fields or attributes)**, **Methods (functions defined in the class)** and **Inner classes (Nested class), constants etc in a class Blueprint**
 
-- Variables (called fields or attributes)
-- Methods (functions defined in the class)
-- Inner classes (Nested class), constants, etc.
+### **Types of Members: -**
 
-- ### **Types of Members: -**
+**1. Class Members (Static Members): -** _Static variables and methods are called the class members and not the instance member_
 
-  **1. Class Members (Static Members): -** _Static variables and methods are called the class members and not the instance member_
+- Therefore: **Static methods can't use this/self because there's no instance to refer to**
 
-  - Therefore: **Static methods can't use this/self because there's no instance to refer to**
+**2. Instance Members (Non-static members): -** _Non-Static variables and methods are called the Instance members_
 
-  **2. Instance Members (Non-static members): -** _Non-Static variables and methods are called the Instance members_
-
-  - **In java: -** Technically Static variables and methods CAN be accessed through instances (though it's not recommended style, alway access Static method via class name only.), but static methods CANNOT access instance variables/methods because they don't know which instance. [static vs instance in java](../java/oopsinjava.md#creating-initializing-object-in-java--instance-created-from-the-class-blueprint️)
-  - **In JavaScript**, static variables and methods are not even visible to the instance, so even we try of access static variable and method will get typeerror or undefined [static vs instance in js](../js/oopsinjs.md#creating-initializing-object-in-js--instance-created-from-the-class-blueprint️)
-  - **In python**, also technically its allowed but not recommended
-
-**`Nested Class/ Inner Class: -`**
+- **In java: -** Technically Static variables and methods CAN be accessed through instances (though it's not recommended style, alway access Static method via class name only.), but static methods CANNOT access instance variables/methods because they don't know which instance. [static vs instance in java](../java/oopsinjava.md#creating-initializing-object-in-java--instance-created-from-the-class-blueprint️)
+- **In JavaScript**, static variables and methods are not even visible to the instance, so even we try of access static variable and method will get typeerror or undefined [static vs instance in js](../js/oopsinjs.md#creating-initializing-object-in-js--instance-created-from-the-class-blueprint️)
+- **In python**, also technically its allowed but not recommended
 
 > ## **Object/ Instance = Instance Created from/uses the _Contructor_ of the Class Blueprint⬇️**
 
@@ -105,6 +99,8 @@ Access modifiers are keywords that define the visibility/scope of classes, metho
 1. [access modifier in java](../java/javalang/oopsinjava.md#access-modifiers-in-java)
 2. [access modifier in js](../jsANDts/jslang/oopsinjs.md#access-modifiers-in-js)
 3. [access modifier in py](../py/pylang/oopsinpy.md#access-modifiers-in-py)
+
+> ## **Nested Class**
 
 > ## **Constructor**
 

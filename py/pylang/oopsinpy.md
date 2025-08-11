@@ -7,7 +7,7 @@
 class User:
     # In python variables declared inside the __init__() constructor are the instance variable, unique memory to each object.⬇️
     def __init__(self, name, age):
-        self.name = name  
+        self.name = name
         self.age = age
 ```
 
@@ -171,5 +171,7 @@ class dict(MutableMapping[_KT, _VT]):
     @overload
     def __init__(self) -> None: ...
 ```
+
+### **Nested Class in python: -**
 
 ## **Decorators in python: -**
