@@ -109,14 +109,24 @@ public class User {
 - Java automatically/ implicitly passes **this** — so we don’t include it in method signatures. **(method signature includes Method name, Parameter types (and sometimes parameter count) and Parameter order).**
 - Mostly used when local and instance variables have the same name: - **`Shadowing`** is when a local variable or method parameter has the same name as an instance or class variable, which causes the local one to "hide" or "shadow" the outer one.
 
-### **`final`** keyword in java: - _By the name only we can understand, final value - once declared cannot be changed later._
+### **`final`** keyword in java: - _By the name only we can understand, final value - once declared cannot be changed later. Creates truly immutable fields, Methods and Classes_
 
 1. **Final Variables: -**
    1. Instance Variable: -
+      - Must be initialized(assign value) either at declaration or in the constructor
+      - Cannot be reassigned after initialization
    2. Local Variables: -
+      - Must be initialized before use
    3. Static Final Variables (Constants): -
+      - Must be initialized at declaration or in static block
+      - Shared across all instances
+      - Convention: Use UPPERCASE with underscores
 2. **Final Methods: -**
+   - Prevents method overriding in subclasses
+   - Ensures the method's behavior remains unchanged, Often used for critical functionality that shouldn't be modified
 3. **Final Classes: -**
+   - Cannot be extended/inherited
+   - All methods are implicitly final
 
 > ## **Constructor in java⬇️**
 
