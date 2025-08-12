@@ -11,6 +11,9 @@ git remote add origin <repo link>
 git pull origin main # it does the combination of `git fetch and git merge`
 
 git add .
+git add specific-file.js      # Stage only files you want
+git reset  # Unstage all files
+git reset HEAD unwanted-file.js  # Unstage specific files you don't want
 git commit -m "msg"
 git push origin main
 
@@ -26,14 +29,16 @@ git stash pop # Applies the stashed changes back to your current branch, in this
 git checkout <branch name> # to switch into specific branch
 #OR
 git switch <branch-name>
-git checkout <branch name> -- path/to/file # to stag the specific file changes from that branch where we have already made the changes, while being in the branch, in which we want to merge the changes
-```
-
-```sh
-# First, see what commits are in staging but not in main
-git log main..staging --oneline
+git checkout <branch name> -- path/to/file # to stag the specific folder/file changes from that branch where we have already made the changes, while being in the branch, in which we want to merge the changes
+git diff main..staging --name-status # To see what changes will be applied before merging. # This shows⬇️:
+# A    newfile.txt     (A = Added)
+# M    config.js       (M = Modified) 
+# D    oldfile.txt     (D = Deleted)
+git log main..staging --oneline  # First, see what commits are in staging but not in main
 git log origin/main..main --oneline  # Shows unpushed commits on main
-git log origin/staging..staging --oneline  # Shows unpushed commits on staging
+git merge staging --no-commit # Merge with --no-commit to review before finalizing
+git cherry-pick <commit-hash> # Cherry-pick specific commits instead of merging all
+git merge --abort
 ```
 
 ```sh
@@ -50,6 +55,7 @@ git commit -m "any mgs"
 ```
 
 ```sh
+git remote
 git remote -v
 git remote add <remote-name> <repository-url> # to add a new remote repository to our local Git repository's configuration
 git remote remove <remote-name> # to remove a existing remote repository from our local Git repository's configuration

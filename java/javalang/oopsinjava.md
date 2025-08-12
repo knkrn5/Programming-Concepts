@@ -85,7 +85,7 @@ When we use the new keyword with a constructor, you're essentially saying: **_Bu
 > ## **Access Modifiers in java**
 
 1. **(default)/ Package-private: -** Accessible only within the same package
-2. **private: -** Accessible only within the same class
+2. **private: -** Directly Accessible only within the same class, else we would need getter to access private fields.
 3. **protected: -** Accessible in same package + subclasses
 4. **public: -** Accessible from anywhere
 
@@ -109,7 +109,7 @@ public class User {
 - Java automatically/ implicitly passes **this** — so we don’t include it in method signatures. **(method signature includes Method name, Parameter types (and sometimes parameter count) and Parameter order).**
 - Mostly used when local and instance variables have the same name: - **`Shadowing`** is when a local variable or method parameter has the same name as an instance or class variable, which causes the local one to "hide" or "shadow" the outer one.
 
-### **`final`** keyword in java: - _By the name only we can understand, final value - once declared cannot be changed later. Creates truly immutable fields, Methods and Classes_
+### **`final`** keyword in java: - _By the name only we can understand, final value - once declared cannot be changed later. **Creates truly immutable fields, Methods and Classes**_
 
 1. **Final Variables: -**
    1. Instance Variable: -

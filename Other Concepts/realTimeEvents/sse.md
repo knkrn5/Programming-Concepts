@@ -52,6 +52,33 @@
      yield f"data: {chunk}\n\n" # Output: - data: chunk\n\n
    ```
 
+   ```js
+   const encodedQuestion = encodeURIComponent(inputvalue);
+   const eventSource = new EventSource(
+     `${BACKEND_URL}/aichats/aichat-res?question=${encodedQuestion}`
+   );
+
+   eventSource.onopen = () => {
+     console.log("SSE connection opened");
+   };
+
+   eventSource.onmessage = (event) => {
+     if (event.data === "[DONE]") {
+       eventSource.close();
+       setIsFetching(false);
+       return;
+     }
+     setAIResponse((prev) => prev + event.data);
+   };
+
+   eventSource.onerror = (error) => {
+     console.error("SSE error:", error);
+     setAIResponse("Error: Failed to get AI response. Please try again.");
+     eventSource.close();
+     setIsFetching(false);
+   };
+   ```
+
 2. **Fetch with ReadableSteam API: -** _This is the complete manual process from backend to frontend chucks handling. It is lower-level and more flexible, works with any content type, any HTTP method and is essential for full streaming control like AI response tokens, binary data, etc_
 
 - **Step- 1:** why do we use `.getReader()` and **not .text() or .json() with ReadableSteam**:- Because **.text() and .json() are high-level convenience method**. These are designed/built to be more convinenent for the end user to get the response from the server, so these **.text() and .json() method Buffers everything from response.body**, Decodes `(from raw byte to string)` after the full body is received and then Then gives us the whole text as one big string
@@ -61,6 +88,43 @@
   - `ℹ️We must explicitly call .read() repeatedly to receive and process each chunk of data from the stream, whether it is sent by the server or buffered in the browser's internal queue`. The **browser buffers the chunks** if the server sends data faster than the client reads it using the .getReader().read() method.
   - we **don’t need to send data: [DONE]\n\n from the server** if we're using .getReader() — because:- `reader.read() automatically returns done: true when the stream ends` (i.e., the server closes the connection or the stream completes).
 - **Step- 3: -** [🔗 More on TextDecoder.decode()](https://developer.mozilla.org/en-US/docs/Web/API/TextDecoder/decode)This reader method does not automatically parses the **raw byte(unit8Array) to string**, have to manually do that using `TextDecoder.decode()` Constructor.
+
   - with `{stream: true}` parameter, The decoder holds onto incomplete byte sequences instead of throwing an error, It waits for the next chunk to complete the character, Only outputs complete valid characters.
+
+  ```js
+  fetch(`${BACKEND_URL}/aichats/aichat-res`, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({ question: inputvalue }),
+  }).then((response) => {
+    const reader = response.body?.getReader();
+    const decoder = new TextDecoder("utf-8");
+
+    readStream();
+
+    function readStream() {
+      reader?.read().then(({ value, done }) => {
+        if (done) {
+          setIsFetching(false);
+          return;
+        }
+        const chunk = decoder.decode(value);
+
+        const lines = chunk.split("\n\n");
+
+        lines.forEach((line) => {
+          if (line.startsWith("data: ")) {
+            const message = line.slice(6);
+            setAIResponse((prev) => prev + message);
+          }
+        });
+
+        readStream();
+      });
+    }
+  });
+  ```
 
 ### **2. [🔗 WebSocket](./websocket.md)**
