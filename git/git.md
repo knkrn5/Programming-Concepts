@@ -14,6 +14,8 @@ git add .
 git add specific-file.js      # Stage only files you want
 git reset  # Unstage all files
 git reset HEAD unwanted-file.js  # Unstage specific files you don't want
+rm path/to/specific/file # Delete the file   
+git clean -f path/to/specific/file # Remove untracked file
 git commit -m "msg"
 git push origin main
 
@@ -24,7 +26,7 @@ git branch -d <branch-name> # Deletes the branch locally if it has been fully me
 git branch -D <branch-name> # to force delete even if unmerged
 
 git stash # this to temporarily saving (storing) your uncommitted changes (modified or new files) so you can switch branches or do other operations without losing those changes
-git stash pop # Applies the stashed changes back to your current branch, in this way we can push changes made in main branch to staging branch(by switch branch after stashing) without needing to merge.
+git stash pop # Applies the stashed changes back to our current branch, in this way we can push changes in the current branch.
 
 git checkout <branch name> # to switch into specific branch
 #OR

@@ -43,9 +43,9 @@
 
    - `data:` - Required prefix for message content
    - `\n\n` - Required double newline to mark message end
-   - And the last word of the full response depends of the devs, whatever we want to keep like `data: [DONE]\n\n` or `data: [END]\n\n` etc, this is needed **to close the eventsource** after the stream response is completed.
-   - ℹ️EventSource `Creates/maintains a persistent HTTP connection` that stays open until you close it or server ends the stream.
-     - EventScource only works with `get` HTTP method, and thats why **data can be send via Query Parameter** only.
+   - And the last word of the full response depends of the devs, whatever we want to keep like `data: [DONE]\n\n` or `data: [END]\n\n` etc, this is needed **to close the eventsource manually** after the stream response is completed.
+   - ℹ️EventSource `Creates/maintains a persistent HTTP connection` that stays open until we close it or server ends the stream or on server error.
+     - EventScource only works with `get` HTTP method, so thats why **data can be send via URL (path/Query Parameter)** only.
 
    ```py
      # The browser's EventSource API follows the Server-Sent Events (SSE) specification, which defines these strict formatting rules: -⬇️
