@@ -2,6 +2,8 @@
 
 > **`repo name(Project Name)` != `remote name(Local aliases for repositories are hosted remotely on cloud servers)` != `branch name(Code versions within repositories)`**
 
+## Untracked vs Uncommited vs UnStaged vs modified
+
 ## **Git CLI Cmds**
 
 ```sh
@@ -13,8 +15,11 @@ git pull origin main # it does the combination of `git fetch and git merge`
 git add .
 git add specific-file.js      # Stage only files you want
 git reset  # Unstage all files
+git reset --hard HEAD # Remove all staged and unstaged changes
 git reset HEAD unwanted-file.js  # Unstage specific files you don't want
+git restore . # remove all uncommitted changes:
 rm path/to/specific/file # Delete the file   
+git clean -fd # -f= force, -d= delete untracked folders/files
 git clean -f path/to/specific/file # Remove untracked file
 git commit -m "msg"
 git push origin main
@@ -31,7 +36,7 @@ git stash pop # Applies the stashed changes back to our current branch, in this 
 git checkout <branch name> # to switch into specific branch
 #OR
 git switch <branch-name>
-git checkout <branch name> -- path/to/file # to stag the specific folder/file changes from that branch where we have already made the changes, while being in the branch, in which we want to merge the changes
+git checkout <branch name> -- path/to/file # to stag the specific folder/file changes from that branch where we have already made the changes, while being in the branch-where we want to merge the changes
 git diff main..staging --name-status # To see what changes will be applied before merging. # This shows⬇️:
 # A    newfile.txt     (A = Added)
 # M    config.js       (M = Modified) 
@@ -40,7 +45,7 @@ git log main..staging --oneline  # First, see what commits are in staging but no
 git log origin/main..main --oneline  # Shows unpushed commits on main
 git merge staging --no-commit # Merge with --no-commit to review before finalizing
 git cherry-pick <commit-hash> # Cherry-pick specific commits instead of merging all
-git merge --abort
+git merge --abort # If you're in a merge, abort it
 ```
 
 ```sh

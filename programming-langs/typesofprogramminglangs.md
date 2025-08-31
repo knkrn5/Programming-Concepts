@@ -6,9 +6,9 @@ flowchart TD
     B e1@--> |One| D([Compiled vs Interpreter])
     B e2@-->|Two| E([Statically vs Dynamically typed])
     B e3@-->|Three| F([Platform Independent vs Dependent])
-    e1@{ animate: true, animation: fast }
+    e1@{ animate: true, animation: fast, curve: linear }
     e2@{ animate: true, animation: fast }
-    e3@{ animate: true, animation: fast }
+    e3@{ animate: true, animation: fast, curve: linear }
 ```
 
 ## **Interpreter vs Complied Language**
