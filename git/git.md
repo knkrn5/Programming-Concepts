@@ -17,7 +17,7 @@ git add specific-file.js      # Stage only files you want
 git reset  # Unstage all files
 git reset --hard HEAD # Remove all staged and unstaged changes
 git reset HEAD unwanted-file.js  # Unstage specific files you don't want
-git restore . # remove all uncommitted changes:
+git restore . # remove all uncommitted changes(modified or staged)
 rm path/to/specific/file # Delete the file   
 git clean -fd # -f= force, -d= delete untracked folders/files
 git clean -f path/to/specific/file # Remove untracked file
