@@ -9,7 +9,6 @@
 ```sh
 # linking back the same repo from the github to system
 git init
-git remote add origin <repo link>
 git pull origin main # it does the combination of `git fetch and git merge`
 
 git add .
@@ -22,7 +21,8 @@ rm path/to/specific/file # Delete the file
 git clean -fd # -f= force, -d= delete untracked folders/files
 git clean -f path/to/specific/file # Remove untracked file
 git commit -m "msg"
-git push origin main
+git push  # If no branch mention, then defualt to current branch
+git push origin <branch-name>
 
 git branch
 git branch --show-current
@@ -74,13 +74,14 @@ git subtree split --prefix=<sub-dir name> -b <create new branch name> # This wil
 
 ```sh
 git remote
+git remote add origin <repo link> # to add remote branch
 git branch -r # lists all remote branches
 git remote -v # Shows the URLs of our remotes
 git remote add <remote-name> <repository-url> # to add a new remote repository to our local Git repository's configuration
 git remote remove <remote-name> # to remove a existing remote repository from our local Git repository's configuration
 git remote rename <old remote name> <new remote name> # Rename a remote
 git remote set-url <remote-name> <new url> # Change remote URL
-git push heroku-backend `git subtree split --prefix server main`:main --force # usefull incase of non-fast-forward error, 
+git push heroku-backend `git subtree split --prefix server main`:main --force # usefull incase of non-fast-forward error,
 git fetch #  downloads objects and refs (branches, tags, etc.) from a remote repository to our local repository without merging them into our current working branch.
 git fetch --all # Fetch all updates from all remotes in our project, without merging or modifying our working code
 git fetch <remote name> --prune # This removes local references to deleted remote branches

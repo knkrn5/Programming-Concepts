@@ -1,12 +1,8 @@
 # **_Object oriented Programming(OOPS)_**
 
-```text
-Object-Oriented Programming (OOP) is a programming paradigm based on the concept of "objects", which can hold data (fields) and methods (functions/behaviors) that operate on the data.
-```
-
 - In the **real world, almost everything is an object** — _whether it's steel, wood, cloth, or plastic._ Similarly, in programming, **all non-primitive data types (like arrays, functions, linked lists, trees, etc.) are, behind the scenes, represented as objects**, especially in high-level object-oriented languages.
 - The term "Object-Oriented" comes from the fundamental concept that this programming paradigm is built around objects as the primary building blocks of software or **"objects" as the fundamental building blocks of a program/ Software.**
-- **Truely OOPS Programming language** are java, c# , c++ etc ~~python and javascripts~~ are not truely OOPS programming language
+- **Truely OOPS Programming language** are java, c# , c++ etc but ~~python and javascripts~~ are not truely OOPS programming language.
 
 > ## **Feild/ Variable declaration in Oops⬇️**
 
@@ -104,7 +100,7 @@ Access modifiers are keywords that define the visibility/scope of classes, metho
 
 > ## **Constructor**
 
-- A constructor is a special method used to **initialize objects** when you use new. It serves as the **initialization mechanism** for objects, **setting up their initial state/values** for instance variables and preparing them for use, so therefore the **structure of the instance/ object will completly depend on how we have setup the constructor of the class**
+- A constructor is a special method, by the name only we can understand that this method is used to **construct/ initialize objects**, whenver we create object using the class blueprint. It serves as the **initialization mechanism** for objects, **setting up their initial state/values** for instance variables and preparing them for use, so therefore the **structure of the instance/ object will completly depend on how we have setup the constructor of the class.**
 - **_Constructors have the same name as the class they belong to._** They **don't have a return type**, not even void, because they **implicitly return the newly created object**
 
 ### **Types of Constructor: -**
@@ -168,9 +164,9 @@ so when we make the private construction, we left with two appraoch: -
 
 ## **4 Pillars of Object-Oriented**
 
-1. Encapsulation:- Bundling data (attributes) and the methods that operate on that data within a single unit (the object), and hiding the internal details from the outside world.
-2. Abstraction: - Showing only the essential features of an object and hiding the complex implementation details. It's about designing objects that present a simplified view to the outside.
-3. Polymorphism: - The ability of an object to take on many forms. Specifically, it allows objects of different classes to be treated as objects of a common base class. This often involves method overriding, where a subclass provides its own specific implementation of a method defined in its superclass.
-4. Inheritance: - A mechanism where one class (subclass/child class) can inherit properties and behaviors from another class (superclass/parent class). This creates a "is-a" relationship
+1. **Encapsulation:-** Bundling data (attributes) and the methods that operate on that data within a single unit (the object), and hiding the internal details from the outside world.
+2. **Abstraction: -** Showing only the essential features of an object and hiding the complex implementation details. It's about designing objects that present a simplified view to the outside.
+3. **Polymorphism: -** The ability of an object to take on many forms. Specifically, it allows objects of different classes to be treated as objects of a common base class. This often involves method overriding, where a subclass provides its own specific implementation of a method defined in its superclass.
+4. **Inheritance: -** A mechanism where one class (subclass/child class) can inherit properties and behaviors from another class (superclass/parent class). This creates a "is-a" relationship
 
    - ### **Types of Inheritance**
