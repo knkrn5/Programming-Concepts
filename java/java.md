@@ -1,6 +1,6 @@
 # **JAVA Programming Language**
 
-`java byte` code is like a `docker container` which is platform indepentent, like in java `JVM` is OS dependant which converts the byte-code to the machine-specific instruction, similarly `docker engine` is os-dependent which run can all the container build in any platform.
+`java byte code` is like a `docker container` which is platform indepentent, like in java `JVM` is OS dependant which converts the byte-code to the machine-specific instruction, similarly `docker engine` is os-dependent which run can all the container build in any platform.
 
 ## **JAVA Platorm Independent**
 
@@ -19,7 +19,7 @@
 
 ### **Why the JAVA complied code is called Bytecode:** _The term "bytecode" comes from the fact that each instruction in Java's intermediate representation is identified by a single byte (8-bit value)_
 
-- What you see **(human-readable)**
+- What we see **(human-readable)**
 
   ```class
   NEW java/io/File
