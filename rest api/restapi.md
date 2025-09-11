@@ -6,7 +6,16 @@ Technically, we can perform any action with any HTTP method, but each method has
 
 ## **http CLients Used In Different Programming Languages⬇️**
 
-![httpCLientsUsedInDifferentProgrammingLang](./imgs/httpClients.png)
+### 🔍 Implementations of HTTP clients/servers differ per language.
+| **Language** | **HTTP Client/Server**             | **Language Used** |
+| ------------ | ---------------------------------- | ----------------- |
+| Python       | `http.client`, `httpx`, `aiohttp`  | Python, C         |
+| JavaScript   | `axios`, `fetch`, `http` (Node.js) | JavaScript        |
+| Go           | `net/http`                         | Go                |
+| Java         | `HttpClient`, `Apache HttpClient`  | Java              |
+| Rust         | `reqwest`, `hyper`                 | Rust              |
+| C/C++        | `libcurl`, `cpp-httplib`           | C / C++           |
+
 
 ### REST is a design philosophy, not a technical requirement. We follow it because it makes APIs: -
 
@@ -83,7 +92,7 @@ Technically, we can perform any action with any HTTP method, but each method has
    response = requests.post(
      "https://karan.email?name=karan&age=22",
      # in python also we can send data via url query like this also like axios⬇️
-     params={"name": "karan", "age": 22},  url query
+     params={"name": "karan", "age": 22},  # data sending url query
      json={"name": "Karan", "age": 22}, # data sending via body
      headers={
          "Content-Type": "application/json",
