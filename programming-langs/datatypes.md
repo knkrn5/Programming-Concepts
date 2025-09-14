@@ -70,10 +70,7 @@ The key to mastering any programming language is knowing how to work with data â
 
 ## **TypeCheck**
 
-There are two types of programming language: -
-
-1. **Statically Typed Programming language: -** java, c , c++, go, rust, ts, kotin etc
-2. **Dynamically Typed Programming language: -** python, js, php etc
+- **[ðŸ”—TypeCheck](./typeCheck.md)**
 
 ## **Platform Independent VS Platform dependent**
 
