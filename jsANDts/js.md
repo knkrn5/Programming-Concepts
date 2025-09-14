@@ -8,6 +8,10 @@
 
 ## **Variable Declaration**
 
+- **var: -** var is not block scoped, it leaks out of the block(like control or condtional statement blocks etc), but stays inside functions block.
+- **let**
+- **const**
+
 - Undefined 🆚 Not-Defined
 
 ## **Datatypes in js**
