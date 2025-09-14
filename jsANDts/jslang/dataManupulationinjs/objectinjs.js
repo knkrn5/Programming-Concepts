@@ -3,11 +3,26 @@
  and ℹ️the value of that variable will become the key name in the object */
 // 👉 in JavaScript, if an object property name contains spaces or other special characters that aren’t valid in identifiers, you must wrap it in quotes (single ' or double ").
 
+//=============================================================
+const obj1 = {
+    name: "Karan",
+    age: 24,
+    hobbies: ["coding", "music"],
+    address: { city: "Delhi", country: "India" },
+    greet: function () {
+        console.log("Hello!");
+    },
+    greet2() {
+        console.log("Hi there!");
+    } // ES6 object method shorthand syntax
+};
+
 //==============================================================
 // adding property in object in js
-const obj = { name: "Karan", 
+const obj = {
+    name: "Karan",
     "home address": "123 Main St"
- };
+};
 
 // Dot notation
 obj.age = 25;
@@ -75,7 +90,7 @@ console.log(Object.entries(user));
 // ]
 
 for (const [key, value] of Object.entries(user)) {
-  console.log(`${key} → ${value}`);
+    console.log(`${key} → ${value}`);
 }
 // OR
 Object.entries(user).map(([key, value]) => (

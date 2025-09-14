@@ -10,7 +10,7 @@
 
 - Undefined 🆚 Not-Defined
 
-## **Primitive and Non-Primitive Datatypes**
+## **Datatypes in js**
 
 1. **Primitive**
 2. **Non-Primitive**
@@ -20,6 +20,8 @@
    2. [🔗 Array](./jslang/dataManupulationinjs/arrayinjs.js)
 
    3. [🔗 Functions](./jslang/dataManupulationinjs/functioninjs.js)
+
+> Imp: - **Object, Arrays, Functions, Date, RegExp, Map, Set, WeakMap, WeakSet**, etc.✅ _All of these return "object" from typeof, except functions, which return "function" (but still technically objects under the hood)_
 
 ## **Operators**
 

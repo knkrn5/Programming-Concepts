@@ -64,6 +64,31 @@ The key to mastering any programming language is knowing how to work with data â
 
 3. **Curly Brackets { } : -** _In programming curly bracket generally represents object like in js and py_
 
+   - In JavaScript and Python, an object property (or dictionary value in Python) can hold anything â€” a number, string, object, array, function, or even another function returning another object.
+
+   ```js
+   const obj = {
+     name: "Karan",
+     age: 24,
+     hobbies: ["coding", "music"],
+     address: { city: "Delhi", country: "India" },
+     greet: function () {
+       console.log("Hello!");
+     },
+   };
+   ```
+
+   ```py
+      obj = {
+      "name": "Karan",
+      "age": 24,
+      "hobbies": ["coding", "music"],
+      "address": { "city": "Delhi", "country": "India" },
+      "greet": lambda: print("Hello!")
+   }
+
+   ```
+
 4. **Angle Brackets < > : -** _Used in HTML/XML tags, template parameters (C++), and some mathematical or technical notations_
 
 - NOTE: Datatypes differs based on different programming language and there sizes
