@@ -7,6 +7,29 @@
 ## **Git CLI Cmds**
 
 ```sh
+git config --local --list #This reads from .git/config in your current repo
+git config --global --list #This reads from ~/.gitconfig (your home directory)
+git config --system --list #git config --system --list
+git config --get core.ignorecase # View specific config key
+
+```
+
+```sh
+git ls-files # shows all files that Git is currently tracking in our working directory's index, which corresponds to our current branch
+
+git ls-tree -r HEAD          # Current commit, recursive
+git ls-tree -r main          # Main branch
+git ls-tree -r commit-hash   # Specific commit
+
+git rm <path/to/file> # to remove from both disk and git tracking
+git rm --cached <path/to/file> #If you want to keep the files locally, but remove them from Git tracking
+git rm -r <path/to/directory> # To delete the whole folder and all files in it from Git and disk
+git rm -r --cached folder/ # Removes folder only from Git, keeps it on disk
+git add <path/to/file> # To add file in git tracking
+
+```
+
+```sh
 # linking back the same repo from the github to system
 git init
 git pull origin main # it does the combination of `git fetch and git merge`
@@ -18,8 +41,12 @@ git reset --hard HEAD # Remove all staged and unstaged changes
 git reset HEAD unwanted-file.js  # Unstage specific files you don't want
 git restore . # remove all uncommitted changes(modified or staged)
 rm path/to/specific/file # Delete the file
+
+git clean -fdn # Wanna preview what will be deleted before actually deleting?
+git clean -f -d # -d: include untracked directories
 git clean -fd # -f= force, -d= delete untracked folders/files
-git clean -f path/to/specific/file # Remove untracked file
+git clean -f # Command to delete all untracked files
+git clean -f path/to/specific/file # Remove specific untracked file
 git commit -m "msg"
 git push  # If no branch mention, then defualt to current branch
 git push origin <branch-name>

@@ -57,4 +57,16 @@
 
    ```
 
+4. **Other Operators**
+
+- **Spread operator** to create a shallow copy of an array or object
+
+  ```js
+  const originalArray = [1, 2, 3];
+  const copiedArray = [...originalArray, 4, 5]; // copiedArray is now [1, 2, 3, 4, 5]
+
+  const obj = { name: "karan", age: 24 };
+  const copyObj = { ...obj, sex: "male" };
+  ```
+
 ### deep vs shallow copy
