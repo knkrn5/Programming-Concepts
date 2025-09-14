@@ -25,7 +25,7 @@
 
    3. [🔗 Functions](./jslang/dataManupulationinjs/functioninjs.js)
 
-> Imp: - **Object, Arrays, Functions, Date, RegExp, Map, Set, WeakMap, WeakSet**, etc.✅ _All of these return "object" from typeof, except functions, which return "function" (but still technically objects under the hood)_
+> Imp: - **Object, Arrays, Functions, Date, RegExp, Map, Set, WeakMap, WeakSet**, etc.✅ _All of these return "object" from typeof, except functions, which return "function" (but still technically objects under the hood). Note that **typeof null === 'object'** due to a historical bug, even though null is a primitive value, so always handle null explicitly in type checks._
 
 ## **Operators**
 
@@ -59,7 +59,7 @@
    [] == 0 // true → [] becomes "" → then "" becomes 0
    " \t\n" == 0;    // true → whitespace string → becomes 0
    (5 != '5'); // false (because '5' is converted to 5)
-   (0 != false); // false (false is converted to
+   (0 != false); // false (false is converted to 0)
 
    ```
 

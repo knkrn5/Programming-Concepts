@@ -92,7 +92,4 @@ console.log(Object.entries(user));
 for (const [key, value] of Object.entries(user)) {
     console.log(`${key} → ${value}`);
 }
-// OR
-Object.entries(user).map(([key, value]) => (
-    console.log(`${key} → ${value}`)
-));
+Object.entries(user).forEach(([key, value]) => console.log(`${key} → ${value}`));
