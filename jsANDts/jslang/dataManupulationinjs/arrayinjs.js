@@ -19,6 +19,8 @@ arr.push(40); // Adds the element 40 to the end of the array
 arr.unshift(5); // Adds the element 5 to the beginning of the array
 arr.pop(); // Removes the last element of the array
 arr.shift(); // Removes the first element of the array
+arr.sort((a, b) => a - b); // Sorts the array in place (default is ascending order for numbers)
+arr.reverse(); // Reverses the order of elements in the array
 
 
 // 🎯 Inbuilt Array methods in js(.map, .filter, .reduce, .some, .every, .split)
