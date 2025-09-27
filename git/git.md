@@ -1,6 +1,6 @@
 # **Git Concepts**
 
-> **`repo name(Project Name)` != `remote name( repositories hosted remotely on cloud servers)` != `branch name(Code versions within repositories)`**
+> **`repo-name(Project Name)` != `remote-name( repositories hosted remotely on cloud servers)` != `remote-tracking-branch(Local copies of remote branch states)` != `branch-name(Code versions within repositories)`**
 
 ## Untracked vs Uncommited vs UnStaged vs modified vs Local Changes
 
@@ -161,9 +161,11 @@ git push <remote> <source-branch>:<target-branch>  # This pushes our local sourc
 ```sh
 ### TO UPDATE LOCAL BRANCH WITH REMOTE BRANCH ###
 
-git fetch #  downloads objects and refs (branches, tags, etc.) from a remote repository to our local repository without merging them into our current working branch.
-git fetch --all # Fetch all updates from all remotes in our project, without merging or modifying our working code
-git fetch <remote name> --prune # This removes local references to deleted remote branches
+git fetch # Fetches updates from the default remote (usually origin) only. downloads objects and refs (branches, tags, etc.) from a remote repository to our local remote-tracking-branch without merging them into our current working/local branches.
+git fetch --all # Fetch all updates from all remotes in our project and all the branches in the remotes and update the local remote-tracking-branch, without merging or modifying our local branches
+git fetch <remote-name> # Fetches all branches and tags from the remote-name and updates the local remote-tracking-branch. (This does not touch your local branches)
+git fetch <remote-name> <branch-name> # fetches only a specific branch from the remote-name and Updates the corresponding remote-tracking branch, does not changes anything the local branch
+git fetch <remote-name> --prune # Updates the local remote-tracking-branches with the remote branch and then  Removes "stale" remote-tracking branches from local that no longer exist on the remote.
 
 ```
 
