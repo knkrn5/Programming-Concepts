@@ -116,8 +116,8 @@ git merge --abort # If you're in a merge, abort it
 git merge staging   # merge staging into current branch
 git merge staging --no-commit # Merge with --no-commit to review before finalizing
 git merge origin/main # Takes the commit from the local remote-tracking-branch(in this case origin/main) and Merges them into whatever branch we're currently on.
-git cherry-pick <commit-hash> # Cherry-pick specific commits instead of merging all
 
+git cherry-pick <commit-hash> # Apply that one commit from the branch we have picked the commit-hash into our current branch 
 
 
 git branch -f main staging # Make local main match staging without merging
@@ -131,9 +131,10 @@ git push origin <commit-hash>:main ## Push specific commits from staging to orig
 git push origin HEAD:main # Push just the latest commit from staging to main
 git push origin HEAD~1..HEAD:main
 
-
 # Or push last N commits
 git push origin HEAD~2:main  # Push last 2 commits to main
+
+
 
 git rebase origin/main # Move my current branch's commits to start from the tip of local remote-tracking-brach(origin/main)
 ```
