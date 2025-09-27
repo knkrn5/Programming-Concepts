@@ -23,5 +23,4 @@ There are two types of programming language: -
 
 ```py
 some_risky_function()  # type: ignore
-# pyright: reportGeneralTypeIssues=false
-```
+# pyright: ignore[reportGeneralTypeIssues]

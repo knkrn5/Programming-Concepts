@@ -98,15 +98,7 @@ print(u._User__password)  # ✅ Hack: works via name mangling, this is because p
 
 ### **`Self`** keyword in py: - _self when Used inside instance methods to refer to the current object._
 
-- In python, Every instance method must include self as the first parameter, because python **automatically pass the current object (instance) to that method as the first argument.**
-
-```python
-class User:
-    def __init__(self, name): # no automatic passing/ or implicit self , you must include 'self' in every method argument/ parameter
-        self.name = name  # 'self' refers to this instance
-
-    def greet(self): # no implicit self , you must include 'self' in every method argument/ parameter, this enables us to access the instance’s properties or methods.
-        print(f"Hi, I’m {self.name}")
+- In Python, every instance method must accept the instance as its first argument (conventionally named `self`), because Python automatically passes the current object when the method is invoked.
 ```
 
 - Python is explicit: nothing is hidden. we write self always in the method signature **(method signature is combined Method name, Parameter types (and sometimes parameter count) and Parameter order).**
