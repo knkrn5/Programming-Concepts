@@ -17,11 +17,36 @@ const obj1 = {
     } // ES6 object method shorthand syntax
 };
 
-//==============================================================
-// adding property in object in js
+
+//🎯============READING OBJECT DATA IN JS========================
+// Object.entries(object): - This method returns an array of a given object's, containing nested enumerable arrays (one per key-value pair)..
+const user = {
+    name: "Karan",
+    age: 22,
+    country: "India"
+};
+
+console.log(Object.entries(user));
+
+/* Output:
+[
+  ["name", "Karan"],
+  ["age", 22],
+  ["country", "India"]
+] */
+
+for (const [key, value] of Object.entries(user)) {
+    console.log(`${key} → ${value}`);
+}
+Object.entries(user).forEach(([key, value]) => console.log(`${key} → ${value}`));
+
+
+//🎯======OBJECT DATA MANIPULATION IN JS==================
+//👉 In js we can manipulate the object data using both dot and bracket anotation.
+// ===== adding property in object in js=========================
 const obj = {
     name: "Karan",
-    "home address": "123 Main St"
+    "home address": "123 Main St" // NOTICE: Here property name with space must have quotes (Can any single or double quotes)
 };
 
 // Dot notation
@@ -33,9 +58,7 @@ obj["city"] = "Delhi";
 console.log(obj);
 // 👉 { name: 'Karan', age: 25, city: 'Delhi' }
 
-//======================================================
-
-// deleteing property from an object in js
+//===== deleteing property from an object in js=================
 const person = {
     name: "John",
     age: 30,
@@ -72,24 +95,3 @@ console.log(a[b]);  // Output: { name: 'ankit' }
 // In JavaScript’s Map Constructor, you can use any value as a key — not just strings.
 
 
-//===============================
-//🎯Object.entries(object): - This method returns an array of a given object's, containing nested enumerable arrays (one per key-value pair)..
-const user = {
-    name: "Karan",
-    age: 22,
-    country: "India"
-};
-
-console.log(Object.entries(user));
-
-// Output:
-// [
-//   ["name", "Karan"],
-//   ["age", 22],
-//   ["country", "India"]
-// ]
-
-for (const [key, value] of Object.entries(user)) {
-    console.log(`${key} → ${value}`);
-}
-Object.entries(user).forEach(([key, value]) => console.log(`${key} → ${value}`));
