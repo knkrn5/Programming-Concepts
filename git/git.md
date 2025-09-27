@@ -111,14 +111,31 @@ git switch <branch-name>
 git checkout <branch-name> --force
 git checkout <branch-name> -- path/to/file # to pull and stag the specific folder/file changes from that branch-name where we have already made the changes, while being in the branch-where we want to merge the changes
 
-git merge staging --no-commit # Merge with --no-commit to review before finalizing
-git cherry-pick <commit-hash> # Cherry-pick specific commits instead of merging all
 git merge # merges the changes with the current branch
 git merge --abort # If you're in a merge, abort it
 git merge staging   # merge staging into current branch
+git merge staging --no-commit # Merge with --no-commit to review before finalizing
+git merge origin/main # Takes the commit from the local remote-tracking-branch(in this case origin/main) and Merges them into whatever branch we're currently on.
+git cherry-pick <commit-hash> # Cherry-pick specific commits instead of merging all
+
+
+
 git branch -f main staging # Make local main match staging without merging
 git branch -f main origin/main # Reset local main to exactly match remote main
+
+
+git push origin staging:main  # This pushes our current staging branch changes to the remote main branch and local remote-main-tracking-branch
 git push -f origin staging:main # overwrites the remote main branch with your local staging branch even if remote has commits that local staging doesn’t have
+
+git push origin <commit-hash>:main ## Push specific commits from staging to origin main
+git push origin HEAD:main # Push just the latest commit from staging to main
+git push origin HEAD~1..HEAD:main
+
+
+# Or push last N commits
+git push origin HEAD~2:main  # Push last 2 commits to main
+
+git rebase origin/main # Move my current branch's commits to start from the tip of local remote-tracking-brach(origin/main)
 ```
 
 ```sh
@@ -159,25 +176,31 @@ git push <remote> <source-branch>:<target-branch>  # This pushes our local sourc
 ```
 
 ```sh
-### TO UPDATE LOCAL BRANCH WITH REMOTE BRANCH ###
+### TO UPDATE LOCAL-BRANCH WITH REMOTE BRANCH LATEST COMMIT ###
+
+git pull origin main #Fetch the main branch from origin and merge it into my current branch(git pull is the combinaiton of git fetch + git merge)
+```
+
+```sh
+### TO UPDATE LOCAL REMOTE-TRACKING-BRANCH WITH REMOTE BRANCH LATEST COMMIT ###
 
 git fetch # Fetches updates from the default remote (usually origin) only. downloads objects and refs (branches, tags, etc.) from a remote repository to our local remote-tracking-branch without merging them into our current working/local branches.
 git fetch --all # Fetch all updates from all remotes in our project and all the branches in the remotes and update the local remote-tracking-branch, without merging or modifying our local branches
 git fetch <remote-name> # Fetches all branches and tags from the remote-name and updates the local remote-tracking-branch. (This does not touch your local branches)
 git fetch <remote-name> <branch-name> # fetches only a specific branch from the remote-name and Updates the corresponding remote-tracking branch, does not changes anything the local branch
 git fetch <remote-name> --prune # Updates the local remote-tracking-branches with the remote branch and then  Removes "stale" remote-tracking branches from local that no longer exist on the remote.
-
+git fetch <remote-name> <remote-branch-name>:<local-branch-name> # updates the local branch and local corresponding remote-tracking-branch with the latest commit in the remote-branch.
 ```
 
 ```sh
-# reset desired-branch while being in the desired-branch
+### reset desired-branch while being in the desired-branch ###
 git switch main
 git reset --hard staging # our working directory and staging area are updated to exactly match staging. Any uncommitted changes or local commits on main are discarded.
 git push -f origin main # This overwrites remote main to match your local main (which now matches staging).
 
 # resent desired-branch while being in the different branch
 git switch staging
-git branch -f main 
+git branch -f main
 git push -f origin main # This overwrites remote main to match your local main (which now matches staging).
 ```
 
@@ -186,23 +209,4 @@ git push -f origin main # This overwrites remote main to match your local main (
 # If hashes are same = identical commits
 git rev-parse main
 git rev-parse staging
-```
-
-```sh
-# linking back the same repo from the github to system
-git init
-git pull origin main # it does the combination of `git fetch and git merge`
-```
-
-```sh
-# Start merge but don't commit
-git checkout main
-git merge --no-commit --no-ff staging # merge without commiting
-
-# Now you can selectively stage files
-git status                    # See what files changed
-git add specific-file.js      # Stage only files you want
-git reset HEAD unwanted-file.js  # Unstage files you don't want
-# Commit the selective merge
-git commit -m "any mgs"
 ```
