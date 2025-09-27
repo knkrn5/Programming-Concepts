@@ -13,7 +13,7 @@ if __name__ == '__main__':
 
 2. **Logical Operations**
 
-3. **Comparision Operations**
+3. **Comparision Operations: -** In py we don't have `Loose Comparision` like js, we only have `Strict Comparision(==)`
 
 4. **Other Operators**
 

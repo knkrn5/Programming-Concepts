@@ -33,7 +33,7 @@
 
 2. **Logical Operations**
 
-3. **Comparision Operations**
+3. **Comparision Operations: -** In js we have two type of comparision `Strict Comparision(===)` and `Loose Comparision(==)`
 
    - Value Comparision
    - Type Comparision
