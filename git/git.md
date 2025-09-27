@@ -21,6 +21,8 @@ git ls-tree -r HEAD          # Current commit, recursive
 git ls-tree -r main          # Main branch
 git ls-tree -r commit-hash   # Specific commit
 
+git ls-remote <remote-name> #Lists all references on the remote repository
+
 git rm <path/to/file> # to remove from both disk and git tracking
 git rm --cached <path/to/file> #If you want to keep the files locally, but remove them from Git tracking
 git rm -r <path/to/directory> # To delete the whole folder and all files in it from Git and disk
@@ -63,7 +65,7 @@ git log main --stat -- <path/to/folder> # See What Files Changed in this folder 
 git log -p # Commits + full code diffs in current branch
 git log main -p -- <path/to/folder> # See Actual Code Changes in this folder in main branch
 git log --name-only # Commits + file names only in current branch
-git log main --oneline #Find the commit SHA from  branch
+git log main --oneline # See Changes in the local main branch
 git log main --oneline -10 -- <path/to/folder> #See Recent 10 Changes in this folder in simple online in main branch
 
 git log --oneline main..staging # See what's different between staging and main
@@ -73,6 +75,7 @@ git log --graph --pretty=format:'%h -%d %s (%cr) <%an>' # Pretty formatted log
 git log staging..main #Show commits that are in main but not in staging in detail (hash, author, date, message)
 git log main..staging #Show commits that are in staging but not in main in detail (hash, author, date, message)
 git log main..staging --oneline  # First, see what commits are in staging but not in main (commit hash + commit message)
+git log --oneline origin/main # See what changed on remote main branch in simple
 git log origin/main..main --oneline  # Shows unpushed commits on main (commit hash + commit message)
 
 ```
@@ -105,18 +108,17 @@ git stash pop # Applies the stashed changes back to our current branch, in this 
 git checkout <branch name> # to switch into specific branch
 #OR
 git switch <branch-name>
-git checkout <branch name> -- path/to/file # to stag the specific folder/file changes from that branch where we have already made the changes, while being in the branch-where we want to merge the changes
+git checkout <branch-name> --force
+git checkout <branch-name> -- path/to/file # to pull and stag the specific folder/file changes from that branch-name where we have already made the changes, while being in the branch-where we want to merge the changes
 
 git merge staging --no-commit # Merge with --no-commit to review before finalizing
 git cherry-pick <commit-hash> # Cherry-pick specific commits instead of merging all
 git merge # merges the changes with the current branch
 git merge --abort # If you're in a merge, abort it
-```
-
-```sh
-# linking back the same repo from the github to system
-git init
-git pull origin main # it does the combination of `git fetch and git merge`
+git merge staging   # merge staging into current branch
+git branch -f main staging # Make local main match staging without merging
+git branch -f main origin/main # Reset local main to exactly match remote main
+git push -f origin staging:main # overwrites the remote main branch with your local staging branch even if remote has commits that local staging doesn’t have
 ```
 
 ```sh
@@ -133,7 +135,9 @@ git branch --show-current
 git branch -r # lists all remote branches
 git branch -a # See All Branches (Local + Remote)
 git checkout -b <new-branch-name> # Creates the new branch from the current branch and switches to newly-created-branch from the current branch, here -b is shortcut for "git branch new-branch + git checkout new-branch"
-git branch -d <branch-name> # Deletes the branch locally if it has been fully merged into another branch
+git branch -d <branch-name> # Deletes the branch locally(not from the remote)
+git push <remote-name> --delete <branch-name> # Deletes the branch from remote
+git push <remote-name> <source_branch>:<target_branch> # If you leave out the <source_branch> (i.e. it's blank before the colon), git will then delete the target-branch
 git branch -D <branch-name> # to force delete even if unmerged
 git branch -v # See all branches with their latest commits
 
@@ -141,18 +145,51 @@ git remote
 git remote add origin <repo link> # to add remote branch
 git remote add <remote-name> <repository-url> # to add a new remote repository to our local Git repository's configuration
 git remote remove <remote-name> # to remove a existing remote repository from our local Git repository's configuration
-git remote rename <old remote name> <new remote name> # Rename a remote
-git remote set-url <remote-name> <new url> # Change remote URL
+git remote rename <old-remote-name> <new-remote-name> # Rename a remote
+git remote set-url <remote-name> <new-url> # Change remote URL
 git push heroku-backend `git subtree split --prefix server main`:main --force # usefull incase of non-fast-forward error,
 
 git diff origin/main origin/staging # Shows Differences between the remote branches on your origin
+```
 
+```sh
+### TO UPDATE REMOTE BRANCH WITH LOCAL BRANCH ###
+git push <remote> <source-branch>:<target-branch>  # This pushes our local source-branch changes to the remote traget-branch. NOTE: If source-branch left empty it will the remote-branch
+
+```
+
+```sh
+### TO UPDATE LOCAL BRANCH WITH REMOTE BRANCH ###
 
 git fetch #  downloads objects and refs (branches, tags, etc.) from a remote repository to our local repository without merging them into our current working branch.
 git fetch --all # Fetch all updates from all remotes in our project, without merging or modifying our working code
 git fetch <remote name> --prune # This removes local references to deleted remote branches
-git push <remote> <source_branch>:<target_branch> # If you leave out the <source_branch> (i.e. it's blank before the colon), git will then delete the target-branch
 
+```
+
+```sh
+# reset desired-branch while being in the desired-branch
+git switch main
+git reset --hard staging # our working directory and staging area are updated to exactly match staging. Any uncommitted changes or local commits on main are discarded.
+git push -f origin main # This overwrites remote main to match your local main (which now matches staging).
+
+# resent desired-branch while being in the different branch
+git switch staging
+git branch -f main 
+git push -f origin main # This overwrites remote main to match your local main (which now matches staging).
+```
+
+```sh
+# Compare commit hashes
+# If hashes are same = identical commits
+git rev-parse main
+git rev-parse staging
+```
+
+```sh
+# linking back the same repo from the github to system
+git init
+git pull origin main # it does the combination of `git fetch and git merge`
 ```
 
 ```sh
