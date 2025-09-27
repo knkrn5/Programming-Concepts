@@ -42,11 +42,11 @@ Object.entries(user).forEach(([key, value]) => console.log(`${key} → ${value}`
 
 
 //🎯======OBJECT DATA MANIPULATION IN JS==================
-//👉 In js we can manipulate the object data using both dot and bracket anotation.
+//👉 In js we can manipulate the object data using both dot and bracket notation.
 // ===== adding property in object in js=========================
 const obj = {
     name: "Karan",
-    "home address": "123 Main St" // NOTICE: Here property name with space must have quotes (Can any single or double quotes)
+    "home address": "123 Main St" // NOTICE: key with space — must be in quotes (Can any single or double quotes)
 };
 
 // Dot notation

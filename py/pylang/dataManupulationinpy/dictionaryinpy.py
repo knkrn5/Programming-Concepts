@@ -25,7 +25,8 @@ for key, value in dict.items():
     print("Value:", value)  # → Value: Karan, Value: 24
 
 
-#🎯======OBJECT DATA MANIPULATION IN PY==================
+#🎯======OBJECT/DICTIONARY DATA MANIPULATION IN PY==================
+#👉 In PY we can only manipulate the object/DICT data using bracket notation.
 # ===== adding property in object in py=========================
 person = {
     "name": "karan",
