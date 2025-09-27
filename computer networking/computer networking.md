@@ -15,7 +15,7 @@
 
 ## **MEDIA ACCESS CONTROL(MAC):-**
 
-## DNS
+## **DNS**
 
 1. **DNS over HTTPS (DoH):-**
 2. **DNS over TLS (DoT):-**

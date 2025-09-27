@@ -13,8 +13,7 @@ class User:
 
 ```py
 class User:
-# feilds declared outside the constructor
-# In python variables are declared outside the __init__() constructor, are class-level fields but these are shared by all instances of the class. (same memory for all the instances)
+# In python fields/variables are declared outside the __init__() constructor, are class-level fields but these are shared by all instances of the class. (same memory for all the instances)
     name: str = "karan"
     age: int = 23
 
@@ -99,12 +98,14 @@ print(u._User__password)  # ✅ Hack: works via name mangling, this is because p
 
 ### **`Self`** keyword in py: - _self when Used inside instance methods to refer to the current object._
 
+- In python, Every instance method must include self as the first parameter, because python **automatically pass the current object (instance) to that method as the first argument.**
+
 ```python
 class User:
     def __init__(self, name): # no automatic passing/ or implicit self , you must include 'self' in every method argument/ parameter
         self.name = name  # 'self' refers to this instance
 
-    def greet(self): # no implicit self , you must include 'self' in every method argument/ parameter
+    def greet(self): # no implicit self , you must include 'self' in every method argument/ parameter, this enables us to access the instance’s properties or methods.
         print(f"Hi, I’m {self.name}")
 ```
 

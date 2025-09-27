@@ -1,5 +1,6 @@
 //👉 Three Main steps of function 1. function declaration 2. function initialization 3. Function call
 // 👉 In js implicit return is only avaliable in arrow functions
+// 👉 Order of the function parameter matters, if parameter are not written in object.
 
 //**🎯 arguments in function**
 // passing unlimited arguments to a function
