@@ -16,6 +16,12 @@ obj1 = {
 # dict.items(): - similar to object.entries() in js, but this returns a view object that displays a list of a given dictionary's key-value tuple pairs.
 dict = {"name": "Karan", "age": 24}
 
+dict.get("name")  # → "Karan"
+dict.get("email", "Not set")  # → "Not set"
+dict["name"]  # → "Karan"
+# dict["email"]  # → KeyError: 'email' (if key doesn't exist
+# dict.name  # AttributeError: 'dict' object has no attribute 'name' (dot notation doesn't work with dicts in py)
+
 for key in dict:
     print("Key:", key)  # → Key: name, Key: age
     print("Value:", dict[key])  # → Value: Karan, Value: 24

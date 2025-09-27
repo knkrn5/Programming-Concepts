@@ -35,6 +35,11 @@ console.log(Object.entries(user));
   ["country", "India"]
 ] */
 
+user.name; // → "Karan"
+user["age"]; // → 22
+const key = "country";
+user[key]; // → "India"
+
 for (const [key, value] of Object.entries(user)) {
     console.log(`${key} → ${value}`);
 }
