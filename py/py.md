@@ -5,6 +5,13 @@ if __name__ == '__main__':
     main()
 ```
 
+## **Datatypes in py**
+
+1. **Primitive**
+2. **Non-Primitive**
+
+> ℹ️Imp: - `Everything in Python is an object.`
+
 ## **[🔗 OOPS in Python](./pylang/oopsinpy.md)**
 
 ## **Operators**
