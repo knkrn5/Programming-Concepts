@@ -8,37 +8,43 @@ The key to mastering any programming language is knowing how to work with data �
 
 ![datatypes flow diagram](./datatypes-imgs/datatypesflowdiagram.png)
 
-### Types of Brackets we have: -
+## **Primitive VS Non-Primitive VS User-Defined Datatypes**
 
-1. **Parentheses ( ) : -** _In Programming_
+> The concept of primitive vs non-primitive data types is `language-dependent`. Different languages define them differently based on `how they manage memory, data, and types.`
+
+### **Key Factors That Cause the Difference: -**
+
+- Memory Management: -
+- Immutability
+- Built-in Status
+
+1. **Primitive Datatypes**
+
+   1. Number
+   2. String
+
+2. **Non-Primitive Datatypes**
+
+   ### Types of Brackets we have: -
+
+   1. **Parentheses ( ) : -** _In Programming_
 
    - In python, data in brackets like ("name", "age", "gender") **represents tuple**
 
-2. **Square Brackets [ ] : -** _In programming square bracket generally represents array like in js and py_
+   2. **Square Brackets [ ] : -**
 
-   - [🔗 Array in js](../jsANDts/jslang/dataManupulationinjs/arrayinjs.js)
-   - [🔗 Array in py](../py/pylang/dataManupulationinpy/listinpy.py)
+   - _In programming square bracket generally represents array like in js and py_
+     - [🔗 Array in js](../jsANDts/jslang/dataManupulationinjs/arrayinjs.js)
+     - [🔗 Array in py](../py/pylang/dataManupulationinpy/listinpy.py)
 
-3. **Curly Brackets { } : -** _In programming curly bracket generally represents object like in js and py_
+   3. **Curly Brackets { } : -**
 
-   - [🔗 Object in js](../jsANDts/jslang/dataManupulationinjs/objectinjs.js)
-   - [🔗 Object in py](../py/pylang/dataManupulationinpy/dictionaryinpy.py)
+   - _In programming curly bracket generally represents object like in js and py_
+     - [🔗 Object in js](../jsANDts/jslang/dataManupulationinjs/objectinjs.js)
+     - [🔗 Object in py](../py/pylang/dataManupulationinpy/dictionaryinpy.py)
 
-4. **Angle Brackets < > : -** _Used in HTML/XML tags, template parameters (C++), and some mathematical or technical notations_
+   4. **Angle Brackets < > : -**
 
-- NOTE: Datatypes differs based on different programming language and there sizes
+   - _Used in HTML/XML tags, template parameters (C++), and some mathematical or technical notations_
 
-## **TypeCheck**
-
-- **[🔗TypeCheck](./typeCheck.md)**
-
-## **Platform Independent VS Platform dependent**
-
-1. **[🔗Platform dependent](../cpp/cpp.md#c-platform-dependent)**
-
-2. **[🔗Platform Independent](../java/java.md#java-platorm-independent)**
-
-> ### **⭐Application/Language-level Type-Checking (e.g., Java DTOs, Pydantic BaseModel)** 🆚 **Database/ORM/ODM-level Type-Checking (e.g., JPA @Entity, SQLAlchemy/SQLModel)⬇️**
-
-- Like in java **Jpa-hibernate** if the class is created using **@entity** annotation (jakarta validation will not work on @entity tables/class, will only work on normal DTO) then the normal java DTO type-check will fail even after adding **@validate**
-- similarly in python **sqlalchamy** if the class is created using the **SQLModel** (pydantic validations will not work on sqlModel table, will only work on baseModel)(Pydantic won't validate the model data unless we parse it. like this `base_model_name(**data` then assigning this to SQLmodel ), then the normal pydantic type-check **(BaseModel)** will fail. ( Pydantic validation does happen when we instantiate a SQLModel object.)
+3. **User-Defined Datatypes**

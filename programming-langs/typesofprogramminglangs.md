@@ -23,3 +23,13 @@ flowchart TD
 | 🧰 Examples         | Python, JavaScript, PHP, Ruby, Node.js   | C, C++, Rust, Go, Java\*                                 |
 
 ---
+
+## **Platform Independent VS Platform dependent**
+
+1. **[🔗Platform dependent](../cpp/cpp.md#c-platform-dependent)**
+
+2. **[🔗Platform Independent](../java/java.md#java-platorm-independent)**
+
+## **TypeCheck**
+
+- **[🔗TypeCheck](./typeCheck.md)**

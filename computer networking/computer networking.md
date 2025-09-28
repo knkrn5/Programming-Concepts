@@ -1,4 +1,4 @@
-# **Network Concetps**
+# **Network Concepts**
 
 **what is internet.** _The Internet is a global network of interconnected computers and servers that communicate using protocols like TCP/IP, and to use this internet data(download) or to upload data in the internet we need a pipeline to access the internet, this pipeline is given to us via ISP(SIM or wifi router), with some limited usage depending on our plan so this is called **data pack(How much data we can download or upload via their pipeline)**_
 
@@ -8,6 +8,15 @@
 
 1. **IPv4: -**
 2. **IPv6: -**
+
+## **LocalHost vs Host**
+
+1. LocalHost: - It is a special hostname that computers use to refer to themselves. It is a `loopback interface`, meaning that **any network traffic sent to localhost is immediately looped back to the sending machine without ever leaving the device and going out onto the physical network**. The most common IP address associated with localhost is `127.0.0.1 for IPv4` and `::1 for IPv6.`
+
+2. Host: -
+   - PAN: -
+   - LAN: -
+   - WAN: -
 
 ## **VPN**
 
