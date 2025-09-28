@@ -22,6 +22,18 @@ flowchart TD
 
 ## **Flex**
 
+1. **Flex**: `flex` is a shorthand for (flex-grow + flex-shrink + flex-basis)
+
+   - flex-basis
+   - flex-shrink
+   - flex-grow
+
+2. **Types of Alignment in Flexbox**
+   - justify-content
+   - align-items
+   - align-content
+   - align-self
+
 ## **Grid**
 
 ## **[🔗 Animations](./animationincss.md)**

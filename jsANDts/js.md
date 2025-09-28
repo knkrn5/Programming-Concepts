@@ -76,3 +76,5 @@
   ```
 
 ### deep vs shallow copy
+
+1. shallow copy: - 

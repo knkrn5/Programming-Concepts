@@ -16,78 +16,13 @@ The key to mastering any programming language is knowing how to work with data �
 
 2. **Square Brackets [ ] : -** _In programming square bracket generally represents array like in js and py_
 
-   ```js
-   // **🎯 Types of array**
-   // 1. Homogeneous array
-   [1, 2, 3, 4, 5]; // All elements are of the same type (numbers)
-   ["apple", "banana", "cherry"]; // All elements are of the same type (strings)
-   [{}, {}, {}, {}]; // All elements are of the same type (objects)
-
-   // 2. Heterogeneous array
-   [
-     1, // Number
-     "hello", // String
-     true, // Boolean
-     { name: "John" }, // Object
-     [
-       {}, // First array
-       {
-         nested: [
-           // Nested array inside an object
-           {},
-           {},
-         ],
-       },
-     ],
-     [
-       // Second array
-       {},
-     ],
-     [
-       // Third array
-       {},
-     ],
-   ];
-
-   // 3. Multidimensional array
-   [
-     [
-       [1, 2, 3], // First sub-array
-       [4, 5, 6], // Second sub-array
-     ],
-     [
-       [7, 8, 9], // Third sub-array
-       [10, 11, 12], // Fourth sub-array
-     ],
-   ];
-   ```
+   - [🔗 Array in js](../jsANDts/jslang/dataManupulationinjs/arrayinjs.js)
+   - [🔗 Array in py](../py/pylang/dataManupulationinpy/listinpy.py)
 
 3. **Curly Brackets { } : -** _In programming curly bracket generally represents object like in js and py_
 
-   - In JavaScript and Python, an object property (or dictionary value in Python) can hold anything — a number, string, object, array, function, or even another function returning another object.
-
-   ```js
-   const obj = {
-     name: "Karan",
-     age: 24,
-     hobbies: ["coding", "music"],
-     address: { city: "Delhi", country: "India" },
-     greet: function () {
-       console.log("Hello!");
-     },
-   };
-   ```
-
-   ```py
-      obj = {
-      "name": "Karan",
-      "age": 24,
-      "hobbies": ["coding", "music"],
-      "address": { "city": "Delhi", "country": "India" },
-      "greet": lambda: print("Hello!")
-   }
-
-   ```
+   - [🔗 Object in js](../jsANDts/jslang/dataManupulationinjs/objectinjs.js)
+   - [🔗 Object in py](../py/pylang/dataManupulationinpy/dictionaryinpy.py)
 
 4. **Angle Brackets < > : -** _Used in HTML/XML tags, template parameters (C++), and some mathematical or technical notations_
 

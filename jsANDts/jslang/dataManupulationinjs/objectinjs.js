@@ -4,6 +4,7 @@
 // 👉 in JavaScript, if an object property name contains spaces or other special characters that aren’t valid in identifiers, you must wrap it in quotes (single ' or double ").
 
 //=============================================================
+//  In JavaScript an object property value can hold anything — a number, string, object, array, function, or even another function returning another object.
 const obj1 = {
     name: "Karan",
     age: 24,

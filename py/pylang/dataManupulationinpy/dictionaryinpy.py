@@ -2,6 +2,7 @@
 #  we cannot use dot notation with regular Python dictionaries like you can in JavaScript.
 
 # ============================================
+# - In Python,  dictionary values can hold anything — a number, string, object, array, function, or even another function returning another object.
 obj1 = {
     "name": "Karan",
     "age": 24,
