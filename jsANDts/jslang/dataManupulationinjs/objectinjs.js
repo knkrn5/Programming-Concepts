@@ -19,7 +19,7 @@ const obj1 = {
 };
 
 
-//🎯============READING OBJECT DATA IN JS========================
+//🎯======READING OBJECT DATA IN JS========================
 // Object.entries(object): - This method returns an array of a given object's, containing nested enumerable arrays (one per key-value pair)..
 const user = {
     name: "Karan",

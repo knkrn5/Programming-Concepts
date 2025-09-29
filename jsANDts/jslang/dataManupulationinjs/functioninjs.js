@@ -8,6 +8,10 @@ function add(...args) { } // 'args' is an array with name "arg" of all arguments
 
 
 //**🎯 hoisting in functions**
+const myFunction1 = function () {
+    console.log("This is type of function defination is called function expression");
+};
+
 
 //**🎯 higher order functions**
 // A higher-order function is a function that either takes one or more functions as arguments or returns a function as its result.
@@ -51,7 +55,7 @@ function add(a) {
 console.log(add(1)(2)(3)()); // Returns 6
 
 
-// **🎯 closure and lexical scoping**
+//🎯 closure and lexical scoping**
 function createCounter() {
     let count = 0;
     return function () {
@@ -68,3 +72,13 @@ counter(); //this will call the inner function and not the outer function
 const myFunction = function () {
     console.log("This is an anonymous function");
 };
+
+
+//🎯 IIFE (Immediately Invoked Function Expression)
+(function sayHi() {
+    console.log("This is an IIFE function");
+})();
+//OR
+(() => {
+    console.log("This is an IIFE arrow function");
+})();

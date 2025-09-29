@@ -25,11 +25,11 @@
    6. Undefined
 2. **Non-Primitive**
 
-   1. [🔗 Objects](./jslang/dataManupulationinjs/objectinjs.js)
+   1. [🔗 Objects in js](./jslang/dataManupulationinjs/objectinjs.js)
 
-   2. [🔗 Array](./jslang/dataManupulationinjs/arrayinjs.js)
+   2. [🔗 Array in js](./jslang/dataManupulationinjs/arrayinjs.js)
 
-   3. [🔗 Functions](./jslang/dataManupulationinjs/functioninjs.js)
+   3. [🔗 Functions in js](./jslang/dataManupulationinjs/functioninjs.js)
 
 > ℹ️Imp: - **Object, Arrays, Date, RegExp, Map, Set, WeakMap, WeakSet**, etc.✅ _All of these return "object" from typeof, **except functions, which return "function"** (but still technically objects under the hood). Note that **typeof null === 'object'** due to a historical bug, even though null is a primitive value, so always handle null explicitly in type checks. **NaN is considered a number type**_
 
