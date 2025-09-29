@@ -1,6 +1,7 @@
-//👉 Three Main steps of function 1. function declaration 2. function initialization 3. Function call
+//👉 Three Main steps of function 1. function defination 2. function initialization 3. Function call
 // 👉 In js implicit return is only avaliable in arrow functions
 // 👉 Order of the function parameter matters, if parameter are not written in object.
+
 
 //**🎯 arguments in function**
 // passing unlimited arguments to a function
@@ -82,3 +83,10 @@ const myFunction = function () {
 (() => {
     console.log("This is an IIFE arrow function");
 })();
+
+
+//🎯 async Functions=============
+// async always returns a Promise, even if you return a plain value
+async function fetchData() {
+    return "karan"; // Implicitly returns a resolved Promise with the value "karan"
+}

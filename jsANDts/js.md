@@ -83,7 +83,7 @@
 
 ## **Execution Context in js: -** Understanding execution context in JavaScript is key to mastering weird behaviors like: -⬇️
 
-- Why variables are undefined when accessed before declaration
+- Why variables are undefined/referenceError when accessed before declaration
 - Why functions can be called before they are defined
 
 > **There are Two Phases of Execution:**
@@ -100,6 +100,8 @@
     - JS runs the code line-by-line
     - Variables get assigned their actual values
     - Functions get called as needed
+
+#### Call Stack vs Stack Overflow
 
 ### deep vs shallow copy
 

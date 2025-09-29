@@ -60,6 +60,7 @@ arr.splice(1, 1); // Removes the element at index 1
 console.log(arr);
 // Output: [10, 30]
 
+// All predefined array methods in js⬇️
 arr.push(40); // Adds the element 40 to the end of the array
 arr.unshift(5); // Adds the element 5 to the beginning of the array
 arr.pop(); // Removes the last element of the array
@@ -68,4 +69,4 @@ arr.sort((a, b) => a - b); // Sorts the array in place (default is ascending ord
 arr.reverse(); // Reverses the order of elements in the array
 
 
-// 🎯 Inbuilt Array methods in js(.map, .filter, .reduce, .some, .every, .split)
+// 🎯 Inbuilt Array methods in js(.map, .filter, .reduce, .some, .every, .split, .flat(Infinity))
