@@ -30,6 +30,8 @@ flowchart TD
 
 2. **[🔗Platform Independent](../java/java.md#java-platorm-independent)**
 
-## **TypeCheck**
+## **Statiscally Typed vs Dynaically Typed**
+
+### **TypeCheck**
 
 - **[🔗TypeCheck](./typeCheck.md)**
