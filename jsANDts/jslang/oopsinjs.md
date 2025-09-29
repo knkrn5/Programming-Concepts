@@ -125,7 +125,20 @@ class User {
 }
 ```
 
-- In JavaScript, `this` depends on how a function is called — it can be dynamic in non-arrow functions, unlike in Java/Python. Arrow functions don’t have their own this, they use this from the enclosing context (here, the global object or module in strict mode)
+- In JavaScript, `this` depends on how a function is called — it can be dynamic in non-arrow functions, unlike in Java/Python. Arrow functions don’t have their own this, they use this from the enclosing context (here, the global object or module in strict mode). Arrow functions don’t have their own this → they use this of enclosing function
+
+```js
+const obj = {
+  value: 42,
+  print: function() {
+    const arrow = () => console.log(this.value);
+    arrow();
+  }
+};
+obj.print();
+
+```
+
 - But in non-class functions or event handlers, this can behave differently.
 
 ```javascript
