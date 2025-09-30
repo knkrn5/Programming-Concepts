@@ -4,7 +4,7 @@
 
 > ### **Practical Learning >>>>> Theoritical Learning**
 
-### **[🔗DataTypes](./programming-langs/datatypes.md)**
+### **[🔗DataTypes](./⭐programming-langs/datatypes.md)**
 
 > ## **Language-Agnostic Thinking**
 >
@@ -12,19 +12,21 @@
 > Knowing the concept is more important than knowing the Syntax
 > ```
 
-### **[🔗 Types of Programming Langs](./programming-langs/typesofprogramminglangs.md)**
+### **[🔗 Types of Programming Langs](./⭐programming-langs/typesofprogramminglangs.md)**
 
 ---
 
 ## 🚀 Core Concepts
 
-1. ### **[🔗OOPS Concept](./programming-langs/oops.md)**
+1. ### **[🔗OOPS Concept](./⭐programming-langs/oops.md)**
 
 2. ### **[🔗🌐Rest API Concept](./rest%20api/restapi.md)**
 
 ### **☁️ DevOp**
 
 - **[🔗Docker Concept](./DevOp/docker/docker.md)**
+- **[🔗 Git](./git/git.md)**
+- **[🔗 GitHub](./github/github.md)**
 
 ### **🔐 Security**
 
@@ -32,12 +34,12 @@
 
 ### **📦 Other Concepts**
 
-1. **[🔗Dotenv Concept](./Other%20Concepts/dotenv/dotenvconcepts.md)**
-2. **[🔗Mail Concept](./Other%20Concepts/mail/mail.md)**
+1. **[🔗Dotenv Concept](./Other-Concepts/dotenv/dotenvconcepts.md)**
+2. **[🔗Mail Concept](./Other-Concepts/mail/mail.md)**
 3. <details>
    <summary><b>⌛RealTime Events</b></summary>
 
-   - **[🔗SSE](./Other%20Concepts/realTimeEvents/sse.md)**
-   - **[🔗WebSocket](./Other%20Concepts/realTimeEvents/websocket.md)**
+   - **[🔗SSE](./Other-Concepts/realTimeEvents/sse.md)**
+   - **[🔗WebSocket](./Other-Concepts/realTimeEvents/websocket.md)**
 
    </details>
