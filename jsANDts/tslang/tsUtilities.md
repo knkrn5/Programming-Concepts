@@ -1,6 +1,6 @@
 # 🧠 **TypeScript Utility Types Cheat Sheet**
 
----
+> `Utility types are built-in generic types` that TypeScript provides to `help you transform and manipulate existing types`. Think of them as "type helpers" that `save you from writing repetitive type definitions`
 
 ### **1. `Partial<T>`**
 
@@ -195,7 +195,7 @@ type User = Awaited<ReturnType<typeof fetchUser>>;
 
 ---
 
-### **15. Mapped Types**
+### **15. `Mapped Types`**
 
 ```ts
 type Person = { name: string; age: number };
@@ -204,9 +204,3 @@ type ReadonlyPerson = { readonly [K in keyof Person]: Person[K] };
 ```
 
 ---
-
-Boss, this sheet covers **90% of interview and real-world TypeScript utility types**.
-
-If you want, I can make a **visual “Type Mapping Cheat Diagram”** showing how `Partial`, `Pick`, `Omit`, `Readonly`, `Record` all transform types — super handy for interviews and memory recall.
-
-Do you want me to make that diagram?

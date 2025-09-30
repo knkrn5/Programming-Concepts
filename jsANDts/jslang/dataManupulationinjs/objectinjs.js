@@ -13,8 +13,8 @@ const obj1 = {
     greet: function () {
         console.log("Hello!");
     },
-    greet2() {
-        console.log("Hi there!");
+    greet2(a) {
+        console.log("Hi there!", a);
     } // ES6 object method shorthand syntax
 };
 

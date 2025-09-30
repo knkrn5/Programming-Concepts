@@ -1,17 +1,10 @@
 # **Type vs Interfce**
 
-> both `type and interface are used to define object shapes`, but they have some key differences: -
+> Both `type and interface are used to define object shapes`, but they have some key differences: -
 
 ## **1. Basic Usage**
 
-**Using `interface`:**
-
-```ts
-interface Person {
-  name: string;
-  age: number;
-}
-```
+> type can be used to alias any type (including primitive, tuple, function, etc.), but interface can only be used to describe objects.
 
 **Using `type`:**
 
@@ -20,11 +13,23 @@ type Person = {
   name: string;
   age: number;
 };
+
+//Direct way
+type ID = string | number;
 ```
 
-✅ Both define the **shape of an object**.
+- type supports direct single type assignment, while interface must always be in object
 
----
+**Using `interface`:**
+
+- The interface keyword doesn't support direct assignment like type
+
+```ts
+interface Person {
+  name: string;
+  age: number;
+}
+```
 
 ## **2. Extending / Inheritance**
 
@@ -37,7 +42,7 @@ interface Animal {
 
 interface Dog extends Animal {
   breed: string;
-}
+} // {species:string; breed:string;}
 ```
 
 **Type can also extend using intersections:**
@@ -85,20 +90,7 @@ type Person = { age: number }; // ❌ Error: Duplicate identifier
 type ID = string | number; // Union type
 ```
 
-- **Interface** cannot directly do union types — you need `type`.
-
----
-
-## **5. Other differences**
-
-| Feature                        | `interface`                                                         | `type`               |
-| ------------------------------ | ------------------------------------------------------------------- | -------------------- |
-| Object shape definition        | ✅                                                                  | ✅                   |
-| Extending / inheritance        | `extends`                                                           | `&` (intersection)   |
-| Declaration merging            | ✅ Yes                                                              | ❌ No                |
-| Union / tuple / primitive type | ❌                                                                  | ✅ Yes               |
-| Implemented by class           | ✅                                                                  | ✅ (but less common) |
-| Preferred for React props      | Both work, but `interface` often preferred for **extendable props** |                      |
+- **Interface** cannot directly do union types — you need `type`. |
 
 ---
 
@@ -117,6 +109,8 @@ interface User {
 // Works fine - result is a type
 type PublicUser = Omit<User, "password">;
 type UserPreview = Pick<User, "id" | "name">;
+// The interface keyword doesn't support direct assignment like that, so instead we can do like this
+interface PublicUser extends Omit<User, "password"> {} // This works, but it's more verbose
 
 // You can also do this with types
 type Admin = {
@@ -126,6 +120,8 @@ type Admin = {
 };
 
 type AdminPreview = Pick<Admin, "id" | "role">;
+//with interface
+interface AdminPreview extends Pick<Admin, "id" | "role"> {}
 ```
 
 - _For union utilities (Exclude, Extract), Only make sense with type since interfaces can't represent unions_

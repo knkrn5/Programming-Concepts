@@ -88,14 +88,14 @@
 
 > **There are Two Phases of Execution:**
 
-1.  Memory Allocation Phase (Creation Phase): -
+1.  `Memory Allocation Phase (Creation Phase): -`
 
     - JS scans the code before it starts executing
     - It allocates memory for:
       - Variables → initialized with undefined
       - Function declarations → fully hoisted (the whole function is placed in memory)
 
-2.  Code Execution Phase: -
+2.  `Code Execution Phase: -`
 
     - JS runs the code line-by-line
     - Variables get assigned their actual values
