@@ -17,7 +17,7 @@
    | Object == Primitive    | Object converted to primitive, then compare |
 
    ```js
-   // == Examples (Loose) (== performs automatic type coercion)
+   // == Examples (Loose) (only compares value after automatic type coercion)
    //ℹ️⭐ Convertion priority give to number(every type si first converted to number)
    5 == '5'       // true (string '5' is converted to number 5)
    0 == false     // true (false is converted to 0)
