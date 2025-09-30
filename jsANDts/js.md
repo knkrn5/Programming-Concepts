@@ -10,11 +10,36 @@
 
 ```js
 //HOISTING⬇️
-// Any variable declared with `var` is hoisted to the top of its scope.
-// You can reference it before its declaration, but its value will be `undefined` until the line where it is assigned.
+// Variables declared with var are hoisted to the top of their scope.
+// Their declaration is hoisted, but initialization is not.
+// They are initialized with 'undefined' and can be accessed before declaration.
 
-// Variables declared with `let` and `const` are hoisted to the top of their scope,
-// but they **cannot be accessed before their declaration** — they exist in the "temporal dead zone" (TDZ).
+console.log(x); // undefined (no error)
+var x = 5;
+console.log(x); // 5
+
+// Variables declared with let and const ARE hoisted, but they are NOT initialized.
+// They exist in the "Temporal Dead Zone" (TDZ) from the start of the block
+// until the declaration is reached. Accessing them in the TDZ throws a ReferenceError.
+
+console.log(y); // ReferenceError: Cannot access 'y' before initialization
+let y = 10;
+
+console.log(z); // ReferenceError: Cannot access 'z' before initialization
+const z = 20;
+
+// Function declarations are fully hoisted (both declaration and definition)
+sayHi(); // "Hi!" - works fine
+function sayHi() {
+  console.log("Hi!");
+}
+
+// Function expressions (using var, let, or const) are NOT fully hoisted
+sayBye(); // TypeError: sayBye is not a function (if var)
+// ReferenceError (if let/const)
+var sayBye = function () {
+  console.log("Bye!");
+};
 ```
 
 - **var: -** var is not block scoped, it leaks out of the block(like control or condtional statement blocks etc), but stays inside functions block.

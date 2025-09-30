@@ -10,6 +10,12 @@
    - Type Comparision
    - Memory address(Reference) Comparision
 
+   | Comparison             | Behavior                                    |
+   | ---------------------- | ------------------------------------------- |
+   | Primitive == Primitive | Value (coerced if types differ)             |
+   | Object == Object       | Reference only (no coercion)                |
+   | Object == Primitive    | Object converted to primitive, then compare |
+
    ```js
    // == Examples (Loose) (== performs automatic type coercion)
    //ℹ️⭐ Convertion priority give to number(every type si first converted to number)
@@ -19,15 +25,37 @@
    null == undefined  // true, Unlike many other == comparisons, null and undefined are only loosely equal to each other, and not to any number, even 0.
    [] == 0 // true → [] becomes "" → then "" becomes 0
    [] == false    // true (both are converted to 0)
+   [] == []  // false (Each array/object literal creates a new reference in memory)
+   {} == {}  // false (Each array/object literal creates a new reference in memory)
+   [] == ""       // true, [] → "" via toString
+    [1] == "1"     // true, [1] → "1"
+    [1,2] == "1,2" // true, [1,2] → "1,2"
+    {} == "[object Object]" // true ({} coerced to [object, object])
+
    " \t\n" == 0;    // true → whitespace string → becomes 0
    (5 != '5'); // false (because '5' is converted to 5)
    (0 != false); // false (false is converted to 0)
 
+   ```
+
+   `⭐This is how js converts the Non-Primitive DataType to Primitive dataType` before comparing it will any Primitive DataType using **.valueOf()** and **.toString()** methods⬇️
+
+   | Object Type  | `.valueOf()`  | `.toString()`          | Coerced primitive   |
+   | ------------ | ------------- | ---------------------- | ------------------- |
+   | `[]`         | array itself  | `""` (empty string)    | `""`                |
+   | `[1,2]`      | array itself  | `"1,2"`                | `"1,2"`             |
+   | `{}`         | object itself | `"[object Object]"`    | `"[object Object]"` |
+   | `new Date()` | Date object   | `"Tue Sep 30 2025..."` | date string         |
+
+   ***
+
+   ```js
    // === Examples (Strict) compartion
    5 === 5        // true (same value and type)
    5 === '5'      // false (different types)
    null === undefined  // false
-   [] === []      // false (different objects)
+   [] === []      // false (Each array/object literal creates a new reference in memory)
+   {} === {}   // false (Each array/object literal creates a new reference in memory)
    (5 !== '5'); // true (number vs string, no coercion)
    (null !== undefined); // true (different types)
    (0 !== false); // true (number vs boolean)
