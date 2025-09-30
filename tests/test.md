@@ -2,8 +2,6 @@
 
 ## **Type Declaration is TS**
 
-### **[🔗 Type vs Interface](./tslang/typeVSinterface.md)**
-
 ```ts
 interface typeProps {
   func: (a: number) => void; // function type defining old way
@@ -12,6 +10,12 @@ interface typeProps {
 ```
 
 ### js 🆚 ts
+
+
+
+```ts
+let user: [string, number, boolean] = ["Alice", 25, true]; // This is a tuple type in ts
+```
 
 ```ts
 // need to learn about these types of type checking more in detail
