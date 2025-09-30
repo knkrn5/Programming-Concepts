@@ -2,6 +2,32 @@
 
 1. **Arthematic Operations**
 
+   - `+` → **string concatenation if either side is string** after coercion
+
+   - `-, *, /, %` → **always numeric conversion, arrays/objects converted to numbers via ToPrimitive** → **.valueOf**() → **.toString()** → numeric cast
+
+   ```js
+    [] + 1      // "1"  ->  [] coerced to "" then "" + 1 = "1"
+    [1,2] + 3     // "1,23"  -> [1,2].toString() -> "1,2", then + "3"
+    [] + {}       // "[object Object]" -> "" + "[object Object]"
+    {} + []       // 0 ??? depends on context / block parsing ⚠️ Note: {} at the start of a line is parsed as a block, so {} + [] can give 0 in some cases. Always wrap in parentheses if testing: ({} + []).
+    {} + 1  // 1  -> {} at line start → parsed as block → 0 + 1
+    {a:1} + {b:2} // "[object Object][object Object]"
+    [1] + {a:1}  // "1[object Object]"  -> [1] → "1", {a:1} → "[object Object]" then "1" + "[object Object]"
+   ```
+
+   **These results will be same with all these `-, *, /, %` arthemethic operator⬇️**
+
+   | Expression    | Step-by-step Conversion         | Result |
+   | ------------- | ------------------------------- | ------ |
+   | `[] - 1`      | `"" → 0`                        | -1     |
+   | `[1] - 1`     | `"1" → 1`                       | 0      |
+   | `[1,2] - 1`   | `"1,2"` → NaN                   | NaN    |
+   | `{}` - 1      | `"[object Object]"` → NaN       | NaN    |
+   | `[1] - {a:1}` | `"1" - "[object Object]" → NaN` | NaN    |
+
+   ***
+
 2. **Logical Operations**
 
 3. **Comparision Operations: -** In js we have two type of comparision `Strict Comparision(===)` and `Loose Comparision(==)`
@@ -15,6 +41,17 @@
    | Primitive == Primitive | Value (coerced if types differ)             |
    | Object == Object       | Reference only (no coercion)                |
    | Object == Primitive    | Object converted to primitive, then compare |
+
+   ***
+
+   `⭐This is how js converts the Non-Primitive DataType to Primitive dataType` before comparing it will any Primitive DataType using **.valueOf()** and **.toString()** methods⬇️
+
+   | Object Type  | `.valueOf()`  | `.toString()`          | Coerced primitive   |
+   | ------------ | ------------- | ---------------------- | ------------------- |
+   | `[]`         | array itself  | `""` (empty string)    | `""`                |
+   | `[1,2]`      | array itself  | `"1,2"`                | `"1,2"`             |
+   | `{}`         | object itself | `"[object Object]"`    | `"[object Object]"` |
+   | `new Date()` | Date object   | `"Tue Sep 30 2025..."` | date string         |
 
    ```js
    // == Examples (Loose) (only compares value after automatic type coercion)
@@ -37,15 +74,6 @@
    (0 != false); // false (false is converted to 0)
 
    ```
-
-   `⭐This is how js converts the Non-Primitive DataType to Primitive dataType` before comparing it will any Primitive DataType using **.valueOf()** and **.toString()** methods⬇️
-
-   | Object Type  | `.valueOf()`  | `.toString()`          | Coerced primitive   |
-   | ------------ | ------------- | ---------------------- | ------------------- |
-   | `[]`         | array itself  | `""` (empty string)    | `""`                |
-   | `[1,2]`      | array itself  | `"1,2"`                | `"1,2"`             |
-   | `{}`         | object itself | `"[object Object]"`    | `"[object Object]"` |
-   | `new Date()` | Date object   | `"Tue Sep 30 2025..."` | date string         |
 
    ***
 
