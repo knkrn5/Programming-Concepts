@@ -50,7 +50,7 @@
    ***
 
    ```js
-   // === Examples (Strict) compartion
+   // === Examples (Strict) compartion. Js compares both value and type for primitive Datatype
    5 === 5        // true (same value and type)
    5 === '5'      // false (different types)
    null === undefined  // false
