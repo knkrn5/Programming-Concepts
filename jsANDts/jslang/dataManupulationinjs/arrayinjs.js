@@ -1,5 +1,5 @@
 // 👉 In js negative indexing is not supported natively like python but we can achieve it using at() method.
-// 👉 In js Array indices must be integers ≥ 0. Any floating, negative number, string, boolean, null, undefined are not a valid array index, so JavaScript treats it like a normal object property.
+// 👉 In js Array indices must be integers ≥ 0. Any floating/Decimal number, negative number, string, boolean, null, undefined are not a valid array index, so JavaScript treats it like a normal object property.
 
 
 // **🎯 Types of array** (refer datatypes in programming-langs)
