@@ -2,7 +2,27 @@
 
 ## **Type Declaration is TS**
 
+1. string: - used for string
+2. number: - used for number
+3. bigint: -
+4. boolean:- used for true and false
+5. array<type> or any[]: - used for array
+6. object: - for declaring any Non-Primitive Type
+7. Record: - for declaring key-value pair
+8. enum
+9. Tuple
+10. symbol
+11. void: -
+12. any: - can declared any datatype
+13. unknown: - force type safe check before using that variable
+14. null
+15. undefined
+
 ### **[🔗 Type vs Interface](./tslang/typeVSinterface.md)**
+
+### **[🔗 Utility in ts](./tslang/tsUtilities.md)**
+
+### **[🔗 Decorator in ts](./tslang/decoratorints.md)**
 
 ### js 🆚 ts
 
@@ -25,43 +45,5 @@ const pass: string = (prompt("enter password to access the app") as string)
 
 ## **Advance Typescript feature**
 
-1. **Conditional Types: -** Conditional types work like ternary operators for types - they allow you to choose between two types based on a condition
 
-   ```ts
-   T extends U ? X : Y
-
-   // Basic conditional type
-   type IsString<T> = T extends string ? true : false;
-
-   type A = IsString<string>;  // true
-   type B = IsString<number>;  // false
-   type C = IsString<"hello">; // true
-   ```
-
-2. **Infer: -** infer lets you extract and capture types within conditional types. (The `infer keyword can only be used within the extends clause of a conditional type`)
-
-```ts
-T extends SomeType<infer U> ? U : never //"If T matches SomeType, extract and capture the inner type as U"
-
-//some exmple ⬇️
-type GetArrayType<T> = T extends Array<infer ElementType> 
-  ? ElementType 
-  : never;
-
-type Numbers = GetArrayType<number[]>;     // number
-type Strings = GetArrayType<string[]>;     // string
-type NotArray = GetArrayType<string>;      // never
-
-//more example
-type UnwrapPromise<T> = T extends Promise<infer U> ? U : T;
-
-type Result1 = UnwrapPromise<Promise<string>>;  // string
-type Result2 = UnwrapPromise<Promise<number>>;  // number
-type Result3 = UnwrapPromise<boolean>;          // boolean (not a Promise)
-
-//Extract Function Return Type
-
-// Extract Function Parameters
-
-//
-```
+### **Type assertion in ts: -**

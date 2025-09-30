@@ -45,7 +45,7 @@ interface Dog extends Animal {
 } // {species:string; breed:string;}
 ```
 
-**Type can also extend using intersections:**
+**Type can also extend using `intersections`:**
 
 ```ts
 type Animal = { species: string };
