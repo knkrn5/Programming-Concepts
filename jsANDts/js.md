@@ -8,6 +8,15 @@
 
 ## **Variable Declaration**
 
+```js
+//HOISTING⬇️
+// Any variable declared with `var` is hoisted to the top of its scope.
+// You can reference it before its declaration, but its value will be `undefined` until the line where it is assigned.
+
+// Variables declared with `let` and `const` are hoisted to the top of their scope,
+// but they **cannot be accessed before their declaration** — they exist in the "temporal dead zone" (TDZ).
+```
+
 - **var: -** var is not block scoped, it leaks out of the block(like control or condtional statement blocks etc), but stays inside functions block.
 - **let**
 - **const**

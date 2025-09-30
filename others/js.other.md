@@ -1,0 +1,1 @@
+why does js does not support natively negative array indexing like py

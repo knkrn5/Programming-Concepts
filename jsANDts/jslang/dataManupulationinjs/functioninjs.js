@@ -9,6 +9,11 @@ function add(...args) { } // 'args' is an array with name "arg" of all arguments
 
 
 //**🎯 hoisting in functions**
+// Function declarations are hoisted completely and can be called before they appear in the code.
+function myFunction2() {
+    console.log("This is type of function defination is called function declaration");
+}
+// Function expressions (assigned to variables with let or const) are **not callable before assignment**.
 const myFunction1 = function () {
     console.log("This is type of function defination is called function expression");
 };
