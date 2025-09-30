@@ -1,50 +1,7 @@
 
 // **🎯 Types of array** (refer datatypes in programming-langs)
 
-
-// 🎯 =====Types of array=============================
-// 1. Homogeneous array
-const arr1 = [1, 2, 3, 4, 5]; // All elements are of the same type (numbers)
-const arr2 = ["apple", "banana", "cherry"]; // All elements are of the same type (strings)
-const arr3 = [{}, {}, {}, {}]; // All elements are of the same type (objects)
-
-// 2. Heterogeneous array
-const arr4 = [
-    1, // Number
-    "hello", // String
-    true, // Boolean
-    { name: "John" }, // Object
-    [
-        {}, // First array
-        {
-            nested: [
-                // Nested array inside an object
-                {},
-                {},
-            ],
-        },
-    ],
-    [
-        // Second array
-        {},
-    ],
-    [
-        // Third array
-        {},
-    ],
-];
-
-// 3. Multidimensional array
-const arr5 = [
-    [
-        [1, 2, 3], // First sub-array
-        [4, 5, 6], // Second sub-array
-    ],
-    [
-        [7, 8, 9], // Third sub-array
-        [10, 11, 12], // Fourth sub-array
-    ],
-];
+// 🎯 Inbuilt Array methods in js(.map, .filter, .reduce, .some, .every, .split, .flat(Infinity))
 
 
 // 🎯=======ARRAY DATA MANIPULATION IN JS========================
@@ -68,5 +25,3 @@ arr.shift(); // Removes the first element of the array
 arr.sort((a, b) => a - b); // Sorts the array in place (default is ascending order for numbers)
 arr.reverse(); // Reverses the order of elements in the array
 
-
-// 🎯 Inbuilt Array methods in js(.map, .filter, .reduce, .some, .every, .split, .flat(Infinity))

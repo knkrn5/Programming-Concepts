@@ -41,13 +41,25 @@ The key to mastering any programming language is knowing how to work with data â
      - Variable holds a reference (memory address) to the value.
      - Passed by reference (both variables point to the same data).
 
-   ### Types of Brackets we have: -
+   ### **Types of Brackets we have: -**
 
-   1. **Parentheses ( ) : -** _In Programming_
+   1. **Parentheses ( ) : -**
 
    - In python, data in brackets like ("name", "age", "gender") **represents tuple**
 
    2. **Square Brackets [ ] : -**
+
+   ```sh
+      array = ["karan", "mark", "peter", "abhi", "yoon"]
+      # indexfromFront starts ts from 0
+      # indexfromBack starts from -1
+   ```
+
+   - `Types of Array: -`
+
+     1. **Homogeneous Array: -** All data in this type of array are of same type
+     2. **Heterogeneous array: -** This type of array includes mixed data of different types, it can string, number , boolean, object, array, nested array, nested object etc
+     3. **Multidimensional array: -** Matric type array
 
    - _In programming square bracket generally represents array like in js and py_
      - [ðŸ”— Array in js](../jsANDts/jslang/dataManupulationinjs/arrayinjs.js)
@@ -68,6 +80,4 @@ The key to mastering any programming language is knowing how to work with data â
 ### **Some Examples of Diffrent Datatypes in different Programming language: -**
 
 - `String in Non-primitive in c++ and java`: - Because String in c++ and java are `built from the Char Primitive.`
--
-
----
+- ***
