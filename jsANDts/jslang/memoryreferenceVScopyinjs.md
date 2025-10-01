@@ -25,7 +25,7 @@ console.log(obj2); // {a: 3, b: 2}
 
 1. **Shallow Copy: -** _Shallow Copy mean that whenever we copy any object or array using `speard operator` or `oject.assign` in js, only the Primitive property/values will be copied, while for any Non-primitive Property/values(nested object) the reference will be copied/passed_
 
-   - This means if we have any Primitive DataType value in the copied variable it will not the affect the orginal variable, but if we change any Non-primitive DataType(nested object) in the copied variable, then this change will also affect the orignal variable
+   - This means if we change any Primitive DataType value in the copied variable it will not the affect the orginal variable, but if we change any Non-primitive DataType(nested object,array) in the copied variable, then this change will also affect the orignal variable
 
    ```js
    const original_obj = {
@@ -39,6 +39,12 @@ console.log(obj2); // {a: 3, b: 2}
    copy_obj.age = 24; //this only changes the value of the age property in the copied variable only, the value of the age is not changed in the original obj
    console.log(original_obj); // {name: "karan", age: 22, address: { city: "mkt", country: "india" }, marks: [23, 54, 56]}
    console.log(copy_obj); // {name: "marx", age: 24, address: { city: "mkt", country: "india" }, marks: [23, 54, 56]}
+
+   //Now lets change Non-primitive property
+   copy_obj.address.city = "tis hazari"; //Now this will change the value of address property in both the original and copy variable, as we have discussed erlier, that for the non-primitive property there memory-reference are copied/passed
+   copy_obj.marks.push(55); // This will change the value of marks property in both the original and copy variable, as we have discussed erlier, that for the non-primitive property there memory-reference are copied/passed
+   console.log(original_obj); // {name: "karan", age: 22, address: { city: "tis hazari", country: "india" }, marks: [23, 54, 56, 55 ]}
+   console.log(copy_obj); // {name: "marx", age: 24, address: { city: "tis hazari", country: "india" }, marks: [23, 54, 56, 55 ]}
    ```
 
 2. **Deep Copy: -** _Deep copy means everything even the (Nested Non-Primitive Datatype) nested objects is copy, no reference is passed._
