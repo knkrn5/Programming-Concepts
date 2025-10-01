@@ -1,5 +1,16 @@
 # **Operators**
 
+`⭐This is how js converts the Non-Primitive DataType to Primitive dataType` before comparing it will any Primitive DataType using **.valueOf()** and **.toString()** methods⬇️
+
+| Object Type  | `.valueOf()`  | `.toString()`          | Coerced primitive   |
+| ------------ | ------------- | ---------------------- | ------------------- |
+| `[]`         | array itself  | `""` (empty string)    | `""`                |
+| `[1,2]`      | array itself  | `"1,2"`                | `"1,2"`             |
+| `{}`         | object itself | `"[object Object]"`    | `"[object Object]"` |
+| `new Date()` | Date object   | `"Tue Sep 30 2025..."` | date string         |
+
+---
+
 1. **Arthematic Operations**
 
    - `+` → **string concatenation if either side is string** after coercion
@@ -16,7 +27,7 @@
     [1] + {a:1}  // "1[object Object]"  -> [1] → "1", {a:1} → "[object Object]" then "1" + "[object Object]"
    ```
 
-   **These results will be same with all these `-, *, /, %` arthemethic operator⬇️**
+   **These results will be same with all these `-, *, /, % etc` arthemethic operator⬇️**
 
    | Expression    | Step-by-step Conversion         | Result |
    | ------------- | ------------------------------- | ------ |
@@ -41,17 +52,6 @@
    | Primitive == Primitive | Value (coerced if types differ)             |
    | Object == Object       | Reference only (no coercion)                |
    | Object == Primitive    | Object converted to primitive, then compare |
-
-   ***
-
-   `⭐This is how js converts the Non-Primitive DataType to Primitive dataType` before comparing it will any Primitive DataType using **.valueOf()** and **.toString()** methods⬇️
-
-   | Object Type  | `.valueOf()`  | `.toString()`          | Coerced primitive   |
-   | ------------ | ------------- | ---------------------- | ------------------- |
-   | `[]`         | array itself  | `""` (empty string)    | `""`                |
-   | `[1,2]`      | array itself  | `"1,2"`                | `"1,2"`             |
-   | `{}`         | object itself | `"[object Object]"`    | `"[object Object]"` |
-   | `new Date()` | Date object   | `"Tue Sep 30 2025..."` | date string         |
 
    ```js
    // == Examples (Loose) (only compares value after automatic type coercion)
