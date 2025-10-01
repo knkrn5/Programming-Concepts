@@ -96,7 +96,14 @@ Access modifiers are keywords that define the visibility/scope of classes, metho
 2. [access modifier in js](../jsANDts/jslang/oopsinjs.md#access-modifiers-in-js)
 3. [access modifier in py](../py/pylang/oopsinpy.md#access-modifiers-in-py)
 
+> ## **_Non-Access Modifiers⬇️_**
+
+1. [non-access modifier in java](../java/javalang/oopsinjava.md#access-modifiers-in-java)
+
 > ## **Nested Class**
+
+1.  Static Nested Class
+2.  Non-Static Nested Class
 
 > ## **Constructor**
 
@@ -158,9 +165,9 @@ so when we make the private construction, we left with two appraoch: -
    1. [private constructor in js](../jsANDts/jslang/oopsinjs.md#private-constructor-in-js️)
    1. [private constructor in py](../py/pylang/oopsinpy.md#private-constructor-in-py️)
 
-## **Contructor Overloading**
+### **Contructor Overloading**
 
-## **Method Overloading**
+### **Method Overloading**
 
 ## **4 Pillars of Object-Oriented**
 
