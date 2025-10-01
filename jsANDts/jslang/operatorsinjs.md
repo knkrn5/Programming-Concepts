@@ -13,7 +13,7 @@
 
 1. **Arthematic Operations**
 
-   - `+` → **string concatenation if either side is string** after coercion
+   - `+` → **string concatenation if either side is string** after coercion to string(arrays/objects converted to string)
 
    - `-, *, /, %` → **always numeric conversion, arrays/objects converted to numbers via ToPrimitive** → **.valueOf**() → **.toString()** → numeric cast
 
@@ -89,6 +89,31 @@
    (0 !== false); // true (number vs boolean)
 
    ```
+
+   ➡️So we have seen that the js compares the primitive datatype will the value and the Non-Primitive DataType with the Memory Reference
+
+   1. There is `no way in js, that we can compare the primitive DataType will their memory address/reference`
+   2. But `we can compare the Non-Primitive dataType by value`, **after stringifying the Non-Primitive DataType**
+
+      ```js
+      const obj1 = { name: "karan" };
+      const obj2 = { name: "karan" };
+      console.log(obj1 === obj2); // ❌ false (different memory references)
+      // With JSON.stringify - comparing values⬇️
+      JSON.stringify(obj1) === JSON.stringify(obj2); // ✅ true
+      // JSON.stringify(obj1) → "{"name":"karan"}" (primitive string)
+      // JSON.stringify(obj2) → "{"name":"karan"}" (primitive string)
+      // Same string value, so true
+
+      const arr1 = [1, 2, 3];
+      const arr2 = [1, 2, 3];
+      console.log(arr1 === arr2); // ❌ false (different memory references)
+      // With JSON.stringify - comparing values⬇️
+      console.log(JSON.stringify(arr1) === JSON.stringify(arr2)); // ✅ true
+      // JSON.stringify(arr1) → "[1,2,3]" (primitive string)
+      // JSON.stringify(arr2) → "[1,2,3]" (primitive string)
+      // Same string value, so true
+      ```
 
 4. **Other Operators**
 
