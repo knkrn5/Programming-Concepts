@@ -45,12 +45,42 @@ console.log(obj2); // {a: 3, b: 2}
    copy_obj.marks.push(55); // This will change the value of marks property in both the original and copy variable, as we have discussed erlier, that for the non-primitive property there memory-reference are copied/passed
    console.log(original_obj); // {name: "karan", age: 22, address: { city: "tis hazari", country: "india" }, marks: [23, 54, 56, 55 ]}
    console.log(copy_obj); // {name: "marx", age: 24, address: { city: "tis hazari", country: "india" }, marks: [23, 54, 56, 55 ]}
+   // as we can see both the obj got affected when change the non-primitive property, cause these are shared in shallow copy
    ```
 
-2. **Deep Copy: -** _Deep copy means everything even the (Nested Non-Primitive Datatype) nested objects is copy, no reference is passed._
+2. **Deep Copy: -** _Deep copy means everything even the (Nested Non-Primitive Datatype) nested objects is copy, no reference is passed, So nothing is Shared_
 
-   - so this means that making changes in the copied variable will not change anything in the original variable.
+   - so this means that making changes even in the nested non-primitive property/value in the copied variable will not change/affect anything in the original variable.
 
    ```js
-   // To copy the value of the nested object we would first need to convert the whole object to Primitive DataType(string) using JSON.Stringigy
+   // To copy the value of the nested object we would first need to convert the whole object to Primitive DataType(string) using JSON.Stringigy (we can also use thrid party packages which behind the scene does the same)
+
+   const original_obj = {
+     name: "karan",
+     age: 22,
+     address: { city: "mkt", country: "india" },
+     marks: [23, 54, 56],
+   };
+
+   const copy_obj = JSON.parse(JSON.stringify(original_obj)); // So now this copy everything, even nested Non-Primitive Types, Nothing is Shared
+   copy_obj.address.city = "tis hazari"; // Now this will only change the address property in the copy variable only, as we have discussed erlier in deep copy no memory-reference is passed, everything is copied.
+   copy_obj.marks.push(55); // this will also only change the marks property in the copy variable only, as we have discussed erlier in deep copy no memory-reference is passed, everything is copied.
+   console.log(original_obj); // {name: "karan", age: 22, address: { city: "mkt", country: "india" }, marks: [23, 54, 56 ]}
+   console.log(copy_obj); // {name: "karan", age: 22, address: { city: "tis hazari", country: "india" }, marks: [23, 54, 56, 55 ]}
    ```
+
+   ℹ️Note: Third-party libraries like Lodash's \_.cloneDeep() or structuredClone() (native) are often better than JSON methods because JSON.stringify() has limitations (loses functions, undefined, Date objects, etc.), but for simple objects like shown above, it works perfectly!
+
+| Feature             | JSON Method   | structuredClone() | Lodash \_.cloneDeep() |
+| ------------------- | ------------- | ----------------- | --------------------- |
+| **Simple objects**  | ✅            | ✅                | ✅                    |
+| **Nested objects**  | ✅            | ✅                | ✅                    |
+| **Arrays**          | ✅            | ✅                | ✅                    |
+| **Date objects**    | ❌ (→ string) | ✅                | ✅                    |
+| **RegExp**          | ❌ (→ {})     | ✅                | ✅                    |
+| **Functions**       | ❌ (lost)     | ❌                | ✅                    |
+| **undefined**       | ❌ (lost)     | ✅                | ✅                    |
+| **Symbols**         | ❌ (lost)     | ❌                | ✅                    |
+| **Circular refs**   | ❌ (error)    | ✅                | ✅                    |
+| **Map/Set**         | ❌            | ✅                | ✅                    |
+| **No dependencies** | ✅            | ✅                | ❌ (needs lodash)     |
