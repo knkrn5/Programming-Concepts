@@ -32,3 +32,5 @@ var sayBye = function () {
   console.log("Bye!");
 };
 ```
+
+## **Why does variable Declared with var are hoisted, variable declared with let and const goes in temporal-dead-zone**
