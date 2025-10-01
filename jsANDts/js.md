@@ -31,6 +31,8 @@
 
    2. [🔗 Array in js](./jslang/dataManupulationinjs/arrayinjs.js)
 
+      - arrays are objects under the hood → their indices are keys, thatswhy we get index on all the array inbuilt methods in js.
+
    3. [🔗 Functions in js](./jslang/dataManupulationinjs/functioninjs.js)
 
 > ℹ️Imp: - **Object, Arrays, Date, RegExp, Map, Set, WeakMap, WeakSet**, etc.✅ _All of these return "object" from typeof, **except functions, which return "function"** (but still technically objects under the hood). Note that **typeof null === 'object'** due to a historical bug, even though null is a primitive value, so always handle null explicitly in type checks._
