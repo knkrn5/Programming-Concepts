@@ -81,6 +81,8 @@ console.log(obj2); // {a: 3, b: 2}
 | **Functions**       | ❌ (lost)     | ❌                | ✅                    |
 | **undefined**       | ❌ (lost)     | ✅                | ✅                    |
 | **Symbols**         | ❌ (lost)     | ❌                | ✅                    |
+| **Infinity**        | ❌ (→ null)   | ✅                | ✅                    |
+| **NaN**             | ❌ (→ null)   | ✅                | ✅                    |
 | **Circular refs**   | ❌ (error)    | ✅                | ✅                    |
 | **Map/Set**         | ❌            | ✅                | ✅                    |
 | **No dependencies** | ✅            | ✅                | ❌ (needs lodash)     |
