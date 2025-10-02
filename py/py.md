@@ -5,6 +5,16 @@ if __name__ == '__main__':
     main()
 ```
 
+## Alternative Python Implementations with JIT
+
+While standard CPython doesn't JIT compile, some alternative implementations do:
+
+- **PyPy:** Has a sophisticated JIT compiler that can compile hot Python bytecode to machine code (often 4-5x faster than CPython)
+- **Jython:** Runs on the JVM, so benefits from the JVM's JIT compilation
+- **IronPython:** Runs on .NET, uses .NET's JIT
+- **Numba:** A JIT compiler for numerical Python functions
+- **Nuitka/Cython:** Ahead-of-time compilers that translate Python to C++/C
+
 ## **Datatypes in py**
 
 1. **Primitive**

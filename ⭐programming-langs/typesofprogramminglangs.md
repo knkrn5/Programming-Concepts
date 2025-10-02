@@ -13,11 +13,13 @@ flowchart TD
 
 ## **Interpreter vs Compiled Language**
 
+> The language itself isn't "compiled" or "interpreted" — it's the implementation that matters.
+
 ### The Foundation: The CPU and its Language
 
 The CPU only understands **machine code**, which is a series of **binary instructions (0s and 1s)** specific to its architecture (like x86, ARM, etc.).
 
-## 💡 Step 2: What is Machine Code vs Bytecode?
+## What is Machine Code vs Bytecode?
 
 | Term         | What it is                                                                                                                                  | Used by                           |
 | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------- |
@@ -69,6 +71,11 @@ Pure interpretation (reading line-by-line) can be slow. Modern interpreters for 
 
 **Analogy:** An interpreter is like a live translator at the UN. They listen to one sentence in English, and immediately translate it into French for the audience. A JIT compiler is a very smart translator who, after hearing the speaker say the same phrase "thank you for your cooperation" five times, writes it down on a card. For the sixth and subsequent times, they just show the card instead of re-translating it, which is much faster.
 
+| Term                    | Meaning                                                      |
+| ----------------------- | ------------------------------------------------------------ |
+| **AOT (Ahead of Time)** | Compilation happens before you run the program. Ex: C, Rust  |
+| **JIT (Just in Time)**  | Compilation happens _while_ the program runs. Ex: Java, PyPy |
+
 ### 1. Compilation: Implicit vs. Explicit
 
 - **Java:** Compilation is an **explicit and mandatory step** for the programmer. You _must_ run the `javac` compiler to turn your `.java` file into a `.class` file. You cannot run a `.java` file directly. You distribute the `.class` files.
@@ -94,7 +101,12 @@ This is the biggest difference in performance.
 | **Virtual Machine**   | PVM (Python Virtual Machine)               | JVM (Java Virtual Machine)                           |
 | **Execution Method**  | **Interprets** the bytecode                | **JIT-compiles** the bytecode to native machine code |
 
-So, you are right to see the similarity. Python uses a compilation-to-bytecode step just like Java, but it does it transparently as an optimization. The main reason Python is generally slower than Java is that its standard PVM interprets that bytecode, whereas the JVM JIT-compiles it into native machine code for maximum performance.
+### **Virtal Machine in python**
+
+1. **No JIT in CPython:** The standard Python implementation (CPython) is a pure interpreter - it doesn't have a JIT compiler
+2. **pypy:** An alternative implementation of Python that includes a JIT compiler.
+
+> NOTE: So in Py if we use pypy then it will also use JIT compiler and the performance will be much better than CPython
 
 ---
 

@@ -1,3 +1,8 @@
+# import platform
+
+# print(platform.python_implementation())
+
+
 dict = {
     "name": "Karan",
     "age": 24,
