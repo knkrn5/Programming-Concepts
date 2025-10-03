@@ -2,7 +2,13 @@
 
 > **`repo-name(Project Name)` != `remote-name( repositories hosted remotely on cloud servers)` != `remote-tracking-branch(Local copies of remote branch states)` != `branch-name(Code versions within repositories)`**
 
-## Untracked vs Uncommited vs UnStaged vs modified vs Local Changes
+## **Git File States**
+
+1. **Untracked**: Files that Git doesn't know about yet - never been added in Git tracking system.
+2. **UnStaged = Modified**: Files that have been modified but not yet staged.
+3. **Staged**: Files that have been added to the staging area and are ready to be committed.
+4. **Uncommited**: All changes that haven't been committed yet (includes both modified and staged files).
+5. **Local Changes**: All changes in your local repository (uncommitted + unpushed commits).
 
 ## **Git CLI Cmds**
 
@@ -117,7 +123,7 @@ git merge staging   # merge staging into current branch
 git merge staging --no-commit # Merge with --no-commit to review before finalizing
 git merge origin/main # Takes the commit from the local remote-tracking-branch(in this case origin/main) and Merges them into whatever branch we're currently on.
 
-git cherry-pick <commit-hash> # Apply that one commit from the branch we have picked the commit-hash into our current branch 
+git cherry-pick <commit-hash> # Apply that one commit from the branch we have picked the commit-hash into our current branch
 
 
 git branch -f main staging # Make local main match staging without merging
