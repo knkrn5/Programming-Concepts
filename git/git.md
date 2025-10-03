@@ -1,6 +1,6 @@
 # **Git Concepts**
 
-> **`repo-name(Project Name)` != `remote-name( repositories hosted remotely on cloud servers)` != `remote-tracking-branch(Local copies of remote branch states)` != `branch-name(Code versions within repositories)`**
+> **`repo-name(Project Name)` != `remote-name( repositories hosted remotely on cloud servers)` != `remote-tracking-branch(Local copies of remote branch states)` != `branch-name(Code versions branches within repositories)`**
 
 ## **Git File States**
 
@@ -91,10 +91,23 @@ git init
 git add .
 git add <specific-file>      # Stage only files you want
 
+git restore --staged . # Unstage all staged files
+#OR
 git reset  # Unstage all files
 git reset --hard HEAD # Remove all staged and unstaged changes
 git reset HEAD unwanted-file.js  # Unstage specific files you don't want
+
 git restore . # remove all uncommitted changes(modified or staged)
+git checkout -- filename # remove all uncommitted changes in specific file
+#OR
+git restore <specific-file> # remove all uncommitted changes in specific file
+git checkout -- src/ # Discard all changes in src/ directory
+#OR
+git restore src/
+git checkout -- *.js
+#OR
+git restore '*.js' # remove all uncommitted changes in all .js files
+
 rm path/to/specific/file # Delete the file
 
 git clean -fdn # Wanna preview what will be deleted before actually deleting?
@@ -122,6 +135,9 @@ git merge --abort # If you're in a merge, abort it
 git merge staging   # merge staging into current branch
 git merge staging --no-commit # Merge with --no-commit to review before finalizing
 git merge origin/main # Takes the commit from the local remote-tracking-branch(in this case origin/main) and Merges them into whatever branch we're currently on.
+
+git branch --merged # List branches merged into current branch
+git branch --merged <branch-name> # List branches merged into specific branch
 
 git cherry-pick <commit-hash> # Apply that one commit from the branch we have picked the commit-hash into our current branch
 
@@ -159,6 +175,7 @@ git branch --show-current
 git branch -r # lists all remote branches
 git branch -a # See All Branches (Local + Remote)
 git checkout -b <new-branch-name> # Creates the new branch from the current branch and switches to newly-created-branch from the current branch, here -b is shortcut for "git branch new-branch + git checkout new-branch"
+git switch -c feature #Modern way to Create the new branch from the current branch and switches to newly-created-branch from the current branch, here -c is shortcut for "git branch new-branch + git switch new-branch"
 git branch -d <branch-name> # Deletes the branch locally(not from the remote)
 git push <remote-name> --delete <branch-name> # Deletes the branch from remote
 git push <remote-name> <source_branch>:<target_branch> # If you leave out the <source_branch> (i.e. it's blank before the colon), git will then delete the target-branch
