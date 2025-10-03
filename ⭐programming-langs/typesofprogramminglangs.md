@@ -15,6 +15,8 @@ flowchart TD
 
 > The language itself isn't "compiled" or "interpreted" — it's the implementation that matters.
 
+> The classification is about the language design and programmer experience (implicit and explicit), not the implementation
+
 ### The Foundation: The CPU and its Language
 
 The CPU only understands **machine code**, which is a series of **binary instructions (0s and 1s)** specific to its architecture (like x86, ARM, etc.).
