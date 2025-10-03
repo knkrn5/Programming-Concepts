@@ -43,3 +43,5 @@
    - **[🔗WebSocket](./Other-Concepts/realTimeEvents/websocket.md)**
 
    </details>
+
+4. **[🔗RegExp Concept](./regExp/regEx.md)**
