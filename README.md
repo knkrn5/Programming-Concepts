@@ -6,11 +6,7 @@
 
 ### **[🔗DataTypes](./⭐programming-langs/datatypes.md)**
 
-> ## **Language-Agnostic Thinking**
->
-> ```text
-> Knowing the concept is more important than knowing the Syntax
-> ```
+> ## **Language-Agnostic Thinking: -** _`Knowing the concept is more important than knowing the Syntax`_
 
 ### **[🔗 Types of Programming Langs](./⭐programming-langs/typesofprogramminglangs.md)**
 
@@ -44,4 +40,4 @@
 
    </details>
 
-4. **[🔗RegExp Concept](./regExp/regEx.md)**
+4. **[🔗RegExp Concept](./regExp/regExp.md)**
