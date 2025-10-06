@@ -5,7 +5,10 @@
 
 //**🎯 arguments in function**
 // passing unlimited arguments to a function
-function add(...args) { } // 'args' is an array with name "arg" of all arguments passed to the function
+function add(...args) {
+    return args.reduce((acc, val) => acc + val, 0)
+} // 'args' is an array with name "arg" which has the value of all arguments passed to the function
+add(2)(3)(10)(55)(16)
 
 
 //**🎯 hoisting in functions**
