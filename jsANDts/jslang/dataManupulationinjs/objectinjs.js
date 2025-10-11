@@ -1,7 +1,7 @@
 //👉 In JavaScript, object keys are always strings or symbols(Created with Symbol("word-name")).
 /* 👉 In JavaScript, whenever we want to add any already declared variable, as the property in an object, we have to always wrap that word in square brackets [] in object, 
  and ℹ️the value of that variable will become the key name in the object */
-// 👉 in JavaScript, if an object property name contains spaces or other special characters that aren not variale/identifiers, then we must wrap it in quotes (single ' or double ").
+// 👉 in JavaScript, if an object property name contains spaces or other special characters that aren not variale/ or valid identifiers, then we must wrap it in quotes (single ' or double ") and ℹ️These properties can only be accessed using bracket notation, cannot be accessed using dot notation.
 
 //=============================================================
 //  In JavaScript an object property value can hold anything — a number, string, object, array, function, or even another function returning another object.
