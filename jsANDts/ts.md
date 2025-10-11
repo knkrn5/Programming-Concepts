@@ -18,6 +18,8 @@
 14. null
 15. undefined
 
+## **Type Convertion is JS: -** _Number(), String(), Boolean() are built-in JavaScript constructor functions that convert a value to a number, string, or boolean at runtime._
+
 ### **[🔗 Type vs Interface](./tslang/typeVSinterface.md)**
 
 ### **[🔗 Utility in ts](./tslang/tsUtilities.md)**
