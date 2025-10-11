@@ -20,7 +20,7 @@ flowchart TD
 4. Sticky
 5. Static (defualt)
 
->NOTE: - Whenever we use `left`, `right`, `bottom` and `top`, it does means towards them, it means aways from them.
+>NOTE: - Whenever we use `left`, `right`, `bottom` and `top`, it does not means towards them, it means away from them.
 
 ## **Flex**
 
