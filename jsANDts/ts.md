@@ -6,7 +6,7 @@
 2. number: - used for number
 3. bigint: -
 4. boolean:- used for true and false
-5. array<type> or any[]: - used for array
+5. `array<type>` or any[]: - used for array
 6. object: - for declaring any Non-Primitive Type
 7. Record: - for declaring key-value pair
 8. enum
