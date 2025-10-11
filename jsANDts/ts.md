@@ -20,6 +20,8 @@
 
 ## **Type Convertion is JS: -** _Number(), String(), Boolean() are built-in JavaScript constructor functions that convert a value to a number, string, or boolean at runtime._
 
+## **Type Extraction is TS: - _We can only use bracket-notation to extract any single property for the type or interface, we cannot use the dot-notation_
+
 ### **[🔗 Type vs Interface](./tslang/typeVSinterface.md)**
 
 ### **[🔗 Utility in ts](./tslang/tsUtilities.md)**
