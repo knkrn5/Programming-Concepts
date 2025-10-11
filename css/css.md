@@ -20,6 +20,8 @@ flowchart TD
 4. Sticky
 5. Static (defualt)
 
+>NOTE: - Whenever we use `left`, `right`, `bottom` and `top`, it does means towards them, it means aways from them.
+
 ## **Flex**
 
 1. **Flex**: `flex` is a shorthand for (flex-grow + flex-shrink + flex-basis)
