@@ -52,8 +52,8 @@ const pass: string = (prompt("enter password to access the app") as string)
 
 ### **Type assertion in ts: -**
 
-### **TypeScript VS Zod**
-  - ts will only check the type when we build/compile the app, but after compling the ts files will get convert to js with typecheck is earased and then that build will not check for the type again, but with zod, the zod code remains in that build/compiled js files and that will always check for the types at runtime.
+### **TypeScript VS Zod: -** _Both ts and zod uses native JavaScript (typeof, instanceof, Array.isArray, etc.) for typechecking, subtle difference is ts checks at compile time while zod checks at runtime._
+  - ts will only check the type when we build/compile the app, but after compling the ts files will get convert to js and All type annotations are erased and then that build will not check for the type again, but with zod, the zod code remains in that build/compiled js files and that will always check for the types at runtime.
   - ts cannot validate the dynamic data like that fetched for database/api, but with zod it will validate the dynamic data with our schema.
-  - ts does throw error when we even assign the wrong datatype value, but zod will throw the runtime error and will crash application if not handled.
+  - ts does throw error when we even assign the wrong datatype value, but zod will throw the runtime error and will crash application if unhandled.
     
