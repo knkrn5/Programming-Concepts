@@ -56,4 +56,18 @@ const pass: string = (prompt("enter password to access the app") as string)
   - ts will only check the type when we build/compile the app, but after compling the ts files will get convert to js and All type annotations are erased and then that build will not check for the type again, but with zod, the zod code remains in that build/compiled js files and that will always check for the types at runtime.
   - ts cannot validate the dynamic data like that fetched for database/api, but with zod it will validate the dynamic data with our schema.
   - ts does throw error when we even assign the wrong datatype value, but zod will throw the runtime error and will crash application if unhandled.
+  - zod cannot be used like ts to statically assign the types if can only be used to validate the types but we can create the the ts type for zod schema and then assign that ts type statistically and use zod schema for validations like this⬇️
+        ```ts
+        import { z } from 'zod';
+    
+        // Define schema (runtime validation)
+        const UserSchema = z.object({
+          id: z.number(),
+          name: z.string().min(1),
+          email: z.string().email(),
+        });
+        
+        // Infer static TS type (compile-time safety)
+        type User = z.infer<typeof UserSchema>;  // Equivalent to ts type: { id: number; name: string; email: string; }
+        ```
     
