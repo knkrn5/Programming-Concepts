@@ -7,7 +7,7 @@
 
 > **There are Two Phases of Execution:**
 
-1.  `Memory Allocation Phase (Creation Phase): -`
+1.  `Memory Allocation Phase (Creation/Registration Phase): -`
 
     - JS scans the code before it starts executing
     - It allocates memory for:
