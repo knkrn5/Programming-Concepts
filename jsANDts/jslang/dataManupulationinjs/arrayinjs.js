@@ -67,10 +67,11 @@ console.log(Object.keys(arr5)); // Output: ['0', '1', '2', '-5'] (shows all keys
 console.log(arr5[-5]); // Output: 50 (accessing the property "-5" directly)
 console.log(arr5.at(-1)); // Output: 30 (using at() to access the last element)
 
-//=====As we know array in js is object under the hood, any Non-integers ≥ 0 value/index will create  property in array, which will not be shown when console.logged, and will also be ignore by most of the array methods.
+//=====As we know array in js is object under the hood, any Non-integers ≥ 0 value/index will create  property in array, which will not be shown when console.logged, and will also be ignore by most of the array methods. but we can access them using property name.
 arr5["5"] = 300; // This adds a new element at index 5, Normal numeric index (string "5" coerced to number 5)
 arr5[1.5] = 100; // This also behaves same like arr5[-5]
 arr5["hello"] = 200; // This also behaves same like arr5[-5]
+console.log(arr5.hello) // Output: 200
 
 //---------------------------------------------------
 const arr6 = [10, 20, 30, 40, 50];
