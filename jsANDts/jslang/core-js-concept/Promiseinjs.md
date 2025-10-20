@@ -14,6 +14,8 @@
 
 2. **Returning Promises**: Each `.then()` can return a new promise to the caller, allowing for more complex workflows.
 
+   - Any value returned from `async function` or `.then() callback` **is automatically wrapped in a Promise**
+
    1. `awaiting promise`: - _pause the execution of the current async function until the promise resolves or rejects._
 
       - Returns the unwrapped value (not a promise).
@@ -39,5 +41,7 @@
           return fetch("/api/user").then((response) => response.json()); // Direct chain
         }
         ```
+
+>Imp: - The fetch will alway returns the promise to the first .then method and if that .then method returns the promise then only the next .then method will the get the promise else if not return then the next .then method will execute immediately and will get undefined, but incase of when we add the return to the fetch itself the new promise created by the .then or .catch method is will be return/chained to the caller.
 
 ## **The `this` Keyword**
