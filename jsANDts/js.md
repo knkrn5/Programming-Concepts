@@ -31,7 +31,8 @@
 
    2. [🔗 Array in js](./jslang/dataManupulationinjs/arrayinjs.js)
 
-      - arrays are objects under the hood → their indices are keys, thatswhy we get index on all the array inbuilt methods in js.
+      - As we know arrays are objects under the hood, so their indices are keys, thatswhy we get index on all the array inbuilt methods in js.
+      - As we know arrays are objects under the hood, so we can even add custom properties to array like we do in objects.
 
    3. [🔗 Functions in js](./jslang/dataManupulationinjs/functioninjs.js)
 

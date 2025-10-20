@@ -1,8 +1,16 @@
 // 👉 In js negative indexing is not supported natively like python but we can achieve it using at() method.
 // 👉 In js Array indices must be integers ≥ 0. Any floating/Decimal number, negative number, string, boolean, null, undefined are not a valid array index, so JavaScript treats/create it like a normal object property, becuase under the hood array is also a object in js.
 
+// 🎯 Just Array Docs*****
+/**
+     * @Array constructor can also be used to create array.
+     * @Array.to() 
+     * @Array.from()
+     * @Array.isArray()
+     * @Array.of()
+     */
 
-// **🎯 Types of array** (refer datatypes in programming-langs)
+// 🎯 Types of array** (refer datatypes in programming-langs)
 
 // 🎯 Inbuilt Array methods in js(.map, .filter, .reduce, .some, .every, .split, .flat(Infinity) etc)
 const arr = [10, 20, 30];
@@ -17,6 +25,8 @@ arr.reverse(); // Reverses the order of elements in the array
 
 arr.indexOf(30); // Returns the index of the first occurrence of 30, or -1 if not found
 arr.includes(20); // Returns true if 20 is in the array, false otherwise
+
+// To learn about more array methods Click on any array method in your editor or inspect the package/library.
 
 //🎯======READING ARRAY DATA IN JS========================
 const arr1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];

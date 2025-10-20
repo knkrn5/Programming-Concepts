@@ -1,7 +1,7 @@
 //👉 Three Main steps of function 1. function defination 2. function initialization 3. Function call
 // 👉 In js implicit return is only avaliable in arrow functions
 // 👉 Order of the function parameter matters, if parameter are not written in object.
-
+// 👉async always returns a response wrapped in a Promise like promise<string>, promise<number> etc
 
 //**🎯 arguments in function**
 // passing unlimited arguments to a function
@@ -24,21 +24,16 @@ const myFunction1 = function () {
 
 //**🎯 higher order functions**
 // A higher-order function is a function that either takes one or more functions as arguments or returns a function as its result.
-function a(fn) {
+function a(callback) {
     console.log("hello")
-    fn()
-}
-
-a(() => {  // wrote the function code directly as an argument
-    console.log("this is another function")
-})
-
-//**🎯 callback functions**
-// A callback function is a function that is passed as an argument to another function and is executed after some operation is completed.
-function greet(name, callback) {
-    console.log(`Hello, ${name}!`);
     callback(); // Call the callback function
 }
+
+//**🎯 callback functions**
+// A callback function is a function that is passes function as an argument calling the another function.
+a(() => {
+    console.log("Hello from the callback!");
+});
 
 
 // **🎯 curry functions**
@@ -94,7 +89,7 @@ const myFunction = function () {
 
 
 //🎯 async Functions=============
-// async always returns a Promise, even if you return a plain value
+// async always returns a response wrapped in a Promise
 async function fetchData() {
     return "karan"; // Implicitly returns a resolved Promise with the value "karan"
 }
