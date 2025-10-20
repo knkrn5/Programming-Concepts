@@ -36,7 +36,7 @@
       Chunk 2: "lo\n\ndata: world\n\n"
       ```
 
-- ### **EventScorce VS ReadableSteam**
+- ### **EventScorce VS ReadableStream**
 
 1. **Eventscorce: -** _EventSource is a browser-native high-level wrapper Constructor API used to receive real-time data from the server. It automatically Parses `data:` prefix, automatically `handles the byte-to-string conversion (low-level byte manipulation)` and Delivers `event.data as a string` and Handles the streaming and parsing for us .
    However, **the server must send data in a specific format** for EventSource to work correctly.⬇️_
@@ -79,9 +79,9 @@
    };
    ```
 
-2. **Fetch with ReadableSteam API: -** _This is the complete manual process from backend to frontend chucks handling. It is lower-level and more flexible, works with any content type, any HTTP method and is essential for full streaming control like AI response tokens, binary data, etc_
+2. **Fetch with ReadableStream API: -** _This is the complete manual process from backend to frontend chucks handling. It is lower-level and more flexible, works with any content type, any HTTP method and is essential for full streaming control like AI response tokens, binary data, etc_
 
-- **Step- 1:** why do we use `.getReader()` and **not .text() or .json() with ReadableSteam**:- Because **.text() and .json() are high-level convenience method**. These are designed/built to be more convinenent for the end user to get the response from the server, so these **.text() and .json() method Buffers everything from response.body**, Decodes `(from raw byte to string)` after the full body is received and then Then gives us the whole text as one big string
+- **Step- 1:** why do we use `.getReader()` and **not .text() or .json() with ReadableStream**:- Because **.text() and .json() are high-level convenience method**. These are designed/built to be more convinenent for the end user to get the response from the server, so these **.text() and .json() method Buffers everything from response.body**, Decodes `(from raw byte to string)` after the full body is received and then Then gives us the whole text as one big string
   - `.getReader() method` The **reader is just a tool to read data** - it provides us `.read() method` thought we can read the data, it's not the data itself. this reader method is designed to get chuck response from the server or brower interfer buffer stack.
 - **Step- 2: -** [🔗 More on .getReader().read() Method](https://developer.mozilla.org/en-US/docs/Web/API/ReadableStreamDefaultReader/read) This `.getReader().read() method` **retruns the Promise** and we know promise has two method **resolve(value) and reject(done)**, so if the chuck is avaliable it resolves `{ value: theChunk, done: false }` and when the stream ends (cleanly) the done becomes true `{ value: undefined, done: true }`.
   - ![read()-method-promise-structure](<./realTimeEvents-imgs/read()-method-promise-structure.png>)

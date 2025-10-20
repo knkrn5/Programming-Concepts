@@ -1,5 +1,5 @@
 // 👉 In js negative indexing is not supported natively like python but we can achieve it using at() method.
-// 👉 In js Array indices must be integers ≥ 0. Any floating/Decimal number, negative number, string, boolean, null, undefined are not a valid array index, so JavaScript treats it like a normal object property.
+// 👉 In js Array indices must be integers ≥ 0. Any floating/Decimal number, negative number, string, boolean, null, undefined are not a valid array index, so JavaScript treats/create it like a normal object property, becuase under the hood array is also a object in js.
 
 
 // **🎯 Types of array** (refer datatypes in programming-langs)
@@ -43,7 +43,7 @@ arr2.length = 5; // Extends the array length to 5, new elements are undefined
 console.log(arr2); // Output: [1, 2, 3, <empty>, <empty>]
 // These empty slots are not the same as undefined. They're literally holes — they don’t even exist as keys in the array.
 // These empty slots will not show up in loops like .forEach() or .map() unless you manually assign values.
-//----------------------------------------------
+//---------------Changing value of array index that is out of range----------------
 let a = [1, 2, 3];
 a[5] = undefined;
 console.log(a); // [1, 2, 3, <2 empty items>, undefined]
@@ -66,9 +66,12 @@ console.log(arr5.length); // Output: 3 (Since -5 isn't a valid array index (non-
 console.log(Object.keys(arr5)); // Output: ['0', '1', '2', '-5'] (shows all keys, including the "-5" property)
 console.log(arr5[-5]); // Output: 50 (accessing the property "-5" directly)
 console.log(arr5.at(-1)); // Output: 30 (using at() to access the last element)
+
+//=====As we know array in js is object under the hood, any Non-integers ≥ 0 value/index will create  property in array, which will not be shown when console.logged, and will also be ignore by most of the array methods. but we can access them using property name.
 arr5["5"] = 300; // This adds a new element at index 5, Normal numeric index (string "5" coerced to number 5)
 arr5[1.5] = 100; // This also behaves same like arr5[-5]
 arr5["hello"] = 200; // This also behaves same like arr5[-5]
+console.log(arr5.hello) // Output: 200
 
 //---------------------------------------------------
 const arr6 = [10, 20, 30, 40, 50];
