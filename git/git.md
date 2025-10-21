@@ -2,6 +2,94 @@
 
 > **`repo-name(Project Name)` != `remote-name( repositories hosted remotely on cloud servers)` != `remote-tracking-branch(Local copies of remote branch states)` != `branch-name(Code versions branches within repositories)`**
 
+```mermaid
+graph TD
+    A[Project/Repo]
+    A -->|branches in our machine| B[Local Branches]
+    A -->|branches in cloud| C[Remote Branches]
+    C -->|copy of remote branches in our machine| D[Local Remote-tracking Branches]
+
+
+```
+
+## **Git Repo Structure**
+
+```mermaid
+graph TD
+    A[Git Actions]
+    A ==>|git init| B[Untracked files]
+    B -->|git add| C[Staged files/tracked files]
+    B -->|git stash| G[Stashed files] --> |stashed files can be merged| F
+    C -->|committed in git| D[Committed files]
+    D -->|committed files can be merged| F[Remote Repo]
+    D -->|git push| E[Remote Repo]
+
+
+    A ==> |checkout -b| F[Create Branches]
+
+```
+
+## testing
+
+```mermaid
+graph TD
+    A[Project/Repo] --> |git init / clone| B[Untracked/Modified Files]
+    B -->|git add| C[Tracked/Staged Files]
+    B -->|git restore| B1[revert Unstaged Changes]
+    C -->|git commit| D[Committed Files]
+    C -->|git rm| C1[remove from git tracking]
+    %%D -->|git rm| C1[remove from git tracking]
+    C -.->|git restore --staged| I[Unstaged Changes] -.-> B
+    D -->|git push| E[Remote Repository]
+    D -->|git reset | G[Revert Changes]
+    G --> |--soft| C
+    G --> |--mixed|B
+    G --> |--hard| G1[Discard Changes]
+
+    %% Optional actions
+    B -.->|git stash| F[Stashed Changes]
+    F -.->|git stash pop / apply| B
+
+    D -.->|git merge / pull| H[Merge Changes]--> J
+
+    A ==>|git checkout -b| J[New Branch]
+    A ==>|git checkout -b| K[Remote Branch]
+
+    style A stroke:#333,stroke-width:4px
+    style B stroke:#333,stroke-width:4px
+    style C stroke:#333,stroke-width:4px
+    style D stroke:#333,stroke-width:4px
+    style E stroke:#333,stroke-width:4px
+    style F stroke:#333,stroke-width:4px
+
+
+
+```
+
+## Testing
+
+```mermaid
+flowchart TD
+    subgraph Graph["Git Commit Graph"]
+        C --> G[Commit History]
+
+        G --> H[main branch]
+        H --> C1((merge commit))
+        C1 --> C2((C2))
+        C2 --> C3((C3))
+
+        C2 -.->|git checkout -b| I[feature branch]
+        I --> F1((F1))
+        F1 --> F2((F2))
+
+        F2 -.->|git merge| C3
+        C3 --> C4((C4))
+
+        C4 -.->|merged commits| D
+    end
+
+```
+
 ## **Git File States**
 
 1. **Untracked**: Files that Git doesn't know about yet - never been added in Git tracking system.
