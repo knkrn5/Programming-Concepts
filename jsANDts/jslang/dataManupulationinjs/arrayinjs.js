@@ -28,9 +28,24 @@ arr.includes(20); // Returns true if 20 is in the array, false otherwise
 
 // To learn about more array methods Click on any array method in your editor or inspect the package/library.
 
+// All these array methods can also Destructure the array elements, if the values of the array are objects or sub-arrays.
+/**
+ * We know when we iterate over an array of objects using for..of loop or any array method, we get each element of the array as a value.
+ * @Array so if the value are sub-array then we can destructure them just like array.
+ * @object so if the value are object then we can destructure them just like object.
+ */
+
 //🎯======READING ARRAY DATA IN JS========================
 const arr1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 console.log(arr1[0]); // Output: 1
+
+for(let i in arr1){
+    console.log(i); // Output: 0,1,2,3,4,5,6,7,8,9 (index of array)
+}
+
+for(let v of arr1){
+    console.log(v); // Output: 1,2,3,4,5,6,7,8,9,10 (value of array)
+}
 
 // 🎯=======ARRAY DATA MANIPULATION IN JS========================
 const arr3 = [10, 20, 30];
@@ -42,7 +57,12 @@ console.log(arr3);
 // If we want to completely remove elements from an array, you should use splice instead:
 arr3.splice(1, 1); // Removes the element at index 1 // Output: [10, 30]
 
-
+//=====Destructuring array in js========================
+const numbers = [1, 2, 3, 4, 5];
+const [first, second, ...rest] = numbers;
+console.log(first); // Output: 1
+console.log(second); // Output: 2
+console.log(rest); // Output: [3, 4, 5]
 
 //======Using length property in js array========================
 const arr2 = [1, 2, 3, 4, 5];

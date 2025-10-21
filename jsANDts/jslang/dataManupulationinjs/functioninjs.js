@@ -2,6 +2,7 @@
 // 👉 In js implicit return is only avaliable in arrow functions
 // 👉 Order of the function parameter matters, if parameter are not written in object.
 // 👉async always returns a response wrapped in a Promise like promise<string>, promise<number> etc
+// 👉In JavaScript an function parameter can be of any Datatype — a number, string, object, array, function etc.
 
 //**🎯 arguments in function**
 // passing unlimited arguments to a function
