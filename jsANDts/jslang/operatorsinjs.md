@@ -53,46 +53,49 @@
 | Object == Object       | Reference only (no coercion)                |
 | Object == Primitive    | Object converted to primitive, then compare |
 
-```js
-// == Examples (Loose) (only compares value after automatic type coercion)
-//ℹ️⭐ Convertion priority give to number(every type si first converted to number)
-5 == '5'       // true (string '5' is converted to number 5)
-0 == false     // true (false is converted to 0)
-true == "1"   // true (true converted to 1, then "1" converted to 1)
-null == undefined  // true, Unlike many other == comparisons, null and undefined are only loosely equal to each other, and not to any number, even 0.
-[] == 0 // true → [] becomes "" → then "" becomes 0
-[] == false    // true (both are converted to 0)
-[] == []  // false (Each array/object literal creates a new reference in memory)
-{} == {}  // false (Each array/object literal creates a new reference in memory)
-[] == ""       // true, [] → "" via toString
- [1] == "1"     // true, [1] → "1"
- [1,2] == "1,2" // true, [1,2] → "1,2"
- {} == "[object Object]" // true ({} coerced to [object, object])
+1. `==` Examples (Loose) (only compares value after automatic type coercion)
 
-" \t\n" == 0;    // true → whitespace string → becomes 0
-(5 != '5'); // false (because '5' is converted to 5)
-(0 != false); // false (false is converted to 0)
+   - ℹ️⭐ Convertion priority give to number(every type is first converted to number)
 
-```
+   ```js
+   5 == '5'       // true (string '5' is converted to number 5)
+   0 == false     // true (false is converted to 0)
+   true == "1"   // true (true converted to 1, then "1" converted to 1)
+   null == undefined  // true, Unlike many other == comparisons, null and undefined are only loosely equal to each other, and not to any number, even 0.
+   [] == 0 // true → [] becomes "" → then "" becomes 0
+   [] == false    // true (both are converted to 0)
+   [] == []  // false (Each array/object literal creates a new reference in memory)
+   {} == {}  // false (Each array/object literal creates a new reference in memory)
+   [] == ""       // true, [] → "" via toString
+   [1] == "1"     // true, [1] → "1"
+   [1,2] == "1,2" // true, [1,2] → "1,2"
+   {} == "[object Object]" // true ({} coerced to [object, object])
 
----
+   " \t\n" == 0;    // true → whitespace string → becomes 0
+   (5 != '5'); // false (because '5' is converted to 5)
+   (0 != false); // false (false is converted to 0)
 
-```js
-// === Examples (Strict) compartion. Js compares both value and type for primitive Datatype
-5 === 5        // true (same value and type)
-5 === '5'      // false (different types)
-null === undefined  // false
-[] === []      // false (Each array/object literal creates a new reference in memory)
-{} === {}   // false (Each array/object literal creates a new reference in memory)
-(5 !== '5'); // true (number vs string, no coercion)
-(null !== undefined); // true (different types)
-(0 !== false); // true (number vs boolean)
+   ```
 
-```
+2. `===` Examples (Strict) compartion. Js compares both value and type for primitive Datatype
+
+   - Incase of primitive comparision it compares the value and in case of non-primitive it compares the memory address.
+
+   ```js
+   5 === 5        // true (same value and type)
+   5 === '5'      // false (different types)
+   null === undefined  // false
+   [] === []      // false (Each array/object literal creates a new reference in memory)
+   {} === {}   // false (Each array/object literal creates a new reference in memory)
+   (5 !== '5'); // true (number vs string, no coercion)
+   (null !== undefined); // true (different types)
+   (0 !== false); // true (number vs boolean)
+
+   ```
 
 ➡️So we have seen that the js compares the primitive datatype will the value and the Non-Primitive DataType with the Memory Reference
 
-1.  There is `no way in js, that we can compare the primitive DataType will their memory address/reference`
+1.  There is `no way in js, that we can compare the primitive DataType with their memory address/reference`
 2.  But `we can compare the Non-Primitive dataType by value`, **after stringifying the Non-Primitive DataType**
 
     ```js
