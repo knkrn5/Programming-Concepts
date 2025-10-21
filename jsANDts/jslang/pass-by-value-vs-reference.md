@@ -1,6 +1,9 @@
-# **Memory Reference VS Copy**
+# **Pass by Value VS Pass by Reference**
 
-> To understand this first we need to understand how the js, Primitive and Non-Primitive dataTypes
+> primitive datatypes are pass by value in directly with means it will always be a copy,(that’s why primitive are immutable) but in case of non-primitive these are passed by reference(Non-Primitives: CAN Mutate), which means if data is mutated it changes the parent variable too, but if the non-primitive data is re-assigned, then there can be two scenarios⬇️:
+
+1. If we `reassign in the same scope`(not as function parameter) then the parent variable will point to the memory reference of the newly created object, and old object will be garbage collected if no other variable is pointing to it.
+2. `Reassigned any non-primitive datatype passed as function parameters` will create a local copy of the reference, so the parent variable remains unchanged.
 
 ## ⭐In js the value of the primitive datatypse are copied but incase of the Non-primitive datatypes memory address reference is copied/passed
 
