@@ -1,23 +1,45 @@
-graph TD
-    A[Project/Repo] --> |git init / clone| B[Untracked/Modified Files]
-    B -->|git add| C[Staged Files]
-    C -->|git commit| D[Committed Files]
-    C -.->|git restore| I[Unstaged Changes] -.-> B
-    D -->|git push| E[Remote Repository]
-    D -->|git reset| G[Revert Changes] --> C
+flowchart TD
+    subgraph RepoGraph[Repo/Project]
+    direction BT
+        Repo([Project/Repo])
+        Repo -->|branches in our machine| RepoB[Local Branches]
+        Repo -->|branches in cloud| RepoC[Remote Branches]
+        RepoC -->|copy of remote branches in our machine| RepoD[Local Remote-tracking Branches]
+    end
 
-    %% Optional actions
-    B -.->|git stash| F[Stashed Changes]
-    F -.->|git stash pop / apply| B
+    subgraph GitGraph[Git Workflow]
+        A{Project/Repo} -->|git init| B[Untracked/Modified Files]
+        B -->|git add| C[Staged Files]
+        C -->|git commit| D[Committed Files]
+        C -.->|git restore| I[Unstaged Changes] -.-> B
+        D -->|git push| E[Remote Repository]
+        D -->|git reset| G[Revert Changes] --> C
 
-    D -.->|git merge / pull| H[Merge Changes]--> J
+        %% Optional actions
+        B -.->|git stash| F[Stashed Changes]
+        F -.->|git stash pop / apply| B
+
+        D -.->|git merge / pull| H[Merge Changes]--> J
+
+        A ==>|git checkout -b| J[New Branch]
+        A ==>|git clone| K[Remote Branch]
+
+        style A stroke:#333,stroke-width:4px
+        style B stroke:#333,stroke-width:4px
+        style C stroke:#333,stroke-width:4px
+        style D stroke:#333,stroke-width:4px
+        style E stroke:#333,stroke-width:4px
+        style F stroke:#333,stroke-width:4px
+    end
+
+    subgraph CloneRepo[Cloned Repository]
+    direction BT
+        CloneRepoA([Cloned Project/Repo])
+        CloneRepoA -->|branches in our machine| CloneRepoB[Local Branches]
+        CloneRepoA -->|branches in cloud| CloneRepoC[Remote Branches]
+        CloneRepoC -->|copy of remote branches in our machine| CloneRepoD[Local Remote-tracking Branches]
+    end
+
+    RepoGraph <--> A
+    CloneRepo <-->|Git clone| A
     
-    A ==>|git checkout -b| J[New Branch]
-    A ==>|git checkout -b| K[Remote Branch]
-
-    style A stroke:#333,stroke-width:4px
-    style B stroke:#333,stroke-width:4px
-    style C stroke:#333,stroke-width:4px
-    style D stroke:#333,stroke-width:4px
-    style E stroke:#333,stroke-width:4px
-    style F stroke:#333,stroke-width:4px

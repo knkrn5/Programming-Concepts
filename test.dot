@@ -1,0 +1,61 @@
+digraph FourDirections {
+    rankdir = TB;
+    node [shape = box; style = rounded;];
+    
+    // Central node
+    Center [label = "Main Node";shape = ellipse;style = filled;fillcolor = lightblue;];
+    
+    // Four directional nodes
+    Top [label = "From Top";];
+    Bottom [label = "From Bottom";];
+    Left [label = "From Left";];
+    Right [label = "From Right";];
+    
+    // Subgraph with border and label
+    subgraph cluster_top_section {
+        label = "Top Section";
+        style = filled;
+        fillcolor = lightgray;
+        
+        Top;
+        TopHelper [label = "Helper Node";];
+    }
+    
+    // Subgraph for left section
+    subgraph cluster_left_section {
+        label = "Left Section";
+        style = filled;
+        fillcolor = lightyellow;
+        
+        Left;
+        LeftData [label = "Input Data";];
+    }
+    
+    // Subgraph for right section
+    subgraph cluster_right_section {
+        label = "Right Section";
+        style = filled;
+        fillcolor = lightgreen;
+        
+        Right;
+        RightOutput [label = "Output Data";];
+    }
+    
+    // Force Left, Center, and Right to be on the same horizontal level
+    subgraph {
+        rank = same;
+        Left;
+        Center;
+        Right;
+    }
+    
+    // Add invisible edges to force left-to-right ordering
+    Left -> Center [style = invis;];
+    Center -> Right [style = invis;];
+    
+    // Connections with explicit port directions
+    Top:s -> Center:n [label = "top → center"; tailport = s; headport = n;];
+    Left:e -> Center:w [label = "left → center"; tailport = e; headport = w;];
+    Right:w -> Center:e [label = "right → center"; tailport = w; headport = e;];
+    Center:s -> Bottom:n [label = "center → bottom"; tailport = s; headport = n;];
+}

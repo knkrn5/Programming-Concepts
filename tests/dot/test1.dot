@@ -1,0 +1,46 @@
+digraph GitWorkflow {
+    rankdir=TB;
+    node [shape=box, style=rounded];
+    
+    // Main nodes
+    A [label="Project/Repo", shape=ellipse];
+    B [label="Untracked/Modified Files"];
+    B1 [label="Revert Unstaged Changes"];
+    C [label="Tracked/Staged Files"];
+    C1 [label="Remove from Git Tracking"];
+    D [label="Committed Files"];
+    E [label="Remote Repository"];
+    F [label="Stashed Changes"];
+    G [label="Revert Changes", shape=diamond];
+    G1 [label="Discard Changes"];
+    H [label="Merge Changes"];
+    I [label="Unstaged Changes"];
+    J [label="New Branch"];
+    K [label="Remote Branch"];
+    
+    // Solid edges (main workflow)
+    A -> B [label="git init / clone"];
+    B -> C [label="git add"];
+    B -> B1 [label="git restore"];
+    C -> D [label="git commit"];
+    C -> C1 [label="git rm"];
+    D -> E [label="git push"];
+    D -> G [label="git reset"];
+    
+    // Reset options
+    G -> C [label="--soft"];
+    G -> B [label="--mixed"];
+    G -> G1 [label="--hard"];
+    
+    // Dashed edges (optional actions)
+    C -> I [label="git restore --staged", style=dashed];
+    I -> B [style=dashed];
+    B -> F [label="git stash", style=dashed];
+    F -> B [label="git stash pop / apply", style=dashed];
+    D -> H [label="git merge / pull", style=dashed];
+    H -> J [style=dashed];
+    
+    // Branch creation (bold edges)
+    A -> J [label="git checkout -b", style=bold, penwidth=2];
+    A -> K [label="git checkout -b", style=bold, penwidth=2];
+}
