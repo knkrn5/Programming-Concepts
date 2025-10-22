@@ -16,23 +16,6 @@ graph TD
 
 ```mermaid
 graph TD
-    A[Git Actions]
-    A ==>|git init| B[Untracked files]
-    B -->|git add| C[Staged files/tracked files]
-    B -->|git stash| G[Stashed files] --> |stashed files can be merged| F
-    C -->|committed in git| D[Committed files]
-    D -->|committed files can be merged| F[Remote Repo]
-    D -->|git push| E[Remote Repo]
-
-
-    A ==> |checkout -b| F[Create Branches]
-
-```
-
-## testing
-
-```mermaid
-graph TD
     A[Project/Repo] --> |git init / clone| B[Untracked/Modified Files]
     B -->|git add| C[Tracked/Staged Files]
     B -->|git restore| B1[revert Unstaged Changes]
@@ -62,33 +45,11 @@ graph TD
     style E stroke:#333,stroke-width:4px
     style F stroke:#333,stroke-width:4px
 
-
-
 ```
 
-## Testing
+## **Git Structure**
 
-```mermaid
-flowchart TD
-    subgraph Graph["Git Commit Graph"]
-        C --> G[Commit History]
-
-        G --> H[main branch]
-        H --> C1((merge commit))
-        C1 --> C2((C2))
-        C2 --> C3((C3))
-
-        C2 -.->|git checkout -b| I[feature branch]
-        I --> F1((F1))
-        F1 --> F2((F2))
-
-        F2 -.->|git merge| C3
-        C3 --> C4((C4))
-
-        C4 -.->|merged commits| D
-    end
-
-```
+![Git Diagram](./git.svg)
 
 ## **Git File States**
 
