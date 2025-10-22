@@ -27,7 +27,7 @@ digraph FourDirections {
         style = filled;
         fillcolor = lightyellow;
         
-        Left;
+        LeftAnchor [label = "", shape = point, width = 0];
         LeftData [label = "Input Data";];
     }
     
@@ -37,7 +37,7 @@ digraph FourDirections {
         style = filled;
         fillcolor = lightgreen;
         
-        Right;
+        RightAnchor [label = "", shape = point, width = 0];
         RightOutput [label = "Output Data";];
     }
     
@@ -54,8 +54,15 @@ digraph FourDirections {
     Center -> Right [style = invis;];
     
     // Connections with explicit port directions
-    Top:s -> Center:n [label = "top → center"; tailport = s; headport = n;];
+    Center:s -> Top:n [label = "top → center"; tailport = n; headport = s;];
+    
+    // Connect cluster to Left node
+    LeftAnchor:e -> Left:w [label = "from section"; tailport = e; headport = w;];
     Left:e -> Center:w [label = "left → center"; tailport = e; headport = w;];
+    
+    // Connect Right node to cluster
     Right:w -> Center:e [label = "right → center"; tailport = w; headport = e;];
+    Right:e -> RightAnchor:w [label = "to section"; tailport = e; headport = w;];
+    
     Center:s -> Bottom:n [label = "center → bottom"; tailport = s; headport = n;];
 }
