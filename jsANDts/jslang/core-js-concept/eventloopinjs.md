@@ -2,7 +2,7 @@
 
 > Events are actions or occurrences that happen in the system you are programming, which the system tells you about so your code can respond to them. Examples of events include user interactions like clicks, key presses, mouse movements, and system-generated events like page load or network responses.
 
-## **Event Loop / Microtask vs Macrotask**
+## **Synchronous / Microtask vs Macrotask**
 
 ```js
 console.log("Start");
@@ -23,3 +23,7 @@ console.log("End");
 ### **Event-driven programming works in JS**
 
 - In JS, like in Promise, event listeners like addEventListener, and setTimeout, **we only pass the function reference**, and **these methods automatically call the functions after the event is triggered** because we `want these functions to all get called after the event is triggered and not when the event is registered/created` in a memory. These are called `"callback functions/patterns"`.
+
+## **Event Loop: -** _The event loop manages the illusion of multitasking_
+
+- ### **So if js is single-threaded, how does it handle multiple events?**

@@ -1,10 +1,15 @@
 # **JavaScript Concept**
 
-> ## javascript flow chart⬇️
-
-![JS Diagram](./imgs/js-flow-chart.png)
-
 ## **[🔗 Core Browser working](../browser/browser.md)**
+
+## **How js runs async task being a single thread**
+
+> JavaScript can only execute one piece of code at a time (single-threaded), but the `event loop allows it to handle asynchronous operations` like timers, network requests, and user interactions without blocking.
+
+- Browser can spin up Web Workers
+- Node.js can use Worker Threads
+
+## **[🔗 Event Loop in js](./jslang/core-js-concept/eventloopinjs.md)**
 
 ## **[🔗 OOPS in js](./jslang/oopsinjs.md)**
 
