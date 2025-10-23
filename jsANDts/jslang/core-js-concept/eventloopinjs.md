@@ -27,3 +27,4 @@ console.log("End");
 ## **Event Loop: -** _The event loop manages the illusion of multitasking_
 
 - ### **So if js is single-threaded, how does it handle multiple events?**
+  ![Event Loop](../js-media/eventloopinjs.svg)
