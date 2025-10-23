@@ -47,7 +47,7 @@
                 <mxCell id="5" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;" parent="1" vertex="1">
                     <mxGeometry x="230" y="450" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="7" value="push" style="whiteSpace=wrap;html=1;rounded=1;gradientColor=none;strokeColor=default;" parent="1" vertex="1">
+                <mxCell id="7" value="push" style="whiteSpace=wrap;html=1;rounded=1;gradientColor=none;strokeColor=default;glass=0;" parent="1" vertex="1">
                     <mxGeometry x="425" y="310" width="70" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="9" value="1. hii&lt;div&gt;2. nice&lt;/div&gt;&lt;div&gt;3. nice one&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=1;" parent="1" vertex="1">

@@ -4,6 +4,8 @@
 
 ![JS Diagram](./imgs/js-flow-chart.png)
 
+## **[🔗 Core Browser working](../browser/browser.md)**
+
 ## **[🔗 OOPS in js](./jslang/oopsinjs.md)**
 
 ## **Variable Declaration**
