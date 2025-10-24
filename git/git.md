@@ -51,6 +51,69 @@ graph TD
 
 ![Git Diagram](./git.svg)
 
+## **Summary**
+
+Git is a distributed version control system that tracks changes in files and coordinates work among multiple developers. Here are the key concepts:
+
+### **Core Workflow**
+1. **Working Directory** → Files you're actively editing
+2. **Staging Area** → Files marked for the next commit (`git add`)
+3. **Local Repository** → Committed snapshots (`git commit`)
+4. **Remote Repository** → Shared repository on a server (`git push`)
+
+### **Essential Commands**
+```sh
+# Setup & Configuration
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
+git init                    # Initialize a new repository
+git clone <url>             # Clone an existing repository
+
+# Daily Workflow
+git status                  # Check current state
+git add <file>              # Stage changes
+git add .                   # Stage all changes
+git commit -m "message"     # Commit staged changes
+git push                    # Push commits to remote
+git pull                    # Fetch and merge remote changes
+
+# Branching
+git branch                  # List branches
+git branch <name>           # Create new branch
+git checkout <branch>       # Switch to branch
+git checkout -b <name>      # Create and switch to new branch
+git merge <branch>          # Merge branch into current branch
+
+# Viewing Changes
+git log                     # View commit history
+git log --oneline          # Compact commit history
+git diff                    # Show unstaged changes
+git diff --staged          # Show staged changes
+git show                    # Show latest commit
+
+# Undoing Changes
+git restore <file>          # Discard unstaged changes
+git restore --staged <file> # Unstage changes
+git reset --soft HEAD~1     # Undo last commit, keep changes staged
+git reset --mixed HEAD~1    # Undo last commit, unstage changes
+git reset --hard HEAD~1     # Undo last commit, discard changes
+
+# Remote Management
+git remote -v               # List remotes
+git remote add <name> <url> # Add remote
+git fetch                   # Download remote changes
+git fetch --all            # Fetch from all remotes
+```
+
+### **Key Concepts to Remember**
+- **HEAD**: Pointer to current branch/commit
+- **origin**: Default name for remote repository
+- **main/master**: Default branch name
+- **Commit Hash**: Unique identifier for each commit
+- **Remote-tracking Branch**: Local copy of remote branch state (e.g., `origin/main`)
+- **Merge vs Rebase**: Merge creates a merge commit; Rebase replays commits on top of another branch
+- **Stash**: Temporarily save uncommitted changes without committing
+
 ## **Git File States**
 
 1. **Untracked**: Files that Git doesn't know about yet - never been added in Git tracking system.
