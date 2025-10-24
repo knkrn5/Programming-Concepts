@@ -80,8 +80,10 @@ git pull                    # Fetch and merge remote changes
 # Branching
 git branch                  # List branches
 git branch <name>           # Create new branch
-git checkout <branch>       # Switch to branch
+git checkout <branch>       # Switch to branch (older syntax)
+git switch <branch>         # Switch to branch (modern syntax)
 git checkout -b <name>      # Create and switch to new branch
+git switch -c <name>        # Create and switch to new branch (modern)
 git merge <branch>          # Merge branch into current branch
 
 # Viewing Changes
