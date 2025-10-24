@@ -196,6 +196,7 @@ git branch -f main origin/main # Reset local main to exactly match remote main
 
 
 git push origin staging:main  # This pushes our current staging branch changes to the remote main branch and local remote-main-tracking-branch
+git push -u origin main # -u means upstream
 git push -f origin staging:main # overwrites the remote main branch with your local staging branch even if remote has commits that local staging doesn’t have
 
 git push origin <commit-hash>:main ## Push specific commits from staging to origin main
