@@ -20,12 +20,10 @@ console.log("End");
 - `Microtasks` (Promises) run after sync code but before setTimeout → 'Promise'
 - `Macrotasks` (setTimeout) run last → 'Timeout'
 
-### **Event-driven programming works in JS**
-
-- In JS, like in Promise, event listeners like addEventListener, and setTimeout, **we only pass the function reference**, and **these methods automatically call the functions after the event is triggered** because we `want these functions to all get called after the event is triggered and not when the event is registered/created` in a memory. These are called `"callback functions/patterns"`.
-
 ## **Event Loop: -** _The event loop manages the illusion of multitasking_
 
 - ### **So if js is single-threaded, how does it handle multiple events?**
 
   ![Event Loop](../js-media/eventloopinjs.svg)
+
+> Note: - JS is Always single-threaded and executes one by one from the call stack. The `event loop just makes it non-blocking`.
