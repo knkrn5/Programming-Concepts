@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="r42jsTGxHJVRxmjJ8FQ8" name="Page-1">
-        <mxGraphModel dx="1298" dy="1532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+        <mxGraphModel dx="1721" dy="1590" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -185,20 +185,14 @@
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="128" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="127" target="43" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="129" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.944;entryY=0.153;entryDx=0;entryDy=0;entryPerimeter=0;flowAnimation=1;" parent="1" source="127" target="56" edge="1">
+                <mxCell id="129" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.944;entryY=0.153;entryDx=0;entryDy=0;entryPerimeter=0;flowAnimation=1;shape=flexArrow;" parent="1" source="127" target="56" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="127" value="&lt;div style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30); font-size: 11px; text-wrap-mode: nowrap;&quot;&gt;&lt;font style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;after all the sync code&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30); font-size: 11px; text-wrap-mode: nowrap;&quot;&gt;&lt;font style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&lt;font style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30);&quot;&gt;&amp;nbsp;has been&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30);&quot;&gt;&lt;font style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30);&quot;&gt;executed&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;" parent="1" vertex="1">
                     <mxGeometry x="180" y="467.5" width="120" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="137" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="136" target="44" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
                 <mxCell id="136" value="&lt;div style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30); font-size: 11px; text-wrap-mode: nowrap;&quot;&gt;&lt;div style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30);&quot;&gt;execute ALL of them&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30);&quot;&gt;before next macrotask&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;" parent="1" vertex="1">
-                    <mxGeometry x="190" y="540" width="135" height="40" as="geometry"/>
+                    <mxGeometry x="172.5" y="550" width="135" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="153" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="133" target="152" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
@@ -206,17 +200,8 @@
                 <mxCell id="133" value="&lt;div style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30); font-size: 11px; text-wrap-mode: nowrap;&quot;&gt;&lt;font style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30);&quot;&gt;after the&amp;nbsp;&lt;/font&gt;&lt;div style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30);&quot;&gt;&lt;font style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;microtask queue is&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30);&quot;&gt;&lt;font style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;empty&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;" parent="1" vertex="1">
                     <mxGeometry y="730" width="120" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="138" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.91;entryY=0.73;entryDx=0;entryDy=0;entryPerimeter=0;flowAnimation=1;" parent="1" source="136" target="56" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
                 <mxCell id="140" value="waits for&lt;div&gt;sync code&lt;/div&gt;&lt;div&gt;execution&lt;/div&gt;&lt;div&gt;to complete&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="-190" y="320" width="80" height="80" as="geometry"/>
-                </mxCell>
-                <mxCell id="145" value="" style="shape=flexArrow;endArrow=classic;html=1;flowAnimation=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="133" target="8" edge="1">
-                    <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="190" y="750" as="sourcePoint"/>
-                        <mxPoint x="240" y="700" as="targetPoint"/>
-                    </mxGeometry>
                 </mxCell>
                 <mxCell id="146" value="" style="shape=flexArrow;endArrow=classic;html=1;entryX=0.516;entryY=0.957;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;shadow=0;flowAnimation=1;edgeStyle=orthogonalEdgeStyle;" parent="1" source="133" target="56" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -261,6 +246,30 @@
                 <mxCell id="160" value="&lt;span style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30); font-size: 12px;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;event Loop priotises&lt;/font&gt;&lt;/span&gt;&lt;div style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30); font-size: 12px;&quot;&gt;&lt;font style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;b style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30);&quot;&gt;mircrotask&lt;/b&gt;&lt;span style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30);&quot;&gt;, before&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30); font-size: 12px;&quot;&gt;&lt;font style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30);&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;b style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30);&quot;&gt;macrotask&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="159" vertex="1" connectable="0">
                     <mxGeometry x="-0.1531" y="4" relative="1" as="geometry">
                         <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="163" value="" style="shape=link;html=1;flowAnimation=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="136" target="44">
+                    <mxGeometry width="100" relative="1" as="geometry">
+                        <mxPoint x="290" y="600" as="sourcePoint"/>
+                        <mxPoint x="390" y="600" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="165" value="" style="shape=link;html=1;flowAnimation=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="133" target="7">
+                    <mxGeometry width="100" relative="1" as="geometry">
+                        <mxPoint x="-160" y="800" as="sourcePoint"/>
+                        <mxPoint x="-60" y="800" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="166" value="" style="shape=link;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;shadow=0;flowAnimation=1;" edge="1" parent="1" source="127" target="43">
+                    <mxGeometry width="100" relative="1" as="geometry">
+                        <mxPoint x="-130" y="620" as="sourcePoint"/>
+                        <mxPoint x="-30" y="620" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="168" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;flowAnimation=1;shape=flexArrow;" edge="1" parent="1" source="136" target="127">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="110" y="580" as="sourcePoint"/>
+                        <mxPoint x="160" y="530" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
             </root>
