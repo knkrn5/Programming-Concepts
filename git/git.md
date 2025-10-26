@@ -47,9 +47,9 @@ graph TD
 
 ```
 
-## **Git Structure**
+## **Git Command Structure**
 
-![Git Diagram](./git.svg)
+![Git Diagram](./gitcmd.svg)
 
 ## **Git File States**
 
