@@ -49,7 +49,11 @@ graph TD
 
 ## **Git Command Structure**
 
-![Git Diagram](./gitcmd.svg)
+![Gitcmd Diagram](./gitcmd.svg)
+
+## **Git Workflow Diagram**
+
+![Git repo Diagram](./git.svg)
 
 ## **Git File States**
 
