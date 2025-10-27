@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="t2jrKLKRC3KNHMHjOV-I" name="Page-1">
-        <mxGraphModel dx="1852" dy="563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+        <mxGraphModel dx="1761" dy="512" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -32,7 +32,7 @@
                         <mxPoint x="385" y="600" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="214" style="edgeStyle=none;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" edge="1" parent="1" source="122" target="210">
+                <mxCell id="214" style="edgeStyle=none;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="122" target="210" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="122" value="commited files" style="whiteSpace=wrap;html=1;rounded=1;gradientColor=none;strokeColor=default;" parent="1" vertex="1">
@@ -68,7 +68,7 @@
                 <mxCell id="41" value="modified files" style="whiteSpace=wrap;html=1;rounded=1;gradientColor=none;strokeColor=default;" parent="1" vertex="1">
                     <mxGeometry x="520" y="430" width="70" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="208" value="view stashed&lt;div&gt;changes&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;gradientColor=none;strokeColor=default;" vertex="1" parent="1">
+                <mxCell id="208" value="view stashed&lt;div&gt;changes&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;gradientColor=none;strokeColor=default;" parent="1" vertex="1">
                     <mxGeometry x="610" y="600" width="70" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="110" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;flowAnimation=1;curved=1;" parent="1" source="107" target="41" edge="1">
@@ -79,12 +79,12 @@
                         <mxPoint x="3" y="31" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="207" style="edgeStyle=none;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" edge="1" parent="1" source="107" target="208">
+                <mxCell id="207" style="edgeStyle=none;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="107" target="208" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="630" y="580" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="209" value="stash list" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="207">
+                <mxCell id="209" value="stash list" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="207" vertex="1" connectable="0">
                     <mxGeometry x="-0.0471" y="1" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
@@ -200,7 +200,7 @@
                 <mxCell id="35" value="untracked files" style="whiteSpace=wrap;html=1;rounded=1;gradientColor=none;strokeColor=default;" parent="1" vertex="1">
                     <mxGeometry x="120" y="440" width="70" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="202" value="&lt;b&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;project/repo&lt;/font&gt;&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=light-dark(#001DBC,#FFFFFF);fillColor=#0050ef;fontColor=#ffffff;glass=1;shadow=1;gradientColor=light-dark(#000000,#6666FF);gradientDirection=south;" vertex="1" parent="1">
+                <mxCell id="202" value="&lt;b&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;project/repo&lt;/font&gt;&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=light-dark(#001DBC,#FFFFFF);fillColor=#0050ef;fontColor=#ffffff;glass=1;shadow=1;gradientColor=light-dark(#000000,#6666FF);gradientDirection=south;" parent="1" vertex="1">
                     <mxGeometry x="245" y="375" width="70" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="42" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="36" target="41" edge="1">
@@ -243,12 +243,12 @@
                 <mxCell id="36" value="tracked/staged&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;files&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;gradientColor=none;strokeColor=default;" parent="1" vertex="1">
                     <mxGeometry x="315" y="440" width="90" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="190" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1.006;exitY=0.147;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;flowAnimation=1;" edge="1" parent="1" source="196" target="22">
+                <mxCell id="190" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1.006;exitY=0.147;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="196" target="22" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="20" y="260" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="193" value="add upstream" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="190">
+                <mxCell id="193" value="add upstream" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="190" vertex="1" connectable="0">
                     <mxGeometry x="0.0646" y="2" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
@@ -256,7 +256,7 @@
                 <mxCell id="22" value="cloned/forked repo" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
                     <mxGeometry x="85" y="302.5" width="100" height="45" as="geometry"/>
                 </mxCell>
-                <mxCell id="205" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" edge="1" parent="1" source="30" target="202">
+                <mxCell id="205" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="30" target="202" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="30" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#FF6B00;shape=mxgraph.azure.git_repository;" parent="1" vertex="1">
@@ -270,7 +270,7 @@
                 <mxCell id="51" value="remove from git&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;tracking&lt;/font&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="40" y="590" width="120" height="90" as="geometry"/>
                 </mxCell>
-                <mxCell id="56" value="rm folder" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="51" vertex="1">
+                <mxCell id="56" value="-r rm folder" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="51" vertex="1">
                     <mxGeometry y="30" width="120" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="53" value="rm files" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="51" vertex="1">
@@ -411,39 +411,39 @@
                 <mxCell id="171" value="&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;right now branch only exists in local&lt;/font&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
                     <mxGeometry x="240" y="580" width="130" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="188" value="Discard&amp;nbsp;&lt;div&gt;changes&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+                <mxCell id="188" value="Discard&amp;nbsp;&lt;div&gt;changes&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
                     <mxGeometry x="405" y="360" width="90" height="45" as="geometry"/>
                 </mxCell>
-                <mxCell id="191" style="html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;flowAnimation=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="196" target="202">
+                <mxCell id="191" style="html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;flowAnimation=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="196" target="202" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="190" y="380" as="targetPoint"/>
                         <mxPoint x="-40" y="420" as="sourcePoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="192" value="upsteam can&lt;div&gt;be added&lt;/div&gt;&lt;div&gt;to local repo also&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="191">
+                <mxCell id="192" value="upsteam can&lt;div&gt;be added&lt;/div&gt;&lt;div&gt;to local repo also&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="191" vertex="1" connectable="0">
                     <mxGeometry x="-0.4802" y="-1" relative="1" as="geometry">
                         <mxPoint x="94" y="-13" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="196" value="add upstream" style="swimlane;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+                <mxCell id="196" value="add upstream" style="swimlane;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
                     <mxGeometry x="-160" y="280" width="140" height="120" as="geometry"/>
                 </mxCell>
-                <mxCell id="197" value="upstream is added to&amp;nbsp;&lt;div&gt;fetch the&amp;nbsp;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;latest commit&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;color: rgb(192, 192, 192); background-color: transparent;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: rgb(192, 192, 192);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(192, 192, 192), rgb(255, 255, 255));&quot;&gt;from any remote&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(192, 192, 192); background-color: transparent;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(192, 192, 192), rgb(255, 255, 255));&quot;&gt;repo&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(192, 192, 192); background-color: transparent;&quot;&gt;.&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: rgb(192, 192, 192);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;(mostly used in cloned/&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: rgb(192, 192, 192);&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(192, 192, 192), rgb(255, 255, 255));&quot;&gt;forked repos)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="196">
+                <mxCell id="197" value="upstream is added to&amp;nbsp;&lt;div&gt;fetch the&amp;nbsp;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;latest commit&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;color: rgb(192, 192, 192); background-color: transparent;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: rgb(192, 192, 192);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(192, 192, 192), rgb(255, 255, 255));&quot;&gt;from any remote&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(192, 192, 192); background-color: transparent;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(192, 192, 192), rgb(255, 255, 255));&quot;&gt;repo&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(192, 192, 192); background-color: transparent;&quot;&gt;.&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: rgb(192, 192, 192);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;(mostly used in cloned/&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: rgb(192, 192, 192);&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(192, 192, 192), rgb(255, 255, 255));&quot;&gt;forked repos)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="196" vertex="1">
                     <mxGeometry x="-10" y="22.5" width="150" height="90" as="geometry"/>
                 </mxCell>
-                <mxCell id="210" value="git log" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="210" value="git log" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="390" y="600" width="150" height="150" as="geometry"/>
                 </mxCell>
-                <mxCell id="211" value="defualt shows commit hash with basic meta data" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="210">
+                <mxCell id="211" value="defualt shows commit hash with basic meta data" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="210" vertex="1">
                     <mxGeometry y="30" width="150" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="212" value="can view comit hash in one lines" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="210">
+                <mxCell id="212" value="can view comit hash in one lines" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="210" vertex="1">
                     <mxGeometry y="60" width="150" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="213" value="commit difference btw branches" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="210">
+                <mxCell id="213" value="commit difference btw branches" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="210" vertex="1">
                     <mxGeometry y="90" width="150" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="217" value="commit difference btw branches" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="210">
+                <mxCell id="217" value="commit difference btw branches" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="210" vertex="1">
                     <mxGeometry y="120" width="150" height="30" as="geometry"/>
                 </mxCell>
             </root>

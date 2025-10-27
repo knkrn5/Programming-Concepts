@@ -1,100 +1,255 @@
 <mxfile host="65bd71144e">
     <diagram id="JTQEZqj_6--ISPUHX7xe" name="Page-1">
-        <mxGraphModel dx="781" dy="563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="2103" dy="704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="23" value="" style="group" vertex="1" connectable="0" parent="1">
-                    <mxGeometry x="330" y="440" width="70" height="80" as="geometry"/>
-                </mxCell>
-                <mxCell id="20" value="" style="shape=link;html=1;flowAnimation=1;" edge="1" parent="23">
-                    <mxGeometry width="100" relative="1" as="geometry">
-                        <mxPoint y="80" as="sourcePoint"/>
-                        <mxPoint x="30" as="targetPoint"/>
+                <mxCell id="3" value="" style="endArrow=classic;html=1;exitX=0.528;exitY=1.013;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" edge="1" parent="1" source="2" target="5">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="260" y="740" as="sourcePoint"/>
+                        <mxPoint x="350" y="630" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="21" value="" style="shape=link;html=1;flowAnimation=1;" edge="1" parent="23">
-                    <mxGeometry width="100" relative="1" as="geometry">
-                        <mxPoint x="70" y="80" as="sourcePoint"/>
-                        <mxPoint x="30" as="targetPoint"/>
+                <mxCell id="4" value="initializing&amp;nbsp;&lt;div&gt;project&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3">
+                    <mxGeometry x="0.1579" y="4" relative="1" as="geometry">
+                        <mxPoint y="-9" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="22" value="" style="shape=link;html=1;flowAnimation=1;" edge="1" parent="23">
-                    <mxGeometry width="100" relative="1" as="geometry">
-                        <mxPoint x="50" y="40" as="sourcePoint"/>
-                        <mxPoint x="20" y="40" as="targetPoint"/>
+                <mxCell id="6" style="edgeStyle=none;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" edge="1" parent="1" source="5" target="9">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="220" y="710" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="31" value="" style="group" vertex="1" connectable="0" parent="1">
-                    <mxGeometry x="460" y="440" width="70" height="80" as="geometry"/>
-                </mxCell>
-                <mxCell id="32" value="" style="shape=link;html=1;flowAnimation=1;" edge="1" parent="31">
-                    <mxGeometry width="100" relative="1" as="geometry">
-                        <mxPoint y="80" as="sourcePoint"/>
-                        <mxPoint x="30" as="targetPoint"/>
+                <mxCell id="10" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" edge="1" parent="1" source="5" target="11">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="340" y="720" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="33" value="" style="shape=link;html=1;flowAnimation=1;" edge="1" parent="31">
-                    <mxGeometry width="100" relative="1" as="geometry">
-                        <mxPoint x="70" y="80" as="sourcePoint"/>
-                        <mxPoint x="30" as="targetPoint"/>
+                <mxCell id="12" value="we need to&lt;div&gt;add files to git&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="10">
+                    <mxGeometry x="0.0752" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="34" value="" style="shape=link;html=1;flowAnimation=1;" edge="1" parent="31">
-                    <mxGeometry width="100" relative="1" as="geometry">
-                        <mxPoint x="50" y="40" as="sourcePoint"/>
-                        <mxPoint x="20" y="40" as="targetPoint"/>
+                <mxCell id="5" value="Untracked files" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="260" y="630" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;flowAnimation=1;" edge="1" parent="1" source="11" target="14">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="540" y="740" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="39" value="" style="group" vertex="1" connectable="0" parent="1">
-                    <mxGeometry x="530" y="440" width="40" height="80" as="geometry"/>
-                </mxCell>
-                <mxCell id="29" value="" style="shape=link;html=1;flowAnimation=1;" edge="1" parent="39">
-                    <mxGeometry width="100" relative="1" as="geometry">
-                        <mxPoint y="80" as="sourcePoint"/>
-                        <mxPoint as="targetPoint"/>
+                <mxCell id="15" value="&lt;font style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30); font-size: 10px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;changes in&lt;/font&gt;&lt;div style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30);&quot;&gt;&lt;font style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30); font-size: 10px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;tracked files&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="13">
+                    <mxGeometry x="-0.1086" y="-2" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="36" value="" style="shape=link;html=1;flowAnimation=1;" edge="1" parent="39">
-                    <mxGeometry width="100" relative="1" as="geometry">
-                        <mxPoint x="40" y="80" as="sourcePoint"/>
-                        <mxPoint as="targetPoint"/>
+                <mxCell id="17" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" edge="1" parent="1" source="11" target="16">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="then we can&amp;nbsp;&lt;div&gt;push/commit&lt;div&gt;the files to git&lt;/div&gt;&lt;div&gt;with change msg&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="17">
+                    <mxGeometry x="-0.1775" y="1" relative="1" as="geometry">
+                        <mxPoint x="-1" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="38" value="" style="shape=link;html=1;flowAnimation=1;" edge="1" parent="39">
-                    <mxGeometry width="100" relative="1" as="geometry">
-                        <mxPoint x="40" y="80" as="sourcePoint"/>
-                        <mxPoint x="40" as="targetPoint"/>
+                <mxCell id="39" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" edge="1" parent="1" source="11" target="41">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="210" y="830" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="40" value="" style="group" vertex="1" connectable="0" parent="1">
-                    <mxGeometry x="280" y="440" width="50" height="80" as="geometry"/>
+                <mxCell id="40" value="we veiw the&lt;div&gt;files that git&lt;/div&gt;&lt;div&gt;is tracking&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="39">
+                    <mxGeometry x="0.1236" y="1" relative="1" as="geometry">
+                        <mxPoint x="10" y="-9" as="offset"/>
+                    </mxGeometry>
                 </mxCell>
-                <mxCell id="37" value="" style="shape=link;html=1;flowAnimation=1;" edge="1" parent="40">
-                    <mxGeometry width="100" relative="1" as="geometry">
-                        <mxPoint x="50" y="80" as="sourcePoint"/>
-                        <mxPoint x="50" as="targetPoint"/>
+                <mxCell id="11" value="&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;tracked/stage&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;d&lt;/span&gt;&lt;div style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30);&quot;&gt;&lt;font style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30); color: light-dark(rgb(192, 192, 192), rgb(255, 255, 255));&quot;&gt;files&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="300" y="722.5" width="90" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" style="html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;flowAnimation=1;" edge="1" parent="1" source="16" target="21">
+                    <mxGeometry relative="1" as="geometry">
                         <Array as="points">
-                            <mxPoint y="40"/>
+                            <mxPoint x="415" y="868"/>
+                            <mxPoint x="415" y="840"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="14" value="" style="shape=link;html=1;flowAnimation=1;" edge="1" parent="40">
-                    <mxGeometry width="100" relative="1" as="geometry">
-                        <mxPoint as="sourcePoint"/>
-                        <mxPoint y="80" as="targetPoint"/>
+                <mxCell id="92" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" edge="1" parent="1" source="16" target="89">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="93" value="view the&amp;nbsp;&lt;div&gt;commit history&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="92">
+                    <mxGeometry x="0.4117" y="-1" relative="1" as="geometry">
+                        <mxPoint x="34" y="-2" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="42" value="" style="shape=link;html=1;flowAnimation=1;" edge="1" parent="1">
-                    <mxGeometry width="100" relative="1" as="geometry">
-                        <mxPoint x="410" y="520" as="sourcePoint"/>
-                        <mxPoint x="450" y="520" as="targetPoint"/>
+                <mxCell id="16" value="commited files" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="300" y="850" width="90" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" style="html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;flowAnimation=1;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="41" target="86">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-40" y="870" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="59" value="remove&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;files/folders&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="46">
+                    <mxGeometry x="0.0265" y="-1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="41" value="list of files git&lt;div&gt;is tracking&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="140" y="800" width="90" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="&lt;span style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;modified files&lt;/font&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+                    <mxGeometry x="530" y="722.5" width="90" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="360" y="540" width="60" height="42" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.folder;fillColor=#2072B8;" vertex="1" parent="8">
+                    <mxGeometry width="50" height="42" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="&lt;b&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0)); background-color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;repo/&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0)); background-color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;project&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="8">
+                    <mxGeometry y="2" width="60" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="&lt;font style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30); text-wrap-mode: nowrap; font-size: 10px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;git cmds&lt;/font&gt;&lt;div style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30); text-wrap-mode: nowrap; font-size: 11px;&quot;&gt;&lt;font style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30); font-size: 10px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;cannot make&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30); text-wrap-mode: nowrap; font-size: 11px;&quot;&gt;&lt;font style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30); font-size: 10px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;any changes in&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30); text-wrap-mode: nowrap; font-size: 11px;&quot;&gt;&lt;font style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30); font-size: 10px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;untracked files,&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30); text-wrap-mode: nowrap; font-size: 11px;&quot;&gt;&lt;font style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30); font-size: 10px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;untill added&lt;/font&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="677.5" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="reserve/discard changes" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="1060" width="375" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="commited changes" style="swimlane;startSize=20;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="20">
+                    <mxGeometry y="20" width="125" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="options" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="21">
+                    <mxGeometry x="10" y="30" width="110" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="1. resvers and stage changes" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="34">
+                    <mxGeometry y="26" width="110" height="44" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="2. reverse and unstage changes" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="34">
+                    <mxGeometry y="70" width="110" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="3. directly discard reversed changes" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="34">
+                    <mxGeometry y="110" width="110" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="staged files" style="swimlane;startSize=20;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="20">
+                    <mxGeometry x="125" y="20" width="130" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;we have to first&lt;/font&gt;&lt;/span&gt;&lt;div style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30); color: rgb(192, 192, 192);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;unstage the files and&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30); color: rgb(192, 192, 192);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;then we can&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(192, 192, 192), rgb(255, 255, 255));&quot;&gt;&lt;font style=&quot;&quot;&gt;discard&lt;/font&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&amp;nbsp;changes&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="22">
+                    <mxGeometry x="-5" y="30" width="130" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="modified files" style="swimlane;startSize=20;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="20">
+                    <mxGeometry x="255" y="20" width="120" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="changes will get&lt;div&gt;discard directly&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="23">
+                    <mxGeometry x="5" y="20" width="110" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="first unstage&lt;div&gt;to discard&amp;nbsp;&lt;/div&gt;&lt;div&gt;staged changes&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;flowAnimation=1;" edge="1" parent="1" source="11" target="14">
+                    <mxGeometry relative="1" as="geometry">
                         <Array as="points">
-                            <mxPoint x="410" y="440"/>
-                            <mxPoint x="450" y="440"/>
-                            <mxPoint x="410" y="480"/>
+                            <mxPoint x="390" y="790"/>
+                            <mxPoint x="575" y="790"/>
                         </Array>
                     </mxGeometry>
+                </mxCell>
+                <mxCell id="31" style="html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;flowAnimation=1;edgeStyle=orthogonalEdgeStyle;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="14" target="119">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="680" y="810" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="120" value="files in working&lt;div&gt;dir can be&lt;/div&gt;&lt;div&gt;discarded&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="31">
+                    <mxGeometry x="-0.2189" y="1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="86" value="options" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="-20" y="870" width="110" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="87" value="1. only remove file from git tracking" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="86">
+                    <mxGeometry y="26" width="110" height="44" as="geometry"/>
+                </mxCell>
+                <mxCell id="88" value="2. Delete file from both git and local" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="86">
+                    <mxGeometry y="70" width="110" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="115" value="local remote&#xa; tracking branch" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="330" y="220" width="160" height="164" as="geometry"/>
+                </mxCell>
+                <mxCell id="116" value="1. used for inspecting remote branch code base" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="115">
+                    <mxGeometry y="40" width="160" height="44" as="geometry"/>
+                </mxCell>
+                <mxCell id="117" value="2. Creating copy of remote branch" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="115">
+                    <mxGeometry y="84" width="160" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="118" value="3. comparing local with remote branch" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="115">
+                    <mxGeometry y="124" width="160" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="89" value="options" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="930" width="150" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="90" value="1. Defualt shows with basic meta data" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="89">
+                    <mxGeometry y="26" width="150" height="44" as="geometry"/>
+                </mxCell>
+                <mxCell id="91" value="2. can view in oneline with hash and msg only" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="89">
+                    <mxGeometry y="70" width="150" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="94" value="3. can view with specific number of commit history" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="89">
+                    <mxGeometry y="110" width="150" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="95" value="4. can view with full code difference" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="89">
+                    <mxGeometry y="150" width="150" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="100" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;flowAnimation=1;" edge="1" parent="1" source="98" target="101">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="300" y="370" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="105" value="bydeualt we&amp;nbsp;&lt;div&gt;only have local&lt;/div&gt;&lt;div&gt;branch&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="100">
+                    <mxGeometry x="-0.2556" y="-3" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="106" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;flowAnimation=1;" edge="1" parent="1" source="98" target="102">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="107" value="we can add/link&lt;div&gt;remote repo&lt;/div&gt;&lt;div&gt;also&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="106">
+                    <mxGeometry x="-0.0754" y="-1" relative="1" as="geometry">
+                        <mxPoint y="1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="109" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.489;entryY=0.98;entryDx=0;entryDy=0;entryPerimeter=0;flowAnimation=1;" edge="1" parent="1" source="98" target="118">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="393" y="380" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="98" value="branches" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="360" y="440" width="70" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="101" value="local branches" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="390" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="113" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.004;entryY=0.108;entryDx=0;entryDy=0;flowAnimation=1;entryPerimeter=0;" edge="1" parent="1" source="102" target="115">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="455" y="350" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="540" y="390"/>
+                            <mxPoint x="520" y="390"/>
+                            <mxPoint x="520" y="238"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="114" value="local copy&lt;div&gt;of remote&lt;/div&gt;&lt;div&gt;branch&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="113">
+                    <mxGeometry x="-0.0529" y="-1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="102" value="remote branches" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="540" y="380" width="110" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="104" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;flowAnimation=1;" edge="1" parent="1" source="7" target="98">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="300" y="550" as="sourcePoint"/>
+                        <mxPoint x="350" y="500" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="119" value="Discard changes" style="ellipse;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+                    <mxGeometry x="450" y="650" width="105" height="40" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
