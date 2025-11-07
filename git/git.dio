@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="JTQEZqj_6--ISPUHX7xe" name="Page-1">
-        <mxGraphModel dx="1593" dy="1519" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1528" dy="1521" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -335,7 +335,7 @@
                     <mxGeometry y="160" width="460" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="224" value="merge/rebase branches" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;rounded=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
-                    <mxGeometry x="-420" y="150" width="285" height="370" as="geometry">
+                    <mxGeometry x="-420" y="150" width="285" height="380" as="geometry">
                         <mxRectangle x="-210" y="250" width="140" height="40" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
@@ -357,8 +357,8 @@
                 <mxCell id="312" value="&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;6. view list of branches merges with specific branch&lt;/font&gt;&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;dashed=1;align=left;dashPattern=1 4;" parent="224" vertex="1">
                     <mxGeometry y="290" width="285" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="423" value="7.&amp;nbsp;&lt;strong data-end=&quot;316&quot; data-start=&quot;295&quot;&gt;moves and replays&lt;/strong&gt; all commits one by one on top of the target branch" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;dashed=1;align=left;" vertex="1" parent="224">
-                    <mxGeometry y="320" width="285" height="50" as="geometry"/>
+                <mxCell id="423" value="&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Segoe WPC&amp;quot;, &amp;quot;Segoe UI&amp;quot;, sans-serif; font-size: 13px;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(204, 204, 204), rgb(255, 255, 255));&quot;&gt;7. can move/replays commits&amp;nbsp;&lt;span&gt;sequentially&lt;/span&gt;&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Segoe WPC&amp;quot;, &amp;quot;Segoe UI&amp;quot;, sans-serif; font-size: 13px;&quot;&gt;on top the &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Segoe WPC&amp;quot;, &amp;quot;Segoe UI&amp;quot;, sans-serif; font-size: 13px;&quot;&gt;target branch, rewriting them with new hashes for the same changes.&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;dashed=1;align=left;" vertex="1" parent="224">
+                    <mxGeometry y="320" width="285" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="207" style="html=1;exitX=1.003;exitY=0.15;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;exitPerimeter=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="195" target="389" edge="1">
                     <mxGeometry relative="1" as="geometry">
@@ -531,8 +531,8 @@
                         <mxPoint x="-140" y="510" as="targetPoint"/>
                         <Array as="points">
                             <mxPoint x="-40" y="375"/>
-                            <mxPoint x="-40" y="540"/>
-                            <mxPoint x="-278" y="540"/>
+                            <mxPoint x="-40" y="550"/>
+                            <mxPoint x="-278" y="550"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
