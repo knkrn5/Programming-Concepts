@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="JTQEZqj_6--ISPUHX7xe" name="Page-1">
-        <mxGraphModel dx="1825" dy="1619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1523" dy="1355" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -368,7 +368,7 @@
                 <mxCell id="227" value="3. merge without commiting and stage merged changes and can even abort merge changes if not committed" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;dashed=1;" parent="224" vertex="1">
                     <mxGeometry y="150" width="285" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="230" value="4. merge any specific local branch with any specific remote branch" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="224" vertex="1">
+                <mxCell id="230" value="4. merge any specific branches&lt;sup&gt;1&lt;/sup&gt;" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="224" vertex="1">
                     <mxGeometry y="210" width="285" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="400" value="5. resolve or abort - merge conflicts, can also abort any ongoing merge" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="224" vertex="1">
