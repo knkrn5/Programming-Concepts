@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="JTQEZqj_6--ISPUHX7xe" name="Page-1">
-        <mxGraphModel dx="1528" dy="1521" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1500" dy="1569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -159,13 +159,16 @@
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="86" value="remove files" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;rounded=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
-                    <mxGeometry x="-10" y="1080" width="110" height="110" as="geometry"/>
+                    <mxGeometry x="-10" y="1080" width="150" height="164" as="geometry"/>
                 </mxCell>
-                <mxCell id="87" value="1. only remove file from git tracking" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="86" vertex="1">
-                    <mxGeometry y="26" width="110" height="44" as="geometry"/>
+                <mxCell id="426" value="1. view all files or files from specific folder that git is tracking" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="86">
+                    <mxGeometry y="26" width="150" height="54" as="geometry"/>
                 </mxCell>
-                <mxCell id="88" value="2. Delete file from both git and local" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;dashed=1;" parent="86" vertex="1">
-                    <mxGeometry y="70" width="110" height="40" as="geometry"/>
+                <mxCell id="87" value="2. then only remove file from git tracking" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="86" vertex="1">
+                    <mxGeometry y="80" width="150" height="44" as="geometry"/>
+                </mxCell>
+                <mxCell id="88" value="3. Delete file from both git and local" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;dashed=1;" parent="86" vertex="1">
+                    <mxGeometry y="124" width="150" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="353" value="delete files" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;rounded=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
                     <mxGeometry x="-200" y="887.5" width="160" height="190" as="geometry"/>
@@ -212,7 +215,7 @@
                         <mxRectangle x="75" y="1660" width="170" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="338" value="2. unreachable commits stays for defualt 30 days(reset, rebase etc)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;dashed=1;" parent="336" vertex="1">
+                <mxCell id="338" value="1. unreachable commits stays for defualt 30 days(reset, rebase etc)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;dashed=1;" parent="336" vertex="1">
                     <mxGeometry y="26" width="195" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="339" value="tracked/&#xa;commited files" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;rounded=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;arcSize=24;" parent="1" vertex="1">
@@ -317,8 +320,8 @@
                 <mxCell id="326" value="2. view changes in index area (staged)" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="324" vertex="1">
                     <mxGeometry y="80" width="230" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="265" value="Other git comcepts" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;rounded=1;" parent="1" vertex="1">
-                    <mxGeometry x="400" y="1740" width="460" height="200" as="geometry">
+                <mxCell id="265" value="Other git comcepts" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;rounded=1;fillColor=#bac8d3;strokeColor=#23445d;" parent="1" vertex="1">
+                    <mxGeometry x="400" y="1740" width="460" height="320" as="geometry">
                         <mxRectangle x="310" y="280" width="100" height="40" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
@@ -328,11 +331,20 @@
                 <mxCell id="271" value="refs ,&amp;nbsp;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(192, 192, 192), rgb(255, 255, 255));&quot;&gt;refspec&lt;/font&gt;&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="265" vertex="1">
                     <mxGeometry y="80" width="460" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="321" value="force" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="265" vertex="1">
+                <mxCell id="321" value="-f(force) , -u(add/change upstream used with push and pull)" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="265" vertex="1">
                     <mxGeometry y="120" width="460" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="377" value="&lt;p style=&quot;white-space-collapse: preserve;&quot; dir=&quot;auto&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;merge/apply conflict: - select between ours or theirs&lt;/font&gt;&lt;/p&gt;" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="265" vertex="1">
+                <mxCell id="429" value="detach mode" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="265">
                     <mxGeometry y="160" width="460" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="377" value="&lt;p style=&quot;white-space-collapse: preserve;&quot; dir=&quot;auto&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;merge/apply conflict: - select between ours or theirs&lt;/font&gt;&lt;/p&gt;" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="265" vertex="1">
+                    <mxGeometry y="200" width="460" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="430" value="&lt;p style=&quot;white-space-collapse: preserve;&quot; dir=&quot;auto&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;can config the different remote repo for pull and different remote repo for push&lt;/font&gt;&lt;/p&gt;" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="265">
+                    <mxGeometry y="240" width="460" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="431" value="&lt;p style=&quot;white-space-collapse: preserve;&quot; dir=&quot;auto&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;can also define multiple push URLs with same remote name for sequential push&lt;/font&gt;&lt;/p&gt;" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="265">
+                    <mxGeometry y="280" width="460" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="224" value="merge/rebase branches" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;rounded=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
                     <mxGeometry x="-420" y="150" width="285" height="380" as="geometry">
@@ -357,7 +369,7 @@
                 <mxCell id="312" value="&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;6. view list of branches merges with specific branch&lt;/font&gt;&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;dashed=1;align=left;dashPattern=1 4;" parent="224" vertex="1">
                     <mxGeometry y="290" width="285" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="423" value="&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Segoe WPC&amp;quot;, &amp;quot;Segoe UI&amp;quot;, sans-serif; font-size: 13px;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(204, 204, 204), rgb(255, 255, 255));&quot;&gt;7. can move/replays commits&amp;nbsp;&lt;span&gt;sequentially&lt;/span&gt;&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Segoe WPC&amp;quot;, &amp;quot;Segoe UI&amp;quot;, sans-serif; font-size: 13px;&quot;&gt;on top the &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Segoe WPC&amp;quot;, &amp;quot;Segoe UI&amp;quot;, sans-serif; font-size: 13px;&quot;&gt;target branch, rewriting them with new hashes for the same changes.&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;dashed=1;align=left;" vertex="1" parent="224">
+                <mxCell id="423" value="&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Segoe WPC&amp;quot;, &amp;quot;Segoe UI&amp;quot;, sans-serif; font-size: 13px;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(204, 204, 204), rgb(255, 255, 255));&quot;&gt;7. can move/replays commits&amp;nbsp;&lt;span&gt;sequentially&lt;/span&gt;&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Segoe WPC&amp;quot;, &amp;quot;Segoe UI&amp;quot;, sans-serif; font-size: 13px;&quot;&gt;on top of the &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Segoe WPC&amp;quot;, &amp;quot;Segoe UI&amp;quot;, sans-serif; font-size: 13px;&quot;&gt;target branch, rewriting them with new hashes for the same changes.&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;dashed=1;align=left;" vertex="1" parent="224">
                     <mxGeometry y="320" width="285" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="207" style="html=1;exitX=1.003;exitY=0.15;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;exitPerimeter=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="195" target="389" edge="1">
@@ -371,7 +383,7 @@
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="195" value="push changes/commits" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;rounded=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
-                    <mxGeometry x="-45" y="-80" width="170" height="210" as="geometry">
+                    <mxGeometry x="-45" y="-80" width="170" height="270" as="geometry">
                         <mxRectangle x="65" y="200" width="180" height="40" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
@@ -381,14 +393,17 @@
                 <mxCell id="205" value="2. we can either push full dir or even sub-dir of our mono-repo" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="195" vertex="1">
                     <mxGeometry y="110" width="170" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="270" value="3. push specific commits or specific numbers of commits only" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="195" vertex="1">
+                <mxCell id="270" value="3. push specific commits or specific numbers of commits only" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="195" vertex="1">
                     <mxGeometry y="160" width="170" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="428" value="4. update all branch of remote-repo branches with their corresponding LRTB" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="195">
+                    <mxGeometry y="210" width="170" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="371" style="html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;flowAnimation=1;edgeStyle=orthogonalEdgeStyle;" parent="1" source="365" target="274" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="365" value="pull commits" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;rounded=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
-                    <mxGeometry x="140" y="50" width="170" height="180" as="geometry">
+                    <mxGeometry x="140" y="20" width="170" height="180" as="geometry">
                         <mxRectangle x="-240" y="-4" width="180" height="40" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
@@ -562,24 +577,24 @@
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="190" value="branches" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;rounded=1;fillColor=#fa6800;fontColor=light-dark(#000000,#FFFFFF);strokeColor=#C73500;arcSize=22;" parent="1" vertex="1">
-                    <mxGeometry x="60" y="360" width="185" height="270" as="geometry">
+                    <mxGeometry x="40" y="360" width="205" height="270" as="geometry">
                         <mxRectangle x="80" y="420" width="100" height="40" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="191" value="1. create branches with full dir or with sub-dir or even from any specific commit" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="190" vertex="1">
-                    <mxGeometry y="40" width="185" height="50" as="geometry"/>
+                    <mxGeometry y="40" width="205" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="192" value="2. switches branches" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;dashed=1;" parent="190" vertex="1">
-                    <mxGeometry y="90" width="185" height="30" as="geometry"/>
+                    <mxGeometry y="90" width="205" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="231" value="3. view currrent-branch or all branches or specifically remote or local branches" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;dashed=1;" parent="190" vertex="1">
-                    <mxGeometry y="120" width="185" height="60" as="geometry"/>
+                    <mxGeometry y="120" width="205" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="193" value="4. view and change the defualt remote branch that the local branch is tracking" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;dashed=1;" parent="190" vertex="1">
-                    <mxGeometry y="180" width="185" height="50" as="geometry"/>
+                <mxCell id="193" value="4. view and change the defualt upstream&lt;sup&gt;2&lt;/sup&gt;&amp;nbsp;for any local branch" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;dashed=1;" parent="190" vertex="1">
+                    <mxGeometry y="180" width="205" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="296" value="&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;5. remove/delete and rename remote repo or branches&lt;/font&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;dashed=1;" parent="190" vertex="1">
-                    <mxGeometry y="230" width="185" height="40" as="geometry"/>
+                <mxCell id="296" value="&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;5. remove/delete and rename remote repo or branches&lt;sup&gt;1&lt;/sup&gt;&lt;/font&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;dashed=1;" parent="190" vertex="1">
+                    <mxGeometry y="230" width="205" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="281" value="legends" style="swimlane;strokeColor=#314354;fillColor=#647687;fontColor=#ffffff;fontFamily=Comic Sans MS;rounded=1;" parent="1" vertex="1">
                     <mxGeometry x="30" y="-250" width="410" height="90" as="geometry"/>
@@ -612,10 +627,10 @@
                     <mxGeometry x="55" width="50" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="401" value="Glossary" style="swimlane;strokeColor=#314354;fillColor=#647687;fontColor=#ffffff;fontFamily=Comic Sans MS;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="510" y="-310" width="437.5" height="160" as="geometry"/>
+                    <mxGeometry x="530" y="-360" width="437.5" height="160" as="geometry"/>
                 </mxCell>
                 <mxCell id="411" value="&lt;ol&gt;&lt;li&gt;&lt;b&gt;Branches&lt;/b&gt; = local and remote branches&lt;/li&gt;&lt;li&gt;&lt;b&gt;Upstream&lt;/b&gt;&amp;nbsp;= default remote-tracking branch for a local branch.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Path = &lt;/b&gt;can be files or folders&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="401">
-                    <mxGeometry x="-15" y="20" width="445" height="100" as="geometry"/>
+                    <mxGeometry x="-20" y="10" width="445" height="100" as="geometry"/>
                 </mxCell>
                 <mxCell id="369" style="html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.021;entryY=0.145;entryDx=0;entryDy=0;flowAnimation=1;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="389" target="365" edge="1">
                     <mxGeometry relative="1" as="geometry"/>

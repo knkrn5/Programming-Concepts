@@ -1,5 +1,7 @@
 # **Git Concepts**
 
+> **Git is a distributed version control system.**
+
 ```sh
 git config --local --list #This reads from .git/config in your current repo
 git config --global --list #This reads from ~/.gitconfig (your home directory)
