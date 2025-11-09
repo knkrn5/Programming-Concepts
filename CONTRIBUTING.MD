@@ -1,7 +1,7 @@
 # Contributing to Programming Concepts
 
 First off, thank you for considering contributing to this project! Your help is greatly appreciated.
-> We accept on of concept explanator rather than syntax
+> We accept more of concept explanation rather than syntax
 
 ## How to Contribute
 
