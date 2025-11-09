@@ -1,5 +1,7 @@
 # **Server Side Events**
 
+![sse-diagram](./realTimeEvents-assests/sse.svg)
+
 ## **🎯SSE 🆚 WebSocket**
 
 | Feature                  | SSE (Server-Sent Events)  | WebSockets                              |
