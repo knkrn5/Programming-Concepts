@@ -1,6 +1,7 @@
 # Contributing to Programming Concepts
 
 First off, thank you for considering contributing to this project! Your help is greatly appreciated.
+> We accept on of concept explanator rather than syntax
 
 ## How to Contribute
 
@@ -16,8 +17,7 @@ To maintain a consistent structure, please follow these guidelines when adding n
 
 - **Folder Structure:** Create a new folder for the concept at the root of the project. The folder name should be in `lowercase-with-dashes` if it's a multi-word concept.
 - **Markdown File:** Inside the concept folder, create a `README.md` or a similarly named markdown file (e.g., `concept-name.md`) with a detailed explanation of the concept.
-- **Images:** If you have any images, diagrams, or flowcharts, please add them to an `imgs` folder inside the concept folder.
-- **Code Examples:** If you have any code examples, please add them to a folder named after the programming language (e.g., `js`, `py`, `java`) inside the concept folder.
+- **SVG:** Used drawio extension to create the flow chart and export that as svg.
 
 ## Pull Request Process
 
