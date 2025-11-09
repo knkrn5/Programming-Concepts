@@ -1,14 +1,16 @@
-# **_🧑‍💻PROGRAMMING CONCEPT👩‍💻_**
+# **_🧑‍💻CONCEPTS👩‍💻_**
 
-## ⭐The key to mastering any programming language is knowing how to work with data — understanding Type-checking, transforming, and manipulating( serializing, Parsing (De-serializing)) all types of data structures like **_(Primitive, Non-primitive and User-defined/abstract Datatypes)⭐_**
+![Concept Understanding](./assets/concept.svg)
 
-> ### **Practical Learning >>>>> Theoritical Learning**
+---
 
-### **[🔗DataTypes](./⭐programming-langs/datatypes.md)**
+![Programming](./⭐programming-langs/programming.svg)
 
 > ## **Language-Agnostic Thinking: -** _`Knowing the concept is more important than knowing the Syntax`_
 
-### **[🔗 Types of Programming Langs](./⭐programming-langs/typesofprogramminglangs.md)**
+### **[🔗DataTypes](./⭐programming-langs/datatypes.md)**
+
+## **[🔗 Types of Programming Langs](./⭐programming-langs/typesofprogramminglangs.md)**
 
 ---
 
