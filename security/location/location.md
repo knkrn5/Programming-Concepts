@@ -2,4 +2,4 @@
 
 ## **IP based Location**
 
-![Location](./location.svg)
+![Location](./ip-based-location.svg)
