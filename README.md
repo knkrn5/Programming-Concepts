@@ -2,11 +2,9 @@
 
 ![Concept Understanding](./assets/concept.svg)
 
----
+## **Core Tech Understanding**
 
-![Programming](./⭐programming-langs/programming.svg)
-
-> ## **Language-Agnostic Thinking: -** _`Knowing the concept is more important than knowing the Syntax`_
+![Programming](./core/programming.svg)
 
 ### **[🔗DataTypes](./⭐programming-langs/datatypes.md)**
 
