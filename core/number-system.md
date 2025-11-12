@@ -2,6 +2,7 @@
 
 ## It's the range of values one byte can hold: -
 - When we say a number system has a certain base, that’s the number of unique symbols (digits) it uses.
+- the higer the number of bit the higher uniquie memory addresses it can create, thus more memory we can store/access.
 
 ### What is a byte?
 
