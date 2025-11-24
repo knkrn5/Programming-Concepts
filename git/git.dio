@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="JTQEZqj_6--ISPUHX7xe" name="Page-1">
-        <mxGraphModel dx="1964" dy="1904" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1244" dy="1396" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -33,7 +33,7 @@
                 <mxCell id="5" value="&lt;b&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;Untracked files&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
                     <mxGeometry x="320" y="640" width="80" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="13" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" target="14" edge="1" source="448">
+                <mxCell id="13" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="448" target="14" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="540" y="740" as="targetPoint"/>
                         <mxPoint x="442.49999999999955" y="912.0000000000005" as="sourcePoint"/>
@@ -58,7 +58,7 @@
                         <mxPoint x="-1" y="11" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="39" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" target="41" edge="1" source="448">
+                <mxCell id="39" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="448" target="41" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="210" y="830" as="targetPoint"/>
                         <mxPoint x="272.5" y="912.0000000000005" as="sourcePoint"/>
@@ -179,31 +179,28 @@
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="86" value="remove files" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;rounded=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
-                    <mxGeometry x="-10" y="1080" width="170" height="164" as="geometry"/>
+                    <mxGeometry x="-10" y="1080" width="170" height="140" as="geometry"/>
                 </mxCell>
                 <mxCell id="426" value="1. view all folders/files or files from specific folder from any branches&lt;sup&gt;1&lt;/sup&gt; that git is tracking" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="86" vertex="1">
                     <mxGeometry y="26" width="170" height="54" as="geometry"/>
                 </mxCell>
-                <mxCell id="87" value="2. then only remove file from git tracking" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="86" vertex="1">
-                    <mxGeometry y="80" width="170" height="44" as="geometry"/>
-                </mxCell>
-                <mxCell id="88" value="3. Delete file from both git and local" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;dashed=1;" parent="86" vertex="1">
-                    <mxGeometry y="124" width="170" height="40" as="geometry"/>
+                <mxCell id="87" value="2. then remove files/folders either from git tracking or from both git and local" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="86" vertex="1">
+                    <mxGeometry y="80" width="170" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="353" value="delete files" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;rounded=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
-                    <mxGeometry x="-200" y="887.5" width="160" height="190" as="geometry"/>
+                    <mxGeometry x="-200" y="890" width="180" height="190" as="geometry"/>
                 </mxCell>
                 <mxCell id="354" value="1. view what files will be deleted" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="353" vertex="1">
-                    <mxGeometry y="26" width="160" height="44" as="geometry"/>
+                    <mxGeometry y="26" width="180" height="44" as="geometry"/>
                 </mxCell>
-                <mxCell id="355" value="2.&amp;nbsp;Delete untracked files + directories" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="353" vertex="1">
-                    <mxGeometry y="70" width="160" height="40" as="geometry"/>
+                <mxCell id="355" value="2.&amp;nbsp;Delete all or specific untracked files + directories" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="353" vertex="1">
+                    <mxGeometry y="70" width="180" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="358" value="3.&amp;nbsp;Delete all untracked + ignored files" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;dashed=1;" parent="353" vertex="1">
-                    <mxGeometry y="110" width="160" height="40" as="geometry"/>
+                    <mxGeometry y="110" width="180" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="359" value="4. Delete &lt;em data-end=&quot;2427&quot; data-start=&quot;2415&quot;&gt;everything&lt;/em&gt; not tracked" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;dashed=1;" parent="353" vertex="1">
-                    <mxGeometry y="150" width="160" height="40" as="geometry"/>
+                    <mxGeometry y="150" width="180" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="412" value="cherry pick" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;rounded=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
                     <mxGeometry x="-320" y="-140" width="240" height="250" as="geometry">
@@ -609,24 +606,27 @@
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="190" value="branches" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;rounded=1;fillColor=#fa6800;fontColor=light-dark(#000000,#FFFFFF);strokeColor=#C73500;arcSize=22;" parent="1" vertex="1">
-                    <mxGeometry x="40" y="360" width="205" height="270" as="geometry">
+                    <mxGeometry x="40" y="360" width="205" height="320" as="geometry">
                         <mxRectangle x="80" y="420" width="100" height="40" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="191" value="1. create branches with full dir or with sub-dir or even from any specific commit" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="190" vertex="1">
+                <mxCell id="191" value="1. create branches with full dir or with sub-dir or even from any specific commit" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="190" vertex="1">
                     <mxGeometry y="40" width="205" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="192" value="2. switches branches" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;dashed=1;" parent="190" vertex="1">
-                    <mxGeometry y="90" width="205" height="30" as="geometry"/>
+                <mxCell id="449" value="2. Can c&lt;span style=&quot;font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 14px;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(240, 246, 252), rgb(255, 255, 255));&quot;&gt;reates a new branch with NO commit history&lt;/font&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="190">
+                    <mxGeometry y="90" width="205" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="231" value="3. view currrent-branch or all branches or specifically remote or local branches" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;dashed=1;" parent="190" vertex="1">
-                    <mxGeometry y="120" width="205" height="60" as="geometry"/>
+                <mxCell id="192" value="3. switches branches" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;dashed=1;" parent="190" vertex="1">
+                    <mxGeometry y="140" width="205" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="193" value="4. view and change the defualt upstream&lt;sup&gt;2&lt;/sup&gt;&amp;nbsp;for any local branch" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;dashed=1;" parent="190" vertex="1">
-                    <mxGeometry y="180" width="205" height="50" as="geometry"/>
+                <mxCell id="231" value="4. view currrent-branch or all branches or specifically remote or local branches" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;dashed=1;" parent="190" vertex="1">
+                    <mxGeometry y="170" width="205" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="296" value="&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;5. remove/delete and rename local branches&lt;/font&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;dashed=1;" parent="190" vertex="1">
-                    <mxGeometry y="230" width="205" height="40" as="geometry"/>
+                <mxCell id="193" value="5. view and change the defualt upstream&lt;sup&gt;2&lt;/sup&gt;&amp;nbsp;for any local branch" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;dashed=1;" parent="190" vertex="1">
+                    <mxGeometry y="230" width="205" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="296" value="&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;6. remove/delete and rename local branches&lt;/font&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;dashed=1;" parent="190" vertex="1">
+                    <mxGeometry y="280" width="205" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="281" value="legends" style="swimlane;strokeColor=#314354;fillColor=#647687;fontColor=#ffffff;fontFamily=Comic Sans MS;rounded=1;" parent="1" vertex="1">
                     <mxGeometry x="30" y="-250" width="410" height="90" as="geometry"/>
@@ -668,22 +668,16 @@
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="298" value="fetch" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;rounded=1;" parent="1" vertex="1">
-                    <mxGeometry x="565" y="-20" width="210" height="316" as="geometry"/>
+                    <mxGeometry x="565" y="-20" width="210" height="220" as="geometry"/>
                 </mxCell>
-                <mxCell id="375" value="1. fetch from specific remote branch (defualt&amp;nbsp;&lt;span style=&quot;white-space-collapse: preserve; background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(192, 192, 192), rgb(255, 255, 255));&quot;&gt;fetches all branches from the default remote (usually origin)&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;)&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="298" vertex="1">
-                    <mxGeometry y="26" width="210" height="60" as="geometry"/>
+                <mxCell id="375" value="1. fetch from specific remote branch or from all remote branches togather (defualt&amp;nbsp;&lt;span style=&quot;white-space-collapse: preserve; background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(192, 192, 192), rgb(255, 255, 255));&quot;&gt;fetches all branches from the default remote (usually origin)&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;)&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="298" vertex="1">
+                    <mxGeometry y="26" width="210" height="74" as="geometry"/>
                 </mxCell>
-                <mxCell id="300" value="2. fetch from all the remote repo branches" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="298" vertex="1">
-                    <mxGeometry y="86" width="210" height="40" as="geometry"/>
+                <mxCell id="376" value="2. update local remote-tracking branch with remote repo and remove the stale commit that does not exist on remote repo" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="298" vertex="1">
+                    <mxGeometry y="100" width="210" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="302" value="3. update local remote-tracking branch with remote repo and remove the stale commit that does not exist on remote repo" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="298" vertex="1">
-                    <mxGeometry y="126" width="210" height="70" as="geometry"/>
-                </mxCell>
-                <mxCell id="376" value="3. update local remote-tracking branch with remote repo and remove the stale commit that does not exist on remote repo" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="298" vertex="1">
-                    <mxGeometry y="196" width="210" height="70" as="geometry"/>
-                </mxCell>
-                <mxCell id="305" value="4. fetch commits from remote branch and update refs of any specific local branch" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="298" vertex="1">
-                    <mxGeometry y="266" width="210" height="50" as="geometry"/>
+                <mxCell id="305" value="3. fetch commits from remote branch and update refs of any specific local branch" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="298" vertex="1">
+                    <mxGeometry y="170" width="210" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="311" style="html=1;exitX=0.007;exitY=0.098;exitDx=0;exitDy=0;flowAnimation=1;exitPerimeter=0;entryX=1.001;entryY=0.082;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="190" target="237" edge="1">
                     <mxGeometry relative="1" as="geometry">
