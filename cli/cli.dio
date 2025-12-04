@@ -1,0 +1,47 @@
+<mxfile host="65bd71144e">
+    <diagram id="SHC1BOo9RswBZo-zDrG_" name="Page-1">
+        <mxGraphModel dx="932" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="5" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="345.5" y="230" width="69" height="69" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="5">
+                    <mxGeometry width="69" height="69" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="" style="editableCssRules=.*;html=1;shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnY9Imh0dHBzOi8vdmVjdGEuaW8vbmFubyIgd2lkdGg9IjM3NS44NTAyODQ2NDQwODg3MyIgaGVpZ2h0PSIzNTMuODA1Nzc3NDY3NzY5NyIgdmlld0JveD0iMC4yNTU5OTk1NjUxMjQ1MTE3IDAuNDI2MDAwMDI4ODQ4NjQ4MDcgOTkuNDQzNjU2OTIxMzg2NzIgOTMuNjExMDAwMDYxMDM1MTYiPiYjeGE7PHN0eWxlIHR5cGU9InRleHQvY3NzIj4mI3hhOwkuc3Qwe2ZpbGw6I2FlY2JmYTt9JiN4YTsJLnN0MXtmaWxsOiNmZmY7fSYjeGE7CS5zdDJ7ZmlsbDojNDI4NWY0O30mI3hhOwkuc3Qze2ZpbGw6IzY2OWRmNjt9JiN4YTs8L3N0eWxlPiYjeGE7CTxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik04LjU0NCA3MS45MjhjLTQuODE1IDAtOC4yODgtMy44ODktOC4yODgtOC4zMjdWNy45ODNDLjI1NyA0LjY1IDQuMDcyLjQyNiA3LjQ5NS40MjZoODMuOTUyYzQuNzA1IDAgOC4yNTIgMy4zNzkgOC4yNTIgOC4xNzR2NTEuNDk1Yy4wNDcgNy41OTUtMi40NyAxMS44MzQtOS4wMTIgMTEuODM0eiIvPiYjeGE7CTxwYXRoIGNsYXNzPSJzdDEiIGQ9Ik0yOC4wNDYgNTcuMTV2LTkuOTIybDMxLjg4Mi0xMy44OTEtMzEuODgyLTEzLjY5MlY5LjI2MWw0NS44MDYgMTguOTg0djkuNzl6bTI1LjIzNSAzLjY3MXYtMTAuNTVoMjAuMDc1djEwLjU1eiIvPiYjeGE7CTxwYXRoIGNsYXNzPSJzdDIiIGQ9Ik00MC4wMyA4My41MjRWNzEuOTI4aDIwLjI5NXYxMS41OTZ6Ii8+JiN4YTsJPHBhdGggY2xhc3M9InN0MyIgZD0iTTY5Ljg3MyA4My41MjR2MTAuNTEzSDMwLjFWODMuNTI0eiIvPiYjeGE7PC9zdmc+;" vertex="1" parent="5">
+                    <mxGeometry x="14.5" y="15.5" width="40" height="38" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" edge="1" parent="1" source="7" target="9">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="270" y="490" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="11" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" edge="1" parent="1" source="7" target="10">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="executable&lt;div&gt;&amp;nbsp;file&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="340" y="380" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" edge="1" parent="1" source="4" target="7">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="379.939393939394" y="370" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9" value="Binary executable" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="510" width="110" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="scipts executable" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="420" y="510" width="110" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;b&gt;whenever we run any cli cmd,&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;div style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30); text-wrap-mode: nowrap;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;b&gt;&amp;nbsp;the first word in full cli cmd sentence will&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30); text-wrap-mode: nowrap;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;b&gt;&lt;font style=&quot;&quot;&gt;alway be a binary executable file&lt;/font&gt;,&lt;span style=&quot;background-color: transparent;&quot;&gt;and any&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;words&lt;/span&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30); text-wrap-mode: nowrap;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;b&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&amp;nbsp;after the first&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;word will always be flags,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;arguments&amp;nbsp;&lt;/span&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30); text-wrap-mode: nowrap; color: rgb(192, 192, 192);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;b&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;or any&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;text, these flag, arguments and&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;text are handle&amp;nbsp;&lt;/span&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30); text-wrap-mode: nowrap; color: rgb(192, 192, 192);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;b&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;by any&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;execuable file(binary or script) based on how&lt;/span&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30); text-wrap-mode: nowrap; color: rgb(192, 192, 192);&quot;&gt;&lt;b&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;the code in&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;written in&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;executable file to handle&amp;nbsp;&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30); text-wrap-mode: nowrap; color: rgb(192, 192, 192);&quot;&gt;&lt;b&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;all the flags&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&amp;nbsp;and arguments&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;" vertex="1" parent="1">
+                    <mxGeometry x="220" width="320" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;flowAnimation=1;" edge="1" parent="1" source="4" target="13">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
