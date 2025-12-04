@@ -1,9 +1,7 @@
-# Core Technical Fundamentals
+# **Core Technical Fundamentals**
 
-## **[🔗 Number System](./core-concepts/number-system/number-system.md)**
+## **[🔗 Number System](./number-system/number-system.md)**
 
-## **Code Execution Via CPU**
+## **[🔗 Code Compilation/Execution](./code-compilation/cc.md)**
 
 ## **Performance Impact**
-
-## **Runtime vs Compile-time**
