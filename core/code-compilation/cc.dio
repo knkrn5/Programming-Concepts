@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="JYpJkjEA8CzMzi58WEsc" name="Page-1">
-        <mxGraphModel dx="1484" dy="1550" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1840" dy="1804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -117,19 +117,16 @@
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="38" value="doubts" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-                    <mxGeometry x="-28" y="1060" width="420" height="70" as="geometry"/>
+                    <mxGeometry x="30" y="1150" width="420" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="39" value="if c++ code is complied in machine with is same for all machine 0 and 1, then why it c++ not a platform independent" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="38" vertex="1">
+                <mxCell id="39" value="1." style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="38" vertex="1">
                     <mxGeometry y="30" width="420" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="42" value="info" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-                    <mxGeometry x="520" y="1060" width="420" height="130" as="geometry"/>
-                </mxCell>
-                <mxCell id="43" value="&lt;span style=&quot;font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe WPC&amp;quot;, &amp;quot;Segoe UI&amp;quot;, system-ui, Ubuntu, &amp;quot;Droid Sans&amp;quot;, sans-serif; font-size: 14px;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(204, 204, 204), rgb(255, 255, 255));&quot;&gt;Machine Code for a specific CPU architecture (like x86-64 for most laptops or ARM for smartphones).&lt;/font&gt;&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="42" vertex="1">
-                    <mxGeometry y="30" width="420" height="40" as="geometry"/>
+                    <mxGeometry x="520" y="1060" width="420" height="90" as="geometry"/>
                 </mxCell>
                 <mxCell id="50" value="&lt;h3 style=&quot;margin-top: 24px; margin-bottom: 16px; line-height: 1.25; font-size: 1.25em; position: relative; font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe WPC&amp;quot;, &amp;quot;Segoe UI&amp;quot;, system-ui, Ubuntu, &amp;quot;Droid Sans&amp;quot;, sans-serif;&quot; id=&quot;1-compilation-implicit-vs-explicit&quot; dir=&quot;auto&quot; class=&quot;code-line&quot; data-line=&quot;80&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(204, 204, 204), rgb(255, 255, 255));&quot;&gt;Compilation: Implicit vs. Explicit&lt;/font&gt;&lt;/h3&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="42" vertex="1">
-                    <mxGeometry y="70" width="420" height="60" as="geometry"/>
+                    <mxGeometry y="30" width="420" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="45" value="Compile to binary????" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="-200" y="850" width="120" height="60" as="geometry"/>
