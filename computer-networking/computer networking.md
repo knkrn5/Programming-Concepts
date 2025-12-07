@@ -32,3 +32,5 @@
 ## **Wi-Fi(wireless fidelity)**
 
 - **Wireless Mediums**
+
+## **SSL certificate** : - used to secure the data transfer between the user and the website by encrypting the data.
