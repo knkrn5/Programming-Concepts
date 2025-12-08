@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="Co-Q0QXcJ3ngaE_6WtHN" name="Page-1">
-        <mxGraphModel dx="2392" dy="3066" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1963" dy="2826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -14,7 +14,7 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="197" style="edgeStyle=none;html=1;exitX=0.521;exitY=0.175;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitPerimeter=0;flowAnimation=1;" parent="1" source="183" target="196" edge="1">
+                <mxCell id="197" style="edgeStyle=none;html=1;exitX=0.521;exitY=0.175;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitPerimeter=0;flowAnimation=1;strokeWidth=10;" parent="1" source="183" target="196" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="-170" y="460" as="targetPoint"/>
                     </mxGeometry>
@@ -43,7 +43,7 @@
                 <mxCell id="253" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;The 4 bit is not used practically, &lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;because in 4 bit we can only have 15&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;byte combinations, which is very &lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;impractical for any use-case&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="252" vertex="1">
                     <mxGeometry y="30" width="290" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="58" style="edgeStyle=none;html=1;exitX=0.5;exitY=0.815;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;exitPerimeter=0;" parent="1" source="183" target="249" edge="1">
+                <mxCell id="58" style="edgeStyle=none;html=1;exitX=0.5;exitY=0.815;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;exitPerimeter=0;strokeWidth=10;" parent="1" source="183" target="249" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="173.99999999999977" y="570" as="sourcePoint"/>
                         <mxPoint x="295" y="670" as="targetPoint"/>
@@ -122,7 +122,7 @@
                     <mxGeometry y="40" width="350" height="160" as="geometry"/>
                 </mxCell>
                 <mxCell id="162" value="character encoding" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;" parent="1" vertex="1">
-                    <mxGeometry x="960" y="710" width="270" height="190" as="geometry">
+                    <mxGeometry x="960" y="710" width="270" height="230" as="geometry">
                         <mxRectangle x="50" y="420" width="110" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
@@ -132,11 +132,11 @@
                 <mxCell id="164" value="&lt;div style=&quot;line-height: 19px; text-wrap-mode: nowrap;&quot;&gt;2.&amp;nbsp;Latin-1 (ISO 8859-1): - Extended version of&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;line-height: 19px; text-wrap-mode: nowrap;&quot;&gt;ASCII with 8bit&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="162" vertex="1">
                     <mxGeometry y="70" width="270" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="165" value="&lt;div style=&quot;line-height: 19px; text-wrap-mode: nowrap;&quot;&gt;3. UTF-8: - Including all&amp;nbsp;&lt;span style=&quot;font-family: &amp;quot;Segoe WPC&amp;quot;, &amp;quot;Segoe UI&amp;quot;, sans-serif; font-size: 13px; text-wrap-mode: wrap;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(204, 204, 204), rgb(255, 255, 255));&quot;&gt;all Latin and other characters using multiple(one to four) bytes.&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="162" vertex="1">
-                    <mxGeometry y="110" width="270" height="50" as="geometry"/>
+                <mxCell id="165" value="&lt;div style=&quot;line-height: 19px; text-wrap-mode: nowrap;&quot;&gt;3. UTF-8: - Including all ASCII &amp;amp;&lt;span style=&quot;font-family: &amp;quot;Segoe WPC&amp;quot;, &amp;quot;Segoe UI&amp;quot;, sans-serif; font-size: 13px; text-wrap-mode: wrap;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(204, 204, 204), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;Latin and other characters using multiple(one to four) bytes. uses total 8-bit, but first few words act as header in UTF-8 encoding&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="162" vertex="1">
+                    <mxGeometry y="110" width="270" height="90" as="geometry"/>
                 </mxCell>
                 <mxCell id="121" value="&lt;div style=&quot;text-align: center; line-height: 19px; text-wrap-mode: nowrap;&quot;&gt;85 when encoded via UTF-8 is &#39;U&#39;&lt;/div&gt;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="162" vertex="1">
-                    <mxGeometry y="160" width="270" height="30" as="geometry"/>
+                    <mxGeometry y="200" width="270" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="291" value="character mapping" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;" vertex="1" parent="1">
                     <mxGeometry x="-380" y="710" width="270" height="120" as="geometry">
@@ -162,19 +162,27 @@
                 <mxCell id="316" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Eg: - 8bit(digit) binary = 01010101&lt;/font&gt;&lt;/div&gt;" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="300">
                     <mxGeometry y="160" width="301" height="40" as="geometry"/>
                 </mxCell>
+                <mxCell id="326" style="edgeStyle=none;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="276" target="327">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="910" y="1890" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
                 <mxCell id="276" value="bit pattern encoder/decoder" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;" vertex="1" parent="1">
-                    <mxGeometry x="410" y="1825" width="300" height="200" as="geometry">
+                    <mxGeometry x="410" y="1820" width="330" height="260" as="geometry">
                         <mxRectangle x="50" y="420" width="110" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="277" value="&lt;div style=&quot;line-height: 19px; text-wrap-mode: nowrap;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;1.Unit8Array: - textDecoder analyzes byte Header&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 19px; text-wrap-mode: nowrap;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: rgb(192, 192, 192);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(192, 192, 192), rgb(255, 255, 255));&quot;&gt;to group the&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(192, 192, 192); background-color: transparent;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: rgb(192, 192, 192);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(192, 192, 192), rgb(255, 255, 255));&quot;&gt;bytes togather&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(192, 192, 192); background-color: transparent;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(192, 192, 192), rgb(255, 255, 255));&quot;&gt;for decoding&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="276">
-                    <mxGeometry y="30" width="300" height="50" as="geometry"/>
+                <mxCell id="277" value="&lt;div style=&quot;line-height: 19px; text-wrap-mode: nowrap;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;1. That means that even in the simple 8bit character the&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 19px; text-wrap-mode: nowrap;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;MSB act as the header that represent signed or unsigned&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 19px; text-wrap-mode: nowrap;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;character&lt;/font&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="276">
+                    <mxGeometry y="30" width="330" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="325" value="&lt;div style=&quot;line-height: 19px; text-wrap-mode: nowrap;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;1.Unit8Array: - textDecoder analyzes byte Header&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 19px; text-wrap-mode: nowrap;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: rgb(192, 192, 192);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(192, 192, 192), rgb(255, 255, 255));&quot;&gt;to group the&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(192, 192, 192); background-color: transparent;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: rgb(192, 192, 192);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(192, 192, 192), rgb(255, 255, 255));&quot;&gt;bytes togather&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(192, 192, 192); background-color: transparent;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(192, 192, 192), rgb(255, 255, 255));&quot;&gt;for decoding&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="276">
+                    <mxGeometry y="90" width="330" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="317" value="&lt;div style=&quot;line-height: 19px; text-wrap-mode: nowrap;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;2. Base32/64: - these have fixed bit reqiurement&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 19px; text-wrap-mode: nowrap;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;to&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;encode/decode the text&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="276">
-                    <mxGeometry y="80" width="300" height="50" as="geometry"/>
+                    <mxGeometry y="140" width="330" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="318" value="&lt;div style=&quot;line-height: 19px; text-wrap-mode: nowrap;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;3. endianness: - computer use BOM(Byte order mark)&lt;br&gt;to know the type of endian it has to use to decode&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 19px; text-wrap-mode: nowrap;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;any data&lt;/font&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="276">
-                    <mxGeometry y="130" width="300" height="70" as="geometry"/>
+                    <mxGeometry y="190" width="330" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="207" value="&lt;b&gt;WHY&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
                     <mxGeometry x="-230" y="1630" width="270" height="110" as="geometry">
@@ -257,7 +265,7 @@
                     <mxGeometry y="150" width="288" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="151" value="Binary(Base 2)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
-                    <mxGeometry x="-630" y="1195" width="288" height="160" as="geometry">
+                    <mxGeometry x="-610" y="1135" width="288" height="160" as="geometry">
                         <mxRectangle x="-588" y="1180" width="110" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
@@ -541,6 +549,38 @@
                 </mxCell>
                 <mxCell id="320" value="Because computer data is organized in 8-bit bytes →&amp;nbsp;&lt;div&gt;when encoding using any base-2ⁿ format,&amp;nbsp;&lt;/div&gt;&lt;div&gt;the required bit grouping (n) determines the&amp;nbsp;&lt;/div&gt;&lt;div&gt;smallest block size where input bytes (8 bits) and&amp;nbsp;&lt;/div&gt;&lt;div&gt;output characters (n bits) align perfectly, which&amp;nbsp;&lt;/div&gt;&lt;div&gt;is LCM(8, n).&quot;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
                     <mxGeometry x="535" y="2653" width="310" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="324" value="minimum 8 bit" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="920" y="2668" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="327" value="ultimately all endoing and decoding are done in binary/bit format only" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="930" y="1880" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="333" value="any bases&lt;div&gt;can be convert&lt;/div&gt;&lt;div&gt;to its mapped&lt;/div&gt;&lt;div&gt;character, using different&lt;/div&gt;&lt;div&gt;encoding format&lt;/div&gt;" style="html=1;labelBackgroundColor=#ffffff;jettySize=auto;orthogonalLoop=1;fontSize=14;rounded=0;jumpStyle=gap;edgeStyle=orthogonalEdgeStyle;startArrow=none;endArrow=block;strokeWidth=15;endFill=1;curved=1;entryX=0.003;entryY=0.123;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.001;exitY=0.126;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#1ba1e2;strokeColor=#006EAF;flowAnimation=1;" edge="1" parent="1" source="151" target="291">
+                    <mxGeometry x="-0.056" y="-10" width="48" height="48" relative="1" as="geometry">
+                        <mxPoint x="-880" y="1268" as="sourcePoint"/>
+                        <mxPoint x="-620" y="740" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="-730" y="1155"/>
+                            <mxPoint x="-730" y="725"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="334" value="" style="html=1;labelBackgroundColor=#ffffff;jettySize=auto;orthogonalLoop=1;fontSize=14;rounded=0;jumpStyle=gap;startArrow=none;endArrow=block;strokeWidth=15;endFill=1;exitX=1.003;exitY=0.071;exitDx=0;exitDy=0;fillColor=#1ba1e2;strokeColor=#006EAF;exitPerimeter=0;flowAnimation=1;entryX=0.995;entryY=0.065;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="1" source="162" target="168">
+                    <mxGeometry width="48" height="48" relative="1" as="geometry">
+                        <mxPoint x="1500" y="1150" as="sourcePoint"/>
+                        <mxPoint x="1710" y="1030" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1770" y="726"/>
+                            <mxPoint x="1770" y="1184"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="335" value="a character&lt;div&gt;can be converted&amp;nbsp;&lt;/div&gt;&lt;div&gt;to any bases&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="334">
+                    <mxGeometry x="0.1602" y="-35" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
                 </mxCell>
             </root>
         </mxGraphModel>
