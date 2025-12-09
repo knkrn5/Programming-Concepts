@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="YwGT1-Ot-sYUl8RTLkUt" name="Page-1">
-        <mxGraphModel dx="1345" dy="1452" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1487" dy="1590" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -73,13 +73,13 @@
                 <mxCell id="24" value="3. Built-in status" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="21" vertex="1">
                     <mxGeometry y="90" width="180" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="43" value="Other factors" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+                <mxCell id="43" value="Other factors" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
                     <mxGeometry x="280" y="610" width="180" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="44" value="1. senematic like in py" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="43">
+                <mxCell id="44" value="1. senematic like in py" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="43" vertex="1">
                     <mxGeometry y="30" width="180" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="42" style="edgeStyle=none;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="31" target="5">
+                <mxCell id="42" style="edgeStyle=none;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" parent="1" source="31" target="5" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="550" y="-80" as="targetPoint"/>
                         <Array as="points">
@@ -105,7 +105,7 @@
                     <mxGeometry y="120" width="220" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="25" value="doubts" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-                    <mxGeometry x="760" y="710" width="390" height="130" as="geometry"/>
+                    <mxGeometry x="760" y="710" width="390" height="170" as="geometry"/>
                 </mxCell>
                 <mxCell id="26" value="1. Non-primitive are design to be mutable because create a copy of not primitive every time can be cpu intensive" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="25" vertex="1">
                     <mxGeometry y="30" width="390" height="40" as="geometry"/>
@@ -115,6 +115,9 @@
                 </mxCell>
                 <mxCell id="28" value="3. examples" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="25" vertex="1">
                     <mxGeometry y="100" width="390" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="&lt;strong data-end=&quot;358&quot; data-start=&quot;336&quot;&gt;array-like objects&lt;/strong&gt;, but they do &lt;strong data-end=&quot;410&quot; data-start=&quot;372&quot;&gt;not inherit from &lt;code data-end=&quot;408&quot; data-start=&quot;391&quot;&gt;Array.prototype&lt;/code&gt;&lt;/strong&gt;. like in array u can edit lenght, but in typedarray we cant" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="25">
+                    <mxGeometry y="130" width="390" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="35" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="30" target="31" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
