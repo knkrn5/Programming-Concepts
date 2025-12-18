@@ -1,6 +1,6 @@
 # **Server Side Events**
 
-![sse-diagram](./realTimeEvents-assests/sse.svg)
+![sse-diagram](./sse.svg)
 
 ## **🎯SSE 🆚 WebSocket**
 
