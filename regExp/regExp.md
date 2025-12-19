@@ -26,3 +26,6 @@
 
 - [🔗Regular Expressions in JavaScript](../jsANDts/jslang/regExpinjs.md)
 - [🔗Regular Expressions in Python](../py/pylang/regExppinpy.md)
+
+
+### Uses a regex to match strings starting with 'y', optionally followed by 'es', and ending there (e.g., 'y', 'yes', 'Y', 'Yes').
