@@ -6,6 +6,8 @@
 
 ![Programming](./core/programming.svg)
 
+## **[🔗 Number System](./number-system/number-system.md)**
+
 ### **[🔗DataTypes](./⭐programming-langs/datatypes.md)**
 
 ## **[🔗 Types of Programming Langs](./⭐programming-langs/typesofprogramminglangs.md)**

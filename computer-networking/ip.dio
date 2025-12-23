@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="xQ9zxdjFQaUO4hLd8zcT" name="Page-1">
-        <mxGraphModel dx="1989" dy="1904" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="2029" dy="1762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -17,30 +17,32 @@
                 <mxCell id="9" value="Types of IP&lt;div&gt;addresses&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" parent="1" vertex="1">
                     <mxGeometry x="-40" y="470" width="120" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="36" style="edgeStyle=none;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="32" target="85" edge="1">
+                <mxCell id="36" style="edgeStyle=none;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="141" target="85" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="150" y="110" as="targetPoint"/>
+                        <mxPoint x="130.00000000000023" y="250" as="sourcePoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="37" style="edgeStyle=none;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="32" target="77" edge="1">
+                <mxCell id="37" style="edgeStyle=none;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="141" target="77" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="-100" y="200" as="targetPoint"/>
+                        <mxPoint x="50.00000000000023" y="250" as="sourcePoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="32" value="&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(192, 192, 192), rgb(255, 255, 255));&quot;&gt;IP&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;background-color: transparent; color: rgb(192, 192, 192);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(192, 192, 192), rgb(255, 255, 255));&quot;&gt;addresses&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: rgb(192, 192, 192);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;accessibility&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: rgb(192, 192, 192);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;type&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;" parent="1" vertex="1">
-                    <mxGeometry x="50" y="220" width="160" height="80" as="geometry"/>
-                </mxCell>
-                <mxCell id="91" style="edgeStyle=none;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;flowAnimation=1;" edge="1" parent="1" source="44" target="88">
+                <mxCell id="91" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="44" target="88" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="44" value="&lt;div&gt;&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(192, 192, 192), rgb(255, 255, 255));&quot;&gt;Loopback&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(192, 192, 192), rgb(255, 255, 255));&quot;&gt;IP&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;background-color: transparent; color: rgb(192, 192, 192);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(192, 192, 192), rgb(255, 255, 255));&quot;&gt;addresses&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="1" vertex="1">
-                    <mxGeometry x="390" y="205" width="160" height="80" as="geometry"/>
-                </mxCell>
-                <mxCell id="100" style="edgeStyle=none;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="94" target="96">
+                <mxCell id="148" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;flowAnimation=1;" edge="1" parent="1" source="44" target="144">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="94" value="&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Defualt&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;gateway&lt;/font&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="940" y="270" width="110" height="70" as="geometry"/>
+                <mxCell id="44" value="&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Network&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;interfaces&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;accessibility&lt;/font&gt;&lt;/div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font style=&quot;&quot;&gt;IP&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;background-color: transparent; color: rgb(192, 192, 192);&quot;&gt;&lt;font style=&quot;&quot;&gt;addresses&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="1" vertex="1">
+                    <mxGeometry x="340" y="210" width="190" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="100" style="edgeStyle=none;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="94" target="96" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="94" value="&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Defualt&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;gateway&lt;/font&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1150" y="250" width="110" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="20" style="edgeStyle=none;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="31" target="69" edge="1">
                     <mxGeometry relative="1" as="geometry">
@@ -63,8 +65,10 @@
                         <mxPoint x="400" y="540" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="33" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="28" target="32" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
+                <mxCell id="33" style="edgeStyle=none;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="28" target="141" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="130.00000000000023" y="290" as="targetPoint"/>
+                    </mxGeometry>
                 </mxCell>
                 <mxCell id="45" style="edgeStyle=none;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="28" target="44" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
@@ -72,7 +76,7 @@
                 <mxCell id="28" value="IP&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;addresses&lt;/font&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" parent="1" vertex="1">
                     <mxGeometry x="200" y="380" width="100" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="121" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" edge="1" parent="1" source="38" target="103">
+                <mxCell id="121" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="38" target="103" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="38" value="IPv4" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#fad7ac;strokeColor=#b46504;" parent="1" vertex="1">
@@ -89,82 +93,123 @@
                 <mxCell id="43" value="3. Min IP address with IPv4: - 0.0.0.0 and Max: - 255.255.255.255 (cause 8bits can have max 255 combinations)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="38" vertex="1">
                     <mxGeometry y="110" width="220" height="60" as="geometry"/>
                 </mxCell>
+                <mxCell id="139" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="77" target="137" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
                 <mxCell id="77" value="Public IP address" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#d0cee2;strokeColor=#56517e;" parent="1" vertex="1">
-                    <mxGeometry x="-300" y="60" width="200" height="110" as="geometry">
+                    <mxGeometry x="-300" y="60" width="220" height="60" as="geometry">
                         <mxRectangle x="-300" y="190" width="60" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="78" value="1. Visible to Outsite networks" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="77" vertex="1">
-                    <mxGeometry y="30" width="200" height="30" as="geometry"/>
+                    <mxGeometry y="30" width="220" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="79" value="2. 32 bits with each block of 1 btye(total 4 blocks), so 4 x 8 = 32bits" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="77" vertex="1">
-                    <mxGeometry y="60" width="200" height="50" as="geometry"/>
+                <mxCell id="141" value="IP addresses accessibility type" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#d0cee2;strokeColor=#56517e;" parent="1" vertex="1">
+                    <mxGeometry x="-30" y="190" width="220" height="100" as="geometry">
+                        <mxRectangle x="-310" y="250" width="60" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="143" value="1.&amp;nbsp;In IPv4, RFC 1918 specifies the ranges reserved for private IP addresses; all other non-reserved IPv4 addresses are public" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="141" vertex="1">
+                    <mxGeometry y="30" width="220" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="136" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="85" target="134" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="85" value="Private IP address" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#d0cee2;strokeColor=#56517e;" parent="1" vertex="1">
-                    <mxGeometry y="-50" width="200" height="110" as="geometry">
+                    <mxGeometry y="-50" width="200" height="90" as="geometry">
                         <mxRectangle y="-50" width="60" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="86" value="1. Not visible to outsite networks" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="85" vertex="1">
                     <mxGeometry y="30" width="200" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="87" value="2. 32 bits with each block of 1 btye(total 4 blocks), so 4 x 8 = 32bits" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="85" vertex="1">
-                    <mxGeometry y="60" width="200" height="50" as="geometry"/>
+                <mxCell id="133" value="1. Not visible to outsite networks" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="85" vertex="1">
+                    <mxGeometry y="60" width="200" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="126" style="edgeStyle=none;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="88" target="122">
+                <mxCell id="126" style="edgeStyle=none;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" parent="1" source="88" target="122" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="88" value="LoopBack IP address" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
-                    <mxGeometry x="510" y="-10" width="200" height="150" as="geometry">
+                <mxCell id="88" value="LoopBack IP address" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="1" vertex="1">
+                    <mxGeometry x="440" y="-60" width="200" height="150" as="geometry">
                         <mxRectangle x="450" y="20" width="60" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="89" value="1." style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="88">
+                <mxCell id="89" value="1." style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="88" vertex="1">
                     <mxGeometry y="30" width="200" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="93" value="2. In IPv4 we have 127.0.0.0/8 numbers of loopback IP addresses" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="88">
+                <mxCell id="93" value="2. In IPv4 we have 127.0.0.0/8 numbers of loopback IP addresses" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="88" vertex="1">
                     <mxGeometry y="70" width="200" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="92" value="3. In IPv6 we have only one Loopback IP address" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="88">
+                <mxCell id="92" value="3. In IPv6 we have only one Loopback IP address(::1)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="88" vertex="1">
                     <mxGeometry y="110" width="200" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="122" value="why" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+                <mxCell id="144" value="Host IP address" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+                    <mxGeometry x="700" y="90" width="200" height="150" as="geometry">
+                        <mxRectangle x="680" y="110" width="60" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="145" value="1. Means to listen on all the network interfaces" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="144">
+                    <mxGeometry y="30" width="200" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="146" value="2. In IPv4 we have 127.0.0.0/8 numbers of loopback IP addresses" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="144">
+                    <mxGeometry y="70" width="200" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="147" value="3. In IPv6 we have only one Loopback IP address" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="144">
+                    <mxGeometry y="110" width="200" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="122" value="why" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
                     <mxGeometry x="770" y="-250" width="200" height="90" as="geometry">
                         <mxRectangle x="770" y="-250" width="60" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="123" value="1. why in IPv4 we have so many Loopback IP addresses?&lt;div&gt;ans: -&amp;nbsp;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="122">
+                <mxCell id="123" value="1. why in IPv4 we have so many Loopback IP addresses?&lt;div&gt;ans: -&amp;nbsp;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="122" vertex="1">
                     <mxGeometry y="30" width="200" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="96" value="Defualt Gateway" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="1150" y="170" width="200" height="70" as="geometry">
+                <mxCell id="134" value="why" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
+                    <mxGeometry x="-80" y="-260" width="200" height="90" as="geometry">
+                        <mxRectangle x="-80" y="-260" width="60" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="140" value="1. why is public IPv6 is mostly unique?&lt;div&gt;ans: -&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="134" vertex="1">
+                    <mxGeometry y="30" width="200" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="137" value="why" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
+                    <mxGeometry x="-440" y="-200" width="200" height="90" as="geometry">
+                        <mxRectangle x="-440" y="-200" width="60" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="138" value="1. why is public IPv4 shared/same for many?&lt;div&gt;ans: -&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="137" vertex="1">
+                    <mxGeometry y="30" width="200" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="96" value="Defualt Gateway" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="1260" y="160" width="200" height="70" as="geometry">
                         <mxRectangle x="690" y="200" width="60" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="97" value="1. This is also called router&#39;s IP address" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="96">
+                <mxCell id="97" value="1. This is also called router&#39;s IP address" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="96" vertex="1">
                     <mxGeometry y="30" width="200" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="130" style="edgeStyle=none;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;flowAnimation=1;strokeWidth=5;" edge="1" parent="1" source="127" target="28">
+                <mxCell id="130" style="edgeStyle=none;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;flowAnimation=1;strokeWidth=5;" parent="1" source="127" target="28" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="127" value="Prerequisite" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#fa6800;strokeColor=#C73500;fontColor=#000000;" vertex="1" parent="1">
+                <mxCell id="127" value="Prerequisite" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#fa6800;strokeColor=#C73500;fontColor=#000000;" parent="1" vertex="1">
                     <mxGeometry x="360" y="360" width="190" height="70" as="geometry">
                         <mxRectangle x="690" y="200" width="60" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="128" value="Must know about computer number system" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="127">
+                <mxCell id="128" value="Must know about computer number system" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="127" vertex="1">
                     <mxGeometry y="30" width="190" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="46" value="IPv6" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#fad7ac;strokeColor=#b46504;" parent="1" vertex="1">
                     <mxGeometry y="620" width="200" height="170" as="geometry"/>
                 </mxCell>
-                <mxCell id="47" value="1. represent in&amp;nbsp;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="46" vertex="1">
+                <mxCell id="47" value="1. represent in&amp;nbsp; Hex" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="46" vertex="1">
                     <mxGeometry y="30" width="200" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="48" value="2. 128 bits with each block of 2 btye(total 8 blocks), so 8 x 2 x 8 = 128bits" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="46" vertex="1">
                     <mxGeometry y="60" width="200" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="129" value="3. Min IP address with IPv6: - 00.00.00.00.00.00.00.00 and Max: - 255.255.255.255 (cause 8bits can have max 255 combinations)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="46">
+                <mxCell id="129" value="3. Min IP address with IPv6: - 00.00.00.00.00.00.00.00 and Max: - 255.255.255.255 (cause 8bits can have max 255 combinations)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="46" vertex="1">
                     <mxGeometry y="110" width="200" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="69" value="Static IP address" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#fad9d5;strokeColor=#ae4132;" parent="1" vertex="1">
@@ -179,17 +224,17 @@
                 <mxCell id="74" value="1. automatic assignment by ISP -&amp;gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;can change anytime&lt;/font&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="73" vertex="1">
                     <mxGeometry y="30" width="200" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="102" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="101" target="94">
+                <mxCell id="102" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="101" target="94" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="101" value="routers" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="780" y="300" width="120" height="60" as="geometry"/>
+                <mxCell id="101" value="routers" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1080" y="350" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="103" value="subnet mask" style="swimlane;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+                <mxCell id="103" value="subnet mask" style="swimlane;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
                     <mxGeometry x="-530" y="860" width="360" height="640" as="geometry"/>
                 </mxCell>
-                <mxCell id="105" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Subnet mask mean the number of bits are fixed&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;and those bits cannot be changed by the host,&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Only the &lt;strong data-end=&quot;301&quot; data-start=&quot;271&quot;&gt;remaining bits (host bits)&lt;/strong&gt; can vary.&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="103">
-                    <mxGeometry x="17.5" y="22.469999999999963" width="280" height="60" as="geometry"/>
+                <mxCell id="105" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Subnet mask mean/defines the number of bits that&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;are fixed&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;and cannot be changed by the host,&lt;/span&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Only the &lt;strong data-end=&quot;301&quot; data-start=&quot;271&quot;&gt;remaining bits (host bits)&lt;/strong&gt; can vary/change.&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="103" vertex="1">
+                    <mxGeometry x="25" y="22.469999999999963" width="310" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="68" value="" style="group" parent="103" vertex="1" connectable="0">
                     <mxGeometry x="17.5" y="410" width="325" height="201.04999999999995" as="geometry"/>
@@ -206,7 +251,7 @@
                 <mxCell id="67" value="Host&lt;br&gt;&lt;div&gt;address/protion&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="56" vertex="1">
                     <mxGeometry x="190" y="100" width="110" height="51.05" as="geometry"/>
                 </mxCell>
-                <mxCell id="111" value="so here 24 means that the first 24 bits cannot be changed&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;by the host&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="56">
+                <mxCell id="111" value="so here 24 means that the first 24 bits cannot be changed&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;by the host&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="56" vertex="1">
                     <mxGeometry x="-5" y="161.04999999999995" width="330" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="60" value="" style="shape=stencil(lVnZbhsxDPwavxLULT2n7X8EiNMYTZMiTa+/72wNKRaVHaNv9ppjSTyGQ+0h3Hx/uP12PHj9/vry/OX463T3+nAIHw7en54eji+nV3w6hI+HcHP//HL8/PL84+nu/P3b7Wa5ffr6/HP7h99nnErJG8jrn/OD6CTHf08+ne0fT08X9lFime2zaNu3bxLSZJ+8OPL/LkqNM6BKTfsAnCDPK+QkVQkgSfAToKhUTwBVWpgBUZSsEMYRByBLqASQ+v8NQJHoCKBI8RbAvBRVYrUAZQAvdQ50SRIDAURpBgA3ELcicZoJXBVfCKBKmd2KSCvxUsKhZy9lbCkTwPh5AJBdbIXQM2dka5NMvJSQfGt6Ey8leMlZAPMSfg5tBpTut/cBTUq1AE/SO7se1wHIUoiXcrDJBzdkQhqIa5nrYXM0A1RbcYh9YIAmaXZrhJeIW984YgBQD6SASpAwnwHMGkgcysJLAZskcQCpGO4OVRJJ74LUMIAiifBSVdHZrWCqRrZUnfg5+cCFmQFAM3Mc0DGU1EONPTcHgNdDBfXOvIQeRgG189wAeFHi1qbLCq5H5n2Ak9YsIJEttdDbxwUgkORr0XKrA80QXmrZuhVeJWFo1e5IaUuEvWknvOe2Zosh9gd79nnej1Nx7MDN8qorXUi8L0xUbZP2kD6kerYl5kQKURKLWrO0hy7sWF4s6ipWqq4QBttNXNdbewDTQtMQBu8DirRoV6CBKAsT584JewA3Vw/EDS2GYgMHUmJSBsVgpIxH+2GRxpbmFVyitAeAoYxKmwnsyxzoII5taFTvW7lRF9XewN/sPUuL1pcfHuJZ0Tq/DXHYXbxnX5N1KOWXtlBqEH+l/ucdBZA2G2Ra//miPRde/kb1RD4FAKBze4aIYaoHUUtGV3nO8v8NKEv5Z0mMh9FHjIJOklgmRStiiuNbWnoh5gymPtduC0BiAIwNagGRxAGKIc3ZCvGnXJNkc+ihePdUjx2uKi24Ci/NBV34YALlZnoPnjBKgjb0cxw2aUbSe1WfAGSSS5u+NSuEPvbuKugF4EjgECbTewCgCtr1oXkA0CvIoTFnFEP0tafj3iRjhE/jvLTddsxnQElF4qV1GgOAKZ913kMN0iF3mSgBcGQFzKym4pqnt1DbVOwtgE72ySqlza1shWDvoQBgLRFM6k0clEYa5J6WFZh4g7ar2R46ENbASKtLHAq7w0m2A4HPmXiDPjV6Ei1GGUD7SDsAjR56u+kyOl35qBEWrtyGA3aZ5hc3VVoQfg0E7+w+iU82EEyPQX6lhTZYG3XRCkTQN9UOtk8Xrljj0nX5fKWS5wPk3Glnx97kBXitkQOrvUfLkXZQtdWZPR181Cr6rFf2r/Osd+XWbRkmU6Q0r/2m82KsumJv7vXHLfbeec0kOe5N9vxp3gPEnuM79kZIgjp4vIxSjY5eGPzve4zr9vjw9tLk/vT4eH7ncvm7fcmCR+cXNOHjXw==);lineShape=1;strokeColor=default;" parent="68" vertex="1">
@@ -227,45 +272,45 @@
                 <mxCell id="65" value="" style="shape=stencil(lVfLbhsxDPyavRKSqOc5Tf8jQJzaqGsHjtsmf18utpJN2jtBbmt5KJHDoUhN/PC2fXrdTMG9nU/Hn5u/u+fzduJvUwi7w3Zz2p3la+LHiR9ejqfNj9Px9+F5+f36NCPnr1/HP/MO74tdouZno+A+lgVZycvK9wW/3x2u8D5RCsqAmbJbNwiFYlIGMRKXdYPoyGVlkDJVcEIKlJsyKI48OCF7ylEZVEcNGUgMmqVaKQCWiqeqWWpMqQGDQKXoGBrlCgyEEx1DTtCl6vt+Iw+FfAIG2eaBhSWQh9ooagOPWRJOoo5BMpkh3ojVUwIctdi363hHJQC8SJ8N3qP9MxVn8A4Q1AoV6w/kp3Z3r/xH/jRbah7z2ag2w38BeO9GfEMS1ICE5ICiHUrkUcCt8z1ETZ4hQWyKoEe0lgDWCZYFJIhMIVk8uCfaKMEL3iH/Yz/+4v//gNYKIBfDJyNBsOUnUsD7s46XyaH8MhVbkA3xGbu7F0E35L/w2Qz+k3yZeEWwCC/3ui0wjwq43uITLrAQDT8wv63X96Ugkd7uFmTCBVm1gCIVJNCv4iVhGj9nADkUyOmIOVBFbayS05KLcmmAHFfuPWLUWIFJkMbbtOhqoIBbcdNBS12gMsvSFk2jdLhz5NCHsnGErABeU7GVUFOv7ftTV+1KHldXhLXJMjlqAxmrUDMQaUat1TiYvq9uT1EnghscBH3X/pWWGOCdbX/s+wCwgjcByECE/JGcmvY6ymkNr/cPlSpIgevCH/gCBzRn5zNpNyjF43K+wqO52tvuJO0pAT4DxRu8Q5Kz3Uluowqu32i794wH+6cbPmUF1PFX306f4+Xj8lB72e33yzvv+n/7sJOl5VHIj/8A);lineShape=1;strokeColor=default;" parent="68" vertex="1">
                     <mxGeometry x="215.84124759123142" y="79.09399336909723" width="27.815421337328935" height="25.20827392320991" as="geometry"/>
                 </mxCell>
-                <mxCell id="118" value="" style="group" vertex="1" connectable="0" parent="103">
+                <mxCell id="118" value="" style="group" parent="103" vertex="1" connectable="0">
                     <mxGeometry x="17.5" y="110" width="320" height="200" as="geometry"/>
                 </mxCell>
-                <mxCell id="107" value="x" style="swimlane;startSize=0;" vertex="1" parent="118">
+                <mxCell id="107" value="x" style="swimlane;startSize=0;" parent="118" vertex="1">
                     <mxGeometry width="320" height="200" as="geometry"/>
                 </mxCell>
-                <mxCell id="108" value="&lt;font style=&quot;font-size: 29px;&quot;&gt;255.255.255.0&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="107">
+                <mxCell id="108" value="&lt;font style=&quot;font-size: 29px;&quot;&gt;255.255.255.0&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="107" vertex="1">
                     <mxGeometry x="30" y="10" width="250" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="109" value="Network&amp;nbsp;&lt;div&gt;address/protion&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="107">
+                <mxCell id="109" value="Network&amp;nbsp;&lt;div&gt;address/protion&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="107" vertex="1">
                     <mxGeometry x="60" y="110" width="110" height="51.05" as="geometry"/>
                 </mxCell>
-                <mxCell id="110" value="Host&lt;br&gt;&lt;div&gt;address/protion&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="107">
+                <mxCell id="110" value="Host&lt;br&gt;&lt;div&gt;address/protion&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="107" vertex="1">
                     <mxGeometry x="190" y="100" width="110" height="51.05" as="geometry"/>
                 </mxCell>
-                <mxCell id="112" value="" style="shape=stencil(lVnbUlsxDPyavGpsy9dnSv+DGaBkSoEBevv7rps6xHLOUt7SVIstW7taOTu9eLm7errZBffy+vz49ebn/vr1bqefdiHsH+5unvev+LTTy51e3D4+33x5fvz+cH3499NVj+yfvj3+6H/h1wHnxbcOCu73vy+SRP37zedD/P3+4SQ+SotTPL6pZTu+SZn/viZxbTseywc/AWKWSADBiS8TIGVJDBAlpAmQVZIngCJu3lIu0hIBVGkGUKWGbYA6ickCMtmSqqjaLbFrU9xbmAFZKjklzZIXQCQXrVWSs4CQSSW5JYcsjpVeEG8ASSo5pahSvAVEtqUkzawQJVYCKJIMQMe5nQc00TwDAr3p5MeOjwAnjVxcUsu4lKSQpEEXnYsPjCuRAKqooagTx1ZoUufS0EJPKXvJBgCVIaWBa3JzDhAeRyiKQijzCpAFR5IGv+q8gq9UyAo4PZ+Sj6N+zwN0VP8RECSSUyrIYaaod0OpzgOqZRxSIAtUSOss9lxZq7f0CRLImdY4TnDEOypiNY8/9xbP7qwivWrj3XZ8c1ZgHL3iFkSDiWeK16JoMfHK9pNGa32L9yweTaOY888svtnmn6jEIz4vBReIPALQZpZ5VBCpOO+ON3RMAc2ZELkvMe8JzZRpS09iFlSIEa2KZv0CGhGjDa6hzGWKvuJZDtVaGCiwYxdRRs84AqJkdhFFvAHA+LEc0AJmKsC3FbalPDzUiQJ7Rp6jnTgCAu0iAJik4RU9oT8ApjQajy+WnnE0ia14Y/MgdyzjOrzEWzzdT7MNIb7HtjjTuVLnjPhq6ByHoG1ybV6gjw9cMJq546N32AKUGdDHBU7OOOsFvEhih1ptUYA6yslpHFsnJzulYg0Y6B95HX0QsPSF7nQ/1HgASAywdDYAaCtZWmffEimNtTcDwAbJ3vzTAuDuwsqwUpGswZb3O0nD7wSTdKYXV5rVvFjpfFEgSWZL0DBycSVakUyBeqribYvGuKDMardlBVhjsiU4ZzsYwpYQXYI3z8v4TLekdr4oYQzU5wHBjgsl02aVFuWDl2ZmHjNSmMsbZpoVH07d6BIYUkktpWiVDyxnLR2TZJ5z6PLMxudlVj2xZ/85Dne5Jee6DtyNn+s60ndrQ656fTTo1oZtaXmW6NbmQw8fALBy1cXIAMB8fX+8MQBQhK2gdkJHbTTCUXhm0yDQAQopV/Rx06jRARrZEkZHw9FaRsVvPdO5Wb6rjg5wfnZYJgGQmnVFv7xlQqqUeQdrcVOmKUT7igF+sDNy443jxMswt+SWV5I23hw24k0zweTDXlWcfYqFGWMa5uw4jzpkY4wbPupkdGN2cp0NC1U8ZysocIVcnjtgb1k9uGH3T56EGo03/twX+kjlrNZh4GEtwY1X6ZN4ypgPvv2/H48Pbz803O7v7w+/U5z+v/1hAl8dftTQyz8=);lineShape=1;strokeColor=default;" vertex="1" parent="118">
+                <mxCell id="112" value="" style="shape=stencil(lVnbUlsxDPyavGpsy9dnSv+DGaBkSoEBevv7rps6xHLOUt7SVIstW7taOTu9eLm7errZBffy+vz49ebn/vr1bqefdiHsH+5unvev+LTTy51e3D4+33x5fvz+cH3499NVj+yfvj3+6H/h1wHnxbcOCu73vy+SRP37zedD/P3+4SQ+SotTPL6pZTu+SZn/viZxbTseywc/AWKWSADBiS8TIGVJDBAlpAmQVZIngCJu3lIu0hIBVGkGUKWGbYA6ickCMtmSqqjaLbFrU9xbmAFZKjklzZIXQCQXrVWSs4CQSSW5JYcsjpVeEG8ASSo5pahSvAVEtqUkzawQJVYCKJIMQMe5nQc00TwDAr3p5MeOjwAnjVxcUsu4lKSQpEEXnYsPjCuRAKqooagTx1ZoUufS0EJPKXvJBgCVIaWBa3JzDhAeRyiKQijzCpAFR5IGv+q8gq9UyAo4PZ+Sj6N+zwN0VP8RECSSUyrIYaaod0OpzgOqZRxSIAtUSOss9lxZq7f0CRLImdY4TnDEOypiNY8/9xbP7qwivWrj3XZ8c1ZgHL3iFkSDiWeK16JoMfHK9pNGa32L9yweTaOY888svtnmn6jEIz4vBReIPALQZpZ5VBCpOO+ON3RMAc2ZELkvMe8JzZRpS09iFlSIEa2KZv0CGhGjDa6hzGWKvuJZDtVaGCiwYxdRRs84AqJkdhFFvAHA+LEc0AJmKsC3FbalPDzUiQJ7Rp6jnTgCAu0iAJik4RU9oT8ApjQajy+WnnE0ia14Y/MgdyzjOrzEWzzdT7MNIb7HtjjTuVLnjPhq6ByHoG1ybV6gjw9cMJq546N32AKUGdDHBU7OOOsFvEhih1ptUYA6yslpHFsnJzulYg0Y6B95HX0QsPSF7nQ/1HgASAywdDYAaCtZWmffEimNtTcDwAbJ3vzTAuDuwsqwUpGswZb3O0nD7wSTdKYXV5rVvFjpfFEgSWZL0DBycSVakUyBeqribYvGuKDMardlBVhjsiU4ZzsYwpYQXYI3z8v4TLekdr4oYQzU5wHBjgsl02aVFuWDl2ZmHjNSmMsbZpoVH07d6BIYUkktpWiVDyxnLR2TZJ5z6PLMxudlVj2xZ/85Dne5Jee6DtyNn+s60ndrQ656fTTo1oZtaXmW6NbmQw8fALBy1cXIAMB8fX+8MQBQhK2gdkJHbTTCUXhm0yDQAQopV/Rx06jRARrZEkZHw9FaRsVvPdO5Wb6rjg5wfnZYJgGQmnVFv7xlQqqUeQdrcVOmKUT7igF+sDNy443jxMswt+SWV5I23hw24k0zweTDXlWcfYqFGWMa5uw4jzpkY4wbPupkdGN2cp0NC1U8ZysocIVcnjtgb1k9uGH3T56EGo03/twX+kjlrNZh4GEtwY1X6ZN4ypgPvv2/H48Pbz803O7v7w+/U5z+v/1hAl8dftTQyz8=);lineShape=1;strokeColor=default;" parent="118" vertex="1">
                     <mxGeometry x="59.18943277753101" y="50.328549327463406" width="160.19263831652225" height="12.832356793689021" as="geometry"/>
                 </mxCell>
-                <mxCell id="113" value="" style="shape=stencil(lVbLbhsxDPyavQ4kUQ/qnKb/ESBObdS1A8d9/X25XcgJpS69va1lkhqSw6EmenjbP73upuDerpfz193Pw/N1P9GnKYTDab+7HK7yNdHjRA8v58vuy+X8/fS8/H59mi3nr2/nH3OEX4uf96h19gru93JSQOHvwefF/ng4fbAPGako+4yc1u1jRA7KPprxcwCzsveIvG7PCazxODi3bl8dSOcbGsB/20dE0ngcgnVBQdIJSAY1Gg4VySkHkpLSuoN3txSbRwoo3rzCed00RrIcbk1tDhxAxXAg+KwcqjTSyJoZVUOqDDayZuGNboRkZSVdKqpmXk0gg0olw+sbOIOMVhcC6aTlJFqQhAld4xjOgjQ4xNvJRkjvA7sxaU/I9X/KGs0BmvsWuwENRvyRGB7+DvO0AJRGxVVq6wr5gmzPp9MJk28Tu3U+o4iqPZ+dBGRqMrVRZIoQyarSIGNcwRYk12blNj3FhDQLcVdXZ0vxKN33PMblIKKRDPKN20c0IBsDN6434RcZ+23cnyJ81g0VXre6yoIz6Jf7PnBBMfpAqJ29IDQSCHBa6UtEMPA4lI6qqSnIin2/q8TejN/PTgQb+Ac8FBsRt+UbEooRf6in5xZhW798QLAGreeDMNqAL9G6+tjvtfvvO/l4fxy+HI7H5W358f/+MSlHy0OUHv8A);lineShape=1;strokeColor=default;" vertex="1" parent="118">
+                <mxCell id="113" value="" style="shape=stencil(lVbLbhsxDPyavQ4kUQ/qnKb/ESBObdS1A8d9/X25XcgJpS69va1lkhqSw6EmenjbP73upuDerpfz193Pw/N1P9GnKYTDab+7HK7yNdHjRA8v58vuy+X8/fS8/H59mi3nr2/nH3OEX4uf96h19gru93JSQOHvwefF/ng4fbAPGako+4yc1u1jRA7KPprxcwCzsveIvG7PCazxODi3bl8dSOcbGsB/20dE0ngcgnVBQdIJSAY1Gg4VySkHkpLSuoN3txSbRwoo3rzCed00RrIcbk1tDhxAxXAg+KwcqjTSyJoZVUOqDDayZuGNboRkZSVdKqpmXk0gg0olw+sbOIOMVhcC6aTlJFqQhAld4xjOgjQ4xNvJRkjvA7sxaU/I9X/KGs0BmvsWuwENRvyRGB7+DvO0AJRGxVVq6wr5gmzPp9MJk28Tu3U+o4iqPZ+dBGRqMrVRZIoQyarSIGNcwRYk12blNj3FhDQLcVdXZ0vxKN33PMblIKKRDPKN20c0IBsDN6434RcZ+23cnyJ81g0VXre6yoIz6Jf7PnBBMfpAqJ29IDQSCHBa6UtEMPA4lI6qqSnIin2/q8TejN/PTgQb+Ac8FBsRt+UbEooRf6in5xZhW798QLAGreeDMNqAL9G6+tjvtfvvO/l4fxy+HI7H5W358f/+MSlHy0OUHv8A);lineShape=1;strokeColor=default;" parent="118" vertex="1">
                     <mxGeometry x="231.6886465226953" y="54.505802853431305" width="17.284167895013525" height="4.893167823643342" as="geometry"/>
                 </mxCell>
-                <mxCell id="114" value="" style="shape=stencil(lVfLctswDPwaXTEkAYLkOU3/IzNxak1dO+M4ffx9oWoUm1C9sW+KjA2JBXYBDfzwtn163QwpvJ2Oh++bX+PzaTvwlyGlcb/dHMeTPQ38OPDDy+G4+XY8vO+f579fn6bI6enH4ef0H37PuBgChTDBUvgzv2Kq/O/F1xmwG/cXgFao5S4+RpIAAJmyA1TSBgCJVDpAUkrgSrVSSX0KQkUBIJNoB5BEtQBAotI6QA7E6EqBSs9qVqr1OqA0itwBNFIRCHB10EoM6lAjaX9CYUoo6eiTtjMVJF0yhf5KVUgzAChxX7gmVFHSsgIoCegl4yT3vTT1L0g6N8qlB1hl0nWAGOvqARUAWCnUXg9nDf4XkYQC+yMU0BSZpC9EM4mA7lvpwVjK4EaBat8ZJvIGCh0W/V7UGbUeU3bx5glA0DGQuKpFSiBhuxH3+mx2R3ACJ2+TtVEBYhBr1XwPwAzCqWe6EiBJ8+IoNyZdzOTCilZwgukzOoDgE6yRXOFwYxTrJJc07jxNK8AnrZ0WEm8Ujxjr8T59mqWs9IksIOrSCZcmEwFNVIpnqSE9UHP6NJsEJK12gMmHQa/eH597Sm1kK2CUV2LjxcevEeq0UwoJINRWkOIAAa4MRqnbMUx+ATlMJeknjwlcPnGY/kpiIx6cwNkPEttiEEtcvM3bngSv1Cj0fWeTooJxK9EnbUQzcBhhT6ttkxGdIMv4Pq+rCgoteRHKRwrLidfGufTSiTBjsxdxCVAElGaztz7etAGKrLwI9xyP+NHm+cHeZRavwcejxXYlTTyk6oc7n+MLqFezcno+GdTLjNCtFgnK0oyWm4tvIN+7v49uANjD+XPsZdzt5q+5y9/955u9mj/9+PEv);lineShape=1;strokeColor=default;" vertex="1" parent="118">
+                <mxCell id="114" value="" style="shape=stencil(lVfLctswDPwaXTEkAYLkOU3/IzNxak1dO+M4ffx9oWoUm1C9sW+KjA2JBXYBDfzwtn163QwpvJ2Oh++bX+PzaTvwlyGlcb/dHMeTPQ38OPDDy+G4+XY8vO+f579fn6bI6enH4ef0H37PuBgChTDBUvgzv2Kq/O/F1xmwG/cXgFao5S4+RpIAAJmyA1TSBgCJVDpAUkrgSrVSSX0KQkUBIJNoB5BEtQBAotI6QA7E6EqBSs9qVqr1OqA0itwBNFIRCHB10EoM6lAjaX9CYUoo6eiTtjMVJF0yhf5KVUgzAChxX7gmVFHSsgIoCegl4yT3vTT1L0g6N8qlB1hl0nWAGOvqARUAWCnUXg9nDf4XkYQC+yMU0BSZpC9EM4mA7lvpwVjK4EaBat8ZJvIGCh0W/V7UGbUeU3bx5glA0DGQuKpFSiBhuxH3+mx2R3ACJ2+TtVEBYhBr1XwPwAzCqWe6EiBJ8+IoNyZdzOTCilZwgukzOoDgE6yRXOFwYxTrJJc07jxNK8AnrZ0WEm8Ujxjr8T59mqWs9IksIOrSCZcmEwFNVIpnqSE9UHP6NJsEJK12gMmHQa/eH597Sm1kK2CUV2LjxcevEeq0UwoJINRWkOIAAa4MRqnbMUx+ATlMJeknjwlcPnGY/kpiIx6cwNkPEttiEEtcvM3bngSv1Cj0fWeTooJxK9EnbUQzcBhhT6ttkxGdIMv4Pq+rCgoteRHKRwrLidfGufTSiTBjsxdxCVAElGaztz7etAGKrLwI9xyP+NHm+cHeZRavwcejxXYlTTyk6oc7n+MLqFezcno+GdTLjNCtFgnK0oyWm4tvIN+7v49uANjD+XPsZdzt5q+5y9/955u9mj/9+PEv);lineShape=1;strokeColor=default;" parent="118" vertex="1">
                     <mxGeometry x="115.70534221520484" y="59.98642870083722" width="5.5938714329433425" height="41.2722436654898" as="geometry"/>
                 </mxCell>
-                <mxCell id="115" value="" style="shape=stencil(7VjLUhwxDPyavapsyc8zSf6DKpawFcJSC3n9feRsPIzEbFO55cBtWNQzstzdkr2Tq6e768f9jsPT8+n4Zf/jcPN8t5MPO+bDw93+dHjWp5183MnV7fG0/3w6fnu4Of/9eD0ix9PX4/fxhp9nXCNuA8Th1/kHjhTCn18+nePvDw+r+BgpFwvoVAQAEuVuAFIpNAColKIBpEQCAByoVQPIhSIDgBAnAyj6hQ4AmXowgMrU0BeaX3TVKtXLAIkkdg2tkIAvKKBnC6gUEwAwJQfoFMFOK6DYKvVIEVRpfMEuumuhMSCwBWRiXCW2a+h1vmIbEIjFAholUCUls0+pY0Cl0j2ggzWw7quldwwBSo7TfOHqExnzuya/6oxyYqrB1xVttZqEE4TuXMJfyLauym+OuEzWZ6pQyJBM3W6EihoZU1IJW25kLTTwmSyUrVeqMUWQUpH5vsX6EuS3ukqyZdUyMPhCrdTtGtQM/9ZtE9DSK/bJrNsmQCUcreS0P4Al9DR5MONVgoDcypseXTxStBJTfHwGCx7MF5d/BRUdcrfxAok91G6JnSkDvxjxjtdTrJfis9MyNZR/836kHbugD1SvzMiTVNuAMvvMikLIXZQSzl0GAGhfOSfZpwSLxMTsF41koJ3MNUMtM2JpnK3yZdfeeD97VkQcX92QBJu5LrhaFkWcf6LgVZPQDmSvAtyilBOtuHhB8e21qzCwXlVBtK7CWAUqEjdDwnlt1YJfNjigAnWqbrCYGV6KdxugDA3Id9XZncoYG90/A4SKS0l3BQi/Nd+SGY/NLVKzKWmVEO3qMrevGmYHPCrNlzUJFEJuvn1o00fKTK8OSKVAaqfg7VFX1dAUrHONBegkn4EYdAp24le5FjQFv58V3s8K/9lZAZ3nox8hxwSBbgyatz7ld0N3EmXOsItGG5yCx5DsRB2gRtXdm110CVO1227sp7Ac595vO59PSM8iDJYs04MWZy1wrg1U3Emkwo6rrufukcoc4i7Eu36rzK0g/zDvjJZ4gY6k842t55iQgDaDP6qNFYH8l1PEoswOBwY1SPv+0WyR31F1yq+wPotCVvEF5J/94VfjkRUVz2fNH11o1Xn2XtWngv3avIcE9Xz73lIfXi49bw/39+c70/X//SWp/nS+YJWPvwE=);lineShape=1;strokeColor=default;" vertex="1" parent="118">
+                <mxCell id="115" value="" style="shape=stencil(7VjLUhwxDPyavapsyc8zSf6DKpawFcJSC3n9feRsPIzEbFO55cBtWNQzstzdkr2Tq6e768f9jsPT8+n4Zf/jcPN8t5MPO+bDw93+dHjWp5183MnV7fG0/3w6fnu4Of/9eD0ix9PX4/fxhp9nXCNuA8Th1/kHjhTCn18+nePvDw+r+BgpFwvoVAQAEuVuAFIpNAColKIBpEQCAByoVQPIhSIDgBAnAyj6hQ4AmXowgMrU0BeaX3TVKtXLAIkkdg2tkIAvKKBnC6gUEwAwJQfoFMFOK6DYKvVIEVRpfMEuumuhMSCwBWRiXCW2a+h1vmIbEIjFAholUCUls0+pY0Cl0j2ggzWw7quldwwBSo7TfOHqExnzuya/6oxyYqrB1xVttZqEE4TuXMJfyLauym+OuEzWZ6pQyJBM3W6EihoZU1IJW25kLTTwmSyUrVeqMUWQUpH5vsX6EuS3ukqyZdUyMPhCrdTtGtQM/9ZtE9DSK/bJrNsmQCUcreS0P4Al9DR5MONVgoDcypseXTxStBJTfHwGCx7MF5d/BRUdcrfxAok91G6JnSkDvxjxjtdTrJfis9MyNZR/836kHbugD1SvzMiTVNuAMvvMikLIXZQSzl0GAGhfOSfZpwSLxMTsF41koJ3MNUMtM2JpnK3yZdfeeD97VkQcX92QBJu5LrhaFkWcf6LgVZPQDmSvAtyilBOtuHhB8e21qzCwXlVBtK7CWAUqEjdDwnlt1YJfNjigAnWqbrCYGV6KdxugDA3Id9XZncoYG90/A4SKS0l3BQi/Nd+SGY/NLVKzKWmVEO3qMrevGmYHPCrNlzUJFEJuvn1o00fKTK8OSKVAaqfg7VFX1dAUrHONBegkn4EYdAp24le5FjQFv58V3s8K/9lZAZ3nox8hxwSBbgyatz7ld0N3EmXOsItGG5yCx5DsRB2gRtXdm110CVO1227sp7Ac595vO59PSM8iDJYs04MWZy1wrg1U3Emkwo6rrufukcoc4i7Eu36rzK0g/zDvjJZ4gY6k842t55iQgDaDP6qNFYH8l1PEoswOBwY1SPv+0WyR31F1yq+wPotCVvEF5J/94VfjkRUVz2fNH11o1Xn2XtWngv3avIcE9Xz73lIfXi49bw/39+c70/X//SWp/nS+YJWPvwE=);lineShape=1;strokeColor=default;" parent="118" vertex="1">
                     <mxGeometry x="103.30009779355737" y="87.90033076028612" width="39.19649332254412" height="25.622767136678156" as="geometry"/>
                 </mxCell>
-                <mxCell id="116" value="" style="shape=stencil(nVfbchsxCP2afWUQuiA9p+l/ZCZO7alrZxy3Tf6+bHe0Mewa133bC0eIAxykIT68bZ9eNwPh2/l0/L75vXs+b4f4ZSDaHbab0+4sT0N8HOLDy/G0+XY6/jw8T++vT6Pl+PTj+Gtc4X3CRYZGI4rwY/qSIJS/H75O9vvd4cI+RcCk7EOAHBxABTKACq1eB2SCXBWAChQPIL+zAsQICa8DCkKJGtAgOR5Kgag9pAbosMQBuChAzsDOlmqAotNQCJJDayOoekssvEUHUCHooCt2olcBAREQFaJFyOy6YJ3qlntY64AM2DSAITm8VsmTDkJ8No9XsplrDdiJgRNkvaULHq4VRyvWRc5u+RHbILzyk9qhoAHFjVpaKBpA6ptcBwSouufG+moOIC6Cxr7EOqBC1LUhuQweS6mTOAPY3ZL0XFsAyOkIlkq4CyC/Q7lnS9Ivke8JWsqfl7R6LdegGgDdAiTTo6nztg4okI2H4gc9z4N/LO+aoGrtu9FALGnSwnSzR5e6Icn3FH+pG77QjEPINLVImZMI6SA0NOU+lq71qFXX6Ar4/wCq5lXGUvVne9UeOENyMpfQDiFRT3aEiRoU7UGEJDi0kmxA63dGdy7SHOI820Pf5PpcrLaDot9BIVlaqfYCvjJ57WGAsE/79cRZmQmz8KzaywDSHBVAZ0wvzgEJ2BEAtO3sVx0Ba/7JPQJkOxZCT/i6GvVq6eYI7CVXiKvGnhxqghyfg7H3hEiCy2TtvXIu9niOvfpW7eM8Lj7p8daX0g3mdA7NW1+mgbYnaA79914vbtvLw+dd5mW3309Xocv/9u4jn6Z7U3z8Aw==);lineShape=1;strokeColor=default;" vertex="1" parent="118">
+                <mxCell id="116" value="" style="shape=stencil(nVfbchsxCP2afWUQuiA9p+l/ZCZO7alrZxy3Tf6+bHe0Mewa133bC0eIAxykIT68bZ9eNwPh2/l0/L75vXs+b4f4ZSDaHbab0+4sT0N8HOLDy/G0+XY6/jw8T++vT6Pl+PTj+Gtc4X3CRYZGI4rwY/qSIJS/H75O9vvd4cI+RcCk7EOAHBxABTKACq1eB2SCXBWAChQPIL+zAsQICa8DCkKJGtAgOR5Kgag9pAbosMQBuChAzsDOlmqAotNQCJJDayOoekssvEUHUCHooCt2olcBAREQFaJFyOy6YJ3qlntY64AM2DSAITm8VsmTDkJ8No9XsplrDdiJgRNkvaULHq4VRyvWRc5u+RHbILzyk9qhoAHFjVpaKBpA6ptcBwSouufG+moOIC6Cxr7EOqBC1LUhuQweS6mTOAPY3ZL0XFsAyOkIlkq4CyC/Q7lnS9Ivke8JWsqfl7R6LdegGgDdAiTTo6nztg4okI2H4gc9z4N/LO+aoGrtu9FALGnSwnSzR5e6Icn3FH+pG77QjEPINLVImZMI6SA0NOU+lq71qFXX6Ar4/wCq5lXGUvVne9UeOENyMpfQDiFRT3aEiRoU7UGEJDi0kmxA63dGdy7SHOI820Pf5PpcrLaDot9BIVlaqfYCvjJ57WGAsE/79cRZmQmz8KzaywDSHBVAZ0wvzgEJ2BEAtO3sVx0Ba/7JPQJkOxZCT/i6GvVq6eYI7CVXiKvGnhxqghyfg7H3hEiCy2TtvXIu9niOvfpW7eM8Lj7p8daX0g3mdA7NW1+mgbYnaA79914vbtvLw+dd5mW3309Xocv/9u4jn6Z7U3z8Aw==);lineShape=1;strokeColor=default;" parent="118" vertex="1">
                     <mxGeometry x="237.07739623720477" y="56.59775008167617" width="9.018052558748058" height="33.81995062022033" as="geometry"/>
                 </mxCell>
-                <mxCell id="117" value="" style="shape=stencil(lVfbUlsxDPyavGosyzc9U/ofzBBKppQwAXr5++o040MkONvh7cTR2pa0Wsk7uXq+v3na73J6fjkdv+9/HW5f7nfyZZfz4fF+fzq82NdOrndydXc87b+djq+Pt+ffTzeL5fL14/hz2eH3GdeppAWU05/zQm7U8r+Vr2f7h8PjhT1X0uEA0kjLNiALSXOAUufKxwClVBygMg1wgtR5gRWgpHUbUBJlD2iNKgNAocEO0DMJOKEmquIAIxOjE+q8wAroVEEeSqdR/ZWEkoIrMYlPXCuUBQAaZfVhNUDaBrQcuVSEBgIM4sClAp02F7MHLGztANBJuwckEnClIdQ8W5lJAUAt0z4PmTJwQXNkd6IOyK1CvQf7BIikRqQR7BlkWTvl4DClAewHtehvB9WsSi2QghTQlJP55wFWCChASiN7B8xjDEg+opwh6yxEw6eMCxUUU6scHyNTzYaCavuFKzVizKKm8YSOAGtWL3xAkjcsrBKj1IDTBkgt5iGD2hzjnYLBWrYDsk90hZKqKw3emDoQUzlKMBMDjbfK5HeVhvYvsXOuTN9iUZdgD0k0ppy/+QsrX0l8fLC8m736/bH2LvZ+f53qvXmfQFGe2rflsHilYMEZ/jRAZgQv2scA6mWcjt2gQfUaKcq7jVOokHub8r9mrcxp5mNAimVWhQqom2bjlD+hCR52NE54XWFPqJ3Eq9ciT2gU4ZiHizbx8XgkUSwUT50y4vAyKhXgtchk/+p1h9OO0b+E+tEp+1uTczihMVRUNn57gE1sqERNoUNJl0YF1ChPD1e22vgAuMSRrMZuNKQmKj5rNhCiakixq1lWGO4fZgsx0Yf27IkqmHZptsi1/Md8CGzER3x8rAdmQDpT9DDONmj/rkVZz6yAEGXy68I+o0qOkr2sADEydpVoj2rms6/T/9vbx9tT+O7w8HB+SV/+H5/OtnR+dsv1Xw==);lineShape=1;strokeColor=default;" vertex="1" parent="118">
+                <mxCell id="117" value="" style="shape=stencil(lVfbUlsxDPyavGosyzc9U/ofzBBKppQwAXr5++o040MkONvh7cTR2pa0Wsk7uXq+v3na73J6fjkdv+9/HW5f7nfyZZfz4fF+fzq82NdOrndydXc87b+djq+Pt+ffTzeL5fL14/hz2eH3GdeppAWU05/zQm7U8r+Vr2f7h8PjhT1X0uEA0kjLNiALSXOAUufKxwClVBygMg1wgtR5gRWgpHUbUBJlD2iNKgNAocEO0DMJOKEmquIAIxOjE+q8wAroVEEeSqdR/ZWEkoIrMYlPXCuUBQAaZfVhNUDaBrQcuVSEBgIM4sClAp02F7MHLGztANBJuwckEnClIdQ8W5lJAUAt0z4PmTJwQXNkd6IOyK1CvQf7BIikRqQR7BlkWTvl4DClAewHtehvB9WsSi2QghTQlJP55wFWCChASiN7B8xjDEg+opwh6yxEw6eMCxUUU6scHyNTzYaCavuFKzVizKKm8YSOAGtWL3xAkjcsrBKj1IDTBkgt5iGD2hzjnYLBWrYDsk90hZKqKw3emDoQUzlKMBMDjbfK5HeVhvYvsXOuTN9iUZdgD0k0ppy/+QsrX0l8fLC8m736/bH2LvZ+f53qvXmfQFGe2rflsHilYMEZ/jRAZgQv2scA6mWcjt2gQfUaKcq7jVOokHub8r9mrcxp5mNAimVWhQqom2bjlD+hCR52NE54XWFPqJ3Eq9ciT2gU4ZiHizbx8XgkUSwUT50y4vAyKhXgtchk/+p1h9OO0b+E+tEp+1uTczihMVRUNn57gE1sqERNoUNJl0YF1ChPD1e22vgAuMSRrMZuNKQmKj5rNhCiakixq1lWGO4fZgsx0Yf27IkqmHZptsi1/Md8CGzER3x8rAdmQDpT9DDONmj/rkVZz6yAEGXy68I+o0qOkr2sADEydpVoj2rms6/T/9vbx9tT+O7w8HB+SV/+H5/OtnR+dsv1Xw==);lineShape=1;strokeColor=default;" parent="118" vertex="1">
                     <mxGeometry x="227.5735954528261" y="72.28549242493182" width="35.33732373033909" height="24.424160391805707" as="geometry"/>
                 </mxCell>
-                <mxCell id="119" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" edge="1" parent="103" source="107" target="56">
+                <mxCell id="119" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" parent="103" source="107" target="56" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="180.04761904761904" y="350" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="120" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;This can also&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;be written/represented&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;like this&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="119">
+                <mxCell id="120" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;This can also&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;be written/represented&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;like this&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="119" vertex="1" connectable="0">
                     <mxGeometry x="-0.364" relative="1" as="geometry">
                         <mxPoint x="-3" y="25" as="offset"/>
                     </mxGeometry>
