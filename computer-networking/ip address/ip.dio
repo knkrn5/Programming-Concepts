@@ -1,21 +1,20 @@
 <mxfile host="65bd71144e">
     <diagram id="xQ9zxdjFQaUO4hLd8zcT" name="Page-1">
-        <mxGraphModel dx="1364" dy="1463" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1368" dy="1569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="11" style="edgeStyle=none;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="9" target="38" edge="1">
+                <mxCell id="11" style="edgeStyle=none;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="197" target="38" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="120" y="530" as="targetPoint"/>
+                        <mxPoint x="-50" y="540" as="sourcePoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="14" style="edgeStyle=none;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="9" target="46" edge="1">
+                <mxCell id="14" style="edgeStyle=none;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="197" target="46" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="110" y="600" as="targetPoint"/>
+                        <mxPoint x="10" y="540" as="sourcePoint"/>
                     </mxGeometry>
-                </mxCell>
-                <mxCell id="9" value="Types of IP&lt;div&gt;addresses&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" parent="1" vertex="1">
-                    <mxGeometry x="-80" y="480" width="120" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="36" style="edgeStyle=none;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="141" target="85" edge="1">
                     <mxGeometry relative="1" as="geometry">
@@ -38,12 +37,6 @@
                 <mxCell id="44" value="&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Network&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;interfaces&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;accessibility&lt;/font&gt;&lt;/div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font style=&quot;&quot;&gt;IP&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;background-color: transparent; color: rgb(192, 192, 192);&quot;&gt;&lt;font style=&quot;&quot;&gt;addresses&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="1" vertex="1">
                     <mxGeometry x="340" y="210" width="190" height="100" as="geometry"/>
                 </mxCell>
-                <mxCell id="100" style="edgeStyle=none;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="94" target="96" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="94" value="&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Defualt&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;gateway&lt;/font&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="1150" y="250" width="110" height="70" as="geometry"/>
-                </mxCell>
                 <mxCell id="20" style="edgeStyle=none;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="31" target="69" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="400" y="630" as="targetPoint"/>
@@ -54,11 +47,13 @@
                         <mxPoint x="630" y="620" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="31" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;IP&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;addresses&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;assigning&lt;/font&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" parent="1" vertex="1">
+                <mxCell id="31" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;IP&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;addresses&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;assigning&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;types&lt;/font&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" parent="1" vertex="1">
                     <mxGeometry x="450" y="480" width="120" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="29" style="edgeStyle=none;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="28" target="9" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
+                <mxCell id="29" style="edgeStyle=none;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="28" target="197" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="10" y="500" as="targetPoint"/>
+                    </mxGeometry>
                 </mxCell>
                 <mxCell id="30" style="edgeStyle=none;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="28" target="31" edge="1">
                     <mxGeometry relative="1" as="geometry">
@@ -82,11 +77,11 @@
                 <mxCell id="121" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="38" target="178" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="195" style="edgeStyle=none;html=1;exitX=1.001;exitY=0.12;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitPerimeter=0;flowAnimation=1;" edge="1" parent="1" source="38" target="190">
+                <mxCell id="195" style="edgeStyle=none;html=1;exitX=1.001;exitY=0.12;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitPerimeter=0;flowAnimation=1;" parent="1" source="38" target="190" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="38" value="IPv4" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#fad7ac;strokeColor=#b46504;" parent="1" vertex="1">
-                    <mxGeometry x="-490" y="620" width="220" height="170" as="geometry">
+                    <mxGeometry x="-500" y="730" width="220" height="170" as="geometry">
                         <mxRectangle x="-290" y="610" width="60" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
@@ -99,19 +94,24 @@
                 <mxCell id="43" value="3. Min IP address with IPv4: - 0.0.0.0 and Max: - 255.255.255.255 (cause 8bits can have max 255 combinations)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="38" vertex="1">
                     <mxGeometry y="110" width="220" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="190" value="Types of IP addresses" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
-                    <mxGeometry x="-220" y="630" width="170" height="130" as="geometry">
+                <mxCell id="197" value="Type of IP addresses" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+                    <mxGeometry x="-160" y="550" width="220" height="90" as="geometry">
+                        <mxRectangle x="-130" y="475" width="60" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="198" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;An &lt;span style=&quot;&quot; data-end=&quot;229&quot; data-start=&quot;180&quot;&gt;IP address is assigned to a network interfaces&lt;/span&gt;, not directly to the device as a whole&lt;/font&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="197">
+                    <mxGeometry y="30" width="220" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="190" value="difference" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#fad7ac;strokeColor=#b46504;" parent="1" vertex="1">
+                    <mxGeometry x="-230" y="740" width="170" height="110" as="geometry">
                         <mxRectangle x="-290" y="610" width="60" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="191" value="1. IPv4 and IPv6 are completely sperate interfaces, they are not&amp;nbsp;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="190">
-                    <mxGeometry y="30" width="170" height="50" as="geometry"/>
-                </mxCell>
-                <mxCell id="196" value="2. Some OS like window and mac map the IPv4 to IPv6, so thatways we are able t" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="190">
-                    <mxGeometry y="80" width="170" height="50" as="geometry"/>
+                <mxCell id="196" value="&lt;p style=&quot;white-space-collapse: preserve;&quot; dir=&quot;auto&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;IPv4 and IPv6 are not just different ways of writing addresses — they are completely separate protocols&lt;/font&gt;&lt;/p&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="190" vertex="1">
+                    <mxGeometry y="30" width="170" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="178" value="Subnet mask in IP" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" parent="1" vertex="1">
-                    <mxGeometry x="-240" y="990" width="280" height="270" as="geometry">
+                    <mxGeometry x="-310" y="1100" width="280" height="270" as="geometry">
                         <mxRectangle x="-290" y="610" width="60" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
@@ -124,7 +124,7 @@
                 <mxCell id="181" value="&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;3. Eg in IPv4: -&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: center;&quot;&gt;&lt;font style=&quot;&quot;&gt;192.163.0.200/24&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;text-align: center; text-wrap-mode: nowrap; color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;so here 24 means that the&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;text-align: center; text-wrap-mode: nowrap; color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;first 24 network bits cannot be changed&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(255, 255, 255); text-align: center; text-wrap-mode: nowrap;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-wrap-mode: nowrap; background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(192, 192, 192), rgb(255, 255, 255));&quot;&gt;by the host&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap; background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(192, 192, 192), rgb(255, 255, 255));&quot;&gt;and In&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;font style=&quot;color: rgb(192, 192, 192); background-color: transparent;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap; background-color: transparent;&quot;&gt;IPv6:-&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(192, 192, 192), rgb(255, 255, 255));&quot;&gt;2409:40d0:30a3:5a00::/56 means&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Fixed part: &lt;/font&gt;&lt;code style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; class=&quot;bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]&quot;&gt;2409:40d0:30a3:5a&lt;/code&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt; (first 56 network bits), and&lt;/font&gt;&lt;/font&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;Last 64 bits are Host bits&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="178" vertex="1">
                     <mxGeometry y="170" width="280" height="100" as="geometry"/>
                 </mxCell>
-                <mxCell id="139" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="77" target="137" edge="1">
+                <mxCell id="139" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="77" target="137" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="77" value="Public IP address" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#d0cee2;strokeColor=#56517e;" parent="1" vertex="1">
@@ -136,7 +136,7 @@
                     <mxGeometry y="30" width="220" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="141" value="IP addresses accessibility type" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#d0cee2;strokeColor=#56517e;" parent="1" vertex="1">
-                    <mxGeometry x="-20" y="90" width="220" height="170" as="geometry">
+                    <mxGeometry x="-40" y="90" width="220" height="170" as="geometry">
                         <mxRectangle x="-310" y="250" width="60" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
@@ -146,7 +146,7 @@
                 <mxCell id="177" value="2. In IPv6" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="141" vertex="1">
                     <mxGeometry y="100" width="220" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="136" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="85" target="134" edge="1">
+                <mxCell id="136" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="85" target="134" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="85" value="Private IP address" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#d0cee2;strokeColor=#56517e;" parent="1" vertex="1">
@@ -157,29 +157,29 @@
                 <mxCell id="86" value="1. Not visible to outsite networks" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="85" vertex="1">
                     <mxGeometry y="30" width="200" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="126" style="edgeStyle=none;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" parent="1" source="88" target="122" edge="1">
+                <mxCell id="126" style="edgeStyle=none;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="88" target="122" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="88" value="LoopBack IP address" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="1" vertex="1">
-                    <mxGeometry x="400" y="-110" width="230" height="230" as="geometry">
+                    <mxGeometry x="400" y="-95" width="230" height="170" as="geometry">
                         <mxRectangle x="450" y="20" width="60" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="89" value="&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font style=&quot;&quot;&gt;1.&lt;/font&gt;&lt;font style=&quot;&quot;&gt;&amp;nbsp;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;A special address that always points to the device itself&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="88" vertex="1">
-                    <mxGeometry y="30" width="230" height="40" as="geometry"/>
+                <mxCell id="89" value="&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;1.&lt;/font&gt;&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;A special address that always points to the device itself also called loopback interfaces&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="88" vertex="1">
+                    <mxGeometry y="30" width="230" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="93" value="2. In IPv4 we have entire 127.0.0.0/8 numbers of loopback IP addresses, and can not be accessed with IPv6 loopback address" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="88" vertex="1">
-                    <mxGeometry y="70" width="230" height="70" as="geometry"/>
+                <mxCell id="93" value="2. In IPv4 we have entire 127.0.0.0/8, more than 16 million numbers of loopback IP addresses" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="88" vertex="1">
+                    <mxGeometry y="80" width="230" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="92" value="3. In IPv6 we have only one Loopback IP address(::1), can be accessed with both IP loopback addresses if the OS maps the IPv4 with IPv6 (Dual socket), else only with IPv6 loopback address" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="88" vertex="1">
-                    <mxGeometry y="140" width="230" height="90" as="geometry"/>
+                <mxCell id="92" value="3. In IPv6 we have only one Loopback IP address(::1)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="88" vertex="1">
+                    <mxGeometry y="130" width="230" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="144" value="Host IP address" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="1" vertex="1">
-                    <mxGeometry x="680" y="65" width="250" height="250" as="geometry">
+                    <mxGeometry x="710" y="50" width="250" height="250" as="geometry">
                         <mxRectangle x="680" y="110" width="60" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="145" value="&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(192, 192, 192), rgb(255, 255, 255));&quot;&gt;1. Enables&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;white-space-collapse: preserve; background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(192, 192, 192), rgb(255, 255, 255));&quot;&gt;devices to communicate &lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;white-space-collapse: preserve; background-color: transparent; color: rgb(192, 192, 192);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(192, 192, 192), rgb(255, 255, 255));&quot;&gt;with other devices on a local network&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(192, 192, 192); white-space-collapse: preserve; background-color: transparent;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space-collapse: preserve; background-color: transparent; color: rgb(192, 192, 192);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(192, 192, 192), rgb(255, 255, 255));&quot;&gt;or the internet&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="144" vertex="1">
+                <mxCell id="145" value="&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(192, 192, 192), rgb(255, 255, 255));&quot;&gt;1. This Enables&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;white-space-collapse: preserve; background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(192, 192, 192), rgb(255, 255, 255));&quot;&gt;devices to communicate &lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;white-space-collapse: preserve; background-color: transparent; color: rgb(192, 192, 192);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(192, 192, 192), rgb(255, 255, 255));&quot;&gt;with other devices on a local network&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(192, 192, 192); white-space-collapse: preserve; background-color: transparent;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space-collapse: preserve; background-color: transparent; color: rgb(192, 192, 192);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(192, 192, 192), rgb(255, 255, 255));&quot;&gt;or the internet&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="144" vertex="1">
                     <mxGeometry y="30" width="250" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="146" value="2. In IPv4 we have 0.0.0.0, so this&amp;nbsp;&lt;span style=&quot;font-family: fkGroteskNeue, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;, &amp;quot;Hiragino Sans&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Apple SD Gothic Neo&amp;quot;, &amp;quot;Yu Gothic&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Microsoft JhengHei&amp;quot;, Meiryo; letter-spacing: 0.16px; background-color: oklch(0.2167 0.002 197.04);&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;means “listen on all local IPv4 interfaces,” so it only accepts connections on any local IPv4 address&lt;/font&gt;&lt;/font&gt;&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="144" vertex="1">
@@ -188,51 +188,37 @@
                 <mxCell id="147" value="&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;3. In IPv6 we have double colon (::),&lt;/font&gt;&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;it means it&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;font-family: fkGroteskNeue, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;, &amp;quot;Hiragino Sans&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Apple SD Gothic Neo&amp;quot;, &amp;quot;Yu Gothic&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Microsoft JhengHei&amp;quot;, Meiryo; letter-spacing: 0.16px; background-color: oklch(0.2167 0.002 197.04);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;l&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-family: fkGroteskNeue, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;, &amp;quot;Hiragino Sans&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Apple SD Gothic Neo&amp;quot;, &amp;quot;Yu Gothic&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Microsoft JhengHei&amp;quot;, Meiryo; letter-spacing: 0.16px; background-color: oklch(0.2167 0.002 197.04); color: oklch(0.9296 0.007 106.53);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;isten on all local IPv6 interfaces&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;, this&lt;/font&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(192, 192, 192), rgb(255, 255, 255));&quot;&gt; often enables dual-stack support (accepting both IPv4 and IPv6 via mapping), but this depends on the OS and configuration&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="144" vertex="1">
                     <mxGeometry y="140" width="250" height="110" as="geometry"/>
                 </mxCell>
-                <mxCell id="186" value="Dual-stack" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
-                    <mxGeometry x="990" y="-140" width="250" height="250" as="geometry">
-                        <mxRectangle x="680" y="110" width="60" height="30" as="alternateBounds"/>
+                <mxCell id="186" value="Dual-stack" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="1100" y="110" width="270" height="100" as="geometry">
+                        <mxRectangle x="1040" y="-75" width="60" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="187" value="&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(192, 192, 192), rgb(255, 255, 255));&quot;&gt;1. Enables&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;white-space-collapse: preserve; background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(192, 192, 192), rgb(255, 255, 255));&quot;&gt;devices to communicate &lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;white-space-collapse: preserve; background-color: transparent; color: rgb(192, 192, 192);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(192, 192, 192), rgb(255, 255, 255));&quot;&gt;with other devices on a local network&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(192, 192, 192); white-space-collapse: preserve; background-color: transparent;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space-collapse: preserve; background-color: transparent; color: rgb(192, 192, 192);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(192, 192, 192), rgb(255, 255, 255));&quot;&gt;or the internet&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="186">
-                    <mxGeometry y="30" width="250" height="50" as="geometry"/>
-                </mxCell>
-                <mxCell id="188" value="&lt;code class=&quot;bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]&quot;&gt;0.0.0.0&lt;/code&gt; or &lt;code class=&quot;bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]&quot;&gt;::&lt;/code&gt; (on some OSes) → May accept connections on &lt;strong&gt;both&lt;/strong&gt; loopback addresses" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="186">
-                    <mxGeometry y="80" width="250" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="189" value="&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;3. In IPv6 we have double colon (::),&lt;/font&gt;&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;it means it&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;font-family: fkGroteskNeue, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;, &amp;quot;Hiragino Sans&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Apple SD Gothic Neo&amp;quot;, &amp;quot;Yu Gothic&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Microsoft JhengHei&amp;quot;, Meiryo; letter-spacing: 0.16px; background-color: oklch(0.2167 0.002 197.04);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;l&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-family: fkGroteskNeue, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;, &amp;quot;Hiragino Sans&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Apple SD Gothic Neo&amp;quot;, &amp;quot;Yu Gothic&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Microsoft JhengHei&amp;quot;, Meiryo; letter-spacing: 0.16px; background-color: oklch(0.2167 0.002 197.04); color: oklch(0.9296 0.007 106.53);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;isten on all local IPv6 interfaces&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;, this&lt;/font&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(192, 192, 192), rgb(255, 255, 255));&quot;&gt; often enables dual-stack support (accepting both IPv4 and IPv6 via mapping), but this depends on the OS and configuration&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="186">
-                    <mxGeometry y="140" width="250" height="110" as="geometry"/>
+                <mxCell id="209" value="In Dual stack OS provides the dual protocol capability, but the browser (or application) intelligently manages which one to use through this racing mechanism" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="186">
+                    <mxGeometry y="30" width="270" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="122" value="why" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
-                    <mxGeometry x="770" y="-250" width="200" height="90" as="geometry">
+                    <mxGeometry x="700" y="-310" width="230" height="120" as="geometry">
                         <mxRectangle x="770" y="-250" width="60" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="123" value="1. why in IPv4 we have so many Loopback IP addresses?&lt;div&gt;ans: -&amp;nbsp;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="122" vertex="1">
-                    <mxGeometry y="30" width="200" height="60" as="geometry"/>
+                <mxCell id="123" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;1. why in IPv4 we have so many Loopback IP addresses?&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Ans: -&amp;nbsp; It was a mistake, that engineer reserved the subnet mask 255.255.255.0 to 127.255.255.255 for loopback interface&lt;/font&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="122" vertex="1">
+                    <mxGeometry y="30" width="230" height="90" as="geometry"/>
                 </mxCell>
                 <mxCell id="134" value="why" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
-                    <mxGeometry x="-80" y="-260" width="200" height="90" as="geometry">
+                    <mxGeometry x="-70" y="-290" width="200" height="110" as="geometry">
                         <mxRectangle x="-80" y="-260" width="60" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="140" value="1. why is public IPv6 is mostly unique?&lt;div&gt;ans: -&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="134" vertex="1">
-                    <mxGeometry y="30" width="200" height="60" as="geometry"/>
+                <mxCell id="140" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;1. why is public IPv6 is mostly unique?&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ans: -&amp;nbsp;because IPv6 addresses are massive&lt;/font&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="134" vertex="1">
+                    <mxGeometry y="30" width="200" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="137" value="why" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
-                    <mxGeometry x="-440" y="-200" width="200" height="90" as="geometry">
+                    <mxGeometry x="-440" y="-235" width="200" height="100" as="geometry">
                         <mxRectangle x="-440" y="-200" width="60" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="138" value="1. why is public IPv4 shared/same for many?&lt;div&gt;ans: -&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="137" vertex="1">
-                    <mxGeometry y="30" width="200" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="96" value="Defualt Gateway" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-                    <mxGeometry x="1260" y="160" width="200" height="70" as="geometry">
-                        <mxRectangle x="690" y="200" width="60" height="30" as="alternateBounds"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="97" value="1. This is also called router&#39;s IP address" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="96" vertex="1">
-                    <mxGeometry y="30" width="200" height="40" as="geometry"/>
+                <mxCell id="138" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;1. why is public IPv4 shared/same for many?&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ans: -&amp;nbsp;because IPv4 addresses are scarce&lt;/font&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="137" vertex="1">
+                    <mxGeometry y="30" width="200" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="130" style="edgeStyle=none;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;flowAnimation=1;strokeWidth=5;" parent="1" source="127" target="28" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
@@ -256,11 +242,11 @@
                 <mxCell id="182" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="46" target="178" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="194" style="edgeStyle=none;html=1;exitX=0;exitY=0.064;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitPerimeter=0;flowAnimation=1;" edge="1" parent="1" source="46" target="190">
+                <mxCell id="194" style="edgeStyle=none;html=1;exitX=0;exitY=0.064;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitPerimeter=0;flowAnimation=1;" parent="1" source="46" target="190" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="46" value="IPv6" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#fad7ac;strokeColor=#b46504;" parent="1" vertex="1">
-                    <mxGeometry x="10" y="620" width="220" height="300" as="geometry">
+                    <mxGeometry y="730" width="220" height="300" as="geometry">
                         <mxRectangle y="620" width="60" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
@@ -288,161 +274,14 @@
                 <mxCell id="74" value="1. automatic assignment by ISP -&amp;gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;can change anytime&lt;/font&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="73" vertex="1">
                     <mxGeometry y="30" width="200" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="102" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="101" target="94" edge="1">
+                <mxCell id="185" value="&lt;span style=&quot;text-align: left; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;Must know about computer number system&lt;/font&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.oval_callout;sketch=1;curveFitting=1;jiggle=2;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
+                    <mxGeometry x="630" y="350" width="130" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="202" value="&lt;li&gt;&lt;p data-path-to-node=&quot;4,0,0&quot;&gt;&lt;b data-index-in-node=&quot;0&quot; data-path-to-node=&quot;4,0,0&quot;&gt;The IPv4 Stack:&lt;/b&gt; Handles 32-bit addresses, uses ARP (Address Resolution Protocol) to find MAC addresses, and manages its own routing table.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p data-path-to-node=&quot;4,1,0&quot;&gt;&lt;span class=&quot;citation-9&quot;&gt;&lt;/span&gt;&lt;b data-index-in-node=&quot;0&quot; data-path-to-node=&quot;4,1,0&quot;&gt;The IPv6 Stack:&lt;/b&gt;&lt;span class=&quot;citation-9 citation-end-9&quot;&gt; Handles 128-bit addresses, uses NDP (Neighbor Discovery Protocol) instead of ARP, and has a completely redesigned packet header&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p data-path-to-node=&quot;4,1,0&quot;&gt;&lt;span class=&quot;citation-9 citation-end-9&quot;&gt;&lt;span class=&quot;citation-7&quot;&gt;Because the headers are structured differently, they are &lt;/span&gt;&lt;b data-index-in-node=&quot;57&quot; data-path-to-node=&quot;10&quot;&gt;&lt;span class=&quot;citation-7&quot;&gt;not backward compatible&lt;/span&gt;&lt;/b&gt;&lt;span class=&quot;citation-7 citation-end-7&quot;&gt;.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p data-path-to-node=&quot;4,1,0&quot;&gt;&lt;span class=&quot;citation-9 citation-end-9&quot;&gt;&lt;span class=&quot;citation-7 citation-end-7&quot;&gt;&lt;span data-path-to-node=&quot;15,3,1,0&quot;&gt;ARP (Broadcast-based)&lt;/span&gt;&lt;span data-path-to-node=&quot;15,3,2,0&quot;&gt;NDP (Multicast-based)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p data-path-to-node=&quot;4,1,0&quot;&gt;&lt;span class=&quot;citation-9 citation-end-9&quot;&gt;&lt;span class=&quot;citation-7 citation-end-7&quot;&gt;&lt;span data-path-to-node=&quot;15,3,2,0&quot;&gt;&lt;span data-path-to-node=&quot;15,4,1,0&quot;&gt;Optional (IPSec)&lt;/span&gt;&lt;span data-path-to-node=&quot;15,4,2,0&quot;&gt;Built-in (IPSec support is mandatory)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="1190" width="830" height="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="210" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;flowAnimation=1;" edge="1" parent="1" source="147" target="186">
                     <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="101" value="routers" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="1080" y="350" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="103" value="subnet mask" style="swimlane;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-                    <mxGeometry x="-475" y="1550" width="395" height="720" as="geometry"/>
-                </mxCell>
-                <mxCell id="105" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Subnet mask mean/defines the number of bits that&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;are fixed(network bits/ network portion)&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;and cannot be changed by the host,&lt;/span&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Only the &lt;strong data-end=&quot;301&quot; data-start=&quot;271&quot;&gt;remaining bits (host bits/ Host portion)&lt;/strong&gt; can vary/change.&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="103" vertex="1">
-                    <mxGeometry x="-35" y="22.469999999999963" width="430" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="68" value="" style="group" parent="103" vertex="1" connectable="0">
-                    <mxGeometry x="17.5" y="410" width="325" height="201.04999999999995" as="geometry"/>
-                </mxCell>
-                <mxCell id="56" value="x" style="swimlane;startSize=0;" parent="68" vertex="1">
-                    <mxGeometry width="325" height="201.04999999999995" as="geometry"/>
-                </mxCell>
-                <mxCell id="58" value="&lt;font style=&quot;font-size: 29px;&quot;&gt;192.163.0.200/24&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="56" vertex="1">
-                    <mxGeometry x="50" y="10" width="250" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="66" value="Network&amp;nbsp;&lt;div&gt;address/protion&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="56" vertex="1">
-                    <mxGeometry x="60" y="110" width="110" height="51.05" as="geometry"/>
-                </mxCell>
-                <mxCell id="67" value="Host&lt;br&gt;&lt;div&gt;address/protion&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="56" vertex="1">
-                    <mxGeometry x="190" y="100" width="110" height="51.05" as="geometry"/>
-                </mxCell>
-                <mxCell id="111" value="so here 24 means that the first 24 bits cannot be changed&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;by the host&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="56" vertex="1">
-                    <mxGeometry x="-5" y="161.04999999999995" width="330" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="60" value="" style="shape=stencil(lVnZbhsxDPwavxLULT2n7X8EiNMYTZMiTa+/72wNKRaVHaNv9ppjSTyGQ+0h3Hx/uP12PHj9/vry/OX463T3+nAIHw7en54eji+nV3w6hI+HcHP//HL8/PL84+nu/P3b7Wa5ffr6/HP7h99nnErJG8jrn/OD6CTHf08+ne0fT08X9lFime2zaNu3bxLSZJ+8OPL/LkqNM6BKTfsAnCDPK+QkVQkgSfAToKhUTwBVWpgBUZSsEMYRByBLqASQ+v8NQJHoCKBI8RbAvBRVYrUAZQAvdQ50SRIDAURpBgA3ELcicZoJXBVfCKBKmd2KSCvxUsKhZy9lbCkTwPh5AJBdbIXQM2dka5NMvJSQfGt6Ey8leMlZAPMSfg5tBpTut/cBTUq1AE/SO7se1wHIUoiXcrDJBzdkQhqIa5nrYXM0A1RbcYh9YIAmaXZrhJeIW984YgBQD6SASpAwnwHMGkgcysJLAZskcQCpGO4OVRJJ74LUMIAiifBSVdHZrWCqRrZUnfg5+cCFmQFAM3Mc0DGU1EONPTcHgNdDBfXOvIQeRgG189wAeFHi1qbLCq5H5n2Ak9YsIJEttdDbxwUgkORr0XKrA80QXmrZuhVeJWFo1e5IaUuEvWknvOe2Zosh9gd79nnej1Nx7MDN8qorXUi8L0xUbZP2kD6kerYl5kQKURKLWrO0hy7sWF4s6ipWqq4QBttNXNdbewDTQtMQBu8DirRoV6CBKAsT584JewA3Vw/EDS2GYgMHUmJSBsVgpIxH+2GRxpbmFVyitAeAoYxKmwnsyxzoII5taFTvW7lRF9XewN/sPUuL1pcfHuJZ0Tq/DXHYXbxnX5N1KOWXtlBqEH+l/ucdBZA2G2Ra//miPRde/kb1RD4FAKBze4aIYaoHUUtGV3nO8v8NKEv5Z0mMh9FHjIJOklgmRStiiuNbWnoh5gymPtduC0BiAIwNagGRxAGKIc3ZCvGnXJNkc+ihePdUjx2uKi24Ci/NBV34YALlZnoPnjBKgjb0cxw2aUbSe1WfAGSSS5u+NSuEPvbuKugF4EjgECbTewCgCtr1oXkA0CvIoTFnFEP0tafj3iRjhE/jvLTddsxnQElF4qV1GgOAKZ913kMN0iF3mSgBcGQFzKym4pqnt1DbVOwtgE72ySqlza1shWDvoQBgLRFM6k0clEYa5J6WFZh4g7ar2R46ENbASKtLHAq7w0m2A4HPmXiDPjV6Ei1GGUD7SDsAjR56u+kyOl35qBEWrtyGA3aZ5hc3VVoQfg0E7+w+iU82EEyPQX6lhTZYG3XRCkTQN9UOtk8Xrljj0nX5fKWS5wPk3Glnx97kBXitkQOrvUfLkXZQtdWZPR181Cr6rFf2r/Osd+XWbRkmU6Q0r/2m82KsumJv7vXHLfbeec0kOe5N9vxp3gPEnuM79kZIgjp4vIxSjY5eGPzve4zr9vjw9tLk/vT4eH7ncvm7fcmCR+cXNOHjXw==);lineShape=1;strokeColor=default;" parent="68" vertex="1">
-                    <mxGeometry x="68.14386169490331" y="51.15302697968173" width="120.23149807175425" height="6.891683940013233" as="geometry"/>
-                </mxCell>
-                <mxCell id="61" value="" style="shape=stencil(lVfZctswDPwavWIIgudzmv5HZuLUnrp2xnF6/H2hqpJF2FrZbzqwJAgsFmAnTx/bl/dN593H+XT8vvm1ez1vO/nSeb87bDen3VmfOnnu5OnteNp8Ox0/D6/D+/tLb9k//Tj+7Ff4PeBqpZJ7lHd/hi+eQv334etgv98d5vaBODb2mSqwL4l8a8+RGAByItcCvFB0y4AUyXEDEE+SlwFRKKUGEJhCWQaEYF0KhTI4g0y/R0AM1L8uAhLFNguxkFsBtC4lTwzOoC6ZKGncagSAas+QHbGAKDE51wI0cSBKQT02gEwB7eCptokrnkoCACFuD10K+QABoQ1r1UAjgFLNt4BMCYfVGUChBHYQoWoAlQIvA7Qg/3s8AxRADe8sl9i5MZc3EawVVOwWGSQi24pTe8hWmzcNkgBm6AnYZsED6k1MnqWZgWR4WzxVRQesP5XWZK+yCeLDbFNQBUoSK4/ZAhgIhrrkwyMAYapXOyCXJI8yfeehe9WNj0RVq1MeSlsvGObQmBfBkRgAJp5Eq5IrzPZTodxZOsq92oZ1tTrjVeawAFSKYu2RwoRRpe+UMCa+ygLSSGcbyYoIP25vkrzSFdw4Ed3ZdpjEjEi4r3lbByuNU9W3HRZWOnOk2HaQNDFkQa2LsVctAOvz9HuaXvTAKEDJetTPZEi9rgpZJzAGNaAjoGmzWtoF7KBSkVsSqQAmJPHKgRagTqIdNIipdYkDRVCWKdsdMgk4s7LGt7zgcYHb9mEUz4u9IFpcaZ2DZZB15AzGHjWQ4q7X98CfIvbq4sYNb9tnO1VgHa1uDMfMHsmojOmZ+Y+uUtEqu6OE/Ml2/GXsf7U6pA0XdMtZX7kAKgA8fHdctdeHy0X1bbffD/fc+X97sdVPw6VYnv8C);lineShape=1;strokeColor=default;" parent="68" vertex="1">
-                    <mxGeometry x="118.76945201810418" y="55.81144547437566" width="7.477281634973583" height="46.90115083703528" as="geometry"/>
-                </mxCell>
-                <mxCell id="62" value="" style="shape=stencil(lVfLbhsxDPwaXwlJFCXqnKb/ESBObdSNA8d9/X25WMi26N0xeluvOcvXDClt+Olz9/Kx3aTweT4dv29/71/Puw1/2aS0f99tT/uzPW34ecNPb8fT9tvp+PP9df798TJZTk8/jr+mL/yZcTFQ5AmVwt/5Teovvs72h/37rX2jKoN9zJTDOiA14jo6UAp5HcCNchoAmSm3dUBWyjoApFKRdYAI6RhSsSCBhxK9h6qkIIdSqY05qCUNyloypTGkWiiBHIqS5DHpRq2sAypTGxudzSdonKUocQBwpACqpFbW0UMUCsCDVqplBCRS4KEZWcekY4Sdbolq8oAcAUAoJR9SRCHVzpwLgHvvlwFKzQEKDql5tpoGkeIM4MhnmhaFgDhqOgkVFJLpyw0NpYg8CMkI4EABVYkpiAc0oDijRq4eoEBxkyBd0q2TZRlQ7gDGX1AlzVSqLytK2gBh1EOKMGkDJMclpVqhRNnR20QLpoZJ1IVk9BakaZuk49QwxaG51CKpeAAjLuUulxuAIi6VuyHAcLaaROVukAmWqOu09YFBH2IIfTLetFpQEq2X/QIweiFBKKWxTEZXODaWAGgrmuRk7Fw2foPOGfvi2AjBk0xDX5qXrch9ei7vrOLXqKlWQaur5eD4fW3N8uFBe9k7YpqGgOCS/GSymBgAsn3PnTYKNUC/HDr/L+cZgUvLFnl1hwdbi6BMRk43aNhCQgQ3D3d0ZVBWs3eSu5Rt0T4sTA3EvUBp7HN78Hknz9ortmY+lkeowWDcyepRbZJbPFRBd5PXQOxHxWUy9MN1Nw99uS+Tre+Lq3kE3CyeOFhd1dMm9IW1PIIouFUArxb/fdl5aG8P15vV2/5wmC9mt//7m5i9mm9x/PwP);lineShape=1;strokeColor=default;" parent="68" vertex="1">
-                    <mxGeometry x="109.0725571376729" y="95.43618930033858" width="19.21231563090783" height="15.613897575873182" as="geometry"/>
-                </mxCell>
-                <mxCell id="63" value="" style="shape=stencil(rVfbbtswDP0avxKi7n7uuv8o0HQJliVFmt3+fscznJlSfNYBe3Ni0hJ5LpSG8PC2f3rdDd69XS/nz7vvh+frfggfBu8Pp/3ucrjiaQiPQ3h4OV92ny7nr6fn+ffr0xQ5PX05f5u+8GPOU6njlOTdz/mPlCS63/98nOOPh9MqfhSfTHzM4vJ2vI4SokkIWXzcTggqalfwRUrYTohBkrcJumzybkIKUpxJ0CqZ1JBVnG2SluUT9xNQotqEJLluJxSVmG2CSiE1lCTebqlKZAuMEm2TEi25RtEGNqkEtYrlG9QkMBrhte2Qk8Tis+Q23rH40mEslcWDAcXEF3GexHf9BMKqNKFW2yBASGit7lbhSjmBL1EsiWIRHWmCtyukLIWgjC4Fu0IOMhKaAoZG/bmKKxTnxl+QwJQzpqXEWwKYzYqO4i0QCViyooPkRjrgKqshiLdcioCSAdclQM2VqLPfEhyMyq0rGjUT8vVdDaIMhQ42t1DrnbxwUlmHOuJFGdn+O2arX8bKO7UDw2AWf0+eXhLrUecAmFzMg3uPmSYXI95tjN20oJxHnUtm2B7HubFhyLP+14RuMCAhkIR+8mD6Mhz60QbHcMQA+tkJ1/NkOPTDOTuJhN7T+G88qSyWsHnAsEWnSOchiNAUDS6xcxteV9eukEmXQObSsBVWTzSKg17scMhsInYaRaPZliA426Ra6CEJ+g3WJPEFgoJvHWBlCvcraGGGYiuruF0AcmK2jblkeQc1MZt07VSAmBJxSbeYwy0+LC3birf7L1WUNBTxFrDipRDA3HKCWtlXpt9vbgoQshICORmtF01HBdIfXZxqdZ6qxCj+9fL193g8/LnpvRyOx/miuH7f3gzx13yrDI+/AA==);lineShape=1;strokeColor=default;" parent="68" vertex="1">
-                    <mxGeometry x="204.71868896854699" y="48.96887407136933" width="45.587420123604744" height="4.489893079959681" as="geometry"/>
-                </mxCell>
-                <mxCell id="64" value="" style="shape=stencil(lVfZctswDPwavWJIgOdzmv5HZuLUmrp2xnGvvy9UhY5IWuvoTZaxwrULgoM8vO2fXncDm7fL+fR993t8vuwH+TIwj8f97jxe9GmQx0EeXk7n3bfz6efxef79+jRZTk8/Tr+mL/yZcdYYMmaCsfk7v2KS/P/F1xlwGI8LQM6UubLPZCywTxRsZW8jRQcAgYzUASWyyIMliRVAMnkASI64BnhDidcB0ZXvFUAw5OM6IHgSXwNSCfImwGeKqQKoTwE5+EgcakAiBmX1qbSpAJIQG5CD1qTuQ4qUATOCdMwIFJAHJq6rlCMF4EGTdnUOE7vCOsApWWtyK30d6LQzbacVkNI6QAxxXaWFom4i2JCV1kUESVjb0lUBFpTJFW4uqvROx5v2hmLXBhFk/+590WcG9ky5pmr2ZIEYUinH1d4VotwuUCi8vAKEPCgQB0qmBSDxSCTrtgCchtQBUEj+WpJPJq3yzHFLVVWesQkJt00BbUiYFzrEpPGAieeZQsO8DGeSk3ZM3tGOCIUacFeeQq4bGWgCWEeGWwCaMaEbMXiIWQpdGwIIqDvQ74zhrfbSyn86F0D8nXYSw3PEagdqBzEWnqxN1GYGR+UJkMI0YWpAiJRASKp/qWuk8rPo4FFp1U32eGNQKXC3xEDtePJ1WTUrg9QZupMKL2Lebdv01D41EcFNUjNo+mwp4ZXHcWPPaOBpxWt7PejQ/uLKhP6wdyCekNttxBSmr22R0TT2aBIl0wrnjr3WUzbEk027fuF89UCSLfXM3baG+5W74wPzYfPV5RMAffi4Kb2Mh8N80Vr+396s9NV8K5PHfw==);lineShape=1;strokeColor=default;" parent="68" vertex="1">
-                    <mxGeometry x="225.2121679227871" y="52.46786046805437" width="4.26643263676879" height="40.02014826048322" as="geometry"/>
-                </mxCell>
-                <mxCell id="65" value="" style="shape=stencil(lVfLbhsxDPyavRKSqOc5Tf8jQJzaqGsHjtsmf18utpJN2jtBbmt5KJHDoUhN/PC2fXrdTMG9nU/Hn5u/u+fzduJvUwi7w3Zz2p3la+LHiR9ejqfNj9Px9+F5+f36NCPnr1/HP/MO74tdouZno+A+lgVZycvK9wW/3x2u8D5RCsqAmbJbNwiFYlIGMRKXdYPoyGVlkDJVcEIKlJsyKI48OCF7ylEZVEcNGUgMmqVaKQCWiqeqWWpMqQGDQKXoGBrlCgyEEx1DTtCl6vt+Iw+FfAIG2eaBhSWQh9ooagOPWRJOoo5BMpkh3ojVUwIctdi363hHJQC8SJ8N3qP9MxVn8A4Q1AoV6w/kp3Z3r/xH/jRbah7z2ag2w38BeO9GfEMS1ICE5ICiHUrkUcCt8z1ETZ4hQWyKoEe0lgDWCZYFJIhMIVk8uCfaKMEL3iH/Yz/+4v//gNYKIBfDJyNBsOUnUsD7s46XyaH8MhVbkA3xGbu7F0E35L/w2Qz+k3yZeEWwCC/3ui0wjwq43uITLrAQDT8wv63X96Ugkd7uFmTCBVm1gCIVJNCv4iVhGj9nADkUyOmIOVBFbayS05KLcmmAHFfuPWLUWIFJkMbbtOhqoIBbcdNBS12gMsvSFk2jdLhz5NCHsnGErABeU7GVUFOv7ftTV+1KHldXhLXJMjlqAxmrUDMQaUat1TiYvq9uT1EnghscBH3X/pWWGOCdbX/s+wCwgjcByECE/JGcmvY6ymkNr/cPlSpIgevCH/gCBzRn5zNpNyjF43K+wqO52tvuJO0pAT4DxRu8Q5Kz3Uluowqu32i794wH+6cbPmUF1PFX306f4+Xj8lB72e33yzvv+n/7sJOl5VHIj/8A);lineShape=1;strokeColor=default;" parent="68" vertex="1">
-                    <mxGeometry x="215.84124759123142" y="79.09399336909723" width="27.815421337328935" height="25.20827392320991" as="geometry"/>
-                </mxCell>
-                <mxCell id="118" value="" style="group" parent="103" vertex="1" connectable="0">
-                    <mxGeometry x="17.5" y="110" width="320" height="200" as="geometry"/>
-                </mxCell>
-                <mxCell id="107" value="x" style="swimlane;startSize=0;" parent="118" vertex="1">
-                    <mxGeometry width="320" height="200" as="geometry"/>
-                </mxCell>
-                <mxCell id="108" value="&lt;font style=&quot;font-size: 29px;&quot;&gt;255.255.255.0&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="107" vertex="1">
-                    <mxGeometry x="30" y="10" width="250" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="109" value="Network&amp;nbsp;&lt;div&gt;address/protion&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="107" vertex="1">
-                    <mxGeometry x="60" y="110" width="110" height="51.05" as="geometry"/>
-                </mxCell>
-                <mxCell id="110" value="Host&lt;br&gt;&lt;div&gt;address/protion&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="107" vertex="1">
-                    <mxGeometry x="190" y="100" width="110" height="51.05" as="geometry"/>
-                </mxCell>
-                <mxCell id="112" value="" style="shape=stencil(lVnbUlsxDPyavGpsy9dnSv+DGaBkSoEBevv7rps6xHLOUt7SVIstW7taOTu9eLm7errZBffy+vz49ebn/vr1bqefdiHsH+5unvev+LTTy51e3D4+33x5fvz+cH3499NVj+yfvj3+6H/h1wHnxbcOCu73vy+SRP37zedD/P3+4SQ+SotTPL6pZTu+SZn/viZxbTseywc/AWKWSADBiS8TIGVJDBAlpAmQVZIngCJu3lIu0hIBVGkGUKWGbYA6ickCMtmSqqjaLbFrU9xbmAFZKjklzZIXQCQXrVWSs4CQSSW5JYcsjpVeEG8ASSo5pahSvAVEtqUkzawQJVYCKJIMQMe5nQc00TwDAr3p5MeOjwAnjVxcUsu4lKSQpEEXnYsPjCuRAKqooagTx1ZoUufS0EJPKXvJBgCVIaWBa3JzDhAeRyiKQijzCpAFR5IGv+q8gq9UyAo4PZ+Sj6N+zwN0VP8RECSSUyrIYaaod0OpzgOqZRxSIAtUSOss9lxZq7f0CRLImdY4TnDEOypiNY8/9xbP7qwivWrj3XZ8c1ZgHL3iFkSDiWeK16JoMfHK9pNGa32L9yweTaOY888svtnmn6jEIz4vBReIPALQZpZ5VBCpOO+ON3RMAc2ZELkvMe8JzZRpS09iFlSIEa2KZv0CGhGjDa6hzGWKvuJZDtVaGCiwYxdRRs84AqJkdhFFvAHA+LEc0AJmKsC3FbalPDzUiQJ7Rp6jnTgCAu0iAJik4RU9oT8ApjQajy+WnnE0ia14Y/MgdyzjOrzEWzzdT7MNIb7HtjjTuVLnjPhq6ByHoG1ybV6gjw9cMJq546N32AKUGdDHBU7OOOsFvEhih1ptUYA6yslpHFsnJzulYg0Y6B95HX0QsPSF7nQ/1HgASAywdDYAaCtZWmffEimNtTcDwAbJ3vzTAuDuwsqwUpGswZb3O0nD7wSTdKYXV5rVvFjpfFEgSWZL0DBycSVakUyBeqribYvGuKDMardlBVhjsiU4ZzsYwpYQXYI3z8v4TLekdr4oYQzU5wHBjgsl02aVFuWDl2ZmHjNSmMsbZpoVH07d6BIYUkktpWiVDyxnLR2TZJ5z6PLMxudlVj2xZ/85Dne5Jee6DtyNn+s60ndrQ656fTTo1oZtaXmW6NbmQw8fALBy1cXIAMB8fX+8MQBQhK2gdkJHbTTCUXhm0yDQAQopV/Rx06jRARrZEkZHw9FaRsVvPdO5Wb6rjg5wfnZYJgGQmnVFv7xlQqqUeQdrcVOmKUT7igF+sDNy443jxMswt+SWV5I23hw24k0zweTDXlWcfYqFGWMa5uw4jzpkY4wbPupkdGN2cp0NC1U8ZysocIVcnjtgb1k9uGH3T56EGo03/twX+kjlrNZh4GEtwY1X6ZN4ypgPvv2/H48Pbz803O7v7w+/U5z+v/1hAl8dftTQyz8=);lineShape=1;strokeColor=default;" parent="118" vertex="1">
-                    <mxGeometry x="59.18943277753101" y="50.328549327463406" width="160.19263831652225" height="12.832356793689021" as="geometry"/>
-                </mxCell>
-                <mxCell id="113" value="" style="shape=stencil(lVbLbhsxDPyavQ4kUQ/qnKb/ESBObdS1A8d9/X25XcgJpS69va1lkhqSw6EmenjbP73upuDerpfz193Pw/N1P9GnKYTDab+7HK7yNdHjRA8v58vuy+X8/fS8/H59mi3nr2/nH3OEX4uf96h19gru93JSQOHvwefF/ng4fbAPGako+4yc1u1jRA7KPprxcwCzsveIvG7PCazxODi3bl8dSOcbGsB/20dE0ngcgnVBQdIJSAY1Gg4VySkHkpLSuoN3txSbRwoo3rzCed00RrIcbk1tDhxAxXAg+KwcqjTSyJoZVUOqDDayZuGNboRkZSVdKqpmXk0gg0olw+sbOIOMVhcC6aTlJFqQhAld4xjOgjQ4xNvJRkjvA7sxaU/I9X/KGs0BmvsWuwENRvyRGB7+DvO0AJRGxVVq6wr5gmzPp9MJk28Tu3U+o4iqPZ+dBGRqMrVRZIoQyarSIGNcwRYk12blNj3FhDQLcVdXZ0vxKN33PMblIKKRDPKN20c0IBsDN6434RcZ+23cnyJ81g0VXre6yoIz6Jf7PnBBMfpAqJ29IDQSCHBa6UtEMPA4lI6qqSnIin2/q8TejN/PTgQb+Ac8FBsRt+UbEooRf6in5xZhW798QLAGreeDMNqAL9G6+tjvtfvvO/l4fxy+HI7H5W358f/+MSlHy0OUHv8A);lineShape=1;strokeColor=default;" parent="118" vertex="1">
-                    <mxGeometry x="231.6886465226953" y="54.505802853431305" width="17.284167895013525" height="4.893167823643342" as="geometry"/>
-                </mxCell>
-                <mxCell id="114" value="" style="shape=stencil(lVfLctswDPwaXTEkAYLkOU3/IzNxak1dO+M4ffx9oWoUm1C9sW+KjA2JBXYBDfzwtn163QwpvJ2Oh++bX+PzaTvwlyGlcb/dHMeTPQ38OPDDy+G4+XY8vO+f579fn6bI6enH4ef0H37PuBgChTDBUvgzv2Kq/O/F1xmwG/cXgFao5S4+RpIAAJmyA1TSBgCJVDpAUkrgSrVSSX0KQkUBIJNoB5BEtQBAotI6QA7E6EqBSs9qVqr1OqA0itwBNFIRCHB10EoM6lAjaX9CYUoo6eiTtjMVJF0yhf5KVUgzAChxX7gmVFHSsgIoCegl4yT3vTT1L0g6N8qlB1hl0nWAGOvqARUAWCnUXg9nDf4XkYQC+yMU0BSZpC9EM4mA7lvpwVjK4EaBat8ZJvIGCh0W/V7UGbUeU3bx5glA0DGQuKpFSiBhuxH3+mx2R3ACJ2+TtVEBYhBr1XwPwAzCqWe6EiBJ8+IoNyZdzOTCilZwgukzOoDgE6yRXOFwYxTrJJc07jxNK8AnrZ0WEm8Ujxjr8T59mqWs9IksIOrSCZcmEwFNVIpnqSE9UHP6NJsEJK12gMmHQa/eH597Sm1kK2CUV2LjxcevEeq0UwoJINRWkOIAAa4MRqnbMUx+ATlMJeknjwlcPnGY/kpiIx6cwNkPEttiEEtcvM3bngSv1Cj0fWeTooJxK9EnbUQzcBhhT6ttkxGdIMv4Pq+rCgoteRHKRwrLidfGufTSiTBjsxdxCVAElGaztz7etAGKrLwI9xyP+NHm+cHeZRavwcejxXYlTTyk6oc7n+MLqFezcno+GdTLjNCtFgnK0oyWm4tvIN+7v49uANjD+XPsZdzt5q+5y9/955u9mj/9+PEv);lineShape=1;strokeColor=default;" parent="118" vertex="1">
-                    <mxGeometry x="115.70534221520484" y="59.98642870083722" width="5.5938714329433425" height="41.2722436654898" as="geometry"/>
-                </mxCell>
-                <mxCell id="115" value="" style="shape=stencil(7VjLUhwxDPyavapsyc8zSf6DKpawFcJSC3n9feRsPIzEbFO55cBtWNQzstzdkr2Tq6e768f9jsPT8+n4Zf/jcPN8t5MPO+bDw93+dHjWp5183MnV7fG0/3w6fnu4Of/9eD0ix9PX4/fxhp9nXCNuA8Th1/kHjhTCn18+nePvDw+r+BgpFwvoVAQAEuVuAFIpNAColKIBpEQCAByoVQPIhSIDgBAnAyj6hQ4AmXowgMrU0BeaX3TVKtXLAIkkdg2tkIAvKKBnC6gUEwAwJQfoFMFOK6DYKvVIEVRpfMEuumuhMSCwBWRiXCW2a+h1vmIbEIjFAholUCUls0+pY0Cl0j2ggzWw7quldwwBSo7TfOHqExnzuya/6oxyYqrB1xVttZqEE4TuXMJfyLauym+OuEzWZ6pQyJBM3W6EihoZU1IJW25kLTTwmSyUrVeqMUWQUpH5vsX6EuS3ukqyZdUyMPhCrdTtGtQM/9ZtE9DSK/bJrNsmQCUcreS0P4Al9DR5MONVgoDcypseXTxStBJTfHwGCx7MF5d/BRUdcrfxAok91G6JnSkDvxjxjtdTrJfis9MyNZR/836kHbugD1SvzMiTVNuAMvvMikLIXZQSzl0GAGhfOSfZpwSLxMTsF41koJ3MNUMtM2JpnK3yZdfeeD97VkQcX92QBJu5LrhaFkWcf6LgVZPQDmSvAtyilBOtuHhB8e21qzCwXlVBtK7CWAUqEjdDwnlt1YJfNjigAnWqbrCYGV6KdxugDA3Id9XZncoYG90/A4SKS0l3BQi/Nd+SGY/NLVKzKWmVEO3qMrevGmYHPCrNlzUJFEJuvn1o00fKTK8OSKVAaqfg7VFX1dAUrHONBegkn4EYdAp24le5FjQFv58V3s8K/9lZAZ3nox8hxwSBbgyatz7ld0N3EmXOsItGG5yCx5DsRB2gRtXdm110CVO1227sp7Ac595vO59PSM8iDJYs04MWZy1wrg1U3Emkwo6rrufukcoc4i7Eu36rzK0g/zDvjJZ4gY6k842t55iQgDaDP6qNFYH8l1PEoswOBwY1SPv+0WyR31F1yq+wPotCVvEF5J/94VfjkRUVz2fNH11o1Xn2XtWngv3avIcE9Xz73lIfXi49bw/39+c70/X//SWp/nS+YJWPvwE=);lineShape=1;strokeColor=default;" parent="118" vertex="1">
-                    <mxGeometry x="103.30009779355737" y="87.90033076028612" width="39.19649332254412" height="25.622767136678156" as="geometry"/>
-                </mxCell>
-                <mxCell id="116" value="" style="shape=stencil(nVfbchsxCP2afWUQuiA9p+l/ZCZO7alrZxy3Tf6+bHe0Mewa133bC0eIAxykIT68bZ9eNwPh2/l0/L75vXs+b4f4ZSDaHbab0+4sT0N8HOLDy/G0+XY6/jw8T++vT6Pl+PTj+Gtc4X3CRYZGI4rwY/qSIJS/H75O9vvd4cI+RcCk7EOAHBxABTKACq1eB2SCXBWAChQPIL+zAsQICa8DCkKJGtAgOR5Kgag9pAbosMQBuChAzsDOlmqAotNQCJJDayOoekssvEUHUCHooCt2olcBAREQFaJFyOy6YJ3qlntY64AM2DSAITm8VsmTDkJ8No9XsplrDdiJgRNkvaULHq4VRyvWRc5u+RHbILzyk9qhoAHFjVpaKBpA6ptcBwSouufG+moOIC6Cxr7EOqBC1LUhuQweS6mTOAPY3ZL0XFsAyOkIlkq4CyC/Q7lnS9Ivke8JWsqfl7R6LdegGgDdAiTTo6nztg4okI2H4gc9z4N/LO+aoGrtu9FALGnSwnSzR5e6Icn3FH+pG77QjEPINLVImZMI6SA0NOU+lq71qFXX6Ar4/wCq5lXGUvVne9UeOENyMpfQDiFRT3aEiRoU7UGEJDi0kmxA63dGdy7SHOI820Pf5PpcrLaDot9BIVlaqfYCvjJ57WGAsE/79cRZmQmz8KzaywDSHBVAZ0wvzgEJ2BEAtO3sVx0Ba/7JPQJkOxZCT/i6GvVq6eYI7CVXiKvGnhxqghyfg7H3hEiCy2TtvXIu9niOvfpW7eM8Lj7p8daX0g3mdA7NW1+mgbYnaA79914vbtvLw+dd5mW3309Xocv/9u4jn6Z7U3z8Aw==);lineShape=1;strokeColor=default;" parent="118" vertex="1">
-                    <mxGeometry x="237.07739623720477" y="56.59775008167617" width="9.018052558748058" height="33.81995062022033" as="geometry"/>
-                </mxCell>
-                <mxCell id="117" value="" style="shape=stencil(lVfbUlsxDPyavGosyzc9U/ofzBBKppQwAXr5++o040MkONvh7cTR2pa0Wsk7uXq+v3na73J6fjkdv+9/HW5f7nfyZZfz4fF+fzq82NdOrndydXc87b+djq+Pt+ffTzeL5fL14/hz2eH3GdeppAWU05/zQm7U8r+Vr2f7h8PjhT1X0uEA0kjLNiALSXOAUufKxwClVBygMg1wgtR5gRWgpHUbUBJlD2iNKgNAocEO0DMJOKEmquIAIxOjE+q8wAroVEEeSqdR/ZWEkoIrMYlPXCuUBQAaZfVhNUDaBrQcuVSEBgIM4sClAp02F7MHLGztANBJuwckEnClIdQ8W5lJAUAt0z4PmTJwQXNkd6IOyK1CvQf7BIikRqQR7BlkWTvl4DClAewHtehvB9WsSi2QghTQlJP55wFWCChASiN7B8xjDEg+opwh6yxEw6eMCxUUU6scHyNTzYaCavuFKzVizKKm8YSOAGtWL3xAkjcsrBKj1IDTBkgt5iGD2hzjnYLBWrYDsk90hZKqKw3emDoQUzlKMBMDjbfK5HeVhvYvsXOuTN9iUZdgD0k0ppy/+QsrX0l8fLC8m736/bH2LvZ+f53qvXmfQFGe2rflsHilYMEZ/jRAZgQv2scA6mWcjt2gQfUaKcq7jVOokHub8r9mrcxp5mNAimVWhQqom2bjlD+hCR52NE54XWFPqJ3Eq9ciT2gU4ZiHizbx8XgkUSwUT50y4vAyKhXgtchk/+p1h9OO0b+E+tEp+1uTczihMVRUNn57gE1sqERNoUNJl0YF1ChPD1e22vgAuMSRrMZuNKQmKj5rNhCiakixq1lWGO4fZgsx0Yf27IkqmHZptsi1/Md8CGzER3x8rAdmQDpT9DDONmj/rkVZz6yAEGXy68I+o0qOkr2sADEydpVoj2rms6/T/9vbx9tT+O7w8HB+SV/+H5/OtnR+dsv1Xw==);lineShape=1;strokeColor=default;" parent="118" vertex="1">
-                    <mxGeometry x="227.5735954528261" y="72.28549242493182" width="35.33732373033909" height="24.424160391805707" as="geometry"/>
-                </mxCell>
-                <mxCell id="119" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" parent="103" source="107" target="56" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="180.04761904761904" y="350" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="120" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;This can also&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;be written/represented&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;like this&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="119" vertex="1" connectable="0">
-                    <mxGeometry x="-0.364" relative="1" as="geometry">
-                        <mxPoint x="-3" y="25" as="offset"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="176" value="The /x&amp;nbsp;notation tells us how many bits&amp;nbsp;&lt;div&gt;are used for the network portion.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="103" vertex="1">
-                    <mxGeometry x="75" y="630" width="230" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="151" value="IPv6 representation" style="swimlane;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-                    <mxGeometry x="-30" y="1540" width="330" height="650" as="geometry"/>
-                </mxCell>
-                <mxCell id="154" value="" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;strokeWidth=3;" parent="151" source="150" target="153" edge="1">
-                    <mxGeometry x="-0.1847" y="-35" relative="1" as="geometry">
-                        <mxPoint as="offset"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="150" value="&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;2309:40d0:103b:867f:fe3f:0102:4071:0d31&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="151" vertex="1">
-                    <mxGeometry x="60" y="32.47" width="250" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="158" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;strokeWidth=3;" parent="151" source="156" target="157" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="156" value="&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;2309:40d0:103b:0000:0000:0102:4071:cd31&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="151" vertex="1">
-                    <mxGeometry x="60" y="160" width="250" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="161" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;flowAnimation=1;" parent="151" source="159" target="160" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="159" value="&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;0000:0000:0000:0000:0000:0000:0000:0001&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="151" vertex="1">
-                    <mxGeometry x="60" y="290" width="250" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="171" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;flowAnimation=1;" parent="151" source="169" target="170" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="169" value="&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;0002:0000:0000:0000:0000:0000:0000:0000&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="151" vertex="1">
-                    <mxGeometry x="50" y="530" width="250" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="164" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;flowAnimation=1;" parent="151" source="162" target="163" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="162" value="&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;0000:0000:0000:0000:0000:0000:0000:0000&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="151" vertex="1">
-                    <mxGeometry x="60" y="410" width="250" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="157" value="&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;2309:40d0:103b::0102:4071:cd31&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="151" vertex="1">
-                    <mxGeometry x="60" y="230" width="250" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="153" value="&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;2309:40d0:103b:867f:fe3f:102:4071:d31&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="151" vertex="1">
-                    <mxGeometry x="60" y="100" width="250" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="160" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;::1&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="151" vertex="1">
-                    <mxGeometry x="135" y="360" width="100" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="163" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;::&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="151" vertex="1">
-                    <mxGeometry x="135" y="480" width="100" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="170" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;2::&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="151" vertex="1">
-                    <mxGeometry x="125" y="610" width="100" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="173" value="Vertical Container" style="swimlane;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-                    <mxGeometry x="1330" y="-135" width="200" height="200" as="geometry"/>
-                </mxCell>
-                <mxCell id="183" value="if Ipv4 host e" style="rounded=1;whiteSpace=wrap;html=1;" parent="173" vertex="1">
-                    <mxGeometry x="20" y="40" width="160" height="140" as="geometry"/>
-                </mxCell>
-                <mxCell id="184" value="IPv4 and IPv6 loopback addresses are separate,&amp;nbsp;&lt;div&gt;though modern operating systems may support&amp;nbsp;&lt;/div&gt;&lt;div&gt;both via dual-stack networking.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-                    <mxGeometry x="710" y="-77" width="290" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="185" value="&lt;span style=&quot;text-align: left; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;Must know about computer number system&lt;/font&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.oval_callout;sketch=1;curveFitting=1;jiggle=2;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" vertex="1" parent="1">
-                    <mxGeometry x="1295" y="280" width="130" height="100" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>

@@ -1,0 +1,61 @@
+<mxfile host="65bd71144e">
+    <diagram id="fZmnuzwTkHFbN5up9tdg" name="Page-1">
+        <mxGraphModel dx="2505" dy="2508" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="16" style="edgeStyle=none;html=1;exitX=0.55;exitY=0.95;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="18" target="19">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="780" y="440" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="17" style="edgeStyle=none;html=1;exitX=0.8;exitY=0.8;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="18" target="20">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="990" y="390" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="18" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Network&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Interfaces&lt;/font&gt;&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="980" y="200" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="&lt;span style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;1. Every network interface have the sperate access point for both IPv4 and IPv6&lt;/font&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1000" y="490" width="170" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="suppose i am connect to both wifi and ethernet and both with have sperate Ipv4 and Ipv6 and in this case i start me server either on exactly on any of this Ipv4 or Ipv6 interface or start the server of listen on all the Ipv4 interfaces or on the ipv6 interfaces." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1275" y="340" width="240" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="40" target="41">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="Ports" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="850" y="-100" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="Ports" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;arcSize=23;" vertex="1" parent="1">
+                    <mxGeometry x="620" y="60" width="180" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="2&lt;sup&gt;16&lt;/sup&gt;&amp;nbsp;= ports" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="41">
+                    <mxGeometry y="30" width="180" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="50" target="51">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="940" y="170" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="49" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="50" target="52">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="interfaces" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1230" y="-30" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="physical interfaces" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1060" y="95" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="Logical interfaces" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1350" y="120" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.625;entryY=0.2;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="51" target="18">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

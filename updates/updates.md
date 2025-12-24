@@ -9,3 +9,6 @@
 
 1. event loop and async code understanding in js use and understand some parallel code running libs: - https://github.com/sindresorhus/promise-fun
 2. 
+
+### Server
+1. Use nginx/apache as reverse proxy for nodejs server

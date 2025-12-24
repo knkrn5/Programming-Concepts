@@ -1,0 +1,225 @@
+<mxfile host="65bd71144e">
+    <diagram id="2ZYhlyAOLzVbVx_EYM0V" name="Page-1">
+        <mxGraphModel dx="2281" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="4" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="120" y="155" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="4" vertex="1">
+                    <mxGeometry width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/laptop_client.svg;" parent="4" vertex="1">
+                    <mxGeometry x="17" y="15" width="45" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="77" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="660" y="120" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="78" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="77" vertex="1">
+                    <mxGeometry width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="79" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/laptop_client.svg;" parent="77" vertex="1">
+                    <mxGeometry x="17" y="15" width="45" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="130" y="740" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="7" vertex="1">
+                    <mxGeometry width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="" style="image;html=1;image=img/lib/clip_art/computers/Server_Rack_128x128.png" parent="7" vertex="1">
+                    <mxGeometry x="12" y="10" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="80" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="660" y="740" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="81" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="80" vertex="1">
+                    <mxGeometry width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="82" value="" style="image;html=1;image=img/lib/clip_art/computers/Server_Rack_128x128.png" parent="80" vertex="1">
+                    <mxGeometry x="12" y="10" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" style="html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;flowAnimation=1;edgeStyle=orthogonalEdgeStyle;curved=1;" parent="1" source="3" target="17" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="40" y="195"/>
+                            <mxPoint x="40" y="455"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="63" value="1. Clients sends&lt;div&gt;request with&lt;/div&gt;&lt;div&gt;Private IPv4 +&amp;nbsp;&lt;/div&gt;&lt;div&gt;port number&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="9" vertex="1" connectable="0">
+                    <mxGeometry x="-0.0894" y="-1" relative="1" as="geometry">
+                        <mxPoint x="1" y="26" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="19" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="120" y="430" width="90" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="19" vertex="1">
+                    <mxGeometry width="90" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="" style="image;html=1;image=img/lib/clip_art/networking/Wireless_Router_128x128.png" parent="19" vertex="1">
+                    <mxGeometry x="5" y="5" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="660" y="430" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="22" vertex="1">
+                    <mxGeometry width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.radio_tower;" parent="22" vertex="1">
+                    <mxGeometry x="25" y="15" width="30" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" style="html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;flowAnimation=1;edgeStyle=orthogonalEdgeStyle;curved=1;" parent="1" source="17" target="6" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="50" y="495"/>
+                            <mxPoint x="50" y="790"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="64" value="2. router translates&lt;div&gt;that Private IPv4 +port number&lt;/div&gt;&lt;div&gt;with public IPv4 + unique port&lt;/div&gt;&lt;div&gt;number, sent the request to&amp;nbsp;&lt;/div&gt;&lt;div&gt;server with public IPv4&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="25" vertex="1" connectable="0">
+                    <mxGeometry x="-0.6127" y="10" relative="1" as="geometry">
+                        <mxPoint x="-10" y="128" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="27" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;flowAnimation=1;curved=1;" parent="1" source="6" target="17" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="270" y="790"/>
+                            <mxPoint x="270" y="495"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="69" value="3. server send the&lt;div&gt;response to this&lt;/div&gt;&lt;div&gt;public IPv4 + port&amp;nbsp;&lt;/div&gt;&lt;div&gt;number address&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="27" vertex="1" connectable="0">
+                    <mxGeometry x="-0.2388" y="2" relative="1" as="geometry">
+                        <mxPoint x="2" y="-38" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="28" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;flowAnimation=1;curved=1;" parent="1" source="17" target="3" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="470" y="260" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="270" y="455"/>
+                            <mxPoint x="270" y="195"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="70" value="4. then the router&lt;div&gt;looks in the&amp;nbsp;&lt;/div&gt;&lt;div&gt;record table and&lt;/div&gt;&lt;div&gt;send the response&lt;/div&gt;&lt;div&gt;to their corresponding&lt;/div&gt;&lt;div&gt;Private IPv4 +&amp;nbsp;&lt;/div&gt;&lt;div&gt;port number&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="28" vertex="1" connectable="0">
+                    <mxGeometry x="-0.3507" relative="1" as="geometry">
+                        <mxPoint y="-82" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="30" style="html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;flowAnimation=1;" parent="1" source="21" target="82" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="540" y="770" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="810" y="498"/>
+                            <mxPoint x="810" y="770"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="72" value="&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;2. ISP translates&lt;/font&gt;&lt;/span&gt;&lt;div style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30); color: rgb(192, 192, 192);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;that Private IPv4 +port number&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30); color: rgb(192, 192, 192);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;with public IPv4 + unique port&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30); color: rgb(192, 192, 192);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;number, sent the request to&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30); color: rgb(192, 192, 192);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;server with public IPv4&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="30" vertex="1" connectable="0">
+                    <mxGeometry x="-0.766" y="-3" relative="1" as="geometry">
+                        <mxPoint x="18" y="129" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="31" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;curved=1;flowAnimation=1;" parent="1" target="21" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="660" y="790" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="610" y="790"/>
+                            <mxPoint x="610" y="498"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="73" value="&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;3. server send the&lt;/font&gt;&lt;/span&gt;&lt;div style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30); color: rgb(192, 192, 192);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;response to this&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30); color: rgb(192, 192, 192);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;public IPv4 + port&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30); color: rgb(192, 192, 192);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;number address&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="31" vertex="1" connectable="0">
+                    <mxGeometry x="-0.4094" y="3" relative="1" as="geometry">
+                        <mxPoint x="3" y="-76" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="32" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;flowAnimation=1;" parent="1" source="21" target="78" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="620" y="442"/>
+                            <mxPoint x="620" y="160"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="74" value="&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;4. then the ISP&lt;/font&gt;&lt;/span&gt;&lt;div style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30); color: rgb(192, 192, 192);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;looks in the&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30); color: rgb(192, 192, 192);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;record table and&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30); color: rgb(192, 192, 192);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;send the response&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30); color: rgb(192, 192, 192);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;to their corresponding&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30); color: rgb(192, 192, 192);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Private IPv4 +&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30); color: rgb(192, 192, 192);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;port number&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="32" vertex="1" connectable="0">
+                    <mxGeometry x="-0.1649" y="-2" relative="1" as="geometry">
+                        <mxPoint y="-34" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="53" value="Defualt gateway" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;arcSize=23;" parent="1" vertex="1">
+                    <mxGeometry x="-240" y="540" width="180" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" value="this is also called router IP address" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="53" vertex="1">
+                    <mxGeometry y="30" width="180" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="90" value="&lt;b&gt;Why do we need/use NAT?&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;arcSize=23;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
+                    <mxGeometry x="300" y="920" width="310" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="91" value="1.&amp;nbsp;IPv4 has ~4.3 billion addresses,&amp;nbsp;We ran out of addresses, so NAT lets many devices share &lt;span style=&quot;&quot; data-end=&quot;306&quot; data-start=&quot;289&quot;&gt;one public IP&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="90" vertex="1">
+                    <mxGeometry y="30" width="310" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="92" value="2. We don&#39;t use NAT in IPv6 because&amp;nbsp; IPv6 has &lt;em data-end=&quot;417&quot; data-start=&quot;409&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;enough&lt;/font&gt;&lt;/em&gt; addresses (no sharing needed)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="90" vertex="1">
+                    <mxGeometry y="80" width="310" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" style="edgeStyle=none;html=1;exitX=0;exitY=0.636;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" parent="1" source="18" target="53" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="100" y="570" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="29" style="html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;flowAnimation=1;" parent="1" source="78" target="21" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="590" y="520" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="800" y="160"/>
+                            <mxPoint x="800" y="442"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="71" value="&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;1. Clients sends&lt;/font&gt;&lt;/span&gt;&lt;div style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30); color: rgb(192, 192, 192);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;request with&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30); color: rgb(192, 192, 192);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Private IPv4 +&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30); color: rgb(192, 192, 192);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;port number&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="29" vertex="1" connectable="0">
+                    <mxGeometry x="-0.5174" y="-25" relative="1" as="geometry">
+                        <mxPoint x="25" y="98" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="60" style="edgeStyle=none;html=1;exitX=0.08;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;flowAnimation=1;strokeWidth=2;" parent="1" source="59" target="18" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" value="When the middleman is router is called &lt;b style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 0, 204));&quot;&gt;NAT&lt;/b&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.oval_callout;flipH=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" parent="1" vertex="1">
+                    <mxGeometry x="-100" y="370" width="100" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" style="edgeStyle=none;html=1;exitX=0.08;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;flowAnimation=1;strokeWidth=2;" parent="1" source="61" target="21" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="When the middleman is carrier its called &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 0, 204));&quot;&gt;&lt;b&gt;CGNAT&lt;/b&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.oval_callout;flipV=0;flipH=0;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" parent="1" vertex="1">
+                    <mxGeometry x="820" y="360" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="18" target="65" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="68" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="21" target="65" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="83" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;&lt;b&gt;Network Address Translation&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="250" y="55" width="325" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="Record table" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;arcSize=23;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;" parent="1" vertex="1">
+                    <mxGeometry x="350" y="440" width="180" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" value="Both router and ISP keep the record table of mapping private IP +&amp;nbsp; port number&amp;nbsp; to its assigned Public IP + port number, the public port number is unique per connection" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="65" vertex="1">
+                    <mxGeometry y="30" width="180" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="88" value="" style="shape=stencil(lVjbUhsxDP2avGp8t/RM6X8wQyiZUsIE6OXvKzfjZS1vTspbstkTW9KRdKRdvHl9vHvZ74J7fTsdv+9/He7fHnfxyy6Ew/Pj/nR400+7eLuLNw/H0/7b6fj+fH/+/nLX3myffhx/tn/4fcbFSDU1VHB/zk8cFfn34Ov5/afD8/r9RMLD+4VcvPx+chT98L735PkyIOv5YQQIeXCjkijFARCYXL0MqExRBkAs8ARWwGhzCsTgBIkkeQRUygEAivWSuqFmAFj+bwFE8gkAmMSckCmAwHnnyLkRUSmgOwmJuZOQQ3cSa3XR4DtohAlECf2S24BMtY6ASBFHro5GK73YQ254AyhUEcCTMzYwDHXN5EYvVUcM3FrEeqkGkgIAleqYQTX1qnAJwOZKmkHArWqiydFaKSGj3WS0UAVlQwFhJJ86OgJqqJdkpAZHciBHFRDGSslaC0EGqdFhNJoLCapkM4A7fy8BeKxkom4ARquX6ugl8SQg0sqcMnJJMyQCen8wZwGkXgy3Acqc0WgthgnZIJ1qC0DLAqA3O5txCoBcqr0FLgDBbg0UigVklHGJYrIABlzKyRYyWfi73XcT5TwBcGOvEwA1ubCEaQUoIIFUWcTJhgDi4GvP4FXgGAOSWAAqM3olSRbgEEBboDmh9pTadmsmLhaQQByStqwJEJFgyr24r08AKVqy7Q9NTaB8iL2NrwAM6K0Ky09uRWJDU9RnCyioLikRJrY6dKU0GS2QGtrjwkRv1KczT2VGYG1VTWgCt9Jc22RSxHQnQSnHEzcE0jWEDSNQNfaTES0Q4IQGmKoABKTO5v9sEF5TzngJtyBfpxzFTU4nEv5UGw2eiqErbtQaByONr0iBBjD6B4sNvZI9AcsZrZV5LH1XBFOr96Nbr0iyNnoalYhFnxpdRi41WYmulPpkuBauCJAtW7WQFNQg2HpJxQGjnI52zFKRhk7QImBnGobDZYpWfOuIAluQNk1zghoNimsOVrjqmIXmgVxsISu+S9ntajytEfRJRk0u9p+XYZSx+C5b4y7ScMVq6TZRX+koYxHI2EstTOYE1e/IhmjZ2vYOAKA+MVdKAZZKpYYbczoWqOHafmkEaIZ44FatrXmMgz4JwEvctctqwRRQLbbbnwIV37QFcXC8dzbXlKbgMt42Ege1XrLd2UFTKzkxr3u48rHl1EHXaGcu1jdIvnje+H/cBIt1JtonaSTNGKb2glgFsVPYskTY5rK3yyEHB0/lvrf+R4X607vYq+/rh4/F78Ph6em8N17/bhfF+ui8ZI63fwE=);lineShape=1;strokeColor=default;" parent="1" vertex="1">
+                    <mxGeometry x="426.499422356565" y="163.91003796970836" width="11.267299497483691" height="271.4882387458926" as="geometry"/>
+                </mxCell>
+                <mxCell id="89" value="" style="shape=stencil(lVjLUiMxDPyaXFWy5ZfOLPsfVBGW1LKEAvb196vZlIdYk/QwtxDcsWW3Wi3t5Obt8e5lv4v89v56/L7/fbh/f9zJl12Mh+fH/evh3T7t5HYnNw/H1/231+PP5/vT3y9308rp04/jr+kX/pxwMVPhCRX57+kbptL+f/H1tP7p8Hy+XknysD5T5OvrRUjH9YGpZgBQ0jYCKgWwQ6r9wB0QhVK8DsiZuIyARgoAJZLIALCoSgEApTwGLZVaug6oiWoYAClQBkHXSppGQKICrrUxiQNU+A4tUhqJkZmaAkAiGWPIQg3cUisUxnfIpV/DZUD11MhKEe2g/RI7oARKgN06hzgDpPP9MiBSGIMuxi4BAKE4cqkUyiBoTRTdDnYNgBoGUAdQSuhIuadLB9RADPLBAHWMoUYqgBoGUAcwsiBAoTiytRZiFHTpB5gBlRLIODVRcTs0aijo5h+uBahLqj6GJsTgSIG5xzgjMkToIiEsRSJ+ah6FyVIEBmGAkUxTiqCEMG6MUVuKZAQwsR6PZASGT83+Xm3PWCHA5aixpWGA36FBNW6tq/sZQIHOmFbWka7GlgRUwMiZgwdUVFG4V6gzgIJ3sCLnquIZHy/XUSuCcbEFqtTFS5kBCggi8YUd0FNbmXVSpjirpXh7YgABGSTzAWZAhWSyuhzEAxIoWjksUs60CuwwFcEFgAGZrIC0vAUwie8CgI5k5kE3BW26VduWa7UcZQdo3eFc8wIleACihtmTtGArIp9ZrLaJ3lW8xVpJoJKWZnolRwvJJhlIW4UmxYVYYimTRkH9QyCxtBxt7AFIjrcDqi+8U4VATUrz7mEyUeiWpLvCGSBY+oqXYw344ap301MZA0qWlHhUMitjFbxDtqQeH86yFnldIx+ParziZyb/746ELVOuvo6umLLcuqp80vaZuLreb8VYGsAp2Yp1LZbBzrpic2yA6ADYfhsgOwA2+GW+xE+2EAZwD7fSpJjbqG4H3AZZH+YBmEumlWVM0amVA/JtvycuBtyDT4CRGhNZcAxpfIeJ8MiTBe9/zHMp2MEO4Noga9oVJ5Ab/5iONLRD7oX/bPBQkQgE346m0Pe8pnzupU2eFXgHs2RutCHS6XgZEHyXHxXmQ0x9zHA2YkJsDcU3iwEbJvX5ExjKUqLsJiHQmiwaS6YKbpS9oeS+3eVofeVhOH+LXiAZnj35HtfaOZAz1ac990J6pelezj+RFQ7ip43YgBkTavTrQboEpezXB3Aeu3z18Ua0XjqvPtajAZcRy7kEhszfPE9eXW8fPobXD4enp9Ps+/z/fthtX50G5XL7Dw==);lineShape=1;strokeColor=default;" parent="1" vertex="1">
+                    <mxGeometry x="430.7825065593138" y="575.6510711492024" width="14.721865567462979" height="261.55493334115545" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
