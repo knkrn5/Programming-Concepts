@@ -1,8 +1,6 @@
 # **Network Concepts**
 
-**what is internet.** _The Internet is a global network of interconnected computers and servers that communicate using protocols like TCP/IP, and to use this internet data(download) or to upload data in the internet we need a pipeline to access the internet, this pipeline is given to us via ISP(SIM or wifi router), with some limited usage depending on our plan so this is called **data pack(How much data we can download or upload via their pipeline)**_
-
-- **Ground stations**, which are connected to the global internet backbone via fiber optics.
+> **what is net: -** net is just the transfering/receiving of data, whether u transfer/download data in within ur devices using wire or wirelessly, or whether u transfer(upload)/receive(download) data from any long sea cable connected device called cloud, net is just a simple data transferring and receiving
 
 ## **IP Adresses: -** _use "ipconfig" cmd to see the details of the IP Adresses_
 
