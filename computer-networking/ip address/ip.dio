@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="xQ9zxdjFQaUO4hLd8zcT" name="Page-1">
-        <mxGraphModel dx="1368" dy="1569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="2854" dy="2226" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -60,7 +60,7 @@
                         <mxPoint x="400" y="540" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="33" style="edgeStyle=none;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="28" target="141" edge="1">
+                <mxCell id="33" style="edgeStyle=none;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="28" target="211" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="130.00000000000023" y="290" as="targetPoint"/>
                     </mxGeometry>
@@ -85,7 +85,7 @@
                         <mxRectangle x="-290" y="610" width="60" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="39" value="1. represent in decimal" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="38" vertex="1">
+                <mxCell id="39" value="1. represented in decimal" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="38" vertex="1">
                     <mxGeometry y="30" width="220" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="42" value="2. 32 bits with each block of 1 btye(total 4 blocks), so 4 x 8 = 32bits" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="38" vertex="1">
@@ -128,34 +128,89 @@
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="77" value="Public IP address" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#d0cee2;strokeColor=#56517e;" parent="1" vertex="1">
-                    <mxGeometry x="-320" y="-35" width="220" height="60" as="geometry">
+                    <mxGeometry x="-580" y="-120" width="120" height="70" as="geometry">
                         <mxRectangle x="-300" y="190" width="60" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="78" value="1. Visible to Outsite networks" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="77" vertex="1">
-                    <mxGeometry y="30" width="220" height="30" as="geometry"/>
+                    <mxGeometry y="30" width="120" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="141" value="IP addresses accessibility type" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#d0cee2;strokeColor=#56517e;" parent="1" vertex="1">
-                    <mxGeometry x="-40" y="90" width="220" height="170" as="geometry">
-                        <mxRectangle x="-310" y="250" width="60" height="30" as="alternateBounds"/>
+                <mxCell id="141" value="In IPv4" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#d0cee2;strokeColor=#56517e;" parent="1" vertex="1">
+                    <mxGeometry x="-290" y="10" width="220" height="150" as="geometry">
+                        <mxRectangle x="-290" y="10" width="60" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="143" value="1.&amp;nbsp;In IPv4, RFC 1918 specifies the ranges reserved for private IP addresses; all other non-reserved IPv4 addresses are public" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="141" vertex="1">
-                    <mxGeometry y="30" width="220" height="70" as="geometry"/>
+                <mxCell id="143" value="1. In IPv4 we have the concept of Public and private IP address for &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 0, 204));&quot;&gt;NAT&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="141" vertex="1">
+                    <mxGeometry y="30" width="220" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="177" value="2. In IPv6" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="141" vertex="1">
-                    <mxGeometry y="100" width="220" height="70" as="geometry"/>
+                <mxCell id="217" value="2.&amp;nbsp;In IPv4, RFC 1918 specifies the ranges reserved for private IP addresses; all other non-reserved IPv4 addresses are public" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="141">
+                    <mxGeometry y="80" width="220" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="136" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="85" target="134" edge="1">
+                <mxCell id="224" style="edgeStyle=none;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;flowAnimation=1;" edge="1" parent="1" source="212" target="220">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
+                <mxCell id="227" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;flowAnimation=1;" edge="1" parent="1" source="212" target="225">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="230" style="edgeStyle=none;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;flowAnimation=1;" edge="1" parent="1" source="212" target="228">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="212" value="In IPv6" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="1">
+                    <mxGeometry x="-20" y="-50" width="220" height="80" as="geometry">
+                        <mxRectangle x="-20" y="-65" width="60" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="218" value="&lt;p style=&quot;white-space-collapse: preserve;&quot; dir=&quot;auto&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); line-height: 90%;&quot;&gt;IPv6 does not have the same concept of private and public IPs as IPv4&lt;/font&gt;&lt;/p&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="212">
+                    <mxGeometry y="30" width="220" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="136" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;flowAnimation=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="231" target="134" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-300" y="-230" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
                 <mxCell id="85" value="Private IP address" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#d0cee2;strokeColor=#56517e;" parent="1" vertex="1">
-                    <mxGeometry x="-20" y="-110" width="200" height="60" as="geometry">
+                    <mxGeometry x="-360" y="-220" width="120" height="150" as="geometry">
                         <mxRectangle y="-50" width="60" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="86" value="1. Not visible to outsite networks" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="85" vertex="1">
-                    <mxGeometry y="30" width="200" height="30" as="geometry"/>
+                    <mxGeometry y="30" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="235" value="2. Private IPv4 address is only unique&amp;nbsp;&lt;span style=&quot;white-space-collapse: preserve; background-color: transparent; color: rgb(192, 192, 192);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(192, 192, 192), rgb(255, 255, 255));&quot;&gt;within its local network/subnet&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(192, 192, 192); white-space-collapse: preserve; background-color: transparent;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;and not globally&lt;/font&gt;&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="85">
+                    <mxGeometry y="70" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="232" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.259;entryY=0.819;entryDx=0;entryDy=0;entryPerimeter=0;flowAnimation=1;" edge="1" parent="1" source="220" target="231">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="220" value="GUA" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="1">
+                    <mxGeometry x="-160" y="-250" width="120" height="110" as="geometry">
+                        <mxRectangle x="-130" y="-240" width="60" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="221" value="In IPv6, global unicast network is public address used for routing on public internet" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="220">
+                    <mxGeometry y="30" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="233" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;flowAnimation=1;" edge="1" parent="1" source="225" target="231">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="225" value="ULA" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="1">
+                    <mxGeometry x="10" y="-260" width="120" height="110" as="geometry">
+                        <mxRectangle x="30" y="-250" width="60" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="226" value="In IPv6, unicast local address is private address but is NOT routable on the public internet" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="225">
+                    <mxGeometry y="30" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="234" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;flowAnimation=1;" edge="1" parent="1" source="228" target="231">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="228" value="Link-Local" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="1">
+                    <mxGeometry x="170" y="-260" width="120" height="90" as="geometry">
+                        <mxRectangle x="160" y="-260" width="60" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="229" value="Used for neighbor discovery, local communication" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="228">
+                    <mxGeometry y="30" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="126" style="edgeStyle=none;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="88" target="122" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
@@ -201,19 +256,19 @@
                         <mxRectangle x="770" y="-250" width="60" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="123" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;1. why in IPv4 we have so many Loopback IP addresses?&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Ans: -&amp;nbsp; It was a mistake, that engineer reserved the subnet mask 255.255.255.0 to 127.255.255.255 for loopback interface&lt;/font&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="122" vertex="1">
+                <mxCell id="123" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;1. why in IPv4 we have so many Loopback IP addresses?&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Ans: -&amp;nbsp; It was a mistake, that engineer reversed the subnet mask 255.255.255.0 to 127.255.255.255 for loopback interface&lt;/font&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="122" vertex="1">
                     <mxGeometry y="30" width="230" height="90" as="geometry"/>
                 </mxCell>
                 <mxCell id="134" value="why" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
-                    <mxGeometry x="-70" y="-290" width="200" height="110" as="geometry">
+                    <mxGeometry x="-75" y="-540" width="200" height="110" as="geometry">
                         <mxRectangle x="-80" y="-260" width="60" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="140" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;1. why is public IPv6 is mostly unique?&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ans: -&amp;nbsp;because IPv6 addresses are massive&lt;/font&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="134" vertex="1">
+                <mxCell id="140" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;1. why is both public and private IPv6 is unique globally?&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ans: -&amp;nbsp;because IPv6 addresses are massive&lt;/font&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="134" vertex="1">
                     <mxGeometry y="30" width="200" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="137" value="why" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
-                    <mxGeometry x="-440" y="-235" width="200" height="100" as="geometry">
+                    <mxGeometry x="-620" y="-320" width="200" height="100" as="geometry">
                         <mxRectangle x="-440" y="-200" width="60" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
@@ -250,7 +305,7 @@
                         <mxRectangle y="620" width="60" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="47" value="1. represent in&amp;nbsp; Hex" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="46" vertex="1">
+                <mxCell id="47" value="1. represented in&amp;nbsp; Hex" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="46" vertex="1">
                     <mxGeometry y="30" width="220" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="48" value="2. 128 bits with each block of 2 btye(total 8 blocks), so 8 x 2 x 8 = 128bits" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="46" vertex="1">
@@ -274,14 +329,25 @@
                 <mxCell id="74" value="1. automatic assignment by ISP -&amp;gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;can change anytime&lt;/font&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="73" vertex="1">
                     <mxGeometry y="30" width="200" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="185" value="&lt;span style=&quot;text-align: left; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;Must know about computer number system&lt;/font&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.oval_callout;sketch=1;curveFitting=1;jiggle=2;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
-                    <mxGeometry x="630" y="350" width="130" height="100" as="geometry"/>
-                </mxCell>
                 <mxCell id="202" value="&lt;li&gt;&lt;p data-path-to-node=&quot;4,0,0&quot;&gt;&lt;b data-index-in-node=&quot;0&quot; data-path-to-node=&quot;4,0,0&quot;&gt;The IPv4 Stack:&lt;/b&gt; Handles 32-bit addresses, uses ARP (Address Resolution Protocol) to find MAC addresses, and manages its own routing table.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p data-path-to-node=&quot;4,1,0&quot;&gt;&lt;span class=&quot;citation-9&quot;&gt;&lt;/span&gt;&lt;b data-index-in-node=&quot;0&quot; data-path-to-node=&quot;4,1,0&quot;&gt;The IPv6 Stack:&lt;/b&gt;&lt;span class=&quot;citation-9 citation-end-9&quot;&gt; Handles 128-bit addresses, uses NDP (Neighbor Discovery Protocol) instead of ARP, and has a completely redesigned packet header&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p data-path-to-node=&quot;4,1,0&quot;&gt;&lt;span class=&quot;citation-9 citation-end-9&quot;&gt;&lt;span class=&quot;citation-7&quot;&gt;Because the headers are structured differently, they are &lt;/span&gt;&lt;b data-index-in-node=&quot;57&quot; data-path-to-node=&quot;10&quot;&gt;&lt;span class=&quot;citation-7&quot;&gt;not backward compatible&lt;/span&gt;&lt;/b&gt;&lt;span class=&quot;citation-7 citation-end-7&quot;&gt;.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p data-path-to-node=&quot;4,1,0&quot;&gt;&lt;span class=&quot;citation-9 citation-end-9&quot;&gt;&lt;span class=&quot;citation-7 citation-end-7&quot;&gt;&lt;span data-path-to-node=&quot;15,3,1,0&quot;&gt;ARP (Broadcast-based)&lt;/span&gt;&lt;span data-path-to-node=&quot;15,3,2,0&quot;&gt;NDP (Multicast-based)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p data-path-to-node=&quot;4,1,0&quot;&gt;&lt;span class=&quot;citation-9 citation-end-9&quot;&gt;&lt;span class=&quot;citation-7 citation-end-7&quot;&gt;&lt;span data-path-to-node=&quot;15,3,2,0&quot;&gt;&lt;span data-path-to-node=&quot;15,4,1,0&quot;&gt;Optional (IPSec)&lt;/span&gt;&lt;span data-path-to-node=&quot;15,4,2,0&quot;&gt;Built-in (IPSec support is mandatory)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-                    <mxGeometry x="320" y="1190" width="830" height="240" as="geometry"/>
+                    <mxGeometry x="440" y="1200" width="830" height="240" as="geometry"/>
                 </mxCell>
                 <mxCell id="210" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;flowAnimation=1;" edge="1" parent="1" source="147" target="186">
                     <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="215" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;flowAnimation=1;" edge="1" parent="1" source="211" target="141">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-160" y="140" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="216" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;flowAnimation=1;" edge="1" parent="1" source="211" target="212">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="211" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;IP addresses&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;accessibility&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;type&lt;/font&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="1">
+                    <mxGeometry x="30" y="160" width="140" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="231" value="" style="shape=ellipse;fillColor=light-dark(#0065FF,#FFFFFF);strokeColor=none;html=1;sketch=0;" vertex="1" parent="1">
+                    <mxGeometry x="20" y="-370" width="10" height="10" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>

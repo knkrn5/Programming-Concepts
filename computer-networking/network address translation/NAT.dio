@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="2ZYhlyAOLzVbVx_EYM0V" name="Page-1">
-        <mxGraphModel dx="2281" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1566" dy="402" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -159,13 +159,13 @@
                     <mxGeometry y="30" width="180" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="90" value="&lt;b&gt;Why do we need/use NAT?&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;arcSize=23;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
-                    <mxGeometry x="300" y="920" width="310" height="130" as="geometry"/>
+                    <mxGeometry x="300" y="920" width="310" height="150" as="geometry"/>
                 </mxCell>
-                <mxCell id="91" value="1.&amp;nbsp;IPv4 has ~4.3 billion addresses,&amp;nbsp;We ran out of addresses, so NAT lets many devices share &lt;span style=&quot;&quot; data-end=&quot;306&quot; data-start=&quot;289&quot;&gt;one public IP&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="90" vertex="1">
-                    <mxGeometry y="30" width="310" height="50" as="geometry"/>
+                <mxCell id="91" value="1.&amp;nbsp;IPv4 has ~4.3 billion addresses,&amp;nbsp;We ran out of addresses, so NAT lets many devices share &lt;span style=&quot;&quot; data-end=&quot;306&quot; data-start=&quot;289&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;one public&lt;/font&gt; I&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;P with unique port number for every connection&lt;/font&gt;, So&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;this is not because of privacy&lt;/font&gt;&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="90" vertex="1">
+                    <mxGeometry y="30" width="310" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="92" value="2. We don&#39;t use NAT in IPv6 because&amp;nbsp; IPv6 has &lt;em data-end=&quot;417&quot; data-start=&quot;409&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;enough&lt;/font&gt;&lt;/em&gt; addresses (no sharing needed)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="90" vertex="1">
-                    <mxGeometry y="80" width="310" height="50" as="geometry"/>
+                    <mxGeometry y="100" width="310" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="51" style="edgeStyle=none;html=1;exitX=0;exitY=0.636;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" parent="1" source="18" target="53" edge="1">
                     <mxGeometry relative="1" as="geometry">
