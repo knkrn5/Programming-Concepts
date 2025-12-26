@@ -1,0 +1,258 @@
+<mxfile host="65bd71144e">
+    <diagram id="opx8sHROR0iPvwW-EfYv" name="Page-1">
+        <mxGraphModel dx="1476" dy="1452" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="3" value="&lt;b&gt;&lt;font style=&quot;font-size: 23px;&quot;&gt;Open systems interconnection&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;glass=0;sketch=1;curveFitting=1;jiggle=2;shadow=1;fillColor=#ffcd28;strokeColor=#d79b00;gradientColor=#ffa500;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="-120" width="360" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="&lt;b&gt;Other&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="1150" y="1990" width="270" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="1. This is not hard and fast rule" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="27">
+                    <mxGeometry y="30" width="270" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="Item 1" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="27">
+                    <mxGeometry y="60" width="270" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="&lt;p style=&quot;white-space: pre-wrap;&quot; dir=&quot;auto&quot;&gt;On the sending device, it moves down from Layer 7 to Layer 1 (adding headers/encapsulation at each layer).&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="940" y="-100" width="600" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=10;flowAnimation=1;" edge="1" parent="1" source="63">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="425" y="1740" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="63" value="&lt;b&gt;&lt;font style=&quot;font-size: 35px;&quot;&gt;encapsulation&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;direction=east;rotation=-90;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="920" width="280" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" value="" style="endArrow=none;html=1;flowAnimation=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=10;" edge="1" parent="1" target="63">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="425" y="60" as="sourcePoint"/>
+                        <mxPoint x="210" y="650" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="77" value="Application Layer" style="swimlane;whiteSpace=wrap;html=1;rounded=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
+                    <mxGeometry x="500" width="390" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="&lt;b&gt;7. Application Layer&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="77">
+                    <mxGeometry x="110" y="37.3" width="270" height="100" as="geometry">
+                        <mxRectangle x="110" y="37.3" width="150" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="25" value="1. This is where &lt;i&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;we&lt;/font&gt;&lt;/i&gt;&amp;nbsp;interact.&amp;nbsp;Apps like Chrome, WhatsApp, Gmail work here." style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="24">
+                    <mxGeometry y="30" width="270" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="2. Protocols: &lt;strong data-end=&quot;473&quot; data-start=&quot;447&quot;&gt;HTTP, HTTPS, DNS, SMTP&lt;/strong&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="24">
+                    <mxGeometry y="70" width="270" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.chrome" vertex="1" parent="77">
+                    <mxGeometry x="20" y="44.599999999999994" width="74.8" height="75.4" as="geometry"/>
+                </mxCell>
+                <mxCell id="78" value="" style="swimlane;whiteSpace=wrap;html=1;rounded=1;fillColor=#e6d0de;gradientColor=#d5739d;strokeColor=#996185;" vertex="1" parent="1">
+                    <mxGeometry x="500" y="240" width="400" height="660" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="&lt;b&gt;6. Presentation Layer&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="78">
+                    <mxGeometry x="110" y="40" width="270" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="1.&amp;nbsp;Formats data so both sides understand" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="21">
+                    <mxGeometry y="30" width="270" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="91" value="2. Handles &lt;strong data-end=&quot;593&quot; data-start=&quot;556&quot;&gt;encryption, compression, encoding&lt;/strong&gt;.&amp;nbsp;&lt;span style=&quot;white-space-collapse: preserve; background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(192, 192, 192), rgb(255, 255, 255));&quot;&gt;Payload/data becomes ciphertext&lt;/font&gt;&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="21">
+                    <mxGeometry y="60" width="270" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="3.&amp;nbsp;Example: SSL/TLS encryption for HTTPS" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="21">
+                    <mxGeometry y="100" width="270" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="&lt;b&gt;5. Session Layer&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="78">
+                    <mxGeometry x="110" y="260" width="270" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="1. Manages sessions between devices.&amp;nbsp;Opens, maintains, and closes communication." style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="18">
+                    <mxGeometry y="30" width="270" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="2.&amp;nbsp;TLS session is maintained,&amp;nbsp;Responsible for keeping the secure connection alive" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="18">
+                    <mxGeometry y="70" width="270" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="&lt;b&gt;4. Transport Layer&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="78">
+                    <mxGeometry x="110" y="450" width="270" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="&lt;font face=&quot;Segoe WPC, Segoe UI, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;1.&amp;nbsp;&lt;/span&gt;&lt;/font&gt;Breaks data into small chunks (segments)." style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="15">
+                    <mxGeometry y="30" width="270" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="&lt;span style=&quot;font-family: &amp;quot;Segoe WPC&amp;quot;, &amp;quot;Segoe UI&amp;quot;, sans-serif; font-size: 13px;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(204, 204, 204), rgb(255, 255, 255));&quot;&gt;2. Protocols : TCP, UDP&lt;/font&gt;&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="15">
+                    <mxGeometry y="70" width="270" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="&lt;font face=&quot;Segoe WPC, Segoe UI, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;3.&amp;nbsp; &lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;white-space-collapse: preserve; background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(192, 192, 192), rgb(255, 255, 255));&quot;&gt;Adds dynamic source port (e.g., ephemeral 54321) and&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&amp;nbsp;Destination port (server port e.g. 443 for HTTPS)&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="15">
+                    <mxGeometry y="110" width="270" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/laptop_client.svg;" vertex="1" parent="78">
+                    <mxGeometry x="10" y="41" width="80.1" height="89" as="geometry"/>
+                </mxCell>
+                <mxCell id="79" value="" style="swimlane;whiteSpace=wrap;html=1;rounded=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="950" width="390" height="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="&lt;b&gt;3. Network Layer&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="79">
+                    <mxGeometry x="100" y="30" width="270" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="&lt;font face=&quot;Segoe WPC, Segoe UI, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;1.&amp;nbsp;&lt;/span&gt;&lt;/font&gt;Responsible for &lt;strong data-end=&quot;1006&quot; data-start=&quot;977&quot;&gt;IP addressing and routing.&amp;nbsp;Decides the path the data will take.&lt;/strong&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="12">
+                    <mxGeometry y="30" width="270" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="2. Protocols: &lt;strong data-end=&quot;1072&quot; data-start=&quot;1060&quot;&gt;IP, ICMP&lt;/strong&gt;." style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="12">
+                    <mxGeometry y="80" width="270" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="95" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;3.&amp;nbsp;&lt;span style=&quot;&quot; data-end=&quot;1272&quot; data-start=&quot;1244&quot;&gt;NAT Rewrite happens here,&amp;nbsp;but this happens at the network boundary, not in this layer itself&lt;/span&gt;&lt;/font&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="12">
+                    <mxGeometry y="110" width="270" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="94" value="4. Adds &lt;strong data-end=&quot;1182&quot; data-start=&quot;1169&quot;&gt;source IP&lt;/strong&gt; (our machine) and Adds &lt;strong data-end=&quot;1225&quot; data-start=&quot;1207&quot;&gt;destination IP&lt;/strong&gt; (server’s IP).&amp;nbsp;&lt;span style=&quot;white-space-collapse: preserve; background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(192, 192, 192), rgb(255, 255, 255));&quot;&gt;Ports aren&#39;t &quot;mapped&quot; here but travel in the packet&lt;/font&gt;&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="12">
+                    <mxGeometry y="150" width="270" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="" style="image;html=1;image=img/lib/clip_art/networking/Wireless_Router_128x128.png" vertex="1" parent="79">
+                    <mxGeometry x="10" y="50" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="82" value="" style="swimlane;whiteSpace=wrap;html=1;rounded=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+                    <mxGeometry x="1090" y="940" width="390" height="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="83" value="&lt;b&gt;3. Network Layer&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="82">
+                    <mxGeometry x="15" y="40" width="270" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="84" value="&lt;font face=&quot;Segoe WPC, Segoe UI, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;1.&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;white-space-collapse: preserve; background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(192, 192, 192), rgb(255, 255, 255));&quot;&gt;Verifies IP (dest matches server&#39;s), decrements TTL, passes to Transport&lt;/font&gt;&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="83">
+                    <mxGeometry y="30" width="270" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="86" value="" style="image;html=1;image=img/lib/clip_art/networking/Wireless_Router_128x128.png" vertex="1" parent="82">
+                    <mxGeometry x="294.79999999999995" y="40" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="80" value="" style="swimlane;whiteSpace=wrap;html=1;rounded=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
+                    <mxGeometry x="532.5" y="1230" width="375" height="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="&lt;b&gt;2.Data Link Layer&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="80">
+                    <mxGeometry x="94.8" y="40" width="270" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="1.&amp;nbsp;&lt;span style=&quot;white-space-collapse: preserve; background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(192, 192, 192), rgb(255, 255, 255));&quot;&gt;Encapsulates IP packets into frames for local delivery (e.g., Ethernet/Wi-Fi).&lt;/font&gt;&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="9">
+                    <mxGeometry y="30" width="270" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="2.&amp;nbsp;Deals with switches, ARP, Wi-Fi frames." style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="9">
+                    <mxGeometry y="70" width="270" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="128" value="3. It doesn&#39;t find the destination server&#39;s MAC address directly,&amp;nbsp;&lt;span style=&quot;background-color: transparent;&quot;&gt;It only finds the MAC address of the &lt;/span&gt;&lt;strong style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(153, 76, 0));&quot;&gt;next hop&lt;/strong&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt; (usually your router/gateway)&lt;/span&gt;&lt;li class=&quot;whitespace-normal break-words pl-2&quot;&gt;&lt;/li&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="9">
+                    <mxGeometry y="100" width="270" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="87" value="" style="swimlane;whiteSpace=wrap;html=1;rounded=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
+                    <mxGeometry x="1100" y="1240" width="375" height="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="88" value="&lt;b&gt;2.Data Link Layer&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="87">
+                    <mxGeometry x="14.8" y="40" width="270" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="89" value="1.&amp;nbsp;&lt;span style=&quot;white-space-collapse: preserve; background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(192, 192, 192), rgb(255, 255, 255));&quot;&gt;Checks FCS, strips MAC frame, passes IP packet.&lt;/font&gt;&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="88">
+                    <mxGeometry y="30" width="270" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="90" value="Item 1" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="88">
+                    <mxGeometry y="70" width="270" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="81" value="" style="swimlane;whiteSpace=wrap;html=1;rounded=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+                    <mxGeometry x="525" y="1510" width="390" height="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="&lt;b&gt;1. Physical Layer&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="81">
+                    <mxGeometry x="110" y="40" width="270" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="&lt;p style=&quot;white-space-collapse: preserve;&quot; dir=&quot;auto&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;1. Converts frames to electrical/optical/radio signals (bits).&lt;/font&gt;&lt;/p&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="4">
+                    <mxGeometry y="30" width="270" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="92" value="2.&amp;nbsp;Bits are transmitted as electrical/optical/radio signals over the physical medium" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="4">
+                    <mxGeometry y="80" width="270" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.ethernet_port;" vertex="1" parent="81">
+                    <mxGeometry x="20" y="55" width="60" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="93" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="24" target="21">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="670" y="210" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="96" value="&lt;p style=&quot;white-space: pre-wrap;&quot; dir=&quot;auto&quot;&gt;TCP header: Source/Dest ports, sequence numbers, ACKs. (UDP could be used but TCP for reliability here.)&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="-40" y="750" width="600" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="97" value="packet are&amp;nbsp;&lt;div&gt;created here&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="115" y="683" width="90" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="100" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="897.5" y="1840" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="99" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="100">
+                    <mxGeometry width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="98" value="" style="image;html=1;image=img/lib/clip_art/networking/Wireless_Router_128x128.png" vertex="1" parent="100">
+                    <mxGeometry x="13.75" y="10" width="72.5" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="85" value="map the destinaiton and sorce IP address with port" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="1">
+                    <mxGeometry x="840" y="1950" width="270" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="101" value="&lt;b&gt;4. Transport Layer&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="1100" y="700" width="300" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="102" value="&lt;font face=&quot;Segoe WPC, Segoe UI, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;1.&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(192, 192, 192); white-space-collapse: preserve; background-color: transparent;&quot;&gt;Reassembles segments, checks errors/ordering via TCP, strips ports, passes decrypted data.&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="101">
+                    <mxGeometry y="30" width="300" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="105" value="&lt;b&gt;5. Session Layer&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="1100" y="515" width="270" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="106" value="1.&amp;nbsp;&lt;span style=&quot;color: rgb(192, 192, 192); white-space-collapse: preserve; background-color: transparent;&quot;&gt;Validates session, coordinates response&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="105">
+                    <mxGeometry y="30" width="270" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="108" value="&lt;b&gt;6. Presentation Layer&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="1100" y="300" width="270" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="109" value="1.&amp;nbsp;&lt;span style=&quot;color: rgb(192, 192, 192); white-space-collapse: preserve; background-color: transparent;&quot;&gt;Decrypts (TLS), formats for app (e.g., JSON parsing).&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="108">
+                    <mxGeometry y="30" width="270" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="112" value="&lt;b&gt;7. Application Layer&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="1080" y="32.3" width="270" height="80" as="geometry">
+                        <mxRectangle x="110" y="37.3" width="150" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="113" value="1.&amp;nbsp;&lt;span style=&quot;color: rgb(192, 192, 192); white-space-collapse: preserve; background-color: transparent;&quot;&gt;Server processes POST (e.g., authenticates user), sends HTTP 200 OK response back (reverse flow).&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="112">
+                    <mxGeometry y="30" width="270" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="115" value="&lt;ul data-end=&quot;1872&quot; data-start=&quot;1732&quot;&gt;&lt;li data-end=&quot;1787&quot; data-start=&quot;1732&quot;&gt;&lt;p data-end=&quot;1787&quot; data-start=&quot;1734&quot;&gt;Your laptop sends to Wi-Fi router → uses router’s MAC&lt;/p&gt;&lt;br/&gt;&lt;/li&gt;&lt;br/&gt;&lt;li data-end=&quot;1831&quot; data-start=&quot;1788&quot;&gt;&lt;br/&gt;&lt;p data-end=&quot;1831&quot; data-start=&quot;1790&quot;&gt;Router sends to ISP → uses ISP device MAC&lt;/p&gt;&lt;br/&gt;&lt;/li&gt;&lt;br/&gt;&lt;li data-end=&quot;1872&quot; data-start=&quot;1832&quot;&gt;&lt;br/&gt;&lt;p data-end=&quot;1872&quot; data-start=&quot;1834&quot;&gt;ISP to next router → uses next hop MAC&lt;/p&gt;&lt;br/&gt;&lt;/li&gt;&lt;br/&gt;&lt;/ul&gt;&lt;br/&gt;&lt;p data-end=&quot;1926&quot; data-start=&quot;1874&quot;&gt;The server’s MAC is &lt;strong data-end=&quot;1925&quot; data-start=&quot;1894&quot;&gt;never known on the internet&lt;/strong&gt;.&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="10" y="1113" width="360" height="340" as="geometry"/>
+                </mxCell>
+                <mxCell id="117" value="Hop to Hop" style="swimlane;childLayout=stackLayout;horizontal=1;fillColor=none;horizontalStack=1;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;strokeColor=default;stackBorder=10;stackSpacing=-12;resizable=1;align=center;points=[];whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="1910" width="410" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="118" value="Our device&lt;div&gt;&amp;nbsp;MAC&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];whiteSpace=wrap;html=1;" vertex="1" parent="117">
+                    <mxGeometry x="10" y="33" width="100" height="57" as="geometry"/>
+                </mxCell>
+                <mxCell id="119" value="Our Router&lt;div&gt;MAC&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];whiteSpace=wrap;html=1;" vertex="1" parent="117">
+                    <mxGeometry x="98" y="33" width="100" height="57" as="geometry"/>
+                </mxCell>
+                <mxCell id="120" value="Severs ISP&lt;div&gt;router MAC&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];whiteSpace=wrap;html=1;" vertex="1" parent="117">
+                    <mxGeometry x="186" y="33" width="100" height="57" as="geometry"/>
+                </mxCell>
+                <mxCell id="121" value="Severs device&lt;div&gt;MAC&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];whiteSpace=wrap;html=1;" vertex="1" parent="117">
+                    <mxGeometry x="274" y="33" width="126" height="57" as="geometry"/>
+                </mxCell>
+                <mxCell id="122" value="Hop to Hop" style="swimlane;childLayout=stackLayout;horizontal=1;fillColor=none;horizontalStack=1;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;strokeColor=default;stackBorder=10;stackSpacing=-12;resizable=1;align=center;points=[];whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="2030" width="630" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="123" value="&lt;p style=&quot;white-space-collapse: preserve;&quot; dir=&quot;auto&quot;&gt;Src MAC=Your device,&lt;/p&gt;&lt;p style=&quot;white-space-collapse: preserve;&quot; dir=&quot;auto&quot;&gt; Dest MAC=your Router&lt;/p&gt;" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];whiteSpace=wrap;html=1;" vertex="1" parent="122">
+                    <mxGeometry x="10" y="33" width="170" height="57" as="geometry"/>
+                </mxCell>
+                <mxCell id="124" value="&lt;p style=&quot;white-space-collapse: preserve;&quot; dir=&quot;auto&quot;&gt;Src MAC=ur Router-Out,&lt;/p&gt;&lt;p style=&quot;white-space-collapse: preserve;&quot; dir=&quot;auto&quot;&gt; Dest MAC=ISP&lt;/p&gt;" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];whiteSpace=wrap;html=1;" vertex="1" parent="122">
+                    <mxGeometry x="168" y="33" width="162" height="57" as="geometry"/>
+                </mxCell>
+                <mxCell id="125" value="&lt;p style=&quot;white-space-collapse: preserve;&quot; dir=&quot;auto&quot;&gt;Src MAC=ISP-Out, &lt;/p&gt;&lt;p style=&quot;white-space-collapse: preserve;&quot; dir=&quot;auto&quot;&gt;Dest MAC=Next&lt;/p&gt;" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];whiteSpace=wrap;html=1;" vertex="1" parent="122">
+                    <mxGeometry x="318" y="33" width="142" height="57" as="geometry"/>
+                </mxCell>
+                <mxCell id="126" value="&lt;p style=&quot;white-space-collapse: preserve;&quot; dir=&quot;auto&quot;&gt;Src MAC=ServerRouter,&lt;/p&gt;&lt;p style=&quot;white-space-collapse: preserve;&quot; dir=&quot;auto&quot;&gt; Dest MAC=Server device&lt;/p&gt;" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];whiteSpace=wrap;html=1;" vertex="1" parent="122">
+                    <mxGeometry x="448" y="33" width="172" height="57" as="geometry"/>
+                </mxCell>
+                <mxCell id="127" value="Any data going over the network &lt;strong data-end=&quot;771&quot; data-start=&quot;763&quot;&gt;must&lt;/strong&gt; go through layers 7 → 1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="500" y="-192" width="360" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="129" value="mac address&lt;div&gt;is needed to&lt;/div&gt;&lt;div&gt;build the frame&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="925" y="1310" width="100" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

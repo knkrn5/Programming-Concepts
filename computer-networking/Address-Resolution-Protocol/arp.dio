@@ -1,0 +1,264 @@
+<mxfile host="65bd71144e">
+    <diagram id="HZhoAZ6F84vE6tI8J4P-" name="Page-1">
+        <mxGraphModel dx="2392" dy="1966" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="3" value="&lt;p style=&quot;white-space-collapse: preserve;&quot; dir=&quot;auto&quot;&gt;ARP stands for Address Resolution Protocol. It&#39;s a fundamental networking protocol that acts as a &quot;translator&quot; between IP addresses (Layer 3, logical addressing for routing across networks) and MAC addresses (Layer 2, physical addressing for local delivery on a network segment).&lt;/p&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="-90" width="390" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="330" y="210" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="7">
+                    <mxGeometry width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/laptop_client.svg;" vertex="1" parent="7">
+                    <mxGeometry x="17.5" y="15" width="45" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="-300" y="280" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="9">
+                    <mxGeometry width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/mac_client.svg;" vertex="1" parent="9">
+                    <mxGeometry x="16" y="15" width="47" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="request/response requires both mac for communication with&lt;div&gt;device via source and destinaiton IP&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-50" y="330" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6" target="12">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="330" y="370" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="27" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="19" target="22">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="if not cached" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="27">
+                    <mxGeometry x="0.0375" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="19" value="A cache" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="360" width="210" height="80" as="geometry">
+                        <mxRectangle x="200" y="360" width="80" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="20" value="&lt;p style=&quot;white-space-collapse: preserve;&quot; dir=&quot;auto&quot;&gt;looks in its local ARP table (a temp cache in RAM)&lt;/p&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=0;dashed=1;dashPattern=1 4;" vertex="1" parent="19">
+                    <mxGeometry y="30" width="210" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="22" target="43">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="92" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="38" target="91">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="BoardCast ARP(if not cahe)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="520" width="230" height="220" as="geometry">
+                        <mxRectangle x="300" y="530" width="190" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="38" value="&lt;p style=&quot;white-space-collapse: preserve;&quot; dir=&quot;auto&quot;&gt;A creates an ARP packet: &quot;Who has IP 192.168.1.20? Tell 192.168.1.10.&quot;&lt;/p&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=0;dashed=1;dashPattern=1 4;" vertex="1" parent="22">
+                    <mxGeometry y="30" width="230" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="93" value="&lt;p style=&quot;white-space-collapse: preserve;&quot; dir=&quot;auto&quot;&gt;Encapsulates it in an Ethernet frame: Source MAC = A&#39;s MAC; Destination MAC = Broadcast (FF:FF:FF:FF:FF:FF—all 1s, floods the LAN).&lt;/p&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=0;dashed=1;dashPattern=1 4;" vertex="1" parent="22">
+                    <mxGeometry y="80" width="230" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="&lt;p style=&quot;white-space-collapse: preserve;&quot; dir=&quot;auto&quot;&gt;This device A will then Boardcast this arp packet to the Entire LAN&lt;/p&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=0;dashed=1;dashPattern=1 4;" vertex="1" parent="22">
+                    <mxGeometry y="160" width="230" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="ARP reply" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="670" y="1570" width="210" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="102" value="&lt;p style=&quot;white-space-collapse: preserve;&quot; dir=&quot;auto&quot;&gt;Device B OS Sends Unicast with new ARP packet Reply directly to A&#39;s MAC address&lt;/p&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=0;dashed=1;dashPattern=1 4;" vertex="1" parent="29">
+                    <mxGeometry y="30" width="210" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="&lt;p style=&quot;white-space-collapse: preserve;&quot; dir=&quot;auto&quot;&gt;&quot;IP 192.168.1.2 is at MAC 77:88:99:AA:BB:CC.&quot;&lt;br/&gt;(Source: B&#39;s IP/MAC; Target: A&#39;s IP/MAC—no broadcast here for efficiency.)&lt;/p&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=0;dashed=1;dashPattern=1 4;" vertex="1" parent="29">
+                    <mxGeometry y="90" width="210" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="89" style="edgeStyle=none;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="79" target="85">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="79" value="OS" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="190" y="1530" width="210" height="270" as="geometry"/>
+                </mxCell>
+                <mxCell id="80" value="&lt;p style=&quot;white-space-collapse: preserve;&quot; dir=&quot;auto&quot;&gt;&lt;span class=&quot;citation-41&quot;&gt;The OS looks at the &lt;/span&gt;&lt;b data-index-in-node=&quot;36&quot; data-path-to-node=&quot;6,0,0&quot;&gt;Target IP&lt;/b&gt;&lt;span class=&quot;citation-41 citation-end-41&quot;&gt; field inside the ARP packet. &lt;/span&gt;&lt;span style=&quot;background-color: transparent; white-space-collapse: collapse;&quot;&gt;It asks: &lt;/span&gt;&lt;i style=&quot;background-color: transparent; white-space-collapse: collapse;&quot; data-index-in-node=&quot;20&quot; data-path-to-node=&quot;6,1,0&quot;&gt;&quot;Does this IP address belong to any of my active interfaces?&quot;&lt;/i&gt;&lt;/p&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=0;dashed=1;dashPattern=1 4;" vertex="1" parent="79">
+                    <mxGeometry y="30" width="210" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" value="&lt;p style=&quot;white-space-collapse: preserve;&quot; dir=&quot;auto&quot;&gt;Device B OS Sends Unicast with new ARP packet Reply directly to A&#39;s MAC address&lt;/p&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=0;dashed=1;dashPattern=1 4;" vertex="1" parent="79">
+                    <mxGeometry y="110" width="210" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="81" value="&lt;p style=&quot;white-space-collapse: preserve;&quot; dir=&quot;auto&quot;&gt;&quot;IP 192.168.1.2 is at MAC 77:88:99:AA:BB:CC.&quot;&lt;br/&gt;(Source: B&#39;s IP/MAC; Target: A&#39;s IP/MAC—no broadcast here for efficiency.)&lt;/p&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=0;dashed=1;dashPattern=1 4;" vertex="1" parent="79">
+                    <mxGeometry y="170" width="210" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" style="edgeStyle=none;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6" target="19">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="request to&amp;nbsp;&lt;div&gt;device B&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="21">
+                    <mxGeometry x="-0.2427" y="3" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="24" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="20" target="71">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-130" y="1140" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="130" y="600"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="56" value="if cached" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="24">
+                    <mxGeometry x="0.0293" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="28" value="&lt;p style=&quot;white-space: pre-wrap;&quot; dir=&quot;auto&quot;&gt;Device A (e.g., your laptop, IP: 192.168.1.10) wants to ping Device B (IP: 192.168.1.20) on the same LAN:&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="-240" y="10" width="590" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" style="html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="29" target="6">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="450" y="270" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="35" value="&lt;p style=&quot;white-space: pre-wrap;&quot; dir=&quot;auto&quot;&gt;A then stores in ARP&lt;/p&gt;&lt;p style=&quot;white-space: pre-wrap;&quot; dir=&quot;auto&quot;&gt; cache: IP 192.168.1.20 →&lt;/p&gt;&lt;p style=&quot;white-space: pre-wrap;&quot; dir=&quot;auto&quot;&gt; MAC 77:88:99:AA:BB:CC&lt;/p&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="34">
+                    <mxGeometry x="0.0619" y="-3" relative="1" as="geometry">
+                        <mxPoint x="-3" y="66" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="76" value="&lt;p style=&quot;white-space: pre-wrap;&quot; dir=&quot;auto&quot;&gt;A now encapsulates the IP packet (e.g., ping) into a frame and sends those frames directly to Device B using its MAC address&lt;/p&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="34">
+                    <mxGeometry x="0.586" y="-3" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="90" value="if match" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="34">
+                    <mxGeometry x="-0.8197" y="-2" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="40" value="&lt;p style=&quot;white-space-collapse: preserve;&quot; dir=&quot;auto&quot;&gt;Sometimes devices send unprompted ARPs (e.g., on boot) to announce their IP/MAC or detect duplicates (&quot;Is anyone using my IP?&quot;)&lt;/p&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="760" y="1040" width="180" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="&lt;p style=&quot;white-space-collapse: preserve;&quot; dir=&quot;auto&quot;&gt;A checks its ARP&lt;/p&gt;&lt;p style=&quot;white-space-collapse: preserve;&quot; dir=&quot;auto&quot;&gt; cache (local table &lt;/p&gt;&lt;p style=&quot;white-space-collapse: preserve;&quot; dir=&quot;auto&quot;&gt;of IP→MAC mappings)&lt;/p&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="160" width="130" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="73" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="43" target="71">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;LAN&lt;/font&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="350" y="790" width="90" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="LAN" style="swimlane;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="-470" y="770" width="300" height="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" value="" style="image;html=1;image=img/lib/clip_art/networking/Wireless_Router_128x128.png;imageBorder=default;" vertex="1" parent="62">
+                    <mxGeometry x="20" y="50" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" value="This router will also ignore the ARP" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="62">
+                    <mxGeometry y="180" width="210" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" value="cast means" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1125" y="770" width="200" height="250" as="geometry"/>
+                </mxCell>
+                <mxCell id="68" value="boardcast means&amp;nbsp;&lt;div&gt;reply to all&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="67">
+                    <mxGeometry x="40" y="30" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="69" value="unicast means reply to one" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="67">
+                    <mxGeometry x="40" y="100" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" value="multicast" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="67">
+                    <mxGeometry x="25" y="170" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="94" value="formats" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1410" y="770" width="200" height="250" as="geometry"/>
+                </mxCell>
+                <mxCell id="95" value="ethernet frames" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="94">
+                    <mxGeometry x="40" y="30" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="96" value="IP packet header" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="94">
+                    <mxGeometry x="40" y="100" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="97" value="TCP segment" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="94">
+                    <mxGeometry x="25" y="170" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="78" style="edgeStyle=none;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="71" target="77">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="82" style="edgeStyle=none;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="71" target="79">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="83" value="&lt;p style=&quot;white-space: pre-wrap;&quot; dir=&quot;auto&quot;&gt;The NIC&#39;s hardware/promiscuous&lt;/p&gt;&lt;p style=&quot;white-space: pre-wrap;&quot; dir=&quot;auto&quot;&gt; mode passes it up to the OS&lt;/p&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="82">
+                    <mxGeometry x="-0.044" y="1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="98" value="The hardware passes&lt;div&gt;&amp;nbsp;this ARP packet up to the OS.&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="82">
+                    <mxGeometry x="0.4634" y="-2" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="71" value="Devices on LAN" style="swimlane;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="170" y="920" width="427" height="280" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/mac_client.svg;imageBorder=default;" vertex="1" parent="71">
+                    <mxGeometry x="20" y="40" width="47" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/laptop_client.svg;imageBorder=default;" vertex="1" parent="71">
+                    <mxGeometry x="108" y="40" width="45" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="" style="sketch=0;points=[[0.015,0.015,0],[0.985,0.015,0],[0.985,0.985,0],[0.015,0.985,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.cell_phone;fillColor=#005073;strokeColor=default;" vertex="1" parent="71">
+                    <mxGeometry x="187" y="40" width="25" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="" style="image;html=1;image=img/lib/clip_art/computers/Printer_128x128.png;imageBorder=default;" vertex="1" parent="71">
+                    <mxGeometry x="237" y="40" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/cell_phone.svg;imageBorder=default;" vertex="1" parent="71">
+                    <mxGeometry x="357" y="40" width="21" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="LAN" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="71">
+                    <mxGeometry x="23.5" y="140" width="380" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="&lt;p style=&quot;white-space-collapse: preserve;&quot; dir=&quot;auto&quot;&gt;&lt;span data-end=&quot;309&quot; data-start=&quot;293&quot;&gt;1. E&lt;/span&gt;&lt;strong data-end=&quot;309&quot; data-start=&quot;293&quot;&gt;very device&lt;/strong&gt; on that LAN receives ARP packet.&lt;/p&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=0;dashed=1;dashPattern=1 4;" vertex="1" parent="57">
+                    <mxGeometry y="30" width="380" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="84" value="&lt;p style=&quot;white-space-collapse: preserve;&quot; dir=&quot;auto&quot;&gt;2. And on each device, &lt;strong data-end=&quot;384&quot; data-start=&quot;357&quot;&gt;every network interface&lt;/strong&gt; receives it too, Because&lt;/p&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=0;dashed=1;dashPattern=1 4;" vertex="1" parent="57">
+                    <mxGeometry y="70" width="380" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="75" value="Both A and B are connect on same LAN" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="268.5" y="170" width="230" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="77" value="&lt;p style=&quot;white-space-collapse: preserve;&quot; dir=&quot;auto&quot;&gt;Only the matching interface generates and sends the reply, using its own MAC address.&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-190" y="1070" width="190" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="86" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="85" target="87">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="580" y="1580" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="88" value="If there&#39;s&amp;nbsp;&lt;div&gt;no match:&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="86">
+                    <mxGeometry x="-0.1028" y="-1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="100" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="85" target="29">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="101" value="if found" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="100">
+                    <mxGeometry x="-0.2646" y="-1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="85" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="498.5" y="1500" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="87" value="The OS simply discards/ignores the ARP request" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="490" y="1780" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="91" value="When a broadcast ARP packet hits the local network, the &lt;b data-index-in-node=&quot;56&quot; data-path-to-node=&quot;3&quot;&gt;Network Interface Card (NIC)&lt;/b&gt; on every device &quot;hears&quot; it because the destination MAC address is set to &lt;code data-index-in-node=&quot;158&quot; data-path-to-node=&quot;3&quot;&gt;FF:FF:FF:FF:FF:FF&lt;/code&gt; (the universal &quot;everyone&quot; address)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-130" y="590" width="190" height="190" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

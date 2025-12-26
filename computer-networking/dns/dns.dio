@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="b-197oJzX1WzBJwNLb67" name="Page-1">
-        <mxGraphModel dx="1621" dy="1533" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1652" dy="1550" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -32,7 +32,7 @@
                     <mxGeometry x="13" y="12.300000000000011" width="50" height="45.4" as="geometry"/>
                 </mxCell>
                 <mxCell id="33" value="Understanding Domain" style="swimlane;whiteSpace=wrap;html=1;rounded=1;fillColor=#e6d0de;gradientColor=#d5739d;strokeColor=#996185;" parent="1" vertex="1">
-                    <mxGeometry x="65" y="-490" width="440" height="280" as="geometry"/>
+                    <mxGeometry x="65" y="-490" width="455" height="280" as="geometry"/>
                 </mxCell>
                 <mxCell id="43" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" parent="33" source="39" target="48" edge="1">
                     <mxGeometry relative="1" as="geometry">
@@ -84,8 +84,8 @@
                 <mxCell id="51" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;1. The total length of a domain name (including dots) should&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;not exceed 255 Characters&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;2. Each label (a part between the dots) can be upto 63&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Characters long&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#BD7000;fillColor=#f0a30a;fontColor=#000000;" parent="33" vertex="1">
                     <mxGeometry x="40" y="200" width="350" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="84" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;every domain&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;have IP address&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;assigned to it&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#36393d;fillColor=#cdeb8b;" vertex="1" parent="33">
-                    <mxGeometry x="330" y="27.5" width="110" height="60" as="geometry"/>
+                <mxCell id="84" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;every domain&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;need IP address&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;assigned to use it&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#36393d;fillColor=#cdeb8b;" vertex="1" parent="33">
+                    <mxGeometry x="335" y="27.5" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="102" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" edge="1" parent="1" source="63" target="72">
                     <mxGeometry relative="1" as="geometry"/>
@@ -113,8 +113,8 @@
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="-110" y="1360" as="targetPoint"/>
                         <Array as="points">
-                            <mxPoint x="-120" y="865"/>
-                            <mxPoint x="-120" y="1702"/>
+                            <mxPoint x="-130" y="865"/>
+                            <mxPoint x="-130" y="1720"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
@@ -192,29 +192,23 @@
                     <mxGeometry x="90" y="1330" width="340" height="240" as="geometry"/>
                 </mxCell>
                 <mxCell id="86" value="TLS" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="85">
-                    <mxGeometry x="90" y="32.5" width="220" height="100" as="geometry"/>
+                    <mxGeometry x="90" y="32.5" width="220" height="180" as="geometry"/>
                 </mxCell>
-                <mxCell id="87" value="The TLD server does &lt;span style=&quot;&quot; data-end=&quot;1154&quot; data-start=&quot;1147&quot;&gt;not&lt;/span&gt; know the IP address, It knows which &lt;span style=&quot;&quot; data-end=&quot;1223&quot; data-start=&quot;1195&quot;&gt;authoritative DNS server&lt;/span&gt; is responsible for example.com." style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="86">
-                    <mxGeometry y="30" width="220" height="70" as="geometry"/>
+                <mxCell id="87" value="&lt;p style=&quot;white-space-collapse: preserve;&quot; dir=&quot;auto&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Registry act as the authoritative name servers for the top-level domain &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 0, 255));&quot;&gt;like .com, .org etc&lt;/span&gt;, &lt;/font&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(192, 192, 192), rgb(255, 255, 255));&quot;&gt;that directly manages and updates the TLD servers&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="86">
+                    <mxGeometry y="30" width="220" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="153" value="The TLD server does &lt;span style=&quot;&quot; data-end=&quot;1154&quot; data-start=&quot;1147&quot;&gt;not&lt;/span&gt; know the IP address, It knows which &lt;span style=&quot;&quot; data-end=&quot;1223&quot; data-start=&quot;1195&quot;&gt;authoritative DNS server&lt;/span&gt; is responsible for example.com." style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="86">
+                    <mxGeometry y="110" width="220" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="89" value="" style="image;html=1;image=img/lib/clip_art/computers/Server_Tower_128x128.png" vertex="1" parent="85">
                     <mxGeometry x="10" y="42.5" width="80" height="80" as="geometry"/>
-                </mxCell>
-                <mxCell id="90" value=".com&amp;nbsp;&lt;div&gt;Top level server&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="85">
-                    <mxGeometry x="20" y="160" width="90" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="91" value=".org&amp;nbsp;&lt;div&gt;Top level server&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="85">
-                    <mxGeometry x="125" y="160" width="90" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="92" value="other&lt;br&gt;&lt;div&gt;Top level servers&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="85">
-                    <mxGeometry x="230" y="160" width="90" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="108" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;flowAnimation=1;" edge="1" parent="1" source="94" target="63">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="690" y="1290" as="targetPoint"/>
                         <Array as="points">
-                            <mxPoint x="660" y="1735"/>
-                            <mxPoint x="660" y="822"/>
+                            <mxPoint x="660" y="1770"/>
+                            <mxPoint x="660" y="823"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
@@ -336,6 +330,21 @@
                 </mxCell>
                 <mxCell id="150" value="5. Reverse DNS" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="140">
                     <mxGeometry y="220" width="280" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="154" value="Domain Purchase process flow" style="swimlane;childLayout=stackLayout;horizontal=1;fillColor=#cdeb8b;horizontalStack=1;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;strokeColor=#36393d;stackBorder=10;stackSpacing=-12;resizable=1;align=center;points=[];whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="450" y="-160" width="630" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="155" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;we purchase&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;domain&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;background-color: transparent; color: rgb(192, 192, 192);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(192, 192, 192), rgb(255, 255, 255));&quot;&gt;from&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(192, 192, 192); background-color: transparent;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: rgb(192, 192, 192);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;registrar like&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: rgb(192, 192, 192);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;godaddy etc&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];whiteSpace=wrap;html=1;" vertex="1" parent="154">
+                    <mxGeometry x="10" y="33" width="140" height="87" as="geometry"/>
+                </mxCell>
+                <mxCell id="156" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;registrar requests&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;to respective&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;registry&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&amp;nbsp;for&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;that&amp;nbsp; domain&lt;/font&gt;&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];whiteSpace=wrap;html=1;" vertex="1" parent="154">
+                    <mxGeometry x="138" y="33" width="142" height="87" as="geometry"/>
+                </mxCell>
+                <mxCell id="157" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;registry then updates&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;the TDL server&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;database with&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;registrar nameserver&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;for&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;that domain&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];whiteSpace=wrap;html=1;" vertex="1" parent="154">
+                    <mxGeometry x="268" y="33" width="152" height="87" as="geometry"/>
+                </mxCell>
+                <mxCell id="158" value="Later if we decide to&lt;div&gt;change the nameserver&lt;/div&gt;&lt;div&gt;of our domain, then the&amp;nbsp;&lt;/div&gt;&lt;div&gt;registrar, will tell respective&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: rgb(192, 192, 192);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(192, 192, 192), rgb(255, 255, 255));&quot;&gt;registry&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(192, 192, 192); background-color: transparent;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: rgb(192, 192, 192);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(192, 192, 192), rgb(255, 255, 255));&quot;&gt;to update&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: rgb(192, 192, 192);&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(192, 192, 192), rgb(255, 255, 255));&quot;&gt;nameserver&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];whiteSpace=wrap;html=1;" vertex="1" parent="154">
+                    <mxGeometry x="408" y="33" width="212" height="87" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
