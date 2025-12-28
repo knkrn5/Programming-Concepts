@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="opx8sHROR0iPvwW-EfYv" name="Page-1">
-        <mxGraphModel dx="1685" dy="1569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="2029" dy="1762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -257,9 +257,6 @@
                 </mxCell>
                 <mxCell id="126" value="&lt;p style=&quot;white-space-collapse: preserve;&quot; dir=&quot;auto&quot;&gt;Src MAC=ServerRouter,&lt;/p&gt;&lt;p style=&quot;white-space-collapse: preserve;&quot; dir=&quot;auto&quot;&gt; Dest MAC=Server device&lt;/p&gt;" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];whiteSpace=wrap;html=1;" parent="122" vertex="1">
                     <mxGeometry x="448" y="33" width="172" height="57" as="geometry"/>
-                </mxCell>
-                <mxCell id="127" value="Any data going over the network &lt;strong data-end=&quot;771&quot; data-start=&quot;763&quot;&gt;must&lt;/strong&gt; go through layers 7 → 1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="500" y="-192" width="360" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="129" value="src and dest mac&lt;div&gt;&amp;nbsp;address&lt;div&gt;is needed to&lt;/div&gt;&lt;div&gt;build the frame&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="920" y="1290" width="110" height="70" as="geometry"/>
