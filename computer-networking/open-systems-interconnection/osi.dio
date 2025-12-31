@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="opx8sHROR0iPvwW-EfYv" name="Page-1">
-        <mxGraphModel dx="1852" dy="1663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="2520" dy="2038" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -331,6 +331,9 @@
                 </mxCell>
                 <mxCell id="150" value="data send" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
                     <mxGeometry x="920" y="78" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="151" value="&lt;p data-pm-slice=&quot;0 0 []&quot;&gt;in ethernet frame ip are the in the payload of ethernet frame, and in IP packet the TCP and UDP are the part of IP packet payload and the&amp;nbsp;&lt;/p&gt;&lt;p data-pm-slice=&quot;0 0 []&quot;&gt;actual data is in the payload of TCP and UDP&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="820" y="-350" width="750" height="80" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
