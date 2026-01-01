@@ -1,12 +1,9 @@
 <mxfile host="65bd71144e">
     <diagram id="opx8sHROR0iPvwW-EfYv" name="Page-1">
-        <mxGraphModel dx="2520" dy="2038" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="2755" dy="1693" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="3" value="&lt;b&gt;&lt;font style=&quot;font-size: 23px;&quot;&gt;Open systems interconnection&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;glass=0;sketch=1;curveFitting=1;jiggle=2;shadow=1;fillColor=#ffcd28;strokeColor=#d79b00;gradientColor=#ffa500;" parent="1" vertex="1">
-                    <mxGeometry x="520" y="-120" width="360" height="60" as="geometry"/>
-                </mxCell>
                 <mxCell id="27" value="&lt;b&gt;Other&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
                     <mxGeometry x="1256" y="2460" width="270" height="90" as="geometry"/>
                 </mxCell>
@@ -17,10 +14,10 @@
                     <mxGeometry y="60" width="270" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="77" value="Application Layer" style="swimlane;whiteSpace=wrap;html=1;rounded=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" parent="1" vertex="1">
-                    <mxGeometry x="500" y="10" width="400" height="180" as="geometry"/>
+                    <mxGeometry x="500" y="10" width="400" height="190" as="geometry"/>
                 </mxCell>
                 <mxCell id="24" value="&lt;b&gt;7. Application Layer&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="77" vertex="1">
-                    <mxGeometry x="110" y="37.3" width="270" height="130" as="geometry">
+                    <mxGeometry x="110" y="32.3" width="270" height="140" as="geometry">
                         <mxRectangle x="110" y="37.3" width="150" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
@@ -30,28 +27,28 @@
                 <mxCell id="26" value="2. Protocols: &lt;strong data-end=&quot;473&quot; data-start=&quot;447&quot;&gt;HTTP, HTTPS, DNS, SMTP&lt;/strong&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="24" vertex="1">
                     <mxGeometry y="70" width="270" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="156" value="3. we send/transfer data here" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="24" vertex="1">
-                    <mxGeometry y="100" width="270" height="30" as="geometry"/>
+                <mxCell id="156" value="3. we send/transfer data here. mostly in&amp;nbsp;Plain text HTTP/JSON/forms formats" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="24" vertex="1">
+                    <mxGeometry y="100" width="270" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="34" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.chrome" parent="77" vertex="1">
                     <mxGeometry x="20" y="44.599999999999994" width="74.8" height="75.4" as="geometry"/>
                 </mxCell>
-                <mxCell id="208" value="&lt;b&gt;7. Application Layer&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="77">
+                <mxCell id="208" value="&lt;b&gt;7. Application Layer&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="77" vertex="1">
                     <mxGeometry x="710" y="52.30000000000001" width="270" height="100" as="geometry">
                         <mxRectangle x="110" y="37.3" width="150" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="209" value="Application receives&amp;nbsp;receives decrypted data" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="208">
+                <mxCell id="209" value="Application receives&amp;nbsp;receives decrypted data" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="208" vertex="1">
                     <mxGeometry y="30" width="270" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="210" value="Processes the data according to our code logic" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="208">
+                <mxCell id="210" value="Processes the data according to our code logic" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="208" vertex="1">
                     <mxGeometry y="70" width="270" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="215" value="" style="image;html=1;image=img/lib/clip_art/computers/Server_Tower_128x128.png" vertex="1" parent="77">
+                <mxCell id="215" value="" style="image;html=1;image=img/lib/clip_art/computers/Server_Tower_128x128.png" parent="77" vertex="1">
                     <mxGeometry x="990" y="52.30000000000001" width="80" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="78" value="" style="swimlane;whiteSpace=wrap;html=1;rounded=1;fillColor=#e6d0de;gradientColor=#d5739d;strokeColor=#996185;" parent="1" vertex="1">
-                    <mxGeometry x="500" y="240" width="400" height="660" as="geometry"/>
+                    <mxGeometry x="500" y="240" width="400" height="210" as="geometry"/>
                 </mxCell>
                 <mxCell id="21" value="&lt;b&gt;6. Presentation Layer&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="78" vertex="1">
                     <mxGeometry x="110" y="40" width="270" height="130" as="geometry"/>
@@ -134,40 +131,19 @@
                 <mxCell id="128" value="3. It doesn&#39;t find the destination server&#39;s MAC address directly,&amp;nbsp;&lt;span style=&quot;background-color: transparent;&quot;&gt;It only finds the MAC address of the &lt;/span&gt;&lt;strong style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(153, 76, 0));&quot;&gt;next hop&lt;/strong&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt; (usually your router/gateway)&lt;/span&gt;&lt;li class=&quot;whitespace-normal break-words pl-2&quot;&gt;&lt;/li&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="9" vertex="1">
                     <mxGeometry y="100" width="270" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="206" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxODIgMTI2Ij4KICAKICA8cGF0aCBmaWxsPSJibGFjayIgZD0iTSA4NCAyNCBDIDg0IDI0IDc0IDI0IDc0IDM0IEMgNzQgMzQgNzQgNDQgODQgNTYgQyA5NCA0NCA5NCAzNCA5NCAzNCBDIDk0IDI0IDg0IDI0IDg0IDI0IFoiLz4KICA8Y2lyY2xlIGZpbGw9IndoaXRlIiByPSI0IiBjeT0iMzYiIGN4PSI4NCIvPgogIAogIAogIDxsaW5lIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlPSJibGFjayIgeTI9IjYyIiB4Mj0iODQiIHkxPSI1NiIgeDE9Ijg0Ii8+CiAgCiAgCiAgPHJlY3Qgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2U9ImJsYWNrIiBmaWxsPSJ3aGl0ZSIgcng9IjIiIGhlaWdodD0iNDIiIHdpZHRoPSIxMDgiIHk9IjYyIiB4PSIzMCIvPgogIAogIAogIDxyZWN0IGZpbGw9ImJsYWNrIiBoZWlnaHQ9IjEyIiB3aWR0aD0iOCIgeT0iNzIiIHg9IjMwIi8+CiAgPGxpbmUgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2U9ImJsYWNrIiB5Mj0iNzgiIHgyPSIzMCIgeTE9Ijc4IiB4MT0iMjYiLz4KICAKICAKICA8cmVjdCBmaWxsPSJibGFjayIgcng9IjEiIGhlaWdodD0iMjAiIHdpZHRoPSI2IiB5PSI3MiIgeD0iNTQiLz4KICA8cmVjdCBmaWxsPSJibGFjayIgcng9IjEiIGhlaWdodD0iMjAiIHdpZHRoPSI2IiB5PSI3MiIgeD0iNjQiLz4KICA8cmVjdCBmaWxsPSJibGFjayIgcng9IjEiIGhlaWdodD0iMjAiIHdpZHRoPSI2IiB5PSI3MiIgeD0iNzQiLz4KICAKICAKICA8cmVjdCBmaWxsPSJibGFjayIgcng9IjEiIGhlaWdodD0iMTIiIHdpZHRoPSIyOCIgeT0iNzIiIHg9IjkyIi8+CiAgCiAgCiAgPHJlY3QgZmlsbD0iYmxhY2siIHJ4PSIxIiBoZWlnaHQ9IjEyIiB3aWR0aD0iMTYiIHk9IjEwNCIgeD0iNDIiLz4KICA8cmVjdCBmaWxsPSJibGFjayIgcng9IjEiIGhlaWdodD0iMTIiIHdpZHRoPSIxNiIgeT0iMTA0IiB4PSI3MiIvPgogIDxyZWN0IGZpbGw9ImJsYWNrIiByeD0iMSIgaGVpZ2h0PSIxMiIgd2lkdGg9IjE2IiB5PSIxMDQiIHg9IjEwMiIvPgogIAogIAogIDxsaW5lIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlPSJibGFjayIgeTI9IjEwNCIgeDI9IjUwIiB5MT0iMTA0IiB4MT0iNTAiLz4KICA8bGluZSBzdHJva2Utd2lkdGg9IjMiIHN0cm9rZT0iYmxhY2siIHkyPSIxMDQiIHgyPSI4MCIgeTE9IjEwNCIgeDE9IjgwIi8+CiAgPGxpbmUgc3Ryb2tlLXdpZHRoPSIzIiBzdHJva2U9ImJsYWNrIiB5Mj0iMTA0IiB4Mj0iMTEwIiB5MT0iMTA0IiB4MT0iMTEwIi8+Cjwvc3ZnPg==;imageBackground=light-dark(#FFFFFF,#4C0099);" vertex="1" parent="80">
+                <mxCell id="206" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxODIgMTI2Ij4KICAKICA8cGF0aCBmaWxsPSJibGFjayIgZD0iTSA4NCAyNCBDIDg0IDI0IDc0IDI0IDc0IDM0IEMgNzQgMzQgNzQgNDQgODQgNTYgQyA5NCA0NCA5NCAzNCA5NCAzNCBDIDk0IDI0IDg0IDI0IDg0IDI0IFoiLz4KICA8Y2lyY2xlIGZpbGw9IndoaXRlIiByPSI0IiBjeT0iMzYiIGN4PSI4NCIvPgogIAogIAogIDxsaW5lIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlPSJibGFjayIgeTI9IjYyIiB4Mj0iODQiIHkxPSI1NiIgeDE9Ijg0Ii8+CiAgCiAgCiAgPHJlY3Qgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2U9ImJsYWNrIiBmaWxsPSJ3aGl0ZSIgcng9IjIiIGhlaWdodD0iNDIiIHdpZHRoPSIxMDgiIHk9IjYyIiB4PSIzMCIvPgogIAogIAogIDxyZWN0IGZpbGw9ImJsYWNrIiBoZWlnaHQ9IjEyIiB3aWR0aD0iOCIgeT0iNzIiIHg9IjMwIi8+CiAgPGxpbmUgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2U9ImJsYWNrIiB5Mj0iNzgiIHgyPSIzMCIgeTE9Ijc4IiB4MT0iMjYiLz4KICAKICAKICA8cmVjdCBmaWxsPSJibGFjayIgcng9IjEiIGhlaWdodD0iMjAiIHdpZHRoPSI2IiB5PSI3MiIgeD0iNTQiLz4KICA8cmVjdCBmaWxsPSJibGFjayIgcng9IjEiIGhlaWdodD0iMjAiIHdpZHRoPSI2IiB5PSI3MiIgeD0iNjQiLz4KICA8cmVjdCBmaWxsPSJibGFjayIgcng9IjEiIGhlaWdodD0iMjAiIHdpZHRoPSI2IiB5PSI3MiIgeD0iNzQiLz4KICAKICAKICA8cmVjdCBmaWxsPSJibGFjayIgcng9IjEiIGhlaWdodD0iMTIiIHdpZHRoPSIyOCIgeT0iNzIiIHg9IjkyIi8+CiAgCiAgCiAgPHJlY3QgZmlsbD0iYmxhY2siIHJ4PSIxIiBoZWlnaHQ9IjEyIiB3aWR0aD0iMTYiIHk9IjEwNCIgeD0iNDIiLz4KICA8cmVjdCBmaWxsPSJibGFjayIgcng9IjEiIGhlaWdodD0iMTIiIHdpZHRoPSIxNiIgeT0iMTA0IiB4PSI3MiIvPgogIDxyZWN0IGZpbGw9ImJsYWNrIiByeD0iMSIgaGVpZ2h0PSIxMiIgd2lkdGg9IjE2IiB5PSIxMDQiIHg9IjEwMiIvPgogIAogIAogIDxsaW5lIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlPSJibGFjayIgeTI9IjEwNCIgeDI9IjUwIiB5MT0iMTA0IiB4MT0iNTAiLz4KICA8bGluZSBzdHJva2Utd2lkdGg9IjMiIHN0cm9rZT0iYmxhY2siIHkyPSIxMDQiIHgyPSI4MCIgeTE9IjEwNCIgeDE9IjgwIi8+CiAgPGxpbmUgc3Ryb2tlLXdpZHRoPSIzIiBzdHJva2U9ImJsYWNrIiB5Mj0iMTA0IiB4Mj0iMTEwIiB5MT0iMTA0IiB4MT0iMTEwIi8+Cjwvc3ZnPg==;imageBackground=light-dark(#FFFFFF,#4C0099);" parent="80" vertex="1">
                     <mxGeometry x="11.06000000000006" y="60" width="66.44" height="46" as="geometry"/>
-                </mxCell>
-                <mxCell id="87" value="" style="swimlane;whiteSpace=wrap;html=1;rounded=1;fillColor=#bac8d3;strokeColor=#23445d;" parent="1" vertex="1">
-                    <mxGeometry x="1150" y="1730" width="410" height="280" as="geometry"/>
-                </mxCell>
-                <mxCell id="88" value="&lt;b&gt;2.Data Link Layer&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="87" vertex="1">
-                    <mxGeometry x="30" y="40" width="270" height="230" as="geometry"/>
-                </mxCell>
-                <mxCell id="89" value="Decodes Ethernet frame" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="88" vertex="1">
-                    <mxGeometry y="30" width="270" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="190" value="Checks if Dest MAC matches server&#39;s MAC" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="88">
-                    <mxGeometry y="70" width="270" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="90" value="Validates FCS checksum" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="88" vertex="1">
-                    <mxGeometry y="110" width="270" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="191" value="Strips Ethernet header" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="88">
-                    <mxGeometry y="150" width="270" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="192" value="Passes IP packet to OS" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="88">
-                    <mxGeometry y="190" width="270" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="81" value="" style="swimlane;whiteSpace=wrap;html=1;rounded=1;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
                     <mxGeometry x="525" y="1510" width="390" height="220" as="geometry"/>
                 </mxCell>
-                <mxCell id="4" value="&lt;b&gt;1. Physical Layer&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="81" vertex="1">
+                <mxCell id="4" value="&lt;b&gt;1. Physical Layer (NIC)&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="81" vertex="1">
                     <mxGeometry x="110" y="40" width="270" height="160" as="geometry"/>
                 </mxCell>
-                <mxCell id="5" value="&lt;p style=&quot;white-space-collapse: preserve;&quot; dir=&quot;auto&quot;&gt;&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;1. &lt;/font&gt;&lt;span style=&quot;background-color: transparent; color: rgb(192, 192, 192);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(192, 192, 192), rgb(255, 255, 255));&quot;&gt;Physical layer adds preamble/SFD&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(192, 192, 192); background-color: transparent;&quot;&gt; &lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(192, 192, 192), rgb(255, 255, 255));&quot;&gt;for sync&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt; and serializes bits (MSB first)&lt;/span&gt;&lt;/p&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="4" vertex="1">
+                <mxCell id="5" value="&lt;p style=&quot;white-space-collapse: preserve;&quot; dir=&quot;auto&quot;&gt;&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;1. &lt;/font&gt;&lt;span style=&quot;background-color: transparent; color: rgb(192, 192, 192);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(192, 192, 192), rgb(255, 255, 255));&quot;&gt;Physical layer adds preamble/SFD&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(192, 192, 192); background-color: transparent;&quot;&gt; &lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(192, 192, 192), rgb(255, 255, 255));&quot;&gt;for sync&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt; &lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;and serializes bits (MSB first)&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="4" vertex="1">
                     <mxGeometry y="30" width="270" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="152" value="&lt;p style=&quot;white-space-collapse: preserve;&quot; dir=&quot;auto&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;2. Converts Ethernet frames to bits and bits to electrical/optical/radio signals (bits). And &lt;/font&gt;&lt;span style=&quot;background-color: transparent; white-space-collapse: collapse; color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;are&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(255, 255, 255); background-color: transparent; white-space-collapse: collapse;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;background-color: transparent; white-space-collapse: collapse; color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;transmitted as electrical/optical/radio signals over the physical medium&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="4" vertex="1">
+                <mxCell id="152" value="&lt;p style=&quot;white-space-collapse: preserve;&quot; dir=&quot;auto&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;2. Converts Ethernet frames bits is convert to electrical/optical/radio signals (bits). And &lt;/font&gt;&lt;span style=&quot;background-color: transparent; white-space-collapse: collapse; color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;are&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(255, 255, 255); background-color: transparent; white-space-collapse: collapse;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;background-color: transparent; white-space-collapse: collapse; color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;transmitted as electrical/optical/radio signals over the physical medium&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="4" vertex="1">
                     <mxGeometry y="80" width="270" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="40" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.ethernet_port;" parent="81" vertex="1">
@@ -211,7 +187,7 @@
                 <mxCell id="121" value="Severs device&lt;div&gt;MAC&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];whiteSpace=wrap;html=1;" parent="117" vertex="1">
                     <mxGeometry x="274" y="33" width="126" height="57" as="geometry"/>
                 </mxCell>
-                <mxCell id="122" value="Hop to Hop" style="swimlane;childLayout=stackLayout;horizontal=1;fillColor=none;horizontalStack=1;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;strokeColor=default;stackBorder=10;stackSpacing=-12;resizable=1;align=center;points=[];whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+                <mxCell id="122" value="The Ethernet header is NOT just modified—it&#39;s completely stripped and rebuilt at every Hop" style="swimlane;childLayout=stackLayout;horizontal=1;fillColor=none;horizontalStack=1;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;strokeColor=default;stackBorder=10;stackSpacing=-12;resizable=1;align=center;points=[];whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
                     <mxGeometry x="280" y="2240" width="630" height="100" as="geometry"/>
                 </mxCell>
                 <mxCell id="123" value="&lt;p style=&quot;white-space-collapse: preserve;&quot; dir=&quot;auto&quot;&gt;Src MAC=Your device,&lt;/p&gt;&lt;p style=&quot;white-space-collapse: preserve;&quot; dir=&quot;auto&quot;&gt; Dest MAC=your Router&lt;/p&gt;" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];whiteSpace=wrap;html=1;" parent="122" vertex="1">
@@ -347,7 +323,7 @@
                         <mxPoint x="40.833333333333336" y="1770" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="63" value="&lt;b&gt;&lt;font style=&quot;font-size: 35px;&quot;&gt;encapsulation&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;direction=east;rotation=-90;" parent="170" vertex="1">
+                <mxCell id="63" value="&lt;b&gt;&lt;font style=&quot;font-size: 35px;&quot;&gt;Encapsulation&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;direction=east;rotation=-90;" parent="170" vertex="1">
                     <mxGeometry x="-128.33333333333334" y="906.0714285714286" width="326.6666666666667" height="63.214285714285715" as="geometry"/>
                 </mxCell>
                 <mxCell id="66" value="" style="endArrow=none;html=1;flowAnimation=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=10;" parent="170" target="63" edge="1">
@@ -356,13 +332,13 @@
                         <mxPoint x="-210" y="621.6071428571429" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="172" value="The Ethernet frame is converted&amp;nbsp;&lt;div&gt;into electrical signals (wired) or&amp;nbsp;&lt;/div&gt;&lt;div&gt;radio waves (WiFi).&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="172" value="The Ethernet frame is converted&amp;nbsp;&lt;div&gt;into electrical signals (wired) or&amp;nbsp;&lt;/div&gt;&lt;div&gt;radio waves (WiFi).&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="80" y="1493" width="200" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="174" value="&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;&lt;strong&gt;For wired Ethernet:&lt;/strong&gt;&lt;/p&gt;&lt;br/&gt;&lt;ul class=&quot;[li_&amp;amp;]:mb-0 [li_&amp;amp;]:mt-1.5 [li_&amp;amp;]:gap-1.5 [&amp;amp;:not(:last-child)_ul]:pb-1 [&amp;amp;:not(:last-child)_ol]:pb-1 list-disc flex flex-col gap-2 pl-8 mb-3&quot;&gt;&lt;br/&gt;&lt;li class=&quot;whitespace-normal break-words pl-2&quot;&gt;Each bit is encoded as voltage levels&lt;/li&gt;&lt;br/&gt;&lt;li class=&quot;whitespace-normal break-words pl-2&quot;&gt;Sent over copper cables (Cat5e, Cat6)&lt;/li&gt;&lt;br/&gt;&lt;li class=&quot;whitespace-normal break-words pl-2&quot;&gt;Or light pulses over fiber optic cables&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="174" value="&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;&lt;strong&gt;For wired Ethernet:&lt;/strong&gt;&lt;/p&gt;&lt;br/&gt;&lt;ul class=&quot;[li_&amp;amp;]:mb-0 [li_&amp;amp;]:mt-1.5 [li_&amp;amp;]:gap-1.5 [&amp;amp;:not(:last-child)_ul]:pb-1 [&amp;amp;:not(:last-child)_ol]:pb-1 list-disc flex flex-col gap-2 pl-8 mb-3&quot;&gt;&lt;br/&gt;&lt;li class=&quot;whitespace-normal break-words pl-2&quot;&gt;Each bit is encoded as voltage levels&lt;/li&gt;&lt;br/&gt;&lt;li class=&quot;whitespace-normal break-words pl-2&quot;&gt;Sent over copper cables (Cat5e, Cat6)&lt;/li&gt;&lt;br/&gt;&lt;li class=&quot;whitespace-normal break-words pl-2&quot;&gt;Or light pulses over fiber optic cables&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="-200" y="1440" width="270" height="190" as="geometry"/>
                 </mxCell>
-                <mxCell id="175" value="&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;&lt;strong&gt;For WiFi:&lt;/strong&gt;&lt;/p&gt;&lt;br/&gt;&lt;ul class=&quot;[li_&amp;amp;]:mb-0 [li_&amp;amp;]:mt-1.5 [li_&amp;amp;]:gap-1.5 [&amp;amp;:not(:last-child)_ul]:pb-1 [&amp;amp;:not(:last-child)_ol]:pb-1 list-disc flex flex-col gap-2 pl-8 mb-3&quot;&gt;&lt;br/&gt;&lt;li class=&quot;whitespace-normal break-words pl-2&quot;&gt;Bits encoded as radio frequency modulations&lt;/li&gt;&lt;br/&gt;&lt;li class=&quot;whitespace-normal break-words pl-2&quot;&gt;Transmitted at 2.4 GHz or 5 GHz&lt;/li&gt;&lt;br/&gt;&lt;li class=&quot;whitespace-normal break-words pl-2&quot;&gt;Uses CSMA/CA to avoid collisions&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;rounded=0;" vertex="1" parent="1">
+                <mxCell id="175" value="&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;&lt;strong&gt;For WiFi:&lt;/strong&gt;&lt;/p&gt;&lt;br/&gt;&lt;ul class=&quot;[li_&amp;amp;]:mb-0 [li_&amp;amp;]:mt-1.5 [li_&amp;amp;]:gap-1.5 [&amp;amp;:not(:last-child)_ul]:pb-1 [&amp;amp;:not(:last-child)_ol]:pb-1 list-disc flex flex-col gap-2 pl-8 mb-3&quot;&gt;&lt;br/&gt;&lt;li class=&quot;whitespace-normal break-words pl-2&quot;&gt;Bits encoded as radio frequency modulations&lt;/li&gt;&lt;br/&gt;&lt;li class=&quot;whitespace-normal break-words pl-2&quot;&gt;Transmitted at 2.4 GHz or 5 GHz&lt;/li&gt;&lt;br/&gt;&lt;li class=&quot;whitespace-normal break-words pl-2&quot;&gt;Uses CSMA/CA to avoid collisions&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="-540" y="1440" width="300" height="190" as="geometry"/>
                 </mxCell>
                 <mxCell id="86" value="" style="image;html=1;image=img/lib/clip_art/networking/Wireless_Router_128x128.png" parent="1" vertex="1">
@@ -371,39 +347,59 @@
                 <mxCell id="95" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;3.&amp;nbsp;&lt;span style=&quot;&quot; data-end=&quot;1272&quot; data-start=&quot;1244&quot;&gt;NAT Rewrite happens here,&amp;nbsp;&lt;/span&gt;&lt;/font&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="1" vertex="1">
                     <mxGeometry x="540" y="1860" width="270" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="182" style="edgeStyle=none;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="98">
+                <mxCell id="182" style="edgeStyle=none;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;" parent="1" source="98" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="1030" y="1750" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="183" value="Layer 4 TCP segment unchanged" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="183" value="Layer 4 TCP segment unchanged" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="1810" y="700" width="200" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="184" value=" and checksum" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="184" value=" and checksum" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="1880" y="820" width="100" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="176" value="" style="swimlane;whiteSpace=wrap;html=1;rounded=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
-                    <mxGeometry x="1180" y="2140" width="390" height="220" as="geometry"/>
+                <mxCell id="176" value="Server&#39;s Network Card&amp;nbsp;" style="swimlane;whiteSpace=wrap;html=1;rounded=1;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
+                    <mxGeometry x="1180" y="1710" width="390" height="590" as="geometry"/>
                 </mxCell>
-                <mxCell id="177" value="&lt;b&gt;1. Physical Layer&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="176">
-                    <mxGeometry x="110" y="40" width="270" height="130" as="geometry"/>
+                <mxCell id="180" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.ethernet_port;" parent="176" vertex="1">
+                    <mxGeometry x="20" y="320" width="60" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="178" value="&lt;p style=&quot;white-space-collapse: preserve;&quot; dir=&quot;auto&quot;&gt;Physical: Receives electrical signals&lt;/p&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="177">
+                <mxCell id="88" value="&lt;b&gt;2.Data Link Layer&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="176" vertex="1">
+                    <mxGeometry x="95" y="320" width="270" height="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="89" value="Decodes Ethernet frame" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="88" vertex="1">
+                    <mxGeometry y="30" width="270" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="190" value="Checks if Dest MAC matches server&#39;s MAC" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="88" vertex="1">
+                    <mxGeometry y="70" width="270" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="90" value="Validates FCS checksum" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="88" vertex="1">
+                    <mxGeometry y="110" width="270" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="191" value="Strips Ethernet header" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="88" vertex="1">
+                    <mxGeometry y="150" width="270" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="192" value="Passes IP packet to OS" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="88" vertex="1">
+                    <mxGeometry y="190" width="270" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="177" value="&lt;b&gt;1. Physical Layer&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="176" vertex="1">
+                    <mxGeometry x="95" y="60" width="270" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="178" value="&lt;p style=&quot;white-space-collapse: preserve;&quot; dir=&quot;auto&quot;&gt;Physical: Receives electrical signals&lt;/p&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="177" vertex="1">
                     <mxGeometry y="30" width="270" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="187" value="&lt;p style=&quot;white-space-collapse: preserve;&quot; dir=&quot;auto&quot;&gt;Converts to digital bits&lt;/p&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="177">
+                <mxCell id="187" value="&lt;p style=&quot;white-space-collapse: preserve;&quot; dir=&quot;auto&quot;&gt;Converts to digital bits&lt;/p&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="177" vertex="1">
                     <mxGeometry y="80" width="270" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="180" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.ethernet_port;" vertex="1" parent="176">
-                    <mxGeometry x="20" y="55" width="60" height="60" as="geometry"/>
+                <mxCell id="188" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="176" target="88" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="150" y="230" as="sourcePoint"/>
+                    </mxGeometry>
                 </mxCell>
-                <mxCell id="188" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.495;entryY=1.047;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="177" target="192">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="189" value="&lt;li class=&quot;whitespace-normal break-words pl-2&quot;&gt;&lt;strong&gt;Layer 1-2&lt;/strong&gt;: Receives frame, strips data link header&lt;/li&gt;&lt;br/&gt;&lt;li class=&quot;whitespace-normal break-words pl-2&quot;&gt;&lt;strong&gt;Layer 3&lt;/strong&gt;:&lt;br/&gt;&lt;ul class=&quot;[li_&amp;amp;]:mb-0 [li_&amp;amp;]:mt-1.5 [li_&amp;amp;]:gap-1.5 [&amp;amp;:not(:last-child)_ul]:pb-1 [&amp;amp;:not(:last-child)_ol]:pb-1 list-disc flex flex-col gap-2 pl-8 mb-3&quot;&gt;&lt;br/&gt;&lt;li class=&quot;whitespace-normal break-words pl-2&quot;&gt;Reads destination IP&lt;/li&gt;&lt;br/&gt;&lt;li class=&quot;whitespace-normal break-words pl-2&quot;&gt;Decrements TTL by 1&lt;/li&gt;&lt;br/&gt;&lt;li class=&quot;whitespace-normal break-words pl-2&quot;&gt;Recalculates IP checksum&lt;/li&gt;&lt;br/&gt;&lt;li class=&quot;whitespace-normal break-words pl-2&quot;&gt;Looks up next hop in routing table&lt;/li&gt;&lt;br/&gt;&lt;li class=&quot;whitespace-normal break-words pl-2&quot;&gt;If TTL = 0, discard and send ICMP &quot;Time Exceeded&quot;&lt;/li&gt;&lt;br/&gt;&lt;/ul&gt;&lt;br/&gt;&lt;/li&gt;&lt;br/&gt;&lt;li class=&quot;whitespace-normal break-words pl-2&quot;&gt;&lt;strong&gt;Layer 2-1&lt;/strong&gt;: Wraps in new frame for next hop, transmits&lt;/li&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="189" value="&lt;li class=&quot;whitespace-normal break-words pl-2&quot;&gt;&lt;strong&gt;Layer 1-2&lt;/strong&gt;: Receives frame, strips data link header&lt;/li&gt;&lt;br/&gt;&lt;li class=&quot;whitespace-normal break-words pl-2&quot;&gt;&lt;strong&gt;Layer 3&lt;/strong&gt;:&lt;br/&gt;&lt;ul class=&quot;[li_&amp;amp;]:mb-0 [li_&amp;amp;]:mt-1.5 [li_&amp;amp;]:gap-1.5 [&amp;amp;:not(:last-child)_ul]:pb-1 [&amp;amp;:not(:last-child)_ol]:pb-1 list-disc flex flex-col gap-2 pl-8 mb-3&quot;&gt;&lt;br/&gt;&lt;li class=&quot;whitespace-normal break-words pl-2&quot;&gt;Reads destination IP&lt;/li&gt;&lt;br/&gt;&lt;li class=&quot;whitespace-normal break-words pl-2&quot;&gt;Decrements TTL by 1&lt;/li&gt;&lt;br/&gt;&lt;li class=&quot;whitespace-normal break-words pl-2&quot;&gt;Recalculates IP checksum&lt;/li&gt;&lt;br/&gt;&lt;li class=&quot;whitespace-normal break-words pl-2&quot;&gt;Looks up next hop in routing table&lt;/li&gt;&lt;br/&gt;&lt;li class=&quot;whitespace-normal break-words pl-2&quot;&gt;If TTL = 0, discard and send ICMP &quot;Time Exceeded&quot;&lt;/li&gt;&lt;br/&gt;&lt;/ul&gt;&lt;br/&gt;&lt;/li&gt;&lt;br/&gt;&lt;li class=&quot;whitespace-normal break-words pl-2&quot;&gt;&lt;strong&gt;Layer 2-1&lt;/strong&gt;: Wraps in new frame for next hop, transmits&lt;/li&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="1050" y="2610" width="340" height="330" as="geometry"/>
                 </mxCell>
-                <mxCell id="203" value="Vertical Container" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="203" value="Server&#39;s Operating System" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="1160" y="873" width="455" height="680" as="geometry"/>
                 </mxCell>
                 <mxCell id="83" value="&lt;b&gt;3. Network Layer&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="203" vertex="1">
@@ -412,19 +408,19 @@
                 <mxCell id="84" value="Receives IP packet" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="83" vertex="1">
                     <mxGeometry y="30" width="270" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="181" value="Checks Dest IP: 93.184.216.34 ✓ (matches server)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="83">
+                <mxCell id="181" value="Checks Dest IP: 93.184.216.34 ✓ (matches server)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="83" vertex="1">
                     <mxGeometry y="80" width="270" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="193" value="Validates IP header checksum" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="83">
+                <mxCell id="193" value="Validates IP header checksum" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="83" vertex="1">
                     <mxGeometry y="130" width="270" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="194" value="Reads Protocol field: 6 (TCP)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="83">
+                <mxCell id="194" value="Reads Protocol field: 6 (TCP)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="83" vertex="1">
                     <mxGeometry y="160" width="270" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="195" value="Strips IP header" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="83">
+                <mxCell id="195" value="Strips IP header" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="83" vertex="1">
                     <mxGeometry y="190" width="270" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="196" value="Passes TCP segment to TCP stack" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="83">
+                <mxCell id="196" value="Passes TCP segment to TCP stack" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="83" vertex="1">
                     <mxGeometry y="230" width="270" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="101" value="&lt;b&gt;4. Transport Layer&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="203" vertex="1">
@@ -433,25 +429,25 @@
                 <mxCell id="102" value="Receives TCP segment" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="101" vertex="1">
                     <mxGeometry y="30" width="300" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="197" value="Checks Dest Port: 443 ✓" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="101">
+                <mxCell id="197" value="Checks Dest Port: 443 ✓" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="101" vertex="1">
                     <mxGeometry y="70" width="300" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="198" value="Checks sequence numbers (is this in order?)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="101">
+                <mxCell id="198" value="Checks sequence numbers (is this in order?)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="101" vertex="1">
                     <mxGeometry y="110" width="300" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="199" value="Sends ACK back to acknowledge receipt" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="101">
+                <mxCell id="199" value="Sends ACK back to acknowledge receipt" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="101" vertex="1">
                     <mxGeometry y="150" width="300" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="200" value="Reassembles if this is part of larger data stream" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="101">
+                <mxCell id="200" value="Reassembles if this is part of larger data stream" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="101" vertex="1">
                     <mxGeometry y="190" width="300" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="201" value="Strips TCP header" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="101">
+                <mxCell id="201" value="Strips TCP header" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="101" vertex="1">
                     <mxGeometry y="230" width="300" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="202" value="Passes encrypted data to application on port 443" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="101">
+                <mxCell id="202" value="Passes encrypted data to application on port 443" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="101" vertex="1">
                     <mxGeometry y="270" width="300" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="205" value="Vertical Container" style="swimlane;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+                <mxCell id="205" value="Web Server Application" style="swimlane;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
                     <mxGeometry x="1170" y="270" width="406" height="530" as="geometry"/>
                 </mxCell>
                 <mxCell id="108" value="&lt;b&gt;6. Presentation Layer&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="205" vertex="1">
@@ -460,7 +456,7 @@
                 <mxCell id="109" value="&lt;strong&gt;TLS decryption&lt;/strong&gt;: Uses session keys to decrypt" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="108" vertex="1">
                     <mxGeometry y="30" width="270" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="207" value="Passes Decrypted data to application" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="108">
+                <mxCell id="207" value="Passes Decrypted data to application" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="108" vertex="1">
                     <mxGeometry y="70" width="270" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="105" value="&lt;b&gt;5. Session Layer&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="205" vertex="1">
@@ -469,16 +465,111 @@
                 <mxCell id="106" value="TLS session manager receives encrypted data" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="105" vertex="1">
                     <mxGeometry y="30" width="270" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="204" value="Verifies it&#39;s part of existing session" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="105">
+                <mxCell id="204" value="Verifies it&#39;s part of existing session" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="105" vertex="1">
                     <mxGeometry y="70" width="270" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="213" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="108">
+                <mxCell id="213" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="108" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="1340" y="210" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="216" value="At every Hop on each Router" style="swimlane;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="360" y="3390" width="1170" height="300" as="geometry"/>
+                <mxCell id="216" value="At every Hop on each Router" style="swimlane;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="390" y="3340" width="1610" height="330" as="geometry"/>
+                </mxCell>
+                <mxCell id="217" value="&lt;b&gt;1. Physical Layer (NIC)&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="216" vertex="1">
+                    <mxGeometry x="20" y="40" width="241" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="218" value="1.&amp;nbsp;Receives electrical/optical/radio signals" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="217" vertex="1">
+                    <mxGeometry y="30" width="241" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="219" value="2.&amp;nbsp;converts to bits" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="217" vertex="1">
+                    <mxGeometry y="60" width="241" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="234" value="&lt;b&gt;1. Physical Layer&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="216" vertex="1">
+                    <mxGeometry x="1350" y="40" width="241" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="235" value="1.&amp;nbsp;Converts new frame to signals and transmits" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="234" vertex="1">
+                    <mxGeometry y="30" width="241" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="220" value="&lt;b&gt;2. Data-LInk Layer&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="216" vertex="1">
+                    <mxGeometry x="340" y="40" width="270" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="221" value="1. Completely strips the old Ethernet header and FCS" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="220" vertex="1">
+                    <mxGeometry y="30" width="270" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="222" value="2.&amp;nbsp;Reads the destination MAC to confirm it&#39;s for this router" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="220" vertex="1">
+                    <mxGeometry y="70" width="270" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="223" value="3.&amp;nbsp;Validates the frame (checks FCS) and&amp;nbsp;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Extracts the IP packet&lt;/font&gt;&amp;nbsp;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="220" vertex="1">
+                    <mxGeometry y="110" width="270" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="241" style="edgeStyle=none;html=1;exitX=0.995;exitY=0.11;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitPerimeter=0;strokeWidth=2;flowAnimation=1;" parent="216" source="230" target="234" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="230" value="&lt;b&gt;2. Data-LInk Layer&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="216" vertex="1">
+                    <mxGeometry x="1020" y="40" width="270" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="231" value="1.&amp;nbsp;Wraps IP packet in a COMPLETELY NEW Ethernet frame" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="230" vertex="1">
+                    <mxGeometry y="30" width="270" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="232" value="2. With&amp;nbsp;New source MAC: this current router&#39;s outgoing interface MAC and&amp;nbsp;New destination MAC: next hop router&#39;s MAC address" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="230" vertex="1">
+                    <mxGeometry y="70" width="270" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="233" value="3.&amp;nbsp;Calculates new FCS" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="230" vertex="1">
+                    <mxGeometry y="120" width="270" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="224" value="&lt;b&gt;3. Network Layer&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="216" vertex="1">
+                    <mxGeometry x="690" y="40" width="270" height="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="225" value="1.&amp;nbsp;Reads the IP header" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="224" vertex="1">
+                    <mxGeometry y="30" width="270" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="226" value="2.&amp;nbsp;Checks destination IP address" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="224" vertex="1">
+                    <mxGeometry y="70" width="270" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="227" value="3. Looks up routing table: &quot;Where should this go next?&quot;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="224" vertex="1">
+                    <mxGeometry y="110" width="270" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="228" value="4.&amp;nbsp;Decrements TTL by 1 and&amp;nbsp;&lt;strong&gt;Recalculates IP checksum&lt;/strong&gt; (because TTL changed)&amp;nbsp;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="224" vertex="1">
+                    <mxGeometry y="150" width="270" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="229" value="5.&amp;nbsp;Determines next hop router" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="224" vertex="1">
+                    <mxGeometry y="190" width="270" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="238" style="edgeStyle=none;html=1;exitX=1.003;exitY=0.184;exitDx=0;exitDy=0;entryX=-0.005;entryY=0.118;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;strokeWidth=2;flowAnimation=1;" parent="216" source="217" target="220" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="239" style="edgeStyle=none;html=1;exitX=1.003;exitY=0.105;exitDx=0;exitDy=0;entryX=-0.007;entryY=0.067;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;strokeWidth=2;flowAnimation=1;" parent="216" source="220" target="224" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="240" style="edgeStyle=none;html=1;exitX=0.999;exitY=0.078;exitDx=0;exitDy=0;entryX=0.015;entryY=0.105;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;strokeWidth=2;flowAnimation=1;" parent="216" source="224" target="230" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="242" value="This is why Ethernet is called &lt;strong data-end=&quot;1952&quot; data-start=&quot;1936&quot;&gt;“link-layer”&lt;/strong&gt; — it only works on each individual link (hop)." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="-185" y="1268" width="490" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="243" value="&lt;b&gt;why&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="5" y="3520" width="270" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="244" value="Why does Ethernet frame change every hop?" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="243" vertex="1">
+                    <mxGeometry y="30" width="270" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="247" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.547;entryY=0.028;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="216" target="243" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="248" value="&lt;b style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30);&quot;&gt;&lt;font style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30); font-size: 23px; color: light-dark(rgb(192, 192, 192), rgb(255, 255, 255));&quot;&gt;Open systems interconnection&lt;/font&gt;&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;shadow=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
+                    <mxGeometry x="870" y="-260" width="370" height="90" as="geometry">
+                        <mxRectangle x="110" y="37.3" width="150" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="249" value="1. All the OSI layer happen in the device itself, and not on the network" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="248" vertex="1">
+                    <mxGeometry y="50" width="370" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="251" value="&lt;p style=&quot;white-space-collapse: preserve;&quot; dir=&quot;auto&quot;&gt;From client to server, there might be 10-20 hops (e.g., home router → ISP gateway → backbone router → server&#39;s ISP → server).&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="-60" y="2180" width="230" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="252" value="&lt;strong&gt;Converts to physical signals:&lt;/strong&gt;&lt;br/&gt;&lt;ul class=&quot;[li_&amp;amp;]:mb-0 [li_&amp;amp;]:mt-1.5 [li_&amp;amp;]:gap-1.5 [&amp;amp;:not(:last-child)_ul]:pb-1 [&amp;amp;:not(:last-child)_ol]:pb-1 list-disc flex flex-col gap-2 pl-8 mb-3&quot;&gt;&lt;br/&gt;&lt;li class=&quot;whitespace-normal break-words pl-2&quot;&gt;Binary bits → Electrical voltages (Ethernet cable)&lt;/li&gt;&lt;br/&gt;&lt;li class=&quot;whitespace-normal break-words pl-2&quot;&gt;Binary bits → Radio waves (WiFi)&lt;/li&gt;&lt;br/&gt;&lt;li class=&quot;whitespace-normal break-words pl-2&quot;&gt;Binary bits → Light pulses (Fiber optic)&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="-910" y="1400" width="320" height="160" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>

@@ -1,10 +1,10 @@
 <mxfile host="65bd71144e">
     <diagram id="n7VD63ZE9h01eDD2BXni" name="Page-1">
-        <mxGraphModel dx="1852" dy="1663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="2186" dy="1851" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="3" value="Structure of an Ethernet Frame" style="swimlane;whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                <mxCell id="3" value="Structure of an Ethernet Frame II" style="swimlane;whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" parent="1" vertex="1">
                     <mxGeometry x="210" y="220" width="490" height="200" as="geometry"/>
                 </mxCell>
                 <mxCell id="10" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" parent="3" vertex="1">
@@ -18,7 +18,7 @@
                         <mxRectangle width="87" height="40" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="13" value="SFD (1B)&amp;nbsp;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#006EAF;overflow=hidden;fillColor=#1ba1e2;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontColor=#ffffff;" parent="11" vertex="1">
+                <mxCell id="13" value="SFD (1Byte)&amp;nbsp;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#006EAF;overflow=hidden;fillColor=#1ba1e2;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontColor=#ffffff;" parent="11" vertex="1">
                     <mxGeometry x="87" width="87" height="40" as="geometry">
                         <mxRectangle width="87" height="40" as="alternateBounds"/>
                     </mxGeometry>
@@ -59,6 +59,12 @@
                     <mxGeometry width="105" height="40" as="geometry">
                         <mxRectangle width="105" height="40" as="alternateBounds"/>
                     </mxGeometry>
+                </mxCell>
+                <mxCell id="81" value="" style="whiteSpace=wrap;html=1;fillColor=none;strokeWidth=3;strokeColor=light-dark(#000000,#FFFF00);" parent="3" vertex="1">
+                    <mxGeometry x="25" y="35" width="175" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="84" style="edgeStyle=none;html=1;exitX=0;exitY=0.126;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;flowAnimation=1;" parent="1" source="25" target="83" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="25" value="SFD" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
                     <mxGeometry x="120" width="190" height="120" as="geometry">
@@ -129,6 +135,14 @@
                 <mxCell id="44" value="2.&amp;nbsp;Used to detect corruption (transmission error).&amp;nbsp;If CRC fails → frame is dropped." style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="42" vertex="1">
                     <mxGeometry y="70" width="210" height="50" as="geometry"/>
                 </mxCell>
+                <mxCell id="85" style="edgeStyle=none;html=1;exitX=0.095;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitPerimeter=0;flowAnimation=1;" parent="1" source="60" target="83" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="88" style="edgeStyle=none;html=1;exitX=0.007;exitY=0.155;exitDx=0;exitDy=0;exitPerimeter=0;flowAnimation=1;" edge="1" parent="1" source="60" target="89">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-220" y="250" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
                 <mxCell id="60" value="Preamble " style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
                     <mxGeometry x="-100" y="200" width="210" height="130" as="geometry">
                         <mxRectangle x="-70" y="250" width="110" height="30" as="alternateBounds"/>
@@ -139,6 +153,14 @@
                 </mxCell>
                 <mxCell id="71" value="2. Helps the receiver &lt;strong data-end=&quot;1119&quot; data-start=&quot;1104&quot;&gt;synchronize&lt;/strong&gt; with the incoming data" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="60" vertex="1">
                     <mxGeometry y="80" width="210" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="89" value="Why" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" vertex="1" parent="1">
+                    <mxGeometry x="-410" y="190" width="210" height="90" as="geometry">
+                        <mxRectangle x="-70" y="250" width="110" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="90" value="1. Why premetable are 7 bytes only and not less or more?&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;answer: -&amp;nbsp;&lt;/font&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="89">
+                    <mxGeometry y="30" width="210" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="53" value="payload" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" parent="1" vertex="1">
                     <mxGeometry x="440" y="475" width="300" height="150" as="geometry">
@@ -216,6 +238,17 @@
                 </mxCell>
                 <mxCell id="68" value="&lt;h3 data-end=&quot;2368&quot; data-start=&quot;2331&quot;&gt;✔ Minimum frame size = 64 bytes&lt;/h3&gt;&lt;br/&gt;&lt;p data-end=&quot;2391&quot; data-start=&quot;2369&quot;&gt;(Head + Payload + FCS)&lt;/p&gt;&lt;br/&gt;&lt;h3 data-end=&quot;2432&quot; data-start=&quot;2393&quot;&gt;✔ Maximum frame size = 1518 bytes&lt;/h3&gt;&lt;br/&gt;&lt;p data-end=&quot;2483&quot; data-start=&quot;2433&quot;&gt;Without VLAN.&lt;br data-end=&quot;2449&quot; data-start=&quot;2446&quot;&gt;&lt;br/&gt;With VLAN, MTU becomes 1522 bytes.&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="1180" y="-270" width="260" height="250" as="geometry"/>
+                </mxCell>
+                <mxCell id="83" value="" style="shape=ellipse;fillColor=light-dark(#0065FF,#FFFFFF);strokeColor=none;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="-80" y="55" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="87" value="Thesea are not the part of core Ethernet frame II structure" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=light-dark(#000000,#FFFF00);strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="-270" y="-60" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="82" style="edgeStyle=none;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;strokeWidth=2;strokeColor=light-dark(#000000,#FFFF00);entryX=1;entryY=1;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="83" target="87" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-140" as="targetPoint"/>
+                    </mxGeometry>
                 </mxCell>
             </root>
         </mxGraphModel>
