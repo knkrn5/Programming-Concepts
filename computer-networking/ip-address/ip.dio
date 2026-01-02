@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="xQ9zxdjFQaUO4hLd8zcT" name="Page-1">
-        <mxGraphModel dx="2029" dy="1762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="2281" dy="1904" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -144,7 +144,7 @@
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="77" value="Public IP address" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#d0cee2;strokeColor=#56517e;" parent="1" vertex="1">
-                    <mxGeometry x="-610" y="-130" width="120" height="120" as="geometry">
+                    <mxGeometry x="-630" y="-150" width="120" height="120" as="geometry">
                         <mxRectangle x="-300" y="190" width="60" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
@@ -155,7 +155,7 @@
                     <mxGeometry y="70" width="120" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="141" value="In IPv4" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#d0cee2;strokeColor=#56517e;" parent="1" vertex="1">
-                    <mxGeometry x="-290" y="10" width="220" height="150" as="geometry">
+                    <mxGeometry x="-315" y="-30" width="220" height="200" as="geometry">
                         <mxRectangle x="-290" y="10" width="60" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
@@ -164,6 +164,9 @@
                 </mxCell>
                 <mxCell id="217" value="2.&amp;nbsp;In IPv4, RFC 1918 specifies the ranges reserved for private IP addresses; all other non-reserved IPv4 addresses are public" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="141" vertex="1">
                     <mxGeometry y="80" width="220" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="257" value="3. Public IP address ranges are allocated to ISPs by global organizations (IANA → RIRs)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="141">
+                    <mxGeometry y="150" width="220" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="224" style="edgeStyle=none;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="212" target="220" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
@@ -193,7 +196,7 @@
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="85" value="Private IP address" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#d0cee2;strokeColor=#56517e;" parent="1" vertex="1">
-                    <mxGeometry x="-400" y="-220" width="120" height="150" as="geometry">
+                    <mxGeometry x="-420" y="-240" width="120" height="150" as="geometry">
                         <mxRectangle y="-50" width="60" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
@@ -312,7 +315,7 @@
                     <mxGeometry y="30" width="200" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="137" value="why" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
-                    <mxGeometry x="-650" y="-330" width="200" height="100" as="geometry">
+                    <mxGeometry x="-670" y="-350" width="200" height="100" as="geometry">
                         <mxRectangle x="-440" y="-200" width="60" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>

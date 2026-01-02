@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="MZ9l8s6Q1rZ2FEVgTpc6" name="Page-1">
-        <mxGraphModel dx="771" dy="1533" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="716" dy="1502" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -228,18 +228,15 @@
                     <mxGeometry y="30" width="240" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="86" value="Payload" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="1" vertex="1">
-                    <mxGeometry x="240" y="590" width="245" height="170" as="geometry">
+                    <mxGeometry x="240" y="590" width="245" height="160" as="geometry">
                         <mxRectangle x="1160" y="30" width="80" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="87" value="This is the actual data inside the IP packet.&lt;div&gt;learn more at &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(76, 0, 153));&quot;&gt;ipv4p.svg&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="86" vertex="1">
-                    <mxGeometry y="30" width="245" height="40" as="geometry"/>
+                <mxCell id="87" value="This is the actual data inside the IP packet payload&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;can be in different structure like&amp;nbsp;(TCP, UDP, ICMP, GRE, VPN packets, etc.)&lt;/font&gt;&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="86" vertex="1">
+                    <mxGeometry y="30" width="245" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="104" value="Data can be in different structure like&amp;nbsp;(TCP, UDP, ICMP, GRE, VPN packets, etc.)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="86" vertex="1">
-                    <mxGeometry y="70" width="245" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="110" value="Learn more about (TCP, UDP, ICMP, GRE, VPN packets, etc.) in&amp;nbsp;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(76, 0, 153));&quot;&gt;packets&amp;amp;segments&amp;amp;datagrams&amp;amp;frames&lt;/span&gt; folder&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="86">
-                    <mxGeometry y="110" width="245" height="60" as="geometry"/>
+                <mxCell id="110" value="Learn more about (TCP, UDP, ICMP, GRE, VPN packets, etc.) in&amp;nbsp;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(76, 0, 153));&quot;&gt;packets&amp;amp;segments&amp;amp;datagrams&amp;amp;frames&lt;/span&gt; folder&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="86" vertex="1">
+                    <mxGeometry y="100" width="245" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="50" value="IHL" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
                     <mxGeometry x="730" y="-290" width="210" height="110" as="geometry">
