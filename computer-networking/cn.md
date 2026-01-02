@@ -10,11 +10,13 @@
 
 ## **Proxy Server**
 
-1. **DNS over HTTPS (DoH):-**
-2. **DNS over TLS (DoT):-**
+## **Basic Practical**
 
-## **Wi-Fi(wireless fidelity)**
+- Monitor network traffic using Wireshark
+- Set up a simple HTTP server using any language module
 
-- **Wireless Mediums**
+## **Advance Practical**
 
-## **SSL certificate** : - used to secure the data transfer between the user and the website by encrypting the data.
+- Build a simple chat application using socket
+- Set up a local web server using Apache or Nginx
+- Create a basic firewall using iptables
