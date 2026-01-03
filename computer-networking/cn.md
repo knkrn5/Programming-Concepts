@@ -12,19 +12,23 @@
 
 - **[🔗Type of network](./type-of-network/ton.svg)**
 - **[🔗IP addresses](./ip-address/ip.svg)**
+  - **[🔗IP packets](./packets-segments-datagrams-frames/ip-packet)**
 - **[🔗Interfaces](./interfaces/interfaces.svg)**
   - **[🔗MAC address](./media-access-control/mac.svg)**
     - **[🔗Address Resolution Protocol](./Address-Resolution-Protocol/arp.svg)**
 - **[🔗Domain Name System](./domain-name-system/dns.svg)**
 - **[🔗Network address translation](./network-address-translation/NAT.svg)**
 
-<!-- Frames, Packets, Datagrams, Segments -->
+<!-- Protocols -->
+
+### **Protocols**
+
+- **[🔗Transmission Control Protocol](./protocols/transmission-control-protocol/TCP-segment/tcps.svg)**
+  - **[🔗TCP Segments](./protocols/transmission-control-protocol/TCP-segment/tcps.svg)**
 
 ### **Frames, Packets, Datagrams, Segments etc**
 
-- **[🔗Ethernet Frames](./packets-segments-datagrams-frames/ethernet-frame/ef.svg)**
-- **[🔗IP packets](./packets-segments-datagrams-frames/ip-packet)**
-- **[🔗TCP Segments](./packets-segments-datagrams-frames/tcp-segment/tcps.svg)**
+- **[🔗Ethernet Frame](./packets-segments-datagrams-frames/ethernet-frame/ef.svg)**
 - **[🔗UDP Datagrams](./packets-segments-datagrams-frames/udp-datagram/udpd.svg)**
 
 <!-- Network Models -->
@@ -48,6 +52,6 @@
 
 ## **Advance Practical**
 
-- Build a simple chat application using socket
+- Build a simple chat application using socket that will work over LAN
 - Set up a local web server using Apache or Nginx
 - Create a basic firewall using iptables
