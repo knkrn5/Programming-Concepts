@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="xQ9zxdjFQaUO4hLd8zcT" name="Page-1">
-        <mxGraphModel dx="2103" dy="1804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="348" dy="1663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -12,12 +12,6 @@
                 </mxCell>
                 <mxCell id="2" value="" style="image;html=1;image=img/lib/clip_art/computers/Network_2_128x128.png" parent="4" vertex="1">
                     <mxGeometry x="17.5" y="17.5" width="80" height="80" as="geometry"/>
-                </mxCell>
-                <mxCell id="6" value="" style="swimlane;startSize=0;rounded=1;" parent="1" vertex="1">
-                    <mxGeometry x="-97.5" y="-340" width="290" height="220" as="geometry"/>
-                </mxCell>
-                <mxCell id="5" value="what is net : - net is just the transfering/receiving of data, whether u transfer/download data in within ur devices using wire or wirelessly, or whether u transfer(upload)/receive(download) data from any long sea cable connected device called cloud, net is just a simple data transferring and receiving" style="ellipse;whiteSpace=wrap;html=1;strokeColor=none;" parent="6" vertex="1">
-                    <mxGeometry x="17.5" y="15" width="255" height="190" as="geometry"/>
                 </mxCell>
                 <mxCell id="26" value="DNS" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="15" y="210" width="80" height="80" as="geometry"/>
@@ -59,33 +53,33 @@
                 <mxCell id="125" value="set of rules" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="123" vertex="1">
                     <mxGeometry y="30" width="180" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="130" value="Type of networking" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+                <mxCell id="130" value="Type of networking" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
                     <mxGeometry x="590" y="10" width="180" height="350" as="geometry">
                         <mxRectangle x="500" y="-180" width="70" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="131" value="Ethernet = &lt;strong data-end=&quot;2254&quot; data-start=&quot;2219&quot;&gt;Wired LAN standard (IEEE 802.3)&lt;/strong&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="130">
+                <mxCell id="131" value="Ethernet = &lt;strong data-end=&quot;2254&quot; data-start=&quot;2219&quot;&gt;Wired LAN standard (IEEE 802.3)&lt;/strong&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="130" vertex="1">
                     <mxGeometry y="30" width="180" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="133" value="Wi-Fi (Wireless LAN – IEEE 802.11)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="130">
+                <mxCell id="133" value="Wi-Fi (Wireless LAN – IEEE 802.11)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="130" vertex="1">
                     <mxGeometry y="70" width="180" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="134" value="Bluetooth / BLE" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="130">
+                <mxCell id="134" value="Bluetooth / BLE" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="130" vertex="1">
                     <mxGeometry y="110" width="180" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="135" value="Mobile Networks (eNodeB / gNodeB towers)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="130">
+                <mxCell id="135" value="Mobile Networks (eNodeB / gNodeB towers)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="130" vertex="1">
                     <mxGeometry y="150" width="180" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="136" value="Fiber Optic Networks (GPON / EPON)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="130">
+                <mxCell id="136" value="Fiber Optic Networks (GPON / EPON)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="130" vertex="1">
                     <mxGeometry y="190" width="180" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="137" value="Satellite Networks" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="130">
+                <mxCell id="137" value="Satellite Networks" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="130" vertex="1">
                     <mxGeometry y="230" width="180" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="138" value="Point-to-Point Protocols" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="130">
+                <mxCell id="138" value="Point-to-Point Protocols" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="130" vertex="1">
                     <mxGeometry y="270" width="180" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="139" value=" MPLS (Multiprotocol Label Switching)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="130">
+                <mxCell id="139" value=" MPLS (Multiprotocol Label Switching)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="130" vertex="1">
                     <mxGeometry y="310" width="180" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="47" value="Type of network like PAN, LAN, WAN etc" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -129,7 +123,7 @@
                 <mxCell id="128" style="edgeStyle=none;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.002;entryY=0.058;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="3" target="123" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="129" style="edgeStyle=none;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="2" target="130">
+                <mxCell id="129" style="edgeStyle=none;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="2" target="130" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="550" y="80" as="targetPoint"/>
                     </mxGeometry>

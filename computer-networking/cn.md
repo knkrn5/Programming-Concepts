@@ -4,7 +4,38 @@
 
 ---
 
+## **Computer Networkings**
+
 ![network](./cn.svg)
+
+## **Computer Networking**
+
+- **[🔗Type of network](./type-of-network/ton.svg)**
+- **[🔗IP addresses](./ip-address/ip.svg)**
+- **[🔗Interfaces](./interfaces/interfaces.svg)**
+  - **[🔗MAC address](./media-access-control/mac.svg)**
+    - **[🔗Address Resolution Protocol](./Address-Resolution-Protocol/arp.svg)**
+- **[🔗Domain Name System](./domain-name-system/dns.svg)**
+- **[🔗Network address translation](./network-address-translation/NAT.svg)**
+
+<!-- Frames, Packets, Datagrams, Segments -->
+
+### **Frames, Packets, Datagrams, Segments, etc**
+
+- **[🔗Ethernet Frames](./packets-segments-datagrams-frames/ethernet-frame/ef.svg)**
+- **[🔗IP packets](./packets-segments-datagrams-frames/ip-packet)**
+- **[🔗TCP Segments](./packets-segments-datagrams-frames/tcp-segment/tcps.svg)**
+- **[🔗UDP Datagrams](./packets-segments-datagrams-frames/udp-datagram/udpd.svg)**
+
+<!-- Network Models -->
+
+### **Network Models**
+
+- **[🔗OSI Model](./network-models/osi-model/osi.svg)**
+
+  1. **[🔗Physical Layer](./network-models/osi-model/layers/physical-layer/physical.svg)**
+
+- **[🔗TCP/IP Model](./network-models/tcp-ip-model/tcpip.svg)**
 
 ## **VPN**
 
