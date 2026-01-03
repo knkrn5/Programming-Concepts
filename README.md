@@ -35,7 +35,7 @@
 1. **[🔗Dotenv Concept](./Other-Concepts/dotenv/dotenvconcepts.md)**
 2. **[🔗Mail Concept](./Other-Concepts/mail/mail.md)**
 3. <details>
-   <summary><b>⌛RealTime Events</b></summary>
+   <summary><b>Streaming</b></summary>
 
    - **[🔗SSE](./Other-Concepts/realTimeEvents/sse.md)**
    - **[🔗WebSocket](./Other-Concepts/realTimeEvents/websocket.md)**
