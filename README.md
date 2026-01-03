@@ -11,6 +11,7 @@
 ## **Operating System**
 
 - **Path system**
+- **[terminal](./cli/cli.md)**
 
 ### **[🔗DataTypes](./⭐programming-langs/datatypes.md)**
 

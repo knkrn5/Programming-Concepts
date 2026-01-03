@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="opx8sHROR0iPvwW-EfYv" name="Page-1">
-        <mxGraphModel dx="1179" dy="1762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="911" dy="1612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -415,12 +415,15 @@
                     <mxGeometry x="30" y="220" width="150" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="248" value="&lt;b style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30);&quot;&gt;&lt;font style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30); font-size: 23px; color: light-dark(rgb(192, 192, 192), rgb(255, 255, 255));&quot;&gt;Open systems interconnection&lt;/font&gt;&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;shadow=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
-                    <mxGeometry x="1020" y="-290" width="440" height="90" as="geometry">
+                    <mxGeometry x="1020" y="-290" width="440" height="130" as="geometry">
                         <mxRectangle x="110" y="37.3" width="150" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="249" value="1. All the OSI layer happen in the device itself, and not on the network" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="248" vertex="1">
+                <mxCell id="249" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;1. OSI model is a&amp;nbsp;Conceptual / theoretical model for&amp;nbsp;&lt;em data-end=&quot;264&quot; data-start=&quot;238&quot;&gt;Learning &amp;amp; understanding&lt;/em&gt; how networking works&lt;/font&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="248" vertex="1">
                     <mxGeometry y="50" width="440" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="304" value="2. All the OSI layer happen in the device itself, and not on the network" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="248">
+                    <mxGeometry y="90" width="440" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="303" style="edgeStyle=none;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;strokeWidth=3;flowAnimation=1;" parent="1" source="301" target="248" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
@@ -482,7 +485,7 @@
                     <mxGeometry y="120" width="270" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="12" value="&lt;b&gt;3. Network Layer&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#fad7ac;strokeColor=#b46504;" parent="1" vertex="1">
-                    <mxGeometry x="565" y="1040" width="270" height="180" as="geometry">
+                    <mxGeometry x="565" y="1040" width="270" height="170" as="geometry">
                         <mxRectangle x="900" y="990" width="140" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
@@ -492,8 +495,8 @@
                 <mxCell id="14" value="2. Protocols: &lt;strong data-end=&quot;1072&quot; data-start=&quot;1060&quot;&gt;IP, ICMP&lt;/strong&gt;." style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="12" vertex="1">
                     <mxGeometry y="100" width="270" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="94" value="4. Adds &lt;strong data-end=&quot;1182&quot; data-start=&quot;1169&quot;&gt;source IP&lt;/strong&gt; (our machine) and Adds &lt;strong data-end=&quot;1225&quot; data-start=&quot;1207&quot;&gt;destination IP&lt;/strong&gt; (server’s IP).&amp;nbsp;&lt;span style=&quot;white-space-collapse: preserve; background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(192, 192, 192), rgb(255, 255, 255));&quot;&gt;Ports aren&#39;t &quot;mapped&quot; here but travel in the packet&lt;/font&gt;&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="12" vertex="1">
-                    <mxGeometry y="130" width="270" height="50" as="geometry"/>
+                <mxCell id="94" value="4. Adds &lt;strong data-end=&quot;1182&quot; data-start=&quot;1169&quot;&gt;source IP&lt;/strong&gt; (our machine) and Adds &lt;strong data-end=&quot;1225&quot; data-start=&quot;1207&quot;&gt;destination IP&lt;/strong&gt; (server’s IP)." style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="12" vertex="1">
+                    <mxGeometry y="130" width="270" height="40" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
