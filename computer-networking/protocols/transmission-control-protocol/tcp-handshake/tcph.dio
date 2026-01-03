@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="UDBzQY-Zp4JzrnhrswHk" name="Page-1">
-        <mxGraphModel dx="2672" dy="-76" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1963" dy="-474" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -452,6 +452,9 @@
                 </mxCell>
                 <mxCell id="166" value="TCP handshake is a three way handshake" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="165">
                     <mxGeometry y="40" width="350" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="192" value="Should the TCP segment structure (&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(153, 0, 153));&quot;&gt;tcps.svg&lt;/span&gt;)" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.oval_callout" vertex="1" parent="1">
+                    <mxGeometry x="740" y="1100" width="170" height="90" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
