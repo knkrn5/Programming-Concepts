@@ -8,6 +8,9 @@
 
 ## **[🔗 Number System](./number-system/number-system.md)**
 
+## **Operating System**
+
+- **Path system**
 
 ### **[🔗DataTypes](./⭐programming-langs/datatypes.md)**
 

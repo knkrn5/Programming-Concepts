@@ -20,7 +20,7 @@
 
 <!-- Frames, Packets, Datagrams, Segments -->
 
-### **Frames, Packets, Datagrams, Segments, etc**
+### **Frames, Packets, Datagrams, Segments etc**
 
 - **[🔗Ethernet Frames](./packets-segments-datagrams-frames/ethernet-frame/ef.svg)**
 - **[🔗IP packets](./packets-segments-datagrams-frames/ip-packet)**
