@@ -13,3 +13,7 @@
 ![CLI with Their Written Programming Lang](./imgs/cliwiththeirprogramminglang.png)
 🔗
 [More on Different CLIs](./unix-based-cli/unix-based-cli.md)
+
+### **Practical**
+
+- create basic custom cli cmd using any language and make https request to any api endpoint and show the response in the terminal.

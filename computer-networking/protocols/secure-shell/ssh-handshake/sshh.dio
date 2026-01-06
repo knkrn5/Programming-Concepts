@@ -1,0 +1,351 @@
+<mxfile host="65bd71144e">
+    <diagram id="KlHoQnAye7zTESJflQDR" name="Page-1">
+        <mxGraphModel dx="2227" dy="151" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="35" value="Practicals to do in SSH" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=light-dark(#FFFFFF,#FF0000);" vertex="1" parent="1">
+                    <mxGeometry x="1665" y="3290" width="460" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;1. Connect one SSH server to another SSH client and then create files, run any server, share files and also do this vice-versa between devices.&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;First do this without add public key, then do this with add public to SSH server&lt;/font&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="35">
+                    <mxGeometry y="30" width="460" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="155" value="&lt;b&gt;&lt;font style=&quot;font-size: 23px;&quot;&gt;SSH Handshake&lt;/font&gt;&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+                    <mxGeometry x="420" y="1100" width="460" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="156" value="1. In SSH handshke first the client will verify the host and then the connection estabilishment verification will befing" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="155">
+                    <mxGeometry y="40" width="460" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;SSH Tunnel&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="3610" width="1215" height="380" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" value="" style="swimlane;startSize=0;" vertex="1" parent="53">
+                    <mxGeometry x="20" y="140" width="1150" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="SSH Server" style="swimlane;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="54">
+                    <mxGeometry x="1010" y="40.629999999999995" width="120" height="117.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="" style="image;html=1;image=img/lib/clip_art/computers/Server_Tower_128x128.png" vertex="1" parent="55">
+                    <mxGeometry x="20" y="36.25" width="70" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="SSH Client" style="swimlane;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="54">
+                    <mxGeometry x="20" y="41.879999999999995" width="110" height="117.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/laptop_client.svg;" vertex="1" parent="57">
+                    <mxGeometry x="28" y="41.25" width="54" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" style="edgeStyle=none;html=1;exitX=0.999;exitY=0.069;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;strokeWidth=4;flowAnimation=1;" edge="1" parent="54" source="61" target="55">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" style="edgeStyle=none;html=1;exitX=-0.006;exitY=0.941;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;exitPerimeter=0;strokeWidth=3;flowAnimation=1;" edge="1" parent="54" source="61" target="57">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="SSH tunnel" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/tunnel.svg;imageBorder=default;" vertex="1" parent="54">
+                    <mxGeometry x="300" y="53.129999999999995" width="525" height="105" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" style="edgeStyle=none;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.001;entryY=0.064;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;flowAnimation=1;" edge="1" parent="54" source="57" target="61">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Input&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="62">
+                    <mxGeometry x="-0.3289" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="64" style="edgeStyle=none;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.993;entryY=0.961;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;flowAnimation=1;" edge="1" parent="54" source="55" target="61">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;output&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="64">
+                    <mxGeometry x="0.2852" y="1" relative="1" as="geometry">
+                        <mxPoint x="26" y="2" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="66" value="&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;All the traffic are encrypted with this new session keys&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;and only sent/travels to internet&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="54">
+                    <mxGeometry x="420" y="90" width="310" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" value="&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;SSH setup new session keys and those keys are used to encrypt all traffic, not the private or public keys&amp;nbsp;&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="53">
+                    <mxGeometry x="200" y="50" width="880" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" edge="1" parent="1" source="73" target="53">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="72" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;After successfull&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(192, 192, 192), rgb(255, 255, 255));&quot;&gt;public&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: rgb(192, 192, 192);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(192, 192, 192), rgb(255, 255, 255));&quot;&gt;key&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: rgb(192, 192, 192);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;authenticaiton&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="71">
+                    <mxGeometry x="-0.0944" y="3" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="73" value="&lt;p style=&quot;white-space-collapse: preserve;&quot; dir=&quot;auto&quot;&gt;TCP/SSH handshake &lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;(&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;white-space-collapse: collapse; scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30);&quot;&gt;&lt;font style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30); font-size: 14px; color: light-dark(rgb(192, 192, 192), rgb(255, 255, 255));&quot;&gt;SSH public-key authentication&lt;/font&gt;&lt;/span&gt;&lt;font style=&quot;color: light-dark(rgb(192, 192, 192), rgb(255, 255, 255));&quot;&gt;)&lt;/font&gt;&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;" style="swimlane;whiteSpace=wrap;html=1;rounded=1;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="30" y="2420" width="1270" height="1000" as="geometry"/>
+                </mxCell>
+                <mxCell id="74" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;flowAnimation=1;" edge="1" parent="73" target="95">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1125" y="540" as="sourcePoint"/>
+                        <mxPoint x="965.7699999999995" y="319.02999999999975" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="75" style="edgeStyle=none;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;flowAnimation=1;" edge="1" parent="73" source="77" target="100">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="76" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;flowAnimation=1;" edge="1" parent="73" target="105">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="790" y="180.0000000000009" as="targetPoint"/>
+                        <mxPoint x="1125" y="200" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="77" value="SSH Server" style="swimlane;whiteSpace=wrap;html=1;rounded=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="73">
+                    <mxGeometry x="1125" y="70" width="120" height="860" as="geometry"/>
+                </mxCell>
+                <mxCell id="78" value="" style="image;html=1;image=img/lib/clip_art/computers/Server_Tower_128x128.png" vertex="1" parent="77">
+                    <mxGeometry x="20" y="36.25" width="70" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="79" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Server&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;proves&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;that it&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;is usiing&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Client&#39;s&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;public&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;key&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="77">
+                    <mxGeometry x="20" y="150" width="80" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="80" style="edgeStyle=none;html=1;flowAnimation=1;exitX=1.009;exitY=0.031;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="73" source="83" target="104">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="180" y="95" as="sourcePoint"/>
+                        <mxPoint x="500" y="70" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="81" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;1. CLient request for connection&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="80">
+                    <mxGeometry x="-0.3111" y="-2" relative="1" as="geometry">
+                        <mxPoint x="45" y="-2" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="82" style="edgeStyle=none;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;flowAnimation=1;" edge="1" parent="73" source="83" target="97">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="83" value="SSH Client" style="swimlane;whiteSpace=wrap;html=1;rounded=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="73">
+                    <mxGeometry x="40" y="70" width="110" height="840" as="geometry"/>
+                </mxCell>
+                <mxCell id="84" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/laptop_client.svg;" vertex="1" parent="83">
+                    <mxGeometry x="28" y="41.25" width="54" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="85" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Client&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;proves&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ownership&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;of its&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;private&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;key&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="83">
+                    <mxGeometry x="15" y="150" width="80" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="86" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;flowAnimation=1;" edge="1" parent="73" source="90">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1125" y="385" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="87" value="4. Now server side&amp;nbsp;&lt;div&gt;challenge begins&amp;nbsp;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="86">
+                    <mxGeometry x="-0.0785" y="1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="88" style="edgeStyle=none;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;flowAnimation=1;" edge="1" parent="73" source="90" target="102">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="89" value="3. agent automates&lt;div&gt;thsi process&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="88">
+                    <mxGeometry x="0.1694" y="-3" relative="1" as="geometry">
+                        <mxPoint x="14" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="90" value="3. Client Steps" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="73">
+                    <mxGeometry x="570" y="310" width="385" height="150" as="geometry">
+                        <mxRectangle x="570" y="310" width="120" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="91" value="1. Client willl look for its private key in its .ssh folder" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="90">
+                    <mxGeometry y="30" width="385" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="92" value="2. Then client will ask for passphrase/passward of its ssh. and when we enter correct password" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="90">
+                    <mxGeometry y="70" width="385" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="93" value="2.&amp;nbsp;&lt;span style=&quot;text-align: center; text-wrap-mode: nowrap;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;SSH client decrypts its private key in its MEMORY(In RAM never&lt;/font&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-align: center; text-wrap-mode: nowrap;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;saved)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="90">
+                    <mxGeometry y="110" width="385" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="94" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;flowAnimation=1;" edge="1" parent="73" source="95">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="580" y="327.5" as="sourcePoint"/>
+                        <mxPoint x="150" y="550" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="95" value="&lt;span style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;4. Server send Random challenge data (a number/string) to client&lt;/font&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="73">
+                    <mxGeometry x="587.5" y="520" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="96" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;flowAnimation=1;" edge="1" parent="73" source="97" target="77">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1090.0000000000005" y="380.0000000000009" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="97" value="5. Uses its Decrypted PRIVATE key to &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(204, 0, 204));&quot;&gt;create a&lt;/span&gt; &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(204, 0, 204));&quot;&gt;cryptographic signature&lt;/span&gt; of the challenge, and sends this signature to the server" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="73">
+                    <mxGeometry x="430" y="670" width="230" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="98" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;flowAnimation=1;" edge="1" parent="73" source="100" target="83">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="99" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;On successfull verification&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;connection estabilished,&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;else permission denied&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="98">
+                    <mxGeometry x="-0.1001" y="-2" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="100" value="6. then server &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(204, 0, 204));&quot;&gt;verifies the signature&lt;/span&gt; using clients public key already stored in server" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="73">
+                    <mxGeometry x="670" y="890" width="170" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="101" value="&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;SSH agent&lt;/font&gt;&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" vertex="1" parent="73">
+                    <mxGeometry x="180" y="240" width="230" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="102" value="1. SSH agent automates this step 2 process, if client&#39;s public key is already stored at server" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="101">
+                    <mxGeometry y="30" width="230" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="103" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.019;entryY=0.016;entryDx=0;entryDy=0;flowAnimation=1;entryPerimeter=0;" edge="1" parent="73" source="104" target="77">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="104" value="1. Client sends its identities like {username, service, method, algorithum, public_key_blob} to server to check if client is authorized to access server" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="73">
+                    <mxGeometry x="555" y="40" width="235" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="105" value="2. then server check for the client&#39;s public key in its authorized_keys folder with these given identity. if found no password requireded" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="73">
+                    <mxGeometry x="740" y="155" width="260" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="106" style="edgeStyle=none;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" edge="1" parent="73" source="110" target="101">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="107" value="2. IF found" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="106">
+                    <mxGeometry x="0.0564" y="-3" relative="1" as="geometry">
+                        <mxPoint x="1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="108" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;flowAnimation=1;" edge="1" parent="73" source="110">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="150" y="189.75" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="109" value="2. If not found" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="108">
+                    <mxGeometry x="0.0781" y="-2" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="110" value="&lt;b&gt;2. Condition&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="73">
+                    <mxGeometry x="560" y="150" width="100" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="111" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;flowAnimation=1;" edge="1" parent="73" source="105" target="110">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="635" y="190" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="112" style="html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;flowAnimation=1;" edge="1" parent="73" target="90">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="150" y="440" as="sourcePoint"/>
+                        <mxPoint x="520" y="410" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="113" value="3. if not found then we&amp;nbsp;&lt;div&gt;have to manually&lt;/div&gt;&lt;div&gt;enter password&amp;nbsp;&lt;/div&gt;&lt;div&gt;everytime&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="112">
+                    <mxGeometry x="-0.2744" y="-1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="114" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;flowAnimation=1;" edge="1" parent="1" source="116" target="73">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="115" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Now when the&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Host is verified&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;steps for SSH&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;connecion&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;estabilishment begins&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="114">
+                    <mxGeometry x="0.0791" y="-2" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="116" value="&lt;p style=&quot;white-space-collapse: preserve;&quot; dir=&quot;auto&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Host Authentication&lt;/font&gt;&lt;/p&gt;" style="swimlane;whiteSpace=wrap;html=1;rounded=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="1410" width="1270" height="720" as="geometry"/>
+                </mxCell>
+                <mxCell id="117" style="edgeStyle=none;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;flowAnimation=1;" edge="1" parent="116" source="120" target="138">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="965.7699999999995" y="319.02999999999975" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="118" style="edgeStyle=none;html=1;flowAnimation=1;" edge="1" parent="116">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="180" y="160" as="targetPoint"/>
+                        <mxPoint x="1125" y="170" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="119" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;2. server sends its public key to client&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="118">
+                    <mxGeometry x="0.0546" y="-3" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="120" value="SSH Server" style="swimlane;whiteSpace=wrap;html=1;rounded=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="116">
+                    <mxGeometry x="1125" y="70" width="120" height="580" as="geometry"/>
+                </mxCell>
+                <mxCell id="121" value="" style="image;html=1;image=img/lib/clip_art/computers/Server_Tower_128x128.png" vertex="1" parent="120">
+                    <mxGeometry x="20" y="36.25" width="70" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="122" value="Server&lt;div&gt;proves&lt;/div&gt;&lt;div&gt;its own&lt;/div&gt;&lt;div&gt;public&lt;/div&gt;&lt;div&gt;key to&lt;/div&gt;&lt;div&gt;client&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="120">
+                    <mxGeometry x="20" y="150" width="80" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="123" style="edgeStyle=none;html=1;flowAnimation=1;entryX=0;entryY=0.019;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="116" target="120">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="180" y="95" as="sourcePoint"/>
+                        <mxPoint x="490" y="70" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="124" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;1. CLient request for connection&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;to Host for first time&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="123">
+                    <mxGeometry x="-0.3111" y="-2" relative="1" as="geometry">
+                        <mxPoint x="45" y="-2" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="125" style="edgeStyle=none;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;flowAnimation=1;" edge="1" parent="116" source="127" target="141">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="126" style="edgeStyle=none;html=1;entryX=-0.008;entryY=0.057;entryDx=0;entryDy=0;entryPerimeter=0;flowAnimation=1;" edge="1" parent="116" target="132">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="180" y="220" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="127" value="SSH Client" style="swimlane;whiteSpace=wrap;html=1;rounded=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="116">
+                    <mxGeometry x="70" y="70" width="110" height="540" as="geometry"/>
+                </mxCell>
+                <mxCell id="128" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/laptop_client.svg;" vertex="1" parent="127">
+                    <mxGeometry x="28" y="41.25" width="54" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="129" value="Client&amp;nbsp;&lt;div&gt;needs&lt;/div&gt;&lt;div&gt;to verify&lt;/div&gt;&lt;div&gt;if the&lt;/div&gt;&lt;div&gt;Host is&lt;/div&gt;&lt;div&gt;legitimate&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="127">
+                    <mxGeometry x="15" y="150" width="80" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="130" style="edgeStyle=none;html=1;exitX=1.003;exitY=0.126;exitDx=0;exitDy=0;exitPerimeter=0;flowAnimation=1;" edge="1" parent="116" source="132">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1120" y="270" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="131" value="4. Client sends&amp;nbsp;&lt;div&gt;random challenge&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="130">
+                    <mxGeometry x="-0.0785" y="1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="132" value="3. Client Steps" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="116">
+                    <mxGeometry x="490" y="230" width="385" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="133" value="1. Client willl&amp;nbsp;Looks in: ~/&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 0, 204));&quot;&gt;.ssh/known_hosts&lt;/span&gt;, to see it know this server/host fingerprint. Result: NOT FOUND (first time!)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="132">
+                    <mxGeometry y="30" width="385" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="134" value="2. Client will prompt fingerprint and ask do u trust this Host. I type &quot;yes&quot;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="132">
+                    <mxGeometry y="70" width="385" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="135" value="3. Client permanently saves the server&#39;s public key&amp;nbsp;to ~/.ssh/known_hosts" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="132">
+                    <mxGeometry y="110" width="385" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="136" value="4.&amp;nbsp;&lt;font style=&quot;font-size: 13px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;text-align: center; text-wrap-mode: nowrap;&quot;&gt;Now server/host&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: center; text-wrap-mode: nowrap; background-color: transparent;&quot;&gt;have to prove its&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: center; text-wrap-mode: nowrap; background-color: transparent;&quot;&gt;identity&lt;/span&gt;&lt;/font&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="132">
+                    <mxGeometry y="150" width="385" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="137" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;flowAnimation=1;" edge="1" parent="116" source="138" target="127">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="580" y="327.5" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="138" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;5. server &lt;/span&gt;&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(204, 0, 204));&quot;&gt;signs&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt; the challenge with its private key&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="116">
+                    <mxGeometry x="565" y="460" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="139" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;flowAnimation=1;" edge="1" parent="116" source="141" target="120">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1090.0000000000005" y="380.0000000000009" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="140" value="On successfull&lt;div&gt;verification. confirm&lt;/div&gt;&lt;div&gt;sever is legitimate&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="139">
+                    <mxGeometry x="-0.0658" y="-2" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="141" value="6. Client &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(204, 0, 204));&quot;&gt;verifies&lt;/span&gt; signature using&lt;br&gt;   server&#39;s PUBLIC &lt;span style=&quot;&quot; class=&quot;token&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(97, 175, 239), rgb(255, 255, 255));&quot;&gt;host&lt;/font&gt;&lt;/span&gt; key&lt;br&gt;   &lt;span style=&quot;color: rgb(171, 178, 191);&quot; class=&quot;token&quot;&gt;(&lt;/span&gt;now stored &lt;span style=&quot;&quot; class=&quot;token&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(198, 120, 221), rgb(255, 255, 255));&quot;&gt;in&lt;/font&gt;&lt;/span&gt; known_hosts&lt;span style=&quot;color: rgb(171, 178, 191);&quot; class=&quot;token&quot;&gt;)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="116">
+                    <mxGeometry x="320" y="580" width="230" height="70" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
