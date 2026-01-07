@@ -21,7 +21,7 @@
 
 <!-- Protocols -->
 
-### **Protocols**
+### **Protocols: -** A set of rules
 
 - **[🔗Transmission Control Protocol](./protocols/transmission-control-protocol/TCP-segment/tcps.svg)**
   - **[🔗TCP Segments](./protocols/transmission-control-protocol/TCP-segment/tcps.svg)**
