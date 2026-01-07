@@ -4,10 +4,6 @@
 
 ---
 
-## **Computer Networkings**
-
-![network](./cn.svg)
-
 ## **Computer Networking**
 
 - **[🔗Type of network](./type-of-network/ton.svg)**
@@ -32,7 +28,7 @@
   - **[🔗IP addresses](./protocols/internet-protocol/ip.svg)**
     - **[🔗IPv4 packets](./protocols/internet-protocol/ip-packet/ipv4-packet/ipv4p.svg)**
     - **[🔗IPv6 packets](./protocols/internet-protocol/ip-packet/ipv6-packet/ipv6p.svg)**
-      - **[🔗NAT & CGNAT](./network-address-translation/NAT.svg)**
+      - **[🔗Network address translation](./network-address-translation/NAT.svg)**
 
 - **Secure Shell**
   - **[🔗SSH](./protocols/secure-shell/ssh.svg)**
@@ -40,8 +36,7 @@
 
 ### **Network Frames**
 
-- **[🔗Ethernet Frame](./packets-segments-datagrams-frames/ethernet-frame/ef.svg)**
-- **[🔗UDP Datagrams](./packets-segments-datagrams-frames/udp-datagram/udpd.svg)**
+- **[🔗Ethernet Frame](./network-frames/ethernet-frame/ef.svg)**
 
 <!-- Network Models -->
 
