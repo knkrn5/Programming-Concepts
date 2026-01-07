@@ -11,8 +11,6 @@
 ## **Computer Networking**
 
 - **[🔗Type of network](./type-of-network/ton.svg)**
-- **[🔗IP addresses](./ip-address/ip.svg)**
-  - **[🔗IP packets](./packets-segments-datagrams-frames/ip-packet)**
 - **[🔗Interfaces](./interfaces/interfaces.svg)**
   - **[🔗MAC address](./media-access-control/mac.svg)**
     - **[🔗Address Resolution Protocol](./Address-Resolution-Protocol/arp.svg)**
@@ -23,10 +21,24 @@
 
 ### **Protocols: -** A set of rules
 
-- **[🔗Transmission Control Protocol](./protocols/transmission-control-protocol/TCP-segment/tcps.svg)**
+- **Transmission Control Protocol**
   - **[🔗TCP Segments](./protocols/transmission-control-protocol/TCP-segment/tcps.svg)**
+    - **[🔗TCP Handshake](./protocols/transmission-control-protocol/tcp-handshake/tcph.svg)**
+- **Transmission Control Protocol**
+  - **[🔗UDP Datagrams](./protocols/user-datagram-protocol/UDP-datagram/udpd.svg)**
+    - **[🔗UDP Exchange](./protocols/user-datagram-protocol/udp-exchange/udpe.svg)**
+- **Internet Protocol**
 
-### **Frames, Packets, Datagrams, Segments etc**
+  - **[🔗IP addresses](./protocols/internet-protocol/ip.svg)**
+    - **[🔗IPv4 packets](./protocols/internet-protocol/ip-packet/ipv4-packet/ipv4p.svg)**
+    - **[🔗IPv6 packets](./protocols/internet-protocol/ip-packet/ipv6-packet/ipv6p.svg)**
+      - **[🔗NAT & CGNAT](./network-address-translation/NAT.svg)**
+
+- **Secure Shell**
+  - **[🔗SSH](./protocols/secure-shell/ssh.svg)**
+    - **[🔗SSH Handshake](./protocols/secure-shell/ssh-handshake/sshh.svg)**
+
+### **Network Frames**
 
 - **[🔗Ethernet Frame](./packets-segments-datagrams-frames/ethernet-frame/ef.svg)**
 - **[🔗UDP Datagrams](./packets-segments-datagrams-frames/udp-datagram/udpd.svg)**
@@ -37,7 +49,7 @@
 
 - **[🔗OSI Model](./network-models/osi-model/osi.svg)**
 
-  1. **[🔗Physical Layer](./network-models/osi-model/layers/physical-layer/physical.svg)**
+  - For more details on OSI Model, visit [visit](./network-models/osi-model/README.md)
 
 - **[🔗TCP/IP Model](./network-models/tcp-ip-model/tcpip.svg)**
 
