@@ -1,0 +1,116 @@
+<mxfile host="65bd71144e">
+    <diagram id="IjiPZ2pHiN9I25YzHArY" name="Page-1">
+        <mxGraphModel dx="1422" dy="1435" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="4" style="edgeStyle=none;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="3" target="6" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="190" y="270" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="5" style="edgeStyle=none;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="3" target="10" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="530" y="240" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="29" style="edgeStyle=none;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="3" target="30" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="610" y="-60" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="3" value="Path system" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="345" y="100" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Absolute Path" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="300" width="210" height="60" as="geometry">
+                        <mxRectangle x="80" y="300" width="120" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="7" value="1. Full path starting from drive itselt" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="6" vertex="1">
+                    <mxGeometry y="30" width="210" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="?????" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="230" y="520" width="380" height="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;1.&amp;nbsp;how does hte programing languages know whether we have given absolute path or relative path ?&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(24, 24, 24); color: rgb(204, 204, 204); font-family: &amp;quot;Segoe WPC&amp;quot;, &amp;quot;Segoe UI&amp;quot;, sans-serif; font-size: 13px;&quot;&gt;Programming languages determine if a path is&amp;nbsp;&lt;/span&gt;&lt;strong style=&quot;background-color: rgb(24, 24, 24); color: rgb(204, 204, 204); font-family: &amp;quot;Segoe WPC&amp;quot;, &amp;quot;Segoe UI&amp;quot;, sans-serif; font-size: 13px;&quot;&gt;absolute&lt;/strong&gt;&lt;span style=&quot;background-color: rgb(24, 24, 24); color: rgb(204, 204, 204); font-family: &amp;quot;Segoe WPC&amp;quot;, &amp;quot;Segoe UI&amp;quot;, sans-serif; font-size: 13px;&quot;&gt;&amp;nbsp;or&amp;nbsp;&lt;/span&gt;&lt;strong style=&quot;background-color: rgb(24, 24, 24); color: rgb(204, 204, 204); font-family: &amp;quot;Segoe WPC&amp;quot;, &amp;quot;Segoe UI&amp;quot;, sans-serif; font-size: 13px;&quot;&gt;relative&lt;/strong&gt;&lt;span style=&quot;background-color: rgb(24, 24, 24); color: rgb(204, 204, 204); font-family: &amp;quot;Segoe WPC&amp;quot;, &amp;quot;Segoe UI&amp;quot;, sans-serif; font-size: 13px;&quot;&gt;&amp;nbsp;by checking the&amp;nbsp;&lt;/span&gt;&lt;strong style=&quot;background-color: rgb(24, 24, 24); color: rgb(204, 204, 204); font-family: &amp;quot;Segoe WPC&amp;quot;, &amp;quot;Segoe UI&amp;quot;, sans-serif; font-size: 13px;&quot;&gt;first character(s)&lt;/strong&gt;&lt;span style=&quot;background-color: rgb(24, 24, 24); color: rgb(204, 204, 204); font-family: &amp;quot;Segoe WPC&amp;quot;, &amp;quot;Segoe UI&amp;quot;, sans-serif; font-size: 13px;&quot;&gt;&amp;nbsp;of the path string:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(24, 24, 24); font-size: 16px; color: rgb(204, 204, 204);&quot;&gt;&lt;font face=&quot;fkGroteskNeue, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji, Hiragino Sans, PingFang SC, Apple SD Gothic Neo, Yu Gothic, Microsoft YaHei, Microsoft JhengHei, Meiryo&quot; color=&quot;#000000&quot;&gt;&amp;nbsp;On linux&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot; class=&quot;citation-12&quot;&gt;Starts with &lt;/span&gt;&lt;code data-index-in-node=&quot;22&quot; data-path-to-node=&quot;7,0,0&quot;&gt;&lt;span class=&quot;citation-12&quot;&gt;/&lt;/span&gt;&lt;/code&gt;&lt;span style=&quot;background-color: transparent;&quot; class=&quot;citation-12 citation-end-12&quot;&gt;. &lt;sup data-turn-source-index=&quot;2&quot; class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;This tells the system to go to the very top of the hierarchy (the Root, apsolute path). On window: -A&lt;/span&gt;&lt;b style=&quot;background-color: transparent;&quot; data-index-in-node=&quot;0&quot; data-path-to-node=&quot;10,0,0&quot;&gt;bsolute:&lt;/b&gt;&lt;span style=&quot;background-color: transparent;&quot; class=&quot;citation-10&quot;&gt; Starts with a &lt;/span&gt;&lt;b style=&quot;background-color: transparent;&quot; data-index-in-node=&quot;24&quot; data-path-to-node=&quot;10,0,0&quot;&gt;Drive Letter&lt;/b&gt;&lt;span style=&quot;background-color: transparent;&quot; class=&quot;citation-10&quot;&gt; followed by a colon and slash (e.g., &lt;/span&gt;&lt;code data-index-in-node=&quot;74&quot; data-path-to-node=&quot;10,0,0&quot;&gt;&lt;span class=&quot;citation-10&quot;&gt;C:\&lt;/span&gt;&lt;/code&gt;&lt;span style=&quot;background-color: transparent;&quot; class=&quot;citation-10&quot;&gt;) or a &lt;/span&gt;&lt;b style=&quot;background-color: transparent;&quot; data-index-in-node=&quot;84&quot; data-path-to-node=&quot;10,0,0&quot;&gt;Network Share&lt;/b&gt;&lt;span style=&quot;background-color: transparent;&quot; class=&quot;citation-10&quot;&gt; (e.g., &lt;/span&gt;&lt;code data-index-in-node=&quot;105&quot; data-path-to-node=&quot;10,0,0&quot;&gt;&lt;span class=&quot;citation-10&quot;&gt;\\Server\&lt;/span&gt;&lt;/code&gt;&lt;span style=&quot;background-color: transparent;&quot; class=&quot;citation-10 citation-end-10&quot;&gt;).&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot; class=&quot;citation-10 citation-end-10&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot; class=&quot;citation-10 citation-end-10&quot;&gt;&lt;b data-index-in-node=&quot;0&quot; data-path-to-node=&quot;7,1,0&quot;&gt;Relative on linux&lt;/b&gt;&amp;nbsp;Starts with anything else (letters, &lt;code data-index-in-node=&quot;46&quot; data-path-to-node=&quot;7,1,0&quot;&gt;.&lt;/code&gt;, or &lt;code data-index-in-node=&quot;52&quot; data-path-to-node=&quot;7,1,0&quot;&gt;..&lt;/code&gt;). &lt;span class=&quot;citation-11 citation-end-11&quot;&gt;This tells the system to start looking from the folder where the program is currently running and on window starts with the folder name or ./ or ../ also&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="19" vertex="1">
+                    <mxGeometry y="30" width="380" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" style="edgeStyle=none;html=1;exitX=0.984;exitY=0.12;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitPerimeter=0;" parent="1" source="12" target="16" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="920" y="100" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="12" value="Path system" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="510" y="70" width="230" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="1. Diifferent os have different file path systems" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="12" vertex="1">
+                    <mxGeometry y="30" width="230" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="Environment Path" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="-50" y="-150" width="360" height="100" as="geometry">
+                        <mxRectangle x="70" y="-100" width="110" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="24" value="1. This path are for programs that we want to be accessible globally from any where in the system. it can be either specific to full system or per user" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="23" vertex="1">
+                    <mxGeometry y="30" width="360" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="Symlink" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="-150" width="360" height="80" as="geometry">
+                        <mxRectangle x="530" y="-190" width="110" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="31" value="1.&amp;nbsp;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Segoe WPC&amp;quot;, &amp;quot;Segoe UI&amp;quot;, sans-serif; font-size: 13px;&quot;&gt;A&amp;nbsp;&lt;/span&gt;&lt;strong style=&quot;font-family: &amp;quot;Segoe WPC&amp;quot;, &amp;quot;Segoe UI&amp;quot;, sans-serif; font-size: 13px;&quot;&gt;symlink&lt;/strong&gt;&lt;span style=&quot;font-family: &amp;quot;Segoe WPC&amp;quot;, &amp;quot;Segoe UI&amp;quot;, sans-serif; font-size: 13px;&quot;&gt;&amp;nbsp;(symbolic link) is a special type of file that acts as a pointer or reference to another file or directory&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="30" vertex="1">
+                    <mxGeometry y="30" width="360" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="1" source="10" target="19" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Relative Path" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="490" y="300" width="210" height="100" as="geometry">
+                        <mxRectangle x="490" y="300" width="110" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="11" value="1. path will be from the combination of the path where &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(255, 0, 255));&quot;&gt;path where we executed/run that file + relative path mention in this file&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="10" vertex="1">
+                    <mxGeometry y="30" width="210" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="Practicals to do in Path system" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=light-dark(#FFFFFF,#CC0000);" parent="1" vertex="1">
+                    <mxGeometry x="900" y="530" width="430" height="150" as="geometry">
+                        <mxRectangle x="490" y="300" width="110" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="27" value="1. If you are using window then write any code with uses file and path the absolute file path using winow format and then run that code and inspect the output. and then try using Linux file path format" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="26" vertex="1">
+                    <mxGeometry y="30" width="430" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="2. create a folder with name c: in window, and add some files in this folder and then try to access this in this c: folder in your code, run the code and inspect the output" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="26" vertex="1">
+                    <mxGeometry y="90" width="430" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="16" target="18" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1080.0000000000002" y="210" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="32" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="16" target="33">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1340" y="80" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="16" value="these matters because of backslash is used as&lt;span style=&quot;color: rgb(204, 204, 204); font-family: &amp;quot;Segoe WPC&amp;quot;, &amp;quot;Segoe UI&amp;quot;, sans-serif; font-size: 13px; text-align: start; background-color: rgb(24, 24, 24);&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;strong style=&quot;color: rgb(204, 204, 204); font-family: &amp;quot;Segoe WPC&amp;quot;, &amp;quot;Segoe UI&amp;quot;, sans-serif; font-size: 13px; text-align: start; background-color: rgb(24, 24, 24);&quot;&gt;escape sequences&lt;/strong&gt;&lt;span style=&quot;color: rgb(204, 204, 204); font-family: &amp;quot;Segoe WPC&amp;quot;, &amp;quot;Segoe UI&amp;quot;, sans-serif; font-size: 13px; text-align: start; background-color: rgb(24, 24, 24);&quot;&gt;&amp;nbsp;or&amp;nbsp;&lt;/span&gt;&lt;strong style=&quot;color: rgb(204, 204, 204); font-family: &amp;quot;Segoe WPC&amp;quot;, &amp;quot;Segoe UI&amp;quot;, sans-serif; font-size: 13px; text-align: start; background-color: rgb(24, 24, 24);&quot;&gt;escape characters&lt;/strong&gt;&lt;span style=&quot;color: rgb(204, 204, 204); font-family: &amp;quot;Segoe WPC&amp;quot;, &amp;quot;Segoe UI&amp;quot;, sans-serif; font-size: 13px; text-align: start; background-color: rgb(24, 24, 24);&quot;&gt;.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(204, 204, 204); font-family: &amp;quot;Segoe WPC&amp;quot;, &amp;quot;Segoe UI&amp;quot;, sans-serif; font-size: 13px; text-align: start; background-color: rgb(24, 24, 24);&quot;&gt;In many programming languages,&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 11.999px; color: rgb(208, 208, 208); background-color: rgb(60, 60, 60); border-color: rgb(208, 208, 208); border-style: none; border-width: 0px; border-image: none 100% / 1 / 0 stretch; white-space-collapse: preserve; text-align: start;&quot;&gt;\&lt;/code&gt;&lt;span style=&quot;color: rgb(204, 204, 204); font-family: &amp;quot;Segoe WPC&amp;quot;, &amp;quot;Segoe UI&amp;quot;, sans-serif; font-size: 13px; text-align: start; background-color: rgb(24, 24, 24);&quot;&gt;&amp;nbsp;is also the escape character&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="960" y="40" width="270" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="so in window these often confilts as window use \ for path, but no conflict in linux as linux us / frontslash for path" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="995" y="230" width="200" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" source="6" target="19" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" style="edgeStyle=none;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.43;entryY=1.058;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="3" target="23" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="eg: -CRLF(carrage retrun and line fed)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="1310" y="50" width="230" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

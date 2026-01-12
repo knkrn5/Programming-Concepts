@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="OUzo76foVnxCAvxuvgZB" name="Page-1">
-        <mxGraphModel dx="1002" dy="563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="792" dy="563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -69,12 +69,7 @@
                         <mxPoint x="465" y="150" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="24" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="23" target="26" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="920" y="450" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="29" style="edgeStyle=none;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="23" target="30">
+                <mxCell id="29" style="edgeStyle=none;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="23" target="30" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="1120" y="430" as="targetPoint"/>
                     </mxGeometry>
@@ -82,25 +77,16 @@
                 <mxCell id="23" value="Phone&lt;div&gt;hotspot&lt;/div&gt;&lt;div&gt;(private ip will&lt;/div&gt;&lt;div&gt;be default gateway for laptop)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="840" y="290" width="180" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="28" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="26" target="27" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="26" value="Laptop connected to this hotspot&lt;div&gt;(this have phone private ip as default gateway)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="880" y="440" width="150" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="27" value="device 3, connected to laptop hotspot (will have laptop private ip as default gateway)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="870" y="630" width="150" height="70" as="geometry"/>
-                </mxCell>
-                <mxCell id="31" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="30" target="32">
+                <mxCell id="31" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="30" target="32" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="1150" y="600" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="30" value="Phone&#39;s one network interface ip is gateway for laptop" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="1080" y="430" width="120" height="60" as="geometry"/>
+                <mxCell id="30" value="Phone&#39;s one network interface ip is gateway for laptop" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="910" y="490" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="32" value="then latop&#39;s one network interface ip is gateway for device connected to laptop" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="1110" y="620" width="150" height="60" as="geometry"/>
+                <mxCell id="32" value="then latop&#39;s one network interface ip is gateway for device connected to laptop" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="895" y="650" width="150" height="60" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>

@@ -45,10 +45,15 @@
                     <mxGeometry x="430" y="890" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="8" value="GraphQL api" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="630" y="900" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="610" y="900" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="10" value="Soap APi" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="820" y="900" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="800" y="900" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="11" target="23">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1030" y="910.0000000000002" as="targetPoint"/>
+                    </mxGeometry>
                 </mxCell>
                 <mxCell id="11" value="Architectural type" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
                     <mxGeometry x="560" y="650" width="90" height="100" as="geometry"/>
@@ -70,7 +75,10 @@
                     <mxGeometry x="180" y="890" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="21" value="&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Accessibility&lt;/font&gt;&lt;/span&gt;&lt;div style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30); color: rgb(192, 192, 192);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;types&lt;/font&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="120" y="650" width="100" height="100" as="geometry"/>
+                    <mxGeometry x="80" y="670" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="gRCP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="980" y="890" width="120" height="60" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
