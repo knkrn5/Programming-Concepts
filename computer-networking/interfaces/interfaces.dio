@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="fZmnuzwTkHFbN5up9tdg" name="Page-1">
-        <mxGraphModel dx="754" dy="1636" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1584" dy="2226" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -69,13 +69,16 @@
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="96" value="Practicals to do with network Interfaces" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=light-dark(#F5F5F5,#CC0000);gradientColor=none;strokeColor=#666666;" parent="1" vertex="1">
-                    <mxGeometry x="1460" y="1740" width="410" height="170" as="geometry"/>
+                    <mxGeometry x="1710" y="1200" width="410" height="240" as="geometry"/>
                 </mxCell>
                 <mxCell id="190" value="1. View the IP address of all network interfaces (Both IPv4 and IPv6 and then Both public and private IP)&lt;div&gt;Also view what is your subnet for IPv4 and IPv6&lt;/div&gt;" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;shadow=0;strokeColor=default;" parent="96" vertex="1">
                     <mxGeometry y="30" width="410" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="237" value="2. We have to give the static IP address to whatever network interface is currently having internet, then check if the private ip of that interface has changed or not and then see if u are able to access internet or not. And also inspect in wireshark that the request are going through your static assigned IP" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;shadow=0;strokeColor=default;" vertex="1" parent="96">
                     <mxGeometry y="90" width="410" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="238" value="3. Block MAC address of one network interfaces for in your router or mobile hotspot and they try to access the router or mobile hotspot internet using different network interface of your device" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;shadow=0;strokeColor=default;" vertex="1" parent="96">
+                    <mxGeometry y="170" width="410" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="210" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="196" target="232" edge="1">
                     <mxGeometry relative="1" as="geometry">
@@ -149,16 +152,16 @@
                     <mxGeometry y="30" width="255" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="187" value="Practicals to do in network interfaces" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=light-dark(#FFFFFF,#CC0000);" parent="1" vertex="1">
-                    <mxGeometry x="1720" y="520" width="320" height="180" as="geometry"/>
+                    <mxGeometry x="1710" y="950" width="400" height="180" as="geometry"/>
                 </mxCell>
                 <mxCell id="188" value="1. Create LAN server accessible from specific network interface/adapter IP address" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="187" vertex="1">
-                    <mxGeometry y="30" width="320" height="40" as="geometry"/>
+                    <mxGeometry y="30" width="400" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="191" value="2. Create LAN server accessible from all network interfaces/adapters IPv4 and/or IPv6" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="187" vertex="1">
-                    <mxGeometry y="70" width="320" height="40" as="geometry"/>
+                    <mxGeometry y="70" width="400" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="193" value="3. Disconnect for ISP network and connect to local hostspot and communicate with devices within these LAN&amp;nbsp; and note IP addressese before and after in all the connected devices" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="187" vertex="1">
-                    <mxGeometry y="110" width="320" height="70" as="geometry"/>
+                    <mxGeometry y="110" width="400" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="126" value="If a LAN contains multiple network interfaces, how does a device decide which interface should receive a frame—what identifier does it use?" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;arcSize=15;align=left;" parent="1" vertex="1">
                     <mxGeometry x="1050" y="770" width="330" height="130" as="geometry"/>
