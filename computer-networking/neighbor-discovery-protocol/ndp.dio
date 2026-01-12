@@ -1,0 +1,123 @@
+<mxfile host="65bd71144e">
+    <diagram id="zRcS1tuvcaYAo8y1IMOR" name="Page-1">
+        <mxGraphModel dx="2186" dy="1851" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="9" value="&lt;b&gt;&lt;font style=&quot;font-size: 23px;&quot;&gt;Neighbor Discovery Protocol&lt;/font&gt;&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+                    <mxGeometry x="310" y="-280" width="370" height="90" as="geometry">
+                        <mxRectangle x="200" y="360" width="80" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="10" value="&lt;p style=&quot;white-space-collapse: preserve;&quot; dir=&quot;auto&quot;&gt;&lt;b&gt;1. &lt;/b&gt;&lt;span style=&quot;background-color: transparent; white-space-collapse: collapse;&quot;&gt;NDP works using &lt;/span&gt;&lt;strong style=&quot;background-color: transparent; white-space-collapse: collapse;&quot;&gt;5 main ICMPv6 message types&lt;/strong&gt;&lt;span style=&quot;background-color: transparent; white-space-collapse: collapse;&quot;&gt;:&lt;/span&gt;&lt;/p&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=0;dashed=1;dashPattern=1 4;" vertex="1" parent="9">
+                    <mxGeometry y="40" width="370" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Prerequisite&lt;/font&gt;&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+                    <mxGeometry x="740" y="-330" width="240" height="100" as="geometry">
+                        <mxRectangle x="200" y="360" width="80" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="14" value="&lt;p style=&quot;white-space-collapse: preserve;&quot; dir=&quot;auto&quot;&gt;1. Should know about arp packet (&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(102, 0, 204));&quot;&gt;arpp.svg&lt;/span&gt;)&lt;/p&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=0;dashed=1;dashPattern=1 4;" vertex="1" parent="13">
+                    <mxGeometry y="40" width="240" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" style="edgeStyle=none;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.992;entryY=0.068;entryDx=0;entryDy=0;entryPerimeter=0;flowAnimation=1;strokeWidth=2;" edge="1" parent="1" source="13" target="9">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="72" value="&lt;p data-end=&quot;1030&quot; data-start=&quot;1003&quot;&gt;These are the NDP messages:&lt;/p&gt;&lt;br/&gt;&lt;ol data-end=&quot;1197&quot; data-start=&quot;1032&quot;&gt;&lt;br/&gt;&lt;li data-end=&quot;1065&quot; data-start=&quot;1032&quot;&gt;&lt;br/&gt;&lt;p data-end=&quot;1065&quot; data-start=&quot;1035&quot;&gt;&lt;strong data-end=&quot;1041&quot; data-start=&quot;1035&quot;&gt;RS&lt;/strong&gt; = Router Solicitation&lt;/p&gt;&lt;br/&gt;&lt;/li&gt;&lt;br/&gt;&lt;li data-end=&quot;1100&quot; data-start=&quot;1066&quot;&gt;&lt;br/&gt;&lt;p data-end=&quot;1100&quot; data-start=&quot;1069&quot;&gt;&lt;strong data-end=&quot;1075&quot; data-start=&quot;1069&quot;&gt;RA&lt;/strong&gt; = Router Advertisement&lt;/p&gt;&lt;br/&gt;&lt;/li&gt;&lt;br/&gt;&lt;li data-end=&quot;1136&quot; data-start=&quot;1101&quot;&gt;&lt;br/&gt;&lt;p data-end=&quot;1136&quot; data-start=&quot;1104&quot;&gt;&lt;strong data-end=&quot;1110&quot; data-start=&quot;1104&quot;&gt;NS&lt;/strong&gt; = Neighbor Solicitation&lt;/p&gt;&lt;br/&gt;&lt;/li&gt;&lt;br/&gt;&lt;li data-end=&quot;1173&quot; data-start=&quot;1137&quot;&gt;&lt;br/&gt;&lt;p data-end=&quot;1173&quot; data-start=&quot;1140&quot;&gt;&lt;strong data-end=&quot;1146&quot; data-start=&quot;1140&quot;&gt;NA&lt;/strong&gt; = Neighbor Advertisement&lt;/p&gt;&lt;br/&gt;&lt;/li&gt;&lt;br/&gt;&lt;li data-end=&quot;1197&quot; data-start=&quot;1174&quot;&gt;&lt;br/&gt;&lt;p data-end=&quot;1197&quot; data-start=&quot;1177&quot;&gt;&lt;strong data-end=&quot;1189&quot; data-start=&quot;1177&quot;&gt;Redirect&lt;/strong&gt; message&lt;/p&gt;&lt;br/&gt;&lt;/li&gt;&lt;br/&gt;&lt;/ol&gt;&lt;br/&gt;&lt;p data-end=&quot;1261&quot; data-start=&quot;1199&quot;&gt;All are ICMPv6 packets (ICMPv6 types like 133, 134, 135, 136).&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1190" y="-340" width="360" height="600" as="geometry"/>
+                </mxCell>
+                <mxCell id="75" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="527.5" y="-30" width="90" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="90" style="edgeStyle=none;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="75" source="74">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-357.5" y="-10" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="91" value="6. PC can now send packets" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="90">
+                    <mxGeometry x="-0.0471" y="-3" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="74" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="75">
+                    <mxGeometry width="90" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="73" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/laptop_client.svg;" vertex="1" parent="75">
+                    <mxGeometry x="22.5" y="20" width="45" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="81" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="522.5" y="320" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="80" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="81">
+                    <mxGeometry width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="79" value="" style="image;html=1;image=img/lib/clip_art/networking/Wireless_Router_128x128.png" vertex="1" parent="81">
+                    <mxGeometry x="10" y="10" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="76" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="74" target="80">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="571.8571428571429" y="260" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="77" value="1. PC&amp;nbsp; Generates&lt;div&gt;local-link&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="76">
+                    <mxGeometry x="-0.4113" y="-4" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="78" value="1. pc sends&lt;div&gt;RS&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="76">
+                    <mxGeometry x="0.2745" y="-7" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="82" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="79" target="74">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="830" y="140" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="810" y="200"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="83" value="2. Router sends&amp;nbsp;&lt;div&gt;RA like subnet,&lt;/div&gt;&lt;div&gt;local-link and dns o[ptions&amp;nbsp;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="82">
+                    <mxGeometry x="-0.0994" y="1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="87" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="86" target="79">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="86" value="To send traffic to gateway:&lt;br&gt;&lt;br/&gt;PC sends NS for gateway address" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="150" y="170" width="170" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="84" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="74" target="86">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="220" y="60" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="85" value="3. PC creates global&amp;nbsp;&lt;div&gt;address using SLAAC:&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="84">
+                    <mxGeometry x="0.2656" y="-1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="88" style="edgeStyle=none;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="80" target="74">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="970" y="200" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1060" y="220"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="89" value="5. Router replies NA with MAC" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="88">
+                    <mxGeometry x="-0.1546" y="-3" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="92" value="SLAAC" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="-320" y="360" width="350" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="93" value="1.&amp;nbsp;SLAAC = Stateless Address Auto Configuration: -&amp;nbsp; device can create its own global IPv6 address automatically&lt;br data-end=&quot;350&quot; data-start=&quot;347&quot;&gt;without asking DHCP server for an IP." style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="92">
+                    <mxGeometry y="30" width="350" height="70" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
