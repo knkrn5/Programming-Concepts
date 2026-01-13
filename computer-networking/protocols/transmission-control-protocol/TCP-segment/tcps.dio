@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="a6AUah0hEDSX1fHxoqCq" name="Page-1">
-        <mxGraphModel dx="2029" dy="1762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="2186" dy="1851" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -84,7 +84,7 @@
                         <mxRectangle width="101" height="40" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="85" value="" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=light-dark(#000000,#FFFF00);" parent="3" vertex="1">
+                <mxCell id="85" value="" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=light-dark(#000000,#00CC00);" parent="3" vertex="1">
                     <mxGeometry x="150" y="170" width="100" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="86" value="" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=light-dark(#000000,#0000FF);" parent="3" vertex="1">
@@ -117,6 +117,9 @@
                         <mxRectangle width="405" height="40" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
+                <mxCell id="255" value="" style="whiteSpace=wrap;html=1;strokeWidth=3;fillColor=none;strokeColor=light-dark(#000000,#FFFF00);" parent="3" vertex="1">
+                    <mxGeometry x="40" y="50" width="410" height="280" as="geometry"/>
+                </mxCell>
                 <mxCell id="35" value="Sequence Number" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#6a00ff;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;rounded=1;fontColor=#ffffff;strokeColor=#3700CC;" parent="1" vertex="1">
                     <mxGeometry x="-350" y="196" width="310" height="114" as="geometry">
                         <mxRectangle x="140" y="150" width="60" height="30" as="alternateBounds"/>
@@ -129,7 +132,7 @@
                     <mxGeometry y="70" width="310" height="44" as="geometry"/>
                 </mxCell>
                 <mxCell id="43" value="Source Port" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#60a917;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;rounded=1;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
-                    <mxGeometry x="40" y="120" width="230" height="52" as="geometry">
+                    <mxGeometry x="-20" y="110" width="230" height="52" as="geometry">
                         <mxRectangle x="-70" y="260" width="60" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
@@ -148,15 +151,15 @@
                     <mxGeometry y="90" width="300" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="56" value="Checksum" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#6d8764;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;rounded=1;fontColor=#ffffff;strokeColor=#3A5431;" parent="1" vertex="1">
-                    <mxGeometry x="-315" y="720" width="305" height="110" as="geometry">
+                    <mxGeometry x="-315" y="720" width="305" height="100" as="geometry">
                         <mxRectangle x="140" y="150" width="60" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="57" value="Error detection for:&amp;nbsp;TCP header,&amp;nbsp;TCP payload,&amp;nbsp;IP pseudo-header" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="56" vertex="1">
-                    <mxGeometry y="26" width="305" height="54" as="geometry"/>
+                    <mxGeometry y="26" width="305" height="44" as="geometry"/>
                 </mxCell>
                 <mxCell id="72" value="If checksum fails → segment discarded" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="56" vertex="1">
-                    <mxGeometry y="80" width="305" height="30" as="geometry"/>
+                    <mxGeometry y="70" width="305" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="82" value="Reserserved" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#d0cee2;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;rounded=1;strokeColor=#56517e;" parent="1" vertex="1">
                     <mxGeometry x="-290" y="590" width="230" height="70" as="geometry">
@@ -175,12 +178,12 @@
                     <mxGeometry y="26" width="290" height="64" as="geometry"/>
                 </mxCell>
                 <mxCell id="40" value="Destination Port" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#1ba1e2;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;rounded=1;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
-                    <mxGeometry x="640" y="158" width="200" height="52" as="geometry">
+                    <mxGeometry x="680" y="120" width="230" height="52" as="geometry">
                         <mxRectangle x="600" y="180" width="60" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="41" value="Port number of the &lt;strong data-end=&quot;750&quot; data-start=&quot;738&quot;&gt;receiver&lt;/strong&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="40" vertex="1">
-                    <mxGeometry y="26" width="200" height="26" as="geometry"/>
+                    <mxGeometry y="26" width="230" height="26" as="geometry"/>
                 </mxCell>
                 <mxCell id="69" value="Flags" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#f0a30a;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;rounded=1;fontColor=#000000;strokeColor=#BD7000;" parent="1" vertex="1">
                     <mxGeometry x="820" y="460" width="240" height="60" as="geometry">
@@ -190,26 +193,49 @@
                 <mxCell id="70" value="Control bits that manage the connection" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="69" vertex="1">
                     <mxGeometry y="26" width="240" height="34" as="geometry"/>
                 </mxCell>
+                <mxCell id="248" value="Flags Meaning" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#f0a30a;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;rounded=1;fontColor=#000000;strokeColor=#BD7000;" parent="1" vertex="1">
+                    <mxGeometry x="1290" y="370" width="320" height="262" as="geometry">
+                        <mxRectangle x="380" y="130" width="60" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="249" value="1. URG: - Urgent pointer field is valid" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="248" vertex="1">
+                    <mxGeometry y="26" width="320" height="34" as="geometry"/>
+                </mxCell>
+                <mxCell id="250" value="2. ACK: - Acknowledgement field is valid" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="248" vertex="1">
+                    <mxGeometry y="60" width="320" height="34" as="geometry"/>
+                </mxCell>
+                <mxCell id="251" value="3. PSH: - push data immediately to application now, don&#39;t wait for more bufferiing" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="248" vertex="1">
+                    <mxGeometry y="94" width="320" height="46" as="geometry"/>
+                </mxCell>
+                <mxCell id="253" value="4. RST:- Reset teh connection" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="248" vertex="1">
+                    <mxGeometry y="140" width="320" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="252" value="5. SYN: - Synchronize sequence numbers (used for connection setup and data offset)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="248" vertex="1">
+                    <mxGeometry y="170" width="320" height="46" as="geometry"/>
+                </mxCell>
+                <mxCell id="254" value="6. FIN: - Finish, no more data to send (connection teardown)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="248" vertex="1">
+                    <mxGeometry y="216" width="320" height="46" as="geometry"/>
+                </mxCell>
                 <mxCell id="73" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Transmission Control Protocol&amp;nbsp;&lt;/font&gt;&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=#fa6800;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;rounded=1;fontColor=#000000;strokeColor=#C73500;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
-                    <mxGeometry x="240" y="-140" width="380" height="140" as="geometry">
+                    <mxGeometry x="190" y="-150" width="450" height="150" as="geometry">
                         <mxRectangle x="380" y="130" width="60" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="74" value="&lt;span style=&quot;font-family: fkGroteskNeue, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;, &amp;quot;Hiragino Sans&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Apple SD Gothic Neo&amp;quot;, &amp;quot;Yu Gothic&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Microsoft JhengHei&amp;quot;, Meiryo; font-size: 16px; letter-spacing: 0.16px;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;TCP is a core internet protocol that ensures&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Maximum reliability&lt;/font&gt;&lt;span style=&quot;font-family: fkGroteskNeue, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;, &amp;quot;Hiragino Sans&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Apple SD Gothic Neo&amp;quot;, &amp;quot;Yu Gothic&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Microsoft JhengHei&amp;quot;, Meiryo; font-size: 16px; letter-spacing: 0.16px;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;data transmission between devices over networks&lt;/font&gt;&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="73" vertex="1">
-                    <mxGeometry y="40" width="380" height="60" as="geometry"/>
+                    <mxGeometry y="40" width="450" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="242" value="&lt;font face=&quot;fkGroteskNeue, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji, Hiragino Sans, PingFang SC, Apple SD Gothic Neo, Yu Gothic, Microsoft YaHei, Microsoft JhengHei, Meiryo&quot;&gt;&lt;span style=&quot;font-size: 16px; letter-spacing: 0.16px;&quot;&gt;These use IP only&lt;/span&gt;&lt;/font&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="73" vertex="1">
-                    <mxGeometry y="100" width="380" height="40" as="geometry"/>
+                <mxCell id="242" value="&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255)); font-size: 13px;&quot;&gt;TCP does not support subnet broadcast because it is a connection-oriented, one-to-one protocol that requires acknowledgments and state per peer.&lt;/font&gt;&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="73" vertex="1">
+                    <mxGeometry y="100" width="450" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="46" value="Acknowledgment Number" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#a20025;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;rounded=1;fontColor=#ffffff;strokeColor=#6F0000;" parent="1" vertex="1">
                     <mxGeometry x="810" y="250" width="310" height="150" as="geometry">
                         <mxRectangle x="600" y="180" width="60" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="47" value="1. This&amp;nbsp;&lt;span style=&quot;font-family: &amp;quot;Segoe WPC&amp;quot;, &amp;quot;Segoe UI&amp;quot;, sans-serif; font-size: 13px;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(204, 204, 204), rgb(255, 255, 255));&quot;&gt;indicates the next byte the receiver expects to receive (i.e., it’s one more than the last successfully received byte).&lt;/font&gt;&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="46" vertex="1">
+                <mxCell id="47" value="1. This&amp;nbsp;&lt;span style=&quot;font-family: &amp;quot;Segoe WPC&amp;quot;, &amp;quot;Segoe UI&amp;quot;, sans-serif; font-size: 13px;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(204, 204, 204), rgb(255, 255, 255));&quot;&gt;indicates the next byte the receiver expects to receive (i.e., it’s one more than the last successfully received byte count).&lt;/font&gt;&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="46" vertex="1">
                     <mxGeometry y="26" width="310" height="64" as="geometry"/>
                 </mxCell>
-                <mxCell id="247" value="2. It is crucial for both confirming successful delivery and triggering retransmission if acknowledgement fails for the previous byte" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="46">
+                <mxCell id="247" value="2. It is crucial for both confirming successful delivery and triggering retransmission if acknowledgement fails for the previous byte" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="46" vertex="1">
                     <mxGeometry y="90" width="310" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="53" value="Window Size" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e3c800;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;rounded=1;fontColor=#000000;strokeColor=#B09500;" parent="1" vertex="1">
@@ -277,7 +303,7 @@
                 <mxCell id="58" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="27" target="56" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="81" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;flowAnimation=1;entryX=1.009;entryY=0.135;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=light-dark(#000000,#FFFF00);" parent="1" source="85" target="82" edge="1">
+                <mxCell id="81" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;flowAnimation=1;entryX=1.009;entryY=0.135;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=light-dark(#000000,#00CC00);" parent="1" source="85" target="82" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="255" y="550" as="sourcePoint"/>
                         <mxPoint x="70" y="530" as="targetPoint"/>
@@ -302,14 +328,21 @@
                         <mxPoint x="440" y="260" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="87" value="&lt;li class=&quot;whitespace-normal break-words pl-2&quot;&gt;&lt;strong&gt;URG&lt;/strong&gt;: Urgent pointer field is valid&lt;/li&gt;&lt;br/&gt;&lt;li class=&quot;whitespace-normal break-words pl-2&quot;&gt;&lt;strong&gt;ACK&lt;/strong&gt;: Acknowledgment field is valid&lt;/li&gt;&lt;br/&gt;&lt;li class=&quot;whitespace-normal break-words pl-2&quot;&gt;&lt;strong&gt;PSH&lt;/strong&gt;: Push data immediately to application&lt;/li&gt;&lt;br/&gt;&lt;li class=&quot;whitespace-normal break-words pl-2&quot;&gt;&lt;strong&gt;RST&lt;/strong&gt;: Reset the connection&lt;/li&gt;&lt;br/&gt;&lt;li class=&quot;whitespace-normal break-words pl-2&quot;&gt;&lt;strong&gt;SYN&lt;/strong&gt;: Synchronize sequence numbers (connection setup)&lt;/li&gt;&lt;br/&gt;&lt;li class=&quot;whitespace-normal break-words pl-2&quot;&gt;&lt;strong&gt;FIN&lt;/strong&gt;: Finish, no more data (connection teardown)&lt;/li&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;rounded=1;" parent="1" vertex="1">
-                    <mxGeometry x="1310" y="320" width="330" height="210" as="geometry"/>
-                </mxCell>
-                <mxCell id="88" style="edgeStyle=none;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.016;entryY=0.404;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="69" target="87" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
+                <mxCell id="88" style="edgeStyle=none;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.01;entryY=0.077;entryDx=0;entryDy=0;entryPerimeter=0;flowAnimation=1;" parent="1" source="69" target="248" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1396.88" y="404.84000000000015" as="targetPoint"/>
+                    </mxGeometry>
                 </mxCell>
                 <mxCell id="98" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="92" target="96" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="257" value="TCP header: - Minimum Size: &lt;strong&gt;20 bytes&lt;/strong&gt; (160 bits), This is when there are &lt;strong&gt;no TCP options&lt;/strong&gt;&lt;div&gt;&lt;strong&gt;and&amp;nbsp;&lt;/strong&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;Maximum Size: &lt;/span&gt;&lt;strong style=&quot;background-color: transparent;&quot;&gt;60 bytes&lt;/strong&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt; (480 bits),&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;when TCP options take up the maximum allowed space (40 bytes of options)&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=light-dark(#000000,#FFFF00);" parent="1" vertex="1">
+                    <mxGeometry x="290" y="90" width="300" height="92" as="geometry"/>
+                </mxCell>
+                <mxCell id="256" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=light-dark(#000000,#FFFF00);" parent="1" source="255" target="257" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="445" y="210" as="targetPoint"/>
+                    </mxGeometry>
                 </mxCell>
             </root>
         </mxGraphModel>
