@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="IjiPZ2pHiN9I25YzHArY" name="Page-1">
-        <mxGraphModel dx="1422" dy="1435" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="2081" dy="1966" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -85,21 +85,26 @@
                 <mxCell id="28" value="2. create a folder with name c: in window, and add some files in this folder and then try to access this in this c: folder in your code, run the code and inspect the output" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="26" vertex="1">
                     <mxGeometry y="90" width="430" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="17" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="16" target="18" edge="1">
+                <mxCell id="17" style="edgeStyle=none;html=1;exitX=0.808;exitY=1.019;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" parent="1" source="13" target="18" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="1080.0000000000002" y="210" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="32" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="16" target="33">
+                <mxCell id="32" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="16" target="33" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="1340" y="80" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="34" style="edgeStyle=none;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="16" target="35">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1210" y="-70" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="16" value="these matters because of backslash is used as&lt;span style=&quot;color: rgb(204, 204, 204); font-family: &amp;quot;Segoe WPC&amp;quot;, &amp;quot;Segoe UI&amp;quot;, sans-serif; font-size: 13px; text-align: start; background-color: rgb(24, 24, 24);&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;strong style=&quot;color: rgb(204, 204, 204); font-family: &amp;quot;Segoe WPC&amp;quot;, &amp;quot;Segoe UI&amp;quot;, sans-serif; font-size: 13px; text-align: start; background-color: rgb(24, 24, 24);&quot;&gt;escape sequences&lt;/strong&gt;&lt;span style=&quot;color: rgb(204, 204, 204); font-family: &amp;quot;Segoe WPC&amp;quot;, &amp;quot;Segoe UI&amp;quot;, sans-serif; font-size: 13px; text-align: start; background-color: rgb(24, 24, 24);&quot;&gt;&amp;nbsp;or&amp;nbsp;&lt;/span&gt;&lt;strong style=&quot;color: rgb(204, 204, 204); font-family: &amp;quot;Segoe WPC&amp;quot;, &amp;quot;Segoe UI&amp;quot;, sans-serif; font-size: 13px; text-align: start; background-color: rgb(24, 24, 24);&quot;&gt;escape characters&lt;/strong&gt;&lt;span style=&quot;color: rgb(204, 204, 204); font-family: &amp;quot;Segoe WPC&amp;quot;, &amp;quot;Segoe UI&amp;quot;, sans-serif; font-size: 13px; text-align: start; background-color: rgb(24, 24, 24);&quot;&gt;.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(204, 204, 204); font-family: &amp;quot;Segoe WPC&amp;quot;, &amp;quot;Segoe UI&amp;quot;, sans-serif; font-size: 13px; text-align: start; background-color: rgb(24, 24, 24);&quot;&gt;In many programming languages,&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 11.999px; color: rgb(208, 208, 208); background-color: rgb(60, 60, 60); border-color: rgb(208, 208, 208); border-style: none; border-width: 0px; border-image: none 100% / 1 / 0 stretch; white-space-collapse: preserve; text-align: start;&quot;&gt;\&lt;/code&gt;&lt;span style=&quot;color: rgb(204, 204, 204); font-family: &amp;quot;Segoe WPC&amp;quot;, &amp;quot;Segoe UI&amp;quot;, sans-serif; font-size: 13px; text-align: start; background-color: rgb(24, 24, 24);&quot;&gt;&amp;nbsp;is also the escape character&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="960" y="40" width="270" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="18" value="so in window these often confilts as window use \ for path, but no conflict in linux as linux us / frontslash for path" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="995" y="230" width="200" height="80" as="geometry"/>
+                    <mxGeometry x="770" y="190" width="200" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="22" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" source="6" target="19" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
@@ -107,8 +112,17 @@
                 <mxCell id="25" style="edgeStyle=none;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.43;entryY=1.058;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="3" target="23" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="33" value="eg: -CRLF(carrage retrun and line fed)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="1310" y="50" width="230" height="30" as="geometry"/>
+                <mxCell id="33" value="eg: -CRLF(carrage retrun and line fed) and&amp;nbsp; &quot;\\&quot; for&amp;nbsp;&lt;div&gt;literal backslash and \t for tab&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="1280" y="45" width="290" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="35" target="36">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="&lt;li&gt;&lt;p data-path-to-node=&quot;5,0,0&quot;&gt;&lt;b data-index-in-node=&quot;0&quot; data-path-to-node=&quot;5,0,0&quot;&gt;In your editor:&lt;/b&gt; You see two characters: &lt;code data-index-in-node=&quot;40&quot; data-path-to-node=&quot;5,0,0&quot;&gt;\&lt;/code&gt; (the backslash) and &lt;code data-index-in-node=&quot;62&quot; data-path-to-node=&quot;5,0,0&quot;&gt;n&lt;/code&gt; (the letter).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p data-path-to-node=&quot;5,1,0&quot;&gt;&lt;b data-index-in-node=&quot;0&quot; data-path-to-node=&quot;5,1,0&quot;&gt;In the computer&#39;s memory:&lt;/b&gt; It is stored as a single numeric value (ASCII or Unicode). For example, &lt;code data-index-in-node=&quot;98&quot; data-path-to-node=&quot;5,1,0&quot;&gt;\n&lt;/code&gt; is stored as the number &lt;b data-index-in-node=&quot;125&quot; data-path-to-node=&quot;5,1,0&quot;&gt;10&lt;/b&gt;.&lt;/p&gt;&lt;/li&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1295" y="-160" width="260" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;The compiler/interpreter sees the \ (called the escape character) and treats the next character(s) as a special instruction — not as literal text.&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1670" y="-220" width="180" height="100" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>

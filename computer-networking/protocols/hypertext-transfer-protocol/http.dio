@@ -1,31 +1,82 @@
 <mxfile host="65bd71144e">
     <diagram id="BNff_243PakBDc5S3eg4" name="Page-1">
-        <mxGraphModel dx="1147" dy="1726" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1002" dy="1663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
                 <mxCell id="2" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;HTTP&lt;/font&gt;&lt;/b&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
                     <mxGeometry x="340" y="190" width="120" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="29" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Hypertext transfer protocol&lt;/font&gt;&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-                    <mxGeometry x="210" y="-10" width="460" height="100" as="geometry">
+                <mxCell id="29" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Hypertext transfer protocol&lt;/font&gt;&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+                    <mxGeometry x="210" y="-10" width="460" height="170" as="geometry">
                         <mxRectangle x="265" y="150" width="100" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="30" value="1.&amp;nbsp;The web was originally designed specifically for sharing interconnected text documents with hyperlinks. That&#39;s why it&#39;s called &quot;HyperText&quot; Transfer Protocol and&amp;nbsp;started with HTML pages.&amp;nbsp;Although HTTP now transfers much more than just hypertext" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="29">
+                <mxCell id="30" value="1.&amp;nbsp;The web was originally designed specifically for sharing interconnected text documents with hyperlinks. That&#39;s why it&#39;s called &quot;HyperText&quot; Transfer Protocol and&amp;nbsp;started with HTML pages.&amp;nbsp;Although HTTP now transfers much more than just hypertext" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="29" vertex="1">
                     <mxGeometry y="30" width="460" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="43" value="Application Layer:  HTTP, FTP, SMTP, etc.&lt;br/&gt;Transport Layer:    TCP, UDP&lt;br/&gt;Internet Layer:     IP&lt;br/&gt;Network Layer:      Ethernet, WiFi, etc." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="68" value="" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="29">
+                    <mxGeometry y="100" width="460" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="Application Layer:  HTTP, FTP, SMTP, etc.&lt;br/&gt;Transport Layer:    TCP, UDP&lt;br/&gt;Internet Layer:     IP&lt;br/&gt;Network Layer:      Ethernet, WiFi, etc." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="1030" y="-22" width="240" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="44" value="&lt;strong&gt;TCP Connection Established&lt;/strong&gt;: Before any HTTP data is sent, a TCP connection is established between client and server using a &quot;three-way handshake&quot;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="44" value="&lt;strong&gt;TCP Connection Established&lt;/strong&gt;: Before any HTTP data is sent, a TCP connection is established between client and server using a &quot;three-way handshake&quot;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="950" y="80" width="840" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="45" value="TCP guarantees that data arrives in order and without errors. If packets are lost, TCP automatically retransmits them. This is crucial for HTTP because you want complete, correct webpages." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="45" value="TCP guarantees that data arrives in order and without errors. If packets are lost, TCP automatically retransmits them. This is crucial for HTTP because you want complete, correct webpages." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="960" y="118" width="1030" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="46" value="Interestingly, the latest version of HTTP (HTTP/3) actually uses &lt;strong&gt;QUIC&lt;/strong&gt; instead of TCP. QUIC is built on UDP and incorporates TCP-like reliability features while being faster. But HTTP/1.1 and HTTP/2 definitely use TCP." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="46" value="Interestingly, the latest version of HTTP (HTTP/3) actually uses &lt;strong&gt;QUIC&lt;/strong&gt; instead of TCP. QUIC is built on UDP and incorporates TCP-like reliability features while being faster. But HTTP/1.1 and HTTP/2 definitely use TCP." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="970" y="-80" width="1180" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="48" target="52">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="110" y="580" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="50" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="48" target="53">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="740" y="550" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="48" value="Data&amp;nbsp;&lt;div&gt;sending&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="350" y="380" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="52" target="55">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="80" y="730" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="52" value="client side" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="30" y="600" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="53" target="63">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="Sever side" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="680" y="570" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="cleint can send data in" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="5" y="760" width="170" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="params" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="55">
+                    <mxGeometry y="30" width="170" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="header" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="55">
+                    <mxGeometry y="60" width="170" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="body" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="55">
+                    <mxGeometry y="90" width="170" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" value="server can send data in" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="660" y="760" width="170" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="header" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="63">
+                    <mxGeometry y="30" width="170" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" value="body" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="63">
+                    <mxGeometry y="60" width="170" height="30" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
