@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="fZmnuzwTkHFbN5up9tdg" name="Page-1">
-        <mxGraphModel dx="1584" dy="2226" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="2286" dy="2709" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -74,10 +74,10 @@
                 <mxCell id="190" value="1. View the IP address of all network interfaces (Both IPv4 and IPv6 and then Both public and private IP)&lt;div&gt;Also view what is your subnet for IPv4 and IPv6&lt;/div&gt;" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;shadow=0;strokeColor=default;" parent="96" vertex="1">
                     <mxGeometry y="30" width="410" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="237" value="2. We have to give the static IP address to whatever network interface is currently having internet, then check if the private ip of that interface has changed or not and then see if u are able to access internet or not. And also inspect in wireshark that the request are going through your static assigned IP" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;shadow=0;strokeColor=default;" vertex="1" parent="96">
+                <mxCell id="237" value="2. We have to give the static IP address to whatever network interface is currently having internet, then check if the private ip of that interface has changed or not and then see if u are able to access internet or not. And also inspect in wireshark that the request are going through your static assigned IP" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;shadow=0;strokeColor=default;" parent="96" vertex="1">
                     <mxGeometry y="90" width="410" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="238" value="3. Block MAC address of one network interfaces for in your router or mobile hotspot and they try to access the router or mobile hotspot internet using different network interface of your device" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;shadow=0;strokeColor=default;" vertex="1" parent="96">
+                <mxCell id="238" value="3. Block MAC address of one network interfaces for in your router or mobile hotspot and they try to access the router or mobile hotspot internet using different network interface of your device" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;shadow=0;strokeColor=default;" parent="96" vertex="1">
                     <mxGeometry y="170" width="410" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="210" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="196" target="232" edge="1">
