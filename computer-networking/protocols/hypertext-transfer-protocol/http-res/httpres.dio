@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="AXdNGfNMth2FeQyW1qBN" name="Page-1">
-        <mxGraphModel dx="2767" dy="1851" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+        <mxGraphModel dx="3704" dy="2226" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -13,7 +13,7 @@
                 <mxCell id="11" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="10" vertex="1">
                     <mxGeometry width="415.5" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="12" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;any data in key value pair ending with &quot;\r\n&quot;&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="11" vertex="1">
+                <mxCell id="12" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;HTTP response header data&amp;nbsp; (ending with &quot;\r\n&quot;)&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="11" vertex="1">
                     <mxGeometry width="416" height="40" as="geometry">
                         <mxRectangle width="416" height="40" as="alternateBounds"/>
                     </mxGeometry>
@@ -29,13 +29,13 @@
                         <mxRectangle width="416" height="40" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="60" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="3">
+                <mxCell id="60" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fillColor=#b1ddf0;strokeColor=#10739e;" parent="3" vertex="1">
                     <mxGeometry x="34.5" y="170" width="415.5" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="61" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="60">
+                <mxCell id="61" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="60" vertex="1">
                     <mxGeometry width="415.5" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="62" value="&lt;font color=&quot;#000000&quot;&gt;Body data&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="61">
+                <mxCell id="62" value="&lt;font color=&quot;#000000&quot;&gt;Body data (Optional)&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="61" vertex="1">
                     <mxGeometry width="416" height="40" as="geometry">
                         <mxRectangle width="416" height="40" as="alternateBounds"/>
                     </mxGeometry>
@@ -82,7 +82,7 @@
                         <mxPoint x="-580" y="180" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="28" value="any key-value pair" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" parent="1" vertex="1">
+                <mxCell id="28" value="&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;HTTP response header data&lt;/font&gt;&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" parent="1" vertex="1">
                     <mxGeometry x="-410" y="260" width="360" height="110" as="geometry">
                         <mxRectangle x="-200" y="240" width="100" height="30" as="alternateBounds"/>
                     </mxGeometry>
@@ -105,28 +105,28 @@
                     <mxGeometry y="180" width="380" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="21" value="status code" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
-                    <mxGeometry x="120" y="40" width="312.25" height="130" as="geometry">
+                    <mxGeometry x="130" y="30" width="312.25" height="150" as="geometry">
                         <mxRectangle x="265" y="150" width="100" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="22" value="1. We have different ranges of status, and each range have different meaning and if used for different purpose too" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="21" vertex="1">
-                    <mxGeometry y="30" width="312.25" height="50" as="geometry"/>
+                <mxCell id="22" value="1. We have different ranges of status code number, and these ranges specify the status of request sent by the client like request successfull, failed, moved, invalid, unauthoried" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="21" vertex="1">
+                    <mxGeometry y="30" width="312.25" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="35" value="2. Eg: -" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="21" vertex="1">
-                    <mxGeometry y="80" width="312.25" height="50" as="geometry"/>
+                    <mxGeometry y="100" width="312.25" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="43" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;HTTP response&lt;/b&gt;&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
                     <mxGeometry x="100" y="-310" width="350" height="200" as="geometry">
                         <mxRectangle x="265" y="150" width="100" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="59" value="The response object in the server is the readable stream part of the Socket" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="43">
+                <mxCell id="59" value="The response object in the server is the readable stream part of the Socket" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="43" vertex="1">
                     <mxGeometry y="30" width="350" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="44" value="1. In HTTP response the header comes first and then the actual data body thatswhy we use await twice: - one for http res header and another one for res body" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="43" vertex="1">
                     <mxGeometry y="80" width="350" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="58" value="2.&amp;nbsp;&lt;strong data-end=&quot;98&quot; data-start=&quot;56&quot;&gt;HTTP body responses are streamed by default&lt;/strong&gt; because the data &lt;em data-end=&quot;121&quot; data-start=&quot;116&quot;&gt;can&lt;/em&gt; be large" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="43" vertex="1">
+                <mxCell id="58" value="2.&amp;nbsp;&lt;strong data-end=&quot;98&quot; data-start=&quot;56&quot;&gt;&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 0, 204));&quot;&gt;HTTP body responses are always streamed&lt;/span&gt; by default&lt;/strong&gt; because the data &lt;em data-end=&quot;121&quot; data-start=&quot;116&quot;&gt;can&lt;/em&gt; be large" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="43" vertex="1">
                     <mxGeometry y="140" width="350" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="24" value="status text" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" parent="1" vertex="1">
@@ -181,18 +181,6 @@
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="680" y="350" as="targetPoint"/>
                     </mxGeometry>
-                </mxCell>
-                <mxCell id="46" value="Application Layer:  HTTP, FTP, SMTP, etc.&lt;br/&gt;Transport Layer:    TCP, UDP&lt;br/&gt;Internet Layer:     IP&lt;br/&gt;Network Layer:      Ethernet, WiFi, etc." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="910" y="-302" width="240" height="70" as="geometry"/>
-                </mxCell>
-                <mxCell id="47" value="&lt;strong&gt;TCP Connection Established&lt;/strong&gt;: Before any HTTP data is sent, a TCP connection is established between client and server using a &quot;three-way handshake&quot;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="830" y="-200" width="840" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="48" value="TCP guarantees that data arrives in order and without errors. If packets are lost, TCP automatically retransmits them. This is crucial for HTTP because you want complete, correct webpages." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="840" y="-162" width="1030" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="49" value="Interestingly, the latest version of HTTP (HTTP/3) actually uses &lt;strong&gt;QUIC&lt;/strong&gt; instead of TCP. QUIC is built on UDP and incorporates TCP-like reliability features while being faster. But HTTP/1.1 and HTTP/2 definitely use TCP." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="850" y="-360" width="1180" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="50" value="at end can be \n or \r\n" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="320" y="640" width="140" height="30" as="geometry"/>
