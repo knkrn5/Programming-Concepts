@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="BNff_243PakBDc5S3eg4" name="Page-1">
-        <mxGraphModel dx="2520" dy="2038" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+        <mxGraphModel dx="2186" dy="1851" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -25,7 +25,7 @@
                 <mxCell id="30" value="1.&amp;nbsp;The web was originally designed specifically for sharing interconnected text documents with hyperlinks. That&#39;s why it&#39;s called &quot;HyperText&quot; Transfer Protocol and&amp;nbsp;started with HTML pages.&amp;nbsp;Although HTTP now transfers much more than just hypertext" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="29" vertex="1">
                     <mxGeometry y="30" width="460" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="68" value="2. HTTP uses TCP for connection estabilishment for reliable data transfer" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="29" vertex="1">
+                <mxCell id="68" value="2. HTTP uses &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(255, 0, 255));&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;TCP&lt;/font&gt;&lt;/span&gt; for connection estabilishment for reliable data transfer" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="29" vertex="1">
                     <mxGeometry y="100" width="460" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="43" value="Application Layer:  HTTP, FTP, SMTP, etc.&lt;br/&gt;Transport Layer:    TCP, UDP&lt;br/&gt;Internet Layer:     IP&lt;br/&gt;Network Layer:      Ethernet, WiFi, etc." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;" parent="1" vertex="1">
@@ -49,7 +49,7 @@
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="55" value="cleint can send data in" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-                    <mxGeometry x="-80" y="500" width="170" height="120" as="geometry"/>
+                    <mxGeometry x="-80" y="515" width="170" height="120" as="geometry"/>
                 </mxCell>
                 <mxCell id="56" value="params" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="55" vertex="1">
                     <mxGeometry y="30" width="170" height="30" as="geometry"/>
@@ -70,21 +70,24 @@
                     <mxGeometry y="60" width="170" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="69" value="Practicals to do in HTTP" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=light-dark(#FFFFFF,#CC0000);" vertex="1" parent="1">
-                    <mxGeometry x="1070" y="670" width="280" height="70" as="geometry"/>
+                    <mxGeometry x="1090" y="670" width="330" height="110" as="geometry"/>
                 </mxCell>
-                <mxCell id="70" value="1. Send data to chromium browser Usinig TCP server" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="69">
-                    <mxGeometry y="30" width="280" height="40" as="geometry"/>
+                <mxCell id="70" value="1. Send different type of data(like text, video and image) to chromium browser Usinig TCP server" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="69">
+                    <mxGeometry y="30" width="330" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="84" value="2. Inpects the Request header in TCP server" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="69">
+                    <mxGeometry y="70" width="330" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="74" value="HTTP request" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
-                    <mxGeometry x="-140" y="270" width="290" height="110" as="geometry">
+                    <mxGeometry x="-150" y="300" width="310" height="110" as="geometry">
                         <mxRectangle x="-140" y="270" width="110" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="75" value="1. HTTP request are send by the client" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="74">
-                    <mxGeometry y="30" width="290" height="30" as="geometry"/>
+                    <mxGeometry y="30" width="310" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="80" value="2. HTTP request header just simple plain text that it needed to be sent in fixed format structure. Refer &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(255, 0, 255));&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;httpreq.svg&lt;/font&gt;&lt;/span&gt; for more" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="74">
-                    <mxGeometry y="60" width="290" height="50" as="geometry"/>
+                <mxCell id="80" value="2. HTTP request just simple plain text that it needed to be sent in fixed format structure. Refer &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(255, 0, 255));&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;httpreq.svg&lt;/font&gt;&lt;/span&gt; for more" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="74">
+                    <mxGeometry y="60" width="310" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="78" value="HTTP response" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
                     <mxGeometry x="670" y="290" width="290" height="120" as="geometry">
@@ -94,8 +97,11 @@
                 <mxCell id="81" value="1. HTTP reponse is send by the server" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="78">
                     <mxGeometry y="30" width="290" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="82" value="2. HTTP response header just simple plain text that the browser expects in some fixed format structure. Refer &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(255, 0, 255));&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;httpres.svg&lt;/font&gt;&lt;/span&gt; for more" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="78">
+                <mxCell id="82" value="2. HTTP response just simple plain text that the browser expects in some fixed format structure. Refer &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(255, 0, 255));&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;httpres.svg&lt;/font&gt;&lt;/span&gt; for more" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="78">
                     <mxGeometry y="60" width="290" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="83" value="pipeline: - good with builtin error handling" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1250" y="180" width="240" height="30" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>

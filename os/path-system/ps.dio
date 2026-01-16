@@ -1,26 +1,26 @@
 <mxfile host="65bd71144e">
     <diagram id="IjiPZ2pHiN9I25YzHArY" name="Page-1">
-        <mxGraphModel dx="2081" dy="1966" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1917" dy="1851" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="4" style="edgeStyle=none;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="3" target="6" edge="1">
+                <mxCell id="4" style="edgeStyle=none;html=1;exitX=0.31;exitY=0.8;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" parent="1" source="38" target="6" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="190" y="270" as="targetPoint"/>
+                        <mxPoint x="356.71572875254833" y="168.28427124745167" as="sourcePoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="5" style="edgeStyle=none;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="3" target="10" edge="1">
+                <mxCell id="5" style="edgeStyle=none;html=1;exitX=0.8;exitY=0.8;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" parent="1" source="38" target="10" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="530" y="240" as="targetPoint"/>
+                        <mxPoint x="413.2842712474521" y="168.28427124745212" as="sourcePoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="29" style="edgeStyle=none;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="3" target="30" edge="1">
+                <mxCell id="29" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" parent="1" source="12" target="30" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="610" y="-60" as="targetPoint"/>
+                        <mxPoint x="413.2842712474521" y="111.71572875254765" as="sourcePoint"/>
                     </mxGeometry>
-                </mxCell>
-                <mxCell id="3" value="Path system" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="345" y="100" width="80" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="6" value="Absolute Path" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
                     <mxGeometry x="80" y="300" width="210" height="60" as="geometry">
@@ -42,13 +42,18 @@
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="12" value="Path system" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-                    <mxGeometry x="510" y="70" width="230" height="70" as="geometry"/>
+                    <mxGeometry x="210" y="-160" width="350" height="110" as="geometry">
+                        <mxRectangle x="260" y="-180" width="110" height="30" as="alternateBounds"/>
+                    </mxGeometry>
                 </mxCell>
-                <mxCell id="13" value="1. Diifferent os have different file path systems" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="12" vertex="1">
-                    <mxGeometry y="30" width="230" height="40" as="geometry"/>
+                <mxCell id="13" value="1. Diifferent os have different file path systems and path format" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="12" vertex="1">
+                    <mxGeometry y="30" width="350" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="1. Diifferent os have different file path systems" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="12">
+                    <mxGeometry y="70" width="350" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="23" value="Environment Path" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-                    <mxGeometry x="-50" y="-150" width="360" height="100" as="geometry">
+                    <mxGeometry x="-110" y="-350" width="360" height="100" as="geometry">
                         <mxRectangle x="70" y="-100" width="110" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
@@ -56,7 +61,7 @@
                     <mxGeometry y="30" width="360" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="30" value="Symlink" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-                    <mxGeometry x="520" y="-150" width="360" height="80" as="geometry">
+                    <mxGeometry x="490" y="-380" width="360" height="80" as="geometry">
                         <mxRectangle x="530" y="-190" width="110" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
@@ -85,7 +90,7 @@
                 <mxCell id="28" value="2. create a folder with name c: in window, and add some files in this folder and then try to access this in this c: folder in your code, run the code and inspect the output" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="26" vertex="1">
                     <mxGeometry y="90" width="430" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="17" style="edgeStyle=none;html=1;exitX=0.808;exitY=1.019;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" parent="1" source="13" target="18" edge="1">
+                <mxCell id="17" style="edgeStyle=none;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="12" target="18" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="1080.0000000000002" y="210" as="targetPoint"/>
                     </mxGeometry>
@@ -95,7 +100,7 @@
                         <mxPoint x="1340" y="80" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="34" style="edgeStyle=none;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="16" target="35">
+                <mxCell id="34" style="edgeStyle=none;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" parent="1" source="16" target="35" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="1210" y="-70" as="targetPoint"/>
                     </mxGeometry>
@@ -104,25 +109,38 @@
                     <mxGeometry x="960" y="40" width="270" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="18" value="so in window these often confilts as window use \ for path, but no conflict in linux as linux us / frontslash for path" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="770" y="190" width="200" height="80" as="geometry"/>
+                    <mxGeometry x="700" y="-200" width="200" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="22" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" source="6" target="19" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="25" style="edgeStyle=none;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.43;entryY=1.058;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="3" target="23" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
+                <mxCell id="25" style="edgeStyle=none;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.43;entryY=1.058;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="12" target="23" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="356.71572875254833" y="111.7157287525481" as="sourcePoint"/>
+                    </mxGeometry>
                 </mxCell>
                 <mxCell id="33" value="eg: -CRLF(carrage retrun and line fed) and&amp;nbsp; &quot;\\&quot; for&amp;nbsp;&lt;div&gt;literal backslash and \t for tab&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;rounded=1;" parent="1" vertex="1">
                     <mxGeometry x="1280" y="45" width="290" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="37" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="35" target="36">
+                <mxCell id="37" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="35" target="36" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="35" value="&lt;li&gt;&lt;p data-path-to-node=&quot;5,0,0&quot;&gt;&lt;b data-index-in-node=&quot;0&quot; data-path-to-node=&quot;5,0,0&quot;&gt;In your editor:&lt;/b&gt; You see two characters: &lt;code data-index-in-node=&quot;40&quot; data-path-to-node=&quot;5,0,0&quot;&gt;\&lt;/code&gt; (the backslash) and &lt;code data-index-in-node=&quot;62&quot; data-path-to-node=&quot;5,0,0&quot;&gt;n&lt;/code&gt; (the letter).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p data-path-to-node=&quot;5,1,0&quot;&gt;&lt;b data-index-in-node=&quot;0&quot; data-path-to-node=&quot;5,1,0&quot;&gt;In the computer&#39;s memory:&lt;/b&gt; It is stored as a single numeric value (ASCII or Unicode). For example, &lt;code data-index-in-node=&quot;98&quot; data-path-to-node=&quot;5,1,0&quot;&gt;\n&lt;/code&gt; is stored as the number &lt;b data-index-in-node=&quot;125&quot; data-path-to-node=&quot;5,1,0&quot;&gt;10&lt;/b&gt;.&lt;/p&gt;&lt;/li&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="35" value="&lt;li&gt;&lt;p data-path-to-node=&quot;5,0,0&quot;&gt;&lt;b data-index-in-node=&quot;0&quot; data-path-to-node=&quot;5,0,0&quot;&gt;In your editor:&lt;/b&gt; You see two characters: &lt;code data-index-in-node=&quot;40&quot; data-path-to-node=&quot;5,0,0&quot;&gt;\&lt;/code&gt; (the backslash) and &lt;code data-index-in-node=&quot;62&quot; data-path-to-node=&quot;5,0,0&quot;&gt;n&lt;/code&gt; (the letter).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p data-path-to-node=&quot;5,1,0&quot;&gt;&lt;b data-index-in-node=&quot;0&quot; data-path-to-node=&quot;5,1,0&quot;&gt;In the computer&#39;s memory:&lt;/b&gt; It is stored as a single numeric value (ASCII or Unicode). For example, &lt;code data-index-in-node=&quot;98&quot; data-path-to-node=&quot;5,1,0&quot;&gt;\n&lt;/code&gt; is stored as the number &lt;b data-index-in-node=&quot;125&quot; data-path-to-node=&quot;5,1,0&quot;&gt;10&lt;/b&gt;.&lt;/p&gt;&lt;/li&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="1295" y="-160" width="260" height="120" as="geometry"/>
                 </mxCell>
-                <mxCell id="36" value="&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;The compiler/interpreter sees the \ (called the escape character) and treats the next character(s) as a special instruction — not as literal text.&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="36" value="&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;The compiler/interpreter sees the \ (called the escape character) and treats the next character(s) as a special instruction — not as literal text.&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="1670" y="-220" width="180" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" style="edgeStyle=none;html=1;exitX=0.4;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="38" target="12">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="388.3333333333335" y="-50" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="38" value="Path System" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;" parent="1" vertex="1">
+                    <mxGeometry x="340" y="70" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;1.&amp;nbsp;how does hte programing languages know whether we have given absolute path or relative path ?&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(24, 24, 24); color: rgb(204, 204, 204); font-family: &amp;quot;Segoe WPC&amp;quot;, &amp;quot;Segoe UI&amp;quot;, sans-serif; font-size: 13px;&quot;&gt;Programming languages determine if a path is&amp;nbsp;&lt;/span&gt;&lt;strong style=&quot;background-color: rgb(24, 24, 24); color: rgb(204, 204, 204); font-family: &amp;quot;Segoe WPC&amp;quot;, &amp;quot;Segoe UI&amp;quot;, sans-serif; font-size: 13px;&quot;&gt;absolute&lt;/strong&gt;&lt;span style=&quot;background-color: rgb(24, 24, 24); color: rgb(204, 204, 204); font-family: &amp;quot;Segoe WPC&amp;quot;, &amp;quot;Segoe UI&amp;quot;, sans-serif; font-size: 13px;&quot;&gt;&amp;nbsp;or&amp;nbsp;&lt;/span&gt;&lt;strong style=&quot;background-color: rgb(24, 24, 24); color: rgb(204, 204, 204); font-family: &amp;quot;Segoe WPC&amp;quot;, &amp;quot;Segoe UI&amp;quot;, sans-serif; font-size: 13px;&quot;&gt;relative&lt;/strong&gt;&lt;span style=&quot;background-color: rgb(24, 24, 24); color: rgb(204, 204, 204); font-family: &amp;quot;Segoe WPC&amp;quot;, &amp;quot;Segoe UI&amp;quot;, sans-serif; font-size: 13px;&quot;&gt;&amp;nbsp;by checking the&amp;nbsp;&lt;/span&gt;&lt;strong style=&quot;background-color: rgb(24, 24, 24); color: rgb(204, 204, 204); font-family: &amp;quot;Segoe WPC&amp;quot;, &amp;quot;Segoe UI&amp;quot;, sans-serif; font-size: 13px;&quot;&gt;first character(s)&lt;/strong&gt;&lt;span style=&quot;background-color: rgb(24, 24, 24); color: rgb(204, 204, 204); font-family: &amp;quot;Segoe WPC&amp;quot;, &amp;quot;Segoe UI&amp;quot;, sans-serif; font-size: 13px;&quot;&gt;&amp;nbsp;of the path string:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(24, 24, 24); font-size: 16px; color: rgb(204, 204, 204);&quot;&gt;&lt;font face=&quot;fkGroteskNeue, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji, Hiragino Sans, PingFang SC, Apple SD Gothic Neo, Yu Gothic, Microsoft YaHei, Microsoft JhengHei, Meiryo&quot; color=&quot;#000000&quot;&gt;&amp;nbsp;On linux&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot; class=&quot;citation-12&quot;&gt;Starts with &lt;/span&gt;&lt;code data-index-in-node=&quot;22&quot; data-path-to-node=&quot;7,0,0&quot;&gt;&lt;span class=&quot;citation-12&quot;&gt;/&lt;/span&gt;&lt;/code&gt;&lt;span style=&quot;background-color: transparent;&quot; class=&quot;citation-12 citation-end-12&quot;&gt;. &lt;sup data-turn-source-index=&quot;2&quot; class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;This tells the system to go to the very top of the hierarchy (the Root, apsolute path). On window: -A&lt;/span&gt;&lt;b style=&quot;background-color: transparent;&quot; data-index-in-node=&quot;0&quot; data-path-to-node=&quot;10,0,0&quot;&gt;bsolute:&lt;/b&gt;&lt;span style=&quot;background-color: transparent;&quot; class=&quot;citation-10&quot;&gt; Starts with a &lt;/span&gt;&lt;b style=&quot;background-color: transparent;&quot; data-index-in-node=&quot;24&quot; data-path-to-node=&quot;10,0,0&quot;&gt;Drive Letter&lt;/b&gt;&lt;span style=&quot;background-color: transparent;&quot; class=&quot;citation-10&quot;&gt; followed by a colon and slash (e.g., &lt;/span&gt;&lt;code data-index-in-node=&quot;74&quot; data-path-to-node=&quot;10,0,0&quot;&gt;&lt;span class=&quot;citation-10&quot;&gt;C:\&lt;/span&gt;&lt;/code&gt;&lt;span style=&quot;background-color: transparent;&quot; class=&quot;citation-10&quot;&gt;) or a &lt;/span&gt;&lt;b style=&quot;background-color: transparent;&quot; data-index-in-node=&quot;84&quot; data-path-to-node=&quot;10,0,0&quot;&gt;Network Share&lt;/b&gt;&lt;span style=&quot;background-color: transparent;&quot; class=&quot;citation-10&quot;&gt; (e.g., &lt;/span&gt;&lt;code data-index-in-node=&quot;105&quot; data-path-to-node=&quot;10,0,0&quot;&gt;&lt;span class=&quot;citation-10&quot;&gt;\\Server\&lt;/span&gt;&lt;/code&gt;&lt;span style=&quot;background-color: transparent;&quot; class=&quot;citation-10 citation-end-10&quot;&gt;).&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot; class=&quot;citation-10 citation-end-10&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot; class=&quot;citation-10 citation-end-10&quot;&gt;&lt;b data-index-in-node=&quot;0&quot; data-path-to-node=&quot;7,1,0&quot;&gt;Relative on linux&lt;/b&gt;&amp;nbsp;Starts with anything else (letters, &lt;code data-index-in-node=&quot;46&quot; data-path-to-node=&quot;7,1,0&quot;&gt;.&lt;/code&gt;, or &lt;code data-index-in-node=&quot;52&quot; data-path-to-node=&quot;7,1,0&quot;&gt;..&lt;/code&gt;). &lt;span class=&quot;citation-11 citation-end-11&quot;&gt;This tells the system to start looking from the folder where the program is currently running and on window starts with the folder name or ./ or ../ also&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="1">
+                    <mxGeometry x="-210" y="570" width="380" height="210" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>

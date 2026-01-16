@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="AXdNGfNMth2FeQyW1qBN" name="Page-1">
-        <mxGraphModel dx="3704" dy="2226" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+        <mxGraphModel dx="3370" dy="2038" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -105,7 +105,7 @@
                     <mxGeometry y="180" width="380" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="21" value="status code" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
-                    <mxGeometry x="130" y="30" width="312.25" height="150" as="geometry">
+                    <mxGeometry x="137.75" y="20" width="312.25" height="150" as="geometry">
                         <mxRectangle x="265" y="150" width="100" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
