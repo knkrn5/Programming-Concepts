@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="AXdNGfNMth2FeQyW1qBN" name="Page-1">
-        <mxGraphModel dx="3370" dy="2038" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+        <mxGraphModel dx="2346" dy="1463" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -116,7 +116,7 @@
                     <mxGeometry y="100" width="312.25" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="43" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;HTTP response&lt;/b&gt;&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
-                    <mxGeometry x="100" y="-310" width="350" height="200" as="geometry">
+                    <mxGeometry x="100" y="-310" width="350" height="140" as="geometry">
                         <mxRectangle x="265" y="150" width="100" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
@@ -125,9 +125,6 @@
                 </mxCell>
                 <mxCell id="44" value="1. In HTTP response the header comes first and then the actual data body thatswhy we use await twice: - one for http res header and another one for res body" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="43" vertex="1">
                     <mxGeometry y="80" width="350" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="58" value="2.&amp;nbsp;&lt;strong data-end=&quot;98&quot; data-start=&quot;56&quot;&gt;&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 0, 204));&quot;&gt;HTTP body responses are always streamed&lt;/span&gt; by default&lt;/strong&gt; because the data &lt;em data-end=&quot;121&quot; data-start=&quot;116&quot;&gt;can&lt;/em&gt; be large" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="43" vertex="1">
-                    <mxGeometry y="140" width="350" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="24" value="status text" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" parent="1" vertex="1">
                     <mxGeometry x="560" y="40" width="310" height="110" as="geometry">
@@ -147,6 +144,17 @@
                 </mxCell>
                 <mxCell id="31" value="1. Some browsers excepts HTTP header to be ending with double new line, else it won&#39;t be ab;e to parse the data" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="30" vertex="1">
                     <mxGeometry y="30" width="270" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" value="\n\n" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" vertex="1" parent="1">
+                    <mxGeometry x="151.75" y="640" width="395.5" height="120" as="geometry">
+                        <mxRectangle x="720" y="280" width="100" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="58" value="1.&amp;nbsp;&lt;strong data-end=&quot;98&quot; data-start=&quot;56&quot;&gt;&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 0, 204));&quot;&gt;HTTP body responses are always streamed&lt;/span&gt; by&lt;/strong&gt;&amp;nbsp;because the data &lt;em data-end=&quot;121&quot; data-start=&quot;116&quot;&gt;can&lt;/em&gt; be large" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="63" vertex="1">
+                    <mxGeometry y="30" width="395.5" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" value="2. So we can handle/read this body data either in streaming way or after buffering all the data and then parse it. This body data can only be read once" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="63">
+                    <mxGeometry y="70" width="395.5" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="56" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Practicals to do in HTTP Response&lt;/font&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=light-dark(#76608A,#CC0000);fontColor=#ffffff;strokeColor=#432D57;" parent="1" vertex="1">
                     <mxGeometry x="1340" y="550" width="370" height="80" as="geometry">
@@ -183,7 +191,10 @@
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="50" value="at end can be \n or \r\n" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="320" y="640" width="140" height="30" as="geometry"/>
+                    <mxGeometry x="-90" y="530" width="140" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" style="edgeStyle=none;html=1;exitX=0.493;exitY=1.032;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;flowAnimation=1;" edge="1" parent="1" source="61" target="63">
+                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>

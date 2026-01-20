@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="MZ9l8s6Q1rZ2FEVgTpc6" name="Page-1">
-        <mxGraphModel dx="716" dy="1502" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="941" dy="1762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -193,6 +193,14 @@
                 </mxCell>
                 <mxCell id="90" value="Security options,&amp;nbsp;Record route,&amp;nbsp;Timestamp" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="83" vertex="1">
                     <mxGeometry y="70" width="270" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="111" value="Practicals to do for IPv4" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=light-dark(#FAD9D5,#E51400);strokeColor=#ae4132;" vertex="1" parent="1">
+                    <mxGeometry x="1310" y="800" width="410" height="70" as="geometry">
+                        <mxRectangle x="1160" y="30" width="80" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="112" value="Find practicals in &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(76, 0, 153));&quot;&gt;ipv4.svg&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="111">
+                    <mxGeometry y="30" width="410" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="68" value="Time To Live" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" parent="1" vertex="1">
                     <mxGeometry x="245" y="120" width="265" height="120" as="geometry">

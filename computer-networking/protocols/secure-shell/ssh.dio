@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="TH60-l7gWez-SKzbwlCd" name="Page-1">
-        <mxGraphModel dx="2672" dy="2124" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+        <mxGraphModel dx="2305" dy="2124" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -133,7 +133,7 @@
                     <mxGeometry y="240" width="375" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="244" value="&lt;b&gt;Generate SSH keys&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
-                    <mxGeometry x="290" y="970" width="310" height="410" as="geometry">
+                    <mxGeometry x="275.62" y="970" width="310" height="410" as="geometry">
                         <mxRectangle x="390" y="680" width="90" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
@@ -282,7 +282,7 @@
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="292" value="SSH key format" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" parent="1" vertex="1">
-                    <mxGeometry x="288.76" y="650" width="311.24" height="210" as="geometry">
+                    <mxGeometry x="274.38" y="650" width="311.24" height="210" as="geometry">
                         <mxRectangle x="295" y="700" width="100" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
