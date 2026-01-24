@@ -1,0 +1,278 @@
+<mxfile host="65bd71144e">
+    <diagram id="PB_Av7lL4KWtdOZgtZJD" name="Page-1">
+        <mxGraphModel dx="2001" dy="1966" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="3" style="edgeStyle=none;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="2" target="11" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="250" y="270" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="4" style="edgeStyle=none;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="2" target="14" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="630" y="290" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="76" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="2" target="72" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="NPM" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="400" y="80" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" style="edgeStyle=none;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="7" target="51" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="190" y="780" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="49" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="7" target="52" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="460" y="820" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="50" style="edgeStyle=none;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="7" target="53" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="670" y="780" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="7" value="Package.json" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="317.5" y="520" width="265" height="120" as="geometry">
+                        <mxRectangle x="317.5" y="520" width="110" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="8" value="1." style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="7" vertex="1">
+                    <mxGeometry y="30" width="265" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="1." style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="7" vertex="1">
+                    <mxGeometry y="60" width="265" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="1." style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="7" vertex="1">
+                    <mxGeometry y="90" width="265" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="1" source="14" target="7" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="530" y="460" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="33" style="edgeStyle=none;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="14" target="27" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="npx" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="530" y="300" width="265" height="60" as="geometry">
+                        <mxRectangle x="510" y="300" width="60" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="15" value="1. npx only works on executable files" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="14" vertex="1">
+                    <mxGeometry y="30" width="265" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" source="11" target="7" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="390" y="480" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="11" value="npm" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="110" y="285" width="265" height="90" as="geometry">
+                        <mxRectangle x="110" y="310" width="60" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="12" value="1.&amp;nbsp;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="11" vertex="1">
+                    <mxGeometry y="30" width="265" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="68" value="2. can pass arguments even with npm run cmd" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="11" vertex="1">
+                    <mxGeometry y="60" width="265" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="72" value="npm" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="307.5" y="-110" width="265" height="70" as="geometry">
+                        <mxRectangle x="300" y="-100" width="60" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="73" value="1. When code is written in ts then in this case, add the build folder in the npm package.json" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="72" vertex="1">
+                    <mxGeometry y="30" width="265" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="21" target="23" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="950" y="620" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="24" value="if package&lt;div&gt;name matches&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="22" vertex="1" connectable="0">
+                    <mxGeometry x="-0.0005" y="1" relative="1" as="geometry">
+                        <mxPoint y="-1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="21" value="Name in package.json" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="880" y="580" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="23" target="26" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="950" y="760" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="23" value="Then in package.json will look the file name given in bin property and execute it&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="800" y="780" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" source="26" target="36" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1050" y="1060" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="37" value="if package name&amp;nbsp;&lt;div&gt;is not same as&lt;/div&gt;&lt;div&gt;cmd&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="34" vertex="1" connectable="0">
+                    <mxGeometry x="-0.098" y="1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="26" value="if not found bin property, or property in bin object then it will give error" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="795" y="940" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" style="edgeStyle=none;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="27" target="32" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1190" y="750" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="31" value="if bin is&lt;div&gt;a object&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="30" vertex="1" connectable="0">
+                    <mxGeometry x="-0.108" y="1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="27" value="bin&lt;div&gt;property&lt;/div&gt;&lt;div&gt;in&lt;/div&gt;&lt;div&gt;package&lt;/div&gt;&lt;div&gt;json&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1010" y="400" width="100" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" style="edgeStyle=none;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="27" target="21" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="if bin is&lt;div&gt;not a object&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="28" vertex="1" connectable="0">
+                    <mxGeometry x="-0.0865" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="35" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="1" source="32" target="36" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1130" y="1030" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="38" value="if property name&lt;div&gt;does exist in&lt;/div&gt;&lt;div&gt;bin object&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="35" vertex="1" connectable="0">
+                    <mxGeometry x="0.0121" y="-1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="32" value="&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;then will look for the extact proerty name same as package name in this bin object. if exist it will execute it&lt;/font&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1160" y="780" width="170" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="36" target="41" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1120" y="1290" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="40" value="if this also&lt;div&gt;does not exits&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="39" vertex="1" connectable="0">
+                    <mxGeometry x="0.0633" y="2" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="36" value="then it look for a file name same as cmd name in node_modules/.bin folder in the currect dir" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1030" y="1100" width="180" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="41" target="43" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1120" y="1480" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="44" value="if here also it&lt;div&gt;does not exists&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="42" vertex="1" connectable="0">
+                    <mxGeometry x="-0.0533" y="3" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="41" value="Then it will look in the global node_module path and execute it" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1050" y="1320" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="43" target="45" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="if here also does&lt;div&gt;not exists&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="46" vertex="1" connectable="0">
+                    <mxGeometry x="0.152" y="5" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="43" value="then it will look in the npx cache folder and execute it&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1040" y="1500" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="then it install the pacakge in npx cache and execute" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1040" y="1670" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="cjs" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="130" y="790" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="es6 module (mjs)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="380" y="810" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="53" target="55" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="640" y="950" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="53" value="CLI" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="590" y="810" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="For all the properties mentioned in the bin object npm automatically create CLI file for them for all OSes" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="582.5" y="960" width="180" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="&lt;span style=&quot;color: rgb(66, 66, 66); font-family: Poppins, &amp;quot;Noto Color Emoji&amp;quot;, sans-serif; font-size: 14px; text-align: start; white-space: pre-wrap; background-color: rgb(255, 255, 255);&quot;&gt;in npm we need need shell for two diffrent things 1. shell npm uses to run scripts written in package.json: -&amp;gt; npm config get shell &amp;lt;- which be seen by this cmd and second one is 2.  shell used to run npm scripts those are inside the node_modules/.bin folder -&amp;gt; npm config get script-shell &amp;lt;- which can be seen by this cmd&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="1960" width="1510" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="12" target="59" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint y="410.0000000000001" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="60" value="npm run&lt;div&gt;cmd&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="57" vertex="1" connectable="0">
+                    <mxGeometry x="-0.1264" y="2" relative="1" as="geometry">
+                        <mxPoint x="-21" y="10" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="61" style="edgeStyle=none;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="59" target="63" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-260" y="700" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="64" value="if exits in&lt;div&gt;script object&amp;nbsp;&lt;/div&gt;&lt;div&gt;property&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="61" vertex="1" connectable="0">
+                    <mxGeometry x="0.0144" y="-2" relative="1" as="geometry">
+                        <mxPoint y="1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="65" style="edgeStyle=none;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="59" target="66" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-130" y="700" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="67" value="if does&lt;div&gt;not exists&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="65" vertex="1" connectable="0">
+                    <mxGeometry x="-0.0557" y="1" relative="1" as="geometry">
+                        <mxPoint y="1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="59" value="scripts property&lt;div&gt;in package&lt;/div&gt;&lt;div&gt;json&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="-200" y="440" width="80" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="69" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="63" target="70" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-420" y="880" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="71" value="if not found&lt;div&gt;in node_modules/.bin&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="69" vertex="1" connectable="0">
+                    <mxGeometry x="-0.1963" y="-4" relative="1" as="geometry">
+                        <mxPoint y="6" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="63" value="will look into node_modules/.bin&lt;div&gt;folder in current dir&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="-470" y="710" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" value="error" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="-190" y="720" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" value="not found in bash error" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="-545" y="930" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="77" value="npm pack --dry-run" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="18" width="120" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

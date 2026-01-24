@@ -4,19 +4,6 @@
 Technically, we can perform any action with any HTTP method, but each method has a specific purpose in REST design — for semantic clarity, consistency, and often security
 ```
 
-## **http CLients Used In Different Programming Languages⬇️**
-
-### 🔍 Implementations of HTTP clients/servers differ per language.
-| **Language** | **HTTP Client/Server**             | **Language Used** |
-| ------------ | ---------------------------------- | ----------------- |
-| Python       | `http.client`, `httpx`, `aiohttp`  | Python, C         |
-| JavaScript   | `axios`, `fetch`, `http` (Node.js) | JavaScript        |
-| Go           | `net/http`                         | Go                |
-| Java         | `HttpClient`, `Apache HttpClient`  | Java              |
-| Rust         | `reqwest`, `hyper`                 | Rust              |
-| C/C++        | `libcurl`, `cpp-httplib`           | C / C++           |
-
-
 ### REST is a design philosophy, not a technical requirement. We follow it because it makes APIs: -
 
 1. Predictable for developers

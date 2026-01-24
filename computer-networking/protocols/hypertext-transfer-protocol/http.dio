@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="BNff_243PakBDc5S3eg4" name="Page-1">
-        <mxGraphModel dx="1761" dy="1612" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+        <mxGraphModel dx="2672" dy="2124" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -48,7 +48,7 @@
                 <mxCell id="67" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="78" target="63" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="93" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="55" target="85">
+                <mxCell id="93" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="55" target="85" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="55" value="cleint can send data in" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
@@ -65,28 +65,28 @@
                 <mxCell id="62" value="body" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="55" vertex="1">
                     <mxGeometry y="90" width="170" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="85" value="How client can handle data in response" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+                <mxCell id="85" value="How client can handle data in response" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
                     <mxGeometry x="-150" y="720" width="310" height="90" as="geometry"/>
                 </mxCell>
-                <mxCell id="86" value="Header" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="85">
+                <mxCell id="86" value="Header" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="85" vertex="1">
                     <mxGeometry y="30" width="310" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="88" value="body" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="85">
+                <mxCell id="88" value="body" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="85" vertex="1">
                     <mxGeometry y="60" width="310" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="89" value="How server can handle data in request" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+                <mxCell id="89" value="How server can handle data in request" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
                     <mxGeometry x="660" y="740" width="310" height="120" as="geometry"/>
                 </mxCell>
-                <mxCell id="90" value="params" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="89">
+                <mxCell id="90" value="params" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="89" vertex="1">
                     <mxGeometry y="30" width="310" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="91" value="header" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="89">
+                <mxCell id="91" value="header" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="89" vertex="1">
                     <mxGeometry y="60" width="310" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="92" value="body" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="89">
+                <mxCell id="92" value="hadle stream data from client using event" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="89" vertex="1">
                     <mxGeometry y="90" width="310" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="94" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="63" target="89">
+                <mxCell id="94" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="63" target="89" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="63" value="server can send data in" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
@@ -108,6 +108,12 @@
                 </mxCell>
                 <mxCell id="84" value="2. Inpects the Request header in TCP server" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="69" vertex="1">
                     <mxGeometry y="70" width="330" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="97" value="Practicals to do in HTTP" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=light-dark(#FFFFFF,#CC0000);" parent="1" vertex="1">
+                    <mxGeometry x="-530" y="590" width="330" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="98" value="1.&amp;nbsp;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="97" vertex="1">
+                    <mxGeometry y="30" width="330" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="74" value="HTTP request" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" parent="1" vertex="1">
                     <mxGeometry x="-150" y="300" width="310" height="110" as="geometry">
@@ -134,11 +140,14 @@
                 <mxCell id="83" value="pipeline: - good with builtin error handling" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="1250" y="180" width="240" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="95" value="Language have buffer limits.&lt;div&gt;Max interger number we can declare in that language.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="95" value="Language have buffer limits.&lt;div&gt;Max interger number we can declare in that language.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="260" y="980" width="260" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="96" value="Bydeuflat server block showing/sending response header property to clients and also server bydefualt does not accepts some content-type from request/client" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="96" value="Bydeuflat browser block showing response header property to clients and also browser bydefualt does not accepts some content-type from server unless server allows it" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="700" y="940" width="260" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="99" value="in http does incase of request also first the headers are sent and then the request data ?xhr.open(&quot;POST&quot;, url); xhr.send(file);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-350" y="920" width="220" height="110" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>

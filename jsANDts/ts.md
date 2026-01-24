@@ -1,5 +1,19 @@
 # **TypesScripts**
 
+> Flowchart: -
+
+1. for ts file execttion
+
+2. for ts files compilation
+   1. tsc (TypeScript Compiler): - everything it will compile will be based on config file
+      1. config file: - this config file is used by both `tsc` and `tserver` cli.
+         1. tsconfig.json
+         2. jsconfig.json
+
+> TypeScript only compiles .ts files — it doesn't copy .html, .js, .css or other static assets
+
+---
+
 ## **Type Declaration is TS**
 
 1. string: - used for string
@@ -34,7 +48,7 @@
 // need to learn about these types of type checking more in detail
 const conn = navigator.connection as NetworkPropTypes;
 
-const battery = await(
+const battery = await (
   navigator.getBattery as () => Promise<BatteryPropTypes>
 )();
 
