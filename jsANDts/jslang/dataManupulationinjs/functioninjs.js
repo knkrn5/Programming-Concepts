@@ -94,3 +94,11 @@ const myFunction = function () {
 async function fetchData() {
     return "karan"; // Implicitly returns a resolved Promise with the value "karan"
 }
+
+
+//🎯 generator functions
+function* generateNumbers() {
+    yield 1;
+    yield 2;
+    yield 3;
+}
