@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="AXdNGfNMth2FeQyW1qBN" name="Page-1">
-        <mxGraphModel dx="2702" dy="1663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+        <mxGraphModel dx="2535" dy="1569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -107,10 +107,10 @@
                 <mxCell id="55" value="3. Content-disposition: - this tells the application to downlaod or render the files/media that server it sending(defualt is inline). also we can set the filename that will be used as filename when downloading" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="52" vertex="1">
                     <mxGeometry y="180" width="380" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="67" value="4. Content-bytes: - this is specially used for efficient video forwardng from client side" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="52">
+                <mxCell id="67" value="4. Content-bytes: - this is specially used for efficient video forwardng from client side" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="52" vertex="1">
                     <mxGeometry y="250" width="380" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="68" value="etc..." style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="52">
+                <mxCell id="68" value="etc..." style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="52" vertex="1">
                     <mxGeometry y="300" width="380" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="21" value="status code" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
@@ -125,15 +125,15 @@
                     <mxGeometry y="100" width="312.25" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="43" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;HTTP response&lt;/b&gt;&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
-                    <mxGeometry x="100" y="-310" width="350" height="140" as="geometry">
+                    <mxGeometry x="100" y="-310" width="350" height="130" as="geometry">
                         <mxRectangle x="265" y="150" width="100" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="59" value="The response object in the server is the readable stream part of the Socket" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="43" vertex="1">
-                    <mxGeometry y="30" width="350" height="50" as="geometry"/>
+                <mxCell id="59" value="HTTP response is readablestream for client and writeablestream for server" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="43" vertex="1">
+                    <mxGeometry y="30" width="350" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="44" value="1. In HTTP response the header comes first and then the actual data body thatswhy we use await twice: - one for http res header and another one for res body" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="43" vertex="1">
-                    <mxGeometry y="80" width="350" height="60" as="geometry"/>
+                    <mxGeometry y="70" width="350" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="24" value="status text" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" parent="1" vertex="1">
                     <mxGeometry x="560" y="40" width="310" height="110" as="geometry">

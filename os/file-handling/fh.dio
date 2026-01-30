@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="gfifuJqy5L-3fgrKUfj-" name="Page-1">
-        <mxGraphModel dx="835" dy="469" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+        <mxGraphModel dx="871" dy="1590" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -28,6 +28,12 @@
                 <mxCell id="25" value="Should about path systems (&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(255, 0, 255));&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;ps.svg&lt;/font&gt;&lt;/span&gt;)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="24" vertex="1">
                     <mxGeometry y="30" width="220" height="30" as="geometry"/>
                 </mxCell>
+                <mxCell id="37" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;File System&lt;/b&gt;&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+                    <mxGeometry x="370" y="-90" width="220" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="1." style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="37">
+                    <mxGeometry y="30" width="220" height="30" as="geometry"/>
+                </mxCell>
                 <mxCell id="19" value="File descripter" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#e6d0de;gradientColor=#d5739d;strokeColor=#996185;" parent="1" vertex="1">
                     <mxGeometry x="520" y="480" width="270" height="160" as="geometry"/>
                 </mxCell>
@@ -42,11 +48,6 @@
                         <mxPoint x="655" y="490" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="30" style="edgeStyle=none;html=1;exitX=0.996;exitY=0.174;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="12" target="31" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="890" y="310" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
                 <mxCell id="12" value="Acton in files" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" parent="1" vertex="1">
                     <mxGeometry x="520" y="240" width="270" height="110" as="geometry">
                         <mxRectangle x="520" y="240" width="110" height="30" as="alternateBounds"/>
@@ -59,18 +60,18 @@
                     <mxGeometry y="70" width="270" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="31" value="&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;Practicals to do&lt;/font&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=light-dark(#E51400,#CC0000);strokeColor=#B20000;fontColor=#ffffff;" parent="1" vertex="1">
-                    <mxGeometry x="920" y="350" width="270" height="150" as="geometry">
+                    <mxGeometry x="900" y="600" width="270" height="180" as="geometry">
                         <mxRectangle x="520" y="240" width="110" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="35" value="1. create, delete/remove, rename, move both file and folder using any programming language" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="31" vertex="1">
                     <mxGeometry y="30" width="270" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="34" value="2. Get the full stats for any path and then Identify whether the given path is file or folder" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="31" vertex="1">
-                    <mxGeometry y="70" width="270" height="50" as="geometry"/>
+                <mxCell id="36" value="2. Open the file, then read and write some content of and on that file using its file descriptor and then close the file using that file descriptor" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="31">
+                    <mxGeometry y="70" width="270" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="33" value="2. Get the extension part of the given Path" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="31" vertex="1">
-                    <mxGeometry y="120" width="270" height="30" as="geometry"/>
+                <mxCell id="34" value="3. Get the full info for any file/folder path and then Identify whether the given path is file or folder" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="31" vertex="1">
+                    <mxGeometry y="130" width="270" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="5" style="edgeStyle=none;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="3" target="6" edge="1">
                     <mxGeometry relative="1" as="geometry">
@@ -83,9 +84,9 @@
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="22" value="every process has&lt;div&gt;input, output and err&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="890" y="570" width="130" height="40" as="geometry"/>
+                    <mxGeometry x="590" y="780" width="130" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="23" style="edgeStyle=none;html=1;entryX=0.025;entryY=0.645;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="21" target="22" edge="1">
+                <mxCell id="23" style="edgeStyle=none;html=1;entryX=0.511;entryY=0.05;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.517;exitY=0.987;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="21" target="22" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="29" style="edgeStyle=none;html=1;exitX=0.08;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.091;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="28" target="12" edge="1">
