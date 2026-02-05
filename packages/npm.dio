@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="PB_Av7lL4KWtdOZgtZJD" name="Page-1">
-        <mxGraphModel dx="2001" dy="1966" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+        <mxGraphModel dx="4205" dy="2508" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -102,15 +102,20 @@
                 <mxCell id="21" value="Name in package.json" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="880" y="580" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="25" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="23" target="26" edge="1">
+                <mxCell id="25" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="23" target="36" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="950" y="760" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="23" value="Then in package.json will look the file name given in bin property and execute it&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="78" value="if not found&lt;div&gt;&amp;nbsp;bin property&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="25">
+                    <mxGeometry x="-0.1837" y="-2" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="23" value="Then in package.json will look the file path given in bin property and execute it&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="800" y="780" width="160" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="34" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" source="26" target="36" edge="1">
+                <mxCell id="34" style="edgeStyle=none;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" source="21" target="36" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="1050" y="1060" as="targetPoint"/>
                     </mxGeometry>
@@ -119,9 +124,6 @@
                     <mxGeometry x="-0.098" y="1" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
-                </mxCell>
-                <mxCell id="26" value="if not found bin property, or property in bin object then it will give error" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="795" y="940" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="30" style="edgeStyle=none;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="27" target="32" edge="1">
                     <mxGeometry relative="1" as="geometry">
@@ -154,7 +156,7 @@
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="32" value="&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;then will look for the extact proerty name same as package name in this bin object. if exist it will execute it&lt;/font&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="32" value="&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;then will look for the extact property name same as package name given in cmd in this bin object. if exist it will execute it&lt;/font&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="1160" y="780" width="170" height="90" as="geometry"/>
                 </mxCell>
                 <mxCell id="39" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="36" target="41" edge="1">
@@ -215,7 +217,7 @@
                     <mxGeometry x="582.5" y="960" width="180" height="100" as="geometry"/>
                 </mxCell>
                 <mxCell id="56" value="&lt;span style=&quot;color: rgb(66, 66, 66); font-family: Poppins, &amp;quot;Noto Color Emoji&amp;quot;, sans-serif; font-size: 14px; text-align: start; white-space: pre-wrap; background-color: rgb(255, 255, 255);&quot;&gt;in npm we need need shell for two diffrent things 1. shell npm uses to run scripts written in package.json: -&amp;gt; npm config get shell &amp;lt;- which be seen by this cmd and second one is 2.  shell used to run npm scripts those are inside the node_modules/.bin folder -&amp;gt; npm config get script-shell &amp;lt;- which can be seen by this cmd&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="50" y="1960" width="1510" height="50" as="geometry"/>
+                    <mxGeometry x="-860" y="1390" width="1510" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="57" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="12" target="59" edge="1">
                     <mxGeometry relative="1" as="geometry">
@@ -269,7 +271,7 @@
                 <mxCell id="70" value="not found in bash error" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="-545" y="930" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="77" value="npm pack --dry-run" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="77" value="npm pack --dry-run" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="50" y="18" width="120" height="30" as="geometry"/>
                 </mxCell>
             </root>
