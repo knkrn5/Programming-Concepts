@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="TH60-l7gWez-SKzbwlCd" name="Page-1">
-        <mxGraphModel dx="2305" dy="2124" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+        <mxGraphModel dx="2236" dy="1727" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -113,24 +113,24 @@
                     <mxGeometry y="110" width="385" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="190" value="&lt;b&gt;SSH files&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#cdeb8b;strokeColor=#36393d;" parent="1" vertex="1">
-                    <mxGeometry x="-200" y="320" width="375" height="320" as="geometry">
+                    <mxGeometry x="-210" y="315" width="375" height="330" as="geometry">
                         <mxRectangle x="-20" y="410" width="90" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="191" value="1.&amp;nbsp; public key and private key files: - These are used for host verification and then ssh connection estabililshment between client and host" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="190" vertex="1">
                     <mxGeometry y="30" width="375" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="194" value="2. Config file: - This is used to add list of all host with all its configurations like username, ip, private key path etc making easier for client to connect to host later" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="190" vertex="1">
-                    <mxGeometry y="80" width="375" height="60" as="geometry"/>
+                <mxCell id="194" value="2. Config file: - This is used to add list of all host with all its configurations like username, ip, private key path etc making easier for client to connect to host later, without needing to enter all detail again and again" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="190" vertex="1">
+                    <mxGeometry y="80" width="375" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="195" value="3. known_host file: - this file let the client remember the host permanently without needing to comfirm the fingerprint of same host everytime" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="190" vertex="1">
-                    <mxGeometry y="140" width="375" height="50" as="geometry"/>
+                    <mxGeometry y="150" width="375" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="261" value="4. authorized_keys file: - this file is used by server to store the public key of client, and then authenticate client without needing to enter passphrase every time" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="190" vertex="1">
-                    <mxGeometry y="190" width="375" height="50" as="geometry"/>
+                    <mxGeometry y="200" width="375" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="314" value="5.&amp;nbsp;sshd_config file: - Controls all server-side SSH setting for Secure-Shell daemon (sshd) like litening port (defualt 22), Authentication methods (password, keys etc), Allowed users/group, Security restrictions, Logging levels, Connection limits etc..." style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="190" vertex="1">
-                    <mxGeometry y="240" width="375" height="80" as="geometry"/>
+                    <mxGeometry y="250" width="375" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="244" value="&lt;b&gt;Generate SSH keys&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
                     <mxGeometry x="275.62" y="970" width="310" height="410" as="geometry">
@@ -234,7 +234,7 @@
                 <mxCell id="17" value="1. Provider of its shell to Client." style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="16" vertex="1">
                     <mxGeometry y="30" width="290" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="59" value="2. Server always uses client&#39;s public key for SSH authenticaiton" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="16" vertex="1">
+                <mxCell id="59" value="2. Server always uses client&#39;s public key for SSH authenticaiton (&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(255, 0, 255));&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;sshh.svg&lt;/font&gt;&lt;/span&gt;)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="16" vertex="1">
                     <mxGeometry y="60" width="290" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="239" value="SSH Agent" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#6d8764;strokeColor=#3A5431;fontColor=#ffffff;" parent="1" vertex="1">
@@ -264,7 +264,7 @@
                 <mxCell id="14" value="1. consumer of remote shell provider" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="13" vertex="1">
                     <mxGeometry y="30" width="270" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="58" value="2.Client always uses its private key for SSH authentication" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="13" vertex="1">
+                <mxCell id="58" value="2.Client always uses its private key for SSH authentication (&lt;font style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(255, 0, 255)); color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;sshh.svg&lt;/font&gt;)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="13" vertex="1">
                     <mxGeometry y="70" width="270" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="120" value="device" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" parent="1" vertex="1">
