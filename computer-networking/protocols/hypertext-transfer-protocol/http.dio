@@ -59,7 +59,7 @@
                 <mxCell id="62" value="body: - data are&amp;nbsp; format in json, form-formats urlencoded, plain text, html or in binary stream format etc" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="55" vertex="1">
                     <mxGeometry y="90" width="310" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="94" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="63" target="121" edge="1">
+                <mxCell id="94" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=0;" parent="1" source="63" target="121" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="63" value="server can send data in" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
@@ -156,7 +156,7 @@
                     <mxGeometry x="-110" y="870" width="240" height="110" as="geometry"/>
                 </mxCell>
                 <mxCell id="121" value="&lt;b&gt;From client we can get the data in three ways that is from router(url), header and body&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="700" y="840" width="250" height="100" as="geometry"/>
+                    <mxGeometry x="690" y="860" width="250" height="100" as="geometry"/>
                 </mxCell>
                 <mxCell id="131" style="edgeStyle=none;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.88;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;flowAnimation=1;" edge="1" parent="1" source="128" target="2">
                     <mxGeometry relative="1" as="geometry"/>

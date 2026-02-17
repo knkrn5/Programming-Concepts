@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="wz7Ctou8d-0LMCp-keC7" name="Page-1">
-        <mxGraphModel dx="2132" dy="928" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+        <mxGraphModel dx="1997" dy="636" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -87,7 +87,7 @@
                 <mxCell id="73" value="1. Request body are also in streams, and as we know stream data can be only read once" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="72" vertex="1">
                     <mxGeometry y="30" width="305" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="78" value="2. And as we know data travels in bit so we need to convert it to human readable characters" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="72">
+                <mxCell id="78" value="2. And as we know data travels in bit so we need to convert it to human readable characters" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="72" vertex="1">
                     <mxGeometry y="70" width="305" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="58" value="URL path" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
@@ -107,8 +107,8 @@
                     <mxGeometry y="30" width="250" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="64" value="common HTTP request header data" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" parent="1" vertex="1">
-                    <mxGeometry x="50" y="480" width="270" height="150" as="geometry">
-                        <mxRectangle x="970" y="360" width="60" height="30" as="alternateBounds"/>
+                    <mxGeometry x="-400" y="460" width="270" height="150" as="geometry">
+                        <mxRectangle x="-400" y="420" width="60" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="65" value="1. Host: - url of the request comming from" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="64" vertex="1">
@@ -123,25 +123,36 @@
                 <mxCell id="69" value="etc..." style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="64" vertex="1">
                     <mxGeometry y="120" width="270" height="30" as="geometry"/>
                 </mxCell>
+                <mxCell id="79" value="Extra HTTP request header data" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
+                    <mxGeometry y="480" width="340" height="110" as="geometry">
+                        <mxRectangle x="30" y="495" width="60" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="80" value="&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;1. here we can specify any data in key value pair,&amp;nbsp; but&amp;nbsp; backend http lib will understand the header those pre-defined/known properties in HTTP header procotols, and we can also parse the header in custom way also&lt;/font&gt;&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="79">
+                    <mxGeometry y="30" width="340" height="80" as="geometry"/>
+                </mxCell>
                 <mxCell id="57" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="46" target="53" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="66" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="51" target="64" edge="1">
+                <mxCell id="66" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="51" target="79" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="74" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="50" target="72" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="76" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=light-dark(#000000,#FFFF00);entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="75" target="77">
+                <mxCell id="76" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=light-dark(#000000,#FFFF00);entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="75" target="77" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="1100" y="570" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="75" value="" style="whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;strokeColor=light-dark(#000000,#FFFF00);" vertex="1" parent="1">
+                <mxCell id="75" value="" style="whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;strokeColor=light-dark(#000000,#FFFF00);" parent="1" vertex="1">
                     <mxGeometry x="540" y="530" width="420" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="77" value="Request Header" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=light-dark(#000000,#FFFF00);" vertex="1" parent="1">
+                <mxCell id="77" value="Request Header" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=light-dark(#000000,#FFFF00);" parent="1" vertex="1">
                     <mxGeometry x="1100" y="540" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="84" style="edgeStyle=none;html=1;exitX=-0.006;exitY=0.1;exitDx=0;exitDy=0;entryX=0.989;entryY=0.1;entryDx=0;entryDy=0;exitPerimeter=0;flowAnimation=1;entryPerimeter=0;" edge="1" parent="1" source="79" target="64">
+                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>

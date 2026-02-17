@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="AXdNGfNMth2FeQyW1qBN" name="Page-1">
-        <mxGraphModel dx="3832" dy="2028" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+        <mxGraphModel dx="2847" dy="1736" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -69,7 +69,7 @@
                 <mxCell id="50" value="at end can be \n or \r\n" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;" parent="3" vertex="1">
                     <mxGeometry x="290" y="230" width="140" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="71" value="" style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=none;strokeColor=light-dark(#000000,#FFFF33);" vertex="1" parent="3">
+                <mxCell id="71" value="" style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=none;strokeColor=light-dark(#000000,#FFFF33);" parent="3" vertex="1">
                     <mxGeometry x="30" y="50" width="430" height="120" as="geometry"/>
                 </mxCell>
                 <mxCell id="16" value="http/version" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
@@ -88,7 +88,7 @@
                         <mxPoint x="-580" y="180" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="28" value="&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;HTTP response header data&lt;/font&gt;&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" parent="1" vertex="1">
+                <mxCell id="28" value="&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;Extra HTTP response header data&lt;/font&gt;&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" parent="1" vertex="1">
                     <mxGeometry x="-410" y="270" width="360" height="110" as="geometry">
                         <mxRectangle x="-200" y="240" width="100" height="30" as="alternateBounds"/>
                     </mxGeometry>
@@ -96,7 +96,7 @@
                 <mxCell id="29" value="1. here we can specify any data in key value pair,&amp;nbsp; but browsers will understand the header those pre-defined/known properties in HTTP header procotols, and custom data can be used by us for our own purpose&amp;nbsp;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="28" vertex="1">
                     <mxGeometry y="30" width="360" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="52" value="known HTTP headers" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" parent="1" vertex="1">
+                <mxCell id="52" value="known HTTP headers property" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" parent="1" vertex="1">
                     <mxGeometry x="-960" y="60" width="380" height="340" as="geometry">
                         <mxRectangle x="-840" y="120" width="100" height="30" as="alternateBounds"/>
                     </mxGeometry>
@@ -202,10 +202,10 @@
                 <mxCell id="65" style="edgeStyle=none;html=1;exitX=0.493;exitY=1.032;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;flowAnimation=1;" parent="1" source="61" target="63" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="73" value="Response header" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=light-dark(#000000,#FFFF33);" vertex="1" parent="1">
+                <mxCell id="73" value="Response header" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=light-dark(#000000,#FFFF33);" parent="1" vertex="1">
                     <mxGeometry x="-120" y="400" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="72" style="edgeStyle=none;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=light-dark(#000000,#FFFF33);" edge="1" parent="1" source="71" target="73">
+                <mxCell id="72" style="edgeStyle=none;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=light-dark(#000000,#FFFF33);" parent="1" source="71" target="73" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="10" y="429.913043478261" as="targetPoint"/>
                     </mxGeometry>
