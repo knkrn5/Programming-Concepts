@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="a4ZQnjgGoJdm-hiDk6y9" name="Page-1">
-        <mxGraphModel dx="1997" dy="1720" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="2236" dy="1634" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -47,7 +47,7 @@
                         <mxRectangle x="385" y="650" width="130" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="77" value="1. connect server and close connection (TCP connection A stateful, persistent TCP connection using the MongoDB wire protocol)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="45">
+                <mxCell id="77" value="1. connect server and close connection (TCP connection A stateful, persistent TCP connection using the MongoDB wire protocol)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="45" vertex="1">
                     <mxGeometry y="30" width="245" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="46" value="&lt;p data-pm-slice=&quot;0 0 []&quot;&gt;postgresql://  and mongodb:// what does this means ? These are called&amp;nbsp;wire protocol&lt;/p&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="45" vertex="1">
@@ -56,7 +56,7 @@
                 <mxCell id="59" value="&lt;p data-pm-slice=&quot;0 0 []&quot;&gt;connection keepalive&lt;/p&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="45" vertex="1">
                     <mxGeometry y="170" width="245" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="76" value="&lt;p data-pm-slice=&quot;0 0 []&quot;&gt;connection pool&lt;/p&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="45">
+                <mxCell id="76" value="&lt;p data-pm-slice=&quot;0 0 []&quot;&gt;connection pool&lt;/p&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="45" vertex="1">
                     <mxGeometry y="210" width="245" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="39" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="17" target="40" edge="1">
@@ -83,67 +83,67 @@
                 <mxCell id="56" value="1. creating schema with datatypes" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="52" vertex="1">
                     <mxGeometry y="60" width="310" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="86" value="2. see the schema of our table/collection" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="52">
+                <mxCell id="86" value="2. see the schema of our table/collection" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="52" vertex="1">
                     <mxGeometry y="100" width="310" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="87" value="3. update schema of our table/collection and datatype, rename table/colleciton" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="52">
+                <mxCell id="87" value="3. update schema of our table/collection and datatype, rename table/colleciton or specific property" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="52" vertex="1">
                     <mxGeometry y="140" width="310" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="88" value="4. Delete table/collection" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="52">
+                <mxCell id="88" value="4. Delete table/collection" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="52" vertex="1">
                     <mxGeometry y="180" width="310" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="89" value="Database Operations" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+                <mxCell id="89" value="Database Operations" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
                     <mxGeometry x="1260" y="650" width="310" height="220" as="geometry">
                         <mxRectangle x="698" y="530" width="130" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="90" value="CRUD of Databases" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="89">
+                <mxCell id="90" value="CRUD of Databases" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="89" vertex="1">
                     <mxGeometry y="30" width="310" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="91" value="1.&amp;nbsp; create database" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="89">
+                <mxCell id="91" value="1.&amp;nbsp; create database" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="89" vertex="1">
                     <mxGeometry y="60" width="310" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="96" value="2. see all database in server" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="89">
+                <mxCell id="96" value="2. switch between databases" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="89" vertex="1">
                     <mxGeometry y="100" width="310" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="97" value="3.&amp;nbsp;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="89">
+                <mxCell id="97" value="3. Reanme database (if possible)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="89" vertex="1">
                     <mxGeometry y="140" width="310" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="98" value="4. delete database" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="89">
+                <mxCell id="98" value="4. delete database" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="89" vertex="1">
                     <mxGeometry y="180" width="310" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="66" value="Data Operations" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-                    <mxGeometry x="1290" y="1210" width="310" height="180" as="geometry">
+                    <mxGeometry x="1290" y="1210" width="310" height="190" as="geometry">
                         <mxRectangle x="698" y="530" width="130" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="67" value="1. CRUD in data of table or collections" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="66" vertex="1">
                     <mxGeometry y="30" width="310" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="68" value="1. Read all data in any order or specific data with filter." style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="66" vertex="1">
-                    <mxGeometry y="60" width="310" height="40" as="geometry"/>
+                <mxCell id="68" value="1. Read all data in any order based on any property or specific data with specific property. and in smaller batches" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="66" vertex="1">
+                    <mxGeometry y="60" width="310" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="69" value="2. Update based of specific filter or orderwise, update one data or many data" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="66" vertex="1">
-                    <mxGeometry y="100" width="310" height="40" as="geometry"/>
+                    <mxGeometry y="110" width="310" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="70" value="3. Delete whole database, table/collection or specific data only" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="66" vertex="1">
-                    <mxGeometry y="140" width="310" height="40" as="geometry"/>
+                <mxCell id="70" value="3. Delete whole data or specific data only" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="66" vertex="1">
+                    <mxGeometry y="150" width="310" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="78" value="Main Operations" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+                <mxCell id="78" value="Main Operations" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
                     <mxGeometry x="1160" y="410" width="310" height="180" as="geometry">
                         <mxRectangle x="698" y="530" width="130" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="79" value="see to which server we are connected to" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="78">
+                <mxCell id="79" value="see to which server we are connected to" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="78" vertex="1">
                     <mxGeometry y="30" width="310" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="80" value="1. see all&amp;nbsp; databases in that&amp;nbsp; server" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="78">
+                <mxCell id="80" value="1. see all&amp;nbsp; databases in that&amp;nbsp; server" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="78" vertex="1">
                     <mxGeometry y="60" width="310" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="81" value="2. see all schemas in that database" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="78">
+                <mxCell id="81" value="2. see all table/collections in that database" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="78" vertex="1">
                     <mxGeometry y="100" width="310" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="82" value="3. see all data in that schema" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="78">
+                <mxCell id="82" value="3. see all data in that table/collection" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="78" vertex="1">
                     <mxGeometry y="140" width="310" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="44" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="40" target="42" edge="1">
@@ -220,12 +220,26 @@
                 <mxCell id="38" value="1.&amp;nbsp; Shell are client only, to access DB server via CLI/Terminal" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="37" vertex="1">
                     <mxGeometry y="30" width="270" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="74" value="Drivers" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+                <mxCell id="99" value="Limitations" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="-310" y="890" width="300" height="150" as="geometry">
+                        <mxRectangle x="790" y="270" width="130" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="100" value="1. size of per block or property" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="99">
+                    <mxGeometry y="30" width="300" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="101" value="2. write per second" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="99">
+                    <mxGeometry y="70" width="300" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="102" value="3. database per server, collections in one database" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="99">
+                    <mxGeometry y="110" width="300" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="74" value="Drivers" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
                     <mxGeometry x="102.5" y="670" width="270" height="70" as="geometry">
                         <mxRectangle x="790" y="270" width="130" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="75" value="1. Drivers are also client, that help lanugages to communicate to databases server" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="74">
+                <mxCell id="75" value="1. Drivers are also client, that help lanugages to communicate to databases server" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="74" vertex="1">
                     <mxGeometry y="30" width="270" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="25" value="SQL" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
@@ -280,16 +294,16 @@
                 <mxCell id="47" value="&lt;li class=&quot;whitespace-normal break-words pl-2&quot;&gt;PostgreSQL uses its own wire protocol&lt;/li&gt;&lt;br&gt;&lt;li class=&quot;whitespace-normal break-words pl-2&quot;&gt;MongoDB uses its own wire protocol&lt;/li&gt;&lt;br&gt;&lt;li class=&quot;whitespace-normal break-words pl-2&quot;&gt;MySQL uses yet another protocol&lt;/li&gt;&lt;li class=&quot;whitespace-normal break-words pl-2&quot;&gt;REdis Serialization Protocol&lt;/li&gt;&lt;li class=&quot;whitespace-normal break-words pl-2&quot;&gt;&lt;strong&gt;CQL (Cassandra Query Language) protocol&lt;/strong&gt; over its native binary protocol&lt;/li&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="340" y="980" width="430" height="140" as="geometry"/>
                 </mxCell>
-                <mxCell id="83" style="edgeStyle=none;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=-0.01;entryY=0.106;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="49" target="66">
+                <mxCell id="83" style="edgeStyle=none;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=-0.01;entryY=0.106;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="49" target="66" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="84" style="edgeStyle=none;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=-0.006;entryY=0.15;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="42" target="52">
+                <mxCell id="84" style="edgeStyle=none;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=-0.006;entryY=0.15;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="42" target="52" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="85" style="edgeStyle=none;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.006;entryY=0.111;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="17" target="78">
+                <mxCell id="85" style="edgeStyle=none;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.006;entryY=0.111;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="17" target="78" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="95" style="edgeStyle=none;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=-0.003;entryY=0.095;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="40" target="89">
+                <mxCell id="95" style="edgeStyle=none;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=-0.003;entryY=0.095;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="40" target="89" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
             </root>

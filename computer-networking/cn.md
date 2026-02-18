@@ -52,13 +52,9 @@
 
 ## **Proxy Server**
 
-## **Basic Practical**
-
-- Monitor network traffic using Wireshark
-- Set up a simple HTTP server using any language module
-
-## **Advance Practical**
+## Practical**
 
 - Build a simple chat application using socket that will work over LAN
 - Set up a local web server using Apache or Nginx
 - Create a basic firewall using iptables
+- use wireshart to analyzes and decodes network protocols.

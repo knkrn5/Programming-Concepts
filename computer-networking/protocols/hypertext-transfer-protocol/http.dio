@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="BNff_243PakBDc5S3eg4" name="Page-1">
-        <mxGraphModel dx="2236" dy="1736" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+        <mxGraphModel dx="1997" dy="1736" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -83,7 +83,7 @@
                     <mxGeometry y="70" width="330" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="132" value="More&amp;nbsp; in HTTP" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" vertex="1" parent="1">
-                    <mxGeometry x="580" y="1090" width="330" height="230" as="geometry"/>
+                    <mxGeometry x="710" y="1100" width="330" height="270" as="geometry"/>
                 </mxCell>
                 <mxCell id="133" value="1. Cors: - browser blocks response of server for url not allowed by server" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="132">
                     <mxGeometry y="30" width="330" height="40" as="geometry"/>
@@ -100,6 +100,9 @@
                 <mxCell id="137" value="check for img. css and js in html element" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="132">
                     <mxGeometry y="190" width="330" height="40" as="geometry"/>
                 </mxCell>
+                <mxCell id="143" value="cookie rules" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="132">
+                    <mxGeometry y="230" width="330" height="40" as="geometry"/>
+                </mxCell>
                 <mxCell id="97" value="Practicals to do in HTTP response" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=light-dark(#FFFFFF,#CC0000);" parent="1" vertex="1">
                     <mxGeometry x="1040" y="700" width="330" height="110" as="geometry"/>
                 </mxCell>
@@ -108,6 +111,12 @@
                 </mxCell>
                 <mxCell id="139" value="2. Write streaming code using Readablestream class" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="97">
                     <mxGeometry y="70" width="330" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="140" value="Practicals to do in HTTP" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=light-dark(#FFFFFF,#CC0000);" vertex="1" parent="1">
+                    <mxGeometry x="180" y="1150" width="330" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="141" value="1. Create HTTP server and HTTP client in any language and then communicate between client and server" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="140">
+                    <mxGeometry y="30" width="330" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="74" value="HTTP request" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" parent="1" vertex="1">
                     <mxGeometry x="-150" y="300" width="310" height="160" as="geometry">
