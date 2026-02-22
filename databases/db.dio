@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="a4ZQnjgGoJdm-hiDk6y9" name="Page-1">
-        <mxGraphModel dx="2236" dy="1634" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="2236" dy="1832" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -113,21 +113,21 @@
                     <mxGeometry y="180" width="310" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="66" value="Data Operations" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-                    <mxGeometry x="1290" y="1210" width="310" height="190" as="geometry">
+                    <mxGeometry x="1290" y="1210" width="310" height="210" as="geometry">
                         <mxRectangle x="698" y="530" width="130" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="67" value="1. CRUD in data of table or collections" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="66" vertex="1">
                     <mxGeometry y="30" width="310" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="68" value="1. Read all data in any order based on any property or specific data with specific property. and in smaller batches" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="66" vertex="1">
-                    <mxGeometry y="60" width="310" height="50" as="geometry"/>
+                <mxCell id="68" value="1. Read all data in any order based of any property or read specific data with specific property or with specific filter using and. or and not operators. and in smaller batches" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="66" vertex="1">
+                    <mxGeometry y="60" width="310" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="69" value="2. Update based of specific filter or orderwise, update one data or many data" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="66" vertex="1">
-                    <mxGeometry y="110" width="310" height="40" as="geometry"/>
+                    <mxGeometry y="130" width="310" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="70" value="3. Delete whole data or specific data only" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="66" vertex="1">
-                    <mxGeometry y="150" width="310" height="40" as="geometry"/>
+                    <mxGeometry y="170" width="310" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="78" value="Main Operations" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
                     <mxGeometry x="1160" y="410" width="310" height="180" as="geometry">
@@ -220,18 +220,18 @@
                 <mxCell id="38" value="1.&amp;nbsp; Shell are client only, to access DB server via CLI/Terminal" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="37" vertex="1">
                     <mxGeometry y="30" width="270" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="99" value="Limitations" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+                <mxCell id="99" value="Limitations" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
                     <mxGeometry x="-310" y="890" width="300" height="150" as="geometry">
                         <mxRectangle x="790" y="270" width="130" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="100" value="1. size of per block or property" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="99">
+                <mxCell id="100" value="1. size of per block or property" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="99" vertex="1">
                     <mxGeometry y="30" width="300" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="101" value="2. write per second" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="99">
+                <mxCell id="101" value="2. write per second" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="99" vertex="1">
                     <mxGeometry y="70" width="300" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="102" value="3. database per server, collections in one database" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="99">
+                <mxCell id="102" value="3. database per server, collections in one database" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="99" vertex="1">
                     <mxGeometry y="110" width="300" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="74" value="Drivers" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">

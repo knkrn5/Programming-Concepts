@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="ypkGg-M5WN-W00nEhMe7" name="Page-1">
-        <mxGraphModel dx="797" dy="563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1147" dy="732" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -22,6 +22,9 @@
                 <mxCell id="7" value="Alway Learning any concept Practically, not just theory,&lt;div&gt;&amp;nbsp;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;or&lt;/font&gt;&amp;nbsp;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(192, 192, 192), rgb(255, 255, 255));&quot;&gt;just ditch theory for practical&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="6" vertex="1">
                     <mxGeometry x="45" y="36.5" width="320" height="40" as="geometry"/>
                 </mxCell>
+                <mxCell id="25" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" edge="1" parent="1" source="11" target="21">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
                 <mxCell id="11" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;Deep Understanding&lt;/span&gt;&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;rounded=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
                     <mxGeometry x="460" y="370" width="370" height="90" as="geometry"/>
                 </mxCell>
@@ -30,6 +33,18 @@
                 </mxCell>
                 <mxCell id="14" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.avds_vulnerability_db_scanning;" parent="11" vertex="1">
                     <mxGeometry x="16" y="29.05" width="54.900000000000006" height="54.900000000000006" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;Self Understanding&lt;/span&gt;&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;gradientColor=#ea6b66;" vertex="1" parent="1">
+                    <mxGeometry x="220" y="630" width="450" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="No matter who is teaching you, the best u will understand&lt;div&gt;any concept, is when we try to undertand the concept&lt;/div&gt;&lt;div&gt;by ourself&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="21">
+                    <mxGeometry x="90" y="26.5" width="330" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="" style="shape=mxgraph.signs.healthcare.brain;html=1;pointerEvents=1;fillColor=light-dark(#000000,#00FFFF);strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="21">
+                    <mxGeometry x="10" y="34.5" width="70" height="44" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" edge="1" parent="1" source="15" target="21">
+                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="15" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;Concept Understanding&lt;/span&gt;&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;rounded=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
                     <mxGeometry x="30" y="370" width="370" height="90" as="geometry"/>
