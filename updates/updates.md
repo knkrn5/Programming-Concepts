@@ -12,3 +12,6 @@
 
 ### Server
 1. Use nginx/apache as reverse proxy for nodejs server
+
+## IP
+1. Ipv4 svg and Ipv6 svg

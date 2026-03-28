@@ -9,8 +9,6 @@
 - **[🔗Type of network](./type-of-network/ton.svg)**
 - **[🔗Interfaces](./interfaces/interfaces.svg)**
   - **[🔗MAC address](./media-access-control/mac.svg)**
-    - **[🔗Address Resolution Protocol](./Address-Resolution-Protocol/arp.svg)**
-    - **[🔗Network address translation](./network-address-translation/NAT.svg)**
 - **[🔗Domain Name System](./domain-name-system/dns.svg)**
 - **[🔗Network address translation](./network-address-translation/NAT.svg)**
 
@@ -28,10 +26,12 @@
   - **[🔗ICMP](./protocols/internet-control-message-protocol/icmpv6/icmpv6.svg)**
 - **Internet Protocol**
   - **[🔗IP addresses](./protocols/internet-protocol/ip.svg)**
-    - **[🔗IPv4 packets](./protocols/internet-protocol/ip-packet/ipv4-packet/ipv4p.svg)**
+    - **[🔗IPv4](./protocols/internet-protocol/ipv4/ipv4.svg)**
+    - **[🔗IPv4 packets](./protocols/internet-protocol/ipv4/ipv4-packet/ipv4p.svg)**
       - **[🔗Address Resolution Protocol](./Address-Resolution-Protocol/arp.)**
-    - **[🔗IPv6 packets](./protocols/internet-protocol/ip-packet/ipv6-packet/ipv6p.svg)**
-      - **[🔗Network address translation](./network-address-translation/NAT.svg)**
+    - **[🔗Ipv6](./protocols/internet-protocol/ipv6/ipv6.svg)**
+    - **[🔗IPv6 packets](./protocols/internet-protocol/ipv6/ipv6-packet/ipv6p.svg)**
+      - **[🔗Neighbor discovery protocol](./protocols/internet-protocol/ipv6/neighbor-discovery-protocol/ndp.svg)**
 
 - **Secure Shell**
   - **[🔗SSH](./protocols/secure-shell/ssh.svg)**
