@@ -108,7 +108,7 @@ person2.greet(); // Hello, my name is Bob and I am 25 years old.
 
 // **🎯 Constructor functions**
 // when a funciton is called using new keyword
-function createUser(firstName, lastName, age) { 
+function createUser(firstName, lastName, age) {
   this.firstName = firstName;
   this.lastName = lastName;
   this.age = age;
@@ -131,3 +131,39 @@ function* generateNumbers() {
   yield 2;
   yield 3;
 }
+
+// async iterator protocol
+```js
+
+gen.next()
+
+Each call returns:
+
+{ value: 1, done: false }
+{ value: 2, done: false }
+{ value: 3, done: false }
+{ value: undefined, done: true }
+
+---------------------------
+When you break out of a for await loop:
+
+👉 JavaScript automatically calls:
+
+iterator.return(): -  JS automatically calls .return() on the iterator, which propagates down the entire chain of nested async iterators like dominoes.
+
+This is part of the async iterator protocol.
+
+-----------------------------
+🔥 6. The important hidden methods
+
+Async iterators also support:
+
+iterator.return()
+iterator.throw()
+
+----------------------------
+convert: -
+
+async iterator → stream
+stream → async iterator
+```;

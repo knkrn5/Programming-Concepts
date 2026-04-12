@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="QQs63BoRLsVjoyWR4fhj" name="Page-1">
-        <mxGraphModel dx="2236" dy="1832" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+        <mxGraphModel dx="2401" dy="2146" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -41,7 +41,7 @@
                 <mxCell id="10" value="&lt;h3 class=&quot;text-text-100 mt-2 -mb-1 text-base font-bold&quot;&gt;Two Formats APT Supports&lt;/h3&gt;&lt;br/&gt;&lt;div class=&quot;overflow-x-auto w-full px-2 mb-6&quot;&gt;&lt;table class=&quot;min-w-full border-collapse text-sm leading-[1.7] whitespace-normal&quot;&gt;&lt;thead class=&quot;text-left&quot;&gt;&lt;tr&gt;&lt;th class=&quot;text-text-100 border-b-0.5 border-border-300/60 py-2 pr-4 align-top font-bold&quot;&gt;Format&lt;/th&gt;&lt;th class=&quot;text-text-100 border-b-0.5 border-border-300/60 py-2 pr-4 align-top font-bold&quot;&gt;Extension&lt;/th&gt;&lt;th class=&quot;text-text-100 border-b-0.5 border-border-300/60 py-2 pr-4 align-top font-bold&quot;&gt;Style&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;border-b-0.5 border-border-300/30 py-2 pr-4 align-top&quot;&gt;Old format&lt;/td&gt;&lt;td class=&quot;border-b-0.5 border-border-300/30 py-2 pr-4 align-top&quot;&gt;&lt;code class=&quot;bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]&quot;&gt;.list&lt;/code&gt;&lt;/td&gt;&lt;td class=&quot;border-b-0.5 border-border-300/30 py-2 pr-4 align-top&quot;&gt;single line &lt;code class=&quot;bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]&quot;&gt;deb ...&lt;/code&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;border-b-0.5 border-border-300/30 py-2 pr-4 align-top&quot;&gt;New format&lt;/td&gt;&lt;td class=&quot;border-b-0.5 border-border-300/30 py-2 pr-4 align-top&quot;&gt;&lt;code class=&quot;bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]&quot;&gt;.sources&lt;/code&gt;&lt;/td&gt;&lt;td class=&quot;border-b-0.5 border-border-300/30 py-2 pr-4 align-top&quot;&gt;multi-line block style&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="1400" y="720" width="350" height="150" as="geometry"/>
                 </mxCell>
-                <mxCell id="16" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="13" target="17">
+                <mxCell id="16" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="13" target="17" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="-390" y="490" as="targetPoint"/>
                     </mxGeometry>
@@ -52,8 +52,11 @@
                 <mxCell id="15" value="all the .list or .source file are expected to be in fixed format" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="1420" y="990" width="180" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="17" value="for more see cryptography.svg" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="17" value="for more see cryptography.svg" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="-545" y="520" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Some residue file amy have after uninstalling any package&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;~/.config/Cursor/&lt;br&gt;~/.cache/Cursor/&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-470" y="760" width="480" height="170" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>

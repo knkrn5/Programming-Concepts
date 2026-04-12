@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="a4ZQnjgGoJdm-hiDk6y9" name="Page-1">
-        <mxGraphModel dx="1599" dy="1496" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+        <mxGraphModel dx="2229" dy="2015" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -293,7 +293,7 @@
                 <mxCell id="148" value="2. write per second" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="146" vertex="1">
                     <mxGeometry y="70" width="410" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="149" value="3. database per server, collections in one database" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="146" vertex="1">
+                <mxCell id="149" value="3. databases in one server, collections/table in one database, data in one colleciton/table" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="146" vertex="1">
                     <mxGeometry y="110" width="410" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="166" value="Data linking" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" parent="1" vertex="1">
@@ -421,6 +421,11 @@
                 </mxCell>
                 <mxCell id="170" value="" style="shape=ellipse;fillColor=light-dark(#0065FF,#FFFFFF);strokeColor=none;html=1;sketch=0;" parent="1" vertex="1">
                     <mxGeometry x="1567.5" y="2290" width="25" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="210" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;flowAnimation=1;" edge="1" parent="1" source="161" target="99">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="2010" y="1220" as="targetPoint"/>
+                    </mxGeometry>
                 </mxCell>
             </root>
         </mxGraphModel>
