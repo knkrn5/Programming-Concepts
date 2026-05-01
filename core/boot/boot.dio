@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="3tRlHeAfSw4O_qHRka3_" name="Page-1">
-        <mxGraphModel dx="536" dy="238" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+        <mxGraphModel dx="2088" dy="559" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -34,8 +34,11 @@
                 <mxCell id="9" value="It&#39;s the&lt;u&gt; &lt;b&gt;first code that runs when electricity hits your CPU&lt;/b&gt;&lt;/u&gt;. It&#39;s written in C and assembly, stored on a tiny flash chip called &lt;strong&gt;BIOS chip&lt;/strong&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="4">
                     <mxGeometry y="80" width="300" height="50" as="geometry"/>
                 </mxCell>
+                <mxCell id="74" style="edgeStyle=none;html=1;exitX=-0.008;exitY=0.093;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="12" target="70">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
                 <mxCell id="12" value="Old firmware = BIOS" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" vertex="1" parent="1">
-                    <mxGeometry x="50" y="850" width="240" height="190" as="geometry">
+                    <mxGeometry x="-40" y="860" width="240" height="190" as="geometry">
                         <mxRectangle x="190" y="585" width="90" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
@@ -46,7 +49,7 @@
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="18" value="1 — SEC (Security)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" vertex="1" parent="1">
-                    <mxGeometry x="440" y="1180" width="240" height="80" as="geometry">
+                    <mxGeometry x="610" y="1220" width="240" height="80" as="geometry">
                         <mxRectangle x="440" y="1180" width="90" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
@@ -57,7 +60,7 @@
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="20" value="2 — PEI (Pre-EFI Initialization)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" vertex="1" parent="1">
-                    <mxGeometry x="490" y="1330" width="240" height="80" as="geometry">
+                    <mxGeometry x="660" y="1370" width="240" height="80" as="geometry">
                         <mxRectangle x="490" y="1330" width="90" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
@@ -68,7 +71,7 @@
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="23" value="3 — DXE (Driver Execution Environment)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" vertex="1" parent="1">
-                    <mxGeometry x="530" y="1470" width="240" height="110" as="geometry">
+                    <mxGeometry x="700" y="1510" width="240" height="110" as="geometry">
                         <mxRectangle x="530" y="1460" width="90" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
@@ -82,7 +85,7 @@
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="26" value="4 — BDS (Boot Device Selection)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" vertex="1" parent="1">
-                    <mxGeometry x="560" y="1650" width="240" height="80" as="geometry">
+                    <mxGeometry x="730" y="1690" width="240" height="80" as="geometry">
                         <mxRectangle x="560" y="1610" width="90" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
@@ -90,7 +93,7 @@
                     <mxGeometry y="30" width="240" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="33" value="NVRAM" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;" vertex="1" parent="1">
-                    <mxGeometry x="900" y="1650" width="240" height="170" as="geometry">
+                    <mxGeometry x="1070" y="1690" width="240" height="170" as="geometry">
                         <mxRectangle x="560" y="1610" width="90" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
@@ -104,7 +107,7 @@
                     <mxGeometry y="120" width="240" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="62" value="GRUB — The Bootloader" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;" vertex="1" parent="1">
-                    <mxGeometry x="920" y="1900" width="240" height="230" as="geometry">
+                    <mxGeometry x="1090" y="1940" width="240" height="230" as="geometry">
                         <mxRectangle x="560" y="1610" width="90" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
@@ -123,7 +126,7 @@
                     <mxGeometry y="30" width="320" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="50" value="EFI System Partition (ESP)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;" vertex="1" parent="1">
-                    <mxGeometry x="890" y="1390" width="240" height="180" as="geometry">
+                    <mxGeometry x="1060" y="1430" width="240" height="180" as="geometry">
                         <mxRectangle x="560" y="1610" width="90" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
@@ -136,8 +139,24 @@
                 <mxCell id="53" value="So this /EFI dir contains multiple bootloader that we have installed, and the defualt is Boot/boootx64.efi" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="50">
                     <mxGeometry y="130" width="240" height="50" as="geometry"/>
                 </mxCell>
+                <mxCell id="66" value="GPT Partition" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;" vertex="1" parent="1">
+                    <mxGeometry x="820" y="890" width="263" height="200" as="geometry">
+                        <mxRectangle x="560" y="1610" width="90" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="67" value="&lt;ol&gt;&lt;li&gt;Unlimited partitions (practically 128)&lt;/li&gt;&lt;li&gt;Supports disks up to 9.4 ZB (basically unlimited)&lt;/li&gt;&lt;li&gt;Boot info stored redundantly (backup at end of disk)&lt;/li&gt;&lt;li&gt;Works with UEFI firmware&lt;/li&gt;&lt;li&gt;Has unique GUID for each partition&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="66">
+                    <mxGeometry y="30" width="263" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" value="MBR Partition" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;" vertex="1" parent="1">
+                    <mxGeometry x="-414" y="930" width="260" height="160" as="geometry">
+                        <mxRectangle x="560" y="1610" width="90" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="71" value="&lt;ol&gt;&lt;li&gt;Maximum 4 primary partitions&lt;/li&gt;&lt;li&gt;Maximum 2TB disk size&lt;/li&gt;&lt;li&gt;Boot info stored in first 512 bytes of disk&lt;/li&gt;&lt;li&gt;Works with old BIOS firmware&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="70">
+                    <mxGeometry y="30" width="260" height="130" as="geometry"/>
+                </mxCell>
                 <mxCell id="29" value="5 — Hand off to Bootloader" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" vertex="1" parent="1">
-                    <mxGeometry x="600" y="1820" width="240" height="80" as="geometry">
+                    <mxGeometry x="770" y="1860" width="240" height="80" as="geometry">
                         <mxRectangle x="190" y="585" width="90" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
@@ -150,7 +169,7 @@
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="15" value="New firmware = UEFI" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="1">
-                    <mxGeometry x="400" y="850" width="240" height="240" as="geometry">
+                    <mxGeometry x="450" y="850" width="240" height="240" as="geometry">
                         <mxRectangle x="400" y="850" width="90" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
@@ -161,7 +180,7 @@
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="46" value="storage classificaiton" style="swimlane;childLayout=stackLayout;horizontal=1;fillColor=none;horizontalStack=1;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;strokeColor=default;stackBorder=10;stackSpacing=-12;resizable=1;align=center;points=[];whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="740" y="1010" width="296" height="100" as="geometry"/>
+                    <mxGeometry x="154" y="1110" width="296" height="100" as="geometry"/>
                 </mxCell>
                 <mxCell id="47" value="SSD" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];whiteSpace=wrap;html=1;" vertex="1" parent="46">
                     <mxGeometry x="10" y="33" width="100" height="57" as="geometry"/>
@@ -192,6 +211,9 @@
                 </mxCell>
                 <mxCell id="61" value="&lt;p style=&quot;line-height: 20%;&quot; data-pm-slice=&quot;0 0 []&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Shim i signed by microsoft, shim then verifies and loads GRUB&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 20%;&quot; data-pm-slice=&quot;0 0 []&quot;&gt;&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(192, 192, 192), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;even with&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;background-color: transparent; color: rgb(192, 192, 192);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(192, 192, 192), rgb(255, 255, 255));&quot;&gt;secure Boot enabled but when we disable secure boot,&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 30%;&quot; data-pm-slice=&quot;0 0 []&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;we bypass this check entirely&lt;/font&gt;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;rounded=1;" vertex="1" parent="58">
                     <mxGeometry x="16.5" y="200" width="380" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="75" style="edgeStyle=none;html=1;exitX=1;exitY=0.036;exitDx=0;exitDy=0;entryX=-0.008;entryY=0.074;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="15" target="66">
+                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
