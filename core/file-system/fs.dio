@@ -1,11 +1,11 @@
 <mxfile host="65bd71144e">
     <diagram id="gRZl7NABJyz5FIv5FWFY" name="Page-1">
-        <mxGraphModel dx="1659" dy="1644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+        <mxGraphModel dx="1294" dy="1521" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
                 <mxCell id="2" value="&lt;h2&gt;&lt;b&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot; face=&quot;Lucida Console&quot;&gt;File system&lt;/font&gt;&lt;/b&gt;&lt;/h2&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#fa6800;strokeColor=#C73500;fontColor=#000000;" vertex="1" parent="1">
-                    <mxGeometry x="320" width="310" height="80" as="geometry"/>
+                    <mxGeometry x="490" y="-10" width="310" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="3" value="A File system is basically: a data structure + algorithms to store,find and protect files on disk" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=1;dashed=1;dashPattern=1 4;" vertex="1" parent="2">
                     <mxGeometry y="30" width="310" height="50" as="geometry"/>
@@ -40,12 +40,33 @@
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="8" value="&lt;h3&gt;&lt;b&gt;&lt;font face=&quot;Courier New&quot;&gt;Different properties of different file system&lt;/font&gt;&lt;/b&gt;&lt;/h3&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="430" y="550" width="360" height="170" as="geometry">
+                    <mxGeometry x="430" y="550" width="360" height="450" as="geometry">
                         <mxRectangle x="430" y="550" width="420" height="60" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="9" value="&lt;b&gt;Different type of file systems: -&lt;/b&gt;&lt;div&gt;&lt;ol&gt;&lt;li&gt;FAT32: -&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="8">
-                    <mxGeometry y="50" width="360" height="120" as="geometry"/>
+                <mxCell id="9" value="&lt;h2&gt;&lt;b&gt;&lt;font face=&quot;Tahoma&quot;&gt;Different type of file systems⬇️: -&lt;/font&gt;&lt;/b&gt;&lt;/h2&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="8">
+                    <mxGeometry y="50" width="360" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="&lt;h2&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;1. FAT32: -&lt;/font&gt;&lt;/h2&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="8">
+                    <mxGeometry y="100" width="360" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="&lt;h2&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;2. NTFS: -&lt;/font&gt;&lt;/h2&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="8">
+                    <mxGeometry y="150" width="360" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" value="&lt;h2&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;3. ext4: -&lt;/span&gt;&lt;/h2&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="8">
+                    <mxGeometry y="200" width="360" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" value="&lt;h2&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;4. XFS: -&lt;/span&gt;&lt;/h2&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="8">
+                    <mxGeometry y="250" width="360" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="&lt;h2&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;5. btrfs: -&lt;/span&gt;&lt;/h2&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="8">
+                    <mxGeometry y="300" width="360" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="&lt;h2&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;6. ZFS: -&lt;/span&gt;&lt;/h2&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="8">
+                    <mxGeometry y="350" width="360" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" value="&lt;h2&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;7. APFS: -&lt;/span&gt;&lt;/h2&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="8">
+                    <mxGeometry y="400" width="360" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="17" value="&lt;h3&gt;&lt;font face=&quot;Courier New&quot;&gt;Allocation method&lt;/font&gt;&lt;/h3&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
                     <mxGeometry x="-110" y="350" width="270" height="130" as="geometry"/>
@@ -69,13 +90,13 @@
                     <mxGeometry y="30" width="270" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="24" value="&lt;h3&gt;&lt;font face=&quot;Courier New&quot;&gt;Directory indexing&lt;/font&gt;&lt;/h3&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="320" y="920" width="270" height="60" as="geometry"/>
+                    <mxGeometry x="250" y="1140" width="270" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="25" value="" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="24">
                     <mxGeometry y="30" width="270" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="26" value="&lt;h3&gt;&lt;font face=&quot;Courier New&quot;&gt;Max file size&lt;/font&gt;&lt;/h3&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="720" y="920" width="270" height="60" as="geometry"/>
+                    <mxGeometry x="770" y="1150" width="270" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="27" value="" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="26">
                     <mxGeometry y="30" width="270" height="30" as="geometry"/>
