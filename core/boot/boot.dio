@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="3tRlHeAfSw4O_qHRka3_" name="Page-1">
-        <mxGraphModel dx="1727" dy="679" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+        <mxGraphModel dx="1615" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -23,7 +23,7 @@
                         <mxPoint x="470" y="830" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="4" value="firmware" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" parent="1" vertex="1">
+                <mxCell id="4" value="firmware Chip" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" parent="1" vertex="1">
                     <mxGeometry x="190" y="580" width="300" height="130" as="geometry">
                         <mxRectangle x="190" y="585" width="90" height="30" as="alternateBounds"/>
                     </mxGeometry>
@@ -107,7 +107,7 @@
                     <mxGeometry y="30" width="240" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="33" value="NVRAM" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#cce5ff;strokeColor=#36393d;" parent="1" vertex="1">
-                    <mxGeometry x="1070" y="1690" width="260" height="210" as="geometry">
+                    <mxGeometry x="1080" y="1660" width="260" height="210" as="geometry">
                         <mxRectangle x="560" y="1610" width="90" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
@@ -121,7 +121,7 @@
                     <mxGeometry y="160" width="260" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="62" value="GRUB — The Bootloader" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;" parent="1" vertex="1">
-                    <mxGeometry x="1090" y="1940" width="240" height="230" as="geometry">
+                    <mxGeometry x="1100" y="1900" width="240" height="230" as="geometry">
                         <mxRectangle x="560" y="1610" width="90" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
@@ -132,28 +132,31 @@
                     <mxGeometry y="60" width="240" height="170" as="geometry"/>
                 </mxCell>
                 <mxCell id="42" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;b&gt;Practicals to do in boot&lt;/b&gt;&lt;/font&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=light-dark(#E51400,#CC0000);fontColor=#ffffff;strokeColor=#B20000;" parent="1" vertex="1">
-                    <mxGeometry x="70" y="1560" width="320" height="220" as="geometry">
+                    <mxGeometry x="70" y="1560" width="320" height="260" as="geometry">
                         <mxRectangle x="560" y="1610" width="90" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="43" value="Visit/open any linux destro via live USB/pendrive" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="42" vertex="1">
+                <mxCell id="43" value="View the total partitions in your SSD in detail" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="42" vertex="1">
                     <mxGeometry y="30" width="320" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="77" value="View the current boot, boot Order, Modify boot order" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="42" vertex="1">
+                <mxCell id="100" value="Visit/open any linux destro via live USB/pendrive" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="42">
                     <mxGeometry y="70" width="320" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="76" value="See all the bootloader folder/files in the /EFI folder using terminal and GUI" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="42" vertex="1">
+                <mxCell id="77" value="View the current boot, boot Order, Modify boot order" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="42" vertex="1">
                     <mxGeometry y="110" width="320" height="40" as="geometry"/>
                 </mxCell>
+                <mxCell id="76" value="See all the bootloader folder/files in the /EFI folder using terminal and GUI" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="42" vertex="1">
+                    <mxGeometry y="150" width="320" height="40" as="geometry"/>
+                </mxCell>
                 <mxCell id="93" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;After visiting any linux destro using live USB, create the custom efi folder with all its file for that specific linux destro&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Second use the boot repair tool in that live linux destro&lt;/font&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="42" vertex="1">
-                    <mxGeometry y="150" width="320" height="70" as="geometry"/>
+                    <mxGeometry y="190" width="320" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="50" value="EFI System Partition (ESP)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;" parent="1" vertex="1">
                     <mxGeometry x="1050" y="1370" width="240" height="240" as="geometry">
                         <mxRectangle x="560" y="1610" width="90" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="51" value="&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;The&amp;nbsp;&lt;/font&gt;&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;white-space-collapse: preserve; background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(192, 192, 192), rgb(255, 255, 255));&quot;&gt;small ~100-500 MB FAT32 partition in our SSD only&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;&amp;nbsp;That&#39;s the EFI System Partition.&lt;/span&gt;&lt;/font&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="50" vertex="1">
+                <mxCell id="51" value="&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;The&amp;nbsp;&lt;/font&gt;&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;white-space-collapse: preserve; background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(192, 192, 192), rgb(255, 255, 255));&quot;&gt;small ~100-500 MB FAT32 partition in our SSD only&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;&amp;nbsp;This is the EFI System Partition.&lt;/span&gt;&lt;/font&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="50" vertex="1">
                     <mxGeometry y="30" width="240" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="52" value="&lt;div class=&quot;relative group/copy bg-bg-000/50 border-0.5 border-border-400 rounded-lg focus:outline-none focus-visible:ring-2 focus-visible:ring-accent-100&quot; tabindex=&quot;0&quot; aria-label=&quot;Code&quot; role=&quot;group&quot;&gt;&lt;div class=&quot;overflow-x-auto&quot;&gt;&lt;pre style=&quot;color: rgb(234, 236, 240); background: transparent; font-family: var(--font-mono);&quot; class=&quot;code-block__code !my-0 !rounded-lg !text-sm !leading-relaxed p-3.5&quot;&gt;&lt;code style=&quot;color: rgb(234, 236, 240); background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; font-family: var(--font-mono); text-wrap-mode: wrap;&quot;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;UEFI can read FAT32 natively (mostly written in C&lt;/font&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;) — that&#39;s why ESP must always be FAT32.&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="50" vertex="1">
@@ -192,8 +195,11 @@
                         <mxRectangle x="560" y="1610" width="90" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="71" value="&lt;ol&gt;&lt;li&gt;Maximum 4 primary partitions&lt;/li&gt;&lt;li&gt;Maximum 2TB disk size&lt;/li&gt;&lt;li&gt;Boot info stored in first 512 bytes of disk&lt;/li&gt;&lt;li&gt;Works with old BIOS firmware&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="70" vertex="1">
+                <mxCell id="71" value="&lt;ol&gt;&lt;li&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Maximum 4 primary partitions&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Maximum 2TB disk size&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Boot info stored in first 512 bytes of disk&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Works with old BIOS firmware&lt;/font&gt;&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="70" vertex="1">
                     <mxGeometry y="30" width="260" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="101" style="edgeStyle=none;html=1;exitX=0.984;exitY=0.122;exitDx=0;exitDy=0;exitPerimeter=0;flowAnimation=0;" edge="1" parent="1" source="29" target="62">
+                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="29" value="5 — Hand off to Bootloader" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#ffcc99;strokeColor=#36393d;" parent="1" vertex="1">
                     <mxGeometry x="770" y="1860" width="240" height="80" as="geometry">
@@ -219,20 +225,8 @@
                 <mxCell id="35" style="edgeStyle=none;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.004;entryY=0.138;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="26" target="33" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="46" value="storage classificaiton" style="swimlane;childLayout=stackLayout;horizontal=1;fillColor=none;horizontalStack=1;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;strokeColor=default;stackBorder=10;stackSpacing=-12;resizable=1;align=center;points=[];whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="140" y="1140" width="296" height="100" as="geometry"/>
-                </mxCell>
-                <mxCell id="47" value="SSD" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];whiteSpace=wrap;html=1;" parent="46" vertex="1">
-                    <mxGeometry x="10" y="33" width="100" height="57" as="geometry"/>
-                </mxCell>
-                <mxCell id="48" value="Firmware" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];whiteSpace=wrap;html=1;" parent="46" vertex="1">
-                    <mxGeometry x="98" y="33" width="100" height="57" as="geometry"/>
-                </mxCell>
-                <mxCell id="49" value="NVRAM" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];whiteSpace=wrap;html=1;" parent="46" vertex="1">
-                    <mxGeometry x="186" y="33" width="100" height="57" as="geometry"/>
-                </mxCell>
                 <mxCell id="58" value="Secure boot" style="swimlane;rounded=1;" parent="1" vertex="1">
-                    <mxGeometry x="1170" y="1050" width="413" height="280" as="geometry"/>
+                    <mxGeometry x="527" y="2040" width="413" height="280" as="geometry"/>
                 </mxCell>
                 <mxCell id="54" value="secure boot process" style="swimlane;childLayout=stackLayout;horizontal=1;fillColor=none;horizontalStack=1;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;strokeColor=default;stackBorder=10;stackSpacing=-12;resizable=1;align=center;points=[];whiteSpace=wrap;html=1;" parent="58" vertex="1">
                     <mxGeometry x="17" y="70" width="382" height="103" as="geometry"/>
@@ -259,7 +253,7 @@
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="85" value="&lt;b&gt;Other concepts in boot&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-                    <mxGeometry x="80" y="1840" width="320" height="120" as="geometry">
+                    <mxGeometry x="60" y="1870" width="320" height="120" as="geometry">
                         <mxRectangle x="560" y="1610" width="90" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
@@ -268,9 +262,6 @@
                 </mxCell>
                 <mxCell id="91" value="&lt;p style=&quot;white-space-collapse: preserve;&quot; dir=&quot;auto&quot;&gt;No bootable device, &lt;font style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: rgb(192, 192, 192);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(192, 192, 192), rgb(255, 255, 255));&quot;&gt;Boot failure,&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(192, 192, 192); background-color: transparent;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(192, 192, 192), rgb(255, 255, 255));&quot;&gt;EFI&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: rgb(192, 192, 192);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(192, 192, 192), rgb(255, 255, 255));&quot;&gt; Boot Device &lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(192, 192, 192), rgb(255, 255, 255));&quot;&gt;Not Found - when do we can these errors&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="85" vertex="1">
                     <mxGeometry y="70" width="320" height="50" as="geometry"/>
-                </mxCell>
-                <mxCell id="99" value="the official UEFI specification dictates that the EFI system partition must use the FAT32&amp;nbsp;&lt;div&gt;file system. Because FAT32 is a legacy Microsoft creation, the UEFI firmware expects all internal&amp;nbsp;&lt;/div&gt;&lt;div&gt;directory paths to be written using DOS/Windows-style backslashes.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="65" y="1330" width="540" height="60" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
