@@ -1,10 +1,4 @@
-# **_🧑‍💻CONCEPTS👩‍💻_**
-
-![Concept Understanding](./project/assets/concept.svg)
-
-## **Core Tech Understanding**
-
-![Programming](./core/programming.svg)
+# **_🧑‍💻STRUCTURE👩‍💻_**
 
 ## **[🔗 Number System](./number-system/number-system.md)**
 
@@ -83,7 +77,119 @@
   - [github.md](./github/github.md)
 - **[computer-networking](./computer-networking/)**
   - [cn.md](./computer-networking/cn.md)
- 
+  - **[protocols](./computer-networking/protocols/)**
+    - **[transmission-control-protocol](./computer-networking/protocols/transmission-control-protocol/)**
+      - **[tcp-handshake](./computer-networking/protocols/transmission-control-protocol/tcp-handshake/)**
+        - [tcph.dio](./computer-networking/protocols/transmission-control-protocol/tcp-handshake/tcph.dio)
+        - [tcph.svg](./computer-networking/protocols/transmission-control-protocol/tcp-handshake/tcph.svg)
+      - **[TCP-segment](./computer-networking/protocols/transmission-control-protocol/TCP-segment/)**
+        - [tcps.dio](./computer-networking/protocols/transmission-control-protocol/TCP-segment/tcps.dio)
+        - [tcps.svg](./computer-networking/protocols/transmission-control-protocol/TCP-segment/tcps.svg)
+
+    - **[user-datagram-protocol](./computer-networking/protocols/user-datagram-protocol/)**
+      - **[udp-exchange](./computer-networking/protocols/user-datagram-protocol/udp-exchange/)**
+        - [udpe.dio](./computer-networking/protocols/user-datagram-protocol/udp-exchange/udpe.dio)
+        - [udpe.svg](./computer-networking/protocols/user-datagram-protocol/udp-exchange/udpe.svg)
+      - **[UDP-datagram](./computer-networking/protocols/user-datagram-protocol/UDP-datagram/)**
+        - [udpd.dio](./computer-networking/protocols/user-datagram-protocol/UDP-datagram/udpd.dio)
+        - [udpd.svg](./computer-networking/protocols/user-datagram-protocol/UDP-datagram/udpd.svg)
+
+    - **[internet-protocol](./computer-networking/protocols/internet-protocol/)**
+      - [ip.dio](./computer-networking/protocols/internet-protocol/ip.dio)
+      - [ip.svg](./computer-networking/protocols/internet-protocol/ip.svg)
+      - **[ipv6](./computer-networking/protocols/internet-protocol/ipv6/)**
+        - [ipv6.dio](./computer-networking/protocols/internet-protocol/ipv6/ipv6.dio)
+        - [ipv6.svg](./computer-networking/protocols/internet-protocol/ipv6/ipv6.svg)
+        - **[ipv6-packet](./computer-networking/protocols/internet-protocol/ipv6/ipv6-packet/)**
+          - [ipv6p.dio](./computer-networking/protocols/internet-protocol/ipv6/ipv6-packet/ipv6p.dio)
+          - [ipv6p.svg](./computer-networking/protocols/internet-protocol/ipv6/ipv6-packet/ipv6p.svg)
+        - **[neighbor-discovery-protocol](./computer-networking/protocols/internet-protocol/ipv6/neighbor-discovery-protocol/)**
+          - [ndp.dio](./computer-networking/protocols/internet-protocol/ipv6/neighbor-discovery-protocol/ndp.dio)
+          - [ndp.svg](./computer-networking/protocols/internet-protocol/ipv6/neighbor-discovery-protocol/ndp.svg)
+      - **[ipv4](./computer-networking/protocols/internet-protocol/ipv4/)**
+        - [ipv4.dio](./computer-networking/protocols/internet-protocol/ipv4/ipv4.dio)
+        - [ipv4.svg](./computer-networking/protocols/internet-protocol/ipv4/ipv4.svg)
+        - **[address-resolution-protocol](./computer-networking/protocols/internet-protocol/ipv4/address-resolution-protocol/)**
+          - [arp.dio](./computer-networking/protocols/internet-protocol/ipv4/address-resolution-protocol/arp.dio)
+          - [arp.svg](./computer-networking/protocols/internet-protocol/ipv4/address-resolution-protocol/arp.svg)
+          - **[arp-packet](./computer-networking/protocols/internet-protocol/ipv4/address-resolution-protocol/arp-packet/)**
+            - [arpp.dio](./computer-networking/protocols/internet-protocol/ipv4/address-resolution-protocol/arp-packet/arpp.dio)
+            - [arpp.svg](./computer-networking/protocols/internet-protocol/ipv4/address-resolution-protocol/arp-packet/arpp.svg)
+        - **[ipv4-packet](./computer-networking/protocols/internet-protocol/ipv4/ipv4-packet/)**
+          - [ipv4p.dio](./computer-networking/protocols/internet-protocol/ipv4/ipv4-packet/ipv4p.dio)
+          - [ipv4p.svg](./computer-networking/protocols/internet-protocol/ipv4/ipv4-packet/ipv4p.svg)
+    - **[internet-control-message-protocol](./computer-networking/protocols/internet-control-message-protocol/)**
+      - **[icmpv6](./computer-networking/protocols/internet-control-message-protocol/icmpv6/)**
+        - [icmpv6.dio](./computer-networking/protocols/internet-control-message-protocol/icmpv6/icmpv6.dio)
+        - [icmpv6.svg](./computer-networking/protocols/internet-control-message-protocol/icmpv6/icmpv6.svg)
+
+    - **[secure-shell](./computer-networking/protocols/secure-shell/)**
+      - [ssh.dio](./computer-networking/protocols/secure-shell/ssh.dio)
+      - [ssh.svg](./computer-networking/protocols/secure-shell/ssh.svg)
+      - **[ssh-handshake](./computer-networking/protocols/secure-shell/ssh-handshake/)**
+        - [sshh.dio](./computer-networking/protocols/secure-shell/ssh-handshake/sshh.dio)
+        - [sshh.svg](./computer-networking/protocols/secure-shell/ssh-handshake/sshh.svg)
+    - **[hypertext-transfer-protocol](./computer-networking/protocols/hypertext-transfer-protocol/)**
+      - [http.dio](./computer-networking/protocols/hypertext-transfer-protocol/http.dio)
+      - [http.svg](./computer-networking/protocols/hypertext-transfer-protocol/http.svg)
+      - **[http-req](./computer-networking/protocols/hypertext-transfer-protocol/http-req/)**
+        - [httpreq.dio](./computer-networking/protocols/hypertext-transfer-protocol/http-req/httpreq.dio)
+        - [httpreq.svg](./computer-networking/protocols/hypertext-transfer-protocol/http-req/httpreq.svg)
+      - **[http-res](./computer-networking/protocols/hypertext-transfer-protocol/http-res/)**
+        - [httpres.dio](./computer-networking/protocols/hypertext-transfer-protocol/http-res/httpres.dio)
+        - [httpres.svg](./computer-networking/protocols/hypertext-transfer-protocol/http-res/httpres.svg)
+
+  - **[network-topologies](./computer-networking/network-topologies/)**
+    - [nt.dio](./computer-networking/network-topologies/nt.dio)
+    - [nt.svg](./computer-networking/network-topologies/nt.svg)
+  - **[type-of-network](./computer-networking/type-of-network/)**
+    - [ton.dio](./computer-networking/type-of-network/ton.dio)
+    - [ton.svg](./computer-networking/type-of-network/ton.svg)
+  - **[media-access-control](./computer-networking/media-access-control/)**
+    - [mac.dio](./computer-networking/media-access-control/mac.dio)
+    - [mac.svg](./computer-networking/media-access-control/mac.svg)
+  - **[networking-devices](./computer-networking/networking-devices/)**
+    - [network-devices.md](./computer-networking/networking-devices/network-devices.md)
+    - **[hotspot](./computer-networking/networking-devices/hotspot/)**
+      - [hs.dio](./computer-networking/networking-devices/hotspot/hs.dio)
+    - **[router](./computer-networking/networking-devices/router/)**
+      - [router.dio](./computer-networking/networking-devices/router/router.dio)
+      - [router.svg](./computer-networking/networking-devices/router/router.svg)
+  - **[network-frames](./computer-networking/network-frames/)**
+    - **[wifi-frame](./computer-networking/network-frames/wifi-frame/)**
+      - [wf.dio](./computer-networking/network-frames/wifi-frame/wf.dio)
+      - [wf.svg](./computer-networking/network-frames/wifi-frame/wf.svg)
+    - **[ethernet-frame](./computer-networking/network-frames/ethernet-frame/)**
+      - [ef.dio](./computer-networking/network-frames/ethernet-frame/ef.dio)
+      - [ef.svg](./computer-networking/network-frames/ethernet-frame/ef.svg)
+
+  - **[network-models](./computer-networking/network-models/)**
+    - **[open-systems-interconnection](./computer-networking/network-models/open-systems-interconnection/)**
+      - [osi.dio](./computer-networking/network-models/open-systems-interconnection/osi.dio)
+      - [osi.svg](./computer-networking/network-models/open-systems-interconnection/osi.svg)
+    - **[TCP-IP](./computer-networking/network-models/TCP-IP/)**
+      - [tcp-ip.dio](./computer-networking/network-models/TCP-IP/tcp-ip.dio)
+      - [tcp-ip.svg](./computer-networking/network-models/TCP-IP/tcp-ip.svg)
+
+  - **[domain-name-system](./computer-networking/domain-name-system/)**
+    - [dns.dio](./computer-networking/domain-name-system/dns.dio)
+    - [dns.svg](./computer-networking/domain-name-system/dns.svg)
+  - **[network-address-translation](./computer-networking/network-address-translation/)**
+    - [NAT.dio](./computer-networking/network-address-translation/NAT.dio)
+    - [NAT.svg](./computer-networking/network-address-translation/NAT.svg)
+  - **[interfaces](./computer-networking/interfaces/)**
+    - [interfaces.dio](./computer-networking/interfaces/interfaces.dio)
+    - [interfaces.svg](./computer-networking/interfaces/interfaces.svg)
+  - **[networking-terms](./computer-networking/networking-terms/)**
+    - [networking-terms.dio](./computer-networking/networking-terms/networking-terms.dio)
+    - [networking-terms.svg](./computer-networking/networking-terms/networking-terms.svg)
+    - **[ports](./computer-networking/networking-terms/ports/)**
+      - [ports.dio](./computer-networking/networking-terms/ports/ports.dio)
+      - [ports.svg](./computer-networking/networking-terms/ports/ports.svg)
+    - **[cast](./computer-networking/networking-terms/cast/)**
+      - [cast.dio](./computer-networking/networking-terms/cast/cast.dio)
+      - [cast.svg](./computer-networking/networking-terms/cast/cast.svg)
+
 - **[operating-system](./operating-system/)**
   - [os.md](./operating-system/os.md)
   - **[path-system](./operating-system/path-system/)**
@@ -104,7 +210,6 @@
   - [computer.dio](./computer/computer.dio)
   - [computer.svg](./computer/computer.svg)
   - [pc.md](./computer/pc.md)
-  
 - **[api](./api/)**
   - [api.dio](./api/api.dio)
   - [api.svg](./api/api.svg)
@@ -112,7 +217,6 @@
   - [restapi.md](./api/restapi.md)
   - **[socket](./api/socket/)**
     - [socket.dio](./api/socket/socket.dio)
-
 - **[Other-Concepts](./Other-Concepts/)**
   - **[package managers](./Other-Concepts/package managers/)**
     - [packageManager.md](./Other-Concepts/package managers/packageManager.md)
