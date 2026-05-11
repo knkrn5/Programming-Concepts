@@ -4,49 +4,7 @@
 
 ## **Core Tech Understanding**
 
-![Programming](./core/programming.svg)
-
-## **[🔗 Number System](./number-system/number-system.md)**
-
-## **Operating System**
-
-- **Path system**
-- **[terminal](./cli/cli.md)**
-
-### **[🔗DataTypes](./⭐programming-langs/datatypes.md)**
-
-## **[🔗 Types of Programming Langs](./⭐programming-langs/typesofprogramminglangs.md)**
-
----
-
-## 🚀 Core Concepts
-
-1. ### **[🔗OOPS Concept](./⭐programming-langs/oops.md)**
-
-2. ### **[🔗🌐Rest API Concept](./rest%20api/restapi.md)**
-
-### **☁️ DevOp**
-
-- **[🔗Docker Concept](./DevOp/docker/docker.md)**
-- **[🔗 Git](./git/git.md)**
-- **[🔗 GitHub](./github/github.md)**
-
-### **🔐 Security**
-
-1. **[🔗 Security](./security/security.md)**
-
-### **📦 Other Concepts**
-
-1. **[🔗Dotenv Concept](./Other-Concepts/dotenv/dotenvconcepts.md)**
-2. **[🔗Mail Concept](./Other-Concepts/mail/mail.md)**
-3. <details>
-   <summary><b>Streaming</b></summary>
-   - **[🔗SSE](./Other-Concepts/realTimeEvents/sse.md)**
-   - **[🔗WebSocket](./Other-Concepts/realTimeEvents/websocket.md)**
-
-   </details>
-
-4. **[🔗RegExp Concept](./regExp/regExp.md)**
+## ![Programming](./core/programming.svg)
 
 ## 📂 Project Structure
 
@@ -83,7 +41,7 @@
   - [github.md](./github/github.md)
 - **[computer-networking](./computer-networking/)**
   - [cn.md](./computer-networking/cn.md)
- 
+
 - **[operating-system](./operating-system/)**
   - [os.md](./operating-system/os.md)
   - **[path-system](./operating-system/path-system/)**
@@ -104,7 +62,6 @@
   - [computer.dio](./computer/computer.dio)
   - [computer.svg](./computer/computer.svg)
   - [pc.md](./computer/pc.md)
-  
 - **[api](./api/)**
   - [api.dio](./api/api.dio)
   - [api.svg](./api/api.svg)
