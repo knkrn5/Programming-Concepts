@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="8aBqBi2NCKAgF6AUEAF2" name="Page-1">
-        <mxGraphModel dx="1476" dy="1552" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+        <mxGraphModel dx="1507" dy="1575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -28,7 +28,7 @@
                 <mxCell id="59" value="&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;1. Owner: - Super/root user has all the permission to change both users access and their resources permissions&lt;/font&gt;&lt;/font&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="58" vertex="1">
                     <mxGeometry y="30" width="320" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="60" value="2. Group: - Same specific permission/role to multiple users, can also be given by create a users group" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="58" vertex="1">
+                <mxCell id="60" value="2. Group: - Same specific permission/role to multiple users" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="58" vertex="1">
                     <mxGeometry y="80" width="320" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="61" value="3. Others: -&amp;nbsp;&lt;strong&gt;all remaining users on the system&lt;/strong&gt; who don&#39;t match owner or group" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="58" vertex="1">
@@ -47,7 +47,7 @@
                         <mxRectangle x="240" y="620" width="150" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="66" value="1. CRUD operaton of users" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="65" vertex="1">
+                <mxCell id="66" value="1. CRUD operaton of users and user&#39;s permissions" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="65" vertex="1">
                     <mxGeometry y="30" width="335" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="74" value="2. CRUD operaton of permissons to specific rescourse/asset to specifc users" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="65" vertex="1">
@@ -65,13 +65,13 @@
                 <mxCell id="76" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="74" target="131" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="100" value="CRUD of users" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-                    <mxGeometry x="870" y="450" width="310" height="180" as="geometry">
+                <mxCell id="100" value="CRUD of users and user&#39;s permission access" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+                    <mxGeometry x="870" y="450" width="310" height="260" as="geometry">
                         <mxRectangle x="880" y="370" width="150" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="101" value="&lt;ol&gt;&lt;li&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;create users and the group of users&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;view the current or total users and group, view the users on one group, view one user belongs to what all group, and also switch user&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;view what resources access a user has&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;update users info or group of users&lt;/font&gt;&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;delete group, or users&amp;nbsp; or users from group&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="100" vertex="1">
-                    <mxGeometry y="30" width="310" height="150" as="geometry"/>
+                <mxCell id="101" value="&lt;ol&gt;&lt;li&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;create users and the group of users(give the specific CRUD permission to user on resources)&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;view the current or total users and group, view the users on one group, view one user belongs to what all group, and also switch user&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;view what resources with what CRUD permisson access a user has&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;update users info or group of users or user CRUD permssions on resources&lt;/font&gt;&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;delete group, or users&amp;nbsp; or users from group or revoke the user&#39;s specific or all CRUD pemissions on resources&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="100" vertex="1">
+                    <mxGeometry y="30" width="310" height="230" as="geometry"/>
                 </mxCell>
                 <mxCell id="138" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="131" target="149" edge="1">
                     <mxGeometry relative="1" as="geometry">
@@ -104,7 +104,7 @@
                 <mxCell id="146" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;If authenticated,&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;then what action a&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;user is &lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;authorized&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;to do&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.oval_callout;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" parent="1" vertex="1">
                     <mxGeometry x="580" y="620" width="160" height="110" as="geometry"/>
                 </mxCell>
-                <mxCell id="149" value="Resources" style="swimlane;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+                <mxCell id="149" value="Resources" style="swimlane;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
                     <mxGeometry x="400" y="90" width="200" height="130" as="geometry"/>
                 </mxCell>
                 <mxCell id="55" value="" style="shape=datastore;whiteSpace=wrap;html=1;fillStyle=auto;fillColor=light-dark(#FFFFFF,#007FFF);" parent="149" vertex="1">
