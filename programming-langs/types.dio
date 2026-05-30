@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="LpwVARtfwaBr9NGGmYYn" name="Page-1">
-        <mxGraphModel dx="2236" dy="1832" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+        <mxGraphModel dx="1508" dy="1575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -131,7 +131,7 @@
                     <mxGeometry y="90" width="290" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="54" value="" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-                    <mxGeometry x="700" y="550" width="290" height="120" as="geometry"/>
+                    <mxGeometry x="700" y="550" width="290" height="200" as="geometry"/>
                 </mxCell>
                 <mxCell id="55" value="1. inheritance (pick, omit)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="54" vertex="1">
                     <mxGeometry y="30" width="290" height="30" as="geometry"/>
@@ -139,8 +139,14 @@
                 <mxCell id="59" value="2. create type from property of object array" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="54" vertex="1">
                     <mxGeometry y="60" width="290" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="60" value="3. create array of type object property" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="54">
+                <mxCell id="60" value="3. create array of type object property" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="54" vertex="1">
                     <mxGeometry y="90" width="290" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="4. Can create a dynamic type check , like function arguments" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="54">
+                    <mxGeometry y="120" width="290" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="&lt;strong data-end=&quot;69&quot; data-start=&quot;46&quot;&gt;Discriminated Union&lt;/strong&gt; (sometimes called a &lt;em data-end=&quot;104&quot; data-start=&quot;90&quot;&gt;tagged union&lt;/em&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="54">
+                    <mxGeometry y="160" width="290" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="37" value="filters" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
                     <mxGeometry x="540" y="-210" width="290" height="130" as="geometry"/>
