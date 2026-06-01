@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="a4ZQnjgGoJdm-hiDk6y9" name="Page-1">
-        <mxGraphModel dx="2229" dy="2015" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+        <mxGraphModel dx="1890" dy="1694" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -260,7 +260,7 @@
                 <mxCell id="73" value="Config files contains the instructions and configurations for any service, this basically help us to easily start our service, without manually entering every details&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;A service can also have multiple or one config file for different purpose or all in one config file&lt;/font&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="57" vertex="1">
                     <mxGeometry y="30" width="430" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="58" value="1. In databases, it contains configurations like where to store data and logs, what host to bind, all authentications, replications etc..." style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="57" vertex="1">
+                <mxCell id="58" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;1. In databases, it contains configurations like where to &lt;b&gt;&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 102, 204));&quot;&gt;store data and logs, what host to bind, all authentications and authorization, replications etc&lt;/span&gt;...&lt;/b&gt;&lt;/font&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="57" vertex="1">
                     <mxGeometry y="110" width="430" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="37" value="Shell (CLI)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" parent="1" vertex="1">
@@ -282,7 +282,7 @@
                 <mxCell id="153" value="1. A user can have access to any of these resources specifically, with full or limited actions on these resources/assets" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="99" vertex="1">
                     <mxGeometry y="70" width="410" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="146" value="Limitations" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+                <mxCell id="146" value="Limitations" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" parent="1" vertex="1">
                     <mxGeometry x="-150" y="2080" width="410" height="150" as="geometry">
                         <mxRectangle x="790" y="270" width="130" height="30" as="alternateBounds"/>
                     </mxGeometry>
@@ -307,6 +307,20 @@
                 <mxCell id="168" value="2. Linking on data with its another related data. this can be done either by data &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 101, 255));&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;reference &lt;/font&gt;&lt;/span&gt;id or &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 101, 255));&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;embedding &lt;/font&gt;&lt;/span&gt;full data itselt" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="166" vertex="1">
                     <mxGeometry y="70" width="410" height="40" as="geometry"/>
                 </mxCell>
+                <mxCell id="215" value="Type of Data CRUD actions" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+                    <mxGeometry x="997" y="1880" width="300" height="150" as="geometry">
+                        <mxRectangle x="1110" y="2445" width="130" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="216" value="Only add data if does not exist, else ignore" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="215">
+                    <mxGeometry y="30" width="300" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="220" value="Only add data if does not exist, else updata existing one&amp;nbsp;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="215">
+                    <mxGeometry y="70" width="300" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="219" value="ttl" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="215">
+                    <mxGeometry y="110" width="300" height="40" as="geometry"/>
+                </mxCell>
                 <mxCell id="126" value="ACID properties" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" parent="1" vertex="1">
                     <mxGeometry x="1780" y="2430" width="410" height="230" as="geometry">
                         <mxRectangle x="1780" y="2430" width="130" height="30" as="alternateBounds"/>
@@ -328,7 +342,7 @@
                     <mxGeometry y="190" width="410" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="109" value="&lt;b&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;practicals to do in databases&lt;/font&gt;&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=light-dark(#FFFFFF,#FF0000);" parent="1" vertex="1">
-                    <mxGeometry x="450" y="1910" width="410" height="190" as="geometry">
+                    <mxGeometry x="450" y="1910" width="410" height="270" as="geometry">
                         <mxRectangle x="790" y="270" width="130" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
@@ -344,13 +358,11 @@
                 <mxCell id="186" value="4. Create database data backup and restore data" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="109" vertex="1">
                     <mxGeometry y="150" width="410" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="202" value="&lt;font color=&quot;#000000&quot;&gt;&lt;b&gt;More to do&amp;nbsp; in databases&lt;/b&gt;&lt;/font&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" parent="1" vertex="1">
-                    <mxGeometry x="450" y="2190" width="410" height="80" as="geometry">
-                        <mxRectangle x="790" y="270" width="130" height="30" as="alternateBounds"/>
-                    </mxGeometry>
+                <mxCell id="214" value="5. Perfrom all the CRUD operation of databases authentication and authorizatrion&amp;nbsp;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="109">
+                    <mxGeometry y="190" width="410" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="209" value="&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Fundamentals that are specific to some specific database only&lt;/font&gt;&lt;/div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Created sperate folders for different databases too&lt;/font&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="202" vertex="1">
-                    <mxGeometry y="30" width="410" height="50" as="geometry"/>
+                <mxCell id="221" value="&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;6.&amp;nbsp; Inspect the db defualt config file and&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;Start the database with the custom config file&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="109">
+                    <mxGeometry y="230" width="410" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="74" value="Drivers" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" parent="1" vertex="1">
                     <mxGeometry x="-160" y="940" width="300" height="70" as="geometry">
@@ -371,6 +383,17 @@
                 <mxCell id="32" value="&lt;p style=&quot;white-space-collapse: preserve;&quot; dir=&quot;auto&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Vertical scaling (bigger server)&lt;/font&gt;&lt;/p&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="25" vertex="1">
                     <mxGeometry y="90" width="367.5" height="40" as="geometry"/>
                 </mxCell>
+                <mxCell id="211" value="Types of Databases" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;gradientColor=#ea6b66;" vertex="1" parent="1">
+                    <mxGeometry x="435" y="90" width="250" height="110" as="geometry">
+                        <mxRectangle x="425" y="30" width="130" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="212" value="1. Different Datatype of data storage" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="211">
+                    <mxGeometry y="30" width="250" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="213" value="&lt;p style=&quot;white-space-collapse: preserve;&quot; dir=&quot;auto&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;2. Format of how the data is being stored&lt;/font&gt;&lt;/p&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="211">
+                    <mxGeometry y="70" width="250" height="40" as="geometry"/>
+                </mxCell>
                 <mxCell id="11" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="3" target="13" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="420" y="490" as="targetPoint"/>
@@ -389,21 +412,20 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="23" style="edgeStyle=none;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="19" target="21" edge="1">
+                <mxCell id="23" style="edgeStyle=none;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="211" target="21" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="640" y="130" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="24" style="edgeStyle=none;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="19" target="25" edge="1">
+                <mxCell id="24" style="edgeStyle=none;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="211" target="25" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="450" y="110" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="19" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Types of&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;Databases&lt;/font&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;gradientColor=#ea6b66;" parent="1" vertex="1">
-                    <mxGeometry x="505" y="140" width="110" height="80" as="geometry"/>
-                </mxCell>
-                <mxCell id="20" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="3" target="19" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
+                <mxCell id="20" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="3" target="211" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="560" y="220" as="targetPoint"/>
+                    </mxGeometry>
                 </mxCell>
                 <mxCell id="150" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.003;entryY=0.108;entryDx=0;entryDy=0;entryPerimeter=0;flowAnimation=1;" parent="1" source="157" target="99" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
@@ -422,10 +444,13 @@
                 <mxCell id="170" value="" style="shape=ellipse;fillColor=light-dark(#0065FF,#FFFFFF);strokeColor=none;html=1;sketch=0;" parent="1" vertex="1">
                     <mxGeometry x="1567.5" y="2290" width="25" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="210" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;flowAnimation=1;" edge="1" parent="1" source="161" target="99">
+                <mxCell id="210" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;flowAnimation=1;" parent="1" source="161" target="99" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="2010" y="1220" as="targetPoint"/>
                     </mxGeometry>
+                </mxCell>
+                <mxCell id="218" style="edgeStyle=none;html=1;exitX=-0.003;exitY=0.053;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="49" target="215">
+                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
