@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="kSVnjDoXR-8vwjhutbG1" name="Page-1">
-        <mxGraphModel dx="1997" dy="1832" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+        <mxGraphModel dx="1682" dy="1575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -31,10 +31,10 @@
                 <mxCell id="22" value="1. check Exact same alphabets(including lowercase and uppercase), number or special characters and whitespace or non-whitespace, can also match escape characters" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="21" vertex="1">
                     <mxGeometry y="30" width="370" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="23" value="2. validate if specific charset is included anywhere, included at/after/before specific or exact positions (match trailing or leading charsets)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="21" vertex="1">
+                <mxCell id="23" value="2. validate if specific charset is included or not-included anywhere, included at/after/before specific or exact positions (match trailing or leading charsets)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="21" vertex="1">
                     <mxGeometry y="90" width="370" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="24" value="3. To match the specific starting or/and ending chars" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="21" vertex="1">
+                <mxCell id="24" value="3. To match the specific starting/prefix or/and ending/suffix chars" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="21" vertex="1">
                     <mxGeometry y="140" width="370" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="31" value="4. Match extact lengths, or min and max length of a string" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="21" vertex="1">
@@ -86,12 +86,15 @@
                     <mxGeometry y="30" width="370" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="27" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px; color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;Regular Expression&lt;/font&gt;&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#fa6800;strokeColor=#C73500;fontColor=#000000;" parent="1" vertex="1">
-                    <mxGeometry x="215" y="-180" width="370" height="90" as="geometry">
+                    <mxGeometry x="215" y="-180" width="370" height="130" as="geometry">
                         <mxRectangle x="460" y="60" width="90" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="28" value="&lt;span style=&quot;font-family: system-ui, Ubuntu, &amp;quot;Droid Sans&amp;quot;, sans-serif; font-size: 13px;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(204, 204, 204), rgb(255, 255, 255));&quot;&gt;1. Most programming languages have their own syntax/delimiter and methods for defining and using regular expressions (regex)&lt;/font&gt;&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="27" vertex="1">
                     <mxGeometry y="30" width="370" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; face=&quot;system-ui, Ubuntu, Droid Sans, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 13px; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;2. Regrex itself does not supports the Fuzzy search&lt;/span&gt;&lt;/font&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="27">
+                    <mxGeometry y="90" width="370" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="26" value="" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="4" target="35" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
