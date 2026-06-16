@@ -1,25 +1,28 @@
 <mxfile host="65bd71144e">
     <diagram id="eBRQOH4gxZvUJZ3J0dhQ" name="Page-1">
-        <mxGraphModel dx="1489" dy="1644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+        <mxGraphModel dx="2575" dy="1848" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
                 <mxCell id="8" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="2" target="7" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
+                <mxCell id="32" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2" target="31">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
                 <mxCell id="2" value="&lt;b&gt;Next Js&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="330" y="150" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="3" value="Server Components render first&lt;br&gt;↓&lt;br&gt;HTML streamed to browser&lt;br&gt;↓&lt;br&gt;Client JS downloaded&lt;br&gt;↓&lt;br&gt;Hydration(Attaches&quot; itself — event listeners, useState, useEffect all activate)&lt;br&gt;↓&lt;br&gt;Client interactivity starts" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="-140" y="350" width="430" height="140" as="geometry"/>
+                    <mxGeometry x="-827" y="515" width="430" height="140" as="geometry"/>
                 </mxCell>
-                <mxCell id="4" style="edgeStyle=none;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.547;entryY=0.021;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="2" target="3" edge="1">
+                <mxCell id="4" style="edgeStyle=none;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" parent="1" source="31" target="38" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="5" value="&lt;blockquote data-end=&quot;87&quot; data-start=&quot;14&quot;&gt;&lt;p data-end=&quot;87&quot; data-start=&quot;16&quot;&gt;“What happens when a &lt;strong data-end=&quot;85&quot; data-start=&quot;37&quot;&gt;Client Component contains a Server Component&lt;/strong&gt;?”&lt;/p&gt;&lt;/blockquote&gt;&lt;p data-end=&quot;147&quot; data-start=&quot;89&quot;&gt;👉 That is &lt;strong data-end=&quot;124&quot; data-start=&quot;100&quot;&gt;NOT allowed directly&lt;/strong&gt; in Next.js App Router&lt;/p&gt;&lt;p data-end=&quot;147&quot; data-start=&quot;89&quot;&gt;After hydration, browser cannot suddenly execute server-only code.&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="-460" y="80" width="520" height="100" as="geometry"/>
+                    <mxGeometry x="-970" y="200" width="520" height="100" as="geometry"/>
                 </mxCell>
-                <mxCell id="6" style="edgeStyle=none;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.498;entryY=1.01;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="2" target="5" edge="1">
+                <mxCell id="6" style="edgeStyle=none;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.996;entryY=0.491;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="33" target="5" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="13" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.414;entryY=0.933;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="7" target="9" edge="1">
@@ -36,6 +39,12 @@
                 <mxCell id="7" value="&lt;b&gt;Rendering&lt;/b&gt;&lt;div&gt;&lt;b&gt;Paradigm&lt;/b&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="335" y="10" width="110" height="90" as="geometry"/>
                 </mxCell>
+                <mxCell id="37" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="31" target="33">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="&lt;b&gt;Components&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="220" width="110" height="90" as="geometry"/>
+                </mxCell>
                 <mxCell id="9" value="CSR" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
                     <mxGeometry x="-90" y="-150" width="240" height="60" as="geometry">
                         <mxRectangle x="120" y="-100" width="70" height="30" as="alternateBounds"/>
@@ -44,10 +53,10 @@
                 <mxCell id="10" value="" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="9" vertex="1">
                     <mxGeometry y="30" width="240" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="28" style="edgeStyle=none;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="18" target="22">
+                <mxCell id="28" style="edgeStyle=none;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="18" target="22" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="29" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="22" target="25">
+                <mxCell id="29" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="22" target="25" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="18" value="Rendering type" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
@@ -61,8 +70,24 @@
                 <mxCell id="21" value="2. Dynamic rendering: - HTML is generated &lt;strong&gt;on every request&lt;/strong&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="18" vertex="1">
                     <mxGeometry y="70" width="260" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="30" value="In NextJs we can force any page to be static or dynamic" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="18">
+                <mxCell id="30" value="In NextJs we can force any page to be static or dynamic" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="18" vertex="1">
                     <mxGeometry y="110" width="260" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="Client Component" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="-320" y="260" width="310" height="70" as="geometry">
+                        <mxRectangle x="290" y="-170" width="70" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="34" value="Executes on both client and server" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="33">
+                    <mxGeometry y="30" width="310" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="Server Component" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="-310" y="420" width="310" height="70" as="geometry">
+                        <mxRectangle x="290" y="-170" width="70" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="39" value="executes only on server" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="38">
+                    <mxGeometry y="30" width="310" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="14" value="SSR" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
                     <mxGeometry x="530" y="-380" width="270" height="70" as="geometry">
@@ -90,6 +115,18 @@
                 </mxCell>
                 <mxCell id="26" value="ISR: - Incremental static regeneration = it is the Extended version of SSG, which just regenerate the site on the first request after the specified time" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="25" vertex="1">
                     <mxGeometry y="30" width="300" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" style="edgeStyle=none;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.992;entryY=0.045;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="38" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" style="edgeStyle=none;html=1;exitX=0.094;exitY=1.009;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="3" target="41">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-800" y="677" as="sourcePoint"/>
+                        <mxPoint x="-890" y="760" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="41" value="Hyrdration error comes in a client component when there is a mis-match between return value of the client component when executed in both server and client" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-1210" y="760" width="270" height="120" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>

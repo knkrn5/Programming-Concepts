@@ -14,7 +14,7 @@
                         <mxPoint x="-15" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="2" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Types of Media&lt;/font&gt;&lt;/b&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="2" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Types of Media&lt;/font&gt;&lt;/b&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
                     <mxGeometry x="310" y="60" width="140" height="90" as="geometry"/>
                 </mxCell>
                 <mxCell id="4" value="Images" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
