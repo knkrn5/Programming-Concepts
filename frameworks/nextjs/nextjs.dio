@@ -10,8 +10,13 @@
                 <mxCell id="32" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" parent="1" source="2" target="31" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
+                <mxCell id="53" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2" target="54">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="470" y="400" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
                 <mxCell id="2" value="&lt;b&gt;&lt;font style=&quot;font-size: 25px;&quot;&gt;Next Js&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
-                    <mxGeometry x="330" y="150" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="410" y="150" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="3" value="Server Components render first&lt;br&gt;↓&lt;br&gt;HTML streamed to browser&lt;br&gt;↓&lt;br&gt;Client JS downloaded&lt;br&gt;↓&lt;br&gt;Hydration(Attaches&quot; itself — event listeners, useState, useEffect all activate)&lt;br&gt;↓&lt;br&gt;Client interactivity starts" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="-870" y="530" width="430" height="140" as="geometry"/>
@@ -27,7 +32,7 @@
                 </mxCell>
                 <mxCell id="13" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.414;entryY=0.933;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="7" target="9" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="190" y="10" as="targetPoint"/>
+                        <mxPoint x="270" y="-20" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="16" style="edgeStyle=none;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="18" target="14" edge="1">
@@ -37,19 +42,19 @@
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="7" value="&lt;b&gt;Rendering&lt;/b&gt;&lt;div&gt;&lt;b&gt;Paradigm&lt;/b&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="335" y="10" width="110" height="90" as="geometry"/>
+                    <mxGeometry x="415" y="-20" width="110" height="90" as="geometry"/>
                 </mxCell>
                 <mxCell id="37" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="31" target="33" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="47" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="31" target="44">
+                <mxCell id="47" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="31" target="44" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="31" value="&lt;b&gt;Components&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="160" y="220" width="110" height="90" as="geometry"/>
                 </mxCell>
                 <mxCell id="9" value="CSR" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-                    <mxGeometry x="-90" y="-150" width="240" height="60" as="geometry">
+                    <mxGeometry x="-10" y="-180" width="240" height="60" as="geometry">
                         <mxRectangle x="120" y="-100" width="70" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
@@ -63,7 +68,7 @@
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="18" value="Rendering type" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-                    <mxGeometry x="260" y="-210" width="260" height="150" as="geometry">
+                    <mxGeometry x="340" y="-240" width="260" height="150" as="geometry">
                         <mxRectangle x="290" y="-170" width="70" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
@@ -84,6 +89,14 @@
                 <mxCell id="34" value="Executes on both client and server" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="33" vertex="1">
                     <mxGeometry y="30" width="310" height="40" as="geometry"/>
                 </mxCell>
+                <mxCell id="50" value="Error Handling" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="710" width="330" height="150" as="geometry">
+                        <mxRectangle x="290" y="-170" width="70" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="49" value="&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 102, 204));&quot;&gt;Error Handling &lt;/span&gt;in server component: - the clild page error just bubble up to the parent so the error page in the parent folder will handle all its nested pages errors or we can create different error page for every nested page&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;The same error can/will also handle the error in the &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 102, 204));&quot;&gt;client component&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="50" vertex="1">
+                    <mxGeometry y="30" width="330" height="120" as="geometry"/>
+                </mxCell>
                 <mxCell id="38" value="Server Component" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
                     <mxGeometry x="-350" y="430" width="310" height="180" as="geometry">
                         <mxRectangle x="290" y="-170" width="70" height="30" as="alternateBounds"/>
@@ -95,22 +108,47 @@
                 <mxCell id="43" value="Server component iwth page.tsx in nextjs, receives param and searchParams by defualt in their prop, but the &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 102, 204));&quot;&gt;param&lt;/span&gt; value will only come if components are under the dynamic route segment and the &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 102, 204));&quot;&gt;serachParam&lt;/span&gt; is can alway be present because a url can alway have a query string" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="38" vertex="1">
                     <mxGeometry y="70" width="310" height="110" as="geometry"/>
                 </mxCell>
-                <mxCell id="44" value="Other handling in nextjs" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="60" y="445" width="310" height="170" as="geometry">
-                        <mxRectangle x="290" y="-170" width="70" height="30" as="alternateBounds"/>
+                <mxCell id="52" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="44" target="50" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="Other handling in nextjs" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="445" width="310" height="120" as="geometry">
+                        <mxRectangle x="60" y="445" width="70" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="45" value="1. Page not found can be handled at both global and page specific level" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="44">
+                <mxCell id="45" value="1. Page not found can be handled at both global and page specific level" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="44" vertex="1">
                     <mxGeometry y="30" width="310" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="46" value="2. Loading handling: - the server component loading can be handled at page level specific" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="44">
+                <mxCell id="46" value="2. Loading handling: - the server component loading can be handled at page level specific" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="44" vertex="1">
                     <mxGeometry y="70" width="310" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="48" value="3. Error handling: - the server component error can be handled at the page level specific" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="44">
-                    <mxGeometry y="120" width="310" height="50" as="geometry"/>
+                <mxCell id="61" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="54" target="58">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" value="Routing in nextjs" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="415" y="440" width="310" height="100" as="geometry">
+                        <mxRectangle x="415" y="440" width="70" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="55" value="File structure based routing" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="54">
+                    <mxGeometry y="30" width="310" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="54">
+                    <mxGeometry y="60" width="310" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="Project structure" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="430" y="630" width="310" height="110" as="geometry">
+                        <mxRectangle x="60" y="445" width="70" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="59" value="1. can create &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(118, 96, 138));&quot;&gt;private folders&lt;/span&gt;, so that is does not come in routing" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="58">
+                    <mxGeometry y="30" width="310" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" value="2. create &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(118, 96, 138));&quot;&gt;folder to organtion &lt;/span&gt;files without comming in rouing" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="58">
+                    <mxGeometry y="70" width="310" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="14" value="SSR" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-                    <mxGeometry x="530" y="-400" width="270" height="70" as="geometry">
+                    <mxGeometry x="610" y="-430" width="270" height="70" as="geometry">
                         <mxRectangle x="520" y="-130" width="70" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
@@ -118,7 +156,7 @@
                     <mxGeometry y="30" width="270" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="22" value="SSG" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-                    <mxGeometry x="25" y="-480" width="310" height="190" as="geometry">
+                    <mxGeometry x="105" y="-510" width="310" height="190" as="geometry">
                         <mxRectangle x="30" y="-470" width="70" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
@@ -129,7 +167,7 @@
                     <mxGeometry y="120" width="310" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="25" value="ISR" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-                    <mxGeometry x="-60" y="-680" width="300" height="80" as="geometry">
+                    <mxGeometry x="20" y="-710" width="300" height="80" as="geometry">
                         <mxRectangle x="470" y="-460" width="70" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
