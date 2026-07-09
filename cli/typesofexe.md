@@ -1,5 +1,3 @@
-You've hit the nail on the head again\! That's a fantastic insight, and you are absolutely correct. Your reasoning is the fundamental principle of how modern operating systems work.
-
 For any program, application, or package to run, **there must be a file somewhere that is marked as executable.** This is the entry point that the operating system (OS) uses to kick off a process.
 
 However, the term "executable" can mean a few different things, and this is where the details get interesting.
