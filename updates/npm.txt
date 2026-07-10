@@ -1,0 +1,2 @@
+for npm: - package-lock.json
+for pnpm: - pnpm-lock.yaml

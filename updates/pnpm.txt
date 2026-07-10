@@ -17,7 +17,19 @@ pnpm downloads the pnpm stores all the packages in its store only and then link 
        │              │            │
        └──────────────┴────────────┘
             All link to the same files
+
+---------------------------------------------
+Hard links vs symlinks
+
+Hard links: store → .pnpm (saves disk space, since content is shared across all projects on your machine)
+Symlinks: .pnpm → your project's node_modules (builds the correct, non-flat dependency graph)
+
+
+One nuance: hard links only work within the same filesystem/volume. If your store and project are on different drives, pnpm falls back to copying (or you'd configure package-import-method differently).
+---------------------------------------------
 =================================================
+// pnpm setup: - This configures PNPM_HOME and adds it to your PATH ~/bashrc
+
 karan@karan-ThinkPad-T480:~$ pnpm setup
 Appended new lines to /home/karan/.bashrc
 
@@ -50,6 +62,12 @@ karan@karan-ThinkPad-T480:~$ which pnpm
 home/karan/.local/share/pnpm/global/ //for global
 home/karan/.local/share/pnpm/store/ //for local
 
+// folders in pnpm store: - 
+files — this is the one you're asking about. It's the actual content-addressable store where every package's file contents live, stored by content hash (not by package name/version). This is where the real disk space is used.
+links — internal bookkeeping pnpm uses to track hard-link relationships between the store and your projects.
+projects — metadata about which projects on your machine reference which packages from the store (this is how pnpm store prune knows what's safe to delete).
+index — a database file (SQLite-based) that maps package names/versions to their content hashes in files, so pnpm can quickly resolve what needs to be linked without re-fetching.
+>> : files is where all your actual packages (the code) are stored. The other three are pnpm's internal indexing/tracking system that makes the hard-linking mechanism work correctly.
 
 ==================================================================
 // pnpm shell: -
@@ -65,3 +83,173 @@ downloaded 3 → Only 3 packages were missing from your store and had to be fetc
 added 3 → Those 3 newly downloaded packages were added to your store/global installation.
 
 ==================================================================
+practicals to do: -
+view store path: - include local and global path
+
+pnpm store status   # checks for orphaned/unreferenced packages in the store
+pnpm store prune     # removes unreferenced packages from the store to free up space
+
+=====================================================
+//pnpm configs: - 
+pnpm config set store-dir /path/to/new/store // to change path
+
+
+=============================================================
+Extra: - 
+1. This is also why pnpm can dedupe so aggressively — if two totally different packages happen to ship an identical file (say, the same LICENSE text or a shared utility file), they'll hash to the same value and only be stored once here, regardless of which package "owns" it.
+2.  specific view is inside links\@, which holds scoped packages (npm packages whose names start with @something/, like @opencode-ai/sdk). The @ folder groups all scopes together, so what you're actually seeing here are the scope names, each acting as a subfolder:
+3.  4 projects on your machine that have ever installed something via pnpm — that matches the count of 4 folders here. Two were touched today (09:33 and 09:32, likely your global opencode install and one more), and two are from 11:39 yesterday.
+
+
+-------------------------------------------------------
+[ERR_PNPM_IGNORED_BUILDS] Ignored build scripts: sharp@0.34.5, unrs-resolver@1.12.2
+Run "pnpm approve-builds" to pick which dependencies should be allowed to run scripts
+Since a while back, pnpm blocks packages from running arbitrary postinstall scripts by default, because postinstall scripts are a common supply-chain attack vector (a malicious/compromised package could run anything on your machine during install). pnpm flags any package that wants to run a build/install script and asks you to explicitly approve it, instead of silently running it like npm/yarn traditionally did.
+
+pnpm approve-builds: - 1783656870852_image.png
+??
+
+This is the projects folder I mentioned — it's pnpm's way of tracking which projects on your machine are referencing packages from this store.
+
+Each of those long hex strings (5331b2bd8b60feef30e5bf5e90a328cb, etc.) is a hash of a project's absolute path on your disk. So:
+
+pnpm computes a hash of a project directory's path (e.g. C:\Users\User\some-project)
+Creates a folder here named with that hash
+Inside it, keeps a record of exactly which packages/versions that specific project has installed and is linking to from the store
+Why this exists: Since the actual package content lives once in files (shared across all projects), pnpm needs some way to know "is anyone still using this package?" before it can safely delete it. This projects folder is that reference-counting mechanism — it's what pnpm store prune reads to figure out which blobs in files are orphaned (no project references them anymore) versus still in use.
+
+You likely have exactly 4 projects on your machine that have ever installed something via pnpm — that matches the count of 4 folders here. Two were touched today (09:33 and 09:32, likely your global opencode install and one more), and two are from 11:39 yesterday.
+
+If you want to see which actual project path a given hash corresponds to, you generally can't reverse it just by looking (it's a one-way hash), but you can cross-reference by checking timestamps against when you know you ran pnpm install/pnpm add in specific folders — or just trust pnpm store status/pnpm store prune to manage it correctly, since that's exactly what this folder is for.
+
+C:\Users\User>pnpm store status
+Packages in the store are untouched
+C:\Users\User>
+
+
+Identified missing context for meaningful response
+Identified missing context for meaningful response
+That output means everything's in a clean, consistent state.
+
+pnpm store status checks whether the package contents in your files store have been modified or tampered with since they were originally downloaded — it does this by re-verifying content hashes against what's recorded in the index database. Since pnpm hard-links files rather than copying them, in theory something (a buggy tool, an editor, manual editing inside node_modules, etc.) could accidentally write to a file inside the store itself — because a hard link means editing the file in your project is editing the file in the store, since it's literally the same data on disk.
+
+"Untouched" means:
+
+No integrity mismatches were found
+Every file's actual content still matches its recorded hash
+Nothing in your global store has been corrupted or unexpectedly modified
+If it had found problems, it would list which packages/files failed verification, and you'd typically fix it by running:
+
+bash
+pnpm store prune
+to clear out the bad entries, then reinstalling the affected package so pnpm re-fetches clean copies.
+
+So — good news, your store is healthy. Nothing to do here.
+
+how migrate the existing project from npm to pnpm ?
+
+
+Orchestrated comprehensive migration strategy encompassing dependencies, configuration, and CI updates
+Orchestrated comprehensive migration strategy encompassing dependencies, configuration, and CI updates
+Here's the clean migration path:
+
+1. Navigate to your project and remove npm's artifacts:
+
+bash
+rm -rf node_modules
+del package-lock.json
+(On Windows PowerShell: Remove-Item -Recurse -Force node_modules and Remove-Item package-lock.json)
+
+2. Let pnpm generate its lockfile:
+
+You have two options here:
+
+Option A — Fresh install (simpler, recommended for most cases):
+
+bash
+pnpm install
+This reads your package.json and resolves everything fresh, generating a new pnpm-lock.yaml. Version ranges in package.json are respected, but exact resolved versions may shift slightly from what package-lock.json had (usually fine, but check if you have strict version pinning needs).
+
+Option B — Import existing lockfile (preserves exact resolved versions):
+
+bash
+pnpm import
+This reads your package-lock.json (if you haven't deleted it yet — so do this before step 1's del package-lock.json) and converts it directly into pnpm-lock.yaml, keeping the exact same resolved versions you had under npm. Then run:
+
+bash
+pnpm install
+to finalize.
+
+3. Check for phantom dependencies:
+
+This is the part that actually matters. pnpm's strict node_modules structure means code that was secretly relying on hoisted transitive dependencies (working under npm/yarn by accident) will now break with "module not found" errors. Run your build/tests:
+
+bash
+pnpm run build
+pnpm run test
+Any missing-module errors here mean you need to add that package explicitly to your package.json — it was a phantom dependency you got away with before.
+
+4. Update your scripts and CI:
+
+Update package.json scripts if they call npm run internally — swap to pnpm run (or just pnpm <script>, no run needed for pnpm)
+Update CI/CD pipelines (GitHub Actions, etc.) — replace npm ci with pnpm install --frozen-lockfile
+If using Docker, update your Dockerfile's install step similarly
+5. Add a .npmrc if you want stricter/looser behavior (optional):
+
+# example: if you need some hoisting for legacy tooling
+shamefully-hoist=false
+6. Clean up:
+
+bash
+git add pnpm-lock.yaml
+git rm package-lock.json
+Commit both changes together so your team's next git pull triggers a clean pnpm install rather than a broken hybrid state.
+
+One thing specific to your Print Campus setup: if your Next.js web frontend has any next.config.js transpile/webpack customizations that assumed npm's flat node_modules, double check those after migrating — pnpm's stricter linking occasionally surfaces resolution issues with certain Next.js plugins that reach into node_modules internals. Worth running pnpm run dev and clicking through a few pages before you fully commit to the switch.
+
+User@DESKTOP-9HCENC6 MINGW64 ~/Desktop/at-admin/admin (master)
+$ pnpm install
+Packages: +353
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+Progress: resolved 431, reused 357, downloaded 2, added 353, done
+dependencies:
++ lucide-react 1.23.0 (1.24.0 is available)
++ next 16.2.10
++ react 19.2.4 (19.2.7 is available)
++ react-dom 19.2.4 (19.2.7 is available)
+devDependencies:
++ @tailwindcss/postcss 4.3.2
++ @types/node 20.19.43 (26.1.1 is available)
++ @types/react 19.2.17
++ @types/react-dom 19.2.3
++ eslint 9.39.4 (10.6.0 is available)
++ eslint-config-next 16.2.10
++ tailwindcss 4.3.2
++ typescript 5.9.3 (7.0.2 is available)
+[ERR_PNPM_IGNORED_BUILDS] Ignored build scripts: sharp@0.34.5, unrs-resolver@1.12.2
+Run "pnpm approve-builds" to pick which dependencies should be allowed to run scripts.
+User@DESKTOP-9HCENC6 MINGW64 ~/Desktop/at-admin/admin (master)
+$
+
+Show more
+
+Diagnosed build script errors and outlined resolution steps
+Diagnosed build script errors and outlined resolution steps
+The install actually succeeded — this is just a safety feature, not an error you need to panic about.
+
+What's happening:
+
+Since a while back, pnpm blocks packages from running arbitrary postinstall scripts by default, because postinstall scripts are a common supply-chain attack vector (a malicious/compromised package could run anything on your machine during install). pnpm flags any package that wants to run a build/install script and asks you to explicitly approve it, instead of silently running it like npm/yarn traditionally did.
+
+In your case, two packages want to run scripts:
+
+sharp — an image-processing library, and its postinstall script compiles/downloads native binaries (libvips) for your platform. Next.js uses sharp internally for image optimization (next/image).
+unrs-resolver — a native Node module resolver (used by ESLint/some tooling), also needs a native binary build step.
+Both of these are legitimate, well-known packages — you're not being warned about something malicious, just being asked to confirm.
+
+To fix it, run:
+
+bash
+pnpm approve-builds: - This opens an interactive prompt listing sharp and unrs-resolver — use spacebar to select them, Enter to confirm.
+pnpm rebuild sharp unrs-resolver: -  skip the interactive prompt entirely and just force it:
+--------------------------------------------------------
