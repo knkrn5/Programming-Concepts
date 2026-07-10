@@ -3,23 +3,3 @@ for pnpm: - pnpm-lock.yaml
 
 ==========================================================
 -------------------------------------------------
-How to get it into Antigravity:
-If you want to use it inside the Antigravity IDE, you can install it manually using a .vsix file:
-
-Download the extension bundle (.vsix) directly from the official VS Code Marketplace webpage for TypeScript 7.
-
-In Antigravity, open the Extensions view, click the ... (More Actions) menu at the top right of the panel, and select Install from VSIX....
---------------------------------------------------
-
-For TypeScript 7, Microsoft completely rewrote the engine from scratch in Go. Because Go compiles directly to machine code (unlike JavaScript which requires a virtual machine to interpret it), it executes directly on your OS as a high-performance native binary. This "native" execution is what provides the 10x speed boost.
-so the same native machine code binary could have been achieved with c, rust 
-In fact, many other modern frontend tools use precisely those languages for the exact same reason (for example, esbuild is written in Go, while SWC and Rolldown are written in Rust).
-
-Go isn't magic here; it just happens to be the language Microsoft picked. C or Rust would have gotten similar (likely even somewhat better) raw performance, since all three compile to native machine code with no VM/interpreter in the loop.
-==================================================================
-Microsoft first publicly announced that they had begun work on the Go-native port of TypeScript on March 11, 2025.
-
-The 11-Day AI-Assisted Rewrite: Utilizing Anthropic's ultra-advanced models (like Claude 5), Bun's creator Jarred Sumner managed to rewrite over 1 million lines of code from Zig to Rust in an astonishingly short 11-day sprint. They used dozens of AI agents running in parallel acting as both "code fixers" and "adversarial code reviewers" to double-check the logic
-
-
-========================================================================
