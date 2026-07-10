@@ -18,6 +18,16 @@ pnpm downloads the pnpm stores all the packages in its store only and then link 
        └──────────────┴────────────┘
             All link to the same files
 
+
+--------------------------------------------------------
+in the pnpm store i never see a package wiht it name: -
+Instead, pnpm uses a content-addressable store. Files are stored according to a hash of their contents, so you usually see folders and files with names similar to:
+files/
+  00/
+  01/
+  a4/
+  ff/     
+
 ---------------------------------------------
 Hard links vs symlinks
 
@@ -88,6 +98,8 @@ view store path: - include local and global path
 
 pnpm store status   # checks for orphaned/unreferenced packages in the store
 pnpm store prune     # removes unreferenced packages from the store to free up space
+
+Inspect the node_modules folder, installed with pnpm
 
 =====================================================
 //pnpm configs: - 
