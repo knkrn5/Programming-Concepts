@@ -1,0 +1,67 @@
+(pnpm's whole trick — shared storage, hardlinked across projects, saves disk space)
+
+pnpm downloads the pnpm stores all the packages in its store only and then link the package to global and local projects 
+                npm Registry
+                     │
+                     ▼
+      ~/.local/share/pnpm/store/v11
+          (one shared package store)
+                     │
+        ┌────────────┼────────────┐
+        │            │            │
+        ▼            ▼            ▼
+ Global package   Project A    Project B
+  node_modules    node_modules node_modules
+       │              │            │
+      vite           vite         vite
+       │              │            │
+       └──────────────┴────────────┘
+            All link to the same files
+=================================================
+karan@karan-ThinkPad-T480:~$ pnpm setup
+Appended new lines to /home/karan/.bashrc
+
+Next configuration changes were made:
+export PNPM_HOME="/home/karan/.local/share/pnpm"  // so now all the packages will be installed here 
+case ":$PATH:" in
+  *":$PNPM_HOME/bin:"*) ;;
+  *) export PATH="$PNPM_HOME/bin:$PATH" ;;
+esac
+
+========================================================
+karan@karan-ThinkPad-T480:~$ which pnpm
+/home/karan/.nvm/versions/node/v24.15.0/bin/pnpm
+
+============================================================
+/home/karan/.local/share/pnpm/
+├── pnpm                    ← the pnpm binary itself (the shim you already activated via corepack)
+├── global/
+│   └── 5/                  ← global packages get installed here (version-namespaced)
+│       └── node_modules/
+└── store/                  ← pnpm's content-addressable store (actual package files, deduplicated)
+
+=============================================================
+//Comparition of packages install globally via npm and pnpm: -
+//Global executables (binaries):-
+/home/karan/.nvm/versions/node/v24.15.0/bin/vite // via npm
+/home/karan/.local/share/pnpm/bin/vite  // via pnpm
+
+//Global and local package path: - 
+home/karan/.local/share/pnpm/global/ //for global
+home/karan/.local/share/pnpm/store/ //for local
+
+
+==================================================================
+// pnpm shell: -
+pnpm only has the one relevant config, and it's named the same:
+bashpnpm config set script-shell "/bin/bash"
+
+===========================================================
+Progress: resolved 46, reused 18, downloaded 3, added 3
+
+resolved 46 → pnpm examined 46 package versions to satisfy dependencies.
+reused 18 → 18 packages were already in your local pnpm store, so no download was needed.
+downloaded 3 → Only 3 packages were missing from your store and had to be fetched from the npm registry.
+added 3 → Those 3 newly downloaded packages were added to your store/global installation.
+
+==================================================================
