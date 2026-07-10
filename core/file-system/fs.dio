@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="gRZl7NABJyz5FIv5FWFY" name="Page-1">
-        <mxGraphModel dx="1659" dy="1644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+        <mxGraphModel dx="1467" dy="1644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -102,12 +102,12 @@
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="64" value="&lt;h3&gt;&lt;font face=&quot;Courier New&quot;&gt;Linking files&lt;/font&gt;&lt;/h3&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
-                    <mxGeometry x="460" y="1400" width="300" height="80" as="geometry">
+                    <mxGeometry x="460" y="1400" width="300" height="90" as="geometry">
                         <mxRectangle x="440" y="1400" width="150" height="60" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="65" value="1.&amp;nbsp; Hard Links and Symlinks(Symbolic links)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="64" vertex="1">
-                    <mxGeometry y="30" width="300" height="50" as="geometry"/>
+                <mxCell id="65" value="1.&amp;nbsp; Hard Links and Symlinks(Symbolic links): - The diff is &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 255, 255));&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;Hard links points to data in the disk&lt;/font&gt;,&lt;/span&gt; while &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(255, 51, 153));&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;symlink point to the file&lt;/font&gt;&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="64" vertex="1">
+                    <mxGeometry y="30" width="300" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="68" value="&lt;h3&gt;&lt;font face=&quot;Courier New&quot;&gt;Hard Link&lt;/font&gt;&lt;/h3&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
                     <mxGeometry x="250" y="1590" width="300" height="80" as="geometry"/>

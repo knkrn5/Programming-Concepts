@@ -2,4 +2,6 @@ for npm: - package-lock.json
 for pnpm: - pnpm-lock.yaml
 
 ==========================================================
+When you run the npm publish command, your local npm client processes the package, creates the tarball (the .tgz file), and calculates these hashes as part of the process.
+The registry records this hash so that when anyone else in the world runs npm install, they can verify the download:
 -------------------------------------------------

@@ -28,7 +28,22 @@ files/
   a4/
   ff/     
 
+Inside this store, it doesn't just name folders by package name. It uses content-based hashing.(hash of the content in that package) now even if two package have same content, their hash will always be same
+This ensures that if you have two different versions of a library, or two different packages that share the same underlying files, they aren't duplicated.
 ---------------------------------------------
+the pnpm calculate the hash after both downloading the package and before downloading the package
+Before downloading: pnpm receives the expected hash from the npm registry.
+After downloading: pnpm calculates the tarball hash to verify integrity.
+After extraction: pnpm calculates file hashes to organize the content-addressable store.
+----------------------------------------------------
+1. >>> When pnpm resolves a package, the registry gives back metadata that already includes the package's integrity hash (dist.integrity, a SHA-512) — pnpm doesn't have to compute anything itself for this step. pnpm maintains a SQLite-backed index (index.db) to map package identifiers like tarball integrity to the list of files they contain. So pnpm just looks up that known hash against its local store index — if a match exists, it skips the download entirely and links straight from the store. This is the dedup check, and it happens before any bytes are fetched, because the hash is already known from metadata, not computed locally.
+
+2, >>> Only if there's no match does pnpm actually fetch the tarball. Once downloaded, pnpm recomputes the hash on every install and verifies it matches the integrity field from the registry metadata. This is the actual authenticity/corruption check — confirming what arrived over the wire matches what the registry claimed it would send
+------------------------------------------------------
+//package dependicies downloading: - 
+pnpm reads the dependency requirements.
+Since your global TypeScript 7 doesn't satisfy >=5 <7, pnpm does not use it. Instead, it downloads a compatible version, and stores it in the shared store.
+-----------------------------------------------------------------
 Hard links vs symlinks
 
 Hard links: store → .pnpm (saves disk space, since content is shared across all projects on your machine)
@@ -95,13 +110,18 @@ downloaded 3 → Only 3 packages were missing from your store and had to be fetc
 added 3 → Those 3 newly downloaded packages were added to your store/global installation.
 
 ==================================================================
+ in case of pnpm deleteing the project folder itself wont delete the package from the store 
+
+ How to actually reclaim that space: -  use prune cmd
+
+=================================================================
 practicals to do: -
-view store path: - include local and global path
+pnpm store path      # shows where your store actually lives, view store path: - include local and global path
+pnpm store status     # shows size, package count, usage stats
 veiw package version
 
 pnpm store status   # checks for orphaned/unreferenced packages in the store
-pnpm store prune     # removes unreferenced packages from the store to free up space
-
+pnpm store prune     # This scans the store, finds packages that are no longer referenced by any project on your system, and removes only those orphaned ones.
 Inspect the node_modules folder, installed with pnpm
 
 =====================================================
