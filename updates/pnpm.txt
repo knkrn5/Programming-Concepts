@@ -36,7 +36,9 @@ Symlinks: .pnpm → your project's node_modules (builds the correct, non-flat de
 
 
 One nuance: hard links only work within the same filesystem/volume. If your store and project are on different drives, pnpm falls back to copying (or you'd configure package-import-method differently).
----------------------------------------------
+--------------------------------------------
+======================================================
+pnpx tsc --version
 =================================================
 // pnpm setup: - This configures PNPM_HOME and adds it to your PATH ~/bashrc
 

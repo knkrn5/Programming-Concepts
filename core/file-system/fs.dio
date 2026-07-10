@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="gRZl7NABJyz5FIv5FWFY" name="Page-1">
-        <mxGraphModel dx="1527" dy="1697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+        <mxGraphModel dx="1659" dy="1644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -95,11 +95,40 @@
                 <mxCell id="25" value="" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="24" vertex="1">
                     <mxGeometry y="30" width="270" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="64" value="&lt;h3&gt;&lt;font face=&quot;Courier New&quot;&gt;Other concepts on File system&lt;/font&gt;&lt;/h3&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
-                    <mxGeometry x="430" y="1370" width="400" height="80" as="geometry"/>
+                <mxCell id="72" style="edgeStyle=none;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" edge="1" parent="1" source="64" target="68">
+                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="65" value="The reason linux can read window files is becuae open source community has add support to NTFS while window has zero priority for adding ext4 support the only way is via WSL2" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="64">
-                    <mxGeometry y="30" width="400" height="50" as="geometry"/>
+                <mxCell id="73" style="edgeStyle=none;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" edge="1" parent="1" source="64" target="70">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" value="&lt;h3&gt;&lt;font face=&quot;Courier New&quot;&gt;Linking files&lt;/font&gt;&lt;/h3&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
+                    <mxGeometry x="460" y="1400" width="300" height="80" as="geometry">
+                        <mxRectangle x="440" y="1400" width="150" height="60" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="65" value="1.&amp;nbsp; Hard Links and Symlinks(Symbolic links)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="64" vertex="1">
+                    <mxGeometry y="30" width="300" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="68" value="&lt;h3&gt;&lt;font face=&quot;Courier New&quot;&gt;Hard Link&lt;/font&gt;&lt;/h3&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="1590" width="300" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="69" value="1. reating a new directory entry that points to the exact same physical data (the same &lt;b data-index-in-node=&quot;170&quot; data-path-to-node=&quot;5&quot;&gt;inode&lt;/b&gt;) on your storage drive&amp;nbsp;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="68">
+                    <mxGeometry y="30" width="300" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" value="&lt;h3&gt;&lt;font face=&quot;Courier New&quot;&gt;Soft link&lt;/font&gt;&lt;/h3&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+                    <mxGeometry x="690" y="1600" width="300" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" value="1. A symbolic link acts like a &lt;b data-index-in-node=&quot;28&quot; data-path-to-node=&quot;5&quot;&gt;shortcut&lt;/b&gt; or a pointer. While a hard link points to the actual data on the disk, a symbolic link points to the &lt;b data-index-in-node=&quot;138&quot; data-path-to-node=&quot;5&quot;&gt;file path&lt;/b&gt; of the target file" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="70">
+                    <mxGeometry y="30" width="300" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" value="&lt;h3&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot; face=&quot;Courier New&quot;&gt;Practicals to do for file system&lt;/font&gt;&lt;/h3&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=light-dark(#D80073,#E51400);strokeColor=#A50040;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="1130" y="1340" width="310" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" value="1. Create a &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 102, 204));&quot;&gt;Hard link&lt;/span&gt; for any file, and make changes in any of the linked files and then notices the changes in all the linked files" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="66">
+                    <mxGeometry y="30" width="310" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="74" value="2. Create a &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 102, 204));&quot;&gt;Soft link&lt;/span&gt; for any file, and make changes in that soft linked files and then notices the changes in the actual file" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="66">
+                    <mxGeometry y="90" width="310" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="26" value="&lt;h3&gt;&lt;font face=&quot;Courier New&quot;&gt;Max file size&lt;/font&gt;&lt;/h3&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
                     <mxGeometry x="770" y="1150" width="270" height="60" as="geometry"/>
