@@ -32,3 +32,12 @@ Standard library glue — panic/recover, stack growth (Go stacks are resizable, 
  That's the real distinction between Go's compile model and Bun's: Go compiles your logic directly to machine code ahead of time; Bun compiles a JS engine to machine code ahead of time, and that engine keeps compiling your JS just-in-time, every run.
 =====================================================================
 
+| Component                 | Main technology           | How it runs                                   |
+| ------------------------- | ------------------------- | --------------------------------------------- |
+| Codex CLI core            | Rust                      | Compiled into a native executable             |
+| CLI terminal interface    | Rust                      | Included in the native executable             |
+| VS Code extension layer   | TypeScript/JavaScript     | Compiled/transpiled and bundled as JavaScript |
+| Extension interface       | Web technologies          | Rendered inside a VS Code webview             |
+| Extension’s agent backend | Codex native/Rust process | Runs as a separate local executable/process   |
+
+========================================================================================================
