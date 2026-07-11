@@ -1,0 +1,180 @@
+(pnpm's whole trick — shared storage, hardlinked across projects, saves disk space)
+
+pnpm downloads the pnpm stores all the packages in its store only and then link the package to global and local projects 
+                npm Registry
+                     │
+                     ▼
+      ~/.local/share/pnpm/store/v11
+          (one shared package store)
+                     │
+        ┌────────────┼────────────┐
+        │            │            │
+        ▼            ▼            ▼
+ Global package   Project A    Project B
+  node_modules    node_modules node_modules
+       │              │            │
+      vite           vite         vite
+       │              │            │
+       └──────────────┴────────────┘
+            All link to the same files
+
+
+--------------------------------------------------------
+in the pnpm store i never see a package wiht it name: -
+Instead, pnpm uses a content-addressable store. Files are stored according to a hash of their contents, so you usually see folders and files with names similar to:
+files/
+  00/
+  01/
+  a4/
+  ff/     
+
+Inside this store, it doesn't just name folders by package name. It uses content-based hashing.(hash of the content in that package) now even if two package have same content, their hash will always be same
+This ensures that if you have two different versions of a library, or two different packages that share the same underlying files, they aren't duplicated.
+---------------------------------------------
+the pnpm calculate the hash after both downloading the package and before downloading the package
+Before downloading: pnpm receives the expected hash from the npm registry.
+After downloading: pnpm calculates the tarball hash to verify integrity.
+After extraction: pnpm calculates file hashes to organize the content-addressable store.
+----------------------------------------------------
+// Incase of reinstall pnpm: - 
+When you run corepack enable (or corepack prepare pnpm@<version> --activate), it just installs the pnpm binary/shims. On first use, pnpm checks its default store location and will find your existing store there — no need to re-download packages you already have cached.
+-----------------------------------------------------
+1. >>> When pnpm resolves a package, the registry gives back metadata that already includes the package's integrity hash (dist.integrity, a SHA-512) — pnpm doesn't have to compute anything itself for this step. pnpm maintains a SQLite-backed index (index.db) to map package identifiers like tarball integrity to the list of files they contain. So pnpm just looks up that known hash against its local store index — if a match exists, it skips the download entirely and links straight from the store. This is the dedup check, and it happens before any bytes are fetched, because the hash is already known from metadata, not computed locally.
+
+2, >>> Only if there's no match does pnpm actually fetch the tarball. Once downloaded, pnpm recomputes the hash on every install and verifies it matches the integrity field from the registry metadata. This is the actual authenticity/corruption check — confirming what arrived over the wire matches what the registry claimed it would send
+------------------------------------------------------
+//package dependicies downloading: - 
+pnpm reads the dependency requirements.
+Since your global TypeScript 7 doesn't satisfy >=5 <7, pnpm does not use it. Instead, it downloads a compatible version, and stores it in the shared store.
+-----------------------------------------------------------------
+Hard links vs symlinks
+
+Hard links: store → .pnpm (saves disk space, since content is shared across all projects on your machine)
+Symlinks: .pnpm → your project's node_modules (builds the correct, non-flat dependency graph)
+
+
+One nuance: hard links only work within the same filesystem/volume. If your store and project are on different drives, pnpm falls back to copying (or you'd configure package-import-method differently).
+--------------------------------------------
+// for direct execution: - 
+pnpm dlx — pnpm's equivalent of npx. It downloads a package temporarily (not installed globally, not added to any package.json), runs it once, then discards the cached copy after use (or reuses pnpm's content-addressable store cache on later runs). It's the "run this CLI tool without permanently installing it" command.
+pnpm dlx — the standard "download and execute" command (like npx).
+pnpx — a shorthand alias for pnpm dlx, same behavior, just fewer keystrokes.
+pnx — pnpm's own newer/canonical binary name for the same dlx functionality, with some extra flags like --package to pull in a specific package/version before running a different command, and support for security policy settings (minimumReleaseAge, etc.) as of pnpm v11.
+---------------------------------------------------------
+======================================================
+pnpx tsc --version
+=================================================
+// pnpm setup: - This configures PNPM_HOME and adds it to your PATH ~/bashrc
+
+karan@karan-ThinkPad-T480:~$ pnpm setup
+Appended new lines to /home/karan/.bashrc
+
+Next configuration changes were made:
+export PNPM_HOME="/home/karan/.local/share/pnpm"  // so now all the packages will be installed here 
+case ":$PATH:" in
+  *":$PNPM_HOME/bin:"*) ;;
+  *) export PATH="$PNPM_HOME/bin:$PATH" ;;
+esac
+
+========================================================
+karan@karan-ThinkPad-T480:~$ which pnpm
+/home/karan/.nvm/versions/node/v24.15.0/bin/pnpm
+
+============================================================
+/home/karan/.local/share/pnpm/
+├── pnpm                    ← the pnpm binary itself (the shim you already activated via corepack)
+├── global/
+│   └── 5/                  ← global packages get installed here (version-namespaced)
+│       └── node_modules/
+└── store/                  ← pnpm's content-addressable store (actual package files, deduplicated)
+
+=============================================================
+//Comparition of packages install globally via npm and pnpm: -
+//Global executables (binaries):-
+/home/karan/.nvm/versions/node/v24.15.0/bin/vite // via npm
+/home/karan/.local/share/pnpm/bin/vite  // via pnpm
+
+//Global and local package path: - 
+home/karan/.local/share/pnpm/global/ //for global
+home/karan/.local/share/pnpm/store/ //for local
+
+// folders in pnpm store: - 
+files — this is the one you're asking about. It's the actual content-addressable store where every package's file contents live, stored by content hash (not by package name/version). This is where the real disk space is used.
+links — internal bookkeeping pnpm uses to track hard-link relationships between the store and your projects.
+projects — metadata about which projects on your machine reference which packages from the store (this is how pnpm store prune knows what's safe to delete).
+index — a database file (SQLite-based) that maps package names/versions to their content hashes in files, so pnpm can quickly resolve what needs to be linked without re-fetching.
+>> : files is where all your actual packages (the code) are stored. The other three are pnpm's internal indexing/tracking system that makes the hard-linking mechanism work correctly.
+
+==================================================================
+// pnpm shell: -
+pnpm only has the one relevant config, and it's named the same:
+pnpm config set script-shell "/bin/bash"
+pnpm config set global-dir "C:\Users\User\AppData\Roaming\pnpm-global" // Tell pnpm where to put global binaries
+
+===========================================================
+Progress: resolved 46, reused 18, downloaded 3, added 3
+
+resolved 46 → pnpm examined 46 package versions to satisfy dependencies.
+reused 18 → 18 packages were already in your local pnpm store, so no download was needed.
+downloaded 3 → Only 3 packages were missing from your store and had to be fetched from the npm registry.
+added 3 → Those 3 newly downloaded packages were added to your store/global installation.
+
+==================================================================
+ in case of pnpm deleteing the project folder itself wont delete the package from the store 
+
+ How to actually reclaim that space: -  use prune cmd
+
+=================================================================
+practicals to do: -
+pnpm store path      # shows where your store actually lives, view store path: - include local and global path
+pnpm store status     # shows size, package count, usage stats
+veiw package version
+
+pnpm store status   # checks for orphaned/unreferenced packages in the store
+pnpm store prune     # This scans the store, finds packages that are no longer referenced by any project on your system, and removes only those orphaned ones.
+Inspect the node_modules folder, installed with pnpm
+
+=====================================================
+//pnpm configs: - 
+pnpm config set store-dir /path/to/new/store // to change path
+
+
+=============================================================
+Extra: - 
+1. This is also why pnpm can dedupe so aggressively — if two totally different packages happen to ship an identical file (say, the same LICENSE text or a shared utility file), they'll hash to the same value and only be stored once here, regardless of which package "owns" it.
+2.  specific view is inside links\@, which holds scoped packages (npm packages whose names start with @something/, like @opencode-ai/sdk). The @ folder groups all scopes together, so what you're actually seeing here are the scope names, each acting as a subfolder:
+3.  4 projects on your machine that have ever installed something via pnpm — that matches the count of 4 folders here. Two were touched today (09:33 and 09:32, likely your global opencode install and one more), and two are from 11:39 yesterday.
+
+
+-------------------------------------------------------
+[ERR_PNPM_IGNORED_BUILDS] Ignored build scripts: sharp@0.34.5, unrs-resolver@1.12.2
+Run "pnpm approve-builds" to pick which dependencies should be allowed to run scripts
+Since a while back, pnpm blocks packages from running arbitrary postinstall scripts by default, because postinstall scripts are a common supply-chain attack vector (a malicious/compromised package could run anything on your machine during install). pnpm flags any package that wants to run a build/install script and asks you to explicitly approve it, instead of silently running it like npm/yarn traditionally did.
+
+pnpm approve-builds: - 1783656870852_image.png
+??
+
+This is the projects folder I mentioned — it's pnpm's way of tracking which projects on your machine are referencing packages from this store.
+
+Each of those long hex strings (5331b2bd8b60feef30e5bf5e90a328cb, etc.) is a hash of a project's absolute path on your disk. So:
+
+pnpm computes a hash of a project directory's path (e.g. C:\Users\User\some-project)
+Creates a folder here named with that hash
+Inside it, keeps a record of exactly which packages/versions that specific project has installed and is linking to from the store
+Why this exists: Since the actual package content lives once in files (shared across all projects), pnpm needs some way to know "is anyone still using this package?" before it can safely delete it. This projects folder is that reference-counting mechanism — it's what pnpm store prune reads to figure out which blobs in files are orphaned (no project references them anymore) versus still in use.
+
+You likely have exactly 4 projects on your machine that have ever installed something via pnpm — that matches the count of 4 folders here. Two were touched today (09:33 and 09:32, likely your global opencode install and one more), and two are from 11:39 yesterday.
+
+=============================================================
+Progress: resolved 431, reused 357, downloaded 2, added 353, done
+
+[ERR_PNPM_IGNORED_BUILDS] Ignored build scripts: sharp@0.34.5, unrs-resolver@1.12.2
+Run "pnpm approve-builds" to pick which dependencies should be allowed to run scripts.
+User@DESKTOP-9HCENC6 MINGW64 ~/Desktop/at-admin/admin (master)
+$
+
+
+pnpm approve-builds: - This opens an interactive prompt listing sharp and unrs-resolver — use spacebar to select them, Enter to confirm.
+pnpm approve-builds -g
+pnpm rebuild sharp unrs-resolver: -  skip the interactive prompt entirely and just force it:
+--------------------------------------------------------
