@@ -1,9 +1,4 @@
-How to get it into Antigravity:
-If you want to use it inside the Antigravity IDE, you can install it manually using a .vsix file:
 
-Download the extension bundle (.vsix) directly from the official VS Code Marketplace webpage for TypeScript 7.
-
-In Antigravity, open the Extensions view, click the ... (More Actions) menu at the top right of the panel, and select Install from VSIX....
 --------------------------------------------------
 
 For TypeScript 7, Microsoft completely rewrote the engine from scratch in Go. Because Go compiles directly to machine code (unlike JavaScript which requires a virtual machine to interpret it), it executes directly on your OS as a high-performance native binary. This "native" execution is what provides the 10x speed boost.
@@ -20,8 +15,12 @@ Codex CLI — TypeScript → rewritten to Rust
 opencode (the popular sst/anomalyco one) — Go-based ancestor → rewritten to TypeScript/Bun (the original Go lineage got forked off and renamed Crush)
 Claude Code — TypeScript/Node, running on Bun for speed
 ========================================================================
-If anynone is wondering why is the tsgo faster then u can see this diagram: - 
 
+//CODE-EXECUTION: -
+1. (The "Thin" Runtime (Go)) Go uses garbage collection. Something has to track which memory is still in use and reclaim the rest. That tracking logic (the GC) is itself a program, compiled to machine code, running alongside your code inside the same binary.
+Goroutine scheduling — Go's concurrency model (goroutines) isn't OS threads directly; Go has its own scheduler that multiplexes goroutines onto OS threads. That's more compiled machine code baked into the binary. because Go does not run completely bare-metal like C.
+
+2. (The "Thick" Runtime (Bun / Node.js))Bun compiles a JS engine to machine code ahead of time, and that engine keeps compiling your JS just-in-time, every run. Because JavaScript is not a compiled language like C++ or Go, it can never run directly on bare metal. thatswhy the js engine is needed
 
 ====================================================================================
 Memory management — Go uses garbage collection. Something has to track which memory is still in use and reclaim the rest. That tracking logic (the GC) is itself a program, compiled to machine code, running alongside your code inside the same binary.
@@ -29,7 +28,8 @@ Goroutine scheduling — Go's concurrency model (goroutines) isn't OS threads di
 Standard library glue — panic/recover, stack growth (Go stacks are resizable, unlike C), type reflection info, etc.
 
 --------------------------------------------------------------------
- That's the real distinction between Go's compile model and Bun's: Go compiles your logic directly to machine code ahead of time; Bun compiles a JS engine to machine code ahead of time, and that engine keeps compiling your JS just-in-time, every run.
+ That's the real distinction between Go's compile model and Bun's: Go compiles your logic directly to machine code ahead of time;
+Bun compiles a JS engine to machine code ahead of time, and that engine keeps compiling your JS just-in-time, every run. Because JavaScript is not a compiled language like C++ or Go, it can never run directly on bare metal.
 =====================================================================
 
 | Component                 | Main technology           | How it runs                                   |
