@@ -133,7 +133,7 @@
                 <mxCell id="36" value="1. Both lint and formatting may also Support external plugins" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="35">
                     <mxGeometry y="30" width="315" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="39" value="2. Different plugin supports there own rules customizations" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="35">
+                <mxCell id="39" value="2. Different plugin have their own different set of rules, that can be customized" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="35">
                     <mxGeometry y="70" width="315" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="40" value="Practicals to to" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=light-dark(#F8CECC,#E51400);strokeColor=#b85450;gradientColor=none;" vertex="1" parent="1">
