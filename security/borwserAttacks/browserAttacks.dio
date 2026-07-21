@@ -32,7 +32,7 @@
                     <mxGeometry x="-433" y="640" width="310" height="150" as="geometry"/>
                 </mxCell>
                 <mxCell id="15" value="&lt;span style=&quot;color: rgb(66, 66, 66); font-family: Poppins, &amp;quot;Noto Color Emoji&amp;quot;, sans-serif; font-size: 14px; text-align: start; white-space: pre-wrap; background-color: rgb(255, 255, 255);&quot;&gt;This can give the full access of that embedded site to my site, through which i see that all kind fo user data like user authention, messages, mail and control the embedded sites interactions like buttons, etc&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="-413" y="810" width="290" height="130" as="geometry"/>
+                    <mxGeometry x="-423" y="810" width="290" height="130" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
