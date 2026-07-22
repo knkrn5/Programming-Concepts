@@ -1,37 +1,6 @@
-(pnpm's whole trick — shared storage, hardlinked across projects, saves disk space)
-
-pnpm downloads the pnpm stores all the packages in its store only and then link the package to global and local projects 
-                npm Registry
-                     │
-                     ▼
-      ~/.local/share/pnpm/store/v11
-          (one shared package store)
-                     │
-        ┌────────────┼────────────┐
-        │            │            │
-        ▼            ▼            ▼
- Global package   Project A    Project B
-  node_modules    node_modules node_modules
-       │              │            │
-      vite           vite         vite
-       │              │            │
-       └──────────────┴────────────┘
-            All link to the same files
-
-
---------------------------------------------------------
-in the pnpm store i never see a package wiht it name: -
-Instead, pnpm uses a content-addressable store. Files are stored according to a hash of their contents, so you usually see folders and files with names similar to:
-files/
-  00/
-  01/
-  a4/
-  ff/     
-
-Inside this store, it doesn't just name folders by package name. It uses content-based hashing.(hash of the content in that package) now even if two package have same content, their hash will always be same
-This ensures that if you have two different versions of a library, or two different packages that share the same underlying files, they aren't duplicated.
+what is how is the pnpm linking machenism ???
 ---------------------------------------------
-the pnpm calculate the hash after both downloading the package and before downloading the package
+
 Before downloading: pnpm receives the expected hash from the npm registry.
 After downloading: pnpm calculates the tarball hash to verify integrity.
 After extraction: pnpm calculates file hashes to organize the content-addressable store.
@@ -80,13 +49,6 @@ esac
 karan@karan-ThinkPad-T480:~$ which pnpm
 /home/karan/.nvm/versions/node/v24.15.0/bin/pnpm
 
-============================================================
-/home/karan/.local/share/pnpm/
-├── pnpm                    ← the pnpm binary itself (the shim you already activated via corepack)
-├── global/
-│   └── 5/                  ← global packages get installed here (version-namespaced)
-│       └── node_modules/
-└── store/                  ← pnpm's content-addressable store (actual package files, deduplicated)
 
 =============================================================
 //Comparition of packages install globally via npm and pnpm: -
