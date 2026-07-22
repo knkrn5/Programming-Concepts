@@ -1,6 +1,18 @@
-
+Every different file extension have there own compliter: -
+tsc	.ts, .tsx (and can also just type-check .js/.jsx with checkJs)
+babel	.js, .jsx, .ts, .tsx — all of them, via plugins/presets (@babel/preset-typescript, @babel/preset-react)
+esbuild	.js, .jsx, .ts, .tsx — all of them, natively, no plugins needed
+swc	.js, .jsx, .ts, .tsx — all of them, natively (this is what Next.js uses under the hood)
 --------------------------------------------------
+you don't need to exclude every non-TS folder individually. tsc only compiles files that match TypeScript-recognized extensions (.ts, .tsx, .d.ts, and .js/.jsx if allowJs/checkJs is on). A folder with no matching files is simply never touched — there's nothing for exclude to "protect" there
 
+---------------------------------------------------------------------
+esbuild views/*.tsx --bundle --format=cjs --external:react --outdir=dist/views --out-extension:.js=.cjs: -
+
+Why both knobs are needed here
+--format=cjs → esbuild rewrites export default function InvalidVerification into module.exports.default = function InvalidVerification + the __export/__toCommonJS shim you saw at the top of the output. That's what the engine's require(...).default reads.
+--out-extension:.js=.cjs → without it, esbuild would write dist/views/invalid-verification.js. Node would see .js + root "type":"module" → treat it as ESM → require() throws ERR_REQUIRE_ESM. The .cjs extension forces Node to load it as CommonJS regardless of any package.json.
+--------------------------------------------------------------
 For TypeScript 7, Microsoft completely rewrote the engine from scratch in Go. Because Go compiles directly to machine code (unlike JavaScript which requires a virtual machine to interpret it), it executes directly on your OS as a high-performance native binary. This "native" execution is what provides the 10x speed boost.
 so the same native machine code binary could have been achieved with c, rust 
 In fact, many other modern frontend tools use precisely those languages for the exact same reason (for example, esbuild is written in Go, while SWC and Rolldown are written in Rust).
