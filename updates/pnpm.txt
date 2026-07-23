@@ -95,6 +95,8 @@ veiw package version
 pnpm store status   # checks for orphaned/unreferenced packages in the store
 pnpm store prune     # This scans the store, finds packages that are no longer referenced by any project on your system, and removes only those orphaned ones.
 Inspect the node_modules folder, installed with pnpm
+1. Check the practicals for: - nested/transitive dependencies link to each other inside .pnpm
+
 
 =====================================================
 //pnpm configs: - 
@@ -140,3 +142,23 @@ pnpm approve-builds: - This opens an interactive prompt listing sharp and unrs-r
 pnpm approve-builds -g
 pnpm rebuild sharp unrs-resolver: -  skip the interactive prompt entirely and just force it:
 --------------------------------------------------------
+The Timeline: - 
+npm v1/v2
+    Nested dependencies
+    ❌ Huge duplication
+    ❌ Very deep folders
+
+        ↓
+
+npm v3+
+    Flattened dependencies
+    ✅ Less duplication
+    ❌ Phantom dependencies
+
+        ↓
+
+pnpm
+    Virtual store + symlinks + hard links
+    ✅ No duplication
+    ✅ No phantom dependencies
+    ✅ Fast installs
