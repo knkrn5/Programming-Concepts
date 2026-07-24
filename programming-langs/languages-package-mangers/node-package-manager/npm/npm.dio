@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="PB_Av7lL4KWtdOZgtZJD" name="Page-1">
-        <mxGraphModel dx="4205" dy="2508" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+        <mxGraphModel dx="2532" dy="1575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -82,12 +82,15 @@
                     <mxGeometry y="60" width="265" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="72" value="npm" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-                    <mxGeometry x="307.5" y="-110" width="265" height="70" as="geometry">
+                    <mxGeometry x="263.75" y="-130" width="352.5" height="120" as="geometry">
                         <mxRectangle x="300" y="-100" width="60" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="73" value="1. When code is written in ts then in this case, add the build folder in the npm package.json" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="72" vertex="1">
-                    <mxGeometry y="30" width="265" height="40" as="geometry"/>
+                <mxCell id="73" value="1. NPM reinstalls each every package in the node_module folder of per project, and also in global node_module folder" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="72" vertex="1">
+                    <mxGeometry y="30" width="352.5" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="79" value="1. When code is written in ts then in this case, add the build folder in the npm package.json" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="72" vertex="1">
+                    <mxGeometry y="80" width="352.5" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="22" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="21" target="23" edge="1">
                     <mxGeometry relative="1" as="geometry">
@@ -107,7 +110,7 @@
                         <mxPoint x="950" y="760" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="78" value="if not found&lt;div&gt;&amp;nbsp;bin property&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="25">
+                <mxCell id="78" value="if not found&lt;div&gt;&amp;nbsp;bin property&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="25" vertex="1" connectable="0">
                     <mxGeometry x="-0.1837" y="-2" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
@@ -273,6 +276,12 @@
                 </mxCell>
                 <mxCell id="77" value="npm pack --dry-run" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="50" y="18" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="81" value="&lt;span data-newtext-seq=&quot;1&quot; class=&quot;_animating_yu34g_10&quot;&gt;when you &lt;code class=&quot;bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]&quot;&gt;npm install&lt;/code&gt;&lt;/span&gt;&lt;span data-newtext-seq=&quot;26&quot; class=&quot;_animating_yu34g_10&quot;&gt; a package into your &lt;/span&gt;&lt;span data-newtext-seq=&quot;48&quot; class=&quot;_animating_yu34g_10&quot;&gt;project, npm only installs that &lt;/span&gt;&lt;span data-newtext-seq=&quot;80&quot; class=&quot;_animating_yu34g_10&quot;&gt;package&#39;s &lt;/span&gt;&lt;strong&gt;&lt;span data-newtext-seq=&quot;80&quot; class=&quot;_animating_yu34g_10&quot;&gt;&lt;code class=&quot;bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]&quot;&gt;dependencies&lt;/code&gt;&lt;/span&gt;&lt;/strong&gt;&lt;span data-newtext-seq=&quot;80&quot; class=&quot;_animating_yu34g_10&quot;&gt;, never its &lt;/span&gt;&lt;strong&gt;&lt;span data-newtext-seq=&quot;122&quot; class=&quot;_animating_yu34g_10&quot;&gt;&lt;code class=&quot;bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]&quot;&gt;devDependencies&lt;/code&gt;&lt;/span&gt;&lt;/strong&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="30" y="-120" width="190" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="82" value="That &lt;code class=&quot;bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]&quot;&gt;integrity&lt;/code&gt; hash is &lt;strong&gt;published by npm itself when the package was originally uploaded&lt;/strong&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="-210" y="100" width="520" height="30" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
