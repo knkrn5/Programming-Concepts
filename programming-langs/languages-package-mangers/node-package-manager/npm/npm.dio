@@ -1,24 +1,27 @@
 <mxfile host="65bd71144e">
     <diagram id="PB_Av7lL4KWtdOZgtZJD" name="Page-1">
-        <mxGraphModel dx="2532" dy="1575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+        <mxGraphModel dx="1682" dy="1575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="3" style="edgeStyle=none;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="2" target="11" edge="1">
+                <mxCell id="3" style="edgeStyle=none;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="72" target="11" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="250" y="270" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="4" style="edgeStyle=none;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="2" target="14" edge="1">
+                <mxCell id="4" style="edgeStyle=none;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="72" target="14" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="630" y="290" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="76" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="2" target="72" edge="1">
+                <mxCell id="87" style="edgeStyle=none;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="2" target="83">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="2" value="NPM" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="400" y="80" width="80" height="80" as="geometry"/>
+                <mxCell id="88" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2" target="72">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;NPM&lt;/font&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;" parent="1" vertex="1">
+                    <mxGeometry x="410" y="-280" width="80" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="48" style="edgeStyle=none;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="7" target="51" edge="1">
                     <mxGeometry relative="1" as="geometry">
@@ -71,19 +74,19 @@
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="11" value="npm" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-                    <mxGeometry x="110" y="285" width="265" height="90" as="geometry">
+                    <mxGeometry x="110" y="280" width="300" height="110" as="geometry">
                         <mxRectangle x="110" y="310" width="60" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="12" value="1.&amp;nbsp;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="11" vertex="1">
-                    <mxGeometry y="30" width="265" height="30" as="geometry"/>
+                    <mxGeometry y="30" width="300" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="68" value="2. can pass arguments even with npm run cmd" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="11" vertex="1">
-                    <mxGeometry y="60" width="265" height="30" as="geometry"/>
+                <mxCell id="68" value="2. can pass arguments even with npm run cmd using -- this sign" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="11" vertex="1">
+                    <mxGeometry y="60" width="300" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="72" value="npm" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-                    <mxGeometry x="263.75" y="-130" width="352.5" height="120" as="geometry">
-                        <mxRectangle x="300" y="-100" width="60" height="30" as="alternateBounds"/>
+                <mxCell id="72" value="npm package Installing architecture" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="273.75" y="-70" width="352.5" height="200" as="geometry">
+                        <mxRectangle x="600" y="10" width="60" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="73" value="1. NPM reinstalls each every package in the node_module folder of per project, and also in global node_module folder" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="72" vertex="1">
@@ -91,6 +94,20 @@
                 </mxCell>
                 <mxCell id="79" value="1. When code is written in ts then in this case, add the build folder in the npm package.json" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="72" vertex="1">
                     <mxGeometry y="80" width="352.5" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="86" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30); text-align: center;&quot; data-newtext-seq=&quot;1&quot; class=&quot;_animating_yu34g_10&quot;&gt;when you &lt;code style=&quot;font-family: Helvetica; background-color: rgb(38, 38, 38); scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30);&quot; class=&quot;bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]&quot;&gt;npm install&lt;/code&gt;&lt;/span&gt;&lt;span style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30); text-align: center;&quot; data-newtext-seq=&quot;26&quot; class=&quot;_animating_yu34g_10&quot;&gt; a package into your &lt;/span&gt;&lt;span style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30); text-align: center;&quot; data-newtext-seq=&quot;48&quot; class=&quot;_animating_yu34g_10&quot;&gt;project, npm only installs that &lt;/span&gt;&lt;span style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30); text-align: center;&quot; data-newtext-seq=&quot;80&quot; class=&quot;_animating_yu34g_10&quot;&gt;package&#39;s &lt;/span&gt;&lt;strong style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30); text-align: center;&quot;&gt;&lt;span style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30);&quot; data-newtext-seq=&quot;80&quot; class=&quot;_animating_yu34g_10&quot;&gt;&lt;code style=&quot;font-family: Helvetica; background-color: rgb(38, 38, 38); scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30);&quot; class=&quot;bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]&quot;&gt;dependencies&lt;/code&gt;&lt;/span&gt;&lt;/strong&gt;&lt;span style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30); text-align: center;&quot; data-newtext-seq=&quot;80&quot; class=&quot;_animating_yu34g_10&quot;&gt;, never its &lt;/span&gt;&lt;strong style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30); text-align: center;&quot;&gt;&lt;span style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30);&quot; data-newtext-seq=&quot;122&quot; class=&quot;_animating_yu34g_10&quot;&gt;&lt;code style=&quot;font-family: Helvetica; background-color: rgb(38, 38, 38); scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30);&quot; class=&quot;bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]&quot;&gt;devDependencies&lt;/code&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/font&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="72">
+                    <mxGeometry y="120" width="352.5" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="83" value="npm Publishing Package" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="-61.25" y="-460" width="352.5" height="100" as="geometry">
+                        <mxRectangle x="-61.25" y="-140" width="60" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="77" value="npm pack --dry-run" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;dashed=1;dashPattern=1 4;" parent="83" vertex="1">
+                    <mxGeometry y="30" width="352.5" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="82" value="That &lt;code class=&quot;bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]&quot;&gt;integrity&lt;/code&gt; hash is &lt;strong&gt;published by npm&lt;/strong&gt;&lt;div&gt;&lt;strong&gt;&amp;nbsp;itself when the package was originally uploaded&lt;/strong&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;dashed=1;dashPattern=1 4;" parent="83" vertex="1">
+                    <mxGeometry y="60" width="352.5" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="22" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="21" target="23" edge="1">
                     <mxGeometry relative="1" as="geometry">
@@ -220,7 +237,7 @@
                     <mxGeometry x="582.5" y="960" width="180" height="100" as="geometry"/>
                 </mxCell>
                 <mxCell id="56" value="&lt;span style=&quot;color: rgb(66, 66, 66); font-family: Poppins, &amp;quot;Noto Color Emoji&amp;quot;, sans-serif; font-size: 14px; text-align: start; white-space: pre-wrap; background-color: rgb(255, 255, 255);&quot;&gt;in npm we need need shell for two diffrent things 1. shell npm uses to run scripts written in package.json: -&amp;gt; npm config get shell &amp;lt;- which be seen by this cmd and second one is 2.  shell used to run npm scripts those are inside the node_modules/.bin folder -&amp;gt; npm config get script-shell &amp;lt;- which can be seen by this cmd&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="-860" y="1390" width="1510" height="50" as="geometry"/>
+                    <mxGeometry x="-640" y="1220" width="1510" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="57" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="12" target="59" edge="1">
                     <mxGeometry relative="1" as="geometry">
@@ -273,15 +290,6 @@
                 </mxCell>
                 <mxCell id="70" value="not found in bash error" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="-545" y="930" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="77" value="npm pack --dry-run" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="50" y="18" width="120" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="81" value="&lt;span data-newtext-seq=&quot;1&quot; class=&quot;_animating_yu34g_10&quot;&gt;when you &lt;code class=&quot;bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]&quot;&gt;npm install&lt;/code&gt;&lt;/span&gt;&lt;span data-newtext-seq=&quot;26&quot; class=&quot;_animating_yu34g_10&quot;&gt; a package into your &lt;/span&gt;&lt;span data-newtext-seq=&quot;48&quot; class=&quot;_animating_yu34g_10&quot;&gt;project, npm only installs that &lt;/span&gt;&lt;span data-newtext-seq=&quot;80&quot; class=&quot;_animating_yu34g_10&quot;&gt;package&#39;s &lt;/span&gt;&lt;strong&gt;&lt;span data-newtext-seq=&quot;80&quot; class=&quot;_animating_yu34g_10&quot;&gt;&lt;code class=&quot;bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]&quot;&gt;dependencies&lt;/code&gt;&lt;/span&gt;&lt;/strong&gt;&lt;span data-newtext-seq=&quot;80&quot; class=&quot;_animating_yu34g_10&quot;&gt;, never its &lt;/span&gt;&lt;strong&gt;&lt;span data-newtext-seq=&quot;122&quot; class=&quot;_animating_yu34g_10&quot;&gt;&lt;code class=&quot;bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]&quot;&gt;devDependencies&lt;/code&gt;&lt;/span&gt;&lt;/strong&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="30" y="-120" width="190" height="100" as="geometry"/>
-                </mxCell>
-                <mxCell id="82" value="That &lt;code class=&quot;bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]&quot;&gt;integrity&lt;/code&gt; hash is &lt;strong&gt;published by npm itself when the package was originally uploaded&lt;/strong&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-                    <mxGeometry x="-210" y="100" width="520" height="30" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
