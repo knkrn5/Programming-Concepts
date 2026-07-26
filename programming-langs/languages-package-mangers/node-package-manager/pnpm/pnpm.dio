@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="nBUPG6yjweeJ18klkmzt" name="Page-1">
-        <mxGraphModel dx="1550" dy="1582" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+        <mxGraphModel dx="1936" dy="1802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -66,7 +66,7 @@
                 <mxCell id="13" value="&lt;ol&gt;&lt;li&gt;pnpm creates a hidden folder inside our project node modules -&amp;gt; node_modules/.pnpm. This is here the actual contents live. &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 76, 153));&quot;&gt;one subfolder per exact package version&lt;/span&gt; (for all dependencies, devdependencies and even for nested dependencies etc)&lt;/li&gt;&lt;li&gt;For each package version, pnpm reads the package&#39;s index files and every entry, &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 76, 153));&quot;&gt;Hardlinks the corresponding content hash file from store/v11/files/xx/... into the node_modules/.pnpm/packageNmae@version&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Now pnpm links the top-level dependencies in our project main node_modules via symlinks&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 76, 153));&quot;&gt;Nested/transitive dependencies&lt;/span&gt; also&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 76, 153));&quot;&gt; symlink to its respective hardLinked folder&lt;/span&gt; created in&amp;nbsp; node_modules/.pnpm&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="12" vertex="1">
                     <mxGeometry y="30" width="350" height="270" as="geometry"/>
                 </mxCell>
-                <mxCell id="99" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="89" target="101">
+                <mxCell id="99" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="89" target="101" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="430" y="950" as="targetPoint"/>
                     </mxGeometry>
@@ -79,7 +79,7 @@
                 <mxCell id="90" value="1. Phantom depencies: -&amp;nbsp;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="89" vertex="1">
                     <mxGeometry y="30" width="340" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="100" value="2. No Package Duplication: -&amp;nbsp;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="89">
+                <mxCell id="100" value="2. No Package Duplication: -&amp;nbsp;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="89" vertex="1">
                     <mxGeometry y="80" width="340" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="26" style="edgeStyle=none;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="21" target="33" edge="1">
@@ -101,12 +101,12 @@
                 <mxCell id="76" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="33" target="27" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="33" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;b style=&quot;&quot;&gt;pnpm hashing Architecture&lt;/b&gt;&lt;/font&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#ffcccc;strokeColor=#36393d;" parent="1" vertex="1">
+                <mxCell id="33" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;b style=&quot;&quot;&gt;pnpm package creating/building from hash files&lt;/b&gt;&lt;/font&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#ffcccc;strokeColor=#36393d;" parent="1" vertex="1">
                     <mxGeometry x="1000" y="-440" width="360" height="130" as="geometry">
                         <mxRectangle x="975" y="-440" width="110" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="34" value="&lt;ol&gt;&lt;li&gt;pnpm generates the hash of the content in a folder and&amp;nbsp; the first two char becomes the name of the file&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 255, 255));&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;Per-file hashing, not per-package hashing&lt;/font&gt;&lt;/span&gt;: -&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="33" vertex="1">
+                <mxCell id="34" value="&lt;ol&gt;&lt;li&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;pnpm doesn&#39;t figure out what to hard-link by scanning the &lt;code data-end=&quot;178&quot; data-start=&quot;170&quot;&gt;files/&lt;/code&gt; directory. It already knows exactly which files belong to the package because that information is stored in the package index (the metadata you saw in &lt;code data-end=&quot;340&quot; data-start=&quot;330&quot;&gt;index.db&lt;/code&gt;).&lt;/font&gt;&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="33" vertex="1">
                     <mxGeometry y="30" width="360" height="100" as="geometry"/>
                 </mxCell>
                 <mxCell id="39" value="&lt;b&gt;Re-installing newer version of the same package&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#ffcccc;strokeColor=#36393d;" parent="1" vertex="1">
@@ -121,15 +121,15 @@
                     <mxGeometry y="90" width="440" height="160" as="geometry"/>
                 </mxCell>
                 <mxCell id="95" value="&lt;b&gt;different pnpm cmds&amp;nbsp;&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#ffcccc;strokeColor=#36393d;" parent="1" vertex="1">
-                    <mxGeometry x="650" y="270" width="340" height="220" as="geometry">
+                    <mxGeometry x="650" y="270" width="340" height="230" as="geometry">
                         <mxRectangle x="350" y="160" width="110" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="96" value="1. pnpm dlx: -&amp;nbsp;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="95" vertex="1">
                     <mxGeometry y="30" width="340" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="119" value="2. Check and remove orphaned/unreferenced/unlinked packages in the store&lt;div&gt;&lt;ul&gt;&lt;li&gt;On pnpm remove, it will only delink, the package from the current project, and wont delete the package from the store&lt;/li&gt;&lt;li&gt;So claim the disk space, we will have to explicitly run the prune cmd&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="95">
-                    <mxGeometry y="90" width="340" height="130" as="geometry"/>
+                <mxCell id="119" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;2. Check and remove orphaned/unreferenced/unlinked packages in the store&lt;/font&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;On pnpm remove, it will only delink, the package from the current project, and wont delete the package from the store&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;So claim the disk space, we will have to explicitly run the prune cmd&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="95" vertex="1">
+                    <mxGeometry y="90" width="340" height="140" as="geometry"/>
                 </mxCell>
                 <mxCell id="37" value="&lt;b&gt;Extra Info&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=light-dark(#FFCCCC,#4C0099);strokeColor=#36393d;" parent="1" vertex="1">
                     <mxGeometry x="200" y="-380" width="390" height="190" as="geometry">
@@ -191,7 +191,7 @@
                 <mxCell id="31" value="1. View the pnpm store path, and then open that path in explorer and see how the files of packages are organized in the pnpm store folder" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="30" vertex="1">
                     <mxGeometry y="30" width="360" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="116" value="2. Inspect the node_modules folder of any project that uses pnpm, focus on the node_modules/.pnpm and nested/transitive dependencies of the packages" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="30">
+                <mxCell id="116" value="2. Inspect the node_modules folder of any project that uses pnpm, focus on the node_modules/.pnpm and nested/transitive dependencies of the packages" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="30" vertex="1">
                     <mxGeometry y="90" width="360" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="9" style="edgeStyle=none;html=1;exitX=0.55;exitY=0.95;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="6" target="7" edge="1">
@@ -225,44 +225,44 @@
                         <mxPoint x="-160" y="10" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="101" value="Nested Node_modules installed package dependencies" style="swimlane;whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" vertex="1" parent="1">
-                    <mxGeometry x="231" y="980" width="380" height="410" as="geometry"/>
+                <mxCell id="101" value="Nested Node_modules installed package dependencies" style="swimlane;whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="231" y="980" width="429" height="410" as="geometry"/>
                 </mxCell>
-                <mxCell id="105" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="101" source="102" target="104">
+                <mxCell id="105" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="101" source="102" target="104" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="102" value="node_modules" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="101">
+                <mxCell id="102" value="node_modules" style="rounded=1;whiteSpace=wrap;html=1;" parent="101" vertex="1">
                     <mxGeometry x="14" y="50" width="100" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="109" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="101" source="106" target="108">
+                <mxCell id="109" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="101" source="106" target="108" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="106" value="node_modules" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="101">
+                <mxCell id="106" value="node_modules" style="rounded=1;whiteSpace=wrap;html=1;" parent="101" vertex="1">
                     <mxGeometry x="80" y="130" width="100" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="113" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="101" source="110" target="112">
+                <mxCell id="113" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="101" source="110" target="112" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="110" value="node_modules" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="101">
+                <mxCell id="110" value="node_modules" style="rounded=1;whiteSpace=wrap;html=1;" parent="101" vertex="1">
                     <mxGeometry x="160" y="210" width="100" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="107" style="edgeStyle=none;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="101" source="104" target="106">
+                <mxCell id="107" style="edgeStyle=none;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="101" source="104" target="106" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="104" value="Package1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="101">
+                <mxCell id="104" value="Package1" style="rounded=1;whiteSpace=wrap;html=1;" parent="101" vertex="1">
                     <mxGeometry x="14" y="90" width="100" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="111" style="edgeStyle=none;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="101" source="108" target="110">
+                <mxCell id="111" style="edgeStyle=none;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="101" source="108" target="110" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="108" value="Package2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="101">
+                <mxCell id="108" value="Package2" style="rounded=1;whiteSpace=wrap;html=1;" parent="101" vertex="1">
                     <mxGeometry x="80" y="170" width="100" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="112" value="Package3" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="101">
-                    <mxGeometry x="170" y="250" width="100" height="20" as="geometry"/>
+                <mxCell id="112" value="Package3" style="rounded=1;whiteSpace=wrap;html=1;" parent="101" vertex="1">
+                    <mxGeometry x="160" y="250" width="100" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="114" value="This is how npm &amp;lt;= v2, and pnpm store the dependenceis&lt;div&gt;&lt;ol&gt;&lt;li&gt;npm &amp;lt;= v2 re-install mean duplicates the package&lt;/li&gt;&lt;li&gt;While pnpm just links the package&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="101">
-                    <mxGeometry x="20" y="300" width="330" height="90" as="geometry"/>
+                <mxCell id="114" value="This is how npm &amp;lt;= v2, and pnpm store the nested dependenceis&lt;div&gt;&lt;ol&gt;&lt;li&gt;npm &amp;lt;= v2 re-install mean duplicates the package&lt;/li&gt;&lt;li&gt;While pnpm just links the package&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="101" vertex="1">
+                    <mxGeometry x="20" y="300" width="390" height="100" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
