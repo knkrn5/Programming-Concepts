@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="nBUPG6yjweeJ18klkmzt" name="Page-1">
-        <mxGraphModel dx="1583" dy="1601" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+        <mxGraphModel dx="1619" dy="1621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -223,7 +223,7 @@
                     <mxGeometry y="30" width="330" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="30" value="&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Practicals to do in PNPM&lt;/font&gt;&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=light-dark(#E51400,#CC0000);fontColor=#ffffff;strokeColor=#B20000;" parent="1" vertex="1">
-                    <mxGeometry x="1264" y="740" width="390" height="230" as="geometry">
+                    <mxGeometry x="1264" y="1240" width="390" height="230" as="geometry">
                         <mxRectangle x="264" y="490" width="110" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
@@ -240,7 +240,7 @@
                     <mxGeometry y="180" width="390" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="137" value="&lt;b&gt;Extra to do in pnpm&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;" parent="1" vertex="1">
-                    <mxGeometry x="1270" y="1030" width="380" height="140" as="geometry">
+                    <mxGeometry x="1270" y="1530" width="380" height="140" as="geometry">
                         <mxRectangle x="264" y="490" width="110" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
@@ -319,6 +319,74 @@
                 </mxCell>
                 <mxCell id="114" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;This is how npm &amp;lt;= v2, and pnpm store the nested dependenceis&lt;/font&gt;&lt;div&gt;&lt;ol&gt;&lt;li&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;npm &amp;lt;= v2 re-install mean duplicates the package&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;While pnpm just links the package&lt;/font&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="101" vertex="1">
                     <mxGeometry x="20" y="300" width="390" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="149" value="pnpm dlx architecture" style="swimlane;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+                    <mxGeometry x="1340" y="284" width="590" height="730" as="geometry"/>
+                </mxCell>
+                <mxCell id="152" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;flowAnimation=1;" edge="1" parent="149" source="151">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="70" y="150" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="153" value="if package&amp;nbsp;&lt;div&gt;already exists&lt;/div&gt;&lt;div&gt;in store&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="152">
+                    <mxGeometry x="-0.1686" y="1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="154" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" edge="1" parent="149" source="151" target="156">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="470" y="140" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="155" value="if packages&lt;div&gt;does not exists&lt;/div&gt;&lt;div&gt;in store&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="154">
+                    <mxGeometry x="-0.0815" y="1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="151" value="Package installed vai dlx" style="whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="149">
+                    <mxGeometry x="190" y="30" width="180" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="158" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="149" source="156" target="157">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="156" value="Downloads the package in sperate folder, not in files folder" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="149">
+                    <mxGeometry x="420" y="170" width="150" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="159" style="edgeStyle=none;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="149" source="157" target="160">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="460" y="410" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="161" value="expiry" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="159">
+                    <mxGeometry x="0.0996" y="2" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="163" style="edgeStyle=none;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="149" source="157" target="162">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="164" value="execution" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="163">
+                    <mxGeometry x="0.0041" y="-2" relative="1" as="geometry">
+                        <mxPoint x="1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="157" value="Stores the dlx package metadata as package.json in hash folder in cache directory (~/.cache/pnpm/dlx)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="149">
+                    <mxGeometry x="230" y="300" width="170" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="166" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="149" source="160" target="165">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="160" value="if not expiry mentioned in config file, then packags stays forever" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="149">
+                    <mxGeometry x="400" y="450" width="170" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="165" value="&lt;span style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;npm calculates the remaining expiry time of these dlx package by comparing cache hash folder creation time(file system timestamp) with the max-expiry-set in the config file&lt;/font&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="149">
+                    <mxGeometry x="350" y="590" width="230" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="162" value="pnpm executes it from" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="149">
+                    <mxGeometry x="140" y="460" width="170" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="167" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="96" target="149">
+                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
