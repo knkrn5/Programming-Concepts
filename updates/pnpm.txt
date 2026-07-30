@@ -1,35 +1,4 @@
 
-// Incase of reinstall pnpm: - 
-When you run corepack enable (or corepack prepare pnpm@<version> --activate), it just installs the pnpm binary/shims. On first use, pnpm checks its default store location and will find your existing store there — no need to re-download packages you already have cached.
------------------------------------------------------
-
-------------------------------------------------------
-
------------------------------------------------------------------
-Hard links vs symlinks
-perfomance difference
-
-On a purely filesystem level, you cannot hardlink a directory in most modern operating systems (like Linux, macOS, or Windows); you can only hardlink individual files.
-
-One nuance: hard links only work within the same filesystem/volume. If your store and project are on different drives, pnpm falls back to copying (or you'd configure package-import-method differently).
-
-========================================================
-
-
-=============================================================
-
-==================================================================
-// pnpm shell: -
-pnpm only has the one relevant config, and it's named the same:
-pnpm config set script-shell "/bin/bash"
-pnpm config set global-dir "C:\Users\User\AppData\Roaming\pnpm-global" // Tell pnpm where to put global binaries
-
-=====================================================
-//pnpm configs: - 
-pnpm config set store-dir /path/to/new/store // to change path
-
-
-=============================================================
 
 -------------------------------------------------------
 

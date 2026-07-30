@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="nBUPG6yjweeJ18klkmzt" name="Page-1">
-        <mxGraphModel dx="1740" dy="1697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+        <mxGraphModel dx="1987" dy="1697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -164,21 +164,21 @@
                     <mxGeometry y="460" width="460" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="130" value="&lt;b&gt;Pnpm setup/configuration&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#cce5ff;strokeColor=#36393d;" parent="1" vertex="1">
-                    <mxGeometry x="-200" y="480" width="380" height="230" as="geometry">
+                    <mxGeometry x="-200" y="469" width="380" height="260" as="geometry">
                         <mxRectangle x="-190" y="410" width="110" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="131" value="One time pnpn setup cmd is needed, for &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(102, 0, 204));&quot;&gt;adding the global package bin path in the env vai .bashrc&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="130" vertex="1">
                     <mxGeometry y="30" width="380" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="184" value="&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Confgis in pnpm: -&lt;/font&gt;&lt;/div&gt;&lt;ol&gt;&lt;li&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;Can config the network request timeout&lt;/font&gt;&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="130">
-                    <mxGeometry y="70" width="380" height="80" as="geometry"/>
+                <mxCell id="184" value="&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Confgis in pnpm: -&lt;/font&gt;&lt;/div&gt;&lt;ol&gt;&lt;li&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;Can config the network request timeout&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;can config the pnpm shell, for file execution&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;can change the pnpm global package installation path&lt;/font&gt;&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="130">
+                    <mxGeometry y="70" width="380" height="110" as="geometry"/>
                 </mxCell>
                 <mxCell id="144" value="2. Can config the dlx packages expiry time" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="130" vertex="1">
-                    <mxGeometry y="150" width="380" height="40" as="geometry"/>
+                    <mxGeometry y="180" width="380" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="186" value="3. can change the pnpm store directory path" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="130">
-                    <mxGeometry y="190" width="380" height="40" as="geometry"/>
+                    <mxGeometry y="220" width="380" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="37" value="&lt;b&gt;Extra Info&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=light-dark(#FFCCCC,#4C0099);strokeColor=#36393d;" parent="1" vertex="1">
                     <mxGeometry x="200" y="-380" width="390" height="190" as="geometry">
