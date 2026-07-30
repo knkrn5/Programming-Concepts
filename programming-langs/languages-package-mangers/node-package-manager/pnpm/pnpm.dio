@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="nBUPG6yjweeJ18klkmzt" name="Page-1">
-        <mxGraphModel dx="1619" dy="1621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+        <mxGraphModel dx="1382" dy="1486" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -72,7 +72,7 @@
                         <mxRectangle x="-200" y="710" width="110" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="13" value="&lt;ol&gt;&lt;li&gt;pnpm creates a hidden folder inside our project node modules -&amp;gt; node_modules/.pnpm. This is here the actual contents live. &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 76, 153));&quot;&gt;one subfolder per exact package version&lt;/span&gt; (for all dependencies, devdependencies and even for nested dependencies etc)&lt;/li&gt;&lt;li&gt;For each package version, pnpm reads the package&#39;s index files and every entry, &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 76, 153));&quot;&gt;Hardlinks the corresponding content hash file from store/v11/files/xx/... into the node_modules/.pnpm/packageNmae@version&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Now pnpm links the top-level dependencies in our project main node_modules via symlinks&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 76, 153));&quot;&gt;Nested/transitive dependencies&lt;/span&gt; also&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 76, 153));&quot;&gt; symlink to its respective hardLinked folder&lt;/span&gt; created in&amp;nbsp; node_modules/.pnpm&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="12" vertex="1">
+                <mxCell id="13" value="&lt;ol&gt;&lt;li&gt;pnpm creates a hidden folder inside our project node modules -&amp;gt; node_modules/.pnpm. &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 102, 102));&quot;&gt;This is called virtual store&lt;/span&gt;&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 153, 153));&quot;&gt; &lt;/span&gt;This is here the actual contents live. &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 76, 153));&quot;&gt;one subfolder per exact package version&lt;/span&gt; (for all dependencies, devdependencies and even for nested dependencies etc)&lt;/li&gt;&lt;li&gt;For each package version, pnpm reads the package&#39;s index files and every entry, &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 76, 153));&quot;&gt;Hardlinks the corresponding content hash file from store/v11/files/xx/... into the node_modules/.pnpm/packageNmae@version&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Now pnpm links the top-level dependencies in our project main node_modules via symlinks&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 76, 153));&quot;&gt;Nested/transitive dependencies&lt;/span&gt; also&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 76, 153));&quot;&gt; symlink to its respective hardLinked folder&lt;/span&gt; created in&amp;nbsp; node_modules/.pnpm&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="12" vertex="1">
                     <mxGeometry y="30" width="350" height="270" as="geometry"/>
                 </mxCell>
                 <mxCell id="145" value="&lt;b&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;Questions&lt;/font&gt;&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" parent="1" vertex="1">
@@ -141,21 +141,27 @@
                     <mxGeometry y="90" width="440" height="160" as="geometry"/>
                 </mxCell>
                 <mxCell id="95" value="&lt;b&gt;different pnpm cmds&amp;nbsp;&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#ffcccc;strokeColor=#36393d;" parent="1" vertex="1">
-                    <mxGeometry x="670" y="284" width="460" height="600" as="geometry">
+                    <mxGeometry x="670" y="284" width="460" height="510" as="geometry">
                         <mxRectangle x="620" y="400" width="110" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="96" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;1. pnpm dlx: -&amp;nbsp; alias cmds&amp;nbsp;&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 76, 153));&quot;&gt;pnx, pnpx&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;When we dont want to install the package permanently, and using it temporarily&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;If the packages already &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 76, 153));&quot;&gt;exists in the store it will use that&lt;/span&gt;, &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(153, 0, 153));&quot;&gt;else pnpm will download the package in sperate folder&lt;/span&gt; and&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 102, 102));&quot;&gt; not in the files folder&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Bydefualt&amp;nbsp; dlx packags expiry time is 24hrs&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;we can modify this defualt expiry time via config file&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;pnpm creates a temporary hash named folder for this dlx package at ~/.cache/pnpm/dlx, this hash folder contains the package.json file with its package name&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;packages building/linking of these packages happens at (&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(204, 0, 0));&quot;&gt;pending&lt;/span&gt;)&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Bin file of these packages are (&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(204, 0, 0));&quot;&gt;pending&lt;/span&gt;)&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Pnpm calculates the remaining expiry time of these dlx package by comparing cache hash folder creation time(file system timestamp) with the max-expiry-set in the config file&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;The meta data of these packages are store in ~/.cache/pnpm/dlx folder&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="95" vertex="1">
-                    <mxGeometry y="30" width="460" height="300" as="geometry"/>
+                <mxCell id="96" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;1. pnpm dlx: -&amp;nbsp; alias cmds&amp;nbsp;&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 76, 153));&quot;&gt;pnx, pnpx&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;When we dont want to install the package permanently, and using it temporarily&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;If the packages already &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 76, 153));&quot;&gt;exists in the store it will use that&lt;/span&gt;, &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(153, 0, 153));&quot;&gt;else pnpm will download the package in sperate folder&lt;/span&gt; and&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 102, 102));&quot;&gt; not in the files folder&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;For more detail see the diagram towards the right -&amp;gt;&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="95" vertex="1">
+                    <mxGeometry y="30" width="460" height="110" as="geometry"/>
                 </mxCell>
                 <mxCell id="122" value="1. pnpm exec: - If we want to directly execute the cli file from current project node_modules/.bin" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="95" vertex="1">
-                    <mxGeometry y="330" width="460" height="60" as="geometry"/>
+                    <mxGeometry y="140" width="460" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="119" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;2. Check and remove orphaned/unreferenced/unlinked packages in the store&lt;/font&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;On pnpm remove, it will only delink, the package from the current project, and wont delete the package from the store&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;So claim the disk space, we will have to explicitly run the prune cmd, &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 76, 153));&quot;&gt;it will delete all the packages that is not refrenced by any project and the dlx packages that has expired&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="95" vertex="1">
-                    <mxGeometry y="390" width="460" height="150" as="geometry"/>
+                    <mxGeometry y="200" width="460" height="150" as="geometry"/>
                 </mxCell>
                 <mxCell id="123" value="3. We can also link any/latest version of any package, already avaliable in our store, using &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(153, 0, 153));&quot;&gt;--offline cmd&lt;/span&gt;, without even a single network fetch" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="95" vertex="1">
-                    <mxGeometry y="540" width="460" height="60" as="geometry"/>
+                    <mxGeometry y="350" width="460" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="172" value="4. we can&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(102, 0, 204));&quot;&gt; directly add the package in the store itself&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="95">
+                    <mxGeometry y="410" width="460" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="173" value="5. can view the specific package, that is being used in the current project" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="95">
+                    <mxGeometry y="460" width="460" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="130" value="&lt;b&gt;Pnpm setup/configuration&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#cce5ff;strokeColor=#36393d;" parent="1" vertex="1">
                     <mxGeometry x="-160" y="509" width="340" height="110" as="geometry">
@@ -250,6 +256,14 @@
                 <mxCell id="139" value="2. Verify the index.db meta data content" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="137" vertex="1">
                     <mxGeometry y="90" width="380" height="50" as="geometry"/>
                 </mxCell>
+                <mxCell id="168" value="&lt;b&gt;Limitation in pnpm, that i wish could have been possible&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillStyle=cross-hatch;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+                    <mxGeometry x="1269" y="1720" width="380" height="130" as="geometry">
+                        <mxRectangle x="264" y="490" width="110" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="169" value="&lt;ol&gt;&lt;li&gt;&amp;nbsp;viewing the avaliable packages in the pnpm store&lt;/li&gt;&lt;li&gt;check for specific package in the store&amp;nbsp;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(204, 0, 0));&quot;&gt;check the specific package is being referenced by how many projects&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="168">
+                    <mxGeometry y="30" width="380" height="100" as="geometry"/>
+                </mxCell>
                 <mxCell id="9" style="edgeStyle=none;html=1;exitX=0.55;exitY=0.95;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="6" target="7" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
@@ -320,73 +334,98 @@
                 <mxCell id="114" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;This is how npm &amp;lt;= v2, and pnpm store the nested dependenceis&lt;/font&gt;&lt;div&gt;&lt;ol&gt;&lt;li&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;npm &amp;lt;= v2 re-install mean duplicates the package&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;While pnpm just links the package&lt;/font&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="101" vertex="1">
                     <mxGeometry x="20" y="300" width="390" height="100" as="geometry"/>
                 </mxCell>
-                <mxCell id="149" value="pnpm dlx architecture" style="swimlane;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+                <mxCell id="149" value="pnpm dlx architecture" style="swimlane;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
                     <mxGeometry x="1340" y="284" width="590" height="730" as="geometry"/>
                 </mxCell>
-                <mxCell id="152" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;flowAnimation=1;" edge="1" parent="149" source="151">
+                <mxCell id="152" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;flowAnimation=1;" parent="149" source="151" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="70" y="150" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="153" value="if package&amp;nbsp;&lt;div&gt;already exists&lt;/div&gt;&lt;div&gt;in store&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="152">
+                <mxCell id="153" value="if package&amp;nbsp;&lt;div&gt;already exists&lt;/div&gt;&lt;div&gt;in store&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="152" vertex="1" connectable="0">
                     <mxGeometry x="-0.1686" y="1" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="154" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" edge="1" parent="149" source="151" target="156">
+                <mxCell id="154" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" parent="149" source="151" target="156" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="470" y="140" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="155" value="if packages&lt;div&gt;does not exists&lt;/div&gt;&lt;div&gt;in store&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="154">
+                <mxCell id="155" value="if packages&lt;div&gt;does not exists&lt;/div&gt;&lt;div&gt;in store&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="154" vertex="1" connectable="0">
                     <mxGeometry x="-0.0815" y="1" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="151" value="Package installed vai dlx" style="whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="149">
+                <mxCell id="151" value="Package installed vai dlx" style="whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;" parent="149" vertex="1">
                     <mxGeometry x="190" y="30" width="180" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="158" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="149" source="156" target="157">
+                <mxCell id="158" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" parent="149" source="156" target="157" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="156" value="Downloads the package in sperate folder, not in files folder" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="149">
+                <mxCell id="180" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;now add the pacakge&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;in cache folder&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="158">
+                    <mxGeometry x="0.0619" y="1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="156" value="Downloads the package in virtual directory/folder, not in files folder" style="rounded=1;whiteSpace=wrap;html=1;" parent="149" vertex="1">
                     <mxGeometry x="420" y="170" width="150" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="159" style="edgeStyle=none;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="149" source="157" target="160">
+                <mxCell id="159" style="edgeStyle=none;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="149" source="157" target="160" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="460" y="410" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="161" value="expiry" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="159">
+                <mxCell id="161" value="expiry" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="159" vertex="1" connectable="0">
                     <mxGeometry x="0.0996" y="2" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="163" style="edgeStyle=none;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="149" source="157" target="162">
+                <mxCell id="163" style="edgeStyle=none;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="149" source="157" target="162" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="164" value="execution" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="163">
+                <mxCell id="164" value="execution" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="163" vertex="1" connectable="0">
                     <mxGeometry x="0.0041" y="-2" relative="1" as="geometry">
                         <mxPoint x="1" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="157" value="Stores the dlx package metadata as package.json in hash folder in cache directory (~/.cache/pnpm/dlx)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="149">
+                <mxCell id="157" value="Stores the dlx package metadata as package.json in hash folder in cache directory (~/.cache/pnpm/dlx)" style="rounded=1;whiteSpace=wrap;html=1;" parent="149" vertex="1">
                     <mxGeometry x="230" y="300" width="170" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="166" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="149" source="160" target="165">
+                <mxCell id="166" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="149" source="160" target="165" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="160" value="if not expiry mentioned in config file, then packags stays forever" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="149">
+                <mxCell id="160" value="if not expiry mentioned in config file, then packags stays forever" style="rounded=1;whiteSpace=wrap;html=1;" parent="149" vertex="1">
                     <mxGeometry x="400" y="450" width="170" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="165" value="&lt;span style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;npm calculates the remaining expiry time of these dlx package by comparing cache hash folder creation time(file system timestamp) with the max-expiry-set in the config file&lt;/font&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="149">
+                <mxCell id="165" value="&lt;span style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;npm calculates the remaining expiry time of these dlx package by comparing cache hash folder creation time(file system timestamp) with the max-expiry-set in the config file&lt;/font&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="149" vertex="1">
                     <mxGeometry x="350" y="590" width="230" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="162" value="pnpm executes it from" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="149">
+                <mxCell id="162" value="pnpm executes it from" style="rounded=1;whiteSpace=wrap;html=1;" parent="149" vertex="1">
                     <mxGeometry x="140" y="460" width="170" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="167" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="96" target="149">
+                <mxCell id="167" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="96" target="149" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="171" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;1. pnpm dlx: -&amp;nbsp; alias cmds&amp;nbsp;&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 76, 153));&quot;&gt;pnx, pnpx&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;When we dont want to install the package permanently, and using it temporarily&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;If the packages already &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 76, 153));&quot;&gt;exists in the store it will use that&lt;/span&gt;, &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(153, 0, 153));&quot;&gt;else pnpm will download the package in sperate folder&lt;/span&gt; and&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 102, 102));&quot;&gt; not in the files folder&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Bydefualt&amp;nbsp; dlx packags expiry time is 24hrs&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;we can modify this defualt expiry time via config file&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;pnpm creates a temporary hash named folder for this dlx package at ~/.cache/pnpm/dlx, this hash folder contains the package.json file with its package name&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;packages building/linking of these packages happens at (&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(204, 0, 0));&quot;&gt;pending&lt;/span&gt;)&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Bin file of these packages are (&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(204, 0, 0));&quot;&gt;pending&lt;/span&gt;)&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Pnpm calculates the remaining expiry time of these dlx package by comparing cache hash folder creation time(file system timestamp) with the max-expiry-set in the config file&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;The meta data of these packages are store in ~/.cache/pnpm/dlx folder&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="1">
+                    <mxGeometry x="2020" y="520" width="460" height="300" as="geometry"/>
+                </mxCell>
+                <mxCell id="176" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="174" target="177">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="2350" y="300" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="174" value="&lt;div style=&quot;background-color: rgb(18, 19, 20); font-family: &amp;quot;Droid Sans Mono&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre; color: rgb(187, 190, 191);&quot;&gt;&lt;div style=&quot;color: light-dark(rgb(187, 190, 191), rgb(73, 75, 76));&quot;&gt;&lt;span style=&quot;color: rgb(126, 231, 135);&quot;&gt;storeDir&quot;&lt;/span&gt;&lt;span style=&quot;color: rgb(187, 190, 191);&quot;&gt;: &lt;/span&gt;&lt;span style=&quot;color: rgb(165, 214, 255);&quot;&gt;&quot;/home/karan/.local/share/pnpm/store/v11&quot;&lt;/span&gt;&lt;span style=&quot;color: rgb(187, 190, 191);&quot;&gt;,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: light-dark(rgb(187, 190, 191), rgb(73, 75, 76));&quot;&gt;&lt;span style=&quot;color: rgb(187, 190, 191);&quot;&gt;  &lt;/span&gt;&lt;span style=&quot;color: rgb(126, 231, 135);&quot;&gt;&quot;virtualStoreDir&quot;&lt;/span&gt;&lt;span style=&quot;color: rgb(187, 190, 191);&quot;&gt;: &lt;/span&gt;&lt;span style=&quot;color: rgb(165, 214, 255);&quot;&gt;&quot;../../../../../../.local/share/pnpm/store/v11/links&quot;&lt;/span&gt;&lt;span style=&quot;color: rgb(187, 190, 191);&quot;&gt;,&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="2020" y="150" width="660" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="179" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="177" target="178">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="177" value="1. Now here in hte virtual directory pnpm install/download all hte versions of that same package&lt;div&gt;2. and then in the cache fodler pnpm hardlink this to folder, and then this hardlink one is symlinked to the another folder name &quot;pkg&quot;&lt;/div&gt;&lt;div&gt;3. now if the cache hash folder is deleted from the cache dir, now if run the prune cmd, it will now also delete that package version from this dlx virtual folder for that specific package&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="2010" y="290" width="680" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="178" value="&lt;ol&gt;&lt;li&gt;why not directly execute from the virtual dir:&amp;nbsp; - then how pnpm come to that this is a temporary packge, if it does maintain the cache dir for that package&lt;/li&gt;&lt;li&gt;&lt;p data-pm-slice=&quot;0 0 []&quot;&gt;pnpm has one habit, that will always use the symlink files, but that symlinked package wont be directly hard linked to its stores, instead pnpm will create a sperate folder that will be hardlink to the files in hte store and then this hardlink dir will be used to symlink&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p data-pm-slice=&quot;0 0 []&quot;&gt;install multiple dlx pacakge , install different versions of same packages then notice the virturl dir,&amp;nbsp; and then delete one hte hash folder from the cache, then run prune cmd and again inspect the virtual dir for that specific package folder&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="2810" y="250" width="480" height="210" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
