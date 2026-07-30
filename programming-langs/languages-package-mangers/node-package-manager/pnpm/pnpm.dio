@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="nBUPG6yjweeJ18klkmzt" name="Page-1">
-        <mxGraphModel dx="1382" dy="1486" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+        <mxGraphModel dx="1740" dy="1697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -164,15 +164,21 @@
                     <mxGeometry y="460" width="460" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="130" value="&lt;b&gt;Pnpm setup/configuration&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#cce5ff;strokeColor=#36393d;" parent="1" vertex="1">
-                    <mxGeometry x="-160" y="509" width="340" height="110" as="geometry">
+                    <mxGeometry x="-200" y="480" width="380" height="230" as="geometry">
                         <mxRectangle x="-190" y="410" width="110" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="131" value="1. Can config the network request timeout" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="130" vertex="1">
-                    <mxGeometry y="30" width="340" height="40" as="geometry"/>
+                <mxCell id="131" value="One time pnpn setup cmd is needed, for &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(102, 0, 204));&quot;&gt;adding the global package bin path in the env vai .bashrc&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="130" vertex="1">
+                    <mxGeometry y="30" width="380" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="184" value="&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Confgis in pnpm: -&lt;/font&gt;&lt;/div&gt;&lt;ol&gt;&lt;li&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;Can config the network request timeout&lt;/font&gt;&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="130">
+                    <mxGeometry y="70" width="380" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="144" value="2. Can config the dlx packages expiry time" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="130" vertex="1">
-                    <mxGeometry y="70" width="340" height="40" as="geometry"/>
+                    <mxGeometry y="150" width="380" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="186" value="3. can change the pnpm store directory path" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="130">
+                    <mxGeometry y="190" width="380" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="37" value="&lt;b&gt;Extra Info&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=light-dark(#FFCCCC,#4C0099);strokeColor=#36393d;" parent="1" vertex="1">
                     <mxGeometry x="200" y="-380" width="390" height="190" as="geometry">
@@ -229,7 +235,7 @@
                     <mxGeometry y="30" width="330" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="30" value="&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Practicals to do in PNPM&lt;/font&gt;&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=light-dark(#E51400,#CC0000);fontColor=#ffffff;strokeColor=#B20000;" parent="1" vertex="1">
-                    <mxGeometry x="1264" y="1240" width="390" height="230" as="geometry">
+                    <mxGeometry x="1264" y="1240" width="390" height="280" as="geometry">
                         <mxRectangle x="264" y="490" width="110" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
@@ -245,8 +251,11 @@
                 <mxCell id="142" value="3.&amp;nbsp;&lt;span style=&quot;text-align: center;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(192, 192, 192), rgb(255, 255, 255));&quot;&gt;view the pnpm dlx cache folder (~/cache/pnpm/dlx)&lt;/font&gt;&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="30" vertex="1">
                     <mxGeometry y="180" width="390" height="50" as="geometry"/>
                 </mxCell>
+                <mxCell id="185" value="4. Run the bin file directly from the hardlinked and symlinked folder for all kind of packages like global, dlx and project specific packages" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="30">
+                    <mxGeometry y="230" width="390" height="50" as="geometry"/>
+                </mxCell>
                 <mxCell id="137" value="&lt;b&gt;Extra to do in pnpm&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;" parent="1" vertex="1">
-                    <mxGeometry x="1270" y="1530" width="380" height="140" as="geometry">
+                    <mxGeometry x="1274" y="1700" width="380" height="140" as="geometry">
                         <mxRectangle x="264" y="490" width="110" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
@@ -257,7 +266,7 @@
                     <mxGeometry y="90" width="380" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="168" value="&lt;b&gt;Limitation in pnpm, that i wish could have been possible&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillStyle=cross-hatch;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
-                    <mxGeometry x="1269" y="1720" width="380" height="130" as="geometry">
+                    <mxGeometry x="1274" y="1880" width="380" height="130" as="geometry">
                         <mxRectangle x="264" y="490" width="110" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
@@ -418,14 +427,25 @@
                 <mxCell id="174" value="&lt;div style=&quot;background-color: rgb(18, 19, 20); font-family: &amp;quot;Droid Sans Mono&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre; color: rgb(187, 190, 191);&quot;&gt;&lt;div style=&quot;color: light-dark(rgb(187, 190, 191), rgb(73, 75, 76));&quot;&gt;&lt;span style=&quot;color: rgb(126, 231, 135);&quot;&gt;storeDir&quot;&lt;/span&gt;&lt;span style=&quot;color: rgb(187, 190, 191);&quot;&gt;: &lt;/span&gt;&lt;span style=&quot;color: rgb(165, 214, 255);&quot;&gt;&quot;/home/karan/.local/share/pnpm/store/v11&quot;&lt;/span&gt;&lt;span style=&quot;color: rgb(187, 190, 191);&quot;&gt;,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: light-dark(rgb(187, 190, 191), rgb(73, 75, 76));&quot;&gt;&lt;span style=&quot;color: rgb(187, 190, 191);&quot;&gt;  &lt;/span&gt;&lt;span style=&quot;color: rgb(126, 231, 135);&quot;&gt;&quot;virtualStoreDir&quot;&lt;/span&gt;&lt;span style=&quot;color: rgb(187, 190, 191);&quot;&gt;: &lt;/span&gt;&lt;span style=&quot;color: rgb(165, 214, 255);&quot;&gt;&quot;../../../../../../.local/share/pnpm/store/v11/links&quot;&lt;/span&gt;&lt;span style=&quot;color: rgb(187, 190, 191);&quot;&gt;,&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
                     <mxGeometry x="2020" y="150" width="660" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="179" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="177" target="178">
+                <mxCell id="179" style="edgeStyle=none;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="177" target="178">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="177" value="1. Now here in hte virtual directory pnpm install/download all hte versions of that same package&lt;div&gt;2. and then in the cache fodler pnpm hardlink this to folder, and then this hardlink one is symlinked to the another folder name &quot;pkg&quot;&lt;/div&gt;&lt;div&gt;3. now if the cache hash folder is deleted from the cache dir, now if run the prune cmd, it will now also delete that package version from this dlx virtual folder for that specific package&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
                     <mxGeometry x="2010" y="290" width="680" height="120" as="geometry"/>
                 </mxCell>
                 <mxCell id="178" value="&lt;ol&gt;&lt;li&gt;why not directly execute from the virtual dir:&amp;nbsp; - then how pnpm come to that this is a temporary packge, if it does maintain the cache dir for that package&lt;/li&gt;&lt;li&gt;&lt;p data-pm-slice=&quot;0 0 []&quot;&gt;pnpm has one habit, that will always use the symlink files, but that symlinked package wont be directly hard linked to its stores, instead pnpm will create a sperate folder that will be hardlink to the files in hte store and then this hardlink dir will be used to symlink&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p data-pm-slice=&quot;0 0 []&quot;&gt;install multiple dlx pacakge , install different versions of same packages then notice the virturl dir,&amp;nbsp; and then delete one hte hash folder from the cache, then run prune cmd and again inspect the virtual dir for that specific package folder&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="2810" y="250" width="480" height="210" as="geometry"/>
+                    <mxGeometry x="2828" y="350" width="480" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="181" value="&lt;p style=&quot;box-sizing: border-box; border: 0px solid; margin: 0px 0px 12px; padding: 0px; -webkit-font-smoothing: antialiased; text-rendering: geometricprecision; font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, sans-serif; font-size: 14px; text-align: start; background-color: rgb(22, 22, 22);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;When dlx needs to rebuild (, bad install, expired rebuild):&lt;/font&gt;&lt;/p&gt;&lt;ol style=&quot;box-sizing: border-box; border: 0px solid; margin: 8px 0px 12px; padding: 0px 0px 0px 2.25rem; list-style: outside decimal; -webkit-font-smoothing: antialiased; text-rendering: geometricprecision; font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, sans-serif; font-size: 14px; text-align: start; background-color: rgb(22, 22, 22); color: rgb(250, 250, 250);&quot;&gt;&lt;li style=&quot;box-sizing: border-box; border: 0px solid; margin: 0px 0px 8px; padding: 0px; -webkit-font-smoothing: antialiased; text-rendering: geometricprecision;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;Install into a &lt;span style=&quot;box-sizing: border-box; border: 0px solid; margin: 0px; padding: 0px; -webkit-font-smoothing: antialiased; text-rendering: geometricprecision; color: rgb(250, 250, 250);&quot;&gt;new&lt;/span&gt; random dir&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; border: 0px solid; margin: 0px 0px 8px; padding: 0px; -webkit-font-smoothing: antialiased; text-rendering: geometricprecision;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;Point &lt;code style=&quot;box-sizing: border-box; border: 0px solid; margin: 0px; padding: 2px 4px; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, &amp;quot;Liberation Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, monospace; font-feature-settings: normal; font-variation-settings: normal; font-size: 1em; background: none 0% 0% / auto repeat scroll padding-box border-box oklch(0.985098 0.000048918 none / 0.08); -webkit-font-smoothing: antialiased; text-rendering: geometricprecision; color: rgb(250, 250, 250);&quot;&gt;pkg&lt;/code&gt; at it&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; border: 0px solid; margin: 0px 0px 8px; padding: 0px; -webkit-font-smoothing: antialiased; text-rendering: geometricprecision;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;Delete the old dir&lt;/font&gt;&lt;/li&gt;&lt;/ol&gt;&lt;p style=&quot;box-sizing: border-box; border: 0px solid; margin: 0px 0px 12px; padding: 0px; -webkit-font-smoothing: antialiased; text-rendering: geometricprecision; font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, sans-serif; font-size: 14px; text-align: start; background-color: rgb(22, 22, 22); color: rgb(250, 250, 250);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;That swap is cheap and mostly atomic. If install ran &lt;span style=&quot;box-sizing: border-box; border: 0px solid; margin: 0px; padding: 0px; -webkit-font-smoothing: antialiased; text-rendering: geometricprecision; color: rgb(250, 250, 250);&quot;&gt;directly inside &lt;code style=&quot;box-sizing: border-box; border: 0px solid; margin: 0px; padding: 2px 4px; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, &amp;quot;Liberation Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, monospace; font-feature-settings: normal; font-variation-settings: normal; font-size: 1em; background: none 0% 0% / auto repeat scroll padding-box border-box oklch(0.800583 0.0997484 267.807 / 0.08); -webkit-font-smoothing: antialiased; text-rendering: geometricprecision; color: rgb(162, 188, 255);&quot; data-inline-code-kind=&quot;path&quot;&gt;pkg/&lt;/code&gt;&lt;/span&gt;, a crash mid-install leaves a half-broken tree at the path everything uses.&lt;/font&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="2800" y="60" width="560" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="182" style="edgeStyle=none;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.002;entryY=0.459;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="177" target="181">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="183" value="answer for&lt;div&gt;point 2&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="182">
+                    <mxGeometry x="-0.1277" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
                 </mxCell>
             </root>
         </mxGraphModel>

@@ -12,27 +12,6 @@ perfomance difference
 On a purely filesystem level, you cannot hardlink a directory in most modern operating systems (like Linux, macOS, or Windows); you can only hardlink individual files.
 
 One nuance: hard links only work within the same filesystem/volume. If your store and project are on different drives, pnpm falls back to copying (or you'd configure package-import-method differently).
---------------------------------------------
-// for direct execution: - 
-pnpm dlx — pnpm's equivalent of npx. It downloads a package temporarily (not installed globally, not added to any package.json), runs it once, then discards the cached copy after use (or reuses pnpm's content-addressable store cache on later runs). It's the "run this CLI tool without permanently installing it" command.
-pnpm dlx — the standard "download and execute" command (like npx).
-pnpx — a shorthand alias for pnpm dlx, same behavior, just fewer keystrokes.
-pnx — pnpm's own newer/canonical binary name for the same dlx functionality, with some extra flags like --package to pull in a specific package/version before running a different command, and support for security policy settings (minimumReleaseAge, etc.) as of pnpm v11.
----------------------------------------------------------
-======================================================
-pnpx tsc --version
-=================================================
-// pnpm setup: - This configures PNPM_HOME and adds it to your PATH ~/bashrc
-
-karan@karan-ThinkPad-T480:~$ pnpm setup
-Appended new lines to /home/karan/.bashrc
-
-Next configuration changes were made:
-export PNPM_HOME="/home/karan/.local/share/pnpm"  // so now all the packages will be installed here 
-case ":$PATH:" in
-  *":$PNPM_HOME/bin:"*) ;;
-  *) export PATH="$PNPM_HOME/bin:$PATH" ;;
-esac
 
 ========================================================
 
@@ -44,11 +23,6 @@ esac
 pnpm only has the one relevant config, and it's named the same:
 pnpm config set script-shell "/bin/bash"
 pnpm config set global-dir "C:\Users\User\AppData\Roaming\pnpm-global" // Tell pnpm where to put global binaries
-
-
-
-=================================================================
-practicals to do: -
 
 =====================================================
 //pnpm configs: - 
