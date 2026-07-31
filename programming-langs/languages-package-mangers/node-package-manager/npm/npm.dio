@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="PB_Av7lL4KWtdOZgtZJD" name="Page-1">
-        <mxGraphModel dx="2532" dy="2675" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+        <mxGraphModel dx="2791" dy="2675" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -344,6 +344,9 @@
                     <mxGeometry x="-0.0557" y="1" relative="1" as="geometry">
                         <mxPoint y="1" as="offset"/>
                     </mxGeometry>
+                </mxCell>
+                <mxCell id="247" value="packages with install/postinstall scripts (native binary builds, like &lt;code class=&quot;bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]&quot;&gt;sharp&lt;/code&gt; which compiles/downloads image processing binaries, or &lt;code class=&quot;bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]&quot;&gt;unrs-resolver&lt;/code&gt; which has a native Rust resolver binary) are &lt;strong&gt;blocked from running their build scripts by default&lt;/strong&gt;. This is a supply-chain security measure — a malicious package could otherwise run arbitrary code at install time via &lt;code class=&quot;bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]&quot;&gt;postinstall&lt;/code&gt;." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-150" y="30" width="300" height="140" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
