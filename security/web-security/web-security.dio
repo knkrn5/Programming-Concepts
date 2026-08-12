@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="rGSJD5ddG8PQZyiLct0F" name="Page-1">
-        <mxGraphModel dx="1472" dy="332" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+        <mxGraphModel dx="1900" dy="475" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -88,7 +88,7 @@
                         <mxRectangle x="440" y="500" width="60" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="9" value="Cross site scripting: - This means injecting the script code in any webiste&lt;div&gt;&lt;ul&gt;&lt;li&gt;The most imp thing is XSS attack, is how we are presenting/rendering the data in the browser&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="8" vertex="1">
+                <mxCell id="9" value="Cross site scripting: - This means injecting the script code in our webiste ro via brower console&lt;div&gt;&lt;ul&gt;&lt;li&gt;The most imp thing is XSS attack, is how we are presenting/rendering the data in the browser&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="8" vertex="1">
                     <mxGeometry y="30" width="330" height="90" as="geometry"/>
                 </mxCell>
                 <mxCell id="11" value="Types of XSS: -&lt;div&gt;&lt;ol&gt;&lt;li&gt;Persistent(Stored XSS): -&amp;nbsp; xss code stored in our database&lt;/li&gt;&lt;li&gt;Self-xss: - xss code executed via browser console&lt;/li&gt;&lt;li&gt;Non-persistent(Reflected XSS): - xss code that is written in the url query param, that goes to the server&lt;/li&gt;&lt;li&gt;DOM based XSS: - xss code that is written in the url hash, and that does not goes to the server&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="8" vertex="1">
