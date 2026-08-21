@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="X_PpY-UXwu0xNlu75yZ_" name="Page-1">
-        <mxGraphModel dx="1866" dy="144" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+        <mxGraphModel dx="2802" dy="633" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -51,19 +51,19 @@
                 <mxCell id="14" value="Scope level notificaiton" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="10" vertex="1">
                     <mxGeometry y="80" width="410" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="56" value="Firebase" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
+                <mxCell id="56" value="Firebase" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" parent="1" vertex="1">
                     <mxGeometry x="-250" width="410" height="210" as="geometry"/>
                 </mxCell>
-                <mxCell id="57" value="Initialize app" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="56">
+                <mxCell id="57" value="Initialize app" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="56" vertex="1">
                     <mxGeometry y="30" width="410" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="58" value="Get unique token" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="56">
+                <mxCell id="58" value="Get unique token" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="56" vertex="1">
                     <mxGeometry y="80" width="410" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="59" value="Subscriber event: - onMessage&lt;br&gt;publisher:- BTS push api (firebase admin sdk)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="56">
+                <mxCell id="59" value="Subscriber event: - onMessage&lt;br&gt;publisher:- BTS push api (firebase admin sdk)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="56" vertex="1">
                     <mxGeometry y="120" width="410" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="60" value="Token invalidation → Firebase Admin SDK throws &lt;code class=&quot;bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]&quot;&gt;messaging/registration-token-not-registered&lt;/code&gt; instead of raw &lt;code class=&quot;bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]&quot;&gt;410 Gone&lt;/code&gt;, so update your error handling:" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="56">
+                <mxCell id="60" value="Token invalidation → Firebase Admin SDK throws &lt;code class=&quot;bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]&quot;&gt;messaging/registration-token-not-registered&lt;/code&gt; instead of raw &lt;code class=&quot;bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]&quot;&gt;410 Gone&lt;/code&gt;, so update your error handling:" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="56" vertex="1">
                     <mxGeometry y="160" width="410" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="52" style="edgeStyle=none;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=-0.003;entryY=0.047;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="33" target="47" edge="1">
@@ -114,7 +114,7 @@
                 <mxCell id="22" value="Application: - boardcast&amp;nbsp; and unicast to specifc user (how to identify specific user)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="19" vertex="1">
                     <mxGeometry y="170" width="320" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="61" value="why per browser and not every user logged in a same browser" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="19">
+                <mxCell id="61" value="why per browser and not every user logged in a same browser" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="19" vertex="1">
                     <mxGeometry y="220" width="320" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="9" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="7" target="8" edge="1">
@@ -136,7 +136,7 @@
                     <mxGeometry x="-1050" y="1051" width="460" height="240" as="geometry"/>
                 </mxCell>
                 <mxCell id="23" value="VAPID (Voluntary Application Server Identification) keys are how a &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 51, 102));&quot;&gt;push server identifies&lt;/span&gt; itself to &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 153, 153));&quot;&gt;push services (like Chrome&#39;s or Firefox&#39;s push servers)&lt;/span&gt; without needing to register per-app with each browser vendor." style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="1" vertex="1">
-                    <mxGeometry x="490" y="1100" width="360" height="80" as="geometry"/>
+                    <mxGeometry x="510" y="1160" width="360" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="24" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="21" target="23" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
@@ -169,6 +169,12 @@
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="55" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="44" target="25" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="&lt;div&gt;the browser itself maintains the persistent connection, not your website&#39;s tab.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;it opens &lt;em&gt;one&lt;/em&gt; persistent connection to Google&#39;s push infrastructure (FCM at the transport level" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="990" width="320" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="20" target="62">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
             </root>
