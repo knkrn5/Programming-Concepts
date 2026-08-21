@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="PB_Av7lL4KWtdOZgtZJD" name="Page-1">
-        <mxGraphModel dx="1293" dy="2464" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+        <mxGraphModel dx="1846" dy="2794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -343,6 +343,14 @@
                         <mxPoint y="6" as="offset"/>
                     </mxGeometry>
                 </mxCell>
+                <mxCell id="263" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" edge="1" parent="221" source="63" target="262">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="264" value="if it exists" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="263">
+                    <mxGeometry x="0.5158" y="3" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
                 <mxCell id="63" value="will look into node_modules/.bin&lt;div&gt;folder in current dir&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="221" vertex="1">
                     <mxGeometry x="20" y="280" width="120" height="60" as="geometry"/>
                 </mxCell>
@@ -351,6 +359,9 @@
                 </mxCell>
                 <mxCell id="70" value="not found in bash error" style="rounded=1;whiteSpace=wrap;html=1;" parent="221" vertex="1">
                     <mxGeometry x="20" y="470" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="262" value="execute that file, with given args" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="221">
+                    <mxGeometry x="205" y="470" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="222" value="Script object property&lt;div&gt;in package.json&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="221" vertex="1">
                     <mxGeometry x="170" y="50" width="120" height="60" as="geometry"/>
@@ -376,10 +387,13 @@
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="247" value="packages with install/postinstall scripts (native binary builds, like &lt;code class=&quot;bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]&quot;&gt;sharp&lt;/code&gt; which compiles/downloads image processing binaries, or &lt;code class=&quot;bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]&quot;&gt;unrs-resolver&lt;/code&gt; which has a native Rust resolver binary) are &lt;strong&gt;blocked from running their build scripts by default&lt;/strong&gt;. This is a supply-chain security measure — a malicious package could otherwise run arbitrary code at install time via &lt;code class=&quot;bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]&quot;&gt;postinstall&lt;/code&gt;." style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="-150" y="30" width="300" height="140" as="geometry"/>
+                    <mxGeometry x="-420" y="-130" width="400" height="150" as="geometry"/>
                 </mxCell>
                 <mxCell id="248" value="&lt;span style=&quot;color: rgb(180, 180, 180); font-family: Poppins, &amp;quot;Noto Color Emoji&amp;quot;, sans-serif; font-size: 14px; text-align: start; white-space: pre-wrap; background-color: rgb(18, 18, 18);&quot;&gt;in npm we need need shell for two diffrent things 1. shell npm uses to run scripts written in package.json: -&amp;gt; npm config get shell &amp;lt;- which be seen by this cmd and second one is 2.  shell used to run npm scripts those are inside the node_modules/.bin folder -&amp;gt; npm config get script-shell &amp;lt;- which can be seen by this cmd&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="-310" y="-980" width="440" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="261" value="Package is main file for installing the exact verion of the packages in produciton&lt;br&gt;&lt;br&gt;while the semver ranges version in packageJson is only for hte dev&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;The real distinction is &lt;code class=&quot;bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]&quot;&gt;npm install&lt;/code&gt; vs &lt;code class=&quot;bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]&quot;&gt;npm install --frozen-lockfile&lt;/code&gt;, not dev vs. production:&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-420" y="40" width="390" height="110" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
