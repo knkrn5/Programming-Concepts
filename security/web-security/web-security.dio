@@ -47,7 +47,7 @@
                 <mxCell id="4" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Becuase the &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 153, 153));&quot;&gt;browser include the iframe site as a completely sperate window&lt;/span&gt; with all&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 76, 153));&quot;&gt; its data, like cookies, local and session storage etc&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;This can give the attacker full access to control our site with authenticated user&lt;/font&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="3" vertex="1">
                     <mxGeometry y="80" width="340" height="100" as="geometry"/>
                 </mxCell>
-                <mxCell id="18" value="Preventing XSS" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#e6d0de;strokeColor=#996185;gradientColor=#d5739d;" parent="1" vertex="1">
+                <mxCell id="18" value="Preventing XSS" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#e6d0de;strokeColor=#996185;gradientColor=#d5739d;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
                     <mxGeometry x="180" y="1160" width="310" height="130" as="geometry"/>
                 </mxCell>
                 <mxCell id="19" value="1. Never render the tml data as raw, also render as string" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="18" vertex="1">
@@ -67,7 +67,7 @@
                 <mxCell id="36" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Prevention from clickjacking of our webiste: -&lt;/font&gt;&lt;div&gt;&lt;ol&gt;&lt;li&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Either deny from x-frame-option or only allow the trusting sites for embedding our site in their site&lt;/font&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="29" vertex="1">
                     <mxGeometry y="80" width="310" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="65" value="Prevention from iframe attack" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+                <mxCell id="65" value="Prevention from iframe attack" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#b0e3e6;strokeColor=#0e8088;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
                     <mxGeometry x="-260" y="930" width="310" height="110" as="geometry">
                         <mxRectangle x="150" y="180" width="190" height="30" as="alternateBounds"/>
                     </mxGeometry>
@@ -113,7 +113,7 @@
                         <mxPoint x="14" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="8" value="XSS" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" parent="1" vertex="1">
+                <mxCell id="8" value="XSS attack" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" parent="1" vertex="1">
                     <mxGeometry x="520" y="570" width="330" height="390" as="geometry">
                         <mxRectangle x="440" y="500" width="60" height="30" as="alternateBounds"/>
                     </mxGeometry>
@@ -149,7 +149,7 @@
                 <mxCell id="61" value="&lt;ol&gt;&lt;li&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Permission policy&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Can control how much data, we want to share to the rediected third party site&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;can force the browser to only listen on HTTPS/HTTP for a specified period of time&lt;/font&gt;&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="60">
                     <mxGeometry y="30" width="390" height="130" as="geometry"/>
                 </mxCell>
-                <mxCell id="49" value="Preventing CSRF" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
+                <mxCell id="49" value="Preventing CSRF" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#b1ddf0;strokeColor=#10739e;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
                     <mxGeometry x="1200" y="170" width="390" height="130" as="geometry">
                         <mxRectangle x="440" y="500" width="60" height="30" as="alternateBounds"/>
                     </mxGeometry>
