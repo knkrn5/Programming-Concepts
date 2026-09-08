@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="uqevwgZpJVNHy1AXuyQf" name="Page-1">
-        <mxGraphModel dx="823" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+        <mxGraphModel dx="823" dy="1698" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -15,6 +15,15 @@
                 </mxCell>
                 <mxCell id="5" value="&lt;strong data-end=&quot;1131&quot; data-start=&quot;1114&quot;&gt;SWC / esbuild&lt;/strong&gt; are primarily &lt;strong data-end=&quot;1180&quot; data-start=&quot;1146&quot;&gt;compilers/transformation tools&lt;/strong&gt;:" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="4">
                     <mxGeometry y="30" width="280" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="compliers" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="-10" width="330" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Transforms code from one language/syntax to another (or to a lower-level representation)." style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="9">
+                    <mxGeometry y="30" width="330" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="&lt;strong&gt;Job&lt;/strong&gt;: syntax transformation, type checking, down-leveling features so older environments can run them" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="9">
+                    <mxGeometry y="80" width="330" height="50" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>

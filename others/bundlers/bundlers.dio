@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="G3lkFIEpVZ9_v5aQxDge" name="Page-1">
-        <mxGraphModel dx="823" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+        <mxGraphModel dx="823" dy="1698" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -15,6 +15,15 @@
                 </mxCell>
                 <mxCell id="6" value="&lt;strong data-end=&quot;1331&quot; data-start=&quot;1299&quot;&gt;Webpack / Rollup / Turbopack&lt;/strong&gt; are &lt;strong data-end=&quot;1348&quot; data-start=&quot;1336&quot;&gt;bundlers&lt;/strong&gt;:" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="3">
                     <mxGeometry y="30" width="270" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="bundlers" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="380" y="-60" width="330" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Takes many separate files/modules and combines them into fewer output files, resolving dependencies between them." style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="8">
+                    <mxGeometry y="30" width="330" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="&lt;strong&gt;Job&lt;/strong&gt;: dependency resolution, tree-shaking (removing unused code), code-splitting, minification, asset handling (images, CSS, etc.)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="8">
+                    <mxGeometry y="80" width="330" height="50" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
