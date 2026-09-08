@@ -4,8 +4,17 @@
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
+                <mxCell id="7" style="edgeStyle=none;html=1;exitX=0.31;exitY=0.8;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
                 <mxCell id="2" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;Bundlers&lt;/b&gt;&lt;/font&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
                     <mxGeometry x="425" y="190" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="bundlers" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="180" y="310" width="270" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="&lt;strong data-end=&quot;1331&quot; data-start=&quot;1299&quot;&gt;Webpack / Rollup / Turbopack&lt;/strong&gt; are &lt;strong data-end=&quot;1348&quot; data-start=&quot;1336&quot;&gt;bundlers&lt;/strong&gt;:" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="3">
+                    <mxGeometry y="30" width="270" height="50" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
