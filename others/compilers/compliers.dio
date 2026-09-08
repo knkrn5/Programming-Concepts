@@ -25,7 +25,7 @@
                 <mxCell id="13" value="1. Inputs files, Ignore files,&amp;nbsp;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="12">
                     <mxGeometry y="30" width="280" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="17" value="2. Start from which file, and then follow the imports" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="12">
+                <mxCell id="17" value="&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 76, 153));&quot;&gt;2. Start from which file, and then keep following the imports&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="12">
                     <mxGeometry y="70" width="280" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="16" value="2 Output dir" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="12">

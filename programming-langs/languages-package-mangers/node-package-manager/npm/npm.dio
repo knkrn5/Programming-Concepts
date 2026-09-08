@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="PB_Av7lL4KWtdOZgtZJD" name="Page-1">
-        <mxGraphModel dx="2580" dy="2698" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+        <mxGraphModel dx="2386" dy="2698" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -35,7 +35,7 @@
                     <mxGeometry x="395" y="-400" width="80" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="7" value="Package.json" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" parent="1" vertex="1">
-                    <mxGeometry x="222.75" y="-1090" width="422" height="200" as="geometry">
+                    <mxGeometry x="224" y="-1210" width="422" height="250" as="geometry">
                         <mxRectangle x="290" y="-1030" width="110" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
@@ -45,8 +45,8 @@
                 <mxCell id="266" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;2. Build sperate file for: -&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;ol&gt;&lt;li&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ESM: -&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;CJS: -&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;d.ts: -&lt;/font&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="7">
                     <mxGeometry y="60" width="422" height="110" as="geometry"/>
                 </mxCell>
-                <mxCell id="267" value="2. Config export in package json, for which file to get the required import" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="7">
-                    <mxGeometry y="170" width="422" height="30" as="geometry"/>
+                <mxCell id="267" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;2. Config export in package json, for which file to get the required import&lt;/font&gt;&lt;div&gt;&lt;ol&gt;&lt;li&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Subpath exports: -&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="7">
+                    <mxGeometry y="170" width="422" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="33" value="\" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="14" target="150" edge="1">
                     <mxGeometry relative="1" as="geometry">
