@@ -33,4 +33,5 @@ the npx cmd is not running the bin file path in window
 
 ====================================================
 1. .TypeScript's auto-import dedupes by resolved real file, not by specifier name.
-When the language service builds its list of "where could Logger be auto-imported from," it resolves each candidate declaration to a canonical file path. Since et and express-throttle both resolve to the same physical .d.ts file, TS treats them as one underlying module and only surfaces one suggestion for it — and in this case it happened to keep et (probably
+When the language service builds its list of "where could Logger be auto-imported from," it resolves each candidate declaration to a canonical file path. Since et and express-throttle both resolve to the same physical .d.ts file, TS treats them as one underlying module and only surfaces one suggestion for it — and in this case it happened to keep et (probably)
+2. 
