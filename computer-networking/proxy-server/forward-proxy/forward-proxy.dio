@@ -20,7 +20,7 @@
                     <mxGeometry width="90" height="90" as="geometry"/>
                 </mxCell>
                 <mxCell id="13" value="" style="group" parent="1" vertex="1" connectable="0">
-                    <mxGeometry x="364" y="195" width="100" height="150" as="geometry"/>
+                    <mxGeometry x="260" y="195" width="100" height="150" as="geometry"/>
                 </mxCell>
                 <mxCell id="12" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="13" vertex="1">
                     <mxGeometry width="100" height="150" as="geometry"/>
@@ -28,8 +28,11 @@
                 <mxCell id="11" value="" style="shadow=0;dashed=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.3d.proxy;" parent="13" vertex="1">
                     <mxGeometry x="27" y="10" width="46" height="46" as="geometry"/>
                 </mxCell>
+                <mxCell id="21" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Forward&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;proxy&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Server&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="13">
+                    <mxGeometry x="15" y="75" width="70" height="60" as="geometry"/>
+                </mxCell>
                 <mxCell id="16" value="" style="group" parent="1" vertex="1" connectable="0">
-                    <mxGeometry x="660" y="220" width="100" height="100" as="geometry"/>
+                    <mxGeometry x="770" y="210" width="100" height="100" as="geometry"/>
                 </mxCell>
                 <mxCell id="15" value="" style="ellipse;whiteSpace=wrap;html=1;" parent="16" vertex="1">
                     <mxGeometry width="100" height="100" as="geometry"/>
@@ -37,16 +40,16 @@
                 <mxCell id="14" value="" style="image;html=1;image=img/lib/clip_art/computers/Server_Rack_128x128.png" parent="16" vertex="1">
                     <mxGeometry x="15" y="15" width="70" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="17" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8" target="12">
+                <mxCell id="17" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=-0.02;entryY=0.107;entryDx=0;entryDy=0;entryPerimeter=0;flowAnimation=1;" edge="1" parent="1" source="8" target="12">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="18" style="edgeStyle=none;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="12" target="15">
+                <mxCell id="18" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" edge="1" parent="1" source="12" target="15">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="19" style="edgeStyle=none;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.98;entryY=0.94;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="15" target="12">
+                <mxCell id="19" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.98;entryY=0.94;entryDx=0;entryDy=0;entryPerimeter=0;flowAnimation=1;" edge="1" parent="1" source="15" target="12">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="20" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.913;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="12" target="8">
+                <mxCell id="20" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.913;exitDx=0;exitDy=0;exitPerimeter=0;flowAnimation=1;" edge="1" parent="1" source="12" target="8">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="370" y="340" as="sourcePoint"/>
                     </mxGeometry>
