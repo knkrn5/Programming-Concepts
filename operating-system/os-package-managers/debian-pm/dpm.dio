@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="QQs63BoRLsVjoyWR4fhj" name="Page-1">
-        <mxGraphModel dx="2401" dy="2146" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+        <mxGraphModel dx="2155" dy="1831" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -32,6 +32,9 @@
                         <mxPoint x="120" y="770" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
+                <mxCell id="20" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6" target="19">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
                 <mxCell id="6" value="&lt;span style=&quot;color: rgb(66, 66, 66); font-family: Poppins, &amp;quot;Noto Color Emoji&amp;quot;, sans-serif; font-size: 14px; text-align: start; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;3. sudo apt update: - this cmd will now downlaod the metadata(like package name, version, dependencies, file paths, maintainer, checksums, etc...) of all the urls that we have added in this directory &quot;/etc/apt/sources.list.d/&#39; with .list file . So incase of mongodb this url(&quot;&lt;/span&gt;&lt;a style=&quot;box-sizing: border-box; font-family: Poppins, &amp;quot;Noto Color Emoji&amp;quot;, sans-serif; text-decoration-line: none; background-color: rgb(255, 255, 255); outline: none; cursor: pointer; transition: color 0.3s; touch-action: manipulation; font-size: 14px; text-align: start; white-space-collapse: preserve; color: rgb(24, 144, 255) !important;&quot; href=&quot;https://repo.mongodb.org/apt/ubuntu&quot;&gt;https://repo.mongodb.org/apt/ubuntu&lt;/a&gt;&lt;span style=&quot;color: rgb(66, 66, 66); font-family: Poppins, &amp;quot;Noto Color Emoji&amp;quot;, sans-serif; font-size: 14px; text-align: start; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt; jammy/mongodb-org/7.0 &quot;) contain all mongodb repository like mongodb-server, mongodb-shell, mongodb-tools etc.., now once all these repository meta data have been add into the apt repository temporary cache, we can install these package with apt package manager now like this : -  sudo apt install -y mongodb-org-server mongodb-mongosh mongodb-database-tools&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="270" y="670" width="850" height="240" as="geometry"/>
                 </mxCell>
@@ -55,8 +58,11 @@
                 <mxCell id="17" value="for more see cryptography.svg" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="-545" y="520" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="18" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Some residue file amy have after uninstalling any package&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;~/.config/Cursor/&lt;br&gt;~/.cache/Cursor/&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="18" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Some residue file amy have after uninstalling any package&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;~/.config/Cursor/&lt;br&gt;~/.cache/Cursor/&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="-470" y="760" width="480" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="By default, &lt;code data-index-in-node=&quot;34&quot; data-path-to-node=&quot;0&quot;&gt;sudo apt&lt;/code&gt; installs packages system-wide so they are accessible to all users on the machine, and it places binaries, libraries, and configuration files into standard system directories (like &lt;code data-index-in-node=&quot;223&quot; data-path-to-node=&quot;0&quot;&gt;/usr/bin&lt;/code&gt; or &lt;code data-index-in-node=&quot;235&quot; data-path-to-node=&quot;0&quot;&gt;/etc&lt;/code&gt;)." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="380" y="1060" width="670" height="100" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
