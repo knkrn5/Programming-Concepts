@@ -1,252 +1,255 @@
 <mxfile host="65bd71144e">
     <diagram id="eBRQOH4gxZvUJZ3J0dhQ" name="Page-1">
-        <mxGraphModel dx="3318" dy="2119" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+        <mxGraphModel dx="2963" dy="1809" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="8" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="2" target="7" edge="1">
+                <mxCell id="8" edge="1" parent="1" source="2" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="7">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="32" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="2" target="31" edge="1">
+                <mxCell id="32" edge="1" parent="1" source="2" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="31">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="53" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="69" target="54" edge="1">
+                <mxCell id="53" edge="1" parent="1" source="69" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="54">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="470" y="400" as="targetPoint"/>
                         <mxPoint x="570" y="580" as="sourcePoint"/>
+                        <mxPoint x="470" y="400" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="67" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2" target="66">
+                <mxCell id="67" edge="1" parent="1" source="2" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="66">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="68" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2" target="69">
+                <mxCell id="68" edge="1" parent="1" source="2" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="69">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="620" y="360" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="2" value="&lt;b&gt;&lt;font style=&quot;font-size: 25px;&quot;&gt;Next Js&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
-                    <mxGeometry x="555" y="150" width="120" height="60" as="geometry"/>
+                <mxCell id="2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" value="&lt;b&gt;&lt;font style=&quot;font-size: 25px;&quot;&gt;Next Js&lt;/font&gt;&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="60" width="120" x="555" y="150" as="geometry"/>
                 </mxCell>
-                <mxCell id="3" value="Server Components render first&lt;br&gt;↓&lt;br&gt;HTML streamed to browser&lt;br&gt;↓&lt;br&gt;Client JS downloaded&lt;br&gt;↓&lt;br&gt;Hydration(Attaches&quot; itself — event listeners, useState, useEffect all activate)&lt;br&gt;↓&lt;br&gt;Client interactivity starts" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="-890" y="320" width="430" height="140" as="geometry"/>
+                <mxCell id="3" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;" value="Server Components render first&lt;br&gt;↓&lt;br&gt;HTML streamed to browser&lt;br&gt;↓&lt;br&gt;Client JS downloaded&lt;br&gt;↓&lt;br&gt;Hydration(Attaches&quot; itself — event listeners, useState, useEffect all activate)&lt;br&gt;↓&lt;br&gt;Client interactivity starts" vertex="1">
+                    <mxGeometry height="140" width="430" x="-960" y="320" as="geometry"/>
                 </mxCell>
-                <mxCell id="4" style="edgeStyle=none;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.977;entryY=-0.014;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="31" target="38" edge="1">
+                <mxCell id="4" edge="1" parent="1" source="31" style="edgeStyle=none;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.977;entryY=-0.014;entryDx=0;entryDy=0;entryPerimeter=0;" target="38">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="5" value="&lt;blockquote data-end=&quot;87&quot; data-start=&quot;14&quot;&gt;&lt;p data-end=&quot;87&quot; data-start=&quot;16&quot;&gt;“What happens when a &lt;strong data-end=&quot;85&quot; data-start=&quot;37&quot;&gt;Client Component contains a Server Component&lt;/strong&gt;?”&lt;/p&gt;&lt;/blockquote&gt;&lt;p data-end=&quot;147&quot; data-start=&quot;89&quot;&gt;👉 That is &lt;strong data-end=&quot;124&quot; data-start=&quot;100&quot;&gt;NOT allowed directly&lt;/strong&gt; in Next.js App Router&lt;/p&gt;&lt;p data-end=&quot;147&quot; data-start=&quot;89&quot;&gt;After hydration, browser cannot suddenly execute server-only code.&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="-950" y="-100" width="520" height="100" as="geometry"/>
+                <mxCell id="5" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;" value="&lt;blockquote data-end=&quot;87&quot; data-start=&quot;14&quot;&gt;&lt;p data-end=&quot;87&quot; data-start=&quot;16&quot;&gt;“What happens when a &lt;strong data-end=&quot;85&quot; data-start=&quot;37&quot;&gt;Client Component contains a Server Component&lt;/strong&gt;?”&lt;/p&gt;&lt;/blockquote&gt;&lt;p data-end=&quot;147&quot; data-start=&quot;89&quot;&gt;👉 That is &lt;strong data-end=&quot;124&quot; data-start=&quot;100&quot;&gt;NOT allowed directly&lt;/strong&gt; in Next.js App Router&lt;/p&gt;&lt;p data-end=&quot;147&quot; data-start=&quot;89&quot;&gt;After hydration, browser cannot suddenly execute server-only code.&lt;/p&gt;" vertex="1">
+                    <mxGeometry height="100" width="520" x="-950" y="-100" as="geometry"/>
                 </mxCell>
-                <mxCell id="6" style="edgeStyle=none;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.996;entryY=0.491;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="33" target="5" edge="1">
+                <mxCell id="6" edge="1" parent="1" source="33" style="edgeStyle=none;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.996;entryY=0.491;entryDx=0;entryDy=0;entryPerimeter=0;" target="5">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="13" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.414;entryY=0.933;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="7" target="9" edge="1">
+                <mxCell id="13" edge="1" parent="1" source="7" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.414;entryY=0.933;entryDx=0;entryDy=0;entryPerimeter=0;" target="9">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="410" y="-160" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="16" style="edgeStyle=none;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="18" target="14" edge="1">
+                <mxCell id="16" edge="1" parent="1" source="7" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="14">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="20" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="7" target="18" edge="1">
+                <mxCell id="20" edge="1" parent="1" source="7" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="18">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="7" value="&lt;b&gt;Rendering&lt;/b&gt;&lt;div&gt;&lt;b&gt;Paradigm&lt;/b&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="555" y="-160" width="110" height="90" as="geometry"/>
+                <mxCell id="7" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="&lt;b&gt;Rendering&lt;/b&gt;&lt;div&gt;&lt;b&gt;Paradigm&lt;/b&gt;&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="90" width="110" x="555" y="-160" as="geometry"/>
                 </mxCell>
-                <mxCell id="37" style="edgeStyle=none;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="31" target="33" edge="1">
+                <mxCell id="37" edge="1" parent="1" source="31" style="edgeStyle=none;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" target="33">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="31" value="&lt;b&gt;Components&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="200" y="135" width="110" height="90" as="geometry"/>
+                <mxCell id="31" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="&lt;b&gt;Components&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="90" width="110" x="200" y="135" as="geometry"/>
                 </mxCell>
-                <mxCell id="9" value="CSR" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-                    <mxGeometry x="130" y="-320" width="240" height="60" as="geometry">
-                        <mxRectangle x="120" y="-100" width="70" height="30" as="alternateBounds"/>
+                <mxCell id="9" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" value="CSR" vertex="1">
+                    <mxGeometry height="60" width="340" x="30" y="-320" as="geometry">
+                        <mxRectangle height="30" width="70" x="120" y="-100" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="10" value="" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="9" vertex="1">
-                    <mxGeometry y="30" width="240" height="30" as="geometry"/>
+                <mxCell id="10" parent="9" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="" vertex="1">
+                    <mxGeometry height="30" width="340" y="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="28" style="edgeStyle=none;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="18" target="22" edge="1">
+                <mxCell id="28" edge="1" parent="1" source="18" style="edgeStyle=none;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="22">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="29" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="22" target="25" edge="1">
+                <mxCell id="29" edge="1" parent="1" source="22" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="25">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="18" value="Rendering type" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-                    <mxGeometry x="480" y="-380" width="260" height="150" as="geometry">
-                        <mxRectangle x="290" y="-170" width="70" height="30" as="alternateBounds"/>
+                <mxCell id="18" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" value="Rendering type" vertex="1">
+                    <mxGeometry height="150" width="260" x="480" y="-380" as="geometry">
+                        <mxRectangle height="30" width="70" x="290" y="-170" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="19" value="1. Static rendering: - HTML is generated &lt;strong&gt;at build time&lt;/strong&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="18" vertex="1">
-                    <mxGeometry y="30" width="260" height="40" as="geometry"/>
+                <mxCell id="19" parent="18" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="1. Static rendering: - HTML is generated &lt;strong&gt;at build time&lt;/strong&gt;" vertex="1">
+                    <mxGeometry height="40" width="260" y="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="21" value="2. Dynamic rendering: - HTML is generated &lt;strong&gt;on every request&lt;/strong&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="18" vertex="1">
-                    <mxGeometry y="70" width="260" height="40" as="geometry"/>
+                <mxCell id="21" parent="18" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="2. Dynamic rendering: - HTML is generated &lt;strong&gt;on every request&lt;/strong&gt;" vertex="1">
+                    <mxGeometry height="40" width="260" y="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="30" value="In NextJs we can force any page to be static or dynamic" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="18" vertex="1">
-                    <mxGeometry y="110" width="260" height="40" as="geometry"/>
+                <mxCell id="30" parent="18" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="we can force any page to be static or dynamic" vertex="1">
+                    <mxGeometry height="40" width="260" y="110" as="geometry"/>
                 </mxCell>
-                <mxCell id="33" value="Client Component" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-                    <mxGeometry x="-280" y="10" width="310" height="70" as="geometry">
-                        <mxRectangle x="290" y="-170" width="70" height="30" as="alternateBounds"/>
+                <mxCell id="33" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" value="Client Component" vertex="1">
+                    <mxGeometry height="70" width="310" x="-280" y="10" as="geometry">
+                        <mxRectangle height="30" width="70" x="290" y="-170" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="34" value="Executes on both client and server" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="33" vertex="1">
-                    <mxGeometry y="30" width="310" height="40" as="geometry"/>
+                <mxCell id="34" parent="33" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="Executes on both client and server" vertex="1">
+                    <mxGeometry height="40" width="310" y="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="50" value="Error Handling" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-                    <mxGeometry x="-20" y="945" width="330" height="150" as="geometry">
-                        <mxRectangle x="290" y="-170" width="70" height="30" as="alternateBounds"/>
+                <mxCell id="50" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" value="Error Handling" vertex="1">
+                    <mxGeometry height="150" width="330" x="-20" y="908" as="geometry">
+                        <mxRectangle height="30" width="70" x="-20" y="908" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="49" value="&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 102, 204));&quot;&gt;Error Handling &lt;/span&gt;in server component: - the clild page error just bubble up to the parent so the error page in the parent folder will handle all its nested pages errors or we can create different error page for every nested page&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;The same error can/will also handle the error in the &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 102, 204));&quot;&gt;client component&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="50" vertex="1">
-                    <mxGeometry y="30" width="330" height="120" as="geometry"/>
+                <mxCell id="49" parent="50" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 102, 204));&quot;&gt;Error Handling &lt;/span&gt;in server component: - the clild page error just bubble up to the parent so the error page in the parent folder will handle all its nested pages errors or we can create different error page for every nested page&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;The same error can/will also handle the error in the &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 102, 204));&quot;&gt;client component&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="120" width="330" y="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="38" value="Server Component" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-                    <mxGeometry x="-310" y="280" width="310" height="180" as="geometry">
-                        <mxRectangle x="290" y="-170" width="70" height="30" as="alternateBounds"/>
+                <mxCell id="38" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" value="Server Component" vertex="1">
+                    <mxGeometry height="180" width="360" x="-360" y="280" as="geometry">
+                        <mxRectangle height="30" width="70" x="290" y="-170" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="39" value="executes only on server" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="38" vertex="1">
-                    <mxGeometry y="30" width="310" height="40" as="geometry"/>
+                <mxCell id="39" parent="38" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="executes only on server" vertex="1">
+                    <mxGeometry height="40" width="360" y="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="43" value="Server component iwth page.tsx in nextjs, receives param and searchParams by defualt in their prop, but the &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 102, 204));&quot;&gt;param&lt;/span&gt; value will only come if components are under the dynamic route segment and the &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 102, 204));&quot;&gt;serachParam&lt;/span&gt; is can alway be present because a url can alway have a query string" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="38" vertex="1">
-                    <mxGeometry y="70" width="310" height="110" as="geometry"/>
+                <mxCell id="43" parent="38" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="Server component with page.tsx in nextjs, receives param and searchParams by defualt in their prop, but the &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 102, 204));&quot;&gt;param&lt;/span&gt; value will only come if components are under the dynamic route segment and the &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 102, 204));&quot;&gt;serachParam&lt;/span&gt; is can alway be present because a url can alway have a query string" vertex="1">
+                    <mxGeometry height="110" width="360" y="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="52" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="44" target="50" edge="1">
+                <mxCell id="52" edge="1" parent="1" source="44" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="50">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="44" value="Other handling in nextjs" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-                    <mxGeometry x="-10" y="680" width="310" height="120" as="geometry">
-                        <mxRectangle x="60" y="445" width="70" height="30" as="alternateBounds"/>
+                <mxCell id="44" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" value="Other handling in nextjs" vertex="1">
+                    <mxGeometry height="120" width="310" x="-10" y="680" as="geometry">
+                        <mxRectangle height="30" width="70" x="60" y="445" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="45" value="1. Page not found can be handled at both global and page specific level" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="44" vertex="1">
-                    <mxGeometry y="30" width="310" height="40" as="geometry"/>
+                <mxCell id="45" parent="44" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="1. Page not found can be handled at both global and page specific level" vertex="1">
+                    <mxGeometry height="40" width="310" y="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="46" value="2. Loading handling: - the server component loading can be handled at page level specific" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="44" vertex="1">
-                    <mxGeometry y="70" width="310" height="50" as="geometry"/>
+                <mxCell id="46" parent="44" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="2. Loading handling: - the server component loading can be handled at page level specific" vertex="1">
+                    <mxGeometry height="50" width="310" y="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="61" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="54" target="58" edge="1">
+                <mxCell id="61" edge="1" parent="1" source="54" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="58">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="54" value="Client side, Routing in nextjs" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-                    <mxGeometry x="455" y="680" width="310" height="150" as="geometry">
-                        <mxRectangle x="415" y="440" width="70" height="30" as="alternateBounds"/>
+                <mxCell id="54" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" value="Client side, Routing in nextjs" vertex="1">
+                    <mxGeometry height="150" width="385" x="414" y="665" as="geometry">
+                        <mxRectangle height="30" width="70" x="415" y="440" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="55" value="Bydefualt all the page.ts run in nodejs env, can config to run on edge" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="54" vertex="1">
-                    <mxGeometry y="30" width="310" height="40" as="geometry"/>
+                <mxCell id="55" parent="54" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="Bydefualt all the page.ts run in nodejs env, can config to run on edge" vertex="1">
+                    <mxGeometry height="40" width="385" y="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="76" value="File structure based routing, page name should be &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 102, 204));&quot;&gt;page.ts&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="54">
-                    <mxGeometry y="70" width="310" height="40" as="geometry"/>
+                <mxCell id="76" parent="54" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="File structure based routing, page name should be &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 102, 204));&quot;&gt;page.ts&lt;/span&gt;" vertex="1">
+                    <mxGeometry height="40" width="385" y="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="57" value="" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="54" vertex="1">
-                    <mxGeometry y="110" width="310" height="40" as="geometry"/>
+                <mxCell id="57" parent="54" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="" vertex="1">
+                    <mxGeometry height="40" width="385" y="110" as="geometry"/>
                 </mxCell>
-                <mxCell id="71" value="API in nextjs" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="1170" y="130" width="310" height="100" as="geometry">
-                        <mxRectangle x="1240" y="135" width="70" height="30" as="alternateBounds"/>
+                <mxCell id="71" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" value="API in nextjs" vertex="1">
+                    <mxGeometry height="100" width="350" x="1170" y="130" as="geometry">
+                        <mxRectangle height="30" width="70" x="1240" y="135" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="75" value="File based api routes, the page name should be &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 102, 204));&quot;&gt;route.ts&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="71">
-                    <mxGeometry y="30" width="310" height="30" as="geometry"/>
+                <mxCell id="75" parent="71" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="File based api routes, the page name should be &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 102, 204));&quot;&gt;route.ts&lt;/span&gt;" vertex="1">
+                    <mxGeometry height="30" width="350" y="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="73" value="" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="71">
-                    <mxGeometry y="60" width="310" height="40" as="geometry"/>
+                <mxCell id="73" parent="71" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="" vertex="1">
+                    <mxGeometry height="40" width="350" y="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="77" value="Middleware in nextjs" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="1170" y="-10" width="310" height="100" as="geometry">
-                        <mxRectangle x="1240" y="135" width="70" height="30" as="alternateBounds"/>
+                <mxCell id="77" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" value="Middleware in nextjs" vertex="1">
+                    <mxGeometry height="100" width="330" x="1170" y="-10" as="geometry">
+                        <mxRectangle height="30" width="70" x="1240" y="135" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="78" value="Middleware(proxy), bydefualt runs on the edge function" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="77">
-                    <mxGeometry y="30" width="310" height="30" as="geometry"/>
+                <mxCell id="78" parent="77" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="Middleware(proxy), bydefualt runs on the nodejs" vertex="1">
+                    <mxGeometry height="30" width="330" y="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="79" value="" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="77">
-                    <mxGeometry y="60" width="310" height="40" as="geometry"/>
+                <mxCell id="79" parent="77" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="" vertex="1">
+                    <mxGeometry height="40" width="330" y="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="62" value="other" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-                    <mxGeometry x="460" y="1110" width="310" height="100" as="geometry">
-                        <mxRectangle x="480" y="800" width="70" height="30" as="alternateBounds"/>
+                <mxCell id="62" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" value="other" vertex="1">
+                    <mxGeometry height="140" width="360" x="900" y="670" as="geometry">
+                        <mxRectangle height="30" width="70" x="480" y="800" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="63" value="image optimization: -" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="62" vertex="1">
-                    <mxGeometry y="30" width="310" height="30" as="geometry"/>
+                <mxCell id="63" parent="62" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="image optimization: -" vertex="1">
+                    <mxGeometry height="30" width="360" y="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="64" value="To use the thrid party hosted image in nextjs, we have to add that in next config file" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="62" vertex="1">
-                    <mxGeometry y="60" width="310" height="40" as="geometry"/>
+                <mxCell id="64" parent="62" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="To use the thrid party hosted image in nextjs, we have to add that in next config file" vertex="1">
+                    <mxGeometry height="40" width="360" y="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="65" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="58" target="62" edge="1">
+                <mxCell id="TsRvNCJubibaP0OsQTni-81" parent="62" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="The env file precedence: -&amp;nbsp;&lt;span style=&quot;color: rgb(240, 246, 252); font-family: &amp;quot;Mona Sans VF&amp;quot;, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans Backtick Fix&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 14px; background-color: rgb(13, 17, 23);&quot;&gt;frist .env.local and then .env&lt;/span&gt;" vertex="1">
+                    <mxGeometry height="40" width="360" y="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" value="Project structure" vertex="1">
+                    <mxGeometry height="110" width="375" x="414" y="908" as="geometry">
+                        <mxRectangle height="30" width="70" x="460" y="630" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="59" parent="58" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="1. can create &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(118, 96, 138));&quot;&gt;private folders&lt;/span&gt;, so that is does not come in routing" vertex="1">
+                    <mxGeometry height="40" width="375" y="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" parent="58" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="2. create &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(118, 96, 138));&quot;&gt;folder to organtion &lt;/span&gt;files(creating routing grp) without comming in rouing" vertex="1">
+                    <mxGeometry height="40" width="375" y="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" value="SSR" vertex="1">
+                    <mxGeometry height="70" width="310" x="840" y="-370" as="geometry">
+                        <mxRectangle height="30" width="70" x="520" y="-130" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="15" parent="14" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="Server side rendering: - it basically dynamic rendering" vertex="1">
+                    <mxGeometry height="40" width="310" y="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" value="SSG" vertex="1">
+                    <mxGeometry height="190" width="310" x="245" y="-650" as="geometry">
+                        <mxRectangle height="30" width="70" x="30" y="-470" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="23" parent="22" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;SSG: - server site generation = we can also prebuild HTML page for the dynamic page with dynamic data during the build preiod using generateStaticParams&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;This bydefualt even generate the HTML page on demaid too, we can disable that&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="90" width="310" y="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" parent="22" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;CON: - used for dynamic page that are frequently or most visited&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;PON: - if the dynamic data change frequently, then it will not be shown untill we rebuild site&lt;/font&gt;&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="70" width="310" y="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" value="ISR" vertex="1">
+                    <mxGeometry height="80" width="300" x="160" y="-850" as="geometry">
+                        <mxRectangle height="30" width="70" x="470" y="-460" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="26" parent="25" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="ISR: - Incremental static regeneration = it is the Extended version of SSG, which just regenerate the site on the first request after the specified time" vertex="1">
+                    <mxGeometry height="50" width="300" y="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" edge="1" parent="1" source="38" style="edgeStyle=none;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.992;entryY=0.045;entryDx=0;entryDy=0;entryPerimeter=0;" target="3">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="58" value="Project structure" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-                    <mxGeometry x="455" y="910" width="310" height="110" as="geometry">
-                        <mxRectangle x="460" y="630" width="70" height="30" as="alternateBounds"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="59" value="1. can create &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(118, 96, 138));&quot;&gt;private folders&lt;/span&gt;, so that is does not come in routing" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="58" vertex="1">
-                    <mxGeometry y="30" width="310" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="60" value="2. create &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(118, 96, 138));&quot;&gt;folder to organtion &lt;/span&gt;files without comming in rouing" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="58" vertex="1">
-                    <mxGeometry y="70" width="310" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="14" value="SSR" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-                    <mxGeometry x="750" y="-570" width="270" height="70" as="geometry">
-                        <mxRectangle x="520" y="-130" width="70" height="30" as="alternateBounds"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="15" value="Server side rendering: - it basically dynamic rendering" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="14" vertex="1">
-                    <mxGeometry y="30" width="270" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="22" value="SSG" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-                    <mxGeometry x="245" y="-650" width="310" height="190" as="geometry">
-                        <mxRectangle x="30" y="-470" width="70" height="30" as="alternateBounds"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="23" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;SSG: - server site generation = we can also prebuild HTML page for the dynamic page with dynamic data during the build preiod using generateStaticParams&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;This bydefualt even generate the HTML page on demaid too, we can disable that&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="22" vertex="1">
-                    <mxGeometry y="30" width="310" height="90" as="geometry"/>
-                </mxCell>
-                <mxCell id="27" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;CON: - used for dynamic page that are frequently or most visited&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;PON: - if the dynamic data change frequently, then it will not be shown untill we rebuild site&lt;/font&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="22" vertex="1">
-                    <mxGeometry y="120" width="310" height="70" as="geometry"/>
-                </mxCell>
-                <mxCell id="25" value="ISR" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-                    <mxGeometry x="160" y="-850" width="300" height="80" as="geometry">
-                        <mxRectangle x="470" y="-460" width="70" height="30" as="alternateBounds"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="26" value="ISR: - Incremental static regeneration = it is the Extended version of SSG, which just regenerate the site on the first request after the specified time" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="25" vertex="1">
-                    <mxGeometry y="30" width="300" height="50" as="geometry"/>
-                </mxCell>
-                <mxCell id="40" style="edgeStyle=none;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.992;entryY=0.045;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="38" target="3" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="42" style="edgeStyle=none;html=1;exitX=0.094;exitY=1.009;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" parent="1" source="3" target="41" edge="1">
+                <mxCell id="42" edge="1" parent="1" source="3" style="edgeStyle=none;html=1;exitX=0.094;exitY=1.009;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" target="41">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="-800" y="677" as="sourcePoint"/>
                         <mxPoint x="-890" y="760" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="41" value="Hyrdration error comes in a client component when there is a mis-match between return value of the client component when executed in both server and client" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="-1320" y="490" width="270" height="120" as="geometry"/>
+                <mxCell id="41" parent="1" style="whiteSpace=wrap;html=1;" value="Hyrdration error comes in a client component when there is a mis-match between return value of the client component when executed in both server and client" vertex="1">
+                    <mxGeometry height="120" width="270" x="-1320" y="490" as="geometry"/>
                 </mxCell>
-                <mxCell id="74" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="66" target="71">
+                <mxCell id="74" edge="1" parent="1" source="66" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="71">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="1200" y="150.00000000000023" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="80" style="edgeStyle=none;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="66" target="77">
+                <mxCell id="80" edge="1" parent="1" source="66" style="edgeStyle=none;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="77">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="66" value="&lt;b&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;API&lt;/font&gt;&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="930" y="140" width="80" height="80" as="geometry"/>
+                <mxCell id="66" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="&lt;b&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;API&lt;/font&gt;&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="80" width="80" x="930" y="140" as="geometry"/>
                 </mxCell>
-                <mxCell id="70" style="edgeStyle=none;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="69" target="44">
+                <mxCell id="70" edge="1" parent="1" source="69" style="edgeStyle=none;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="44">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="69" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Architecture&lt;/font&gt;&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;direction=south;" vertex="1" parent="1">
-                    <mxGeometry x="520" y="370" width="180" height="100" as="geometry"/>
+                <mxCell id="TsRvNCJubibaP0OsQTni-80" edge="1" parent="1" source="69" style="edgeStyle=none;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="62">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="69" parent="1" style="rhombus;whiteSpace=wrap;html=1;direction=south;" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Architecture&lt;/font&gt;&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="100" width="180" x="520" y="370" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
