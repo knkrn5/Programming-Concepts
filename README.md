@@ -6,6 +6,12 @@
 
 ## ![Programming](./core/programming.svg)
 
+## These flow chart usage Best for: -
+> ### 1. Prototype for teaching
+> ### 2. Roadmap for student
+> ### 3. Enginerring questions for interviewer
+
+
 ## 📂 Project Structure
 
 - [CONTRIBUTING.MD](./CONTRIBUTING.MD)
