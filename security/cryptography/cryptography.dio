@@ -1,191 +1,191 @@
 <mxfile host="65bd71144e">
     <diagram id="sALgHZ0FGRwFCbfObggM" name="Page-1">
-        <mxGraphModel dx="2236" dy="1832" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+        <mxGraphModel dx="2005" dy="1665" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="9" style="edgeStyle=none;html=1;exitX=0.31;exitY=0.8;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="3" target="5" edge="1">
+                <mxCell id="9" edge="1" parent="1" source="3" style="edgeStyle=none;html=1;exitX=0.31;exitY=0.8;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="5">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="12" style="edgeStyle=none;html=1;exitX=0.8;exitY=0.8;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="3" target="10" edge="1">
+                <mxCell id="12" edge="1" parent="1" source="3" style="edgeStyle=none;html=1;exitX=0.8;exitY=0.8;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="10">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="28" style="edgeStyle=none;html=1;exitX=0.55;exitY=0.95;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="3" target="26" edge="1">
+                <mxCell id="28" edge="1" parent="1" source="3" style="edgeStyle=none;html=1;exitX=0.55;exitY=0.95;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="26">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="32" style="edgeStyle=none;html=1;exitX=0.625;exitY=0.2;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="3" target="58" edge="1">
+                <mxCell id="32" edge="1" parent="1" source="3" style="edgeStyle=none;html=1;exitX=0.625;exitY=0.2;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="58">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="450" y="10" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="3" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Cryptography&lt;/font&gt;&lt;/b&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="320" y="100" width="200" height="70" as="geometry"/>
+                <mxCell id="3" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Cryptography&lt;/font&gt;&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="70" width="200" x="320" y="100" as="geometry"/>
                 </mxCell>
-                <mxCell id="21" style="edgeStyle=none;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="5" target="18" edge="1">
+                <mxCell id="21" edge="1" parent="1" source="5" style="edgeStyle=none;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="18">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="5" value="Encryption" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-                    <mxGeometry x="30" y="270" width="220" height="60" as="geometry"/>
+                <mxCell id="5" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" value="Encryption" vertex="1">
+                    <mxGeometry height="60" width="220" x="30" y="270" as="geometry"/>
                 </mxCell>
-                <mxCell id="6" value="Reserversible using decryption" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="5" vertex="1">
-                    <mxGeometry y="30" width="220" height="30" as="geometry"/>
+                <mxCell id="6" parent="5" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="Reserversible using decryption" vertex="1">
+                    <mxGeometry height="30" width="220" y="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="41" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" parent="1" source="34" target="40" edge="1">
+                <mxCell id="41" edge="1" parent="1" source="34" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" target="40">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="34" value="private key" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-                    <mxGeometry x="55" y="-220" width="220" height="60" as="geometry">
-                        <mxRectangle x="80" y="-200" width="100" height="30" as="alternateBounds"/>
+                <mxCell id="34" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" value="private key" vertex="1">
+                    <mxGeometry height="60" width="220" x="55" y="-220" as="geometry">
+                        <mxRectangle height="30" width="100" x="80" y="-200" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="35" value="1." style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="34" vertex="1">
-                    <mxGeometry y="30" width="220" height="30" as="geometry"/>
+                <mxCell id="35" parent="34" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="1." vertex="1">
+                    <mxGeometry height="30" width="220" y="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="58" value="keys" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-                    <mxGeometry x="330" y="-70" width="240" height="90" as="geometry">
-                        <mxRectangle x="300" y="-110" width="100" height="30" as="alternateBounds"/>
+                <mxCell id="58" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" value="keys" vertex="1">
+                    <mxGeometry height="90" width="240" x="330" y="-70" as="geometry">
+                        <mxRectangle height="30" width="100" x="300" y="-110" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="59" value="1. we have Different algo keys formats" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="58" vertex="1">
-                    <mxGeometry y="30" width="240" height="30" as="geometry"/>
+                <mxCell id="59" parent="58" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="1. we have Different algo keys formats" vertex="1">
+                    <mxGeometry height="30" width="240" y="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="67" value="2. OpenSSH key !== Openssl key" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="58" vertex="1">
-                    <mxGeometry y="60" width="240" height="30" as="geometry"/>
+                <mxCell id="67" parent="58" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="2. OpenSSH key !== Openssl key" vertex="1">
+                    <mxGeometry height="30" width="240" y="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="42" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" source="37" target="40" edge="1">
+                <mxCell id="42" edge="1" parent="1" source="37" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" target="40">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="37" value="public key" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-                    <mxGeometry x="640" y="-220" width="220" height="60" as="geometry">
-                        <mxRectangle x="630" y="-210" width="100" height="30" as="alternateBounds"/>
+                <mxCell id="37" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" value="public key" vertex="1">
+                    <mxGeometry height="60" width="220" x="640" y="-220" as="geometry">
+                        <mxRectangle height="30" width="100" x="630" y="-210" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="38" value="1." style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="37" vertex="1">
-                    <mxGeometry y="30" width="220" height="30" as="geometry"/>
+                <mxCell id="38" parent="37" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="1." vertex="1">
+                    <mxGeometry height="30" width="220" y="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="26" value="Encoding" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-                    <mxGeometry x="315" y="280" width="220" height="60" as="geometry"/>
+                <mxCell id="26" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" value="Encoding" vertex="1">
+                    <mxGeometry height="60" width="220" x="315" y="280" as="geometry"/>
                 </mxCell>
-                <mxCell id="27" value="Reserversible using decoding" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="26" vertex="1">
-                    <mxGeometry y="30" width="220" height="30" as="geometry"/>
+                <mxCell id="27" parent="26" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="Reserversible using decoding" vertex="1">
+                    <mxGeometry height="30" width="220" y="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="18" value="&lt;span style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;Different Encryption algos&lt;/font&gt;&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-                    <mxGeometry x="-250" y="420" width="240" height="60" as="geometry"/>
+                <mxCell id="18" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" value="&lt;span style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;Different Encryption algos&lt;/font&gt;&lt;/span&gt;" vertex="1">
+                    <mxGeometry height="60" width="240" x="-250" y="420" as="geometry"/>
                 </mxCell>
-                <mxCell id="19" value="1. AES(Advance encryption standard)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="18" vertex="1">
-                    <mxGeometry y="30" width="240" height="30" as="geometry"/>
+                <mxCell id="19" parent="18" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="1. AES(Advance encryption standard)" vertex="1">
+                    <mxGeometry height="30" width="240" y="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="29" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;concept same in every&lt;/span&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-                    <mxGeometry x="240" y="710" width="335" height="90" as="geometry"/>
+                <mxCell id="29" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;concept same in every&lt;/span&gt;&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="90" width="335" x="240" y="710" as="geometry"/>
                 </mxCell>
-                <mxCell id="30" value="1. output fixed and same for same input" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="29" vertex="1">
-                    <mxGeometry y="30" width="335" height="30" as="geometry"/>
+                <mxCell id="30" parent="29" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="1. output fixed and same for same input" vertex="1">
+                    <mxGeometry height="30" width="335" y="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="31" value="2.&amp;nbsp;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="29" vertex="1">
-                    <mxGeometry y="60" width="335" height="30" as="geometry"/>
+                <mxCell id="31" parent="29" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="2.&amp;nbsp;" vertex="1">
+                    <mxGeometry height="30" width="335" y="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="46" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Practicals to do in cryptography&lt;/font&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=light-dark(#FFFFFF,#FF0000);" parent="1" vertex="1">
-                    <mxGeometry x="207.5" y="900" width="382.5" height="170" as="geometry"/>
+                <mxCell id="46" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=light-dark(#FFFFFF,#FF0000);" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Practicals to do in cryptography&lt;/font&gt;&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="170" width="382.5" x="207.5" y="900" as="geometry"/>
                 </mxCell>
-                <mxCell id="47" value="1. do data/file/packages hashing using different hashing algos" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="46" vertex="1">
-                    <mxGeometry y="30" width="382.5" height="30" as="geometry"/>
+                <mxCell id="47" parent="46" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="1. do data/file/packages hashing using different hashing algos" vertex="1">
+                    <mxGeometry height="30" width="382.5" y="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="48" value="2. verify different packages on internet with their published hash" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="46" vertex="1">
-                    <mxGeometry y="60" width="382.5" height="30" as="geometry"/>
+                <mxCell id="48" parent="46" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="2. verify different packages on internet with their published hash" vertex="1">
+                    <mxGeometry height="30" width="382.5" y="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="56" value="3. Digitally sign a document using secret key" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="46" vertex="1">
-                    <mxGeometry y="90" width="382.5" height="30" as="geometry"/>
+                <mxCell id="56" parent="46" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="3. Digitally sign a document using secret key" vertex="1">
+                    <mxGeometry height="30" width="382.5" y="90" as="geometry"/>
                 </mxCell>
-                <mxCell id="68" value="4. Generate private key and then exact its public key and then encrypt - decrypt files/data using this private and public key, try with different algos" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="46" vertex="1">
-                    <mxGeometry y="120" width="382.5" height="50" as="geometry"/>
+                <mxCell id="68" parent="46" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="4. Generate private key and then exact its public key and then encrypt - decrypt files/data using this private and public key, try with different algos" vertex="1">
+                    <mxGeometry height="50" width="382.5" y="120" as="geometry"/>
                 </mxCell>
-                <mxCell id="22" style="edgeStyle=none;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="10" target="15" edge="1">
+                <mxCell id="22" edge="1" parent="1" source="10" style="edgeStyle=none;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="15">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="51" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="10" target="49" edge="1">
+                <mxCell id="51" edge="1" parent="1" source="10" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="49">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="10" value="hashing" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-                    <mxGeometry x="625" y="260" width="300" height="120" as="geometry">
-                        <mxRectangle x="625" y="260" width="80" height="30" as="alternateBounds"/>
+                <mxCell id="10" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" value="hashing" vertex="1">
+                    <mxGeometry height="120" width="300" x="625" y="260" as="geometry">
+                        <mxRectangle height="30" width="80" x="625" y="260" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="11" value="1. Irreversible process" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="10" vertex="1">
-                    <mxGeometry y="30" width="300" height="30" as="geometry"/>
+                <mxCell id="11" parent="10" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="1. Irreversible process" vertex="1">
+                    <mxGeometry height="30" width="300" y="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="25" value="2. Output will always be same for same input text/file, even single bit change/replacement will change the output completely, this is called &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 101, 255));&quot;&gt;Avalanche effect&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="10" vertex="1">
-                    <mxGeometry y="60" width="300" height="60" as="geometry"/>
+                <mxCell id="25" parent="10" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="2. Output will always be same for same input text/file, even single bit change/replacement will change the output completely, this is called &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 101, 255));&quot;&gt;Avalanche effect&lt;/span&gt;" vertex="1">
+                    <mxGeometry height="60" width="300" y="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="23" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Cryptography&lt;/font&gt;&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-                    <mxGeometry x="285" y="-680" width="290" height="60" as="geometry"/>
+                <mxCell id="23" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Cryptography&lt;/font&gt;&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="60" width="290" x="285" y="-680" as="geometry"/>
                 </mxCell>
-                <mxCell id="24" value="1.&amp;nbsp;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="23" vertex="1">
-                    <mxGeometry y="30" width="290" height="30" as="geometry"/>
+                <mxCell id="24" parent="23" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="1.&amp;nbsp;" vertex="1">
+                    <mxGeometry height="30" width="290" y="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="15" value="&lt;span style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;Different hashing algos&lt;/font&gt;&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-                    <mxGeometry x="1030" y="500" width="300" height="110" as="geometry"/>
+                <mxCell id="15" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" value="&lt;span style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;Different hashing algos&lt;/font&gt;&lt;/span&gt;" vertex="1">
+                    <mxGeometry height="110" width="300" x="1030" y="500" as="geometry"/>
                 </mxCell>
-                <mxCell id="16" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;1. SHA family: - SHA-256 is a part of sha-family 2&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Here 256 means: -&amp;nbsp; it generates hash of 64 hex char, which is equal to32 byte = 32 * 8 = 256 bits&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="15" vertex="1">
-                    <mxGeometry y="30" width="300" height="80" as="geometry"/>
+                <mxCell id="16" parent="15" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;1. SHA family: - SHA-256 is a part of sha-family 2&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Here 256 means: -&amp;nbsp; it generates hash of 64 hex char, which is equal to32 byte = 32 * 8 = 256 bits&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="80" width="300" y="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="53" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;LImiitations&lt;/span&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-                    <mxGeometry x="1170" y="245" width="300" height="80" as="geometry"/>
+                <mxCell id="53" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;LImiitations&lt;/span&gt;&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="80" width="300" x="1170" y="245" as="geometry"/>
                 </mxCell>
-                <mxCell id="54" value="1. Rainbow table: - people have created hash database of common words" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="53" vertex="1">
-                    <mxGeometry y="30" width="300" height="50" as="geometry"/>
+                <mxCell id="54" parent="53" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="1. Rainbow table: - people have created hash database of common words" vertex="1">
+                    <mxGeometry height="50" width="300" y="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="49" value="types/design of hashing" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-                    <mxGeometry x="625" y="530" width="300" height="200" as="geometry"/>
+                <mxCell id="49" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" value="types/design of hashing" vertex="1">
+                    <mxGeometry height="200" width="300" x="625" y="530" as="geometry"/>
                 </mxCell>
-                <mxCell id="50" value="1. HMAC: - Involves a secret key. Its like should have both shared original data + secret original data" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="49" vertex="1">
-                    <mxGeometry y="30" width="300" height="40" as="geometry"/>
+                <mxCell id="50" parent="49" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="1. HMAC: - Involves a secret key. Its like should have both shared original data + secret original data" vertex="1">
+                    <mxGeometry height="40" width="300" y="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="57" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;2. Key Deviation function (KDF) algos: -&lt;/font&gt;&lt;div&gt;&lt;ol&gt;&lt;li&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span&gt;bcrypt: - a&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30);&quot; data-end=&quot;479&quot; data-start=&quot;426&quot;&gt;specialized hash algorithm designed for passwords, it slow down&amp;nbsp;&lt;strong style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30);&quot; data-end=&quot;591&quot; data-start=&quot;572&quot;&gt;on purpose&lt;/strong&gt;&amp;nbsp;(to prevent brute-force attacks)&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;pbkd2: -&lt;/li&gt;&lt;li&gt;argon2: -&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="49" vertex="1">
-                    <mxGeometry y="70" width="300" height="130" as="geometry"/>
+                <mxCell id="57" parent="49" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;2. Key Deviation function (KDF) algos: -&lt;/font&gt;&lt;div&gt;&lt;ol&gt;&lt;li&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span&gt;bcrypt: - a&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30);&quot; data-end=&quot;479&quot; data-start=&quot;426&quot;&gt;specialized hash algorithm designed for passwords, it slow down&amp;nbsp;&lt;strong style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30);&quot; data-end=&quot;591&quot; data-start=&quot;572&quot;&gt;on purpose&lt;/strong&gt;&amp;nbsp;(to prevent brute-force attacks)&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;pbkd2: -&lt;/li&gt;&lt;li&gt;argon2: -&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="130" width="300" y="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="36" style="edgeStyle=none;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="58" target="34" edge="1">
+                <mxCell id="36" edge="1" parent="1" source="58" style="edgeStyle=none;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="34">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="430" y="-50" as="sourcePoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="39" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" parent="1" source="58" target="37" edge="1">
+                <mxCell id="39" edge="1" parent="1" source="58" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" target="37">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="530" y="-70" as="sourcePoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="43" style="edgeStyle=none;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="58" target="45" edge="1">
+                <mxCell id="43" edge="1" parent="1" source="58" style="edgeStyle=none;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="45">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="550" as="targetPoint"/>
                         <mxPoint x="470" y="-10" as="sourcePoint"/>
+                        <mxPoint x="550" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="61" style="edgeStyle=none;html=1;exitX=0.007;exitY=0.111;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="40" target="64" edge="1">
+                <mxCell id="61" edge="1" parent="1" source="40" style="edgeStyle=none;html=1;exitX=0.007;exitY=0.111;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="64">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="80" y="-420" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="65" style="edgeStyle=none;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="40" target="66" edge="1">
+                <mxCell id="65" edge="1" parent="1" source="40" style="edgeStyle=none;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="66">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="850" y="-460" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="40" value="&lt;div&gt;Two directions: -&lt;/div&gt;&lt;ol&gt;&lt;li&gt;Anything encrypted with Private Key  → can ONLY be decrypted by Public Key(&lt;strong&gt;Confidentiality&lt;/strong&gt; (sending secret data))&lt;/li&gt;&lt;li&gt;Anything encrypted with Public Key   → can ONLY be decrypted by Private Key(&lt;strong&gt;Signing / Verification&lt;/strong&gt; (proving identity))&lt;/li&gt;&lt;/ol&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="207.5" y="-450" width="490" height="120" as="geometry"/>
+                <mxCell id="40" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;Two directions: -&lt;/div&gt;&lt;ol&gt;&lt;li&gt;Anything encrypted with Private Key  → can ONLY be decrypted by Public Key(&lt;strong&gt;Confidentiality&lt;/strong&gt; (sending secret data))&lt;/li&gt;&lt;li&gt;Anything encrypted with Public Key   → can ONLY be decrypted by Private Key(&lt;strong&gt;Signing / Verification&lt;/strong&gt; (proving identity))&lt;/li&gt;&lt;/ol&gt;" vertex="1">
+                    <mxGeometry height="120" width="490" x="207.5" y="-450" as="geometry"/>
                 </mxCell>
-                <mxCell id="45" value="a person also modify/temper the document and calculate new hash signature of that document and then add that new hash in that document.&lt;div&gt;&lt;font color=&quot;#ffffff&quot;&gt;&lt;br&gt;&lt;/font&gt;This where the concept of public and private key comes in, now we have even encrypt the hash of the document also using private key, then that hash can only decrypted using public key, and if the hash is decrypt successfully, this will prove that the hash is not modified(incase if the encrypted hash is modified then the public key won,t be able to decrypt the encrypted hash, thus proving the temperness in the encrypted hash), and now once we have the authentic hash,&amp;nbsp; we also correctly verify document hash with this decrypted hash&amp;nbsp;&lt;span style=&quot;font-family: Poppins, &amp;quot;Noto Color Emoji&amp;quot;, sans-serif; font-size: 14px; text-align: start; white-space-collapse: preserve;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(66, 66, 66), rgb(255, 255, 255));&quot;&gt;after independently calculating the hash of the document also&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" parent="1" vertex="1">
-                    <mxGeometry x="770" y="-115" width="550" height="180" as="geometry"/>
+                <mxCell id="45" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" value="a person also modify/temper the document and calculate new hash signature of that document and then add that new hash in that document.&lt;div&gt;&lt;font color=&quot;#ffffff&quot;&gt;&lt;br&gt;&lt;/font&gt;This where the concept of public and private key comes in, now we have even encrypt the hash of the document also using private key, then that hash can only decrypted using public key, and if the hash is decrypt successfully, this will prove that the hash is not modified(incase if the encrypted hash is modified then the public key won,t be able to decrypt the encrypted hash, thus proving the temperness in the encrypted hash), and now once we have the authentic hash,&amp;nbsp; we also correctly verify document hash with this decrypted hash&amp;nbsp;&lt;span style=&quot;font-family: Poppins, &amp;quot;Noto Color Emoji&amp;quot;, sans-serif; font-size: 14px; text-align: start; white-space-collapse: preserve;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(66, 66, 66), rgb(255, 255, 255));&quot;&gt;after independently calculating the hash of the document also&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="180" width="550" x="770" y="-115" as="geometry"/>
                 </mxCell>
-                <mxCell id="55" style="edgeStyle=none;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.121;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="10" target="53" edge="1">
+                <mxCell id="55" edge="1" parent="1" source="10" style="edgeStyle=none;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.121;entryDx=0;entryDy=0;entryPerimeter=0;" target="53">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="64" value="&lt;div&gt;cmd needed: -&lt;/div&gt;&lt;div&gt;&lt;ol&gt;&lt;li&gt;aciton&lt;/li&gt;&lt;li&gt;action key&lt;/li&gt;&lt;li&gt;type of key&lt;/li&gt;&lt;li&gt;source file path&lt;/li&gt;&lt;li&gt;dest file path&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="-150" y="-510" width="170" height="150" as="geometry"/>
+                <mxCell id="64" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;cmd needed: -&lt;/div&gt;&lt;div&gt;&lt;ol&gt;&lt;li&gt;aciton&lt;/li&gt;&lt;li&gt;action key&lt;/li&gt;&lt;li&gt;type of key&lt;/li&gt;&lt;li&gt;source file path&lt;/li&gt;&lt;li&gt;dest file path&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="150" width="170" x="-150" y="-510" as="geometry"/>
                 </mxCell>
-                <mxCell id="66" value="Some support only 1 direction: - like RSA&amp;nbsp;private key encrypt → public key decrypt)," style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="840" y="-520" width="200" height="90" as="geometry"/>
+                <mxCell id="66" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Some support only 1 direction: - like RSA&amp;nbsp;private key encrypt → public key decrypt),&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(240, 246, 252); font-family: &amp;quot;Mona Sans VF&amp;quot;, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans Backtick Fix&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 14px; text-align: start; background-color: rgb(13, 17, 23);&quot;&gt;&lt;span style=&quot;background-color: rgb(13, 17, 23); color: rgb(240, 246, 252);&quot;&gt;so it cannot be vice versa private key from public key&amp;nbsp;&lt;/span&gt;also if the public key could derive private key , then anyone can generate our private key and use it, becuase public key are alway given to public&lt;/span&gt;&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="140" width="420" x="840" y="-570" as="geometry"/>
                 </mxCell>
-                <mxCell id="69" value="http data TLS encryption" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="-190" y="20" width="120" height="60" as="geometry"/>
+                <mxCell id="69" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="http data TLS encryption" vertex="1">
+                    <mxGeometry height="60" width="120" x="-190" y="20" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>

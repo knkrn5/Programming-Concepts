@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="eBRQOH4gxZvUJZ3J0dhQ" name="Page-1">
-        <mxGraphModel dx="2362" dy="1626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+        <mxGraphModel dx="2409" dy="1538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -167,19 +167,27 @@
                 <mxCell id="79" parent="77" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="" vertex="1">
                     <mxGeometry height="40" width="350" y="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="62" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" value="other" vertex="1">
-                    <mxGeometry height="140" width="360" x="900" y="670" as="geometry">
+                <mxCell id="nz-aRUBeJVNAHnIHG374-84" edge="1" parent="1" source="62" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="nz-aRUBeJVNAHnIHG374-80">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" value="SEO" vertex="1">
+                    <mxGeometry height="70" width="360" x="910" y="670" as="geometry">
+                        <mxRectangle height="30" width="70" x="900" y="670" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="nz-aRUBeJVNAHnIHG374-81" parent="62" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="1. The seo/title templates applies only to the descendant route segment, not the page in the same route segment" vertex="1">
+                    <mxGeometry height="40" width="360" y="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="nz-aRUBeJVNAHnIHG374-80" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" value="other" vertex="1">
+                    <mxGeometry height="110" width="360" x="910" y="878" as="geometry">
                         <mxRectangle height="30" width="70" x="480" y="800" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="63" parent="62" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="image optimization: -" vertex="1">
-                    <mxGeometry height="30" width="360" y="30" as="geometry"/>
+                <mxCell id="nz-aRUBeJVNAHnIHG374-82" parent="nz-aRUBeJVNAHnIHG374-80" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="To use the thrid party hosted image in nextjs, we have to add that in next config file" vertex="1">
+                    <mxGeometry height="40" width="360" y="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="64" parent="62" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="To use the thrid party hosted image in nextjs, we have to add that in next config file" vertex="1">
-                    <mxGeometry height="40" width="360" y="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="TsRvNCJubibaP0OsQTni-81" parent="62" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="The env file precedence: -&amp;nbsp;&lt;span style=&quot;color: rgb(240, 246, 252); font-family: &amp;quot;Mona Sans VF&amp;quot;, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans Backtick Fix&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 14px; background-color: rgb(13, 17, 23);&quot;&gt;frist .env.local and then .env&lt;/span&gt;" vertex="1">
-                    <mxGeometry height="40" width="360" y="100" as="geometry"/>
+                <mxCell id="nz-aRUBeJVNAHnIHG374-83" parent="nz-aRUBeJVNAHnIHG374-80" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="The env file precedence: -&amp;nbsp;&lt;span style=&quot;color: rgb(240, 246, 252); font-family: &amp;quot;Mona Sans VF&amp;quot;, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans Backtick Fix&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 14px; background-color: rgb(13, 17, 23);&quot;&gt;frist .env.local and then .env&lt;/span&gt;" vertex="1">
+                    <mxGeometry height="40" width="360" y="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="58" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" value="Project structure" vertex="1">
                     <mxGeometry height="110" width="375" x="422.5" y="908" as="geometry">

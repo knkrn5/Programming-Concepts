@@ -1,216 +1,216 @@
 <mxfile host="65bd71144e">
     <diagram id="gRZl7NABJyz5FIv5FWFY" name="Page-1">
-        <mxGraphModel dx="1899" dy="1644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+        <mxGraphModel dx="1473" dy="1586" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="2" value="&lt;h2&gt;&lt;b&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot; face=&quot;Lucida Console&quot;&gt;File system&lt;/font&gt;&lt;/b&gt;&lt;/h2&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#fa6800;strokeColor=#C73500;fontColor=#000000;" parent="1" vertex="1">
-                    <mxGeometry x="490" y="-10" width="310" height="80" as="geometry"/>
+                <mxCell id="2" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#fa6800;strokeColor=#C73500;fontColor=#000000;" value="&lt;h2&gt;&lt;b&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot; face=&quot;Lucida Console&quot;&gt;File system&lt;/font&gt;&lt;/b&gt;&lt;/h2&gt;" vertex="1">
+                    <mxGeometry height="80" width="310" x="490" y="-10" as="geometry"/>
                 </mxCell>
-                <mxCell id="3" value="A File system is basically: a data structure + algorithms to store,find and protect files on disk" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=1;dashed=1;dashPattern=1 4;" parent="2" vertex="1">
-                    <mxGeometry y="30" width="310" height="50" as="geometry"/>
+                <mxCell id="3" parent="2" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=1;dashed=1;dashPattern=1 4;" value="A File system is basically: a data structure + algorithms to store,find and protect files on disk" vertex="1">
+                    <mxGeometry height="50" width="310" y="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="44" style="edgeStyle=none;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="8" target="19" edge="1">
+                <mxCell id="44" edge="1" parent="1" source="8" style="edgeStyle=none;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" target="19">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="46" style="edgeStyle=none;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" parent="1" source="8" target="38" edge="1">
+                <mxCell id="46" edge="1" parent="1" source="8" style="edgeStyle=none;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" target="38">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="270" y="350" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="47" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="8" target="36" edge="1">
+                <mxCell id="47" edge="1" parent="1" source="8" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="36">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="48" style="edgeStyle=none;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="8" target="34" edge="1">
+                <mxCell id="48" edge="1" parent="1" source="8" style="edgeStyle=none;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="34">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="49" style="edgeStyle=none;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" parent="1" source="8" target="32" edge="1">
+                <mxCell id="49" edge="1" parent="1" source="8" style="edgeStyle=none;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" target="32">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="50" style="edgeStyle=none;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="8" target="30" edge="1">
+                <mxCell id="50" edge="1" parent="1" source="8" style="edgeStyle=none;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="30">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="52" style="edgeStyle=none;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="8" target="26" edge="1">
+                <mxCell id="52" edge="1" parent="1" source="8" style="edgeStyle=none;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="26">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="53" style="edgeStyle=none;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="8" target="24" edge="1">
+                <mxCell id="53" edge="1" parent="1" source="8" style="edgeStyle=none;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="24">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="54" style="edgeStyle=none;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" parent="1" source="8" target="22" edge="1">
+                <mxCell id="54" edge="1" parent="1" source="8" style="edgeStyle=none;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" target="22">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="8" value="&lt;h3&gt;&lt;b&gt;&lt;font face=&quot;Courier New&quot;&gt;Different properties of different file system&lt;/font&gt;&lt;/b&gt;&lt;/h3&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-                    <mxGeometry x="430" y="550" width="360" height="450" as="geometry">
-                        <mxRectangle x="430" y="550" width="420" height="60" as="alternateBounds"/>
+                <mxCell id="8" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" value="&lt;h3&gt;&lt;b&gt;&lt;font face=&quot;Courier New&quot;&gt;Different properties of different file system&lt;/font&gt;&lt;/b&gt;&lt;/h3&gt;" vertex="1">
+                    <mxGeometry height="450" width="360" x="430" y="550" as="geometry">
+                        <mxRectangle height="60" width="420" x="430" y="550" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="9" value="&lt;h2&gt;&lt;b&gt;&lt;font face=&quot;Tahoma&quot;&gt;Different type of file systems⬇️: -&lt;/font&gt;&lt;/b&gt;&lt;/h2&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="8" vertex="1">
-                    <mxGeometry y="50" width="360" height="50" as="geometry"/>
+                <mxCell id="9" parent="8" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="&lt;h2&gt;&lt;b&gt;&lt;font face=&quot;Tahoma&quot;&gt;Different type of file systems⬇️: -&lt;/font&gt;&lt;/b&gt;&lt;/h2&gt;" vertex="1">
+                    <mxGeometry height="50" width="360" y="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="57" value="&lt;h2&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;1. FAT32: -&lt;/font&gt;&lt;/h2&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="8" vertex="1">
-                    <mxGeometry y="100" width="360" height="50" as="geometry"/>
+                <mxCell id="57" parent="8" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="&lt;h2&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;1. FAT32: -&lt;/font&gt;&lt;/h2&gt;" vertex="1">
+                    <mxGeometry height="50" width="360" y="100" as="geometry"/>
                 </mxCell>
-                <mxCell id="58" value="&lt;h2&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;2. NTFS: -&lt;/font&gt;&lt;/h2&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="8" vertex="1">
-                    <mxGeometry y="150" width="360" height="50" as="geometry"/>
+                <mxCell id="58" parent="8" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="&lt;h2&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;2. NTFS: -&lt;/font&gt;&lt;/h2&gt;" vertex="1">
+                    <mxGeometry height="50" width="360" y="150" as="geometry"/>
                 </mxCell>
-                <mxCell id="59" value="&lt;h2&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;3. ext4: -&lt;/span&gt;&lt;/h2&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="8" vertex="1">
-                    <mxGeometry y="200" width="360" height="50" as="geometry"/>
+                <mxCell id="59" parent="8" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="&lt;h2&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;3. ext4: -&lt;/span&gt;&lt;/h2&gt;" vertex="1">
+                    <mxGeometry height="50" width="360" y="200" as="geometry"/>
                 </mxCell>
-                <mxCell id="60" value="&lt;h2&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;4. XFS: -&lt;/span&gt;&lt;/h2&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="8" vertex="1">
-                    <mxGeometry y="250" width="360" height="50" as="geometry"/>
+                <mxCell id="60" parent="8" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="&lt;h2&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;4. XFS: -&lt;/span&gt;&lt;/h2&gt;" vertex="1">
+                    <mxGeometry height="50" width="360" y="250" as="geometry"/>
                 </mxCell>
-                <mxCell id="61" value="&lt;h2&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;5. btrfs: -&lt;/span&gt;&lt;/h2&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="8" vertex="1">
-                    <mxGeometry y="300" width="360" height="50" as="geometry"/>
+                <mxCell id="61" parent="8" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="&lt;h2&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;5. btrfs: -&lt;/span&gt;&lt;/h2&gt;" vertex="1">
+                    <mxGeometry height="50" width="360" y="300" as="geometry"/>
                 </mxCell>
-                <mxCell id="62" value="&lt;h2&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;6. ZFS: -&lt;/span&gt;&lt;/h2&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="8" vertex="1">
-                    <mxGeometry y="350" width="360" height="50" as="geometry"/>
+                <mxCell id="62" parent="8" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="&lt;h2&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;6. ZFS: -&lt;/span&gt;&lt;/h2&gt;" vertex="1">
+                    <mxGeometry height="50" width="360" y="350" as="geometry"/>
                 </mxCell>
-                <mxCell id="63" value="&lt;h2&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;7. APFS: -&lt;/span&gt;&lt;/h2&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="8" vertex="1">
-                    <mxGeometry y="400" width="360" height="50" as="geometry"/>
+                <mxCell id="63" parent="8" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="&lt;h2&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;7. APFS: -&lt;/span&gt;&lt;/h2&gt;" vertex="1">
+                    <mxGeometry height="50" width="360" y="400" as="geometry"/>
                 </mxCell>
-                <mxCell id="17" value="&lt;h3&gt;&lt;font face=&quot;Courier New&quot;&gt;Allocation method&lt;/font&gt;&lt;/h3&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-                    <mxGeometry x="-110" y="350" width="270" height="130" as="geometry"/>
+                <mxCell id="17" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" value="&lt;h3&gt;&lt;font face=&quot;Courier New&quot;&gt;Allocation method&lt;/font&gt;&lt;/h3&gt;" vertex="1">
+                    <mxGeometry height="130" width="270" x="-110" y="350" as="geometry"/>
                 </mxCell>
-                <mxCell id="18" value="&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(192, 192, 192), rgb(255, 255, 255));&quot;&gt;Every file system has a different way of keeping track of where data starts and ends&lt;/font&gt;&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="17" vertex="1">
-                    <mxGeometry y="30" width="270" height="50" as="geometry"/>
+                <mxCell id="18" parent="17" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(192, 192, 192), rgb(255, 255, 255));&quot;&gt;Every file system has a different way of keeping track of where data starts and ends&lt;/font&gt;&lt;/span&gt;" vertex="1">
+                    <mxGeometry height="50" width="270" y="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="21" value="like linked-list or in Inode" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="17" vertex="1">
-                    <mxGeometry y="80" width="270" height="50" as="geometry"/>
+                <mxCell id="21" parent="17" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="like linked-list or in Inode" vertex="1">
+                    <mxGeometry height="50" width="270" y="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="19" value="&lt;h3&gt;&lt;font face=&quot;Courier New&quot;&gt;Metadata structure&lt;/font&gt;&lt;/h3&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-                    <mxGeometry x="-90" y="550" width="270" height="60" as="geometry"/>
+                <mxCell id="19" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" value="&lt;h3&gt;&lt;font face=&quot;Courier New&quot;&gt;Metadata structure&lt;/font&gt;&lt;/h3&gt;" vertex="1">
+                    <mxGeometry height="60" width="270" x="-90" y="550" as="geometry"/>
                 </mxCell>
-                <mxCell id="20" value="" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="19" vertex="1">
-                    <mxGeometry y="30" width="270" height="30" as="geometry"/>
+                <mxCell id="20" parent="19" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="" vertex="1">
+                    <mxGeometry height="30" width="270" y="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="22" value="&lt;h3&gt;&lt;font face=&quot;Courier New&quot;&gt;Journaling / crash safety&lt;/font&gt;&lt;/h3&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-                    <mxGeometry x="-60" y="760" width="270" height="60" as="geometry"/>
+                <mxCell id="22" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" value="&lt;h3&gt;&lt;font face=&quot;Courier New&quot;&gt;Journaling / crash safety&lt;/font&gt;&lt;/h3&gt;" vertex="1">
+                    <mxGeometry height="60" width="270" x="-60" y="760" as="geometry"/>
                 </mxCell>
-                <mxCell id="23" value="" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="22" vertex="1">
-                    <mxGeometry y="30" width="270" height="30" as="geometry"/>
+                <mxCell id="23" parent="22" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="" vertex="1">
+                    <mxGeometry height="30" width="270" y="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="24" value="&lt;h3&gt;&lt;font face=&quot;Courier New&quot;&gt;Directory indexing&lt;/font&gt;&lt;/h3&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-                    <mxGeometry x="250" y="1140" width="270" height="60" as="geometry"/>
+                <mxCell id="24" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" value="&lt;h3&gt;&lt;font face=&quot;Courier New&quot;&gt;Directory indexing&lt;/font&gt;&lt;/h3&gt;" vertex="1">
+                    <mxGeometry height="60" width="270" x="250" y="1140" as="geometry"/>
                 </mxCell>
-                <mxCell id="25" value="" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="24" vertex="1">
-                    <mxGeometry y="30" width="270" height="30" as="geometry"/>
+                <mxCell id="25" parent="24" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="" vertex="1">
+                    <mxGeometry height="30" width="270" y="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="72" style="edgeStyle=none;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="64" target="68" edge="1">
+                <mxCell id="72" edge="1" parent="1" source="64" style="edgeStyle=none;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" target="68">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="73" style="edgeStyle=none;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="64" target="70" edge="1">
+                <mxCell id="73" edge="1" parent="1" source="64" style="edgeStyle=none;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" target="70">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="64" value="&lt;h3&gt;&lt;font face=&quot;Courier New&quot;&gt;Linking files&lt;/font&gt;&lt;/h3&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
-                    <mxGeometry x="460" y="1400" width="300" height="90" as="geometry">
-                        <mxRectangle x="440" y="1400" width="150" height="60" as="alternateBounds"/>
+                <mxCell id="64" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#b1ddf0;strokeColor=#10739e;" value="&lt;h3&gt;&lt;font face=&quot;Courier New&quot;&gt;Linking files&lt;/font&gt;&lt;/h3&gt;" vertex="1">
+                    <mxGeometry height="90" width="300" x="460" y="1400" as="geometry">
+                        <mxRectangle height="60" width="150" x="440" y="1400" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="65" value="1.&amp;nbsp; Hard Links and Symlinks(Symbolic links): - The diff is &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 255, 255));&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;Hard links points to data in the disk&lt;/font&gt;,&lt;/span&gt; while &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(255, 51, 153));&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;symlink point to the file&lt;/font&gt;&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="64" vertex="1">
-                    <mxGeometry y="30" width="300" height="60" as="geometry"/>
+                <mxCell id="65" parent="64" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="1.&amp;nbsp; Hard Links and Symlinks(Symbolic links): - The diff is &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 255, 255));&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;Hard links points to data in the disk&lt;/font&gt;,&lt;/span&gt; while &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(255, 51, 153));&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;symlink point to the file&lt;/font&gt;&lt;/span&gt;" vertex="1">
+                    <mxGeometry height="60" width="300" y="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="68" value="&lt;h3&gt;&lt;font face=&quot;Courier New&quot;&gt;Hard Link&lt;/font&gt;&lt;/h3&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
-                    <mxGeometry x="250" y="1590" width="300" height="180" as="geometry"/>
+                <mxCell id="68" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#b1ddf0;strokeColor=#10739e;" value="&lt;h3&gt;&lt;font face=&quot;Courier New&quot;&gt;Hard Link&lt;/font&gt;&lt;/h3&gt;" vertex="1">
+                    <mxGeometry height="180" width="340" x="210" y="1590" as="geometry"/>
                 </mxCell>
-                <mxCell id="69" value="1. reating a new directory entry that points to the exact same physical data (the same &lt;b data-index-in-node=&quot;170&quot; data-path-to-node=&quot;5&quot;&gt;inode&lt;/b&gt;) on your storage drive&amp;nbsp;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="68" vertex="1">
-                    <mxGeometry y="30" width="300" height="50" as="geometry"/>
+                <mxCell id="69" parent="68" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="1. creates a new directory entry that &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(51, 0, 102));&quot;&gt;points to the exact same physical data&lt;/span&gt; (the same &lt;b&gt;inode&lt;/b&gt;) on your storage drive&amp;nbsp;" vertex="1">
+                    <mxGeometry height="50" width="340" y="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="75" value="2. On modern OS, hard links can only be done for files and not for the folders" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="68">
-                    <mxGeometry y="80" width="300" height="50" as="geometry"/>
+                <mxCell id="75" parent="68" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="2. On modern OS, hard links can only be done for files and not for the folders" vertex="1">
+                    <mxGeometry height="50" width="340" y="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="78" value="3. Hardlink only works on the same drive means on same filesystem/volume" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="68">
-                    <mxGeometry y="130" width="300" height="50" as="geometry"/>
+                <mxCell id="78" parent="68" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="3. Hardlink only works on the same drive means on same filesystem/volume" vertex="1">
+                    <mxGeometry height="50" width="340" y="130" as="geometry"/>
                 </mxCell>
-                <mxCell id="70" value="&lt;h3&gt;&lt;font face=&quot;Courier New&quot;&gt;Soft link&lt;/font&gt;&lt;/h3&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
-                    <mxGeometry x="690" y="1600" width="300" height="170" as="geometry"/>
+                <mxCell id="70" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#b1ddf0;strokeColor=#10739e;" value="&lt;h3&gt;&lt;font face=&quot;Courier New&quot;&gt;Soft link&lt;/font&gt;&lt;/h3&gt;" vertex="1">
+                    <mxGeometry height="150" width="300" x="690" y="1600" as="geometry"/>
                 </mxCell>
-                <mxCell id="71" value="1. A symbolic link acts like a &lt;b data-index-in-node=&quot;28&quot; data-path-to-node=&quot;5&quot;&gt;shortcut&lt;/b&gt; or a pointer. While a hard link points to the actual data on the disk, a symbolic link points to the &lt;b data-index-in-node=&quot;138&quot; data-path-to-node=&quot;5&quot;&gt;file path&lt;/b&gt; of the target file" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="70" vertex="1">
-                    <mxGeometry y="30" width="300" height="60" as="geometry"/>
+                <mxCell id="71" parent="70" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="1. A symbolic link acts like a &lt;b&gt;shortcut&lt;/b&gt; or a&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 102, 102));&quot;&gt; pointer to the &lt;b&gt;file path&lt;/b&gt; &lt;/span&gt;of the target file" vertex="1">
+                    <mxGeometry height="40" width="300" y="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="77" value="2 Symlink can be done for both files and folders" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="70">
-                    <mxGeometry y="90" width="300" height="40" as="geometry"/>
+                <mxCell id="77" parent="70" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="2 Symlink can be done for both files and folders" vertex="1">
+                    <mxGeometry height="40" width="300" y="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="79" value="3. Symlinks can work between different drive/filesystems too" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="70">
-                    <mxGeometry y="130" width="300" height="40" as="geometry"/>
+                <mxCell id="79" parent="70" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="3. Symlinks can work between different drive/filesystems too" vertex="1">
+                    <mxGeometry height="40" width="300" y="110" as="geometry"/>
                 </mxCell>
-                <mxCell id="66" value="&lt;h3&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot; face=&quot;Courier New&quot;&gt;Practicals to do for file system&lt;/font&gt;&lt;/h3&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=light-dark(#D80073,#E51400);strokeColor=#A50040;fontColor=#ffffff;" parent="1" vertex="1">
-                    <mxGeometry x="1130" y="1340" width="310" height="200" as="geometry"/>
+                <mxCell id="66" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=light-dark(#D80073,#E51400);strokeColor=#A50040;fontColor=#ffffff;" value="&lt;h3&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot; face=&quot;Courier New&quot;&gt;Practicals to do for file system&lt;/font&gt;&lt;/h3&gt;" vertex="1">
+                    <mxGeometry height="230" width="350" x="1110" y="1490" as="geometry"/>
                 </mxCell>
-                <mxCell id="67" value="1. Create a &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 102, 204));&quot;&gt;Hard link&lt;/span&gt; for any file, and make changes in any of the linked files and then notices the changes in all the linked files" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="66" vertex="1">
-                    <mxGeometry y="30" width="310" height="60" as="geometry"/>
+                <mxCell id="67" parent="66" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="1. Create a &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 102, 204));&quot;&gt;Hard link&lt;/span&gt; for any file, and make changes in any of the linked files and then notices the changes in all the linked files" vertex="1">
+                    <mxGeometry height="60" width="350" y="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="74" value="2. Create a &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 102, 204));&quot;&gt;Soft link&lt;/span&gt; for any file, and make changes in that soft linked files and then notices the changes in the actual file" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="66" vertex="1">
-                    <mxGeometry y="90" width="310" height="60" as="geometry"/>
+                <mxCell id="74" parent="66" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="&lt;span style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;2. Create a &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 102, 204));&quot;&gt;Soft link&lt;/span&gt; for any file, and make changes in that soft linked files and then notices the changes in the actual file&lt;/span&gt;&lt;div&gt;&lt;ol&gt;&lt;li&gt;&lt;span style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;Create a symlink between the different drives&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="90" width="350" y="90" as="geometry"/>
                 </mxCell>
-                <mxCell id="80" value="3. Create a symlink between the different drives" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="66">
-                    <mxGeometry y="150" width="310" height="50" as="geometry"/>
+                <mxCell id="sED16D7xVpa8dNZ2ebj3-80" parent="66" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="3. Check if file or folder is symlinked or hardlinked to any path or data respectively" vertex="1">
+                    <mxGeometry height="50" width="350" y="180" as="geometry"/>
                 </mxCell>
-                <mxCell id="26" value="&lt;h3&gt;&lt;font face=&quot;Courier New&quot;&gt;Max file size&lt;/font&gt;&lt;/h3&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-                    <mxGeometry x="770" y="1150" width="270" height="60" as="geometry"/>
+                <mxCell id="26" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" value="&lt;h3&gt;&lt;font face=&quot;Courier New&quot;&gt;Max file size&lt;/font&gt;&lt;/h3&gt;" vertex="1">
+                    <mxGeometry height="60" width="270" x="770" y="1150" as="geometry"/>
                 </mxCell>
-                <mxCell id="27" value="" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="26" vertex="1">
-                    <mxGeometry y="30" width="270" height="30" as="geometry"/>
+                <mxCell id="27" parent="26" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="" vertex="1">
+                    <mxGeometry height="30" width="270" y="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="28" value="&lt;h3&gt;&lt;font face=&quot;Courier New&quot;&gt;Max partition / volume&lt;/font&gt;&lt;/h3&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-                    <mxGeometry x="960" y="670" width="270" height="60" as="geometry"/>
+                <mxCell id="28" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" value="&lt;h3&gt;&lt;font face=&quot;Courier New&quot;&gt;Max partition / volume&lt;/font&gt;&lt;/h3&gt;" vertex="1">
+                    <mxGeometry height="60" width="270" x="960" y="670" as="geometry"/>
                 </mxCell>
-                <mxCell id="29" value="" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="28" vertex="1">
-                    <mxGeometry y="30" width="270" height="30" as="geometry"/>
+                <mxCell id="29" parent="28" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="" vertex="1">
+                    <mxGeometry height="30" width="270" y="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="30" value="&lt;h3&gt;&lt;font face=&quot;Courier New&quot;&gt;Checksums / data integrity&lt;/font&gt;&lt;/h3&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-                    <mxGeometry x="1040" y="500" width="270" height="60" as="geometry"/>
+                <mxCell id="30" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" value="&lt;h3&gt;&lt;font face=&quot;Courier New&quot;&gt;Checksums / data integrity&lt;/font&gt;&lt;/h3&gt;" vertex="1">
+                    <mxGeometry height="60" width="270" x="1040" y="500" as="geometry"/>
                 </mxCell>
-                <mxCell id="31" value="" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="30" vertex="1">
-                    <mxGeometry y="30" width="270" height="30" as="geometry"/>
+                <mxCell id="31" parent="30" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="" vertex="1">
+                    <mxGeometry height="30" width="270" y="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="32" value="&lt;h3 style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30);&quot;&gt;&lt;font style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30); color: light-dark(rgb(192, 192, 192), rgb(255, 255, 255));&quot; face=&quot;Courier New&quot;&gt;Encryption&lt;/font&gt;&lt;/h3&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-                    <mxGeometry x="960" y="320" width="270" height="60" as="geometry">
-                        <mxRectangle x="960" y="320" width="120" height="60" as="alternateBounds"/>
+                <mxCell id="32" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" value="&lt;h3 style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30);&quot;&gt;&lt;font style=&quot;scrollbar-color: rgb(75, 75, 75) rgb(27, 29, 30); color: light-dark(rgb(192, 192, 192), rgb(255, 255, 255));&quot; face=&quot;Courier New&quot;&gt;Encryption&lt;/font&gt;&lt;/h3&gt;" vertex="1">
+                    <mxGeometry height="60" width="270" x="960" y="320" as="geometry">
+                        <mxRectangle height="60" width="120" x="960" y="320" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="33" value="" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="32" vertex="1">
-                    <mxGeometry y="30" width="270" height="30" as="geometry"/>
+                <mxCell id="33" parent="32" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="" vertex="1">
+                    <mxGeometry height="30" width="270" y="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="34" value="&lt;h3&gt;&lt;font face=&quot;Courier New&quot;&gt;Built-in RAID&lt;/font&gt;&lt;/h3&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-                    <mxGeometry x="720" y="190" width="270" height="60" as="geometry">
-                        <mxRectangle x="720" y="190" width="150" height="60" as="alternateBounds"/>
+                <mxCell id="34" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" value="&lt;h3&gt;&lt;font face=&quot;Courier New&quot;&gt;Built-in RAID&lt;/font&gt;&lt;/h3&gt;" vertex="1">
+                    <mxGeometry height="60" width="270" x="720" y="190" as="geometry">
+                        <mxRectangle height="60" width="150" x="720" y="190" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="35" value="" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="34" vertex="1">
-                    <mxGeometry y="30" width="270" height="30" as="geometry"/>
+                <mxCell id="35" parent="34" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="" vertex="1">
+                    <mxGeometry height="30" width="270" y="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="36" value="&lt;h3&gt;&lt;font face=&quot;Courier New&quot;&gt;Other Properteies&lt;/font&gt;&lt;/h3&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-                    <mxGeometry x="370" y="180" width="270" height="180" as="geometry">
-                        <mxRectangle x="370" y="180" width="180" height="60" as="alternateBounds"/>
+                <mxCell id="36" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" value="&lt;h3&gt;&lt;font face=&quot;Courier New&quot;&gt;Other Properteies&lt;/font&gt;&lt;/h3&gt;" vertex="1">
+                    <mxGeometry height="180" width="270" x="370" y="180" as="geometry">
+                        <mxRectangle height="60" width="180" x="370" y="180" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="37" value="Flash / SSD awareness" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="36" vertex="1">
-                    <mxGeometry y="30" width="270" height="30" as="geometry"/>
+                <mxCell id="37" parent="36" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="Flash / SSD awareness" vertex="1">
+                    <mxGeometry height="30" width="270" y="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="40" value="Parallel allocation" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="36" vertex="1">
-                    <mxGeometry y="60" width="270" height="30" as="geometry"/>
+                <mxCell id="40" parent="36" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="Parallel allocation" vertex="1">
+                    <mxGeometry height="30" width="270" y="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="41" value="Space sharing between volumes" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="36" vertex="1">
-                    <mxGeometry y="90" width="270" height="30" as="geometry"/>
+                <mxCell id="41" parent="36" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="Space sharing between volumes" vertex="1">
+                    <mxGeometry height="30" width="270" y="90" as="geometry"/>
                 </mxCell>
-                <mxCell id="42" value="Compression" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="36" vertex="1">
-                    <mxGeometry y="120" width="270" height="30" as="geometry"/>
+                <mxCell id="42" parent="36" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="Compression" vertex="1">
+                    <mxGeometry height="30" width="270" y="120" as="geometry"/>
                 </mxCell>
-                <mxCell id="43" value="Deduplication" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="36" vertex="1">
-                    <mxGeometry y="150" width="270" height="30" as="geometry"/>
+                <mxCell id="43" parent="36" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="Deduplication" vertex="1">
+                    <mxGeometry height="30" width="270" y="150" as="geometry"/>
                 </mxCell>
-                <mxCell id="38" value="&lt;h3&gt;&lt;font face=&quot;Courier New&quot;&gt;File permissions&lt;/font&gt;&lt;/h3&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-                    <mxGeometry x="-10" y="230" width="270" height="60" as="geometry">
-                        <mxRectangle x="-10" y="230" width="180" height="60" as="alternateBounds"/>
+                <mxCell id="38" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" value="&lt;h3&gt;&lt;font face=&quot;Courier New&quot;&gt;File permissions&lt;/font&gt;&lt;/h3&gt;" vertex="1">
+                    <mxGeometry height="60" width="270" x="-10" y="230" as="geometry">
+                        <mxRectangle height="60" width="180" x="-10" y="230" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="39" value="" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="38" vertex="1">
-                    <mxGeometry y="30" width="270" height="30" as="geometry"/>
+                <mxCell id="39" parent="38" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="" vertex="1">
+                    <mxGeometry height="30" width="270" y="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="45" style="edgeStyle=none;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1.004;entryY=0.108;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="8" target="17" edge="1">
+                <mxCell id="45" edge="1" parent="1" source="8" style="edgeStyle=none;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1.004;entryY=0.108;entryDx=0;entryDy=0;entryPerimeter=0;" target="17">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="51" style="edgeStyle=none;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.026;entryY=0.067;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="8" target="28" edge="1">
+                <mxCell id="51" edge="1" parent="1" source="8" style="edgeStyle=none;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.026;entryY=0.067;entryDx=0;entryDy=0;entryPerimeter=0;" target="28">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
             </root>
