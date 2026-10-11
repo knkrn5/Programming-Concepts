@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="0-IbtqhEdz61GZKj4ScJ" name="Page-1">
-        <mxGraphModel dx="502" dy="470" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="light-dark(#ffffff, #121212)" math="0" shadow="0">
+        <mxGraphModel dx="741" dy="470" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="light-dark(#ffffff, #121212)" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -9,6 +9,15 @@
                 </mxCell>
                 <mxCell id="li4cvuyOgZzYEVIkjxM--2" parent="li4cvuyOgZzYEVIkjxM--1" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="1.&amp;nbsp;" vertex="1">
                     <mxGeometry height="30" width="310" y="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="aG2ArLrbdNIYtWfDBRse-1" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;" value="Process in nodejs" vertex="1">
+                    <mxGeometry height="210" width="400" x="210" y="370" as="geometry"/>
+                </mxCell>
+                <mxCell id="aG2ArLrbdNIYtWfDBRse-2" parent="aG2ArLrbdNIYtWfDBRse-1" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="&lt;strong&gt;&lt;code dir=&quot;ltr&quot;&gt;worker_threads&lt;/code&gt;&lt;/strong&gt; creates threads in the same process. They each get their own V8 isolate and event loop, but can share memory through &lt;code dir=&quot;ltr&quot;&gt;SharedArrayBuffer&lt;/code&gt; and pass messages cheaply." vertex="1">
+                    <mxGeometry height="90" width="400" y="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="aG2ArLrbdNIYtWfDBRse-3" parent="aG2ArLrbdNIYtWfDBRse-1" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="&lt;strong&gt;&lt;code dir=&quot;ltr&quot;&gt;child_process&lt;/code&gt;&lt;/strong&gt; (&lt;code dir=&quot;ltr&quot;&gt;spawn&lt;/code&gt;, &lt;code dir=&quot;ltr&quot;&gt;exec&lt;/code&gt;, &lt;code dir=&quot;ltr&quot;&gt;fork&lt;/code&gt;) starts a new OS process. Use &lt;code dir=&quot;ltr&quot;&gt;spawn&lt;/code&gt;/&lt;code dir=&quot;ltr&quot;&gt;exec&lt;/code&gt; to run other programs (like &lt;code dir=&quot;ltr&quot;&gt;ffmpeg&lt;/code&gt; or a shell command), and &lt;code dir=&quot;ltr&quot;&gt;fork&lt;/code&gt; to start another Node.js process that talks to the parent over an IPC channel. The &lt;code dir=&quot;ltr&quot;&gt;cluster&lt;/code&gt; module is built on this: it forks several Node processes to use all cores for a server." vertex="1">
+                    <mxGeometry height="90" width="400" y="120" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
