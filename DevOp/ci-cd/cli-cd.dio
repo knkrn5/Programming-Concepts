@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="vcFelyc18opffjLb9EX_" name="Page-1">
-        <mxGraphModel dx="1615" dy="505" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+        <mxGraphModel dx="1944" dy="540" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -14,67 +14,13 @@
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="H4irm-QWrCB61Ad8bMZv-43" edge="1" parent="1" source="H4irm-QWrCB61Ad8bMZv-20" style="edgeStyle=none;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;flowAnimation=1;" target="H4irm-QWrCB61Ad8bMZv-33">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="H4irm-QWrCB61Ad8bMZv-44" edge="1" parent="1" source="H4irm-QWrCB61Ad8bMZv-20" style="edgeStyle=none;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;flowAnimation=1;" target="H4irm-QWrCB61Ad8bMZv-35">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="H4irm-QWrCB61Ad8bMZv-46" edge="1" parent="1" source="H4irm-QWrCB61Ad8bMZv-20" style="edgeStyle=none;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;flowAnimation=1;" target="H4irm-QWrCB61Ad8bMZv-39">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="H4irm-QWrCB61Ad8bMZv-47" edge="1" parent="1" source="H4irm-QWrCB61Ad8bMZv-20" style="edgeStyle=none;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.99;entryY=0.098;entryDx=0;entryDy=0;entryPerimeter=0;flowAnimation=1;" target="H4irm-QWrCB61Ad8bMZv-41">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="-270" y="930" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
                 <mxCell id="H4irm-QWrCB61Ad8bMZv-20" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#ffcd28;strokeColor=#d79b00;gradientColor=#ffa500;" value="&lt;b&gt;Continuous intergration (CI)&lt;br&gt;Developer team&lt;/b&gt;" vertex="1">
-                    <mxGeometry height="190" width="340" x="-250" y="710" as="geometry">
+                    <mxGeometry height="120" width="340" x="-250" y="710" as="geometry">
                         <mxRectangle height="30" width="190" x="-250" y="710" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="H4irm-QWrCB61Ad8bMZv-21" parent="H4irm-QWrCB61Ad8bMZv-20" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="&lt;span style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;&lt;b&gt;CI includes: -&amp;nbsp;&lt;/b&gt;&lt;br&gt;&lt;/span&gt;&lt;ol&gt;&lt;li&gt;&lt;span style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;planing&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;coding&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;testing&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;building&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;release&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;" vertex="1">
-                    <mxGeometry height="150" width="340" y="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="H4irm-QWrCB61Ad8bMZv-33" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" value="&lt;b&gt;Plan&lt;/b&gt;" vertex="1">
-                    <mxGeometry height="60" width="270" x="-640" y="580" as="geometry">
-                        <mxRectangle height="30" width="190" x="-250" y="710" as="alternateBounds"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="H4irm-QWrCB61Ad8bMZv-34" parent="H4irm-QWrCB61Ad8bMZv-33" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="&lt;b&gt;Plan: -&amp;nbsp; planing/idea what to build&lt;/b&gt;" vertex="1">
-                    <mxGeometry height="30" width="270" y="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="H4irm-QWrCB61Ad8bMZv-35" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" value="&lt;b&gt;code&lt;/b&gt;" vertex="1">
-                    <mxGeometry height="60" width="270" x="-720" y="685" as="geometry">
-                        <mxRectangle height="30" width="190" x="-250" y="710" as="alternateBounds"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="H4irm-QWrCB61Ad8bMZv-36" parent="H4irm-QWrCB61Ad8bMZv-35" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="&lt;b&gt;creating/implementing idea in reality&lt;/b&gt;" vertex="1">
-                    <mxGeometry height="30" width="270" y="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="H4irm-QWrCB61Ad8bMZv-37" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;b&gt;testing&lt;/b&gt;" vertex="1">
-                    <mxGeometry height="60" width="270" x="-720" y="790" as="geometry">
-                        <mxRectangle height="30" width="190" x="-250" y="710" as="alternateBounds"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="H4irm-QWrCB61Ad8bMZv-38" parent="H4irm-QWrCB61Ad8bMZv-37" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="&lt;b&gt;testing code quality, bugs and glitches&lt;/b&gt;" vertex="1">
-                    <mxGeometry height="30" width="270" y="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="H4irm-QWrCB61Ad8bMZv-39" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" value="&lt;b&gt;building&lt;/b&gt;" vertex="1">
-                    <mxGeometry height="60" width="270" x="-670" y="900" as="geometry">
-                        <mxRectangle height="30" width="190" x="-250" y="710" as="alternateBounds"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="H4irm-QWrCB61Ad8bMZv-40" parent="H4irm-QWrCB61Ad8bMZv-39" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="&lt;b&gt;compling/packing/bundling codes&lt;/b&gt;" vertex="1">
-                    <mxGeometry height="30" width="270" y="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="H4irm-QWrCB61Ad8bMZv-41" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;b&gt;Release&lt;/b&gt;" vertex="1">
-                    <mxGeometry height="60" width="270" x="-610" y="1030" as="geometry">
-                        <mxRectangle height="30" width="190" x="-250" y="710" as="alternateBounds"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="H4irm-QWrCB61Ad8bMZv-42" parent="H4irm-QWrCB61Ad8bMZv-41" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="&lt;b&gt;release the version/tag of our product&lt;/b&gt;" vertex="1">
-                    <mxGeometry height="30" width="270" y="30" as="geometry"/>
+                <mxCell id="H4irm-QWrCB61Ad8bMZv-21" parent="H4irm-QWrCB61Ad8bMZv-20" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="&lt;span style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;&lt;b&gt;CI includes: -&amp;nbsp;&lt;/b&gt;&lt;br&gt;&lt;/span&gt;&lt;ol&gt;&lt;li&gt;&lt;span style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;planing,&amp;nbsp;coding, testing, building and release&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;" vertex="1">
+                    <mxGeometry height="80" width="340" y="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="H4irm-QWrCB61Ad8bMZv-29" edge="1" parent="1" source="H4irm-QWrCB61Ad8bMZv-24" style="edgeStyle=none;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;strokeWidth=5;flowAnimation=1;" target="H4irm-QWrCB61Ad8bMZv-20">
                     <mxGeometry relative="1" as="geometry"/>
@@ -84,86 +30,27 @@
                         <mxPoint x="-12" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="H4irm-QWrCB61Ad8bMZv-59" edge="1" parent="1" source="H4irm-QWrCB61Ad8bMZv-48" style="edgeStyle=none;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" target="H4irm-QWrCB61Ad8bMZv-50">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="H4irm-QWrCB61Ad8bMZv-61" edge="1" parent="1" source="H4irm-QWrCB61Ad8bMZv-48" style="edgeStyle=none;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" target="H4irm-QWrCB61Ad8bMZv-52">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
                 <mxCell id="H4irm-QWrCB61Ad8bMZv-24" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;gradientColor=#ea6b66;" value="&lt;b&gt;Continuous Deployment (CD)&lt;br&gt;Deployment team&lt;/b&gt;" vertex="1">
-                    <mxGeometry height="200" width="340" x="470" y="710" as="geometry">
+                    <mxGeometry height="120" width="340" x="470" y="710" as="geometry">
                         <mxRectangle height="30" width="200" x="470" y="710" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="H4irm-QWrCB61Ad8bMZv-25" parent="H4irm-QWrCB61Ad8bMZv-24" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="&lt;span style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;&lt;b&gt;CD includes: -&amp;nbsp;&lt;/b&gt;&lt;br&gt;&lt;/span&gt;&lt;ol&gt;&lt;li&gt;&lt;span style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;deploy the build/tested code to remote server&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;measurements like logs, obserbility etc&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;" vertex="1">
-                    <mxGeometry height="110" width="340" y="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="H4irm-QWrCB61Ad8bMZv-60" parent="H4irm-QWrCB61Ad8bMZv-24" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="&lt;b&gt;After the code in infrastructure&lt;/b&gt;" vertex="1">
-                    <mxGeometry height="50" width="340" y="150" as="geometry"/>
-                </mxCell>
-                <mxCell id="H4irm-QWrCB61Ad8bMZv-48" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#b1ddf0;strokeColor=#10739e;" value="&lt;b&gt;Deployment methods&lt;/b&gt;" vertex="1">
-                    <mxGeometry height="110" width="380" x="460" y="1040" as="geometry">
-                        <mxRectangle height="30" width="200" x="470" y="850" as="alternateBounds"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="H4irm-QWrCB61Ad8bMZv-49" parent="H4irm-QWrCB61Ad8bMZv-48" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="Containers &amp;amp; orchestration" vertex="1">
-                    <mxGeometry height="40" width="380" y="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="H4irm-QWrCB61Ad8bMZv-54" parent="H4irm-QWrCB61Ad8bMZv-48" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="&lt;b&gt;Different deployment environments&lt;/b&gt;" vertex="1">
-                    <mxGeometry height="40" width="380" y="70" as="geometry"/>
-                </mxCell>
-                <mxCell id="H4irm-QWrCB61Ad8bMZv-50" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#d0cee2;strokeColor=#56517e;" value="&lt;b&gt;Scalability&lt;/b&gt;" vertex="1">
-                    <mxGeometry height="190" width="340" x="790" y="1280" as="geometry">
-                        <mxRectangle height="30" width="200" x="470" y="710" as="alternateBounds"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="H4irm-QWrCB61Ad8bMZv-51" parent="H4irm-QWrCB61Ad8bMZv-50" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="&lt;b&gt;1.&amp;nbsp; Vertical scaling&lt;/b&gt;" vertex="1">
-                    <mxGeometry height="40" width="340" y="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="H4irm-QWrCB61Ad8bMZv-55" parent="H4irm-QWrCB61Ad8bMZv-50" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="&lt;b&gt;2. Horizontal scaling&lt;/b&gt;" vertex="1">
-                    <mxGeometry height="40" width="340" y="70" as="geometry"/>
-                </mxCell>
-                <mxCell id="H4irm-QWrCB61Ad8bMZv-56" parent="H4irm-QWrCB61Ad8bMZv-50" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="&lt;b&gt;3. Optimizations&lt;/b&gt;" vertex="1">
-                    <mxGeometry height="40" width="340" y="110" as="geometry"/>
-                </mxCell>
-                <mxCell id="H4irm-QWrCB61Ad8bMZv-62" parent="H4irm-QWrCB61Ad8bMZv-50" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="&lt;b&gt;4.&amp;nbsp;&lt;/b&gt;autoscaling, rollbacks" vertex="1">
-                    <mxGeometry height="40" width="340" y="150" as="geometry"/>
-                </mxCell>
-                <mxCell id="H4irm-QWrCB61Ad8bMZv-52" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#ffcccc;strokeColor=#36393d;" value="&lt;span style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;&lt;b&gt;Monitoring &amp;amp; observability&lt;/b&gt;&lt;/span&gt;" vertex="1">
-                    <mxGeometry height="80" width="360" x="210" y="1280" as="geometry">
-                        <mxRectangle height="30" width="200" x="470" y="710" as="alternateBounds"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="H4irm-QWrCB61Ad8bMZv-53" parent="H4irm-QWrCB61Ad8bMZv-52" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="&lt;b&gt;1.&amp;nbsp; watch logs, metrics and traces&lt;/b&gt;" vertex="1">
-                    <mxGeometry height="50" width="360" y="30" as="geometry"/>
+                <mxCell id="H4irm-QWrCB61Ad8bMZv-25" parent="H4irm-QWrCB61Ad8bMZv-24" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="&lt;span style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;&lt;b&gt;CD includes: -&amp;nbsp;&lt;/b&gt;&lt;br&gt;&lt;/span&gt;&lt;ol&gt;&lt;li&gt;&lt;span style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;deploy/publishing the build/tested code to remote server&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;" vertex="1">
+                    <mxGeometry height="80" width="340" y="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="H4irm-QWrCB61Ad8bMZv-65" edge="1" parent="1" source="14" style="edgeStyle=none;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.525;entryY=0.006;entryDx=0;entryDy=0;entryPerimeter=0;flowAnimation=1;" target="H4irm-QWrCB61Ad8bMZv-24">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="14" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;CI/CD&lt;/font&gt;&lt;/b&gt;" vertex="1">
-                    <mxGeometry height="210" width="410" x="75" y="340" as="geometry">
+                    <mxGeometry height="170" width="410" x="80" y="440" as="geometry">
                         <mxRectangle height="30" width="70" x="75" y="340" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="15" parent="14" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="1. CI/CD is just a server, that runs whenever triggered" vertex="1">
+                <mxCell id="15" parent="14" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="CI/CD is a part of DevOps. For more refer &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(153, 0, 153));&quot;&gt;devops.svg&amp;nbsp;&lt;/span&gt;" vertex="1">
                     <mxGeometry height="30" width="410" y="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="16" parent="14" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="1. CI (continuous integration) =&amp;nbsp; CODE, BUILD, TEST" vertex="1">
-                    <mxGeometry height="30" width="410" y="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="17" parent="14" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;2. CD = RELEASE, DEPLOY&lt;/font&gt;&lt;div&gt;&lt;ol&gt;&lt;li&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;CD (continuous delivery): -&amp;nbsp;every change is ready to deploy, but a human clicks a button or approves it.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Cd (continuous deployment): -&amp;nbsp;every change that passes the tests deploys automatically, with no human step.&lt;/font&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" vertex="1">
-                    <mxGeometry height="120" width="410" y="90" as="geometry"/>
-                </mxCell>
-                <mxCell id="H4irm-QWrCB61Ad8bMZv-45" edge="1" parent="1" source="H4irm-QWrCB61Ad8bMZv-20" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.991;entryY=0.341;entryDx=0;entryDy=0;entryPerimeter=0;flowAnimation=1;" target="H4irm-QWrCB61Ad8bMZv-37">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="H4irm-QWrCB61Ad8bMZv-57" edge="1" parent="1" source="H4irm-QWrCB61Ad8bMZv-24" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="H4irm-QWrCB61Ad8bMZv-48">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="898.86" y="690" as="sourcePoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="H4irm-QWrCB61Ad8bMZv-63" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;sketch=1;curveFitting=1;jiggle=2;" value="&lt;b&gt;&lt;font style=&quot;font-size: 25px;&quot;&gt;CI/CD&lt;/font&gt;&lt;/b&gt;" vertex="1">
-                    <mxGeometry height="60" width="110" x="225" y="780" as="geometry"/>
+                <mxCell id="BCxAQso1Yhc7Dm3xvBPj-17" parent="14" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;1. CI/CD is just a server, can be created using any language, that automatically executes the code we have written, whenever the server api is called&lt;/span&gt;&lt;div&gt;&lt;ol&gt;&lt;li&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Its basically executing the terminal cmds like installing, testing, building, deploying/pushing using programing language&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="110" width="410" y="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="H4irm-QWrCB61Ad8bMZv-64" edge="1" parent="1" source="14" style="edgeStyle=none;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.47;entryY=0.023;entryDx=0;entryDy=0;entryPerimeter=0;flowAnimation=1;" target="H4irm-QWrCB61Ad8bMZv-20">
                     <mxGeometry relative="1" as="geometry"/>
