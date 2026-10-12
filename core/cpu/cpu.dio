@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="YBBXJUz_MDR9ArLcIa2x" name="Page-1">
-        <mxGraphModel dx="1746" dy="331" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1387" dy="260" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -22,7 +22,7 @@
                 <mxCell id="16" parent="15" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value=" Communicates with parent via messaging only" vertex="1">
                     <mxGeometry height="40" width="277.5" y="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="31" parent="15" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value=" completely new separate process" vertex="1">
+                <mxCell id="31" parent="15" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value=" completely new separate process (worker_process)" vertex="1">
                     <mxGeometry height="40" width="277.5" y="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="17" parent="15" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value=" own instance" vertex="1">
@@ -123,7 +123,7 @@
                         <mxRectangle height="30" width="80" x="680" y="1070" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="KsGsbxZfwvGswVxzQ7_W-98" parent="32" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="these are workers inside a process" vertex="1">
+                <mxCell id="KsGsbxZfwvGswVxzQ7_W-98" parent="32" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="these are workers_threads inside a process" vertex="1">
                     <mxGeometry height="30" width="320" y="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="37" parent="32" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="shared&amp;nbsp;&lt;strong data-end=&quot;350&quot; data-start=&quot;340&quot;&gt;memory&lt;/strong&gt;" vertex="1">
