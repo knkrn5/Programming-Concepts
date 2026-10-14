@@ -1,222 +1,222 @@
 <mxfile host="65bd71144e">
     <diagram id="Nb00RO9QToYDmMonHUh1" name="Page-1">
-        <mxGraphModel dx="1386" dy="1703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+        <mxGraphModel dx="1506" dy="1825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="9" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;flowAnimation=1;" parent="1" source="16" target="10" edge="1">
+                <mxCell id="9" edge="1" parent="1" source="16" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;flowAnimation=1;" target="10">
                     <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="525" y="240" as="sourcePoint"/>
                         <mxPoint x="240" y="210" as="targetPoint"/>
-                        <mxPoint x="525" y="240" as="sourcePoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="12" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;flowAnimation=1;" parent="1" source="16" target="11" edge="1">
+                <mxCell id="12" edge="1" parent="1" source="16" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;flowAnimation=1;" target="11">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="525" y="240" as="sourcePoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="14" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.31;exitY=0.8;exitDx=0;exitDy=0;exitPerimeter=0;flowAnimation=1;" parent="1" source="167" target="21" edge="1">
+                <mxCell id="14" edge="1" parent="1" source="167" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.31;exitY=0.8;exitDx=0;exitDy=0;exitPerimeter=0;flowAnimation=1;" target="21">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="220" y="159.99999999999977" as="targetPoint"/>
                         <mxPoint x="350.00000000000045" as="sourcePoint"/>
+                        <mxPoint x="220" y="159.99999999999977" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="15" style="edgeStyle=none;html=1;exitX=0.8;exitY=0.8;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;flowAnimation=1;" parent="1" source="167" target="16" edge="1">
+                <mxCell id="15" edge="1" parent="1" source="167" style="edgeStyle=none;html=1;exitX=0.8;exitY=0.8;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;flowAnimation=1;" target="16">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="525" y="150" as="targetPoint"/>
                         <mxPoint x="390.00000000000045" as="sourcePoint"/>
+                        <mxPoint x="525" y="150" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="49" style="edgeStyle=none;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;flowAnimation=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="10" target="232" edge="1">
+                <mxCell id="49" edge="1" parent="1" source="10" style="edgeStyle=none;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;flowAnimation=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="232">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="560" y="450" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="247" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="10" target="249" edge="1">
+                <mxCell id="247" edge="1" parent="1" source="10" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" target="249">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="530" y="490" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="10" value="read in stream(rs)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
-                    <mxGeometry x="425" y="306.5" width="120" height="60" as="geometry"/>
+                <mxCell id="10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" value="read in stream(rs)" vertex="1">
+                    <mxGeometry height="60" width="120" x="425" y="306.5" as="geometry"/>
                 </mxCell>
-                <mxCell id="42" style="edgeStyle=none;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="11" target="129" edge="1">
+                <mxCell id="42" edge="1" parent="1" source="11" style="edgeStyle=none;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" target="129">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="655" y="450" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="168" style="edgeStyle=none;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;flowAnimation=1;" parent="1" source="11" target="178" edge="1">
+                <mxCell id="168" edge="1" parent="1" source="11" style="edgeStyle=none;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;flowAnimation=1;" target="178">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="182" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;flowAnimation=1;" parent="1" source="178" target="45" edge="1">
+                <mxCell id="182" edge="1" parent="1" source="178" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;flowAnimation=1;" target="45">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="890" y="570" as="sourcePoint"/>
                         <mxPoint x="914" y="479" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="248" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="11" target="249" edge="1">
+                <mxCell id="248" edge="1" parent="1" source="11" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" target="249">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="670" y="490" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="11" value="write in stream(ws)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
-                    <mxGeometry x="690" y="310" width="120" height="60" as="geometry"/>
+                <mxCell id="11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" value="write in stream(ws)" vertex="1">
+                    <mxGeometry height="60" width="120" x="690" y="310" as="geometry"/>
                 </mxCell>
-                <mxCell id="16" value="&lt;b&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;Stream&lt;/font&gt;&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
-                    <mxGeometry x="520" y="140" width="220" height="70" as="geometry">
-                        <mxRectangle x="460" y="120" width="80" height="30" as="alternateBounds"/>
+                <mxCell id="16" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" value="&lt;b&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;Stream&lt;/font&gt;&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="70" width="220" x="520" y="140" as="geometry">
+                        <mxRectangle height="30" width="80" x="460" y="120" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="17" value="1. read and write the data in chunk buffer" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;" parent="16" vertex="1">
-                    <mxGeometry y="30" width="220" height="40" as="geometry"/>
+                <mxCell id="17" parent="16" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;" value="1. read and write the data in chunk buffer" vertex="1">
+                    <mxGeometry height="40" width="220" y="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="175" value="&lt;b&gt;Prerequisite&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#fad7ac;strokeColor=#b46504;" parent="1" vertex="1">
-                    <mxGeometry x="470" y="-100" width="170" height="70" as="geometry">
-                        <mxRectangle x="460" y="120" width="80" height="30" as="alternateBounds"/>
+                <mxCell id="175" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#fad7ac;strokeColor=#b46504;" value="&lt;b&gt;Prerequisite&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="70" width="170" x="470" y="-100" as="geometry">
+                        <mxRectangle height="30" width="80" x="460" y="120" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="176" value="Should know about event emitters (&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(255, 0, 255));&quot;&gt;ee.svg&lt;/span&gt;)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;" parent="175" vertex="1">
-                    <mxGeometry y="30" width="170" height="40" as="geometry"/>
+                <mxCell id="176" parent="175" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;" value="Should know about event emitters (&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(255, 0, 255));&quot;&gt;ee.svg&lt;/span&gt;)" vertex="1">
+                    <mxGeometry height="40" width="170" y="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="260" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Streaming Data&lt;/font&gt;&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#fad7ac;strokeColor=#b46504;" parent="1" vertex="1">
-                    <mxGeometry x="160" y="-300" width="385" height="140" as="geometry">
-                        <mxRectangle x="460" y="120" width="80" height="30" as="alternateBounds"/>
+                <mxCell id="260" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#fad7ac;strokeColor=#b46504;" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Streaming Data&lt;/font&gt;&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="140" width="385" x="160" y="-300" as="geometry">
+                        <mxRectangle height="30" width="80" x="460" y="120" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="261" value="handling data in chunks, to overcome RAM overload" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;" parent="260" vertex="1">
-                    <mxGeometry y="30" width="385" height="40" as="geometry"/>
+                <mxCell id="261" parent="260" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;" value="handling data in chunks, to overcome RAM overload" vertex="1">
+                    <mxGeometry height="40" width="385" y="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="270" value="A stream is like water flowing through a pipe - once it passes through, it&#39;s gone. The data chunks are consumed as they&#39;re read. so its common sense the server or client does not stream the same data again and again" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;" vertex="1" parent="260">
-                    <mxGeometry y="70" width="385" height="70" as="geometry"/>
+                <mxCell id="270" parent="260" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;" value="A stream is like water flowing through a pipe - once it passes through, it&#39;s gone. The data chunks are consumed as they&#39;re read. so its common sense the server or client does not stream the same data again and again" vertex="1">
+                    <mxGeometry height="70" width="385" y="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="45" value="&lt;b&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;BackPressure Handling&lt;/font&gt;&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;" parent="1" vertex="1">
-                    <mxGeometry x="1201" y="650" width="299" height="150" as="geometry">
-                        <mxRectangle x="460" y="120" width="80" height="30" as="alternateBounds"/>
+                <mxCell id="45" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;" value="&lt;b&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;BackPressure Handling&lt;/font&gt;&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="150" width="299" x="1201" y="650" as="geometry">
+                        <mxRectangle height="30" width="80" x="460" y="120" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="177" value="Writing to memory/buffer &lt;span style=&quot;&quot; data-end=&quot;230&quot; data-start=&quot;212&quot;&gt;is much faster&lt;/span&gt; than disk or network I/O for upload (If producer is faster than consumer ), thatswhy backpressure handling is needed to prevent OOM" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;" parent="45" vertex="1">
-                    <mxGeometry y="30" width="299" height="80" as="geometry"/>
+                <mxCell id="177" parent="45" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;" value="Writing to memory/buffer &lt;span style=&quot;&quot; data-end=&quot;230&quot; data-start=&quot;212&quot;&gt;is much faster&lt;/span&gt; than disk or network I/O for upload (If producer is faster than consumer ), thatswhy backpressure handling is needed to prevent OOM" vertex="1">
+                    <mxGeometry height="80" width="299" y="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="47" value="Backpressure handling can be manual or automatic" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;" parent="45" vertex="1">
-                    <mxGeometry y="110" width="299" height="40" as="geometry"/>
+                <mxCell id="47" parent="45" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;" value="Backpressure handling can be manual or automatic" vertex="1">
+                    <mxGeometry height="40" width="299" y="110" as="geometry"/>
                 </mxCell>
-                <mxCell id="269" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="129" target="262" edge="1">
+                <mxCell id="269" edge="1" parent="1" source="129" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" target="262">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="129" value="&lt;b&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;stream events&lt;/font&gt;&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
-                    <mxGeometry x="890" y="530" width="240" height="260" as="geometry">
-                        <mxRectangle x="890" y="530" width="80" height="30" as="alternateBounds"/>
+                <mxCell id="129" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="&lt;b&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;stream events&lt;/font&gt;&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="260" width="240" x="890" y="530" as="geometry">
+                        <mxRectangle height="30" width="80" x="890" y="530" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="142" value="when data is being written, when piped or using write method on ws" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;" parent="129" vertex="1">
-                    <mxGeometry y="30" width="240" height="40" as="geometry"/>
+                <mxCell id="142" parent="129" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;" value="when data is being written, when piped or using write method on ws" vertex="1">
+                    <mxGeometry height="40" width="240" y="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="131" value="in case of error during writing" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;" parent="129" vertex="1">
-                    <mxGeometry y="70" width="240" height="30" as="geometry"/>
+                <mxCell id="131" parent="129" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;" value="in case of error during writing" vertex="1">
+                    <mxGeometry height="30" width="240" y="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="132" value="when ws is piped or unpiped" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;" parent="129" vertex="1">
-                    <mxGeometry y="100" width="240" height="30" as="geometry"/>
+                <mxCell id="132" parent="129" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;" value="when ws is piped or unpiped" vertex="1">
+                    <mxGeometry height="30" width="240" y="100" as="geometry"/>
                 </mxCell>
-                <mxCell id="133" value="when the full data writing is finished successfully, or if we end the ws" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;" parent="129" vertex="1">
-                    <mxGeometry y="130" width="240" height="40" as="geometry"/>
+                <mxCell id="133" parent="129" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;" value="when the full data writing is finished successfully, or if we end the ws" vertex="1">
+                    <mxGeometry height="40" width="240" y="130" as="geometry"/>
                 </mxCell>
-                <mxCell id="140" value="when the ws is aborted, using destroy method and we can check if it is destroyed or not" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;" parent="129" vertex="1">
-                    <mxGeometry y="170" width="240" height="50" as="geometry"/>
+                <mxCell id="140" parent="129" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;" value="when the ws is aborted, using destroy method and we can check if it is destroyed or not" vertex="1">
+                    <mxGeometry height="50" width="240" y="170" as="geometry"/>
                 </mxCell>
-                <mxCell id="255" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; face=&quot;Segoe WPC, Segoe UI, sans-serif&quot;&gt;ws can be corked and uncorked, then we can check if ws is corked or not&lt;/font&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;" parent="129" vertex="1">
-                    <mxGeometry y="220" width="240" height="40" as="geometry"/>
+                <mxCell id="255" parent="129" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; face=&quot;Segoe WPC, Segoe UI, sans-serif&quot;&gt;ws can be corked and uncorked, then we can check if ws is corked or not&lt;/font&gt;" vertex="1">
+                    <mxGeometry height="40" width="240" y="220" as="geometry"/>
                 </mxCell>
-                <mxCell id="262" value="&lt;b&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;events comcepts&lt;/font&gt;&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;" parent="1" vertex="1">
-                    <mxGeometry x="890" y="870" width="240" height="80" as="geometry">
-                        <mxRectangle x="890" y="530" width="80" height="30" as="alternateBounds"/>
+                <mxCell id="262" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;" value="&lt;b&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;events comcepts&lt;/font&gt;&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="80" width="240" x="890" y="870" as="geometry">
+                        <mxRectangle height="30" width="80" x="890" y="530" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="263" value="finish event means data is handed off to the transport layer, not neccesserly means file has been uploaded completely" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;" parent="262" vertex="1">
-                    <mxGeometry y="30" width="240" height="50" as="geometry"/>
+                <mxCell id="263" parent="262" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;" value="finish event means data is handed off to the transport layer, not neccesserly means file has been uploaded completely" vertex="1">
+                    <mxGeometry height="50" width="240" y="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="232" value="&lt;b&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;stream events&lt;/font&gt;&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
-                    <mxGeometry x="127.39" y="510" width="240" height="270" as="geometry">
-                        <mxRectangle x="190" y="520" width="80" height="30" as="alternateBounds"/>
+                <mxCell id="232" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="&lt;b&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;stream events&lt;/font&gt;&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="270" width="240" x="127.39" y="510" as="geometry">
+                        <mxRectangle height="30" width="80" x="190" y="520" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="234" value="when data is being read, when we start reading data via pipe or any other way" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;" parent="232" vertex="1">
-                    <mxGeometry y="30" width="240" height="40" as="geometry"/>
+                <mxCell id="234" parent="232" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;" value="when data is being read, when we start reading data via pipe or any other way" vertex="1">
+                    <mxGeometry height="40" width="240" y="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="235" value="in case of error during reading" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;" parent="232" vertex="1">
-                    <mxGeometry y="70" width="240" height="30" as="geometry"/>
+                <mxCell id="235" parent="232" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;" value="in case of error during reading" vertex="1">
+                    <mxGeometry height="30" width="240" y="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="236" value="when the rs is paused and resumed, when pause and resume using pause and resume method on rs" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;" parent="232" vertex="1">
-                    <mxGeometry y="100" width="240" height="50" as="geometry"/>
+                <mxCell id="236" parent="232" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;" value="when the rs is paused and resumed, when pause and resume using pause and resume method on rs" vertex="1">
+                    <mxGeometry height="50" width="240" y="100" as="geometry"/>
                 </mxCell>
-                <mxCell id="237" value="when the full data reading is ended, when full data reading has finished successfully and we can also can is rs has been ended or not" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;" parent="232" vertex="1">
-                    <mxGeometry y="150" width="240" height="60" as="geometry"/>
+                <mxCell id="237" parent="232" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;" value="when the full data reading is ended, when full data reading has finished successfully and we can also can is rs has been ended or not" vertex="1">
+                    <mxGeometry height="60" width="240" y="150" as="geometry"/>
                 </mxCell>
-                <mxCell id="238" value="&lt;span style=&quot;font-family: &amp;quot;Segoe WPC&amp;quot;, &amp;quot;Segoe UI&amp;quot;, sans-serif; font-size: 13px;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(204, 204, 204), rgb(255, 255, 255));&quot;&gt;when rs has be aborted, if we destroy the rs and then we can check if rs has been aborted or not&lt;/font&gt;&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;" parent="232" vertex="1">
-                    <mxGeometry y="210" width="240" height="60" as="geometry"/>
+                <mxCell id="238" parent="232" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;" value="&lt;span style=&quot;font-family: &amp;quot;Segoe WPC&amp;quot;, &amp;quot;Segoe UI&amp;quot;, sans-serif; font-size: 13px;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(204, 204, 204), rgb(255, 255, 255));&quot;&gt;when rs has be aborted, if we destroy the rs and then we can check if rs has been aborted or not&lt;/font&gt;&lt;/span&gt;" vertex="1">
+                    <mxGeometry height="60" width="240" y="210" as="geometry"/>
                 </mxCell>
-                <mxCell id="249" value="&lt;b&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;Full duplex&lt;/font&gt;&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" parent="1" vertex="1">
-                    <mxGeometry x="500" y="540" width="240" height="140" as="geometry">
-                        <mxRectangle x="500" y="540" width="80" height="30" as="alternateBounds"/>
+                <mxCell id="249" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" value="&lt;b&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;Full duplex&lt;/font&gt;&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="140" width="240" x="500" y="540" as="geometry">
+                        <mxRectangle height="30" width="80" x="500" y="540" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="250" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;1.&amp;nbsp; Full duplex mean reading and writing data happen simultaniously&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;os basically it is the combination of rs and ws&lt;/font&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;" parent="249" vertex="1">
-                    <mxGeometry y="30" width="240" height="70" as="geometry"/>
+                <mxCell id="250" parent="249" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;1.&amp;nbsp; Full duplex mean reading and writing data happen simultaniously&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;os basically it is the combination of rs and ws&lt;/font&gt;&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="70" width="240" y="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="259" value="2. Used in TCP, UDP etc" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;" parent="249" vertex="1">
-                    <mxGeometry y="100" width="240" height="40" as="geometry"/>
+                <mxCell id="259" parent="249" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;" value="2. Used in TCP, UDP etc" vertex="1">
+                    <mxGeometry height="40" width="240" y="100" as="geometry"/>
                 </mxCell>
-                <mxCell id="21" value="&lt;b&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;FULL Buffer&lt;/font&gt;&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
-                    <mxGeometry x="10" y="140" width="210" height="70" as="geometry">
-                        <mxRectangle x="460" y="120" width="80" height="30" as="alternateBounds"/>
+                <mxCell id="21" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" value="&lt;b&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;FULL Buffer&lt;/font&gt;&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="70" width="210" x="10" y="140" as="geometry">
+                        <mxRectangle height="30" width="80" x="460" y="120" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="22" value="1. Load full data into RAM" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;" parent="21" vertex="1">
-                    <mxGeometry y="30" width="210" height="40" as="geometry"/>
+                <mxCell id="22" parent="21" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;" value="1. Load full data into RAM" vertex="1">
+                    <mxGeometry height="40" width="210" y="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="51" style="edgeStyle=none;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="249" target="52" edge="1">
+                <mxCell id="51" edge="1" parent="1" source="249" style="edgeStyle=none;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="52">
                     <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="655" y="950" as="sourcePoint"/>
                         <mxPoint x="525" y="1040" as="targetPoint"/>
-                        <mxPoint x="655" y="950" as="sourcePoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="257" value="sent after&lt;div&gt;changing data&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="51" vertex="1" connectable="0">
-                    <mxGeometry x="-0.2193" y="-2" relative="1" as="geometry">
+                <mxCell id="257" connectable="0" parent="51" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="sent after&lt;div&gt;changing data&lt;/div&gt;" vertex="1">
+                    <mxGeometry relative="1" x="-0.2193" y="-2" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="53" style="edgeStyle=none;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="249" target="54" edge="1">
+                <mxCell id="53" edge="1" parent="1" source="249" style="edgeStyle=none;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="54">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="750" y="1030" as="targetPoint"/>
                         <mxPoint x="655" y="950" as="sourcePoint"/>
+                        <mxPoint x="750" y="1030" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="258" value="sent the same&lt;div&gt;original data&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="53" vertex="1" connectable="0">
-                    <mxGeometry x="-0.2657" y="1" relative="1" as="geometry">
+                <mxCell id="258" connectable="0" parent="53" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="sent the same&lt;div&gt;original data&lt;/div&gt;" vertex="1">
+                    <mxGeometry relative="1" x="-0.2657" y="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="52" value="Transform" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="440" y="840" width="120" height="60" as="geometry"/>
+                <mxCell id="52" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Transform" vertex="1">
+                    <mxGeometry height="60" width="120" x="440" y="840" as="geometry"/>
                 </mxCell>
-                <mxCell id="54" value="passthrough" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="680" y="840" width="120" height="60" as="geometry"/>
+                <mxCell id="54" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="passthrough" vertex="1">
+                    <mxGeometry height="60" width="120" x="680" y="840" as="geometry"/>
                 </mxCell>
-                <mxCell id="167" value="&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Data&lt;/font&gt;&lt;/b&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;gradientColor=#ea6b66;" parent="1" vertex="1">
-                    <mxGeometry x="305" y="-70" width="120" height="80" as="geometry"/>
+                <mxCell id="167" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;gradientColor=#ea6b66;" value="&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Data&lt;/font&gt;&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="80" width="120" x="305" y="-70" as="geometry"/>
                 </mxCell>
-                <mxCell id="170" style="edgeStyle=none;html=1;entryX=0.875;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;flowAnimation=1;strokeWidth=5;" parent="1" source="175" target="167" edge="1">
+                <mxCell id="170" edge="1" parent="1" source="175" style="edgeStyle=none;html=1;entryX=0.875;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;flowAnimation=1;strokeWidth=5;" target="167">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="490" y="-100" as="sourcePoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="178" value="Writing Internal process" style="swimlane;childLayout=stackLayout;horizontal=1;fillColor=#76608a;horizontalStack=1;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;strokeColor=#432D57;stackBorder=10;stackSpacing=-12;resizable=1;align=center;whiteSpace=wrap;html=1;rounded=1;points=[[0,0,0,0,0],[0,0.25,0,0,0],[0,0.5,0,0,0],[0,0.75,0,0,0],[0,1,0,0,0],[0.25,0,0,0,0],[0.25,1,0,0,0],[0.5,0,0,0,0],[0.5,1,0,0,0],[0.75,0,0,0,0],[0.75,1,0,0,0],[1,0,0,0,0],[1,0.25,0,0,0],[1,0.5,0,0,0],[1,0.75,0,0,0],[1,1,0,0,0]];fontColor=#ffffff;" parent="1" vertex="1">
-                    <mxGeometry x="1186" y="500" width="290" height="100" as="geometry"/>
+                <mxCell id="178" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;fillColor=#76608a;horizontalStack=1;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;strokeColor=#432D57;stackBorder=10;stackSpacing=-12;resizable=1;align=center;whiteSpace=wrap;html=1;rounded=1;points=[[0,0,0,0,0],[0,0.25,0,0,0],[0,0.5,0,0,0],[0,0.75,0,0,0],[0,1,0,0,0],[0.25,0,0,0,0],[0.25,1,0,0,0],[0.5,0,0,0,0],[0.5,1,0,0,0],[0.75,0,0,0,0],[0.75,1,0,0,0],[1,0,0,0,0],[1,0.25,0,0,0],[1,0.5,0,0,0],[1,0.75,0,0,0],[1,1,0,0,0]];fontColor=#ffffff;" value="Writing Internal process" vertex="1">
+                    <mxGeometry height="100" width="290" x="1186" y="500" as="geometry"/>
                 </mxCell>
-                <mxCell id="179" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;first the data&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;is store in a&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;buffer chunk&lt;/font&gt;&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];whiteSpace=wrap;html=1;" parent="178" vertex="1">
-                    <mxGeometry x="10" y="33" width="120" height="57" as="geometry"/>
+                <mxCell id="179" parent="178" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];whiteSpace=wrap;html=1;" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;first the data&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;is store in a&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;buffer chunk&lt;/font&gt;&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="57" width="120" x="10" y="33" as="geometry"/>
                 </mxCell>
-                <mxCell id="180" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Then from the&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Buffer data in flushed&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;to the disk&lt;/font&gt;&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];whiteSpace=wrap;html=1;" parent="178" vertex="1">
-                    <mxGeometry x="118" y="33" width="162" height="57" as="geometry"/>
+                <mxCell id="180" parent="178" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];whiteSpace=wrap;html=1;" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Then from the&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Buffer data in flushed&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;to the disk&lt;/font&gt;&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="57" width="162" x="118" y="33" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
