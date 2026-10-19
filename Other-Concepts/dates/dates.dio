@@ -1,11 +1,11 @@
 <mxfile host="65bd71144e">
     <diagram id="DsrX84Hc8P2oqUcaOtz3" name="Page-1">
-        <mxGraphModel dx="1666" dy="1706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="light-dark(#ffffff, #121212)" math="0" shadow="0">
+        <mxGraphModel dx="2111" dy="1830" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="light-dark(#ffffff, #121212)" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
                 <mxCell id="cCFKwo3Y45gqiVWlcszK-1" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;fillColor=#b0e3e6;strokeColor=#0e8088;" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Date and time&lt;/font&gt;&lt;/b&gt;" vertex="1">
-                    <mxGeometry height="295" width="415" x="260" y="-250" as="geometry"/>
+                    <mxGeometry height="295" width="415" x="302.5" y="-240" as="geometry"/>
                 </mxCell>
                 <mxCell id="cCFKwo3Y45gqiVWlcszK-2" parent="cCFKwo3Y45gqiVWlcszK-1" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="We started &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(102, 0, 102));&quot;&gt;maintaining the date and time is miliseconds starting from&amp;nbsp; &lt;b&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;1970-01-01 00:00:00 UTC&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;" vertex="1">
                     <mxGeometry height="45" width="415" y="30" as="geometry"/>
@@ -16,7 +16,19 @@
                 <mxCell id="cCFKwo3Y45gqiVWlcszK-27" parent="cCFKwo3Y45gqiVWlcszK-1" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="Ways of representing date and time: -&amp;nbsp;&lt;br&gt;1. representing time AM and PM in different ways: -&amp;nbsp;&lt;div&gt;&lt;ol&gt;&lt;li&gt;12 hours clock&lt;/li&gt;&lt;li&gt;24 hours clock&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" vertex="1">
                     <mxGeometry height="100" width="415" y="195" as="geometry"/>
                 </mxCell>
-                <mxCell id="cCFKwo3Y45gqiVWlcszK-11" parent="1" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=30;html=1;rounded=1;roundedPerimeter=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" value="Date difference from world map perspective" vertex="1">
+                <mxCell id="cCFKwo3Y45gqiVWlcszK-44" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;fillColor=#f8cecc;strokeColor=#b85450;gradientColor=#ea6b66;" value="&lt;b&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;Date and time&lt;/font&gt;&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="165" width="415" x="350" y="960" as="geometry"/>
+                </mxCell>
+                <mxCell id="cCFKwo3Y45gqiVWlcszK-45" parent="cCFKwo3Y45gqiVWlcszK-44" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="can get the different format of date and time, in different styles, lang, countries etc" vertex="1">
+                    <mxGeometry height="45" width="415" y="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="cCFKwo3Y45gqiVWlcszK-48" parent="cCFKwo3Y45gqiVWlcszK-44" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="can customize&amp;nbsp; style/format of&amp;nbsp; timezone, datestyle, timestyle" vertex="1">
+                    <mxGeometry height="45" width="415" y="75" as="geometry"/>
+                </mxCell>
+                <mxCell id="cCFKwo3Y45gqiVWlcszK-53" parent="cCFKwo3Y45gqiVWlcszK-44" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="convert the date and time format to milisecond and vice-versa" vertex="1">
+                    <mxGeometry height="45" width="415" y="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="cCFKwo3Y45gqiVWlcszK-11" parent="1" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=30;html=1;rounded=1;roundedPerimeter=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" value="time difference from world map perspective" vertex="1">
                     <mxGeometry height="250" width="530" x="250" y="195" as="geometry"/>
                 </mxCell>
                 <mxCell id="cCFKwo3Y45gqiVWlcszK-13" parent="cCFKwo3Y45gqiVWlcszK-11" style="swimlane;startSize=20;html=1;fillColor=#a0522d;fontColor=#ffffff;strokeColor=#6D1F00;" value="negative (-)" vertex="1">
@@ -31,7 +43,7 @@
                 <mxCell id="cCFKwo3Y45gqiVWlcszK-20" parent="cCFKwo3Y45gqiVWlcszK-14" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Uk&#39;s Greenwich was chosen&amp;nbsp; as the global time reference" vertex="1">
                     <mxGeometry height="40" width="155" x="5" y="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="cCFKwo3Y45gqiVWlcszK-23" parent="cCFKwo3Y45gqiVWlcszK-14" style="whiteSpace=wrap;html=1;" value="00:00:00 UTC" vertex="1">
+                <mxCell id="cCFKwo3Y45gqiVWlcszK-23" parent="cCFKwo3Y45gqiVWlcszK-14" style="whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="00:00:00 UTC" vertex="1">
                     <mxGeometry height="60" width="120" x="30" y="90" as="geometry"/>
                 </mxCell>
                 <mxCell id="cCFKwo3Y45gqiVWlcszK-15" parent="cCFKwo3Y45gqiVWlcszK-11" style="swimlane;startSize=20;html=1;fillColor=#a0522d;fontColor=#ffffff;strokeColor=#6D1F00;" value="positive (+)" vertex="1">
@@ -46,53 +58,69 @@
                 <mxCell id="cCFKwo3Y45gqiVWlcszK-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;strong&gt;GMT&lt;/strong&gt; is a time zone, defined historically by the sun’s position over the Greenwich meridian. &lt;strong&gt;UTC&lt;/strong&gt; is a time standard, defined by atomic clocks and kept within a second of Earth’s rotation by occasionally adding leap seconds." vertex="1">
                     <mxGeometry height="100" width="300" x="-220" y="270" as="geometry"/>
                 </mxCell>
-                <mxCell id="cCFKwo3Y45gqiVWlcszK-28" parent="1" style="swimlane;rounded=1;roundedPerimeter=1;fillColor=#bac8d3;strokeColor=#23445d;" value="Container" vertex="1">
-                    <mxGeometry height="500" width="640" x="210" y="520" as="geometry"/>
+                <mxCell id="cCFKwo3Y45gqiVWlcszK-28" parent="1" style="swimlane;rounded=1;roundedPerimeter=1;fillColor=#bac8d3;strokeColor=#23445d;" value="date and time format explanaiton" vertex="1">
+                    <mxGeometry height="340" width="750" x="210" y="520" as="geometry"/>
+                </mxCell>
+                <mxCell id="cCFKwo3Y45gqiVWlcszK-51" edge="1" parent="cCFKwo3Y45gqiVWlcszK-28" source="cCFKwo3Y45gqiVWlcszK-29" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="cCFKwo3Y45gqiVWlcszK-52">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="540" y="90" as="targetPoint"/>
+                    </mxGeometry>
                 </mxCell>
                 <mxCell id="cCFKwo3Y45gqiVWlcszK-29" parent="cCFKwo3Y45gqiVWlcszK-28" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#99004D);" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(139, 148, 158), rgb(255, 255, 255));&quot;&gt;&lt;font style=&quot;font-size: 25px;&quot;&gt;2026-10-19T07:20:32.475Z&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
-                    <mxGeometry height="45" width="462.5" x="22.5" y="55" as="geometry"/>
+                    <mxGeometry height="45" width="462.5" x="40" y="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="cCFKwo3Y45gqiVWlcszK-50" edge="1" parent="cCFKwo3Y45gqiVWlcszK-28" source="cCFKwo3Y45gqiVWlcszK-49" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="cCFKwo3Y45gqiVWlcszK-52">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="540" y="70" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="cCFKwo3Y45gqiVWlcszK-49" parent="cCFKwo3Y45gqiVWlcszK-28" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#99004D);" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(139, 148, 158), rgb(255, 255, 255));&quot;&gt;&lt;font style=&quot;font-size: 25px;&quot;&gt;2026-10-19T07:20:32.475+00:00&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="45" width="462.5" x="40" y="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="cCFKwo3Y45gqiVWlcszK-33" parent="cCFKwo3Y45gqiVWlcszK-28" style="shape=wedgeCallout;whiteSpace=wrap;html=1;direction=west;tipX=-0.357;tipY=1;" value="this is date in Y/M/D format" vertex="1">
-                    <mxGeometry height="60" width="105" x="35" y="120" as="geometry"/>
+                    <mxGeometry height="60" width="105" x="52.5" y="155" as="geometry"/>
                 </mxCell>
                 <mxCell id="cCFKwo3Y45gqiVWlcszK-35" edge="1" parent="cCFKwo3Y45gqiVWlcszK-28" style="endArrow=none;html=1;strokeWidth=5;" value="">
                     <mxGeometry height="50" relative="1" width="50" as="geometry">
-                        <mxPoint x="85" y="90" as="sourcePoint"/>
-                        <mxPoint x="205" y="90" as="targetPoint"/>
+                        <mxPoint x="109.5" y="125" as="sourcePoint"/>
+                        <mxPoint x="229.5" y="125" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="cCFKwo3Y45gqiVWlcszK-39" edge="1" parent="cCFKwo3Y45gqiVWlcszK-28" style="endArrow=none;html=1;strokeWidth=5;" value="">
                     <mxGeometry height="50" relative="1" width="50" as="geometry">
-                        <mxPoint x="405" y="90" as="sourcePoint"/>
-                        <mxPoint x="425" y="90" as="targetPoint"/>
+                        <mxPoint x="422.5" y="125" as="sourcePoint"/>
+                        <mxPoint x="442.5" y="125" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="cCFKwo3Y45gqiVWlcszK-38" edge="1" parent="cCFKwo3Y45gqiVWlcszK-28" style="endArrow=none;html=1;strokeWidth=5;" value="">
                     <mxGeometry height="50" relative="1" width="50" as="geometry">
-                        <mxPoint x="255" y="90" as="sourcePoint"/>
-                        <mxPoint x="395" y="90" as="targetPoint"/>
+                        <mxPoint x="272.5" y="125" as="sourcePoint"/>
+                        <mxPoint x="412.5" y="125" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="cCFKwo3Y45gqiVWlcszK-36" edge="1" parent="cCFKwo3Y45gqiVWlcszK-28" style="endArrow=none;html=1;strokeWidth=5;" value="">
                     <mxGeometry height="50" relative="1" width="50" as="geometry">
-                        <mxPoint x="210" y="90" as="sourcePoint"/>
-                        <mxPoint x="240" y="90" as="targetPoint"/>
+                        <mxPoint x="236.5" y="125" as="sourcePoint"/>
+                        <mxPoint x="266.5" y="125" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="cCFKwo3Y45gqiVWlcszK-41" parent="cCFKwo3Y45gqiVWlcszK-28" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;direction=west;" value="T here is a sperator" vertex="1">
-                    <mxGeometry height="80" width="120" x="165" y="90" as="geometry"/>
+                    <mxGeometry height="80" width="120" x="182.5" y="125" as="geometry"/>
                 </mxCell>
                 <mxCell id="cCFKwo3Y45gqiVWlcszK-42" parent="cCFKwo3Y45gqiVWlcszK-28" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;direction=west;flipH=1;legacyAnchorPoints=0;" value="this is time in hr/min/sec/ms" vertex="1">
-                    <mxGeometry height="80" width="120" x="295" y="100" as="geometry"/>
+                    <mxGeometry height="80" width="120" x="312.5" y="135" as="geometry"/>
                 </mxCell>
                 <mxCell id="cCFKwo3Y45gqiVWlcszK-43" parent="cCFKwo3Y45gqiVWlcszK-28" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;direction=west;flipH=0;legacyAnchorPoints=0;position2=1;" value="Z here means&amp;nbsp;the “Zulu” time zone, offset +00:00. It tells you the time is not local, it’s the UTC reference.&amp;nbsp;" vertex="1">
-                    <mxGeometry height="130" width="120" x="425" y="90" as="geometry"/>
+                    <mxGeometry height="130" width="137.5" x="442.5" y="125" as="geometry"/>
                 </mxCell>
                 <mxCell id="cCFKwo3Y45gqiVWlcszK-37" edge="1" parent="cCFKwo3Y45gqiVWlcszK-28" style="endArrow=none;html=1;strokeWidth=5;" value="">
                     <mxGeometry height="50" relative="1" width="50" as="geometry">
-                        <mxPoint x="25" y="270" as="sourcePoint"/>
-                        <mxPoint x="610" y="270" as="targetPoint"/>
+                        <mxPoint x="27.5" y="280" as="sourcePoint"/>
+                        <mxPoint x="612.5" y="280" as="targetPoint"/>
                     </mxGeometry>
+                </mxCell>
+                <mxCell id="cCFKwo3Y45gqiVWlcszK-52" parent="cCFKwo3Y45gqiVWlcszK-28" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;&lt;b&gt;Both are same&lt;/b&gt;&lt;/font&gt;" vertex="1">
+                    <mxGeometry height="60" width="120" x="562.5" y="50" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
