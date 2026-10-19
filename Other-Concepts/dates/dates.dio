@@ -1,0 +1,100 @@
+<mxfile host="65bd71144e">
+    <diagram id="DsrX84Hc8P2oqUcaOtz3" name="Page-1">
+        <mxGraphModel dx="1666" dy="1706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="light-dark(#ffffff, #121212)" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="cCFKwo3Y45gqiVWlcszK-1" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;fillColor=#b0e3e6;strokeColor=#0e8088;" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Date and time&lt;/font&gt;&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="295" width="415" x="260" y="-250" as="geometry"/>
+                </mxCell>
+                <mxCell id="cCFKwo3Y45gqiVWlcszK-2" parent="cCFKwo3Y45gqiVWlcszK-1" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="We started &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(102, 0, 102));&quot;&gt;maintaining the date and time is miliseconds starting from&amp;nbsp; &lt;b&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;1970-01-01 00:00:00 UTC&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;" vertex="1">
+                    <mxGeometry height="45" width="415" y="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="cCFKwo3Y45gqiVWlcszK-25" parent="cCFKwo3Y45gqiVWlcszK-1" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="Ways of representing date and time: -&amp;nbsp;&lt;br&gt;1. Date: -&amp;nbsp;&lt;div&gt;&lt;ol&gt;&lt;li&gt;YYYY/MM/DD (&lt;b&gt;Big-Endian&lt;/b&gt; hierarchical)&lt;/li&gt;&lt;li&gt;DD/MM/YYYY (Little-Endian)&lt;/li&gt;&lt;li&gt;and in all other posible combinations&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="120" width="415" y="75" as="geometry"/>
+                </mxCell>
+                <mxCell id="cCFKwo3Y45gqiVWlcszK-27" parent="cCFKwo3Y45gqiVWlcszK-1" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="Ways of representing date and time: -&amp;nbsp;&lt;br&gt;1. representing time AM and PM in different ways: -&amp;nbsp;&lt;div&gt;&lt;ol&gt;&lt;li&gt;12 hours clock&lt;/li&gt;&lt;li&gt;24 hours clock&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="100" width="415" y="195" as="geometry"/>
+                </mxCell>
+                <mxCell id="cCFKwo3Y45gqiVWlcszK-11" parent="1" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=30;html=1;rounded=1;roundedPerimeter=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" value="Date difference from world map perspective" vertex="1">
+                    <mxGeometry height="250" width="530" x="250" y="195" as="geometry"/>
+                </mxCell>
+                <mxCell id="cCFKwo3Y45gqiVWlcszK-13" parent="cCFKwo3Y45gqiVWlcszK-11" style="swimlane;startSize=20;html=1;fillColor=#a0522d;fontColor=#ffffff;strokeColor=#6D1F00;" value="negative (-)" vertex="1">
+                    <mxGeometry height="220" width="170" y="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="cCFKwo3Y45gqiVWlcszK-17" parent="cCFKwo3Y45gqiVWlcszK-13" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;strong&gt;Countries on the West of Greenwich&lt;/strong&gt; is &lt;strong&gt;behind&lt;/strong&gt; UTC/GMT, so the offset is &lt;strong&gt;negative&lt;/strong&gt;" vertex="1">
+                    <mxGeometry height="60" width="155" y="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="cCFKwo3Y45gqiVWlcszK-14" parent="cCFKwo3Y45gqiVWlcszK-11" style="swimlane;startSize=20;html=1;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" value="UK (UTC)" vertex="1">
+                    <mxGeometry height="220" width="180" x="170" y="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="cCFKwo3Y45gqiVWlcszK-20" parent="cCFKwo3Y45gqiVWlcszK-14" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Uk&#39;s Greenwich was chosen&amp;nbsp; as the global time reference" vertex="1">
+                    <mxGeometry height="40" width="155" x="5" y="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="cCFKwo3Y45gqiVWlcszK-23" parent="cCFKwo3Y45gqiVWlcszK-14" style="whiteSpace=wrap;html=1;" value="00:00:00 UTC" vertex="1">
+                    <mxGeometry height="60" width="120" x="30" y="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="cCFKwo3Y45gqiVWlcszK-15" parent="cCFKwo3Y45gqiVWlcszK-11" style="swimlane;startSize=20;html=1;fillColor=#a0522d;fontColor=#ffffff;strokeColor=#6D1F00;" value="positive (+)" vertex="1">
+                    <mxGeometry height="220" width="180" x="350" y="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="cCFKwo3Y45gqiVWlcszK-18" parent="cCFKwo3Y45gqiVWlcszK-15" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;strong&gt;Countries on theEast of Greenwich&lt;/strong&gt; is &lt;strong&gt;ahead&lt;/strong&gt; of UTC/GMT, so the offset is &lt;strong&gt;positive&lt;/strong&gt;&lt;/span&gt;" vertex="1">
+                    <mxGeometry height="45" width="155" x="10" y="37.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="cCFKwo3Y45gqiVWlcszK-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Offsets don’t follow longitude exactly. Governments choose their own zones (China uses one time zone across a huge area), and some places use half-hour or 45-minute offsets, like India (+5:30) and Nepal (+5:45)." vertex="1">
+                    <mxGeometry height="120" width="330" x="890" y="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="cCFKwo3Y45gqiVWlcszK-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;strong&gt;GMT&lt;/strong&gt; is a time zone, defined historically by the sun’s position over the Greenwich meridian. &lt;strong&gt;UTC&lt;/strong&gt; is a time standard, defined by atomic clocks and kept within a second of Earth’s rotation by occasionally adding leap seconds." vertex="1">
+                    <mxGeometry height="100" width="300" x="-220" y="270" as="geometry"/>
+                </mxCell>
+                <mxCell id="cCFKwo3Y45gqiVWlcszK-28" parent="1" style="swimlane;rounded=1;roundedPerimeter=1;fillColor=#bac8d3;strokeColor=#23445d;" value="Container" vertex="1">
+                    <mxGeometry height="500" width="640" x="210" y="520" as="geometry"/>
+                </mxCell>
+                <mxCell id="cCFKwo3Y45gqiVWlcszK-29" parent="cCFKwo3Y45gqiVWlcszK-28" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#99004D);" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(139, 148, 158), rgb(255, 255, 255));&quot;&gt;&lt;font style=&quot;font-size: 25px;&quot;&gt;2026-10-19T07:20:32.475Z&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="45" width="462.5" x="22.5" y="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="cCFKwo3Y45gqiVWlcszK-33" parent="cCFKwo3Y45gqiVWlcszK-28" style="shape=wedgeCallout;whiteSpace=wrap;html=1;direction=west;tipX=-0.357;tipY=1;" value="this is date in Y/M/D format" vertex="1">
+                    <mxGeometry height="60" width="105" x="35" y="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="cCFKwo3Y45gqiVWlcszK-35" edge="1" parent="cCFKwo3Y45gqiVWlcszK-28" style="endArrow=none;html=1;strokeWidth=5;" value="">
+                    <mxGeometry height="50" relative="1" width="50" as="geometry">
+                        <mxPoint x="85" y="90" as="sourcePoint"/>
+                        <mxPoint x="205" y="90" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="cCFKwo3Y45gqiVWlcszK-39" edge="1" parent="cCFKwo3Y45gqiVWlcszK-28" style="endArrow=none;html=1;strokeWidth=5;" value="">
+                    <mxGeometry height="50" relative="1" width="50" as="geometry">
+                        <mxPoint x="405" y="90" as="sourcePoint"/>
+                        <mxPoint x="425" y="90" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="cCFKwo3Y45gqiVWlcszK-38" edge="1" parent="cCFKwo3Y45gqiVWlcszK-28" style="endArrow=none;html=1;strokeWidth=5;" value="">
+                    <mxGeometry height="50" relative="1" width="50" as="geometry">
+                        <mxPoint x="255" y="90" as="sourcePoint"/>
+                        <mxPoint x="395" y="90" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="cCFKwo3Y45gqiVWlcszK-36" edge="1" parent="cCFKwo3Y45gqiVWlcszK-28" style="endArrow=none;html=1;strokeWidth=5;" value="">
+                    <mxGeometry height="50" relative="1" width="50" as="geometry">
+                        <mxPoint x="210" y="90" as="sourcePoint"/>
+                        <mxPoint x="240" y="90" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="cCFKwo3Y45gqiVWlcszK-41" parent="cCFKwo3Y45gqiVWlcszK-28" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;direction=west;" value="T here is a sperator" vertex="1">
+                    <mxGeometry height="80" width="120" x="165" y="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="cCFKwo3Y45gqiVWlcszK-42" parent="cCFKwo3Y45gqiVWlcszK-28" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;direction=west;flipH=1;legacyAnchorPoints=0;" value="this is time in hr/min/sec/ms" vertex="1">
+                    <mxGeometry height="80" width="120" x="295" y="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="cCFKwo3Y45gqiVWlcszK-43" parent="cCFKwo3Y45gqiVWlcszK-28" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;direction=west;flipH=0;legacyAnchorPoints=0;position2=1;" value="Z here means&amp;nbsp;the “Zulu” time zone, offset +00:00. It tells you the time is not local, it’s the UTC reference.&amp;nbsp;" vertex="1">
+                    <mxGeometry height="130" width="120" x="425" y="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="cCFKwo3Y45gqiVWlcszK-37" edge="1" parent="cCFKwo3Y45gqiVWlcszK-28" style="endArrow=none;html=1;strokeWidth=5;" value="">
+                    <mxGeometry height="50" relative="1" width="50" as="geometry">
+                        <mxPoint x="25" y="270" as="sourcePoint"/>
+                        <mxPoint x="610" y="270" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
