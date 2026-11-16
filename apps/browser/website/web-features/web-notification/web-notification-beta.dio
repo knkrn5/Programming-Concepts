@@ -85,9 +85,12 @@
                 <mxCell id="ezNY8p4XwQkdJzBVu-HM-133" parent="ezNY8p4XwQkdJzBVu-HM-130" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;fontColor=light-dark(#FFFFFF,#FFFFFF);" value="2. &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(153, 0, 153));&quot;&gt;how to identify this&lt;/span&gt;" vertex="1">
                     <mxGeometry height="30" width="290" y="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="87" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;" value="Problems" vertex="1">
-                    <mxGeometry height="190" width="420" x="-390" y="1800" as="geometry">
-                        <mxRectangle height="30" width="190" x="64" y="1320" as="alternateBounds"/>
+                <mxCell id="ezNY8p4XwQkdJzBVu-HM-170" edge="1" parent="1" source="87" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="ezNY8p4XwQkdJzBVu-HM-115">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="87" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=light-dark(#F5F5F5,#FF0000);strokeColor=#666666;gradientColor=none;" value="&amp;nbsp;Browser Problems" vertex="1">
+                    <mxGeometry height="190" width="420" x="-360" y="1420" as="geometry">
+                        <mxRectangle height="30" width="190" x="-360" y="1420" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="88" parent="87" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="1. multiples apps/sites" vertex="1">
@@ -168,18 +171,18 @@
                     <mxGeometry height="110" width="377" y="140" as="geometry"/>
                 </mxCell>
                 <mxCell id="99" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" value="how browser identify" vertex="1">
-                    <mxGeometry height="120" width="350" x="-827" y="1560" as="geometry">
+                    <mxGeometry height="120" width="430" x="-430" y="2040" as="geometry">
                         <mxRectangle height="30" width="90" x="340" y="740" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="92" parent="99" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="2. Browser wakes up respective site associated service worker, and that service worker can do any thing it has be coded to do" vertex="1">
-                    <mxGeometry height="50" width="350" y="30" as="geometry"/>
+                    <mxGeometry height="50" width="430" y="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="95" parent="99" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="3. thatswhy service worker are registered to per scope/domain" vertex="1">
-                    <mxGeometry height="40" width="350" y="80" as="geometry"/>
+                    <mxGeometry height="40" width="430" y="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="103" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" value="browser identificaiton" vertex="1">
-                    <mxGeometry height="600" width="350" x="-250" y="740" as="geometry">
+                    <mxGeometry height="500" width="350" x="-250" y="740" as="geometry">
                         <mxRectangle height="30" width="90" x="-250" y="740" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
@@ -195,11 +198,13 @@
                 <mxCell id="108" parent="103" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="&amp;nbsp;it asks the push service to mint a &lt;strong&gt;new, unique endpoint URL&lt;/strong&gt; for that specific site/service-worker registration. But under the hood, that new endpoint is registered as &lt;em&gt;&quot;deliver to [browser&#39;s connection identity].&quot;&lt;/em&gt;" vertex="1">
                     <mxGeometry height="70" width="350" y="430" as="geometry"/>
                 </mxCell>
-                <mxCell id="109" parent="103" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="it&#39;s: every browser has one underlying delivery channel, and every subscription gets its own unique endpoint that&#39;s privately mapped to that channel on the vendor&#39;s side. Your server (or any site) only ever sees its own endpoint, never the others, and never the raw device identity." vertex="1">
-                    <mxGeometry height="100" width="350" y="500" as="geometry"/>
+                <mxCell id="ezNY8p4XwQkdJzBVu-HM-171" edge="1" parent="1" source="10" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="25">
+                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="10" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" value="service worker arch" vertex="1">
-                    <mxGeometry height="140" width="410" x="-1440" y="1890" as="geometry"/>
+                    <mxGeometry height="140" width="410" x="-1430" y="1850" as="geometry">
+                        <mxRectangle height="30" width="140" x="-1430" y="1850" as="alternateBounds"/>
+                    </mxGeometry>
                 </mxCell>
                 <mxCell id="11" parent="10" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="Many tabs listening to the old service worker" vertex="1">
                     <mxGeometry height="50" width="410" y="30" as="geometry"/>
@@ -222,11 +227,13 @@
                 <mxCell id="60" parent="56" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="Token invalidation → Firebase Admin SDK throws &lt;code class=&quot;bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]&quot;&gt;messaging/registration-token-not-registered&lt;/code&gt; instead of raw &lt;code class=&quot;bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]&quot;&gt;410 Gone&lt;/code&gt;, so update your error handling:" vertex="1">
                     <mxGeometry height="50" width="410" y="160" as="geometry"/>
                 </mxCell>
-                <mxCell id="ezNY8p4XwQkdJzBVu-HM-160" edge="1" parent="1" source="ezNY8p4XwQkdJzBVu-HM-115" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="87">
-                    <mxGeometry relative="1" as="geometry"/>
+                <mxCell id="ezNY8p4XwQkdJzBVu-HM-160" edge="1" parent="1" source="ezNY8p4XwQkdJzBVu-HM-115" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="99">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-270" y="1780" as="targetPoint"/>
+                    </mxGeometry>
                 </mxCell>
                 <mxCell id="ezNY8p4XwQkdJzBVu-HM-115" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#fad7ac;strokeColor=#b46504;" value="browser&amp;nbsp;" vertex="1">
-                    <mxGeometry height="80" width="410" x="-360" y="1620" as="geometry">
+                    <mxGeometry height="80" width="410" x="-390" y="1770" as="geometry">
                         <mxRectangle height="30" width="90" x="-220" y="507.5" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
@@ -301,7 +308,7 @@
                     <mxGeometry height="240" width="460" x="560" y="929" as="geometry"/>
                 </mxCell>
                 <mxCell id="25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="&lt;div class=&quot;relative group/copy bg-bg-000/50 border-0.5 border-border-400 rounded-lg focus:outline-none focus-visible:ring-2 focus-visible:ring-accent-100&quot; tabindex=&quot;0&quot; aria-label=&quot;javascript code&quot; role=&quot;group&quot;&gt;&lt;div class=&quot;overflow-x-auto&quot;&gt;&lt;pre style=&quot;color: rgb(234, 236, 240); background: transparent; font-family: var(--font-mono);&quot; class=&quot;code-block__code !my-0 !rounded-lg !text-sm !leading-relaxed p-3.5&quot;&gt;&lt;code style=&quot;color: rgb(234, 236, 240); background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; font-family: var(--font-mono);&quot; class=&quot;language-javascript&quot;&gt;&lt;span style=&quot;color: rgb(204, 123, 244);&quot;&gt;const&lt;/span&gt; reg = &lt;span style=&quot;color: rgb(204, 123, 244);&quot;&gt;await&lt;/span&gt; navigator&lt;span style=&quot;color: rgb(211, 215, 222);&quot;&gt;.&lt;/span&gt;serviceWorker&lt;span style=&quot;color: rgb(211, 215, 222);&quot;&gt;.&lt;/span&gt;ready&lt;span style=&quot;color: rgb(211, 215, 222);&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;br/&gt;&lt;p dir=&quot;ltr&quot; class=&quot;font-claude-response-body break-words whitespace-normal&quot;&gt;&lt;code class=&quot;bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]&quot;&gt;navigator.serviceWorker&lt;/code&gt; is a &lt;code class=&quot;bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]&quot;&gt;ServiceWorkerContainer&lt;/code&gt; — one per page, tied to the page&#39;s own URL/scope. &lt;code class=&quot;bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]&quot;&gt;.ready&lt;/code&gt; is a promise that resolves once &lt;strong&gt;there is an active service worker controlling this page&lt;/strong&gt;. It doesn&#39;t take an argument telling it which SW to wait for — it just looks at whatever registration applies to the current page&#39;s scope.&lt;/p&gt;&lt;br/&gt;&lt;p dir=&quot;ltr&quot; class=&quot;font-claude-response-body break-words whitespace-normal&quot;&gt;Since &lt;code class=&quot;bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]&quot;&gt;sw1.js&lt;/code&gt; was the only thing registered for this page, and its scope covers this page, &lt;code class=&quot;bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]&quot;&gt;.ready&lt;/code&gt; resolves to &lt;em&gt;that same registration&lt;/em&gt; — same object, in effect, as what &lt;code class=&quot;bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]&quot;&gt;register(&quot;./sw/sw1.js&quot;)&lt;/code&gt; created. That&#39;s the connection: &lt;strong&gt;implicit, via scope-matching done internally by the browser&lt;/strong&gt;, not via a shared JS variable.&lt;/p&gt;" vertex="1">
-                    <mxGeometry height="300" width="450" x="-990" y="1830" as="geometry"/>
+                    <mxGeometry height="300" width="450" x="-1480" y="2080" as="geometry"/>
                 </mxCell>
                 <mxCell id="30" edge="1" parent="1" source="26" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="29">
                     <mxGeometry relative="1" as="geometry"/>
@@ -315,17 +322,9 @@
                 <mxCell id="36" edge="1" parent="1" source="26" style="edgeStyle=none;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.003;entryY=0.167;entryDx=0;entryDy=0;entryPerimeter=0;" target="33">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="110" edge="1" parent="1" source="109" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="99">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="ezNY8p4XwQkdJzBVu-HM-135" edge="1" parent="1" source="103" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="ezNY8p4XwQkdJzBVu-HM-115">
+                <mxCell id="ezNY8p4XwQkdJzBVu-HM-135" edge="1" parent="1" source="103" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="87">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="-210" y="1170" as="sourcePoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="ezNY8p4XwQkdJzBVu-HM-137" connectable="0" parent="ezNY8p4XwQkdJzBVu-HM-135" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;" value="&lt;font style=&quot;scrollbar-color: rgba(168, 169, 170, 0.52) rgb(18, 19, 20); background-color: light-dark(rgb(255, 255, 255), rgb(255, 0, 0));&quot;&gt;A system can&lt;/font&gt;&lt;div style=&quot;color: rgb(192, 192, 192); scrollbar-color: rgba(168, 169, 170, 0.52) rgb(18, 19, 20);&quot;&gt;&lt;font style=&quot;scrollbar-color: rgba(168, 169, 170, 0.52) rgb(18, 19, 20); background-color: light-dark(rgb(255, 255, 255), rgb(255, 0, 0));&quot;&gt;have a lot of&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(192, 192, 192); scrollbar-color: rgba(168, 169, 170, 0.52) rgb(18, 19, 20);&quot;&gt;&lt;font style=&quot;scrollbar-color: rgba(168, 169, 170, 0.52) rgb(18, 19, 20); background-color: light-dark(rgb(255, 255, 255), rgb(255, 0, 0));&quot;&gt;applications, so&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(192, 192, 192); scrollbar-color: rgba(168, 169, 170, 0.52) rgb(18, 19, 20);&quot;&gt;&lt;font style=&quot;scrollbar-color: rgba(168, 169, 170, 0.52) rgb(18, 19, 20); background-color: light-dark(rgb(255, 255, 255), rgb(255, 0, 0));&quot;&gt;how to identify&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(192, 192, 192); scrollbar-color: rgba(168, 169, 170, 0.52) rgb(18, 19, 20);&quot;&gt;&lt;font style=&quot;scrollbar-color: rgba(168, 169, 170, 0.52) rgb(18, 19, 20); background-color: light-dark(rgb(255, 255, 255), rgb(255, 0, 0));&quot;&gt;who is sending&lt;/font&gt;&lt;/div&gt;" vertex="1">
-                    <mxGeometry relative="1" x="-0.0514" y="-1" as="geometry">
-                        <mxPoint x="1" as="offset"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="ezNY8p4XwQkdJzBVu-HM-145" edge="1" parent="1" source="ezNY8p4XwQkdJzBVu-HM-114" style="edgeStyle=none;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="ezNY8p4XwQkdJzBVu-HM-146">
@@ -348,9 +347,6 @@
                     <mxGeometry height="120" width="140" x="3130" y="1310" as="geometry"/>
                 </mxCell>
                 <mxCell id="ezNY8p4XwQkdJzBVu-HM-134" edge="1" parent="1" source="ezNY8p4XwQkdJzBVu-HM-130" style="edgeStyle=none;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=-0.001;entryY=0.718;entryDx=0;entryDy=0;entryPerimeter=0;" target="91">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="ezNY8p4XwQkdJzBVu-HM-136" edge="1" parent="1" source="ezNY8p4XwQkdJzBVu-HM-115" style="edgeStyle=none;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.996;entryY=0.16;entryDx=0;entryDy=0;entryPerimeter=0;" target="25">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="ezNY8p4XwQkdJzBVu-HM-140" edge="1" parent="1" source="ezNY8p4XwQkdJzBVu-HM-138" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="ezNY8p4XwQkdJzBVu-HM-139">
@@ -377,6 +373,12 @@
                     <mxGeometry height="60" width="120" x="1110" y="-260" as="geometry"/>
                 </mxCell>
                 <mxCell id="ezNY8p4XwQkdJzBVu-HM-159" edge="1" parent="1" source="73" style="edgeStyle=none;html=1;exitX=1;exitY=0.145;exitDx=0;exitDy=0;entryX=0.007;entryY=0.038;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" target="56">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="109" parent="1" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="it&#39;s: every browser has one underlying delivery channel, and every subscription gets its own unique endpoint that&#39;s privately mapped to that channel on the vendor&#39;s side. Your server (or any site) only ever sees its own endpoint, never the others, and never the raw device identity." vertex="1">
+                    <mxGeometry height="100" width="350" x="-720" y="1169" as="geometry"/>
+                </mxCell>
+                <mxCell id="ezNY8p4XwQkdJzBVu-HM-169" edge="1" parent="1" source="108" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="109">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
             </root>
