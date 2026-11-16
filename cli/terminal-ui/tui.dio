@@ -10,18 +10,18 @@
                         <mxPoint x="750" y="220" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="MOgwgX5Pt7KfMnz4-GkR-1" edge="1" parent="1" source="SO165_4_2_Le_3jqUpjJ-2" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;flowAnimation=1;">
-                    <mxGeometry relative="1" x="0.0279" as="geometry">
+                <mxCell id="MOgwgX5Pt7KfMnz4-GkR-1" edge="1" parent="1" source="SO165_4_2_Le_3jqUpjJ-2" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1.004;exitY=0.06;exitDx=0;exitDy=0;flowAnimation=1;exitPerimeter=0;">
+                    <mxGeometry relative="1" x="0.0139" as="geometry">
                         <Array as="points">
-                            <mxPoint x="710" y="-410"/>
+                            <mxPoint x="710" y="-399.2"/>
                             <mxPoint x="710" y="260"/>
                         </Array>
                         <mxPoint x="445" y="-250" as="sourcePoint"/>
                         <mxPoint x="600" y="260" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="MOgwgX5Pt7KfMnz4-GkR-40" connectable="0" parent="MOgwgX5Pt7KfMnz4-GkR-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;" value="3-a. Application&amp;nbsp;&lt;div&gt;receives&lt;div&gt;the output&lt;/div&gt;&lt;/div&gt;&lt;div&gt;via pTY&lt;/div&gt;" vertex="1">
-                    <mxGeometry relative="1" x="0.0212" y="1" as="geometry">
+                <mxCell id="MOgwgX5Pt7KfMnz4-GkR-40" connectable="0" parent="MOgwgX5Pt7KfMnz4-GkR-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;" value="3-b. Application&amp;nbsp;&lt;div&gt;receives&lt;div&gt;the output&lt;/div&gt;&lt;/div&gt;&lt;div&gt;via pTY&lt;/div&gt;" vertex="1">
+                    <mxGeometry relative="1" x="0.0071" y="1" as="geometry">
                         <mxPoint x="-1" y="-86" as="offset"/>
                     </mxGeometry>
                 </mxCell>
@@ -47,7 +47,7 @@
                     <mxGeometry height="60" width="390" y="120" as="geometry"/>
                 </mxCell>
                 <mxCell id="MOgwgX5Pt7KfMnz4-GkR-9" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;multiple=0;shadow=0;" value="2. Pipe" vertex="1">
-                    <mxGeometry height="290" width="390" x="-380" y="-1370" as="geometry">
+                    <mxGeometry height="290" width="390" x="-410" y="-1440" as="geometry">
                         <mxRectangle height="30" width="160" x="-360" y="-1370" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
@@ -61,7 +61,7 @@
                     <mxGeometry height="70" width="390" y="220" as="geometry"/>
                 </mxCell>
                 <mxCell id="MOgwgX5Pt7KfMnz4-GkR-41" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;multiple=0;shadow=0;" value="2. Redirect" vertex="1">
-                    <mxGeometry height="230" width="390" x="-410" y="-977.5" as="geometry">
+                    <mxGeometry height="230" width="390" x="-420" y="-880" as="geometry">
                         <mxRectangle height="30" width="160" x="-370" y="-950" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
@@ -71,21 +71,21 @@
                 <mxCell id="MOgwgX5Pt7KfMnz4-GkR-55" parent="MOgwgX5Pt7KfMnz4-GkR-41" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;fontColor=light-dark(#FFFFFF,#FFFFFF);" value="&lt;ol&gt;&lt;li&gt;Shell opens that file&lt;/li&gt;&lt;li&gt;Shell sets the child process&#39;s FD 1 to refer to the file.&lt;/li&gt;&lt;li&gt;program writes directly to that file, &lt;strong&gt;not the PTY&lt;/strong&gt;&lt;/li&gt;&lt;/ol&gt;" vertex="1">
                     <mxGeometry height="140" width="390" y="90" as="geometry"/>
                 </mxCell>
-                <mxCell id="1UfuDj-I-o0t-QmothvO-21" edge="1" parent="1" source="1UfuDj-I-o0t-QmothvO-18" style="edgeStyle=none;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;flowAnimation=1;entryX=0.782;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="SO165_4_2_Le_3jqUpjJ-2">
+                <mxCell id="1UfuDj-I-o0t-QmothvO-21" edge="1" parent="1" style="edgeStyle=none;html=1;flowAnimation=1;entryX=0.913;entryY=-0.009;entryDx=0;entryDy=0;entryPerimeter=0;" target="SO165_4_2_Le_3jqUpjJ-2">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="535" y="-510" as="sourcePoint"/>
+                        <mxPoint x="550" y="-780" as="sourcePoint"/>
                         <mxPoint x="540" y="-660" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="MOgwgX5Pt7KfMnz4-GkR-73" connectable="0" parent="1UfuDj-I-o0t-QmothvO-21" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;" value="3-b. When the program&lt;div&gt;stdout is connected&lt;/div&gt;&lt;div&gt;via PTY pair&lt;/div&gt;" vertex="1">
-                    <mxGeometry relative="1" x="-0.0986" y="-1" as="geometry">
+                    <mxGeometry relative="1" x="-0.0964" y="-1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="MOgwgX5Pt7KfMnz4-GkR-69" edge="1" parent="1" source="1UfuDj-I-o0t-QmothvO-18" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;flowAnimation=1;" target="MOgwgX5Pt7KfMnz4-GkR-41">
                     <mxGeometry relative="1" x="0.0007" as="geometry"/>
                 </mxCell>
-                <mxCell id="MOgwgX5Pt7KfMnz4-GkR-72" connectable="0" parent="MOgwgX5Pt7KfMnz4-GkR-69" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;" value="3-b. When the&lt;div&gt;stdout is redirected&lt;/div&gt;" vertex="1">
+                <mxCell id="MOgwgX5Pt7KfMnz4-GkR-72" connectable="0" parent="MOgwgX5Pt7KfMnz4-GkR-69" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;" value="3-c. When the&lt;div&gt;stdout is redirected&lt;/div&gt;" vertex="1">
                     <mxGeometry relative="1" x="0.0756" y="-1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
@@ -95,10 +95,13 @@
                         <mxPoint x="-180" y="-1340" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="MOgwgX5Pt7KfMnz4-GkR-71" connectable="0" parent="MOgwgX5Pt7KfMnz4-GkR-70" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;" value="3-b. when stdout is&lt;div&gt;piped&lt;/div&gt;" vertex="1">
+                <mxCell id="MOgwgX5Pt7KfMnz4-GkR-71" connectable="0" parent="MOgwgX5Pt7KfMnz4-GkR-70" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;" value="3-c. when stdout is&lt;div&gt;piped&lt;/div&gt;" vertex="1">
                     <mxGeometry relative="1" x="-0.436" y="-2" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
+                </mxCell>
+                <mxCell id="MOgwgX5Pt7KfMnz4-GkR-74" edge="1" parent="1" source="1UfuDj-I-o0t-QmothvO-18" style="edgeStyle=none;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="MOgwgX5Pt7KfMnz4-GkR-44">
+                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="1UfuDj-I-o0t-QmothvO-18" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" value="3. shell" vertex="1">
                     <mxGeometry height="155" width="410" x="205" y="-940" as="geometry">
@@ -169,7 +172,7 @@
                 <mxCell id="1UfuDj-I-o0t-QmothvO-35" parent="1UfuDj-I-o0t-QmothvO-33" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;fontColor=light-dark(#FFFFFF,#FFFFFF);" value="Programming lang process can call the shell directly" vertex="1">
                     <mxGeometry height="60" width="390" y="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="1UfuDj-I-o0t-QmothvO-16" edge="1" parent="1" source="SO165_4_2_Le_3jqUpjJ-2" style="html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;flowAnimation=1;" target="1UfuDj-I-o0t-QmothvO-18">
+                <mxCell id="1UfuDj-I-o0t-QmothvO-16" edge="1" parent="1" source="SO165_4_2_Le_3jqUpjJ-2" style="html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;flowAnimation=1;" target="1UfuDj-I-o0t-QmothvO-18">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="325" y="-329.9999999999998" as="sourcePoint"/>
                         <mxPoint x="445" y="-170" as="targetPoint"/>
@@ -329,13 +332,13 @@
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="MOgwgX5Pt7KfMnz4-GkR-12" parent="1" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.oval_callout;sketch=1;curveFitting=1;jiggle=2;flipH=1;legacyAnchorPoints=0;" value="For more refer: -&lt;div&gt;&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(102, 0, 102));&quot;&gt;tty-pty.svg&lt;/span&gt;&lt;/div&gt;" vertex="1">
-                    <mxGeometry height="100" width="180" x="40" y="-540" as="geometry"/>
+                    <mxGeometry height="100" width="180" x="90" y="-520" as="geometry"/>
                 </mxCell>
                 <mxCell id="MOgwgX5Pt7KfMnz4-GkR-28" edge="1" parent="1" source="1UfuDj-I-o0t-QmothvO-49" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" target="MOgwgX5Pt7KfMnz4-GkR-24">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="MOgwgX5Pt7KfMnz4-GkR-44" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(209, 215, 224); font-family: &amp;quot;Mona Sans VF&amp;quot;, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans Backtick Fix&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 14px; text-align: start; background-color: rgb(33, 40, 48);&quot;&gt;Builtins like echo write to the PTY from inside the shell process itself.&lt;/span&gt;" vertex="1">
-                    <mxGeometry height="90" width="200" x="395" y="-1230" as="geometry"/>
+                    <mxGeometry height="90" width="200" x="-330" y="-1067.5" as="geometry"/>
                 </mxCell>
                 <mxCell id="MOgwgX5Pt7KfMnz4-GkR-48" edge="1" parent="1" source="MOgwgX5Pt7KfMnz4-GkR-45" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.008;entryY=0.102;entryDx=0;entryDy=0;entryPerimeter=0;flowAnimation=1;" target="SO165_4_2_Le_3jqUpjJ-2">
                     <mxGeometry relative="1" as="geometry"/>
@@ -364,7 +367,7 @@
                         <mxPoint x="690" y="-920" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="MOgwgX5Pt7KfMnz4-GkR-64" connectable="0" parent="MOgwgX5Pt7KfMnz4-GkR-63" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;" value="2-a. cmd with&lt;div&gt;pipe/redirect&amp;nbsp;&lt;/div&gt;&lt;div&gt;directly goes&lt;/div&gt;&lt;div&gt;to shell&lt;/div&gt;" vertex="1">
+                <mxCell id="MOgwgX5Pt7KfMnz4-GkR-64" connectable="0" parent="MOgwgX5Pt7KfMnz4-GkR-63" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;" value="2-c. cmd with&lt;div&gt;pipe/redirect&amp;nbsp;&lt;/div&gt;&lt;div&gt;directly goes&lt;/div&gt;&lt;div&gt;to shell&lt;/div&gt;" vertex="1">
                     <mxGeometry relative="1" x="-0.8952" y="-3" as="geometry">
                         <mxPoint x="50" y="-3" as="offset"/>
                     </mxGeometry>

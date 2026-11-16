@@ -1,0 +1,393 @@
+<mxfile host="65bd71144e">
+    <diagram id="CxLo8hbeX8x771yLsmq5" name="Page-1">
+        <mxGraphModel dx="2752" dy="2703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-1" edge="1" parent="1" source="oYyQDbu6_vZpWYy5zJs6-29" style="html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;flowAnimation=1;" target="oYyQDbu6_vZpWYy5zJs6-95">
+                    <mxGeometry relative="1" x="-0.0894" as="geometry">
+                        <mxPoint x="870" y="370" as="sourcePoint"/>
+                        <mxPoint x="750" y="220" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-2" edge="1" parent="1" source="oYyQDbu6_vZpWYy5zJs6-6" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1.004;exitY=0.06;exitDx=0;exitDy=0;flowAnimation=1;exitPerimeter=0;">
+                    <mxGeometry relative="1" x="0.0139" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="710" y="-399.2"/>
+                            <mxPoint x="710" y="260"/>
+                        </Array>
+                        <mxPoint x="445" y="-250" as="sourcePoint"/>
+                        <mxPoint x="600" y="260" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-3" connectable="0" parent="oYyQDbu6_vZpWYy5zJs6-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;" value="3-b. Application&amp;nbsp;&lt;div&gt;receives&lt;div&gt;the output&lt;/div&gt;&lt;/div&gt;&lt;div&gt;via pTY&lt;/div&gt;" vertex="1">
+                    <mxGeometry relative="1" x="0.0071" y="1" as="geometry">
+                        <mxPoint x="-1" y="-86" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-4" edge="1" parent="1" source="oYyQDbu6_vZpWYy5zJs6-6" style="edgeStyle=none;html=1;exitX=0.075;exitY=0.933;exitDx=0;exitDy=0;entryX=0.057;entryY=0.027;entryDx=0;entryDy=0;flowAnimation=1;entryPerimeter=0;exitPerimeter=0;" target="oYyQDbu6_vZpWYy5zJs6-29">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="280" y="180" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-5" connectable="0" parent="oYyQDbu6_vZpWYy5zJs6-4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;" value="1-a. PTY sends&lt;div&gt;to the&amp;nbsp;&lt;/div&gt;&lt;div&gt;application&lt;/div&gt;" vertex="1">
+                    <mxGeometry relative="1" x="-0.1351" as="geometry">
+                        <mxPoint y="-35" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-6" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;multiple=0;shadow=0;" value="&amp;nbsp;Pseudo-Terminal" vertex="1">
+                    <mxGeometry height="180" width="390" x="205" y="-410" as="geometry">
+                        <mxRectangle height="30" width="160" x="205" y="-410" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-7" parent="oYyQDbu6_vZpWYy5zJs6-6" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;fontColor=light-dark(#FFFFFF,#FFFFFF);" value="A &lt;b&gt;Pseudo-Terminal (PTY)&lt;/b&gt; is a virtual communication channel provided by the operating system kernel&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: center;&quot;&gt;. A PTY isn’t needed to talk to a shell, it’s needed to make the shell and the&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 153, 153));&quot;&gt; programs it runs &lt;/span&gt;&lt;/span&gt;&lt;strong style=&quot;scrollbar-color: rgba(168, 169, 170, 0.52) rgb(18, 19, 20); text-align: center; background-color: light-dark(rgb(255, 255, 255), rgb(0, 153, 153));&quot;&gt;behave interactively&lt;/strong&gt;&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="90" width="390" y="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-8" parent="oYyQDbu6_vZpWYy5zJs6-6" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;fontColor=light-dark(#FFFFFF,#FFFFFF);" value="Transports/Streams applications output/raw bytes&amp;nbsp;&amp;nbsp;to&amp;nbsp; Terminal/shell standard output" vertex="1">
+                    <mxGeometry height="60" width="390" y="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="WV5y-KExGOwVp7pzsLpK-5" edge="1" parent="1" source="oYyQDbu6_vZpWYy5zJs6-10" style="edgeStyle=none;html=1;exitX=-0.012;exitY=-0.006;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitPerimeter=0;" target="WV5y-KExGOwVp7pzsLpK-4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-9" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;multiple=0;shadow=0;" value="2. Pipe" vertex="1">
+                    <mxGeometry height="290" width="390" x="-430" y="-1780" as="geometry">
+                        <mxRectangle height="30" width="160" x="-360" y="-1370" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-10" parent="oYyQDbu6_vZpWYy5zJs6-9" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;fontColor=light-dark(#FFFFFF,#FFFFFF);" value="1. Here when directly the pipe the std outputs using | this" vertex="1">
+                    <mxGeometry height="60" width="390" y="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-11" parent="oYyQDbu6_vZpWYy5zJs6-9" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;fontColor=light-dark(#FFFFFF,#FFFFFF);" value="&lt;ol&gt;&lt;li&gt;Shell creates a kernel pipe.&lt;/li&gt;&lt;li&gt;programs&amp;nbsp; stdout points to the pipe&#39;s write end&lt;/li&gt;&lt;li&gt;Program&amp;nbsp;stdin points to the pipe&#39;s read end.&lt;/li&gt;&lt;li&gt;program&amp;nbsp;stdout normally still points to the PTY&lt;/li&gt;&lt;/ol&gt;" vertex="1">
+                    <mxGeometry height="130" width="390" y="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-12" parent="oYyQDbu6_vZpWYy5zJs6-9" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;fontColor=light-dark(#FFFFFF,#FFFFFF);" value="So one process can be connected to both a pipe and a PTY through different file descriptors." vertex="1">
+                    <mxGeometry height="70" width="390" y="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="WV5y-KExGOwVp7pzsLpK-3" edge="1" parent="1" source="oYyQDbu6_vZpWYy5zJs6-13" style="edgeStyle=none;html=1;exitX=0.003;exitY=0.048;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitPerimeter=0;" target="WV5y-KExGOwVp7pzsLpK-2">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-13" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;multiple=0;shadow=0;" value="2. Redirect" vertex="1">
+                    <mxGeometry height="230" width="390" x="-440" y="-1220" as="geometry">
+                        <mxRectangle height="30" width="160" x="-370" y="-950" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-14" parent="oYyQDbu6_vZpWYy5zJs6-13" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;fontColor=light-dark(#FFFFFF,#FFFFFF);" value="1. When we redirect the sto outputs using &amp;gt; or &amp;gt;&amp;gt; this, to external file" vertex="1">
+                    <mxGeometry height="60" width="390" y="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-15" parent="oYyQDbu6_vZpWYy5zJs6-13" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;fontColor=light-dark(#FFFFFF,#FFFFFF);" value="&lt;ol&gt;&lt;li&gt;Shell opens that file&lt;/li&gt;&lt;li&gt;Shell sets the child process&#39;s FD 1 to refer to the file.&lt;/li&gt;&lt;li&gt;program writes directly to that file, &lt;strong&gt;not the PTY&lt;/strong&gt;&lt;/li&gt;&lt;/ol&gt;" vertex="1">
+                    <mxGeometry height="140" width="390" y="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-16" edge="1" parent="1" style="edgeStyle=none;html=1;flowAnimation=1;entryX=0.913;entryY=-0.009;entryDx=0;entryDy=0;entryPerimeter=0;" target="oYyQDbu6_vZpWYy5zJs6-6">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="820" y="-780" as="sourcePoint"/>
+                        <mxPoint x="540" y="-660" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-17" connectable="0" parent="oYyQDbu6_vZpWYy5zJs6-16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;" value="3-b. When the program&lt;div&gt;stdout is connected&lt;/div&gt;&lt;div&gt;via PTY pair&lt;/div&gt;" vertex="1">
+                    <mxGeometry relative="1" x="-0.0964" y="-1" as="geometry">
+                        <mxPoint x="18" y="-35" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-18" edge="1" parent="1" source="oYyQDbu6_vZpWYy5zJs6-23" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;flowAnimation=1;" target="oYyQDbu6_vZpWYy5zJs6-13">
+                    <mxGeometry relative="1" x="0.0007" as="geometry"/>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-19" connectable="0" parent="oYyQDbu6_vZpWYy5zJs6-18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;" value="3-c. When the&lt;div&gt;stdout is redirected&lt;/div&gt;" vertex="1">
+                    <mxGeometry relative="1" x="0.0756" y="-1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-20" edge="1" parent="1" source="oYyQDbu6_vZpWYy5zJs6-23" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;flowAnimation=1;" target="oYyQDbu6_vZpWYy5zJs6-9">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-200" y="-1680" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-21" connectable="0" parent="oYyQDbu6_vZpWYy5zJs6-20" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;" value="3-c. when stdout is&lt;div&gt;piped&lt;/div&gt;" vertex="1">
+                    <mxGeometry relative="1" x="-0.436" y="-2" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-22" edge="1" parent="1" source="oYyQDbu6_vZpWYy5zJs6-23" style="edgeStyle=none;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.554;entryY=1.015;entryDx=0;entryDy=0;entryPerimeter=0;" target="oYyQDbu6_vZpWYy5zJs6-88">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="WV5y-KExGOwVp7pzsLpK-1" edge="1" parent="1" source="oYyQDbu6_vZpWYy5zJs6-23" style="edgeStyle=none;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" target="oYyQDbu6_vZpWYy5zJs6-96">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-23" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" value="3. shell" vertex="1">
+                    <mxGeometry height="155" width="410" x="165" y="-1310" as="geometry">
+                        <mxRectangle height="30" width="160" x="205" y="-940" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-24" parent="oYyQDbu6_vZpWYy5zJs6-23" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;fontColor=light-dark(#FFFFFF,#FFFFFF);" value="1. Shell like bash, zsh, fish etc" vertex="1">
+                    <mxGeometry height="40" width="410" y="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-25" parent="oYyQDbu6_vZpWYy5zJs6-23" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;fontColor=light-dark(#FFFFFF,#FFFFFF);" value="2. &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 102, 0));&quot;&gt;Shells interprets the command&lt;/span&gt; and&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 102, 0));&quot;&gt; starts the respective&amp;nbsp;program&lt;/span&gt;." vertex="1">
+                    <mxGeometry height="40" width="410" y="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-26" parent="oYyQDbu6_vZpWYy5zJs6-23" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;fontColor=light-dark(#FFFFFF,#FFFFFF);" value="&lt;span style=&quot;color: rgb(209, 215, 224); font-family: &amp;quot;Mona Sans VF&amp;quot;, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans Backtick Fix&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 14px; background-color: rgb(33, 40, 48);&quot;&gt;The shell waits for the child to exit, collects its exit code ($?), then shows the next prompt.&lt;/span&gt;" vertex="1">
+                    <mxGeometry height="45" width="410" y="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-27" edge="1" parent="1" source="oYyQDbu6_vZpWYy5zJs6-29" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" target="oYyQDbu6_vZpWYy5zJs6-34">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-28" connectable="0" parent="oYyQDbu6_vZpWYy5zJs6-27" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=fontFamily,fontSize,fontStyle,textOpacity,labelBorderColor,labelBorderWidth,labelBackgroundColor,defaultLabelBackgroundColor,labelPadding;fontColor=light-dark(#FFFFFF,#FFFFFF);" value="4. Character&lt;div&gt;parsing and&lt;/div&gt;&lt;div&gt;rendering&lt;/div&gt;&lt;div&gt;process&lt;/div&gt;" vertex="1">
+                    <mxGeometry relative="1" x="-0.1093" y="-2" as="geometry">
+                        <mxPoint x="3" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-29" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;fillColor=#fa6800;fontColor=light-dark(#000000,#000000);strokeColor=#C73500;" value="2. Applications" vertex="1">
+                    <mxGeometry height="180" width="390" x="204" y="240" as="geometry">
+                        <mxRectangle height="30" width="160" x="200" y="210" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-30" parent="oYyQDbu6_vZpWYy5zJs6-29" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;fontColor=light-dark(#FFFFFF,#FFFFFF);" value="&amp;nbsp;Applications inlcudes: -&amp;nbsp;&lt;div&gt;&lt;ol&gt;&lt;li&gt;&lt;span style=&quot;text-align: center;&quot;&gt;The Terminal Emulators&amp;nbsp;&lt;/span&gt;Alacritty, Kitty, WezTerm, Ghostty, window terminal&lt;/li&gt;&lt;li&gt;programming langs like python, nodejs etc&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="90" width="390" y="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-31" parent="oYyQDbu6_vZpWYy5zJs6-29" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;fontColor=light-dark(#FFFFFF,#FFFFFF);" value="They own the window frame, handle keyboard events, talk to the OS windowing system (Wayland, X11, Cocoa, Win32), and draw pixels." vertex="1">
+                    <mxGeometry height="60" width="390" y="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-32" edge="1" parent="1" source="oYyQDbu6_vZpWYy5zJs6-34" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" target="oYyQDbu6_vZpWYy5zJs6-50">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-33" edge="1" parent="1" source="oYyQDbu6_vZpWYy5zJs6-34" style="edgeStyle=none;html=1;exitX=0.994;exitY=0.109;exitDx=0;exitDy=0;entryX=0.004;entryY=0.122;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;flowAnimation=1;" target="oYyQDbu6_vZpWYy5zJs6-37">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-34" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;fillColor=light-dark(#FFCCCC,#009999);strokeColor=#36393d;" value="Terminal Applications/Emulators" vertex="1">
+                    <mxGeometry height="132" width="372" x="222" y="620" as="geometry">
+                        <mxRectangle height="30" width="160" x="690" y="498" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-35" parent="oYyQDbu6_vZpWYy5zJs6-34" style="text;strokeColor=#36393d;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="&lt;u&gt;Parsing and Render explanation of the terminal emulator&lt;/u&gt;" vertex="1">
+                    <mxGeometry height="42" width="372" y="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-36" parent="oYyQDbu6_vZpWYy5zJs6-34" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;fontColor=light-dark(#FFFFFF,#FFFFFF);" value="They own the window frame, handle keyboard events, talk to the OS windowing system (Wayland, X11, Cocoa, Win32), and draw pixels." vertex="1">
+                    <mxGeometry height="60" width="372" y="72" as="geometry"/>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-37" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;fillColor=light-dark(#FFCCCC,#009999);strokeColor=#36393d;" value="Difference btw Terminal Applications/Emulators" vertex="1">
+                    <mxGeometry height="232" width="372" x="740" y="630" as="geometry">
+                        <mxRectangle height="30" width="160" x="690" y="498" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-38" parent="oYyQDbu6_vZpWYy5zJs6-37" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;fontColor=light-dark(#FFFFFF,#FFFFFF);" value="Different terminal emulators have following differenciaiton: -&amp;nbsp;&lt;div&gt;&lt;ol&gt;&lt;li&gt;features differences like split, tabs, multiplexing etc&lt;/li&gt;&lt;li&gt;input event difference like hardware events handling&lt;/li&gt;&lt;li&gt;system resource consumptions&lt;/li&gt;&lt;li&gt;Performance difference like input latency, throughtput, rendering and scrolling Hz&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="160" width="372" y="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-39" parent="oYyQDbu6_vZpWYy5zJs6-37" style="text;strokeColor=#36393d;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="&lt;u&gt;Parsing and Render explanation of the terminal emulator&lt;/u&gt;" vertex="1">
+                    <mxGeometry height="42" width="372" y="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-40" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;" value="2. Programming lang Applications" vertex="1">
+                    <mxGeometry height="90" width="390" x="-270" y="630" as="geometry">
+                        <mxRectangle height="30" width="160" x="170" y="-980" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-41" parent="oYyQDbu6_vZpWYy5zJs6-40" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;fontColor=light-dark(#FFFFFF,#FFFFFF);" value="Programming lang process can call the shell directly" vertex="1">
+                    <mxGeometry height="60" width="390" y="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-42" edge="1" parent="1" source="oYyQDbu6_vZpWYy5zJs6-6" style="html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;flowAnimation=1;" target="oYyQDbu6_vZpWYy5zJs6-23">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="325" y="-329.9999999999998" as="sourcePoint"/>
+                        <mxPoint x="445" y="-170" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-43" connectable="0" parent="oYyQDbu6_vZpWYy5zJs6-42" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;" value="2-b. pty sends the&lt;div&gt;cmd to the shell&lt;/div&gt;" vertex="1">
+                    <mxGeometry relative="1" x="-0.0389" y="-1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-44" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;fillColor=#f8cecc;strokeColor=#b85450;gradientColor=#ea6b66;direction=east;" value="The Content Protocols" vertex="1">
+                    <mxGeometry height="150" width="430" x="-300" y="90" as="geometry">
+                        <mxRectangle height="30" width="160" x="-200" y="140" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-45" parent="oYyQDbu6_vZpWYy5zJs6-44" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;fontColor=light-dark(#FFFFFF,#FFFFFF);" value=" Sixel vs. The Kitty Graphics Protocol:&amp;nbsp; -&amp;nbsp; These are &lt;b&gt;escape sequence protocols&lt;/b&gt; designed to transmit rich raster graphics (images, video frames, plots) over that text-only PTY pipe." vertex="1">
+                    <mxGeometry height="70" width="430" y="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-46" parent="oYyQDbu6_vZpWYy5zJs6-44" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;fontColor=light-dark(#FFFFFF,#FFFFFF);" value="2.&amp;nbsp;" vertex="1">
+                    <mxGeometry height="50" width="430" y="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-47" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#ffd966;direction=east;" value="1. Hardware envent Input" vertex="1">
+                    <mxGeometry height="80" width="330" x="-425" y="-430" as="geometry">
+                        <mxRectangle height="30" width="160" x="-440" y="-220" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-48" parent="oYyQDbu6_vZpWYy5zJs6-47" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;fontColor=light-dark(#FFFFFF,#FFFFFF);" value="Every &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(153, 76, 0));&quot;&gt;Hardware input&lt;/span&gt; travels to the PTY" vertex="1">
+                    <mxGeometry height="50" width="330" y="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-49" edge="1" parent="1" source="oYyQDbu6_vZpWYy5zJs6-50" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" target="oYyQDbu6_vZpWYy5zJs6-55">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-50" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;fillColor=light-dark(#CDEB8B,#999900);strokeColor=#36393d;" value="Terminal Parser " vertex="1">
+                    <mxGeometry height="230" width="440" x="192" y="940" as="geometry">
+                        <mxRectangle height="30" width="120" x="260" y="470" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-51" parent="oYyQDbu6_vZpWYy5zJs6-50" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="Every terminal have there parser engine like: - &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 102, 102));&quot;&gt;VT/ANSI state machine&lt;/span&gt;" vertex="1">
+                    <mxGeometry height="45" width="440" y="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-52" parent="oYyQDbu6_vZpWYy5zJs6-50" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="The work of the parser is to: -&amp;nbsp;&lt;div&gt;&lt;ol&gt;&lt;li&gt;Imcoming bytes Decoding: - Interprets bytes, Unicode and escape sequences&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="65" width="440" y="75" as="geometry"/>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-53" parent="oYyQDbu6_vZpWYy5zJs6-50" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;fontColor=light-dark(#C0C0C0,#FFFFFF);" value="Characters includes: -&amp;nbsp;&lt;div&gt;&lt;ol&gt;&lt;li&gt;&lt;strong style=&quot;scrollbar-color: rgba(168, 169, 170, 0.52) rgb(18, 19, 20); text-align: center;&quot;&gt;C0 controls,&amp;nbsp;&lt;/strong&gt;&lt;strong style=&quot;scrollbar-color: rgba(168, 169, 170, 0.52) rgb(18, 19, 20); text-align: center;&quot;&gt;Escape sequences&lt;/strong&gt;&lt;span style=&quot;text-align: center;&quot;&gt;&amp;nbsp;,&amp;nbsp;&lt;/span&gt;&lt;strong style=&quot;scrollbar-color: rgba(168, 169, 170, 0.52) rgb(18, 19, 20); text-align: center;&quot;&gt;CSI&lt;/strong&gt;&lt;span style=&quot;text-align: center;&quot;&gt; &lt;/span&gt;&lt;code dir=&quot;ltr&quot; style=&quot;font-family: Helvetica; scrollbar-color: rgba(168, 169, 170, 0.52) rgb(18, 19, 20); text-align: center;&quot;&gt;ESC,&amp;nbsp;&lt;/code&gt;&lt;strong style=&quot;scrollbar-color: rgba(168, 169, 170, 0.52) rgb(18, 19, 20); text-align: center;&quot;&gt;OSC&lt;/strong&gt;&lt;span style=&quot;text-align: center;&quot;&gt; &lt;/span&gt;&lt;code dir=&quot;ltr&quot; style=&quot;font-family: Helvetica; scrollbar-color: rgba(168, 169, 170, 0.52) rgb(18, 19, 20); text-align: center;&quot;&gt;ESC&amp;nbsp;,&amp;nbsp;&lt;/code&gt;&lt;/li&gt;&lt;li style=&quot;scrollbar-color: rgba(168, 169, 170, 0.52) rgb(18, 19, 20);&quot;&gt;&lt;strong style=&quot;scrollbar-color: rgba(168, 169, 170, 0.52) rgb(18, 19, 20);&quot;&gt;DCS&lt;/strong&gt; and others things depending on protocol&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="90" width="440" y="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-54" edge="1" parent="1" source="oYyQDbu6_vZpWYy5zJs6-55" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" target="oYyQDbu6_vZpWYy5zJs6-84">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-55" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;fillColor=light-dark(#CCE5FF,#006600);strokeColor=#36393d;" value="Screen Buffer" vertex="1">
+                    <mxGeometry height="260" width="492" x="172" y="1390" as="geometry">
+                        <mxRectangle height="30" width="110" x="260" y="630" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-56" parent="oYyQDbu6_vZpWYy5zJs6-55" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;fontColor=light-dark(#FFFFFF,#FFFFFF);" value="&lt;div&gt;In&amp;nbsp;&lt;span style=&quot;text-align: center; background-color: transparent;&quot;&gt;&amp;nbsp;one terminal, all cells are the same size.&lt;/span&gt;&lt;/div&gt;a&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 102, 0));&quot;&gt; terminal maintains a rigid &lt;b&gt;2D character grid&lt;/b&gt; &lt;/span&gt;in memory" vertex="1">
+                    <mxGeometry height="45" width="492" y="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-57" parent="oYyQDbu6_vZpWYy5zJs6-55" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;fontColor=light-dark(#FFFFFF,#FFFFFF);" value="&lt;span style=&quot;text-align: center;&quot;&gt;Once the bytes are decoded, now Every cell in this&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 102, 51));&quot;&gt; grid holds a data structure containing&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 102, 51));&quot;&gt;&amp;nbsp;&lt;/span&gt;:&amp;nbsp; -&lt;div&gt;&lt;ol&gt;&lt;li&gt;&lt;span style=&quot;text-align: center;&quot;&gt;&amp;nbsp;Unicode code point of the character.&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;scrollbar-color: rgba(168, 169, 170, 0.52) rgb(18, 19, 20);&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;scrollbar-color: rgba(168, 169, 170, 0.52) rgb(18, 19, 20);&quot;&gt;Style attributes (foreground color, background color, underline, bold, italic). in &lt;b&gt;ASNI escape sequence chars&lt;/b&gt;&lt;/p&gt;&lt;/li&gt;&lt;li style=&quot;scrollbar-color: rgba(168, 169, 170, 0.52) rgb(18, 19, 20);&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;scrollbar-color: rgba(168, 169, 170, 0.52) rgb(18, 19, 20);&quot;&gt;other things like cursor position, pen style, window scroll region, tab stops etc&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="185" width="492" y="75" as="geometry"/>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-58" edge="1" parent="1" source="oYyQDbu6_vZpWYy5zJs6-60" style="html=1;exitX=1;exitY=0.068;exitDx=0;exitDy=0;entryX=-0.003;entryY=0.116;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;flowAnimation=1;" target="oYyQDbu6_vZpWYy5zJs6-67">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="510" y="2850" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-59" edge="1" parent="1" source="oYyQDbu6_vZpWYy5zJs6-60" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" target="oYyQDbu6_vZpWYy5zJs6-69">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-60" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;fillColor=light-dark(#FFCCCC,#663300);strokeColor=#36393d;" value="Font/text Shaping&amp;nbsp; (font shaping engine)" vertex="1">
+                    <mxGeometry height="280" width="550" x="-490" y="2200" as="geometry">
+                        <mxRectangle height="30" width="140" x="-500" y="2040" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-61" parent="oYyQDbu6_vZpWYy5zJs6-60" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="&lt;strong&gt;Cell size&lt;/strong&gt; comes from the font: the width of one monospace advance and the line height" vertex="1">
+                    <mxGeometry height="50" width="550" y="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-62" parent="oYyQDbu6_vZpWYy5zJs6-60" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;fontColor=light-dark(#C0C0C0,#FFFFFF);" value="&lt;strong style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(102, 51, 0));&quot;&gt;Font lookup&lt;/strong&gt;: find a font with a glyph for the Unicode code point, using fallback fonts if the primary one lacks it. This is where boxes and &lt;code dir=&quot;ltr&quot;&gt;�&lt;/code&gt; come from.&lt;div&gt;&lt;font color=&quot;#ffffff&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;text-align: center;&quot;&gt;It queries the operating system&#39;s font &lt;b&gt;shaping engine&lt;/b&gt;&lt;b style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(102, 51, 0));&quot;&gt; &lt;/b&gt;&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(102, 51, 0));&quot;&gt;(&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(102, 51, 0));&quot;&gt;HarfBuzz / DirectWrite&lt;/span&gt;&lt;span style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(102, 51, 0));&quot;&gt;)&lt;/span&gt; and requests the vector outline for that character from your active terminal font.&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="100" width="550" y="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-63" parent="oYyQDbu6_vZpWYy5zJs6-60" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="It calculates the mathematical vector ouline/shape required" vertex="1">
+                    <mxGeometry height="50" width="550" y="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-64" parent="oYyQDbu6_vZpWYy5zJs6-60" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;fontColor=light-dark(#FFFFFF,#FFFFFF);" value="&lt;strong&gt;Shaping&lt;/strong&gt; (optional, for ligatures and complex scripts like Devanagari) using something like HarfBuzz. (&lt;strong style=&quot;scrollbar-color: rgba(168, 169, 170, 0.52) rgb(18, 19, 20);&quot;&gt;Wide characters&lt;/strong&gt;&amp;nbsp;,&amp;nbsp;&lt;strong style=&quot;scrollbar-color: rgba(168, 169, 170, 0.52) rgb(18, 19, 20);&quot;&gt;Combining characters&lt;/strong&gt;)" vertex="1">
+                    <mxGeometry height="50" width="550" y="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-65" edge="1" parent="1" source="oYyQDbu6_vZpWYy5zJs6-67" style="edgeStyle=none;html=1;exitX=0.995;exitY=0.092;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitPerimeter=0;flowAnimation=1;" target="oYyQDbu6_vZpWYy5zJs6-72">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-66" edge="1" parent="1" source="oYyQDbu6_vZpWYy5zJs6-67" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" target="oYyQDbu6_vZpWYy5zJs6-69">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-67" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;fillColor=light-dark(#CDEB8B,#663300);strokeColor=#36393d;" value="&lt;strong&gt;Font rasterizer&lt;/strong&gt;" vertex="1">
+                    <mxGeometry height="130" width="430" x="222" y="2220" as="geometry">
+                        <mxRectangle height="30" width="110" x="203" y="2060" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-68" parent="oYyQDbu6_vZpWYy5zJs6-67" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;fontColor=light-dark(#FFFFFF,#FFFFFF);" value="&lt;b&gt;Vector Rasterization:&lt;/b&gt; &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(204, 102, 0));&quot;&gt;Converting mathematical curves/outline (Bezier curves) into a grid of pixels&lt;/span&gt;&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(153, 153, 0));&quot;&gt; &lt;/span&gt;&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(51, 51, 0));&quot;&gt;into of&amp;nbsp;Bitmap or coverage mask&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;potentially using hinting and anti-aliasing.&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;scrollbar-color: rgba(168, 169, 170, 0.52) rgb(18, 19, 20); text-align: center;&quot;&gt;&lt;b style=&quot;scrollbar-color: rgba(168, 169, 170, 0.52) rgb(18, 19, 20);&quot;&gt;shaping engine&lt;/b&gt;&lt;span style=&quot;scrollbar-color: rgba(168, 169, 170, 0.52) rgb(18, 19, 20); background-color: light-dark(rgb(255, 255, 255), rgb(102, 51, 0));&quot;&gt;&lt;b style=&quot;scrollbar-color: rgba(168, 169, 170, 0.52) rgb(18, 19, 20);&quot;&gt; &lt;/b&gt;(like &lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;scrollbar-color: rgba(168, 169, 170, 0.52) rgb(18, 19, 20); background-color: light-dark(rgb(255, 255, 255), rgb(102, 51, 0));&quot;&gt;&lt;b style=&quot;scrollbar-color: rgba(168, 169, 170, 0.52) rgb(18, 19, 20); text-align: center;&quot;&gt;FreeType&lt;/b&gt;&lt;span style=&quot;scrollbar-color: rgba(168, 169, 170, 0.52) rgb(18, 19, 20); text-align: center;&quot;&gt; on Linux, &lt;/span&gt;&lt;b style=&quot;scrollbar-color: rgba(168, 169, 170, 0.52) rgb(18, 19, 20); text-align: center;&quot;&gt;CoreText&lt;/b&gt;&lt;span style=&quot;scrollbar-color: rgba(168, 169, 170, 0.52) rgb(18, 19, 20); text-align: center;&quot;&gt; on macOS, or &lt;/span&gt;&lt;b style=&quot;scrollbar-color: rgba(168, 169, 170, 0.52) rgb(18, 19, 20); text-align: center;&quot;&gt;DirectWrite&lt;/b&gt;&lt;/span&gt;&lt;span style=&quot;scrollbar-color: rgba(168, 169, 170, 0.52) rgb(18, 19, 20); text-align: center;&quot;&gt;&lt;span style=&quot;scrollbar-color: rgba(168, 169, 170, 0.52) rgb(18, 19, 20); background-color: light-dark(rgb(255, 255, 255), rgb(102, 51, 0));&quot;&gt; on Windows)&lt;/span&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(204, 102, 0));&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="100" width="430" y="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-69" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;fillColor=light-dark(#CDEB8B,#663300);strokeColor=#36393d;" value="&lt;b&gt;OPtimization and extra&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="200" width="620" x="150" y="2690" as="geometry">
+                        <mxRectangle height="30" width="110" x="510" y="950" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-70" parent="oYyQDbu6_vZpWYy5zJs6-69" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;fontColor=light-dark(#FFFFFF,#FFFFFF);" value="&lt;span style=&quot;text-align: center;&quot;&gt;Modern GPU-accelerated terminals (like Alacritty, Kitty, WezTerm, or Windows Terminal) bypass traditional CPU drawing and hand the grid directly to the graphics card:&lt;/span&gt;" vertex="1">
+                    <mxGeometry height="70" width="620" y="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-71" parent="oYyQDbu6_vZpWYy5zJs6-69" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;fontColor=light-dark(#C0C0C0,#FFFFFF);" value="&lt;b style=&quot;scrollbar-color: rgba(168, 169, 170, 0.52) rgb(18, 19, 20); text-align: center;&quot;&gt;The Optimization (Glyph Atlases):&lt;/b&gt;&lt;span style=&quot;text-align: center;&quot;&gt; Rendering vector outlines for every single character on every frame would destroy CPU performance. Instead, &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(102, 51, 0));&quot;&gt;mordern terminals use a &lt;/span&gt;&lt;/span&gt;&lt;b style=&quot;scrollbar-color: rgba(168, 169, 170, 0.52) rgb(18, 19, 20); text-align: center; background-color: light-dark(rgb(255, 255, 255), rgb(102, 51, 0));&quot;&gt;glyph cache&lt;/b&gt;&lt;span style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(102, 51, 0));&quot;&gt;.&lt;/span&gt; &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(102, 51, 0));&quot;&gt;Frequently used characters are rendered once into a texture atlas &lt;/span&gt;(a GPU memory sheet), and the terminal treats them as pre-rendered bitmap textures&lt;/span&gt;" vertex="1">
+                    <mxGeometry height="100" width="620" y="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-72" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;fillColor=light-dark(#CDEB8B,#663300);strokeColor=#36393d;" value="&lt;strong&gt;Rendering engine&lt;/strong&gt;" vertex="1">
+                    <mxGeometry height="70" width="430" x="860" y="2210" as="geometry">
+                        <mxRectangle height="30" width="110" x="802" y="2050" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-73" parent="oYyQDbu6_vZpWYy5zJs6-72" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="Composites rasterized glyphs with backgrounds, colors, other graphics and UI layers." vertex="1">
+                    <mxGeometry height="40" width="430" y="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-74" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;fontColor=#ffffff;fillColor=#d80073;strokeColor=#A50040;" value="Giberish" vertex="1">
+                    <mxGeometry height="280" width="460" x="80" y="3080" as="geometry">
+                        <mxRectangle height="30" width="110" x="510" y="950" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-75" parent="oYyQDbu6_vZpWYy5zJs6-74" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="Gibberish can come from steps 1 (wrong decoding), 2 (binary data parsed as escape codes), or 4 (no glyph in the font)" vertex="1">
+                    <mxGeometry height="40" width="460" y="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-76" parent="oYyQDbu6_vZpWYy5zJs6-74" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="1.&amp;nbsp;&lt;b&gt;Encoding Mismatch:&lt;/b&gt; If the byte stream coming into Step 2 is Windows-1252 but the terminal&#39;s parser expects UTF-8, the byte boundaries get scrambled before they ever hit the grid." vertex="1">
+                    <mxGeometry height="70" width="460" y="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-77" parent="oYyQDbu6_vZpWYy5zJs6-74" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="2. the font engine for a character code point that doesn&#39;t exist in your font file, the font engine returns a blank or a fallback &quot;tofu&quot; block because no texture exists for it in the glyph atlas" vertex="1">
+                    <mxGeometry height="70" width="460" y="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-78" parent="oYyQDbu6_vZpWYy5zJs6-74" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="3. interpreting binary data as ANSI escape codes, scrambling the terminal state and corrupting the grid coordinates." vertex="1">
+                    <mxGeometry height="70" width="460" y="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-79" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;fontColor=#ffffff;fillColor=#647687;strokeColor=#314354;" value="More to do" vertex="1">
+                    <mxGeometry height="140" width="460" x="650" y="3110" as="geometry">
+                        <mxRectangle height="30" width="110" x="510" y="950" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-80" parent="oYyQDbu6_vZpWYy5zJs6-79" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="Programs talk to the terminal through the kernel’s tty API: &lt;code dir=&quot;ltr&quot;&gt;termios&lt;/code&gt; (&lt;code dir=&quot;ltr&quot;&gt;tcgetattr&lt;/code&gt;/&lt;code dir=&quot;ltr&quot;&gt;tcsetattr&lt;/code&gt;) and &lt;code dir=&quot;ltr&quot;&gt;ioctl&lt;/code&gt;. Those calls only succeed on a real tty file descriptor. So the terminal emulator can’t just hand over a pipe and implement the behavior itself, because &lt;code dir=&quot;ltr&quot;&gt;isatty()&lt;/code&gt; would be false and &lt;code dir=&quot;ltr&quot;&gt;tcsetattr&lt;/code&gt; would fail." vertex="1">
+                    <mxGeometry height="110" width="460" y="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-81" edge="1" parent="1" source="oYyQDbu6_vZpWYy5zJs6-84" style="edgeStyle=none;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="oYyQDbu6_vZpWYy5zJs6-60">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-82" edge="1" parent="1" source="oYyQDbu6_vZpWYy5zJs6-84" style="edgeStyle=none;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="oYyQDbu6_vZpWYy5zJs6-72">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-83" edge="1" parent="1" source="oYyQDbu6_vZpWYy5zJs6-84" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="oYyQDbu6_vZpWYy5zJs6-67">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-84" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="&amp;nbsp;the terminal&#39;s shaping and rendering engine" vertex="1">
+                    <mxGeometry height="100" width="190" x="333" y="1860" as="geometry"/>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-87" edge="1" parent="1" source="oYyQDbu6_vZpWYy5zJs6-72" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" target="oYyQDbu6_vZpWYy5zJs6-69">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-88" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;h3 dir=&quot;ltr&quot; aria-level=&quot;4&quot;&gt;Builtins are different&lt;/h3&gt;&lt;br/&gt;&lt;p dir=&quot;ltr&quot;&gt;&lt;code dir=&quot;ltr&quot;&gt;echo&lt;/code&gt;, &lt;code dir=&quot;ltr&quot;&gt;cd&lt;/code&gt;, &lt;code dir=&quot;ltr&quot;&gt;export&lt;/code&gt;, etc. (usually) don’t &lt;code dir=&quot;ltr&quot;&gt;fork&lt;/code&gt;+&lt;code dir=&quot;ltr&quot;&gt;exec&lt;/code&gt;. The &lt;strong&gt;shell process itself&lt;/strong&gt; runs them, so it writes directly to its own fd 1, which is the PTY. That’s what the line “echo write to the PTY from inside the shell process itself” means. (With &lt;code dir=&quot;ltr&quot;&gt;echo hi &amp;gt; file&lt;/code&gt;, the shell temporarily redirects its own fd 1, runs the builtin, then restores it.)&lt;/p&gt;" vertex="1">
+                    <mxGeometry height="155" width="450" x="460" y="-1660" as="geometry"/>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-89" edge="1" parent="1" source="oYyQDbu6_vZpWYy5zJs6-47" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.008;entryY=0.102;entryDx=0;entryDy=0;entryPerimeter=0;flowAnimation=1;" target="oYyQDbu6_vZpWYy5zJs6-6">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-90" connectable="0" parent="oYyQDbu6_vZpWYy5zJs6-89" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;" value="1. hardware input&lt;div&gt;events travels&lt;/div&gt;&lt;div&gt;via process stdin&lt;/div&gt;" vertex="1">
+                    <mxGeometry relative="1" x="-0.3109" y="-3" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-91" edge="1" parent="1" source="oYyQDbu6_vZpWYy5zJs6-95" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;flowAnimation=1;" target="oYyQDbu6_vZpWYy5zJs6-6">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="398.8840579710145" y="-170" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-92" connectable="0" parent="oYyQDbu6_vZpWYy5zJs6-91" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;" value="2-a. cmd without&lt;div&gt;pipe/redirect&lt;/div&gt;&lt;div&gt;goes through&lt;/div&gt;&lt;div&gt;PTY&lt;/div&gt;" vertex="1">
+                    <mxGeometry relative="1" x="0.1894" y="2" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-93" edge="1" parent="1" source="oYyQDbu6_vZpWYy5zJs6-95" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;flowAnimation=1;entryX=0.993;entryY=0.08;entryDx=0;entryDy=0;entryPerimeter=0;" target="oYyQDbu6_vZpWYy5zJs6-23">
+                    <mxGeometry relative="1" x="-0.7968" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1230" y="10"/>
+                            <mxPoint x="1230" y="-1297.6"/>
+                        </Array>
+                        <mxPoint x="690" y="-920" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-94" connectable="0" parent="oYyQDbu6_vZpWYy5zJs6-93" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;" value="2-c. cmd with&lt;div&gt;pipe/redirect&amp;nbsp;&lt;/div&gt;&lt;div&gt;directly goes&lt;/div&gt;&lt;div&gt;to shell&lt;/div&gt;" vertex="1">
+                    <mxGeometry relative="1" x="-0.9242" y="-3" as="geometry">
+                        <mxPoint x="50" y="-3" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-95" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="2. Terminal typed text/cmd goes to shell via PTY" vertex="1">
+                    <mxGeometry height="100" width="160" x="319" y="-40" as="geometry"/>
+                </mxCell>
+                <mxCell id="oYyQDbu6_vZpWYy5zJs6-96" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;h3 dir=&quot;ltr&quot; aria-level=&quot;4&quot;&gt;Running &lt;code dir=&quot;ltr&quot;&gt;ls&lt;/code&gt; normally&lt;/h3&gt;&lt;ol dir=&quot;ltr&quot;&gt;&lt;li&gt;Shell calls &lt;code dir=&quot;ltr&quot;&gt;fork()&lt;/code&gt; → creates a child process.&lt;/li&gt;&lt;br&gt;&lt;li&gt;The child &lt;strong&gt;inherits&lt;/strong&gt; fd 0, 1, 2 from the shell, all pointing at the PTY slave.&lt;/li&gt;&lt;br&gt;&lt;li&gt;Child calls &lt;code dir=&quot;ltr&quot;&gt;exec(&quot;ls&quot;)&lt;/code&gt;. The process becomes &lt;code dir=&quot;ltr&quot;&gt;ls&lt;/code&gt;, but keeps its file descriptors.&lt;/li&gt;&lt;br&gt;&lt;li&gt;&lt;code dir=&quot;ltr&quot;&gt;ls&lt;/code&gt; writes to fd 1 → goes to PTY → appears on your screen.&lt;/li&gt;&lt;br&gt;&lt;li&gt;&lt;code dir=&quot;ltr&quot;&gt;ls&lt;/code&gt; exits. The shell, which was blocked in &lt;code dir=&quot;ltr&quot;&gt;wait()&lt;/code&gt;, gets the exit code (&lt;code dir=&quot;ltr&quot;&gt;$?&lt;/code&gt;) and prints the next prompt.&lt;/li&gt;&lt;/ol&gt;" vertex="1">
+                    <mxGeometry height="267.5" width="500" x="575" y="-1050" as="geometry"/>
+                </mxCell>
+                <mxCell id="WV5y-KExGOwVp7pzsLpK-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;h3 dir=&quot;ltr&quot; aria-level=&quot;4&quot;&gt;Running &lt;code dir=&quot;ltr&quot;&gt;ls &amp;gt; out.txt&lt;/code&gt;&lt;/h3&gt;&lt;ol dir=&quot;ltr&quot;&gt;&lt;li&gt;Shell calls &lt;code dir=&quot;ltr&quot;&gt;fork()&lt;/code&gt;.&lt;/li&gt;&lt;br&gt;&lt;li&gt;&lt;strong&gt;In the child, before exec&lt;/strong&gt;, the shell opens &lt;code dir=&quot;ltr&quot;&gt;out.txt&lt;/code&gt; and does &lt;code dir=&quot;ltr&quot;&gt;dup2(file_fd, 1)&lt;/code&gt;. Now fd 1 points to the file instead of the PTY.&lt;/li&gt;&lt;br&gt;&lt;li&gt;Child calls &lt;code dir=&quot;ltr&quot;&gt;exec(&quot;ls&quot;)&lt;/code&gt;. &lt;code dir=&quot;ltr&quot;&gt;ls&lt;/code&gt; has no idea anything changed. It writes to fd 1 as usual.&lt;/li&gt;&lt;br&gt;&lt;li&gt;The data goes into &lt;code dir=&quot;ltr&quot;&gt;out.txt&lt;/code&gt;. &lt;strong&gt;Nothing is written to the PTY&lt;/strong&gt;, so you see nothing on screen.&lt;/li&gt;&lt;/ol&gt;&lt;p dir=&quot;ltr&quot;&gt;That’s what “the shell rewires the child’s stdout before exec” means.&lt;/p&gt;" vertex="1">
+                    <mxGeometry height="330" width="540" x="-1190" y="-1290" as="geometry"/>
+                </mxCell>
+                <mxCell id="WV5y-KExGOwVp7pzsLpK-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;h3 dir=&quot;ltr&quot; aria-level=&quot;4&quot;&gt;Running &lt;code dir=&quot;ltr&quot;&gt;ls | grep x&lt;/code&gt;&lt;/h3&gt;&lt;br/&gt;&lt;ol dir=&quot;ltr&quot;&gt;&lt;br/&gt;&lt;li&gt;Shell creates a &lt;strong&gt;pipe&lt;/strong&gt; (a kernel buffer with a read end and a write end).&lt;/li&gt;&lt;br/&gt;&lt;li&gt;Forks two children:&lt;br/&gt;&lt;ul dir=&quot;ltr&quot;&gt;&lt;br/&gt;&lt;li&gt;&lt;code dir=&quot;ltr&quot;&gt;ls&lt;/code&gt;: fd 1 → write end of pipe&lt;/li&gt;&lt;br/&gt;&lt;li&gt;&lt;code dir=&quot;ltr&quot;&gt;grep&lt;/code&gt;: fd 0 → read end of pipe&lt;/li&gt;&lt;br/&gt;&lt;/ul&gt;&lt;br/&gt;&lt;/li&gt;&lt;br/&gt;&lt;li&gt;&lt;code dir=&quot;ltr&quot;&gt;ls&lt;/code&gt; output flows into the pipe, &lt;code dir=&quot;ltr&quot;&gt;grep&lt;/code&gt; reads it. Only &lt;code dir=&quot;ltr&quot;&gt;grep&lt;/code&gt;’s stdout still points at the PTY, so only the filtered result appears on screen.&lt;/li&gt;&lt;/ol&gt;" vertex="1">
+                    <mxGeometry height="290" width="520" x="-1210" y="-1820" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
