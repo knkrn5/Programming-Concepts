@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="sALgHZ0FGRwFCbfObggM" name="Page-1">
-        <mxGraphModel dx="2005" dy="1665" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+        <mxGraphModel dx="1807" dy="1703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -179,7 +179,7 @@
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="64" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;cmd needed: -&lt;/div&gt;&lt;div&gt;&lt;ol&gt;&lt;li&gt;aciton&lt;/li&gt;&lt;li&gt;action key&lt;/li&gt;&lt;li&gt;type of key&lt;/li&gt;&lt;li&gt;source file path&lt;/li&gt;&lt;li&gt;dest file path&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" vertex="1">
-                    <mxGeometry height="150" width="170" x="-150" y="-510" as="geometry"/>
+                    <mxGeometry height="150" width="170" x="-50" y="-690" as="geometry"/>
                 </mxCell>
                 <mxCell id="66" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Some support only 1 direction: - like RSA&amp;nbsp;private key encrypt → public key decrypt),&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(240, 246, 252); font-family: &amp;quot;Mona Sans VF&amp;quot;, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans Backtick Fix&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 14px; text-align: start; background-color: rgb(13, 17, 23);&quot;&gt;&lt;span style=&quot;background-color: rgb(13, 17, 23); color: rgb(240, 246, 252);&quot;&gt;so it cannot be vice versa private key from public key&amp;nbsp;&lt;/span&gt;also if the public key could derive private key , then anyone can generate our private key and use it, becuase public key are alway given to public&lt;/span&gt;&lt;/div&gt;" vertex="1">
                     <mxGeometry height="140" width="420" x="840" y="-570" as="geometry"/>
