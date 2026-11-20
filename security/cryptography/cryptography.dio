@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="sALgHZ0FGRwFCbfObggM" name="Page-1">
-        <mxGraphModel dx="1648" dy="1603" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+        <mxGraphModel dx="1848" dy="1703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -24,7 +24,7 @@
                 <mxCell id="21" edge="1" parent="1" source="5" style="edgeStyle=none;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="18">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="5" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" value="Encryption" vertex="1">
+                <mxCell id="5" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" value="Encryption/Decryption" vertex="1">
                     <mxGeometry height="60" width="220" x="30" y="270" as="geometry"/>
                 </mxCell>
                 <mxCell id="6" parent="5" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="Reserversible using decryption" vertex="1">
@@ -106,15 +106,18 @@
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="10" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" value="hashing" vertex="1">
-                    <mxGeometry height="120" width="300" x="625" y="260" as="geometry">
+                    <mxGeometry height="180" width="345" x="625" y="260" as="geometry">
                         <mxRectangle height="30" width="80" x="625" y="260" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="11" parent="10" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="1. Irreversible process" vertex="1">
-                    <mxGeometry height="30" width="300" y="30" as="geometry"/>
+                    <mxGeometry height="30" width="345" y="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="25" parent="10" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="2. Output will always be same for same input text/file, even single bit change/replacement will change the output completely, this is called &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 101, 255));&quot;&gt;Avalanche effect&lt;/span&gt;" vertex="1">
-                    <mxGeometry height="60" width="300" y="60" as="geometry"/>
+                <mxCell id="25" parent="10" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="2. Output will always be same for same input data, even single bit change/replacement will change the output completely, this is called &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 101, 255));&quot;&gt;Avalanche effect&lt;/span&gt;" vertex="1">
+                    <mxGeometry height="60" width="345" y="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="ZEy2-IZH3W8VPZtwtlj8-70" parent="10" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="Hashing is a process of" vertex="1">
+                    <mxGeometry height="60" width="345" y="120" as="geometry"/>
                 </mxCell>
                 <mxCell id="15" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" value="&lt;span style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;Different hashing algos&lt;/font&gt;&lt;/span&gt;" vertex="1">
                     <mxGeometry height="110" width="300" x="1030" y="500" as="geometry"/>
@@ -129,7 +132,7 @@
                     <mxGeometry height="50" width="300" y="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="49" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" value="types/design of hashing" vertex="1">
-                    <mxGeometry height="200" width="300" x="625" y="530" as="geometry"/>
+                    <mxGeometry height="200" width="300" x="653" y="530" as="geometry"/>
                 </mxCell>
                 <mxCell id="50" parent="49" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="1. HMAC: - Involves a secret key. Its like should have both shared original data + secret original data" vertex="1">
                     <mxGeometry height="40" width="300" y="30" as="geometry"/>
@@ -158,11 +161,6 @@
                         <mxPoint x="850" y="-460" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="piR3pdLrX6L8On-3BAJ4-69" edge="1" parent="1" source="40" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="piR3pdLrX6L8On-3BAJ4-70">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="450" y="-550" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
                 <mxCell id="40" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;Two directions: -&lt;/div&gt;&lt;ol&gt;&lt;li&gt;Anything encrypted with Private Key  → can ONLY be decrypted by Public Key(&lt;strong&gt;Confidentiality&lt;/strong&gt; (sending secret data))&lt;/li&gt;&lt;li&gt;Anything encrypted with Public Key   → can ONLY be decrypted by Private Key(&lt;strong&gt;Signing / Verification&lt;/strong&gt; (proving identity))&lt;/li&gt;&lt;/ol&gt;" vertex="1">
                     <mxGeometry height="120" width="490" x="207.5" y="-450" as="geometry"/>
                 </mxCell>
@@ -176,10 +174,16 @@
                     <mxGeometry height="140" width="420" x="840" y="-570" as="geometry"/>
                 </mxCell>
                 <mxCell id="69" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="http data TLS encryption" vertex="1">
-                    <mxGeometry height="60" width="120" x="-190" y="20" as="geometry"/>
+                    <mxGeometry height="60" width="120" x="40" y="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="piR3pdLrX6L8On-3BAJ4-70" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;strong&gt;The public and private keys are not directly used to encrypt or decrypt the payload.&lt;/strong&gt; Instead, they are used to derive a common symmetric encryption key, using teh&amp;nbsp;ECDH shared secret&lt;div&gt;&lt;font color=&quot;#ffffff&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ffffff&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
-                    <mxGeometry height="100" width="497.5" x="200" y="-610" as="geometry"/>
+                    <mxGeometry height="100" width="497.5" x="219.99" y="-870" as="geometry"/>
+                </mxCell>
+                <mxCell id="piR3pdLrX6L8On-3BAJ4-72" edge="1" parent="1" source="piR3pdLrX6L8On-3BAJ4-71" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="piR3pdLrX6L8On-3BAJ4-70">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="piR3pdLrX6L8On-3BAJ4-71" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="AES key + nonce&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;strong&gt;Hybrid cryptography&lt;/strong&gt;, because it combines asymmetric and symmetric cryptography.&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="80" width="373.13" x="282.18" y="-670" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
