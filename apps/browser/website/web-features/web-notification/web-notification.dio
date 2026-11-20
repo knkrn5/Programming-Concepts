@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="X_PpY-UXwu0xNlu75yZ_" name="Page-1">
-        <mxGraphModel dx="1817" dy="2841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+        <mxGraphModel dx="2946" dy="3378" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -10,22 +10,16 @@
                         <mxPoint x="190" y="-430" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="S12gfAqzzEclAbF5FXtb-147" edge="1" parent="1" source="S12gfAqzzEclAbF5FXtb-111" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;flowAnimation=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="S12gfAqzzEclAbF5FXtb-131">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="280" y="-445" as="sourcePoint"/>
-                        <mxPoint x="-250" y="-620" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
                 <mxCell id="S12gfAqzzEclAbF5FXtb-183" edge="1" parent="1" source="S12gfAqzzEclAbF5FXtb-126" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=-0.005;entryY=0.105;entryDx=0;entryDy=0;entryPerimeter=0;flowAnimation=1;" target="S12gfAqzzEclAbF5FXtb-165">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
-                            <mxPoint x="-625" y="550"/>
+                            <mxPoint x="-632" y="310"/>
                         </Array>
-                        <mxPoint x="-695" y="570" as="targetPoint"/>
+                        <mxPoint x="-702" y="330" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="S12gfAqzzEclAbF5FXtb-126" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#b0e3e6;strokeColor=#0e8088;" value="Security solution" vertex="1">
-                    <mxGeometry height="222.5" width="390" x="-820" y="200" as="geometry">
+                    <mxGeometry height="222.5" width="390" x="-827" y="-40" as="geometry">
                         <mxRectangle height="30" width="100" x="570" y="920" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
@@ -56,7 +50,7 @@
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="S12gfAqzzEclAbF5FXtb-122" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=light-dark(#D0CEE2,#660000);strokeColor=#56517e;arcSize=11;" value="security Problems" vertex="1">
-                    <mxGeometry height="241.25" width="370" x="-730" y="-250" as="geometry">
+                    <mxGeometry height="241.25" width="370" x="-817" y="-491.25" as="geometry">
                         <mxRectangle height="30" width="140" x="130" y="120" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
@@ -102,7 +96,7 @@
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="87" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=light-dark(#D0CEE2,#660000);strokeColor=#ae4132;" value="&amp;nbsp;Browser Problems" vertex="1">
-                    <mxGeometry height="70" width="420" x="1116.75" y="460" as="geometry">
+                    <mxGeometry height="70" width="420" x="1109.75" y="220" as="geometry">
                         <mxRectangle height="30" width="190" x="-360" y="1420" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
@@ -167,19 +161,16 @@
                 <mxCell id="54" parent="41" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;The browser&#39;s push infrastructure: -&lt;/font&gt;&lt;div&gt;&lt;ol&gt;&lt;li&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Receives the push event from the&amp;nbsp; push services infra sent via application server&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Wakes only the correct site&#39;s service worker&lt;/font&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" vertex="1">
                     <mxGeometry height="110" width="377" y="140" as="geometry"/>
                 </mxCell>
-                <mxCell id="S12gfAqzzEclAbF5FXtb-199" edge="1" parent="1" source="103" style="edgeStyle=none;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" target="S12gfAqzzEclAbF5FXtb-196">
+                <mxCell id="S12gfAqzzEclAbF5FXtb-199" edge="1" parent="1" source="103" style="edgeStyle=none;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;flowAnimation=1;" target="S12gfAqzzEclAbF5FXtb-196">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="S12gfAqzzEclAbF5FXtb-200" connectable="0" parent="S12gfAqzzEclAbF5FXtb-199" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;" value="2-a. push-service&lt;div&gt;infra sends to&lt;/div&gt;&lt;div&gt;respective&lt;/div&gt;&lt;div&gt;browser&lt;/div&gt;" vertex="1">
+                <mxCell id="S12gfAqzzEclAbF5FXtb-200" connectable="0" parent="S12gfAqzzEclAbF5FXtb-199" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=fontFamily,fontSize,fontStyle,textOpacity,labelBorderColor,labelBorderWidth,labelBackgroundColor,defaultLabelBackgroundColor,labelPadding;fontColor=light-dark(#FFFFFF,#FFFFFF);" value="2-a. after the&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;respective&lt;/span&gt;&lt;div&gt;browser receives&lt;/div&gt;&lt;/div&gt;&lt;div&gt;the event/data&lt;/div&gt;" vertex="1">
                     <mxGeometry relative="1" x="0.3478" y="1" as="geometry">
                         <mxPoint x="18" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="S12gfAqzzEclAbF5FXtb-201" edge="1" parent="1" source="103" style="edgeStyle=none;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="106">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
                 <mxCell id="103" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" value="browser identificaiton" vertex="1">
-                    <mxGeometry height="210" width="400" x="1036.75" y="-20" as="geometry">
+                    <mxGeometry height="210" width="400" x="1029.75" y="-260" as="geometry">
                         <mxRectangle height="30" width="90" x="1036.75" y="-20" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
@@ -187,7 +178,7 @@
                     <mxGeometry height="180" width="400" y="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="ezNY8p4XwQkdJzBVu-HM-115" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#6a00ff;strokeColor=#3700CC;fontColor=#ffffff;" value="site identification" vertex="1">
-                    <mxGeometry height="150" width="410" x="1196.75" y="720" as="geometry">
+                    <mxGeometry height="150" width="410" x="1189.75" y="480" as="geometry">
                         <mxRectangle height="30" width="90" x="-220" y="507.5" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
@@ -197,10 +188,15 @@
                 <mxCell id="92" parent="ezNY8p4XwQkdJzBVu-HM-115" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="2. Browser wakes up respective site associated service worker, and that service worker can do any thing it has be coded to do" vertex="1">
                     <mxGeometry height="50" width="410" y="100" as="geometry"/>
                 </mxCell>
-                <mxCell id="ezNY8p4XwQkdJzBVu-HM-135" edge="1" parent="1" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="87">
+                <mxCell id="ezNY8p4XwQkdJzBVu-HM-135" edge="1" parent="1" source="S12gfAqzzEclAbF5FXtb-196" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;flowAnimation=1;" target="87">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="1000" y="360" as="sourcePoint"/>
-                        <mxPoint x="1020" y="1170" as="targetPoint"/>
+                        <mxPoint x="863" y="-20" as="sourcePoint"/>
+                        <mxPoint x="1013" y="930" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="953DQzDb-_l1w-DBd5rK-107" connectable="0" parent="ezNY8p4XwQkdJzBVu-HM-135" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;" value="3-a. if&amp;nbsp; decryption&lt;div&gt;is successful&lt;/div&gt;" vertex="1">
+                    <mxGeometry relative="1" x="-0.48" y="2" as="geometry">
+                        <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="ezNY8p4XwQkdJzBVu-HM-128" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="Resubscribe user" vertex="1">
@@ -209,22 +205,22 @@
                 <mxCell id="ezNY8p4XwQkdJzBVu-HM-134" edge="1" parent="1" source="ezNY8p4XwQkdJzBVu-HM-130" style="edgeStyle=none;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=-0.001;entryY=0.718;entryDx=0;entryDy=0;entryPerimeter=0;" target="91">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="S12gfAqzzEclAbF5FXtb-132" edge="1" parent="1" source="S12gfAqzzEclAbF5FXtb-131" style="html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="S12gfAqzzEclAbF5FXtb-134">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="S12gfAqzzEclAbF5FXtb-133" edge="1" parent="1" source="S12gfAqzzEclAbF5FXtb-131" style="html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="S12gfAqzzEclAbF5FXtb-122">
+                <mxCell id="S12gfAqzzEclAbF5FXtb-132" edge="1" parent="1" source="S12gfAqzzEclAbF5FXtb-111" style="html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;flowAnimation=1;" target="S12gfAqzzEclAbF5FXtb-188">
                     <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="300" y="-620" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="S12gfAqzzEclAbF5FXtb-133" edge="1" parent="1" source="S12gfAqzzEclAbF5FXtb-111" style="html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;flowAnimation=1;" target="S12gfAqzzEclAbF5FXtb-122">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="50" y="-610" as="sourcePoint"/>
                         <mxPoint x="510" y="-360" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="S12gfAqzzEclAbF5FXtb-131" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;fillColor=light-dark(#FFFFFF,#660000);" value="Problems&lt;div&gt;to&lt;/div&gt;&lt;div&gt;understand&lt;/div&gt;" vertex="1">
-                    <mxGeometry height="80" width="168.5" x="136.45" y="-470" as="geometry"/>
-                </mxCell>
-                <mxCell id="S12gfAqzzEclAbF5FXtb-138" edge="1" parent="1" source="S12gfAqzzEclAbF5FXtb-134" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="103">
+                <mxCell id="S12gfAqzzEclAbF5FXtb-138" edge="1" parent="1" source="S12gfAqzzEclAbF5FXtb-134" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" target="103">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="S12gfAqzzEclAbF5FXtb-134" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=light-dark(#D0CEE2,#660000);strokeColor=#56517e;arcSize=11;" value="push-infra Identifing Problems" vertex="1">
-                    <mxGeometry height="92.5" width="350" x="930" y="-270" as="geometry">
+                    <mxGeometry height="92.5" width="350" x="923" y="-510" as="geometry">
                         <mxRectangle height="30" width="140" x="-215" y="370" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
@@ -232,25 +228,25 @@
                     <mxGeometry height="62.5" width="350" y="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="S12gfAqzzEclAbF5FXtb-158" parent="1" style="swimlane;whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" value="Notification Registration" vertex="1">
-                    <mxGeometry height="960" width="477" x="-295.3" y="-230" as="geometry"/>
+                    <mxGeometry height="960" width="477" x="-302.3" y="-470" as="geometry"/>
                 </mxCell>
                 <mxCell id="S12gfAqzzEclAbF5FXtb-142" parent="S12gfAqzzEclAbF5FXtb-158" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#fad7ac;strokeColor=#b46504;" value="push infra server" vertex="1">
-                    <mxGeometry height="140" width="377" x="45.25" y="120" as="geometry">
+                    <mxGeometry height="150" width="377" x="45.25" y="120" as="geometry">
                         <mxRectangle height="30" width="130" x="38" y="-1090" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="S12gfAqzzEclAbF5FXtb-144" parent="S12gfAqzzEclAbF5FXtb-142" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="3. then the push service mint a &lt;strong&gt;new, unique endpoint URL&lt;/strong&gt;&amp;nbsp;&amp;nbsp;&lt;div&gt;&lt;ol&gt;&lt;li&gt;and that new endpoint is registered/stored as &lt;i&gt;&quot;deliver to [browser&#39;s connection identity].&quot;&lt;/i&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;it also stores the server&#39;s public key sent by client app/browser for verifing sender&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" vertex="1">
-                    <mxGeometry height="110" width="377" y="30" as="geometry"/>
+                <mxCell id="S12gfAqzzEclAbF5FXtb-144" parent="S12gfAqzzEclAbF5FXtb-142" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="3. then the push service mint a &lt;strong&gt;new, globally unique endpoint URL&lt;/strong&gt;&amp;nbsp;&amp;nbsp;&lt;div&gt;&lt;ol&gt;&lt;li&gt;and that new endpoint is registered/stored as &lt;i&gt;&quot;deliver to [browser&#39;s connection identity].&quot;&lt;/i&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;it also stores the server&#39;s public key sent by client app/browser for verifing sender in future&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="120" width="377" y="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="S12gfAqzzEclAbF5FXtb-154" parent="S12gfAqzzEclAbF5FXtb-158" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#6d8764;strokeColor=#3A5431;fontColor=#ffffff;" value="browser receives" vertex="1">
                     <mxGeometry height="190" width="400" x="38.5" y="410" as="geometry">
                         <mxRectangle height="30" width="130" x="38.5" y="360" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="S12gfAqzzEclAbF5FXtb-155" parent="S12gfAqzzEclAbF5FXtb-154" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;fontColor=light-dark(#FFFFFF,#FFFFFF);" value="2. browser requests push-infra for unique endpoint, while sending our server&#39;s public-key" vertex="1">
+                <mxCell id="S12gfAqzzEclAbF5FXtb-155" parent="S12gfAqzzEclAbF5FXtb-154" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;fontColor=light-dark(#FFFFFF,#FFFFFF);" value="2. browser requests push-infra for unique endpoint, while sending our server&#39;s VAPID public-key" vertex="1">
                     <mxGeometry height="50" width="400" y="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="S12gfAqzzEclAbF5FXtb-162" parent="S12gfAqzzEclAbF5FXtb-154" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;fontColor=light-dark(#FFFFFF,#FFFFFF);" value="4. Browers then resgister that endpoints in its push service, for that specific site/service-worker registration.&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Browser also creates a new&amp;nbsp;ECDH key pair and randam 16-byte auth-secret for every per-subscription&lt;/div&gt;" vertex="1">
+                <mxCell id="S12gfAqzzEclAbF5FXtb-162" parent="S12gfAqzzEclAbF5FXtb-154" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;fontColor=light-dark(#FFFFFF,#FFFFFF);" value="4. Browers then resgister that endpoints in its push service, for that specific site service-worker&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Browser then also creates a new&amp;nbsp;ECDH key pair(p256dh) and randam 16-byte auth-secret, per-subscription for server to encrypt data payload using&amp;nbsp;AES-GCM&lt;/div&gt;" vertex="1">
                     <mxGeometry height="110" width="400" y="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="S12gfAqzzEclAbF5FXtb-148" edge="1" parent="S12gfAqzzEclAbF5FXtb-158" source="S12gfAqzzEclAbF5FXtb-154" style="edgeStyle=none;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;flowAnimation=1;" target="S12gfAqzzEclAbF5FXtb-142">
@@ -281,7 +277,7 @@
                         <mxPoint x="118.5" y="590" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="S12gfAqzzEclAbF5FXtb-185" connectable="0" parent="S12gfAqzzEclAbF5FXtb-184" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;" value="1-a. the public key&lt;div&gt;is be used by&lt;/div&gt;&lt;div&gt;the client app&lt;/div&gt;" vertex="1">
+                <mxCell id="S12gfAqzzEclAbF5FXtb-185" connectable="0" parent="S12gfAqzzEclAbF5FXtb-184" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;" value="1-a. the public key&lt;div&gt;is to be used by&lt;/div&gt;&lt;div&gt;the client app&lt;/div&gt;" vertex="1">
                     <mxGeometry relative="1" x="0.2461" y="-1" as="geometry">
                         <mxPoint y="15" as="offset"/>
                     </mxGeometry>
@@ -291,7 +287,7 @@
                         <mxRectangle height="30" width="130" x="30" y="-1050" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="S12gfAqzzEclAbF5FXtb-166" parent="S12gfAqzzEclAbF5FXtb-165" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;fontColor=light-dark(#FFFFFF,#FFFFFF);" value="1. Our server has to generate VAPID private key and public key" vertex="1">
+                <mxCell id="S12gfAqzzEclAbF5FXtb-166" parent="S12gfAqzzEclAbF5FXtb-165" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;fontColor=light-dark(#FFFFFF,#FFFFFF);" value="1. Our server has to generate VAPID private key and public key for push-service to verify sender" vertex="1">
                     <mxGeometry height="50" width="400" y="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="S12gfAqzzEclAbF5FXtb-186" parent="S12gfAqzzEclAbF5FXtb-165" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;fontColor=light-dark(#FFFFFF,#FFFFFF);" value="5. Then our server need to store the following in our database, to send to send notification: -&amp;nbsp;&lt;div&gt;&lt;ol&gt;&lt;li&gt;that uniqie endpoint&amp;nbsp;&lt;/li&gt;&lt;li&gt;browser sent per-subscription public-key and auth-secret for encrypting data payload&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" vertex="1">
@@ -308,8 +304,8 @@
                 <mxCell id="S12gfAqzzEclAbF5FXtb-163" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;fillColor=light-dark(#FFFFFF,#660000);fontColor=light-dark(#C0C0C0,#FFFFFF);" value="Problems&amp;nbsp;&lt;span style=&quot;text-decoration-line: inherit; background-color: transparent;&quot;&gt;to&lt;/span&gt;&lt;div&gt;understand&amp;nbsp;&lt;span style=&quot;text-decoration-line: inherit; background-color: transparent;&quot;&gt;after&lt;/span&gt;&lt;/div&gt;&lt;div&gt;registration&lt;/div&gt;" vertex="1">
                     <mxGeometry height="100" width="164.87" x="126.83" y="-1170" as="geometry"/>
                 </mxCell>
-                <mxCell id="S12gfAqzzEclAbF5FXtb-188" parent="1" style="swimlane;whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;fillColor=#cce5ff;strokeColor=#36393d;" value="sending notification" vertex="1">
-                    <mxGeometry height="610" width="440" x="390" y="-230" as="geometry"/>
+                <mxCell id="S12gfAqzzEclAbF5FXtb-188" parent="1" style="swimlane;whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;fillColor=#cce5ff;strokeColor=#36393d;" value="Sending notification" vertex="1">
+                    <mxGeometry height="610" width="440" x="383" y="-470" as="geometry"/>
                 </mxCell>
                 <mxCell id="S12gfAqzzEclAbF5FXtb-191" edge="1" parent="S12gfAqzzEclAbF5FXtb-188" source="S12gfAqzzEclAbF5FXtb-170" style="edgeStyle=none;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.808;entryY=0.034;entryDx=0;entryDy=0;entryPerimeter=0;" target="S12gfAqzzEclAbF5FXtb-174">
                     <mxGeometry relative="1" as="geometry"/>
@@ -345,19 +341,32 @@
                 <mxCell id="S12gfAqzzEclAbF5FXtb-175" parent="S12gfAqzzEclAbF5FXtb-174" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="2. verifies&amp;nbsp; the jwt and sends it, to&amp;nbsp; the browser if verificaiton is successfull else send the error msg back to our server" vertex="1">
                     <mxGeometry height="40" width="386.5" y="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="S12gfAqzzEclAbF5FXtb-196" parent="S12gfAqzzEclAbF5FXtb-188" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#6d8764;strokeColor=#3A5431;fontColor=#ffffff;" value="browser receives" vertex="1">
-                    <mxGeometry height="80" width="400" x="17.25" y="360" as="geometry">
-                        <mxRectangle height="30" width="130" x="38.5" y="360" as="alternateBounds"/>
+                <mxCell id="953DQzDb-_l1w-DBd5rK-108" edge="1" parent="S12gfAqzzEclAbF5FXtb-188" source="S12gfAqzzEclAbF5FXtb-196" style="edgeStyle=none;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" target="953DQzDb-_l1w-DBd5rK-109">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="120" y="500" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="S12gfAqzzEclAbF5FXtb-197" parent="S12gfAqzzEclAbF5FXtb-196" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;fontColor=light-dark(#FFFFFF,#FFFFFF);" value="3. Browser will verify the sender" vertex="1">
+                <mxCell id="953DQzDb-_l1w-DBd5rK-110" connectable="0" parent="953DQzDb-_l1w-DBd5rK-108" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;" value="3-b. if decryption&lt;div&gt;is unsuccessful&lt;/div&gt;" vertex="1">
+                    <mxGeometry relative="1" x="-0.2366" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="S12gfAqzzEclAbF5FXtb-196" parent="S12gfAqzzEclAbF5FXtb-188" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#6d8764;strokeColor=#3A5431;fontColor=#ffffff;" value="browser receives" vertex="1">
+                    <mxGeometry height="80" width="400" x="17.25" y="360" as="geometry">
+                        <mxRectangle height="30" width="130" x="17.25" y="360" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="S12gfAqzzEclAbF5FXtb-197" parent="S12gfAqzzEclAbF5FXtb-196" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;fontColor=light-dark(#FFFFFF,#FFFFFF);" value="3. Browser will verify and decrypt the data payload, if verification is successful&amp;nbsp;Payload delivered to Service Worker, else&amp;nbsp;&lt;span style=&quot;background-color: transparent;&quot;&gt;Payload discarded/ignored&lt;/span&gt;&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;" vertex="1">
                     <mxGeometry height="50" width="400" y="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="S12gfAqzzEclAbF5FXtb-190" edge="1" parent="1" source="S12gfAqzzEclAbF5FXtb-174" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.999;exitY=0.175;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitPerimeter=0;" target="S12gfAqzzEclAbF5FXtb-134">
+                <mxCell id="953DQzDb-_l1w-DBd5rK-109" parent="S12gfAqzzEclAbF5FXtb-188" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" value="data payload is ignored/discarded" vertex="1">
+                    <mxGeometry height="60" width="120" x="60" y="530" as="geometry"/>
+                </mxCell>
+                <mxCell id="S12gfAqzzEclAbF5FXtb-190" edge="1" parent="1" source="S12gfAqzzEclAbF5FXtb-174" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.999;exitY=0.175;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitPerimeter=0;flowAnimation=1;" target="S12gfAqzzEclAbF5FXtb-134">
                     <mxGeometry relative="1" x="-0.0009" as="geometry">
                         <Array as="points">
-                            <mxPoint x="890" y="2.3"/>
-                            <mxPoint x="890" y="-246.9"/>
+                            <mxPoint x="883" y="-237.7"/>
+                            <mxPoint x="883" y="-486.9"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
@@ -365,9 +374,6 @@
                     <mxGeometry relative="1" x="-0.2191" y="-1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
-                </mxCell>
-                <mxCell id="106" parent="1" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="&lt;strong data-end=&quot;158&quot; data-start=&quot;53&quot;&gt;push subscription itself is registered with the push service and is tied to that browser installation&lt;/strong&gt;" vertex="1">
-                    <mxGeometry height="50" width="400" x="1520" y="90" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
