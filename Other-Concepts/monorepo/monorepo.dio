@@ -1,87 +1,131 @@
 <mxfile host="65bd71144e">
     <diagram id="wIs-dQQWYgw0afJ12Vgp" name="Page-1">
-        <mxGraphModel dx="1897" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+        <mxGraphModel dx="1538" dy="419" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="7" style="edgeStyle=none;html=1;exitX=0.31;exitY=0.8;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2" target="3">
+                <mxCell id="7" edge="1" parent="1" source="2" style="edgeStyle=none;html=1;exitX=0.55;exitY=0.95;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="3">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="2" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Mono-Repo&lt;/font&gt;&lt;/b&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
-                    <mxGeometry x="265" y="180" width="160" height="70" as="geometry"/>
+                <mxCell id="2" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Mono-Repo&lt;/font&gt;&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="70" width="160" x="90" y="150" as="geometry"/>
                 </mxCell>
-                <mxCell id="13" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3" target="10">
+                <mxCell id="13" edge="1" parent="1" source="3" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="10">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="3" value="projects" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry y="350" width="360" height="190" as="geometry">
-                        <mxRectangle y="350" width="80" height="30" as="alternateBounds"/>
+                <mxCell id="3" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#fad7ac;strokeColor=#b46504;" value="projects" vertex="1">
+                    <mxGeometry height="170" width="360" y="350" as="geometry">
+                        <mxRectangle height="30" width="80" y="350" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="4" value="1.&amp;nbsp; we have multiple projects" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="3">
-                    <mxGeometry y="30" width="360" height="30" as="geometry"/>
+                <mxCell id="4" parent="3" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="1.&amp;nbsp; we have multiple projects" vertex="1">
+                    <mxGeometry height="30" width="360" y="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="8" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;2. Each projects requirement: -&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;ol&gt;&lt;li&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Each project may have package only used by that project&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Each project may also depend on the packages/data, that might be required by multiple projects&lt;/font&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="3">
-                    <mxGeometry y="60" width="360" height="130" as="geometry"/>
+                <mxCell id="8" parent="3" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;2. Each projects requirement: -&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;ol&gt;&lt;li&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Each project may have package only used by that project&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Each project may also depend on the packages/data, that might be required by multiple projects&lt;/font&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="110" width="360" y="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="28" value="Deployment" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="-450" y="400" width="360" height="70" as="geometry">
-                        <mxRectangle y="350" width="80" height="30" as="alternateBounds"/>
+                <mxCell id="28" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" value="Deployment" vertex="1">
+                    <mxGeometry height="70" width="360" x="-450" y="400" as="geometry">
+                        <mxRectangle height="30" width="80" y="350" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="29" value="1. Obviously we will have to deploy each project sperately, how will one server run all the projects" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="28">
-                    <mxGeometry y="30" width="360" height="40" as="geometry"/>
+                <mxCell id="29" parent="28" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="1. Obviously we will have to deploy each project sperately, how will one server run all the projects" vertex="1">
+                    <mxGeometry height="40" width="360" y="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="16" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="10" target="14">
+                <mxCell id="16" edge="1" parent="1" source="10" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="14">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="10" value="Problem" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry y="650" width="360" height="90" as="geometry">
-                        <mxRectangle y="650" width="90" height="30" as="alternateBounds"/>
+                <mxCell id="10" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=light-dark(#FFFFFF,#990000);" value="Problem" vertex="1">
+                    <mxGeometry height="90" width="360" y="610" as="geometry">
+                        <mxRectangle height="30" width="90" y="650" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="11" value="1. duplicate the packages/data in every projects&amp;nbsp;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="10">
-                    <mxGeometry y="30" width="360" height="30" as="geometry"/>
+                <mxCell id="11" parent="10" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="1. duplicate the packages/data in every projects&amp;nbsp;" vertex="1">
+                    <mxGeometry height="30" width="360" y="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="23" value="2. cd = going in every package to run any cmd" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="10">
-                    <mxGeometry y="60" width="360" height="30" as="geometry"/>
+                <mxCell id="23" parent="10" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="2. cd = going in every package to run any cmd" vertex="1">
+                    <mxGeometry height="30" width="360" y="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="17" value="Management" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="550" y="530" width="360" height="90" as="geometry">
-                        <mxRectangle y="650" width="90" height="30" as="alternateBounds"/>
+                <mxCell id="17" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" value="Management" vertex="1">
+                    <mxGeometry height="90" width="360" x="500" y="260" as="geometry">
+                        <mxRectangle height="30" width="90" y="650" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="18" value="1. Either we can do this manually" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="17">
-                    <mxGeometry y="30" width="360" height="30" as="geometry"/>
+                <mxCell id="18" parent="17" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="1. Either we can do this manually" vertex="1">
+                    <mxGeometry height="30" width="360" y="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="22" value="2. or use the framework that does this&amp;nbsp;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="17">
-                    <mxGeometry y="60" width="360" height="30" as="geometry"/>
+                <mxCell id="22" parent="17" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="2. or use the framework that does this&amp;nbsp;" vertex="1">
+                    <mxGeometry height="30" width="360" y="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="24" value="Package Manager" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="-425" y="930" width="360" height="130" as="geometry">
-                        <mxRectangle y="650" width="90" height="30" as="alternateBounds"/>
+                <mxCell id="24" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" value="Package Manager" vertex="1">
+                    <mxGeometry height="130" width="360" x="-425" y="930" as="geometry">
+                        <mxRectangle height="30" width="90" x="-425" y="930" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="25" value="1. Different package managers have different ways of: -&amp;nbsp;&lt;br&gt;&lt;ol&gt;&lt;li&gt;Installing packages&lt;/li&gt;&lt;li&gt;Managing workspace&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="24">
-                    <mxGeometry y="30" width="360" height="100" as="geometry"/>
+                <mxCell id="25" parent="24" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="1. Different package managers have different ways of: -&amp;nbsp;&lt;br&gt;&lt;ol&gt;&lt;li&gt;Installing packages&lt;/li&gt;&lt;li&gt;Managing workspace (projects)&lt;/li&gt;&lt;/ol&gt;" vertex="1">
+                    <mxGeometry height="100" width="360" y="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="20" style="edgeStyle=none;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="14" target="17">
+                <mxCell id="PES6vTwgzIRaZcrRKh3C-43" edge="1" parent="1" source="PES6vTwgzIRaZcrRKh3C-38" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="PES6vTwgzIRaZcrRKh3C-41">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="27" style="edgeStyle=none;html=1;exitX=0.006;exitY=0.133;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="14" target="24">
+                <mxCell id="PES6vTwgzIRaZcrRKh3C-38" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" value="Mono-repo setup" vertex="1">
+                    <mxGeometry height="65" width="360" x="10" y="1190" as="geometry">
+                        <mxRectangle height="30" width="90" x="10" y="1190" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="PES6vTwgzIRaZcrRKh3C-39" parent="PES6vTwgzIRaZcrRKh3C-38" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="1. Per project and package identifier" vertex="1">
+                    <mxGeometry height="35" width="360" y="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="PES6vTwgzIRaZcrRKh3C-41" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;" value="need for identifier" vertex="1">
+                    <mxGeometry height="100" width="360" x="10" y="1350" as="geometry">
+                        <mxRectangle height="30" width="90" x="-425" y="930" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="PES6vTwgzIRaZcrRKh3C-40" parent="PES6vTwgzIRaZcrRKh3C-41" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="2. linking packages to the projects" vertex="1">
+                    <mxGeometry height="35" width="360" y="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="PES6vTwgzIRaZcrRKh3C-44" parent="PES6vTwgzIRaZcrRKh3C-41" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="running project specific cmd from root dir path using package-manager" vertex="1">
+                    <mxGeometry height="35" width="360" y="65" as="geometry"/>
+                </mxCell>
+                <mxCell id="PES6vTwgzIRaZcrRKh3C-31" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" value="optimizations" vertex="1">
+                    <mxGeometry height="150" width="360" x="410" y="940" as="geometry">
+                        <mxRectangle height="30" width="90" y="650" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="PES6vTwgzIRaZcrRKh3C-32" parent="PES6vTwgzIRaZcrRKh3C-31" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="handing build orders" vertex="1">
+                    <mxGeometry height="35" width="360" y="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="PES6vTwgzIRaZcrRKh3C-36" parent="PES6vTwgzIRaZcrRKh3C-31" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="1. caching the build" vertex="1">
+                    <mxGeometry height="35" width="360" y="65" as="geometry"/>
+                </mxCell>
+                <mxCell id="PES6vTwgzIRaZcrRKh3C-35" parent="PES6vTwgzIRaZcrRKh3C-31" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="2. easily running cmds for different projects from the root dir path and from single terminal" vertex="1">
+                    <mxGeometry height="50" width="360" y="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" edge="1" parent="1" source="14" style="edgeStyle=none;html=1;exitX=0.006;exitY=0.133;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" target="24">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="14" value="solution" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry y="810" width="360" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="15" value="1. share the package/data from single path/Dir" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="14">
-                    <mxGeometry y="30" width="360" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="21" style="edgeStyle=none;html=1;exitX=0.997;exitY=0.089;exitDx=0;exitDy=0;entryX=0.231;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="3" target="17">
+                <mxCell id="PES6vTwgzIRaZcrRKh3C-33" edge="1" parent="1" source="14" style="edgeStyle=none;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="PES6vTwgzIRaZcrRKh3C-31">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="31" style="edgeStyle=none;html=1;exitX=-0.006;exitY=0.089;exitDx=0;exitDy=0;entryX=0.994;entryY=0.058;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="3" target="28">
+                <mxCell id="14" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" value="solution" vertex="1">
+                    <mxGeometry height="60" width="360" y="810" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" parent="14" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="1. share the package/data from single source (path/Dir)" vertex="1">
+                    <mxGeometry height="30" width="360" y="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" edge="1" parent="1" source="3" style="edgeStyle=none;html=1;exitX=-0.006;exitY=0.089;exitDx=0;exitDy=0;entryX=0.994;entryY=0.058;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" target="28">
                     <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="PES6vTwgzIRaZcrRKh3C-34" parent="1" style="shape=wedgeCallout;whiteSpace=wrap;html=1;tipX=-0.69;tipY=1.125;shadow=1;sketch=1;curveFitting=1;jiggle=2;" value="Pre-requistic, understand the import and export resolution in node.js" vertex="1">
+                    <mxGeometry height="80" width="210" x="280" y="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="PES6vTwgzIRaZcrRKh3C-46" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="different for different&lt;div&gt;pacakge manager&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="60" width="150" x="500" y="1410" as="geometry"/>
+                </mxCell>
+                <mxCell id="PES6vTwgzIRaZcrRKh3C-45" edge="1" parent="1" source="PES6vTwgzIRaZcrRKh3C-44" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="PES6vTwgzIRaZcrRKh3C-46">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="500" y="1432.388888888889" as="targetPoint"/>
+                    </mxGeometry>
                 </mxCell>
             </root>
         </mxGraphModel>
